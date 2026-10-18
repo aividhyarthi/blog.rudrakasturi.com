@@ -13,6 +13,12 @@ const blog = defineCollection({
     image: z.string().optional(),
     // Old WordPress address of this post, e.g. /2023/05/12/my-post/
     legacyPath: z.string().optional(),
+    // One-paragraph plain-English summary shown at the top of the article.
+    tldr: z.string().optional(),
+    // Where the story comes from. Every researched article must list its sources.
+    sources: z
+      .array(z.object({ title: z.string(), url: z.string().url(), publisher: z.string() }))
+      .default([]),
     draft: z.boolean().default(false),
   }),
 });

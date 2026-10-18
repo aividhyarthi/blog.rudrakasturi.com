@@ -7,6 +7,16 @@ export const SITE = {
   adsenseClient: 'ca-pub-2121262893172079',
 };
 
+export const YEARS = '24+';
+
+// Hand-picked articles shown in "Start here" on the homepage (post slugs).
+export const START_HERE = [
+  'aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says',
+  'do-you-need-an-llms-txt-file-what-google-has-said',
+  'what-is-query-fan-out-and-how-should-it-change-how-you-write',
+  'are-ai-overviews-really-killing-clicks-what-the-studies-say',
+];
+
 export const mailto = `mailto:${SITE.email}?subject=${encodeURIComponent('Consulting enquiry')}`;
 
 export const TOOLS = [

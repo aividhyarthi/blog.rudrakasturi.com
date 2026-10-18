@@ -1,23 +1,22 @@
 ---
-import { excerpt, readingTime, topicOf, type Post } from '../lib/posts';
+import { excerpt, readingTime, topicOf, topicColor, sourceLine, type Post } from '../lib/posts';
 const { post } = Astro.props as { post: Post };
-const label = { article: null, research: 'Research', 'case-study': 'Case study' }[post.data.type];
 const topic = topicOf(post);
-const d = post.data.date;
-const when = d.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+const via = sourceLine(post);
+const label = { article: null, research: 'Research', 'case-study': 'Case study' }[post.data.type];
+const when = post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 ---
 
-<article class="entry">
-  <p class="entry-date">{when}</p>
+<article class={`entry ${topicColor(topic.slug)}`}>
   <div class="entry-body">
     <p class="entry-kicker">
-      {label && <strong>{label}</strong>}
-      {label && ' · '}
+      {label && <strong class="pill">{label}</strong>}
       <a href={`/category/${topic.slug}/`}>{topic.name}</a>
+      <span>{when}</span>
     </p>
     <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
-    <p class="entry-desc">{excerpt(post, 170)}</p>
-    <p class="entry-meta">{readingTime(post)} min read</p>
+    <p class="entry-desc">{post.data.tldr ? excerpt({ data: { description: post.data.tldr } } as Post, 190) : excerpt(post, 190)}</p>
+    <p class="entry-meta">{readingTime(post)} min read{via && <> · via {via}</>}</p>
   </div>
   {post.data.image && (
     <a href={`/blog/${post.slug}/`} class="entry-thumb" tabindex="-1" aria-hidden="true">

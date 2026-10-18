@@ -14,9 +14,9 @@ const topics = getTopics(await getAllPosts());
     </div>
     <div class="topic-list">
       {topics.map((t) => (
-        <a href={`/category/${t.slug}/`} class="topic-row"><span>{t.name}</span><small>{t.count} {t.count === 1 ? 'post' : 'posts'}</small></a>
+        <a href={`/category/${t.slug}/`} class="topic"><span>{t.name}</span><small>{t.count}</small></a>
       ))}
     </div>
-    <div style="height: 72px"></div>
+    
   </div>
 </BaseLayout>

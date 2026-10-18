@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 
 const { post, related } = Astro.props;
 const { Content } = await post.render();
-const { title, description, date, updated, image, type } = post.data;
+const { title, description, date, updated, image, type, tldr, sources } = post.data;
 const topic = topicOf(post);
 const label = { article: 'Article', research: 'Research', 'case-study': 'Case study' }[type];
 ---
@@ -27,11 +27,29 @@ const label = { article: 'Article', research: 'Research', 'case-study': 'Case st
     <p class="label">{label} · <a href={`/category/${topic.slug}/`} style="text-decoration:none">{topic.name}</a></p>
     <h1>{title}</h1>
     <p class="byline">
-      By Rudra Kasturi · {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
+      By <b>Rudra Kasturi</b> · {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
     </p>
+    {sources.length > 0 && (
+      <p class="reported">
+        Based on reporting by {sources.slice(0, 3).map((s, i) => (<>{i > 0 && ', '}<a href={s.url} rel="noopener">{s.publisher}</a></>))}. <a href="#sources">All sources &darr;</a>
+      </p>
+    )}
   </header>
+  {tldr && (
+    <div class="tldr-wrap"><div class="tldr"><b>IN PLAIN ENGLISH</b><p>{tldr}</p></div></div>
+  )}
   {image && <div class="post-hero"><img src={image} alt="" onerror="this.parentElement.remove()" /></div>}
   <article class="prose"><Content /></article>
+
+  {sources.length > 0 && (
+    <section class="source-box" id="sources">
+      <h2>Sources</h2>
+      <p>This article summarises and explains the reporting below. Read the originals for the full story.</p>
+      <ul>
+        {sources.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a> <span>· {s.publisher}</span></li>)}
+      </ul>
+    </section>
+  )}
 
   <div class="wrap"><ConsultingCTA /></div>
 

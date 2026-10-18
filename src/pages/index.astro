@@ -1,99 +1,103 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostEntry from '../components/PostEntry.astro';
-import { getAllPosts } from '../lib/posts';
-import { SITE, TOOLS, COMPANIES, mailto } from '../config';
+import { getAllPosts, getTopics, readingTime, topicOf, sourceLine } from '../lib/posts';
+import { SITE, TOOLS, START_HERE, YEARS, mailto } from '../config';
 
 const all = await getAllPosts();
-const research = all.filter((p) => p.data.type !== 'article').slice(0, 4);
-const latest = all.filter((p) => p.data.type === 'article').slice(0, 6);
+const researched = all.filter((p) => p.data.sources.length > 0);
+const featured = researched[0] ?? all[0];
+const latest = all.filter((p) => p.slug !== featured.slug).slice(0, 7);
+const start = START_HERE.map((slug) => all.find((p) => p.slug === slug)).filter((p) => p !== undefined);
+const topics = getTopics(all).filter((t) => t.count >= 3).slice(0, 12);
+const featuredVia = sourceLine(featured);
 ---
-<BaseLayout title="Rudra Kasturi | Search, AI & Growth | Ex-Amazon, Yahoo, BYJU's, India Today | CSO">
-  <section class="hero">
+
+<BaseLayout title="Rudra Kasturi | SEO, AEO & AI Search, Explained in Plain English">
+  <section class="hero on-blue">
     <div class="wrap hero-grid">
       <div>
-        <p class="label">{SITE.tagline}</p>
-        <h1 class="display">Search, AI &amp; Growth. Built, scaled, <span>proven.</span></h1>
+        <p class="label">SEO · AEO · AI search · LLMs</p>
+        <h1 class="display">Search is being rewritten by AI. Here's what it means, <mark>in plain English.</mark></h1>
         <p class="lede">
-          Twenty years scaling digital businesses to hundreds of millions of users. From building Amazon India's search
-          foundation to driving 10X growth at Times Group and leading growth at BYJU's. Today I advise leadership
-          teams on where search and AI will move their numbers.
+          New articles on what Google, ChatGPT and Perplexity are changing, what the experts are arguing about,
+          and what you should actually do. Every story links to its original source.
         </p>
         <div class="hero-actions">
-          <a class="btn" href="/work-with-me">Work with me</a>
-          <a class="btn btn-line" href="/research">Read the research</a>
+          <a class="btn btn-yellow" href="#start">Start here</a>
+          <a class="btn btn-ghost" href="/blog">Read the latest</a>
         </div>
       </div>
-      <figure class="figure hero-fig">
-        <img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi speaking at Google I/O 2019" />
-        <figcaption>Speaking at Google I/O, 2019</figcaption>
-      </figure>
+      <article class="feature">
+        <p class="label">Latest explainer · {topicOf(featured).name}</p>
+        <h2><a href={`/blog/${featured.slug}/`}>{featured.data.title}</a></h2>
+        <p>{featured.data.tldr ?? featured.data.description}</p>
+        <p class="entry-meta">{readingTime(featured)} min read{featuredVia && <> · via {featuredVia}</>}</p>
+      </article>
     </div>
   </section>
 
-  <section class="proof">
+  <div class="sources-strip">
     <div class="wrap">
-      <div class="proof-grid">
-        <div class="stat"><strong>500M+</strong><span>users reached</span></div>
-        <div class="stat"><strong>20+</strong><span>years in digital</span></div>
-        <div class="stat"><strong>4</strong><span>companies founded</span></div>
-        <div class="stat"><strong>3</strong><span>universities taught</span></div>
-      </div>
-      <p class="logos"><span>Worked with &amp; featured at</span> <b>Amazon</b> <b>Yahoo</b> <b>Google I/O</b> <b>Times Group</b> <b>BYJU's</b> <b>India Today</b> <b>Tencent</b></p>
+      <b>We follow:</b>
+      <span>Google Search Central</span><span>Search Engine Roundtable</span><span>Search Engine Land</span><span>Search Engine Journal</span><span>and the conversations around them</span>
     </div>
-  </section>
+  </div>
 
-  {research.length > 0 && (
-    <section class="section">
+  {start.length > 0 && (
+    <section class="section" id="start">
       <div class="wrap">
         <div class="section-head">
-          <p class="label">01 / Research</p>
-          <h2>Research and case studies</h2>
+          <p class="label">New to AEO and AI search?</p>
+          <h2>Start with these four</h2>
+          <p class="sub">The questions everyone is asking, answered without jargon.</p>
         </div>
-        {research.map((p) => <PostEntry post={p} />)}
-        <p class="more"><a href="/research">All research and case studies &rarr;</a></p>
+        <div class="tiles">
+          {start.map((p, i) => (
+            <a class={`tile t${i % 4}`} href={`/blog/${p.slug}/`}>
+              <small>{topicOf(p).name} · {readingTime(p)} min</small>
+              <h3>{p.data.title}</h3>
+            </a>
+          ))}
+        </div>
       </div>
     </section>
   )}
 
-  <section class="section">
+  <section class="section section-butter">
     <div class="wrap">
       <div class="section-head">
-        <p class="label">{research.length > 0 ? '02' : '01'} / Writing</p>
-        <h2>Latest from the blog</h2>
-        <p class="sub">Practical notes on AI, search, digital strategy and building at scale.</p>
+        <p class="label">Fresh from the field</p>
+        <h2>The latest in search and AI</h2>
       </div>
       {latest.map((p) => <PostEntry post={p} />)}
-      <p class="more"><a href="/blog">All {all.length} posts &rarr;</a></p>
-    </div>
-  </section>
-
-  <section class="section section-tinted">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label">Work with me</p>
-        <h2>Three ways I help leadership teams</h2>
-      </div>
-      <div class="cols-3">
-        <div class="col"><span class="num">01</span><h3>Search &amp; AI visibility</h3><p>Organic growth in the age of AI answers: SEO, content systems, and getting cited by AI engines.</p></div>
-        <div class="col"><span class="num">02</span><h3>Growth strategy</h3><p>Where to invest next. Channel mix, funnels, experimentation, and the metrics your board cares about.</p></div>
-        <div class="col"><span class="num">03</span><h3>AI adoption</h3><p>Practical roadmaps for putting AI to work across marketing, product and operations, without the hype.</p></div>
-      </div>
-      <p class="more"><a href="/work-with-me">How an engagement works &rarr;</a></p>
+      <p class="more"><a class="link-arrow" href="/blog">All {all.length} articles &rarr;</a></p>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap">
       <div class="section-head">
-        <p class="label">Tools</p>
-        <h2>Software I've built, ready to use</h2>
-        <p class="sub">The same methods I use in consulting, packaged as tools you can run yourself.</p>
+        <p class="label">Browse</p>
+        <h2>Find it by topic</h2>
+      </div>
+      <div class="topics">
+        {topics.map((t) => <a class="topic" href={`/category/${t.slug}/`}>{t.name} <small>{t.count}</small></a>)}
+      </div>
+      <p class="more"><a class="link-arrow" href="/category/">All topics &rarr;</a></p>
+    </div>
+  </section>
+
+  <section class="section section-orange">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label" style="color: var(--ink)">Free to try</p>
+        <h2>Check your own site</h2>
+        <p class="sub">Two tools built from the same methods I use with clients.</p>
       </div>
       <div class="cols-2">
-        {TOOLS.map((t, i) => (
+        {TOOLS.map((t) => (
           <div class="col">
-            <span class="num">0{i + 1}</span>
             <h3>{t.name}</h3>
             <p>{t.blurb}</p>
             <a class="go" href={t.url} rel="noopener">Open {t.name} &rarr;</a>
@@ -104,119 +108,13 @@ const latest = all.filter((p) => p.data.type === 'article').slice(0, 6);
     </div>
   </section>
 
-  <section class="section section-tinted">
+  <section class="contact">
     <div class="wrap">
-      <div class="section-head">
-        <p class="label">Track record</p>
-        <h2>Every role had a number attached</h2>
-      </div>
-      <div class="record">
-        <div class="record-row"><div><h3>India Today Group</h3><p class="role">Chief Strategy Officer</p></div><p>Driving AI-first transformation across editorial, distribution and monetisation. Building new revenue streams and restructuring digital infrastructure for scale.</p></div>
-        <div class="record-row"><div><h3>Times Internet</h3><p class="role">VP &amp; Head of Audience Growth</p></div><p>Led the largest SEO and audience growth transformation in the company's history. Scaled multiple properties to category-leading positions across comScore rankings.</p></div>
-        <div class="record-row"><div><h3>BYJU's</h3><p class="role">Senior Vice President, Growth</p></div><p>Led growth across India and international markets during the peak scale phase. Owned acquisition, retention and expansion strategy.</p></div>
-        <div class="record-row"><div><h3>Snapdeal</h3><p class="role">SEO Director</p></div><p>Led organic search strategy during hypergrowth, building scalable SEO systems for one of India's top e-commerce platforms.</p></div>
-        <div class="record-row"><div><h3>Amazon India</h3><p class="role">SEO Head</p></div><p>Built Amazon India's organic search presence from the ground up, establishing foundational SEO infrastructure at scale.</p></div>
-        <div class="record-row"><div><h3>Yahoo</h3><p class="role">SEO Head, India, SE Asia &amp; Middle East</p></div><p>Led search strategy across three regions, driving visibility and growth for one of the internet's defining platforms.</p></div>
-      </div>
-      <p class="advisory"><b>Advisory and consulting:</b> Tencent Group (growth consultant), CRED (advisor), Antler India (growth advisor), Haptik Group (advisor), Tasva, Aditya Birla (consultant).</p>
-    </div>
-  </section>
-
-  <section class="section" id="about">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label">About</p>
-        <h2>An operator, not a commentator</h2>
-      </div>
-      <div class="two-up">
-        <div>
-          <p class="lede">I have spent two decades at the intersection of search, AI and growth, as the person accountable for results.</p>
-        </div>
-        <div>
-          <p>From building Amazon India's organic search from scratch to scaling Times Group properties to category-leading positions, to owning growth at BYJU's, the mandate has always been the same: identify the ceiling, then remove it.</p>
-          <p>I advise companies from Series A to enterprise scale across India, Southeast Asia, the Middle East and the US. And I teach, because the next generation doesn't need theory. It needs operators.</p>
-        </div>
-      </div>
-      <div class="photos" style="margin-top: 56px;">
-        <figure class="figure"><img src="/images/rudra-rand-fishkin.jpeg" alt="Rudra Kasturi with Rand Fishkin" loading="lazy" /><figcaption><b>Rand Fishkin</b><br />Founder, Moz &amp; SparkToro</figcaption></figure>
-        <figure class="figure"><img src="/images/rudra-matt.jpeg" alt="Rudra Kasturi with Matt Cutts" loading="lazy" /><figcaption><b>Matt Cutts</b><br />Former head of Google Webspam</figcaption></figure>
-        <figure class="figure"><img src="/images/rudra-john.jpeg" alt="Rudra Kasturi with John Mueller" loading="lazy" /><figcaption><b>John Mueller</b><br />Google Search Advocate</figcaption></figure>
-        <figure class="figure"><img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi at Google I/O 2019" loading="lazy" /><figcaption><b>Google I/O 2019</b><br />Progressive Web Apps talk</figcaption></figure>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-tinted">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label">Teaching &amp; writing</p>
-        <h2>Sharing what works</h2>
-      </div>
-      <div class="three-text">
-        <div>
-          <h3>Guest faculty</h3>
-          <ul>
-            <li>Times Bennett University<span>Digital marketing &amp; AI</span></li>
-            <li>ITMI<span>Media, AI &amp; digital strategy</span></li>
-            <li>Masters' Union<span>Generative AI</span></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Published in</h3>
-          <ul>
-            <li>INMA<span>International News Media Association</span></li>
-            <li>Times of India<span>India's largest English daily</span></li>
-            <li>CNTI.org<span>Center for News, Technology &amp; Innovation</span></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Speaking</h3>
-          <ul>
-            <li>Google I/O &amp; AMP conferences<span><a href="https://www.youtube.com/watch?v=3As9NibdIjk" rel="noopener">Watch the 2019 talk</a></span></li>
-            <li>MMA Global<span>Industry and marketing summits</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label">Group companies</p>
-        <h2>Companies I founded and partner with</h2>
-      </div>
-      <div class="cols-3">
-        {COMPANIES.map((c) => (
-          <div class="col">
-            <h3>{c.name}</h3>
-            <p>{c.blurb}</p>
-            <a class="go" href={c.url} rel="noopener">Visit &rarr;</a>
-            <span class="host">{c.host}</span>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-tinted">
-    <div class="wrap two-up">
-      <figure class="figure"><img src="/images/farmer-rudra.jpeg" alt="Rudra Kasturi on his farm" loading="lazy" /></figure>
-      <div>
-        <p class="label">Beyond the boardroom</p>
-        <h2 style="font-size: 2.2rem; margin: 14px 0 18px;">When I'm not working, I'm on the farm.</h2>
-        <p>No dashboards. No decks. Just time, soil and patience. Farming is a long game: you plant, you tend, you wait, and the outcome doesn't negotiate. That discipline carries back into everything I build.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <p class="label label-light">Contact</p>
-      <h2 style="margin-top: 14px;">Have a problem worth solving?</h2>
-      <p>Send me a short note about your business and what you want to change. I read every one.</p>
-      <a class="btn" href={mailto}>Email {SITE.email}</a>
-      <a class="btn btn-line" href={SITE.linkedin} rel="noopener">Connect on LinkedIn</a>
+      <p class="label">Written by Rudra Kasturi</p>
+      <h2>{YEARS} years in search, now explaining where it goes next.</h2>
+      <p>I also advise teams on search and AI strategy. If that's useful to you, say hello.</p>
+      <a class="btn btn-yellow" href="/about">About Rudra</a>
+      <a class="btn btn-ghost" href={mailto}>Email {SITE.email}</a>
     </div>
   </section>
 </BaseLayout>

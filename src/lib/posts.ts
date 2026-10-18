@@ -59,3 +59,15 @@ export function getTopics(posts: Post[]): { name: string; slug: string; count: n
   }
   return [...map.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 }
+
+// Each topic gets a stable accent colour (c0..c3, see global.css).
+export function topicColor(slug: string): string {
+  let h = 0;
+  for (const ch of slug) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return `c${h % 4}`;
+}
+
+export function sourceLine(post: Post): string | null {
+  const names = [...new Set(post.data.sources.map((s) => s.publisher))];
+  return names.length ? names.slice(0, 2).join(' & ') : null;
+}
