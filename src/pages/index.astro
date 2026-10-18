@@ -1,17 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getPosts, stripHtml, formatDate, getFirstTag } from '../lib/wordpress';
+import { getAllPosts, excerpt, formatDate } from '../lib/posts';
 
-let featuredPosts = [];
-let totalPosts = 0;
-
-try {
-  const { posts } = await getPosts(1, 6);
-  featuredPosts = posts;
-  totalPosts = posts.length;
-} catch (e) {
-  console.error('Failed to fetch posts from WordPress:', e);
-}
+const featuredPosts = (await getAllPosts()).slice(0, 6);
 ---
 
 <BaseLayout title="Rudra Kasturi | Search, AI & Growth | Ex-Amazon, Yahoo, BYJU's, India Today | CSO">
@@ -431,21 +422,17 @@ try {
 
       {featuredPosts.length > 0 ? (
         <div class="posts-grid">
-          {featuredPosts.map((post) => {
-            const tag = getFirstTag(post);
-            const excerpt = stripHtml(post.excerpt.rendered);
-            return (
-              <article class="post-card">
-                {tag && <span class="tag">{tag}</span>}
-                <h3><a href={`/blog/${post.slug}`} set:html={post.title.rendered} /></h3>
-                <p>{excerpt.length > 150 ? excerpt.slice(0, 150) + '...' : excerpt}</p>
-                <span class="post-meta">{formatDate(post.date)}</span>
-              </article>
-            );
-          })}
+          {featuredPosts.map((post) => (
+            <article class="post-card">
+              {post.data.tag && <span class="tag">{post.data.tag}</span>}
+              <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
+              <p>{excerpt(post)}</p>
+              <span class="post-meta">{formatDate(post.data.date)}</span>
+            </article>
+          ))}
         </div>
       ) : (
-        <p class="section-subtitle text-center">Posts are loading... Check back soon!</p>
+        <p class="section-subtitle text-center">New posts coming soon!</p>
       )}
 
       <div class="view-all">

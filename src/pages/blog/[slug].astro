@@ -1,26 +1,25 @@
 ---
+import { getAllPosts, formatDate } from '../../lib/posts';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getPostBySlug, formatDate, getFirstTag, stripHtml } from '../../lib/wordpress';
 
-const { slug } = Astro.params;
-const post = await getPostBySlug(slug!);
-
-if (!post) {
-  return Astro.redirect('/blog');
+export async function getStaticPaths() {
+  const posts = await getAllPosts();
+  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
 }
 
-const tag = getFirstTag(post);
-const description = stripHtml(post.excerpt.rendered).slice(0, 160);
+const { post } = Astro.props;
+const { Content } = await post.render();
+const { title, description, date, updated, tag } = post.data;
 ---
 
-<BaseLayout title={`${stripHtml(post.title.rendered)} | Rudra Kasturi`} description={description}>
+<BaseLayout title={`${title} | Rudra Kasturi`} description={description || undefined}>
   <div class="container">
     <div class="post-header">
       <a href="/blog" class="back-link">&larr; Back to all posts</a>
-      <h1 set:html={post.title.rendered} />
+      <h1>{title}</h1>
       <p class="post-meta">
-        Published on {formatDate(post.date)}
-        {post.modified !== post.date && <span> · Updated {formatDate(post.modified)}</span>}
+        Published on {formatDate(date)}
+        {updated && <span> · Updated {formatDate(updated)}</span>}
       </p>
       {tag && (
         <div class="post-tags">
@@ -28,6 +27,6 @@ const description = stripHtml(post.excerpt.rendered).slice(0, 160);
         </div>
       )}
     </div>
-    <article class="post-content" set:html={post.content.rendered} />
+    <article class="post-content"><Content /></article>
   </div>
 </BaseLayout>
