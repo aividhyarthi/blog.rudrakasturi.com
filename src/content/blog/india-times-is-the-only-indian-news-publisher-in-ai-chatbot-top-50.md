@@ -1,7 +1,7 @@
 ---
 title: "India Times Is the Only Indian News Publisher in AI Chatbot Top 50"
 date: 2025-07-27T13:09:13Z
-description: "AI tools like ChatGPT, Gemini, and Perplexity are rapidly changing how people access news. One search, one question, and suddenly you’re not on Google you’re in"
+description: "AI tools like ChatGPT, Gemini, and Perplexity are rapidly changing how people access news. One search, one question, and suddenly you’re not on Google you’re inside an answer box that pulls from…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/india-times-is-the-only-indian-news-publisher-in-ai.webp"
 ---

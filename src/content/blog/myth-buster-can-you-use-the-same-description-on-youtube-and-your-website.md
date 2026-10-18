@@ -1,7 +1,7 @@
 ---
 title: "Myth Buster: Can You Use the Same Description on YouTube and Your Website?"
 date: 2024-10-05T05:46:40Z
-description: "You might have heard that using the same description for your YouTube video and on your website could get you in trouble with Google for duplicate content . Let"
+description: "You might have heard that using the same description for your YouTube video and on your website could get you in trouble with Google for duplicate content . Let's break down whether that’s true or…"
 tag: "Duplicate Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Youtube-vs-Website-Content.webp"
 ---

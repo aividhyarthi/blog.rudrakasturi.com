@@ -1,7 +1,7 @@
 ---
 title: "New Favicon Guidelines from Google (Updated October 24th, 2024)"
 date: 2024-10-25T02:52:02Z
-description: "On October 24th, 2024 , Google released updated guidelines for favicons in Google Search results. Favicons play an essential role in how users recognize and int"
+description: "On October 24th, 2024 , Google released updated guidelines for favicons in Google Search results. Favicons play an essential role in how users recognize and interact with websites in search results…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-51.png"
 ---

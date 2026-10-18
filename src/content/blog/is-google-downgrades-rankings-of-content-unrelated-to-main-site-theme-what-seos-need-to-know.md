@@ -1,7 +1,7 @@
 ---
 title: "Is Google Downgrades Rankings of Content Unrelated to Main Site Theme? What SEOs Need to Know"
 date: 2024-10-30T04:16:38Z
-description: "Google's Focus on Relevant Content Recently, Google confirmed that content drastically different from the main theme of a website may result in a ranking downgr"
+description: "Google's Focus on Relevant Content Recently, Google confirmed that content drastically different from the main theme of a website may result in a ranking downgrade. This change is part of Google’s…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/google-rankings.png"
 ---

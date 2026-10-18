@@ -1,7 +1,7 @@
 ---
 title: "Bill Gates Was Right About COVID. Now He’s Predicting Which Careers AI Won’t Replace."
 date: 2025-06-09T04:51:26Z
-description: "In 2015, Bill Gates warned us about the next big threat - not a war, but a virus. Most of us ignored it. Then came COVID-19, and the world stood still. Gates wa"
+description: "In 2015, Bill Gates warned us about the next big threat - not a war, but a virus. Most of us ignored it. Then came COVID-19, and the world stood still. Gates wasn’t guessing; he was reading the…"
 tag: "Bil Gates"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-12.webp"
 ---

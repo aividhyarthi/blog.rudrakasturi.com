@@ -1,7 +1,7 @@
 ---
 title: "Opinion: Will Your ₹15L+ SEO Job Still Exist in 2 Years?"
 date: 2025-06-18T04:29:27Z
-description: "Over the last decade, SEO was a quiet growth engine for countless companies. And the people behind it skilled, strategic SEOs often commanded avg. salaries nort"
+description: "Over the last decade, SEO was a quiet growth engine for countless companies. And the people behind it skilled, strategic SEOs often commanded avg. salaries north of ₹15 – ₹1Cr or more But something’s…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/opinion-will-your-15l-seo-job-still-exist-in-2-1.webp"
 ---

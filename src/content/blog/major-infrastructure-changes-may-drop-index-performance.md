@@ -1,7 +1,7 @@
 ---
 title: "Major infrastructure changes may drop index performance"
 date: 2021-07-16T14:48:33Z
-description: "Google's search index is a platform where the candidate pages qualify and provide the results which is why the indexing score of Google is so crucial. On that a"
+description: "Google's search index is a platform where the candidate pages qualify and provide the results which is why the indexing score of Google is so crucial. On that account, John Mueller of Google…"
 tag: "Content Delivery Network"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/representative-arrow-economy-chart-e1626446894435.jpg"
 ---

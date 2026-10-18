@@ -1,7 +1,7 @@
 ---
 title: "Google's Whisk: Visualize Your Ideas with a Fun New Image Prompting Tool"
 date: 2024-12-17T10:48:31Z
-description: "Google Labs has introduced its latest experiment, Whisk , a tool designed to turn your creative ideas into visuals effortlessly. Currently available via a waitl"
+description: "Google Labs has introduced its latest experiment, Whisk , a tool designed to turn your creative ideas into visuals effortlessly. Currently available via a waitlist, Whisk combines cutting-edge AI…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-and-visually-engaging-image-that-captures.png"
 ---

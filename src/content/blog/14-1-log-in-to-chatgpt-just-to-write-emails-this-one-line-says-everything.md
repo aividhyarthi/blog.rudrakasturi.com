@@ -1,7 +1,7 @@
 ---
 title: "14.1% Log In to ChatGPT Just to Write Emails. This One Line Says Everything."
 date: 2025-08-19T07:42:46Z
-description: "The Backstory: What Triggered This Lately, I’ve been interviewing people - freshers, interns, early-career folks. And one thing hit me hard: every cover letter "
+description: "The Backstory: What Triggered This Lately, I’ve been interviewing people - freshers, interns, early-career folks. And one thing hit me hard: every cover letter sounds exactly the same. “Dear…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-91.webp"
 ---

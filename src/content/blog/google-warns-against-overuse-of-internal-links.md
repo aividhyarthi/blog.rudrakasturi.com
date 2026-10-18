@@ -1,7 +1,7 @@
 ---
 title: "Google warns against overuse of internal links"
 date: 2021-07-07T19:13:47Z
-description: "In order for your content to to be visible or to rank on Google, search engines run through your content to rank it. When your articles and pages are linked to "
+description: "In order for your content to to be visible or to rank on Google, search engines run through your content to rank it. When your articles and pages are linked to from elsewhere on the internet, Google…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/warnschild-3927440_1280.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Updated Feature Availability for Breadcrumb Markup: What SEOs Should Know?"
 date: 2025-01-28T03:43:34Z
-description: "Google has made an important update regarding the availability of breadcrumb markup in search results, and SEOs need to take note of how this change might impac"
+description: "Google has made an important update regarding the availability of breadcrumb markup in search results, and SEOs need to take note of how this change might impact desktop and mobile visibility…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/image-19.png"
 ---

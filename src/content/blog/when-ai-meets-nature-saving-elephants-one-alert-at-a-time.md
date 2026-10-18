@@ -1,7 +1,7 @@
 ---
 title: "When AI Meets Nature: Saving Elephants, One Alert at a Time"
 date: 2024-12-13T01:22:10Z
-description: "In a heartwarming and innovative move, an AI-powered camera system in Odisha’s Rourkela forest division recently saved three elephants from a potentially fatal "
+description: "In a heartwarming and innovative move, an AI-powered camera system in Odisha’s Rourkela forest division recently saved three elephants from a potentially fatal accident. The system alerted…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-29.png"
 ---

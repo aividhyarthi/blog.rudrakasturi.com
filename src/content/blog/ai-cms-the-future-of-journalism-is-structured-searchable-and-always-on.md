@@ -1,7 +1,7 @@
 ---
 title: "AI CMS: The Future of Journalism Is Structured, Searchable, and Always On"
 date: 2025-06-27T06:47:32Z
-description: "From Dead Pages to Dynamic Newsrooms In the early 2010s, most digital newsrooms simply copied print workflows into WordPress. A headline, a story, and a page. T"
+description: "From Dead Pages to Dynamic Newsrooms In the early 2010s, most digital newsrooms simply copied print workflows into WordPress. A headline, a story, and a page. That was it. But in 2025, this model is…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-81.webp"
 ---

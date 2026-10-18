@@ -1,7 +1,7 @@
 ---
 title: "How Gen Z in India Hijacked Spirituality - And Why It’s Good for Everyone Except Fake Gurus"
 date: 2025-08-04T03:52:42Z
-description: "Here’s a stat most old-school marketers will never admit: The average Gen Z in India spends at least ₹500 per month on something “spiritual” or “religious” apps"
+description: "Here’s a stat most old-school marketers will never admit: The average Gen Z in India spends at least ₹500 per month on something “spiritual” or “religious” apps, candles, online poojas, astrology…"
 tag: "GenZ"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/2-gitls-taking-pic-at-a-temple-like-a-selfie.webp"
 ---

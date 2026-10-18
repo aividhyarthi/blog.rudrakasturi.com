@@ -1,7 +1,7 @@
 ---
 title: "Explainer: Does Hiring Freelance Writers from Penalized Sites Hurt Your Google Ranking?"
 date: 2025-03-26T02:57:17Z
-description: "Google’s Search Liaison, Danny Sullivan, recently addressed a common concern: If you hire freelancers who previously worked on sites hit by Google penalties (li"
+description: "Google’s Search Liaison, Danny Sullivan, recently addressed a common concern: If you hire freelancers who previously worked on sites hit by Google penalties (like spam or low-quality content), will…"
 tag: "Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image-7.png"
 ---

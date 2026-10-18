@@ -1,7 +1,7 @@
 ---
 title: "Google: Create Unique Image Landing Pages To Improve Visibility in Search"
 date: 2025-08-08T04:16:59Z
-description: "Highlights: Google recommends giving each important image its own landing page with a dedicated URL. Galleries, sliders, and lightbox pop-ups can prevent images"
+description: "Highlights: Google recommends giving each important image its own landing page with a dedicated URL. Galleries, sliders, and lightbox pop-ups can prevent images from being indexed individually…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/images-ranking-in-google-search-can-you-add-braning-1.webp"
 ---

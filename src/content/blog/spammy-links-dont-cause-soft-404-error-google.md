@@ -1,7 +1,7 @@
 ---
 title: "Spammy links don't cause soft-404 error: Google"
 date: 2021-07-16T18:32:14Z
-description: "Do you have 404 errors in your Google Search Console reports or in Google Analytics? Take a deep breath and try not to be alarmed and panic. Some 404 errors are"
+description: "Do you have 404 errors in your Google Search Console reports or in Google Analytics? Take a deep breath and try not to be alarmed and panic. Some 404 errors are perfectly acceptable and have no…"
 tag: "404 error"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/404error.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How to Write Content That AI Summarises Without Killing Your Brand Credit"
 date: 2026-01-20T06:50:08Z
-description: "AI is summarising your content. That part is no longer optional. The real problem is this: AI is summarising you without remembering you. This blog is a practic"
+description: "AI is summarising your content. That part is no longer optional. The real problem is this: AI is summarising you without remembering you. This blog is a practical playbook for RudraKasturi.com style…"
 tag: "AEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/image-25.webp"
 ---

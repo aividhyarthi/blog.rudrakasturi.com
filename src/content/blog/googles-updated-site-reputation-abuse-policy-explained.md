@@ -1,7 +1,7 @@
 ---
 title: "Google's Updated Site Reputation Abuse Policy Explained"
 date: 2024-11-20T01:27:02Z
-description: "What’s Changed? Google updated its policy on site reputation abuse to clarify that using third-party content to exploit a site’s ranking signals is against the "
+description: "What’s Changed? Google updated its policy on site reputation abuse to clarify that using third-party content to exploit a site’s ranking signals is against the rules. This applies even if the site…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-7.png"
 ---

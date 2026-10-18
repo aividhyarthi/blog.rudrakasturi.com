@@ -1,7 +1,7 @@
 ---
 title: "How to Encode Various Types of Prices in Structured Data"
 date: 2025-02-17T02:51:03Z
-description: "Structured data helps search engines understand content better, and for merchants, it ensures that product prices are displayed correctly in search results. Goo"
+description: "Structured data helps search engines understand content better, and for merchants, it ensures that product prices are displayed correctly in search results. Google has recently updated its Merchant…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/02/image.png"
 ---

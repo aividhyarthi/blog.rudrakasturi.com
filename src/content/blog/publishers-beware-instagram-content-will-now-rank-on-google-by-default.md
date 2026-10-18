@@ -1,7 +1,7 @@
 ---
 title: "Publishers Beware: Instagram Content Will Now Rank on Google by Default"
 date: 2025-06-17T05:08:24Z
-description: "From July 10, 2025 , Instagram will allow search engines to index and display public content including Reels, videos, and photos directly in Google results. At "
+description: "From July 10, 2025 , Instagram will allow search engines to index and display public content including Reels, videos, and photos directly in Google results. At first glance, this sounds like a win…"
 tag: "Instagram"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/google-ranking-insta-reels-in-google-web-search.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Branded vs. Generic Searches: What Do Google Users Really Look For?"
 date: 2024-12-06T03:21:53Z
-description: "Is Google primarily a tool for discovering new information, or is it a gateway for users who already know what they’re looking for? In a recent analysis, Rand F"
+description: "Is Google primarily a tool for discovering new information, or is it a gateway for users who already know what they’re looking for? In a recent analysis, Rand Fishkin, founder of SparkToro, explored…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-11.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Google just told creators, \"Welcome to Search.\""
 date: 2026-07-07T17:31:18Z
-description: "When Google announced support for social and video platform properties in Search Console, most people saw another product update. I saw something very different"
+description: "When Google announced support for social and video platform properties in Search Console, most people saw another product update. I saw something very different. Google quietly changed who Search is…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/image-1.webp"
 ---

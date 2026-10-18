@@ -1,7 +1,7 @@
 ---
 title: "UnitedHealthcare, AI, and Claim Denial Controversy: A Deep Dive"
 date: 2024-12-14T13:38:05Z
-description: "UnitedHealthcare, the largest health insurer in the U.S., has come under fire for its use of artificial intelligence (AI) in handling medical claims. While AI w"
+description: "UnitedHealthcare, the largest health insurer in the U.S., has come under fire for its use of artificial intelligence (AI) in handling medical claims. While AI was expected to streamline and enhance…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-sharp-focused-image-illustrating-the-complexities-of.png"
 ---

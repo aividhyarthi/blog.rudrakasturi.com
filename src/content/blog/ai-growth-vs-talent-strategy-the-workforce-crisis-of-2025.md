@@ -1,7 +1,7 @@
 ---
 title: "AI Growth vs Talent Strategy: The Workforce Crisis of 2025"
 date: 2025-09-14T02:23:26Z
-description: "In the boardroom, AI is now shorthand for growth. Models, GPUs, data centres - the numbers are dazzling. Yet, while executives chase compute power, something le"
+description: "In the boardroom, AI is now shorthand for growth. Models, GPUs, data centres - the numbers are dazzling. Yet, while executives chase compute power, something less glamorous is quietly breaking down…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/create-a-highly-detailed-high-resolution-image-depicting-a-modern-boardroom.webp"
 ---

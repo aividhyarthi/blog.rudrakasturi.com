@@ -1,7 +1,7 @@
 ---
 title: "Google’s New “Simplify” Feature on iOS: Making Tough Text Easy to Understand"
 date: 2025-09-10T04:49:38Z
-description: "Have you ever opened a website, found the information useful, but got stuck because the language was too complex? Google now has a solution for that - a new AI-"
+description: "Have you ever opened a website, found the information useful, but got stuck because the language was too complex? Google now has a solution for that - a new AI-powered tool called Simplify in the…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-12.webp"
 ---

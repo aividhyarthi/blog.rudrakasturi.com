@@ -1,7 +1,7 @@
 ---
 title: "5 Best Keyword Research Tools for 2021"
 date: 2021-07-12T15:34:36Z
-description: "Keyword research is at the heart of pay-per-click marketing and SEO strategies, whether you like it or not. You might be selling yourself short on your potentia"
+description: "Keyword research is at the heart of pay-per-click marketing and SEO strategies, whether you like it or not. You might be selling yourself short on your potential success if you aren't bidding or…"
 tag: "AdWords Keyword Tool"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/2840523.jpg"
 ---

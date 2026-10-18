@@ -1,7 +1,7 @@
 ---
 title: "The Future of CAs with AI: Transforming Challenges into Opportunities"
 date: 2024-12-13T03:20:31Z
-description: "The world of Chartered Accountancy (CA) is evolving rapidly, and Artificial Intelligence (AI) is at the heart of this transformation. For decades, CAs have been"
+description: "The world of Chartered Accountancy (CA) is evolving rapidly, and Artificial Intelligence (AI) is at the heart of this transformation. For decades, CAs have been trusted advisors, helping businesses…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/ca-with-ai-2.png"
 ---

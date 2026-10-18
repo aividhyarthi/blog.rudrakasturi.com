@@ -1,7 +1,7 @@
 ---
 title: "How Google and StopNCII Can Help You Stay Safe from Private Image Abuse"
 date: 2025-09-18T03:21:21Z
-description: "The internet can be powerful, but it also comes with risks. One of the worst things that can happen is when someone shares your private or intimate photo online"
+description: "The internet can be powerful, but it also comes with risks. One of the worst things that can happen is when someone shares your private or intimate photo online without your permission. This is…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-68.webp"
 ---

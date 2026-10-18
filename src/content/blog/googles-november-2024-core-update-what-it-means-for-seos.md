@@ -1,7 +1,7 @@
 ---
 title: "Google’s November 2024 Core Update – What It Means for SEOs?"
 date: 2024-11-12T03:29:04Z
-description: "Today, Google announced a new change to how it ranks search results, called the November 2024 core update. This update aims to show people more helpful and reli"
+description: "Today, Google announced a new change to how it ranks search results, called the November 2024 core update. This update aims to show people more helpful and reliable content when they search online…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-4.png"
 ---

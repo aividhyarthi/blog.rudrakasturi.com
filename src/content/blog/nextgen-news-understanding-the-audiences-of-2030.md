@@ -1,7 +1,7 @@
 ---
 title: "NextGen News: Understanding the Audiences of 2030"
 date: 2024-10-05T08:50:16Z
-description: "The future of news is changing as young people reshape how they consume, trust, and interact with information. This research done by FT Strategies & Knight Lab,"
+description: "The future of news is changing as young people reshape how they consume, trust, and interact with information. This research done by FT Strategies & Knight Lab, supported by by Google News…"
 tag: "GenZ"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-12.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Google's Monopoly Fix: A Turning Point for Search and Competition"
 date: 2024-12-22T05:01:50Z
-description: "Google is in hot water after a U.S. court ruled in August 2023 that it had unfairly held a monopoly over online search. The court, led by Judge Amit P. Mehta, f"
+description: "Google is in hot water after a U.S. court ruled in August 2023 that it had unfairly held a monopoly over online search. The court, led by Judge Amit P. Mehta, found that Google used its financial…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-featured-image-that-captures-the-essence-of-the.png"
 ---

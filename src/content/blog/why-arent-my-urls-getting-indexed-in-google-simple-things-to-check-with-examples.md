@@ -1,7 +1,7 @@
 ---
 title: "Why Aren’t My URLs Getting Indexed in Google? Simple Things to Check (with Examples)"
 date: 2024-10-05T06:11:41Z
-description: "If your URLs aren’t showing up in Google search results, it can be frustrating. But don’t worry — let’s look at some common reasons why this might be happening "
+description: "If your URLs aren’t showing up in Google search results, it can be frustrating. But don’t worry — let’s look at some common reasons why this might be happening and what to do, with examples to help…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/IndexinginGoogle.webp"
 ---

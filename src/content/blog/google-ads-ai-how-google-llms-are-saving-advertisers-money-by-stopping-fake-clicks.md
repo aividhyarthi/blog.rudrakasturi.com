@@ -1,7 +1,7 @@
 ---
 title: "Google Ads AI: How Google LLMs Are Saving Advertisers Money by Stopping Fake Clicks"
 date: 2025-08-13T03:21:17Z
-description: "Mountain View, CA – Aug 13th 2025 Google today announced a major upgrade to its ad traffic quality systems, introducing advanced artificial intelligence to figh"
+description: "Mountain View, CA – Aug 13th 2025 Google today announced a major upgrade to its ad traffic quality systems, introducing advanced artificial intelligence to figh`t invalid ad traffic and improve…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-71.webp"
 ---

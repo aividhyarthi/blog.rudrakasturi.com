@@ -1,7 +1,7 @@
 ---
 title: "What is Script Evaluation and Why Does it Matter for Core Web Vitals?"
 date: 2025-08-05T11:07:17Z
-description: "Script evaluation refers to the phase when the browser parses and executes JavaScript code. It includes: Parsing JavaScript files. Running global and in-line sc"
+description: "Script evaluation refers to the phase when the browser parses and executes JavaScript code. It includes: Parsing JavaScript files. Running global and in-line scripts. Executing event handlers…"
 tag: "Core Web Vitals"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-32.webp"
 ---

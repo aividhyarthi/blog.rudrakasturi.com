@@ -1,7 +1,7 @@
 ---
 title: "Google Read Aloud: User Agent Update (Effective July 1, 2025)"
 date: 2025-07-02T11:38:58Z
-description: "Effective July 1, 2025 , Google has quietly rolled out an update to the Read Aloud user agent - the technology used to fetch web pages and read them out loud vi"
+description: "Effective July 1, 2025 , Google has quietly rolled out an update to the Read Aloud user agent - the technology used to fetch web pages and read them out loud via voice-based products like Google…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/google-read-aloud-user-agent-1.webp"
 ---

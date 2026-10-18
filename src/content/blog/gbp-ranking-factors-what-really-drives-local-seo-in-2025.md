@@ -1,7 +1,7 @@
 ---
 title: "GBP Ranking Factors: What Really Drives Local SEO in 2025"
 date: 2025-09-24T03:36:09Z
-description: "Local SEO is no longer about just having your business listed on Google. With millions of businesses competing for visibility, the way your Google Business Prof"
+description: "Local SEO is no longer about just having your business listed on Google. With millions of businesses competing for visibility, the way your Google Business Profile (GBP) ranks in local searches can…"
 tag: "GMB"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/google-my-business-gmb.webp"
 ---

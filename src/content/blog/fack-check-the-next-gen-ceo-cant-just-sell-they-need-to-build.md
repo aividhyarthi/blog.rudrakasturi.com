@@ -1,7 +1,7 @@
 ---
 title: "Fack Check: The Next-Gen CEO Can’t Just Sell. They Need to Build."
 date: 2025-07-11T01:33:38Z
-description: "In the era of generative AI, the CEO’s role is undergoing a quiet but radical transformation. No longer is it enough to be the face of the company - charming in"
+description: "In the era of generative AI, the CEO’s role is undergoing a quiet but radical transformation. No longer is it enough to be the face of the company - charming investors, energizing the salesforce, and…"
 tag: "AI CEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-28.webp"
 ---

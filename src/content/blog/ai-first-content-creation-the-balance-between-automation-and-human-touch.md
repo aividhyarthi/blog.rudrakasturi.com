@@ -1,7 +1,7 @@
 ---
 title: "AI-First Content Creation: The Balance Between Automation and Human Touch"
 date: 2024-12-18T03:02:55Z
-description: "The rise of AI in content production was a focal point at the Google Search Central Conference December 2024 in Zurich, sparking crucial discussions around its "
+description: "The rise of AI in content production was a focal point at the Google Search Central Conference December 2024 in Zurich, sparking crucial discussions around its role and limitations. A key question…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-49.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Would you pay $20 a month to use an AI chatbot? Or do you still prefer Google?"
 date: 2024-12-16T10:44:05Z
-description: "A quiet revolution is happening in the way we search for information online. AI chatbots like Perplexity and ChatGPT are slowly but surely becoming the go-to to"
+description: "A quiet revolution is happening in the way we search for information online. AI chatbots like Perplexity and ChatGPT are slowly but surely becoming the go-to tools for many tech-savvy users…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-43.png"
 ---

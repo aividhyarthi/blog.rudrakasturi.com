@@ -1,7 +1,7 @@
 ---
 title: "No Hindi, No Telugu - Google AI Mode Is Still English-Only"
 date: 2025-06-26T05:50:39Z
-description: "Google’s much-hyped AI Mode (part of its Search Generative Experience or SGE) has finally rolled out in India. But if you tried searching in Telugu, Hindi, Tami"
+description: "Google’s much-hyped AI Mode (part of its Search Generative Experience or SGE) has finally rolled out in India. But if you tried searching in Telugu, Hindi, Tamil, or any other Indian language , you…"
 tag: "AI Mode"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/Screenshot-2025-06-26-at-11.07.59 AM-1.webp"
 ---

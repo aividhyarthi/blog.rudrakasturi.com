@@ -1,7 +1,7 @@
 ---
 title: "Google Discover Now Testing AI-Generated Summaries: What It Means for Publishers & SEO"
 date: 2025-06-17T10:19:51Z
-description: "Spotted in the wild : Google Discover appears to be testing a new “AI summary” box on top of news cards signaling a quiet but significant change in how mobile u"
+description: "Spotted in the wild : Google Discover appears to be testing a new “AI summary” box on top of news cards signaling a quiet but significant change in how mobile users engage with news and content. Pic…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-featured-image-illustrating-the-concept-of-google-discover.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Emotions, Filters… and Now AI: How Celebs Are Perfecting Instagram Captions"
 date: 2025-07-21T02:06:24Z
-description: "There was a time when Bollywood stars were always one “oops” away from a social media disaster. Remember when Disha Patani accidentally pasted her email instruc"
+description: "There was a time when Bollywood stars were always one “oops” away from a social media disaster. Remember when Disha Patani accidentally pasted her email instructions in the caption? Or when Urvashi…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-60.webp"
 ---

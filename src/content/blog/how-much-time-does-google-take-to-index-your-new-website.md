@@ -1,7 +1,7 @@
 ---
 title: "How much time does Google take to Index your new website?"
 date: 2021-07-13T10:37:18Z
-description: "In a strong desire to receive figures and results as quickly as possible, a frequently asked question is ‘How long to get indexed’. Well, the search engine sugg"
+description: "In a strong desire to receive figures and results as quickly as possible, a frequently asked question is ‘How long to get indexed’. Well, the search engine suggests that there is no specific time for…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/sitemap-2488231_1280.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Google Analytics now monitors Google News Showcase Discover Traffic"
 date: 2021-08-05T04:40:38Z
-description: "Google Analytics appears to be displaying some Google Discover visits, most likely from the Google News Showcase. If you look at your acquisition, source, and m"
+description: "Google Analytics appears to be displaying some Google Discover visits, most likely from the Google News Showcase. If you look at your acquisition, source, and medium traffic, you could see…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/08/images.jpg"
 ---

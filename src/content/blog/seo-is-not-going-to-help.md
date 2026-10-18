@@ -1,7 +1,7 @@
 ---
 title: "SEO is not going to help?"
 date: 2021-07-13T12:49:16Z
-description: "‘There are times when no SEO technique will boost a website's search results rating’, says John Mueller, a Google Search Advocate. He further explains that some"
+description: "‘There are times when no SEO technique will boost a website's search results rating’, says John Mueller, a Google Search Advocate. He further explains that sometimes it’s not a technical issue…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/search-645284_1280.jpg"
 ---

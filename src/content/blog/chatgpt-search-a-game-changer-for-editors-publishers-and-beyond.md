@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Search: A Game Changer for Editors, Publishers, and Beyond"
 date: 2024-12-23T13:15:36Z
-description: "On December 16, OpenAI unveiled that ChatGPT Search is now available for all free-tier users on both the desktop version and the mobile app. This update promise"
+description: "On December 16, OpenAI unveiled that ChatGPT Search is now available for all free-tier users on both the desktop version and the mobile app. This update promises to redefine the way editors…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/generate-a-highly-detailed-featured-image-for-a-blog-post-5.png"
 ---

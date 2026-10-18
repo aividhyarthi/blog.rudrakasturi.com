@@ -1,7 +1,7 @@
 ---
 title: "Claude Fable 5 - The AI Model That Got Shut Down by the US Government - And What Happened in Those 18 Days"
 date: 2026-07-03T05:21:05Z
-description: "AI · What Just Happened On June 12, 2026, one of the most powerful AI models ever released disappeared from the internet overnight. No warning. No announcement."
+description: "AI · What Just Happened On June 12, 2026, one of the most powerful AI models ever released disappeared from the internet overnight. No warning. No announcement. Just gone. Here’s exactly what…"
 tag: "AI SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/rudra-kasturi-6a4745bec1a5a.webp"
 ---

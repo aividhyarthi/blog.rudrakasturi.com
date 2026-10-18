@@ -1,7 +1,7 @@
 ---
 title: "GenZ Slang: Delulu Is The Solulu, And You Are Just Jealous"
 date: 2025-07-01T14:45:21Z
-description: "And if you don’t get it? Good. That means it’s working. You see a Gen Z tweet: I soft-launched my ex for the fourth time but it’s giving delulu. Might touch gra"
+description: "And if you don’t get it? Good. That means it’s working. You see a Gen Z tweet: I soft-launched my ex for the fourth time but it’s giving delulu. Might touch grass. You don’t understand a single word…"
 tag: "English"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-2.webp"
 ---

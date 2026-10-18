@@ -1,7 +1,7 @@
 ---
 title: "SearchGPT: Your New Best Friend for Finding Information Fast"
 date: 2024-07-28T05:03:42Z
-description: "Searching online can be a hassle, but SearchGPT is here to change that. This new, smarter search tool makes it quick and easy to find exactly what you’re lookin"
+description: "Searching online can be a hassle, but SearchGPT is here to change that. This new, smarter search tool makes it quick and easy to find exactly what you’re looking for. What is SearchGPT? SearchGPT is…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/07/search-gpt.webp"
 ---

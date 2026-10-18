@@ -1,7 +1,7 @@
 ---
 title: "5xx Server Errors & Robots.txt: How Google Manages Crawling When Things Go South"
 date: 2024-12-20T03:21:44Z
-description: "When Google attempts to crawl a website, it first checks the robots.txt file to see which pages it can access. This file tells search engines which sections of "
+description: "When Google attempts to crawl a website, it first checks the robots.txt file to see which pages it can access. This file tells search engines which sections of the site are off-limits. But what…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-56.png"
 ---

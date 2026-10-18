@@ -1,7 +1,7 @@
 ---
 title: "Why Are US Election Results on Google India Showing More US Websites?"
 date: 2024-10-30T06:09:58Z
-description: "With the 2024 US elections approaching, we’ve noticed something interesting when searching for election-related information on Google India. The search results "
+description: "With the 2024 US elections approaching, we’ve noticed something interesting when searching for election-related information on Google India. The search results are mostly showing US-based websites…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-74.png"
 ---

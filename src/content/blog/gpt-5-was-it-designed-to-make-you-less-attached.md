@@ -1,7 +1,7 @@
 ---
 title: "GPT-5: Was It Designed to Make You Less Attached?"
 date: 2025-08-11T02:20:43Z
-description: "When GPT-5 rolled out, many users complained it felt more formal, less warm, and harder to connect with than GPT-4o. On the surface, it looked like a downgrade."
+description: "When GPT-5 rolled out, many users complained it felt more formal, less warm, and harder to connect with than GPT-4o. On the surface, it looked like a downgrade. But reading Sam Altman’s recent…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-54.webp"
 ---

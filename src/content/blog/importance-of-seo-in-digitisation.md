@@ -1,7 +1,7 @@
 ---
 title: "Importance of SEO in Digitisation"
 date: 2021-06-29T07:10:03Z
-description: "Digitisation in the world has revolutionised the way businesses have started to operate and sell. Changing times have also evolved the way of marketing techniqu"
+description: "Digitisation in the world has revolutionised the way businesses have started to operate and sell. Changing times have also evolved the way of marketing techniques and channels for your business…"
 tag: "featured"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/06/maxresdefault.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How Big Is ChatGPT's Market Share of Search?"
 date: 2024-11-20T03:17:09Z
-description: "The search landscape has been dominated by Google for years, but recent data hints at growing competition from alternative platforms, including AI-driven tools "
+description: "The search landscape has been dominated by Google for years, but recent data hints at growing competition from alternative platforms, including AI-driven tools like ChatGPT. Thanks to Rand Fishkin’s…"
 tag: "ChatGPT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-17.png"
 ---

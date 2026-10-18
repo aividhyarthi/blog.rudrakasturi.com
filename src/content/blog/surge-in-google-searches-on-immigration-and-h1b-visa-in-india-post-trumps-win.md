@@ -1,7 +1,7 @@
 ---
 title: "Surge in Google Searches on Immigration and H1B Visa in India Post Trump's Win"
 date: 2024-11-17T08:55:44Z
-description: "The U.S. presidential election often casts ripples far beyond its borders, and the 2024 election of Donald Trump for another term has proven no exception. In In"
+description: "The U.S. presidential election often casts ripples far beyond its borders, and the 2024 election of Donald Trump for another term has proven no exception. In India, the immediate aftermath has seen a…"
 tag: "h1b visa"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-5.png"
 ---

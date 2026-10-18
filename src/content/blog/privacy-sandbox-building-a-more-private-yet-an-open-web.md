@@ -1,7 +1,7 @@
 ---
 title: "Privacy Sandbox: Building a more private yet an open web"
 date: 2021-07-07T19:37:18Z
-description: "A Google’s initiative to create an ecosystem that protects the privacy of its users and enables the business to build sustainable sites to reach their customers"
+description: "A Google’s initiative to create an ecosystem that protects the privacy of its users and enables the business to build sustainable sites to reach their customers. The Tech Giant’s step is an evolution…"
 tag: "chrome privacy sandbox"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/vector_2640-e1625686589804.jpg"
 ---

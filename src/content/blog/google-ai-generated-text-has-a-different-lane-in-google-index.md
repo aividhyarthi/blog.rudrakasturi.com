@@ -1,7 +1,7 @@
 ---
 title: "Google: AI-Generated Text Has a Different Lane in Google Index"
 date: 2025-07-24T05:53:39Z
-description: "In 2025, most websites are chasing quantity. The logic is simple: “If it’s indexed, it’ll rank.” But here’s what Google actually said at Search Central APAC 202"
+description: "In 2025, most websites are chasing quantity. The logic is simple: “If it’s indexed, it’ll rank.” But here’s what Google actually said at Search Central APAC 2025: AI-generated content is part of the…"
 tag: "AI Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-71.webp"
 ---

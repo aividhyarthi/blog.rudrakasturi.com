@@ -1,7 +1,7 @@
 ---
 title: "Google’s New Update on How Crawlers Handle Cache Control Headers"
 date: 2024-12-09T11:39:41Z
-description: "Google has recently updated its documentation to explain how its crawlers deal with cache control headers. This information was previously shared in a blog post"
+description: "Google has recently updated its documentation to explain how its crawlers deal with cache control headers. This information was previously shared in a blog post, but now it's officially part of…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-22.png"
 ---

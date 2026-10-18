@@ -1,7 +1,7 @@
 ---
 title: "Google Discontinues Sitelinks Search Box Feature: What It Means for Your Website"
 date: 2024-11-30T02:51:51Z
-description: "On November 29 , Google announced the removal of the Sitelinks Search Box documentation and the archiving of the nositelinkssearchbox rule , signaling the end o"
+description: "On November 29 , Google announced the removal of the Sitelinks Search Box documentation and the archiving of the nositelinkssearchbox rule , signaling the end of the sitelinks search box feature in…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/create-a-highly-detailed-and-sharp-focused-image-that-visually-represents-2.png"
 ---

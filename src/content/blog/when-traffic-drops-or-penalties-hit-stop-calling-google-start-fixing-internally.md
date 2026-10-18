@@ -1,7 +1,7 @@
 ---
 title: "When Traffic Drops or Penalties Hit: Stop Calling Google, Start Fixing Internally"
 date: 2024-11-28T02:52:10Z
-description: "A sudden drop in traffic or a penalty from Google can feel like a punch to the gut. The first instinct for many is to blame Google and reach out to their paid s"
+description: "A sudden drop in traffic or a penalty from Google can feel like a punch to the gut. The first instinct for many is to blame Google and reach out to their paid support, tech partnerships, or even…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-24.png"
 ---

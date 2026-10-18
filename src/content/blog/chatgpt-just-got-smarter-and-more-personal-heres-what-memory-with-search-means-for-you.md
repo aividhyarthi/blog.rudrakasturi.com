@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Just Got Smarter (and More Personal): Here’s What “Memory with Search” Means for You"
 date: 2025-04-25T03:43:31Z
-description: "Big news from the ChatGPT universe: OpenAI just dropped a new feature that brings Memory and Search together—and it's about to make your conversations a whole l"
+description: "Big news from the ChatGPT universe: OpenAI just dropped a new feature that brings Memory and Search together—and it's about to make your conversations a whole lot smarter, more personalized, and way…"
 tag: "ChatGPT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-34.webp"
 ---

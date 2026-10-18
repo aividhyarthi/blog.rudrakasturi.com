@@ -1,7 +1,7 @@
 ---
 title: "Can You Make an AI Say “I Love You”? Meet Freysa.ai"
 date: 2024-12-07T06:16:00Z
-description: "Ever thought about charming an AI into saying “I love you” ? Now you can! Freysa.ai is a fascinating project by a group of anonymous developers who are redefini"
+description: "Ever thought about charming an AI into saying “I love you” ? Now you can! Freysa.ai is a fascinating project by a group of anonymous developers who are redefining how we think about AI. Their latest…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/fresya1.jpeg"
 ---

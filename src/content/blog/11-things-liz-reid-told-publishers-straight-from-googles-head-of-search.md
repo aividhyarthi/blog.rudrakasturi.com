@@ -1,7 +1,7 @@
 ---
 title: "11 Things Liz Reid Told Publishers - Straight From Google's Head of Search"
 date: 2026-06-30T04:04:20Z
-description: "What Google Actually Told Publishers To Do SEO & AI Search · Reading the room What Google Actually Told Publishers To Do Google's Head of Search, Liz Reid, sat "
+description: "What Google Actually Told Publishers To Do SEO & AI Search · Reading the room What Google Actually Told Publishers To Do Google's Head of Search, Liz Reid, sat down on the AI Inside podcast and gave…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/06/featured-image-google-publishers.webp"
 ---

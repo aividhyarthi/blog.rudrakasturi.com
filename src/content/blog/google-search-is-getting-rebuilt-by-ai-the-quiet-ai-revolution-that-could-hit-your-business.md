@@ -1,7 +1,7 @@
 ---
 title: "Google Search Is Getting Rebuilt by AI: The Quiet AI Revolution That Could Hit Your Business"
 date: 2025-05-16T03:46:08Z
-description: "The Silent Revolution in Search “Google is currently re-thinking their search stack from the ground up with LLMs taking a more prominent role.” This isn’t about"
+description: "The Silent Revolution in Search “Google is currently re-thinking their search stack from the ground up with LLMs taking a more prominent role.” This isn’t about another small update to the algorithm…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/05/google-search-rebuild-with-ai-2.webp"
 ---

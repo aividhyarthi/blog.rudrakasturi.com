@@ -1,7 +1,7 @@
 ---
 title: "Google Update: Search Console Removes Support for Six Structured Data Types"
 date: 2025-09-10T02:43:03Z
-description: "Google has announced that it is removing support in Search Console for six structured data types that have already been phased out from Search results. Which St"
+description: "Google has announced that it is removing support in Search Console for six structured data types that have already been phased out from Search results. Which Structured Data Types Are Affected? The…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/search-console-removes-support-for-six-structured-data-types.webp"
 ---

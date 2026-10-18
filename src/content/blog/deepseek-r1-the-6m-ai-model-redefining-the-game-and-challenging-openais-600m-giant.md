@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek R1: The $6M AI Model Redefining the Game and Challenging OpenAI’s $600M Giant"
 date: 2025-01-28T04:26:47Z
-description: "It’s happening. A seismic shift in the world of AI is upon us, and this time, the epicenter isn’t Silicon Valley—it’s China. DeepSeek, a relatively lesser-known"
+description: "It’s happening. A seismic shift in the world of AI is upon us, and this time, the epicenter isn’t Silicon Valley—it’s China. DeepSeek, a relatively lesser-known AI company, has done the unthinkable…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/image-22.png"
 ---

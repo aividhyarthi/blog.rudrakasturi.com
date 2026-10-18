@@ -1,7 +1,7 @@
 ---
 title: "John Mueller on SEO's future"
 date: 2021-07-07T20:44:00Z
-description: "Google's John Mueller discusses the future of SEO and if he believes it will never become outdated in the near future. A question was submitted during the Googl"
+description: "Google's John Mueller discusses the future of SEO and if he believes it will never become outdated in the near future. A question was submitted during the Google Search Central SEO hangout on July 2…"
 tag: "future of search engines"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/manhattan-3866140_1280.jpg"
 ---

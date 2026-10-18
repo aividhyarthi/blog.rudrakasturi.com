@@ -1,7 +1,7 @@
 ---
 title: "Google Gemini’s New Privacy Controls: Temporary Chats and Personalisation Features"
 date: 2025-08-18T03:21:50Z
-description: "Google's Gemini introduces memory features for personalized assistance, recalling past conversations and preferences, enhancing user interactions. Temporary Chats offer an incognito mode for privacy, while updated settings allow control over data usage for service improvement. These changes aim to balance functionality with user privacy, giving users clear choices in managing their AI experience."
+description: "Google's Gemini introduces memory features for personalized assistance, recalling past conversations and preferences, enhancing user interactions. Temporary Chats offer an incognito mode for privacy…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-82.webp"
 ---

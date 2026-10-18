@@ -41,6 +41,12 @@ const decode = (s) =>
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&nbsp;/g, ' ')
+    .replace(/&middot;/g, '·')
+    .replace(/&hellip;/g, '…')
+    .replace(/&ndash;/g, '–')
+    .replace(/&mdash;/g, '—')
+    .replace(/&[lr]squo;/g, "'")
+    .replace(/&[lr]dquo;/g, '"')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
@@ -109,7 +115,12 @@ for (const item of items) {
   const tag = tags[0] ?? categories.find((c) => c !== 'Uncategorized');
 
   const plain = (s) => decode(s.replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
-  const description = plain(text(item['excerpt:encoded'])) || plain(html).slice(0, 160);
+  const shorten = (t, max = 200) => {
+    if (t.length <= max) return t;
+    const cut = t.slice(0, max);
+    return cut.slice(0, cut.lastIndexOf(' ')).replace(/[\s,;:.\-–—]+$/, '') + '…';
+  };
+  const description = shorten(plain(text(item['excerpt:encoded'])) || plain(html));
 
   const date = text(item['wp:post_date_gmt']).replace(' ', 'T') + 'Z';
   const front = [

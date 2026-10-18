@@ -1,7 +1,7 @@
 ---
 title: "Why Are Users Coming Less to Google?"
 date: 2024-12-13T00:52:57Z
-description: "The way we search for information is evolving. For years, Google has been the go-to source for answers, from simple queries to complex questions. But now, with "
+description: "The way we search for information is evolving. For years, Google has been the go-to source for answers, from simple queries to complex questions. But now, with the rise of AI-powered applications…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-28.png"
 ---

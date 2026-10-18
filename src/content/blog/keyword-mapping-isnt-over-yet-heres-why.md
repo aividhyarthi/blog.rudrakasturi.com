@@ -1,7 +1,7 @@
 ---
 title: "Keyword Mapping isn't over yet; here's why"
 date: 2021-07-12T15:20:43Z
-description: "Keyword Mapping - Explained: Mapping is a commonly used technique in the world of digital marketing that helps the search engine to allocate a set of target key"
+description: "Keyword Mapping - Explained: Mapping is a commonly used technique in the world of digital marketing that helps the search engine to allocate a set of target keywords to each specific page. This…"
 tag: "future of search engines"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/business-presentation-laptop-screen.jpg"
 ---

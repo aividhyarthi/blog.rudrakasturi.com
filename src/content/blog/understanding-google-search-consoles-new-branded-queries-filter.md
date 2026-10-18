@@ -1,7 +1,7 @@
 ---
 title: "Understanding Google Search Console’s New Branded Queries Filter"
 date: 2025-11-24T11:31:05Z
-description: "Google has introduced a new feature in Search Console called the Branded Queries Filter. This update helps site owners understand how much of their search traff"
+description: "Google has introduced a new feature in Search Console called the Branded Queries Filter. This update helps site owners understand how much of their search traffic comes from people who already know…"
 tag: "branded queries filter"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/Screenshot-2025-11-24-at-4.47.28-PM.webp"
 ---

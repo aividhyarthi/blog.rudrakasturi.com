@@ -1,7 +1,7 @@
 ---
 title: "Google Says “Clicks Are Fine” – But Where Did All the Publisher Traffic Go?"
 date: 2025-08-07T04:55:59Z
-description: "Google says your traffic is fine. Your dashboards say it’s dead. So who’s lying? https://videopress.com/v/EZO7EPSk?resizeToParent=true&cover=true&preloadContent"
+description: "Google says your traffic is fine. Your dashboards say it’s dead. So who’s lying? https://videopress.com/v/EZO7EPSk?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true Google…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/picture-this-publishers-waiting-at-google-gate-to-send-2.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Google News Publication Centre is Changing: What You Need to Know"
 date: 2025-03-31T12:04:56Z
-description: "Big Changes Coming to Google News in March 2025 Google News is making a big shift! Starting in late March 2025, publication pages will be automatically generate"
+description: "Big Changes Coming to Google News in March 2025 Google News is making a big shift! Starting in late March 2025, publication pages will be automatically generated. This means that publishers will no…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image-12.png"
 ---

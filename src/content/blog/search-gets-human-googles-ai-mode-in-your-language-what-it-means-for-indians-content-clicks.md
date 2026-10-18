@@ -1,7 +1,7 @@
 ---
 title: "Search Gets Human: Google’s AI Mode in Your Language - What It Means for Indians, Content & Clicks"
 date: 2025-10-10T04:08:18Z
-description: "What is Google’s AI Mode? A quick explainer Before we talk about its impact in Indian languages, it’s important to understand what Google’s AI Mode actually is."
+description: "What is Google’s AI Mode? A quick explainer Before we talk about its impact in Indian languages, it’s important to understand what Google’s AI Mode actually is. AI Mode is the next evolution of…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/10/image.webp"
 ---

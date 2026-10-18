@@ -1,7 +1,7 @@
 ---
 title: "Google not required to sell Chrome or Android, judge rules in win for tech giant"
 date: 2025-09-03T06:49:38Z
-description: "On September 2, 2025, a U.S. federal court handed down a landmark ruling: Google has been found guilty of maintaining an illegal monopoly in online search. Judg"
+description: "On September 2, 2025, a U.S. federal court handed down a landmark ruling: Google has been found guilty of maintaining an illegal monopoly in online search. Judge Amit Mehta’s decision marks the most…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-1.webp"
 ---

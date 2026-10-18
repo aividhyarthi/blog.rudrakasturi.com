@@ -1,7 +1,7 @@
 ---
 title: "What is Page Experience? A guide to new ranking ingredient"
 date: 2021-07-07T20:34:43Z
-description: "Page experience as the word suggests is metrics to measure user experience and interaction of your audience on your web page. As you all must have heard, Google"
+description: "Page experience as the word suggests is metrics to measure user experience and interaction of your audience on your web page. As you all must have heard, Google has once again updated its algorithm…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/worker-reading-news-with-tablet.jpg"
 ---

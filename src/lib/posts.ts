@@ -19,7 +19,9 @@ export function formatDate(date: Date): string {
 
 export function excerpt(post: Post, max = 150): string {
   const text = post.data.description;
-  return text.length > max ? text.slice(0, max) + '...' : text;
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[\s,;:.\-–—…]+$/, '') + '…';
 }
 
 export function readingTime(post: Post): number {

@@ -1,7 +1,7 @@
 ---
 title: "AI Overviews in Google Search Now Available in Hindi, Rolling Out to Over 100 Countries"
 date: 2024-10-29T01:26:19Z
-description: "Google has significantly expanded its AI Overviews in Search, a powerful feature designed to help users find information more easily and connect with publishers"
+description: "Google has significantly expanded its AI Overviews in Search, a powerful feature designed to help users find information more easily and connect with publishers, businesses, and creators across the…"
 tag: "Google Updates"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/ai-overview.webp"
 ---

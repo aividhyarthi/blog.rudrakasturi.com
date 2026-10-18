@@ -1,7 +1,7 @@
 ---
 title: "AI for Wildlife Safety: How Technology is Saving Lives of Wild Animals"
 date: 2024-10-19T02:12:59Z
-description: "Artificial Intelligence (AI) has emerged as a powerful tool for addressing real-world challenges, including wildlife conservation and safety. In a recent incide"
+description: "Artificial Intelligence (AI) has emerged as a powerful tool for addressing real-world challenges, including wildlife conservation and safety. In a recent incident in Assam, India, AI demonstrated its…"
 tag: "Industry News"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-43.png"
 ---

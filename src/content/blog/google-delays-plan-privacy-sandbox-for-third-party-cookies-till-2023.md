@@ -1,7 +1,7 @@
 ---
 title: "Google delays plan ‘Privacy Sandbox’ for third-party cookies till 2023"
 date: 2021-07-07T19:30:23Z
-description: "The Tech Giant has pulled back its timeline to block the third party cookies on the search engine lately. Google, in the first stance, had intended to ban third"
+description: "The Tech Giant has pulled back its timeline to block the third party cookies on the search engine lately. Google, in the first stance, had intended to ban third-party cookies and replace them with…"
 tag: "chrome privacy sandbox"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/3690282.jpg"
 ---

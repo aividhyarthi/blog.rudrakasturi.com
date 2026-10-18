@@ -1,7 +1,7 @@
 ---
 title: "The Google's December 11 Core Update Was a Revenue Event, Not an SEO Event"
 date: 2025-12-15T03:48:37Z
-description: "December 11, 2025. Another core algorithm update. On paper, it is just another date on Google’s release calendar. On the ground, it is the exact week when busin"
+description: "December 11, 2025. Another core algorithm update. On paper, it is just another date on Google’s release calendar. On the ground, it is the exact week when businesses lock Q4 numbers, decide whether…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/12/image-2.webp"
 ---

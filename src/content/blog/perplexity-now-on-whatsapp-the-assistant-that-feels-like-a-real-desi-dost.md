@@ -1,7 +1,7 @@
 ---
 title: "Perplexity Now on WhatsApp: The Assistant That Feels Like a Real Desi Dost"
 date: 2025-07-20T03:15:02Z
-description: "Indians don’t need a new app to “stay updated.” We already have one app that runs the whole country. From wedding invites to tuition class timetables, from hous"
+description: "Indians don’t need a new app to “stay updated.” We already have one app that runs the whole country. From wedding invites to tuition class timetables, from housing society notices to daily good…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-59.webp"
 ---

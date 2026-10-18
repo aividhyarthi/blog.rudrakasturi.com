@@ -1,7 +1,7 @@
 ---
 title: "Android’s 16 KB Page Size: What It Means for Your App (and Why You Can’t Ignore It)"
 date: 2025-09-19T07:16:16Z
-description: "The Quiet Change That Will Hit Loudly Android 15 is here with a technical change most developers won’t notice until their apps break or get rejected. Google is "
+description: "The Quiet Change That Will Hit Loudly Android 15 is here with a technical change most developers won’t notice until their apps break or get rejected. Google is moving from 4 KB page sizes to 16 KB…"
 tag: "Andorid APP"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/create-a-featured-image-for-a-blog-post-titled-androids.webp"
 ---

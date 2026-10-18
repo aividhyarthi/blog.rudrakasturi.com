@@ -1,7 +1,7 @@
 ---
 title: "How to Use ChatGPT to Learn, Practise, and Do Your Homework"
 date: 2025-08-04T04:23:59Z
-description: "No one wants to do homework after school. Not you, not your friends, not even your teachers. But you know what’s worse? Sitting there staring at the same math p"
+description: "No one wants to do homework after school. Not you, not your friends, not even your teachers. But you know what’s worse? Sitting there staring at the same math problem for one hour, googling the…"
 tag: "AI in Education"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-vibrant-engaging-featured-image-showcasing-a-student-sitting-1.webp"
 ---

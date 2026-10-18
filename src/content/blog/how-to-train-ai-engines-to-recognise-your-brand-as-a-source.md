@@ -1,7 +1,7 @@
 ---
 title: "How to Train AI Engines to Recognise Your Brand as a Source"
 date: 2026-01-14T06:30:31Z
-description: "AI engines do not “discover” brands the way Google Search used to. They learn brands. And they learn them the same way humans do: through repetition through con"
+description: "AI engines do not “discover” brands the way Google Search used to. They learn brands. And they learn them the same way humans do: through repetition through consistency through patterns of…"
 tag: "AEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/image-5.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "India’s AI Crossroads: Two Weeks, Dozens of Conversations, One Realization"
 date: 2025-10-17T02:17:17Z
-description: "India’s AI Landscape in Numbers Before I tell you what I saw, here’s the bigger picture: India’s AI market is projected to reach $17 billion by 2027 , growing a"
+description: "India’s AI Landscape in Numbers Before I tell you what I saw, here’s the bigger picture: India’s AI market is projected to reach $17 billion by 2027 , growing at over 25% CAGR . Over 50% of Indian…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/10/image-3.webp"
 ---

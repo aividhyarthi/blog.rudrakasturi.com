@@ -1,7 +1,7 @@
 ---
 title: "AI Ate My Slide Deck (And Other Existential Crises at McKinsey)"
 date: 2025-08-03T08:20:24Z
-description: "So, the Wall Street Journa l says AI is coming for consultants. Yes, those well-dressed folks who charge you five figures to tell you what you already know (but"
+description: "So, the Wall Street Journa l says AI is coming for consultants. Yes, those well-dressed folks who charge you five figures to tell you what you already know (but in prettier slides). Apparently…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/generate-a-highly-detailed-high-resolution-image-that-visually-represents-the.webp"
 ---

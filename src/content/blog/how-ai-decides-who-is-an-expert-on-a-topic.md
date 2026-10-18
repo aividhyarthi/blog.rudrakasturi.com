@@ -1,7 +1,7 @@
 ---
 title: "How AI Decides Who Is an Expert on a Topic?"
 date: 2026-01-07T03:38:12Z
-description: "https://youtu.be/QwlMjngqw-0 One of the biggest misunderstandings in the AI search era is this: People think AI decides who is an expert. It does not. AI infers"
+description: "https://youtu.be/QwlMjngqw-0 One of the biggest misunderstandings in the AI search era is this: People think AI decides who is an expert. It does not. AI infers expertise based on patterns it…"
 tag: "AEO"
 ---
 

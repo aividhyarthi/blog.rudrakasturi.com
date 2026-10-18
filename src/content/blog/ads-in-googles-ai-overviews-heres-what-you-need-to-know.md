@@ -1,7 +1,7 @@
 ---
 title: "Ads in Google’s AI Overviews: Here’s What You Need to Know"
 date: 2024-10-05T03:57:59Z
-description: "Google just made it even easier for you to find what you need quickly — especially when you’re on the go and want a simple solution without having to do a lot o"
+description: "Google just made it even easier for you to find what you need quickly — especially when you’re on the go and want a simple solution without having to do a lot of searching. Let’s break down what’s…"
 tag: "ai ads"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/AI-Ads-in-Overviews.webp"
 ---

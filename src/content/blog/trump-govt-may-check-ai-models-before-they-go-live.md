@@ -1,7 +1,7 @@
 ---
 title: "Trump Govt May Check AI Models Before They Go Live"
 date: 2026-05-05T03:33:42Z
-description: "The US government is considering a new step in AI control. It may start checking powerful AI models before they are released. The discussions are happening insi"
+description: "The US government is considering a new step in AI control. It may start checking powerful AI models before they are released. The discussions are happening inside the White House and focus on one…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/05/ChatGPT-Image-May-5-2026-09_00_49-AM.webp"
 ---

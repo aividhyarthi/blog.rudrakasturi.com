@@ -1,7 +1,7 @@
 ---
 title: "Google’s Updated Guide to Search Ranking Systems: What You Need to Know"
 date: 2024-11-20T01:36:50Z
-description: "Google has recently updated its guide on search ranking systems to clarify how page-level and site-wide signals influence rankings. This update also expands on "
+description: "Google has recently updated its guide on search ranking systems to clarify how page-level and site-wide signals influence rankings. This update also expands on FAQs from Google’s March 2024 blog…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-9.png"
 ---

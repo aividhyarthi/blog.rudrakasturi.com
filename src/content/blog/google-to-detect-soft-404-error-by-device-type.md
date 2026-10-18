@@ -1,7 +1,7 @@
 ---
 title: "Google to detect soft 404 error by device type"
 date: 2021-07-12T14:28:41Z
-description: "Google has modified the way it classifies soft 404s and now looks at a URL based on the device type. Now, if Google detects a URL and hits it on desktop before "
+description: "Google has modified the way it classifies soft 404s and now looks at a URL based on the device type. Now, if Google detects a URL and hits it on desktop before seeing it on mobile, it may send a soft…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/404error.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft AI Tour Wraps Up with Groundbreaking Insights from Korea and Japan!"
 date: 2025-04-01T03:54:30Z
-description: "Hey everyone! Neha here from Microsoft, and I’m thrilled to share some electrifying highlights from our just-concluded Microsoft AI Tour in Korea and Japan . Th"
+description: "Hey everyone! Neha here from Microsoft, and I’m thrilled to share some electrifying highlights from our just-concluded Microsoft AI Tour in Korea and Japan . This wasn’t just another event—it was a…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-1.png"
 ---

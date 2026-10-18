@@ -1,7 +1,7 @@
 ---
 title: "What to Do When Your Site Receives a Manual Action Penalty: A Day-by-Day Explainer"
 date: 2024-11-29T03:48:28Z
-description: "A manual action penalty from Google is a serious issue, but it’s not the end of the road. Manual actions occur when a human reviewer at Google determines that y"
+description: "A manual action penalty from Google is a serious issue, but it’s not the end of the road. Manual actions occur when a human reviewer at Google determines that your site violates Google’s guidelines…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/create-a-highly-detailed-high-resolution-image-that-captures-the-essence-1.png"
 ---

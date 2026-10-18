@@ -1,7 +1,7 @@
 ---
 title: "What Does Crawled - Currently Not Indexed Mean in SEO?"
 date: 2025-08-01T10:35:08Z
-description: "Googlebot has visited your page and fetched its content (crawling). But Google has decided NOT to include that page in its search index —at least for now. In sh"
+description: "Googlebot has visited your page and fetched its content (crawling). But Google has decided NOT to include that page in its search index —at least for now. In short: Google knows about your page but…"
 tag: "Crawling"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-5.webp"
 ---

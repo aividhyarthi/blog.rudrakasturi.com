@@ -1,7 +1,7 @@
 ---
 title: "The YouTube Middle Class Is Being Erased - No Face, No Voice, No Revenue"
 date: 2025-07-08T09:45:01Z
-description: "How Google's new YouTube monetisation policy signals the end of easy money for AI creators and content farms In May, publishers began noticing something strange"
+description: "How Google's new YouTube monetisation policy signals the end of easy money for AI creators and content farms In May, publishers began noticing something strange. Search traffic had cratered…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-highly-detailed-high-resolution-featured-image-for-a-blog-2.webp"
 ---

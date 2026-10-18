@@ -1,7 +1,7 @@
 ---
 title: "Google Just Solved India's Most Pointless Weekend Fight: Waiting Outside Trial Rooms"
 date: 2025-07-28T07:30:27Z
-description: "Google made a big AI announcement last week. But it’s not about Gemini. Or Search. Or AI agents writing your emails. No, this one’s more personal. More relatabl"
+description: "Google made a big AI announcement last week. But it’s not about Gemini. Or Search. Or AI agents writing your emails. No, this one’s more personal. More relatable. More... retail therapy meets actual…"
 tag: "AI in Shopping"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-77.webp"
 ---

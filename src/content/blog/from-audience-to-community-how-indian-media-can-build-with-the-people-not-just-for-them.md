@@ -1,7 +1,7 @@
 ---
 title: "From Audience to Community: How Indian Media Can Build with the People, Not Just for Them"
 date: 2025-04-04T03:12:59Z
-description: "India is not one market. It’s not even 29 states. It’s a billion communities , each with their own stories, languages, and ways of experiencing the world. And y"
+description: "India is not one market. It’s not even 29 states. It’s a billion communities , each with their own stories, languages, and ways of experiencing the world. And yet — most news organizations still push…"
 tag: "Communities"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/create-a-highly-detailed-high-resolution-image-depicting-a-diverse-group-1.png"
 ---

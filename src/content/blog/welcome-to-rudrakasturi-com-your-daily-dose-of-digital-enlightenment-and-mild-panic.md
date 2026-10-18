@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Rudrakasturi.com - Your Daily Dose of Digital Enlightenment (and Mild Panic)"
 date: 2025-04-15T04:10:11Z
-description: "Search is Dead. Long Live AI Overviews! Namaste, internet survivors! Welcome back to Rudrakasturi.com , where we decode the future, sprinkle some sarcasm on it,"
+description: "Search is Dead. Long Live AI Overviews! Namaste, internet survivors! Welcome back to Rudrakasturi.com , where we decode the future, sprinkle some sarcasm on it, and serve it on a hot plate of digital…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-24.png"
 ---

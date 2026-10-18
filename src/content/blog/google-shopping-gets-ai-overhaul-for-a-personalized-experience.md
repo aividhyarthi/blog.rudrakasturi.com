@@ -1,7 +1,7 @@
 ---
 title: "Google Shopping Gets Smarter with AI: Personal Recommendations, Virtual Try-On, and Price Tracking"
 date: 2024-10-17T03:11:12Z
-description: "Google has revamped its shopping platform using cutting-edge artificial intelligence (AI) to transform how users shop online. The new AI-powered Google Shopping"
+description: "Google has revamped its shopping platform using cutting-edge artificial intelligence (AI) to transform how users shop online. The new AI-powered Google Shopping, rolling out in the U.S., integrates…"
 tag: "Shopping"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Shopping-Hero_4.width-1600.format-webp.webp"
 ---

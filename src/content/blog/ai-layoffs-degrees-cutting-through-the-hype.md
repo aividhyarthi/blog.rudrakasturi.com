@@ -1,7 +1,7 @@
 ---
 title: "AI, Layoffs & Degrees: Cutting Through the Hype"
 date: 2025-08-04T08:38:22Z
-description: "I’ve been reading a lot on the internet, on Reddit, everywhere and honestly, I’ve said plenty myself. But if you really look around, the noise about AI, jobs, l"
+description: "I’ve been reading a lot on the internet, on Reddit, everywhere and honestly, I’ve said plenty myself. But if you really look around, the noise about AI, jobs, layoffs, and “future skills” is all over…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-featured-image-for-a-blog-post-discussing-the-2.webp"
 ---

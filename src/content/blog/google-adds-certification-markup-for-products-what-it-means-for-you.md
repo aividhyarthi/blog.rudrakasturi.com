@@ -1,7 +1,7 @@
 ---
 title: "Google Adds Certification Markup for Products: What It Means for You"
 date: 2024-10-06T05:09:45Z
-description: "If you’re selling products online , there’s an important new update from Google that you need to know about. Starting in April 2025 , Google will be replacing t"
+description: "If you’re selling products online , there’s an important new update from Google that you need to know about. Starting in April 2025 , Google will be replacing the old EnergyConsumptionDetails type…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Screenshot-2024-10-06-at-10.37.45 AM.png"
 ---

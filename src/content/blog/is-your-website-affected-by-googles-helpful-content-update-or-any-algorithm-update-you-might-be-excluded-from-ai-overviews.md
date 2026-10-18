@@ -1,7 +1,7 @@
 ---
 title: "Is Your Website Affected by Google’s Helpful Content Update or Any Algorithm Update? You Might Be Excluded from AI Overviews"
 date: 2024-10-14T03:37:34Z
-description: "In the ever-evolving landscape of SEO and content creation, Google’s Helpful Content Update (HCU) and core algorithm updates have reshaped how content is ranked"
+description: "In the ever-evolving landscape of SEO and content creation, Google’s Helpful Content Update (HCU) and core algorithm updates have reshaped how content is ranked and presented. Recently, a fascinating…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/ai-overview.webp"
 ---

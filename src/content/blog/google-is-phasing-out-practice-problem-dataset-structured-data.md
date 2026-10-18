@@ -1,7 +1,7 @@
 ---
 title: "Google Is Phasing Out Practice Problem & Dataset Structured Data."
 date: 2025-11-19T04:27:55Z
-description: "Google has announced another structured data clean up. This time it affects three areas that many websites still use without understanding their actual purpose:"
+description: "Google has announced another structured data clean up. This time it affects three areas that many websites still use without understanding their actual purpose: Practice Problem markup, Dataset…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/image-3.webp"
 ---

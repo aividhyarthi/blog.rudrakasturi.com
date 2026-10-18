@@ -1,7 +1,7 @@
 ---
 title: "SEO in 2025: Funnel First, AI-Ready, Human Always"
 date: 2025-04-27T05:24:25Z
-description: "In 2025, SEO is no longer about just ranking for keywords. It's about owning the user journey , becoming a topical authority , and creating experiences that sea"
+description: "In 2025, SEO is no longer about just ranking for keywords. It's about owning the user journey , becoming a topical authority , and creating experiences that search engines (and users) trust and…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/create-a-highly-detailed-sharp-focus-image-illustrating-the-concept-of-1.webp"
 ---

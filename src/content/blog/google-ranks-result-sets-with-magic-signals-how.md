@@ -1,7 +1,7 @@
 ---
 title: "Google ranks result sets with ‘Magic Signals’...How?"
 date: 2021-07-08T16:21:05Z
-description: "Navigating through the vast quantity of information available on the internet to find what you need would be virtually difficult without some assistance. Well, "
+description: "Navigating through the vast quantity of information available on the internet to find what you need would be virtually difficult without some assistance. Well, Google's ranking systems are built to…"
 tag: "Google Algorithm"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/magic-3315128_1280-e1625761238900.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Gen Z’s Morning Routine Starts With Search & That’s a Wake-Up Call for Every Brand"
 date: 2025-08-12T05:02:04Z
-description: "When Millennials first came online, the morning ritual was simple: check your email. Inbox zero was the measure of a productive start. Then came Google Search n"
+description: "When Millennials first came online, the morning ritual was simple: check your email. Inbox zero was the measure of a productive start. Then came Google Search not just as a tool, but as a habit. We…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/google-search-genz.webp"
 ---

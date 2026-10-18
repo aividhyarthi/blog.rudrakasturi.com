@@ -1,7 +1,7 @@
 ---
 title: "Google Brings AI Writing, Smarter Sharing and More in September 2025 Android Update"
 date: 2025-09-14T03:15:26Z
-description: "Google has announced its latest batch of Android features, rolling out to devices globally this September. The update introduces AI-powered writing tools, impro"
+description: "Google has announced its latest batch of Android features, rolling out to devices globally this September. The update introduces AI-powered writing tools, improvements to media sharing, new ways to…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-26.webp"
 ---

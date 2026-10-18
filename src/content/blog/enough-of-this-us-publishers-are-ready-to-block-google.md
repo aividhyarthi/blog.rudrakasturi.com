@@ -1,7 +1,7 @@
 ---
 title: "\"Enough of This\": US Publishers Are Ready to Block Google."
 date: 2026-07-24T02:42:08Z
-description: "Dispatch · Search & Media Google Zero, Everywhere at Once American publishers are threatening to block Google entirely. It's a live option for them because they"
+description: "Dispatch · Search & Media Google Zero, Everywhere at Once American publishers are threatening to block Google entirely. It's a live option for them because they have somewhere else to send their…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/google-zero-feature-image.webp"
 ---

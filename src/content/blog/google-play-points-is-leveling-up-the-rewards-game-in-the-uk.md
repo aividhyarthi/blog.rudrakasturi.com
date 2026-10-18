@@ -1,7 +1,7 @@
 ---
 title: "Google Play Points is Leveling Up the Rewards Game in the UK"
 date: 2025-09-18T03:09:44Z
-description: "Google Play Points launched in 2018 to reward users for apps, games, and digital content. Now they’re upgrading the program in the UK with new perks, more rewar"
+description: "Google Play Points launched in 2018 to reward users for apps, games, and digital content. Now they’re upgrading the program in the UK with new perks, more rewards, and fun game-style experiences…"
 tag: "Google Games"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-66.webp"
 ---

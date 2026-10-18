@@ -1,7 +1,7 @@
 ---
 title: "SEO: Google’s Update On Organization Markup"
 date: 2024-10-06T05:49:57Z
-description: "Google recently made some updates to how organization markup is used and how they determine title links in search results. These changes might impact how your w"
+description: "Google recently made some updates to how organization markup is used and how they determine title links in search results. These changes might impact how your website appears on Google, especially…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-19.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Google Search Is Rolling Out Information Agents In AI Mode For Fee"
 date: 2026-06-17T05:14:18Z
-description: "Google is testing a major new feature inside AI Mode called Information Agents , and this could quietly become one of the biggest shifts in how people consume i"
+description: "Google is testing a major new feature inside AI Mode called Information Agents , and this could quietly become one of the biggest shifts in how people consume information online. Instead of…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/06/rudra-kasturi-6a3227a8ea1bc.webp"
 ---

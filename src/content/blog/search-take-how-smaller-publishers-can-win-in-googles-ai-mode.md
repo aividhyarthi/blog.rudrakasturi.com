@@ -1,7 +1,7 @@
 ---
 title: "Search Take: How Smaller Publishers Can Win in Google’s AI Mode"
 date: 2025-07-14T03:27:23Z
-description: "The way people discover content on Google is changing fast. With the rollout of AI Mode (and in AI Overviews), Google is no longer just showing a list of blue l"
+description: "The way people discover content on Google is changing fast. With the rollout of AI Mode (and in AI Overviews), Google is no longer just showing a list of blue links. It is giving users instant…"
 tag: "AI Mode"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/smaller-publishers-vs-bigger-publishers-give-a-tiny-man.webp"
 ---

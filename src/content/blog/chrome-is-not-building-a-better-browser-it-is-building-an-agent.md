@@ -1,7 +1,7 @@
 ---
 title: "Chrome Is Not Building a Better Browser. It Is Building an Agent."
 date: 2026-03-02T05:27:06Z
-description: "Most people think Chrome just got smarter. That is not what is happening. The Chrome team has publicly shared something much bigger. They are moving from a brow"
+description: "Most people think Chrome just got smarter. That is not what is happening. The Chrome team has publicly shared something much bigger. They are moving from a browser that shows web pages to what they…"
 tag: "Browser"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/03/image-1.webp"
 ---

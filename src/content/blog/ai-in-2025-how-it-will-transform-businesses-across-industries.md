@@ -1,7 +1,7 @@
 ---
 title: "AI in 2025: How It Will Transform Businesses Across Industries"
 date: 2024-12-23T04:54:25Z
-description: "Artificial intelligence (AI) is not just a futuristic concept—it’s actively shaping the present and gearing up to revolutionize businesses by 2025. From retail "
+description: "Artificial intelligence (AI) is not just a futuristic concept—it’s actively shaping the present and gearing up to revolutionize businesses by 2025. From retail to healthcare, manufacturing to…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/ai-in-2025-1.png"
 ---

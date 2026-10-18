@@ -1,7 +1,7 @@
 ---
 title: "Google’s Investment in Stan Signals a New Era for India’s Social Gaming"
 date: 2025-08-02T07:14:31Z
-description: "Google has joined an $8.5 million funding round for Indian social gaming platform Stan , signaling a major shift in India’s digital entertainment and creator ec"
+description: "Google has joined an $8.5 million funding round for Indian social gaming platform Stan , signaling a major shift in India’s digital entertainment and creator economy. What Is Stan? Stan blends social…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-14.webp"
 ---

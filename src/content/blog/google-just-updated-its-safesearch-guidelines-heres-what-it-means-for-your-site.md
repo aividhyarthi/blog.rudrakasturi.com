@@ -1,7 +1,7 @@
 ---
 title: "Google Just Updated Its SafeSearch Guidelines — Here's What It Means for Your Site"
 date: 2025-06-06T07:27:30Z
-description: "Hey folks, Rudra here. If you run a site that contains explicit content—or even one that doesn't but somehow got flagged as explicit—you'll want to read this. G"
+description: "Hey folks, Rudra here. If you run a site that contains explicit content—or even one that doesn't but somehow got flagged as explicit—you'll want to read this. Google just gave its SafeSearch…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-highly-detailed-and-sharp-focused-image-for-a-blog.webp"
 ---

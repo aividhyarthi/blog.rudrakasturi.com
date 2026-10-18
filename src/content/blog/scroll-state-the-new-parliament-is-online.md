@@ -1,7 +1,7 @@
 ---
 title: "Scroll State: The New Parliament is Online"
 date: 2025-07-09T01:46:20Z
-description: "Where hashtags replace headlines, and outrage rewrites laws. In 2024, the Indian Parliament passed over 200 bills. But not all of them survived the real test. S"
+description: "Where hashtags replace headlines, and outrage rewrites laws. In 2024, the Indian Parliament passed over 200 bills. But not all of them survived the real test. Some didn’t even make it past Instagram…"
 tag: "Government"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-13.webp"
 ---

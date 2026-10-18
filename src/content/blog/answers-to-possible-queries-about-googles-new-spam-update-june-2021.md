@@ -1,7 +1,7 @@
 ---
 title: "Answers to Possible Queries about Google’s New Spam Update - June 2021"
 date: 2021-07-12T17:05:42Z
-description: "Google, on a regular basis, releases spam updates in order to enhance its search results quality. Google's Search Liaison, Danny Sullivan tweeted about a spam-p"
+description: "Google, on a regular basis, releases spam updates in order to enhance its search results quality. Google's Search Liaison, Danny Sullivan tweeted about a spam-preventing algorithm update being rolled…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/spam-940521_1280.jpg"
 ---

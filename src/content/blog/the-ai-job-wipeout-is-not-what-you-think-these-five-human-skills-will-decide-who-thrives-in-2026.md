@@ -1,7 +1,7 @@
 ---
 title: "The AI Job Wipeout Is Not What You Think. These Five Human Skills Will Decide Who Thrives In 2026."
 date: 2025-12-09T03:09:25Z
-description: "Every few months, the world goes through the same AI panic cycle. A new model launches. Headlines scream about job losses. Someone on social media predicts huma"
+description: "Every few months, the world goes through the same AI panic cycle. A new model launches. Headlines scream about job losses. Someone on social media predicts humanity will be replaced. The debate ends…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/12/create-a-featured-image-depicting-a-diverse-group-of-people.webp"
 ---

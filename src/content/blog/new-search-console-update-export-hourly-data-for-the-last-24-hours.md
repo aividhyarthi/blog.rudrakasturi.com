@@ -1,7 +1,7 @@
 ---
 title: "Unlock the Power of Hourly Data: Google Search Console’s Latest Export Feature!"
 date: 2025-01-09T12:53:24Z
-description: "New Search Console Feature: Export Hourly Data for the Last 24 Hours! 📈 Exciting news from Google Search Console! Remember when they rolled out the 24-hour vie"
+description: "New Search Console Feature: Export Hourly Data for the Last 24 Hours! 📈 Exciting news from Google Search Console! Remember when they rolled out the 24-hour view in Performance Reports last month?…"
 tag: "Google Search"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/create-a-featured-image-that-highlights-the-new-google-search.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "80% of Publishers Report Google Discover Traffic Drops of Up to 50% Following August Core Update"
 date: 2024-10-28T12:52:15Z
-description: "A recent SEO poll of major publishers across India reveals a substantial decline in Google Discover traffic following the August 2024 Core Update and subsequent"
+description: "A recent SEO poll of major publishers across India reveals a substantial decline in Google Discover traffic following the August 2024 Core Update and subsequent unconfirmed updates. The results show…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/india-pubs-discover-traffic-drop-e1730119480573.jpeg"
 ---

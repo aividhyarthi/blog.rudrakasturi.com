@@ -1,7 +1,7 @@
 ---
 title: "How Generative AI Decides Which Sources to Cite"
 date: 2026-01-15T07:19:59Z
-description: "Understanding Trust, Repetition, and Consensus Short answer upfront Generative AI cites sources it has learned to trust through repeated agreement across time, "
+description: "Understanding Trust, Repetition, and Consensus Short answer upfront Generative AI cites sources it has learned to trust through repeated agreement across time, language, and structure . It does not…"
 tag: "AEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/image-11.webp"
 ---

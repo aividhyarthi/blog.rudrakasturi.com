@@ -1,7 +1,7 @@
 ---
 title: "Explainer: How Google Treats AI-Generated Content & Its Impact on SEO?"
 date: 2025-03-26T03:42:49Z
-description: "Google’s Stance on AI-Generated Content Google doesn’t inherently penalize websites for using AI tools to create content. Their focus is on quality , not how th"
+description: "Google’s Stance on AI-Generated Content Google doesn’t inherently penalize websites for using AI tools to create content. Their focus is on quality , not how the content is made. As Danny Sullivan…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image-9.png"
 ---

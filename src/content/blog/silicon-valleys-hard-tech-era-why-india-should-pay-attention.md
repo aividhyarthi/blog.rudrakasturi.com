@@ -1,7 +1,7 @@
 ---
 title: "Silicon Valley’s “Hard Tech” Era: Why India Should Pay Attention"
 date: 2025-08-05T04:38:27Z
-description: "What’s Changing? For years, Silicon Valley was all about apps and platforms the so-called “soft tech.” Build a social network, a food delivery app, or a payment"
+description: "What’s Changing? For years, Silicon Valley was all about apps and platforms the so-called “soft tech.” Build a social network, a food delivery app, or a payments system, and you could become a…"
 tag: "Hard Tech"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-and-sharp-focused-image-depicting-the-transition-1.webp"
 ---

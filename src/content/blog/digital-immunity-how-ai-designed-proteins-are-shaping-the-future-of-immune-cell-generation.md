@@ -1,7 +1,7 @@
 ---
 title: "Digital Immunity: How AI-Designed Proteins Are Shaping the Future of Immune Cell Generation"
 date: 2025-08-02T06:27:17Z
-description: "The intersection of artificial intelligence and biotechnology is unlocking new possibilities in medical science. Recently, researchers have leveraged AI-designe"
+description: "The intersection of artificial intelligence and biotechnology is unlocking new possibilities in medical science. Recently, researchers have leveraged AI-designed proteins to engineer immune cells…"
 tag: "AI Health Tech"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-and-sharp-focused-image-representing-the-theme-1.webp"
 ---

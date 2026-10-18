@@ -1,7 +1,7 @@
 ---
 title: "When Media Builds Brands for Free: A Lesson in Attention Economics"
 date: 2026-01-06T04:55:50Z
-description: "This is not a blog about AI content. This is not a blog about a YouTube channel. This is not even a blog about money. This is a blog about how media loses contr"
+description: "This is not a blog about AI content. This is not a blog about a YouTube channel. This is not even a blog about money. This is a blog about how media loses control of value creation in the age of AI…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/the-hidden-cost-of-free-pr-how-media-builds-brands-1.webp"
 ---

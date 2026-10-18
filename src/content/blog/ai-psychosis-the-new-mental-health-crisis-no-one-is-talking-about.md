@@ -1,7 +1,7 @@
 ---
 title: "AI Psychosis: The New Mental Health Crisis No One Is Talking About"
 date: 2025-08-12T05:25:14Z
-description: "A psychiatrist named Dr. Keith Sakata shared a chilling observation on social media: I’ve seen 12 people hospitalized after losing touch with reality because of"
+description: "A psychiatrist named Dr. Keith Sakata shared a chilling observation on social media: I’ve seen 12 people hospitalized after losing touch with reality because of AI. Online, I’m seeing the same…"
 tag: "AI Mental health"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-high-resolution-image-depicting-the-concept-of-1.webp"
 ---

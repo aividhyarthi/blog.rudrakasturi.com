@@ -1,7 +1,7 @@
 ---
 title: "Recap: Key Takeaways from Google Search Fundamentals Training for News Publishers"
 date: 2024-10-29T01:41:55Z
-description: "On October 25, 2024 , Google hosted a Search Fundamentals Training at their Gurugram office for Indian news publishers. The training covered critical areas for "
+description: "On October 25, 2024 , Google hosted a Search Fundamentals Training at their Gurugram office for Indian news publishers. The training covered critical areas for improving website performance in Google…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/google-search-event-in-india.png"
 ---

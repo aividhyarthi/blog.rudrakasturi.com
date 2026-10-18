@@ -1,7 +1,7 @@
 ---
 title: "Google Discover Just Got Smarter. Publishers Just Got Ghosted."
 date: 2025-07-18T10:15:14Z
-description: "Google is now showing AI-generated summaries right inside Discover. Earlier: Title, thumbnail, maybe a line. Now: Google read articles, watches the video, summa"
+description: "Google is now showing AI-generated summaries right inside Discover. Earlier: Title, thumbnail, maybe a line. Now: Google read articles, watches the video, summarizes it , and gives users a…"
 tag: "Google AI Summaries"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/google-discover-1.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Google to release update for easy sorting in message app"
 date: 2021-07-12T15:46:23Z
-description: "Google is all geared up to launch two new features for Google's Messages app. This new feature has been introduced in order to offer a new method to read messag"
+description: "Google is all geared up to launch two new features for Google's Messages app. This new feature has been introduced in order to offer a new method to read messages. users receive a variety of messages…"
 tag: "ads"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/working-in-office-2943747_1280.png"
 ---

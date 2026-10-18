@@ -1,7 +1,7 @@
 ---
 title: "Google Search Console Introduces Custom Annotations to Reports: Everything You Should Know"
 date: 2025-11-18T12:11:37Z
-description: "Google Search Console has rolled out a new feature called custom annotations. This update allows website owners and SEO professionals to add short notes directl"
+description: "Google Search Console has rolled out a new feature called custom annotations. This update allows website owners and SEO professionals to add short notes directly to the Performance report charts. As…"
 tag: "Google Search Central"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/Screenshot-2025-11-18-at-5.34.41-PM.webp"
 ---

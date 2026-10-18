@@ -1,7 +1,7 @@
 ---
 title: "Google Explores Analytics for \"Preferred Sources\": What SEOs and Publishers Should Know"
 date: 2025-08-18T04:01:18Z
-description: "Google recently rolled out the Preferred Sources feature for Top Stories. This lets readers choose which publishers they want to see more often in Google’s Top "
+description: "Google recently rolled out the Preferred Sources feature for Top Stories. This lets readers choose which publishers they want to see more often in Google’s Top Stories section, as well as in a new “…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/Preferred_source_publisher_butto.width-1000.format-webp.webp"
 ---

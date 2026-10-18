@@ -1,7 +1,7 @@
 ---
 title: "The Short Life of a Hot AI Job: How Prompt Engineering Peaked and Fizzled"
 date: 2025-04-26T03:55:50Z
-description: "In 2023, prompt engineering was the buzzword on every tech job board. It was hailed as the key to unlocking the power of large language models like ChatGPT, DAL"
+description: "In 2023, prompt engineering was the buzzword on every tech job board. It was hailed as the key to unlocking the power of large language models like ChatGPT, DALL·E, and Google’s Gemini. Fast forward…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-40.webp"
 ---

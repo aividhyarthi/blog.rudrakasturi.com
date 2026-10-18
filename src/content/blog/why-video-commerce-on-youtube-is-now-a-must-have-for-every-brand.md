@@ -1,7 +1,7 @@
 ---
 title: "Why Video Commerce on YouTube is Now a Must-Have for Every Brand"
 date: 2025-08-12T04:32:14Z
-description: "Google’s latest data on Gen Z search and content habits in India reveals a powerful insight: 93% of Gen Z viewers say YouTube content helps them feel confident "
+description: "Google’s latest data on Gen Z search and content habits in India reveals a powerful insight: 93% of Gen Z viewers say YouTube content helps them feel confident about their purchase decisions. This…"
 tag: "Commerce"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/youtube-genz.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Why People Are Tuning Out the News? A Growing Trend Of \"News Avoidance\""
 date: 2025-04-02T02:05:59Z
-description: "The Big Switch-Off Are you tired of the endless cycle of bad news? You're not alone. Across the world, more and more people are choosing to avoid the news becau"
+description: "The Big Switch-Off Are you tired of the endless cycle of bad news? You're not alone. Across the world, more and more people are choosing to avoid the news because it feels too negative, repetitive…"
 tag: "Negative news"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/create-a-featured-image-for-a-blog-post-titled-why-1.png"
 ---

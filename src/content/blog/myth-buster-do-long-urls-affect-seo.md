@@ -1,7 +1,7 @@
 ---
 title: "Myth Buster: Do Long URLs Affect SEO?"
 date: 2024-10-05T05:59:28Z
-description: "You might have heard that having a long URL could hurt your SEO and make it harder for your page to rank well on Google. But is that really true? Let’s dig in a"
+description: "You might have heard that having a long URL could hurt your SEO and make it harder for your page to rank well on Google. But is that really true? Let’s dig in and see if long URLs are a problem or…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Long-s-Short.webp"
 ---

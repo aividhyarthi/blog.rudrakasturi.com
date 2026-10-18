@@ -1,7 +1,7 @@
 ---
 title: "Does AI-Written Content Affect SEO? Here’s the Truth"
 date: 2024-10-05T06:36:50Z
-description: "You might have heard a lot of talk about whether using AI to write content can hurt your website’s SEO. Some people worry that Google will “punish” sites with A"
+description: "You might have heard a lot of talk about whether using AI to write content can hurt your website’s SEO. Some people worry that Google will “punish” sites with AI-generated content. But is that really…"
 tag: "AI Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/AI-Content.webp"
 ---

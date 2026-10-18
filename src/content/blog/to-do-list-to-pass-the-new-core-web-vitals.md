@@ -1,7 +1,7 @@
 ---
 title: "To-do list to pass the new core web vitals"
 date: 2021-07-16T14:38:44Z
-description: "Google considers Core Web Vitals to be a set of particular elements that contribute to a webpage's overall user experience. Three specific page performance and "
+description: "Google considers Core Web Vitals to be a set of particular elements that contribute to a webpage's overall user experience. Three specific page performance and user interaction statistics make up…"
 tag: "core web vitals 2021"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/check-list-2398890_1280.png"
 ---

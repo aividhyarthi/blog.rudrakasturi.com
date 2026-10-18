@@ -1,7 +1,7 @@
 ---
 title: "Writers, It's Time to Rewrite the Rules with AI in 2025!"
 date: 2024-12-27T04:25:42Z
-description: "As the world marches further into the age of AI, whispers have turned into roars: “Writers are being replaced.” “AI writes better, faster, cheaper.” Let’s take "
+description: "As the world marches further into the age of AI, whispers have turned into roars: “Writers are being replaced.” “AI writes better, faster, cheaper.” Let’s take a moment to pause, breathe, and set the…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/a-lady-writer-asking-ai-bot-to-create-a-story.png"
 ---

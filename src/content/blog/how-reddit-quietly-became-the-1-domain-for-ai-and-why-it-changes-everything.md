@@ -1,7 +1,7 @@
 ---
 title: "How Reddit Quietly Became the #1 Domain for AI - and Why It Changes Everything"
 date: 2025-08-01T07:57:58Z
-description: "I remember the first time I realized Google was showing me a Reddit thread as the top result instead of some glossy publisher or corporate blog. There it was: a"
+description: "I remember the first time I realized Google was showing me a Reddit thread as the top result instead of some glossy publisher or corporate blog. There it was: a wall of raw, messy, honest human…"
 tag: "AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-2.webp"
 ---

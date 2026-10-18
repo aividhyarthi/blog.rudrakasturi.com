@@ -1,7 +1,7 @@
 ---
 title: "AI Experiment: Why My 100% AI Website Got Ghosted by Google"
 date: 2025-07-10T02:50:10Z
-description: "At some point, we’ve all thought—why not let AI handle it all? You fire up an AI tool, generate 50 blog posts in one sitting, hit publish, and wait for Google t"
+description: "At some point, we’ve all thought—why not let AI handle it all? You fire up an AI tool, generate 50 blog posts in one sitting, hit publish, and wait for Google to shower you with traffic. Except……"
 tag: "AI SEI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-19.webp"
 ---

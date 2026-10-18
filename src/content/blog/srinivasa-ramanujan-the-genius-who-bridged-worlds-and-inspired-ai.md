@@ -1,7 +1,7 @@
 ---
 title: "Srinivasa Ramanujan: The Genius Who Bridged Worlds and Inspired AI"
 date: 2024-12-22T05:24:09Z
-description: "On this day, we celebrate the birth anniversary of Srinivasa Ramanujan, a mathematical genius whose work continues to shape not just mathematics but also modern"
+description: "On this day, we celebrate the birth anniversary of Srinivasa Ramanujan, a mathematical genius whose work continues to shape not just mathematics but also modern technology, including artificial…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-69.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "The Industry of Denial: AI Mode and the Truth Nobody Wants to Say"
 date: 2025-10-09T07:29:02Z
-description: "In closed-door meetings of media houses, e-commerce boards, and startup pitch decks, there’s a fact everyone knows but few dare to speak: Google’s AI Mode will "
+description: "In closed-door meetings of media houses, e-commerce boards, and startup pitch decks, there’s a fact everyone knows but few dare to speak: Google’s AI Mode will shrink traffic. Yet, in public, the…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-88.webp"
 ---

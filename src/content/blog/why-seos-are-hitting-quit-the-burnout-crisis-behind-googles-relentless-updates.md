@@ -1,7 +1,7 @@
 ---
 title: "Why SEOs Are Hitting ‘Quit’: The Burnout Crisis Behind Google’s Relentless Updates"
 date: 2025-03-18T03:36:48Z
-description: "Picture this: You’ve spent months working hard, following all the “rules” to get your clients’ websites to rank on Google. Then, one morning, you wake up, check"
+description: "Picture this: You’ve spent months working hard, following all the “rules” to get your clients’ websites to rank on Google. Then, one morning, you wake up, check the rankings, and… poof ! Their sites…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/google-seo-not-happy-2.png"
 ---

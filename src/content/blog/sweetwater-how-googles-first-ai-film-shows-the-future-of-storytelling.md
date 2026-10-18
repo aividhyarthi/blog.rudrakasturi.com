@@ -1,7 +1,7 @@
 ---
 title: "Sweetwater: How Google’s First AI Film Shows the Future of Storytelling"
 date: 2025-09-18T02:51:35Z
-description: "Google has premiered Sweetwater , the first short film from its new AI on Screen initiative. On the surface, it’s just a 7-minute story about a family surviving"
+description: "Google has premiered Sweetwater , the first short film from its new AI on Screen initiative. On the surface, it’s just a 7-minute story about a family surviving on the edge of a drying river. But in…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-52.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "From Impressions to Attention: How Smart Publishers Are Monetising Trust"
 date: 2025-07-19T02:40:32Z
-description: "Why the smartest publishers are pivoting from traffic to trust and building revenue where real attention lives. Editora Globo is amonst the companies that have "
+description: "Why the smartest publishers are pivoting from traffic to trust and building revenue where real attention lives. Editora Globo is amonst the companies that have seen a significant drop in pageviews…"
 tag: "Attention"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-47.webp"
 ---

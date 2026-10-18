@@ -1,7 +1,7 @@
 ---
 title: "SEO News Update: Majority of Sites Hit by Google’s September 2023 Helpful Content Update Show Limited Recovery"
 date: 2024-11-07T05:13:47Z
-description: "Glenn Gabe , an SEO expert, recently shared insights on social media platform X , tracking the recovery of about 400 sites affected by Google’s September 2023 h"
+description: "Glenn Gabe , an SEO expert, recently shared insights on social media platform X , tracking the recovery of about 400 sites affected by Google’s September 2023 helpful content update. Here’s what he…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/majority-of-sites-hit-by-googles-september-2023-helpful.png"
 ---

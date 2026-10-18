@@ -1,7 +1,7 @@
 ---
 title: "AI in the Law Office: LLMs Are Doing What Junior Lawyers Can’t (And Google Never Could)"
 date: 2025-07-01T04:24:06Z
-description: "Legal research hasn’t changed in decades. But now, something smarter is doing the groundwork faster, cleaner, and without 10 open tabs. The Frustration is Real "
+description: "Legal research hasn’t changed in decades. But now, something smarter is doing the groundwork faster, cleaner, and without 10 open tabs. The Frustration is Real You have a tenant refusing to vacate. A…"
 tag: "AI Mod"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-87.webp"
 ---

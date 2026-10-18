@@ -1,7 +1,7 @@
 ---
 title: "How to Do YouTube SEO for YouTube Shorts: Simple Tips with Examples"
 date: 2024-10-05T05:54:30Z
-description: "Want your YouTube Shorts to get more views? Here’s a quick guide on how to do SEO for YouTube Shorts — with practical examples to make it easy! 1. Use the Right"
+description: "Want your YouTube Shorts to get more views? Here’s a quick guide on how to do SEO for YouTube Shorts — with practical examples to make it easy! 1. Use the Right Keywords Keywords are words people use…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/YouTube-SEO-Shorts-Tips.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Deleting old content: An SEO solution?"
 date: 2021-07-12T14:59:30Z
-description: "Running a website is time consuming and arduous, however, constantly publishing articles or blog posts from years must have gotten you closer to your goal. With"
+description: "Running a website is time consuming and arduous, however, constantly publishing articles or blog posts from years must have gotten you closer to your goal. With all this there’s also a good chance…"
 tag: "dead content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/delete-file.jpg"
 ---

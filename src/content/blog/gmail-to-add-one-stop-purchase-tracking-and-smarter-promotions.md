@@ -1,7 +1,7 @@
 ---
 title: "Gmail to Add One-Stop Purchase Tracking and Smarter Promotions"
 date: 2025-09-14T02:51:56Z
-description: "Google has announced new features in Gmail aimed at making it easier for users to manage purchase confirmations and promotional emails. The update is rolling ou"
+description: "Google has announced new features in Gmail aimed at making it easier for users to manage purchase confirmations and promotional emails. The update is rolling out just ahead of the holiday season…"
 tag: "Gmail"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-24.webp"
 ---

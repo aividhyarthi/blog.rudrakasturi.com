@@ -1,7 +1,7 @@
 ---
 title: "Reddit’s CEO Steve Huffman on Search, Deep Knowledge, and AI: How Data Is Fueling the Next Generation of Answers"
 date: 2025-08-01T10:12:56Z
-description: "Search isn’t just changing. It’s splitting in two. On one side: AI-generated snippets, lightning-fast summaries, and endless algorithmic content. On the other: "
+description: "Search isn’t just changing. It’s splitting in two. On one side: AI-generated snippets, lightning-fast summaries, and endless algorithmic content. On the other: Reddit, with its 20 billion real human…"
 tag: "google ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/reddit-logo.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Trump Signs Executive Order to Bring AI Education to K–12 Schools"
 date: 2025-04-28T03:48:10Z
-description: "On April 23, 2025, President Donald Trump signed an executive order titled “Advancing Artificial Intelligence Education for American Youth,” aiming to integrate"
+description: "On April 23, 2025, President Donald Trump signed an executive order titled “Advancing Artificial Intelligence Education for American Youth,” aiming to integrate artificial intelligence (AI) into K–12…"
 tag: "Education AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-41.webp"
 ---

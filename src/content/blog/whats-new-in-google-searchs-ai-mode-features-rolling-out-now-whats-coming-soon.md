@@ -1,7 +1,7 @@
 ---
 title: "What’s New in Google Search’s AI Mode: Features Rolling Out Now & What’s Coming Soon"
 date: 2025-07-31T04:06:13Z
-description: "As students head back to school in the U.S., Google is upgrading Search in a big way not just to answer queries, but to help you learn smarter . The company ann"
+description: "As students head back to school in the U.S., Google is upgrading Search in a big way not just to answer queries, but to help you learn smarter . The company announced a range of new features for its…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-89.webp"
 ---

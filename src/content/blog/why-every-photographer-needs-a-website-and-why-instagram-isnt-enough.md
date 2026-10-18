@@ -1,7 +1,7 @@
 ---
 title: "Why Every Photographer Needs a Website (And Why Instagram Isn’t Enough)"
 date: 2025-08-08T04:29:23Z
-description: "In 2025, a lot of photographers still believe Instagram is their portfolio. It’s easy to see why it’s visual, it’s free, and it’s where most clients hang out. B"
+description: "In 2025, a lot of photographers still believe Instagram is their portfolio. It’s easy to see why it’s visual, it’s free, and it’s where most clients hang out. But here’s the uncomfortable truth…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/why-every-photographer-needs-a-website-and-why-instagram-isnt-1.webp"
 ---

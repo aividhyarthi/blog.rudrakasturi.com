@@ -1,7 +1,7 @@
 ---
 title: "Decoding: Inside ChatGPT-5: How It Learned to Say ‘I Don’t Know’"
 date: 2025-08-08T07:24:18Z
-description: "So, GPT-5 is here. It’s sharper, faster, and now officially better at saying, “I don’t know.” https://videopress.com/v/d9bZFQED?resizeToParent=true&cover=true&p"
+description: "So, GPT-5 is here. It’s sharper, faster, and now officially better at saying, “I don’t know.”…"
 tag: "ChatGPT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/chatgpt-5-learned-to-say-no-i-dont-know.webp"
 ---

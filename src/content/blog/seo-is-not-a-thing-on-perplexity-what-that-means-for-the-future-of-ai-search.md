@@ -1,7 +1,7 @@
 ---
 title: "SEO Doesn’t Exist on Perplexity — And That’s the Point"
 date: 2025-04-11T03:28:27Z
-description: "In a now-viral Reddit comment, a Perplexity co-host dropped a quiet bombshell: “It’s going to be difficult. Especially with Pro/Reasoning/Deep Research modes, i"
+description: "In a now-viral Reddit comment, a Perplexity co-host dropped a quiet bombshell: “It’s going to be difficult. Especially with Pro/Reasoning/Deep Research modes, it’s not clear to me if SEO will be a…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/ai-seo-in-perplexity-is-not-a-thing.png"
 ---

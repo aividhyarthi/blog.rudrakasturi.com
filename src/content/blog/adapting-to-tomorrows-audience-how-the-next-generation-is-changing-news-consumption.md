@@ -1,7 +1,7 @@
 ---
 title: "How Gen Z is Completely Changing the Way You’ll Consume News – Are You Ready?"
 date: 2024-10-12T03:36:34Z
-description: "As digital landscapes evolve, so do the behaviors and habits of news consumers. The next generation of news audiences is distinct in how they navigate and inter"
+description: "As digital landscapes evolve, so do the behaviors and habits of news consumers. The next generation of news audiences is distinct in how they navigate and interact with information. Recent research…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-31.png"
 ---

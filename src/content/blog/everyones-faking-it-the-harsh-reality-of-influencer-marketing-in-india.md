@@ -1,7 +1,7 @@
 ---
 title: "Everyone’s Faking It: The Harsh Reality of Influencer Marketing in India"
 date: 2025-06-27T04:36:42Z
-description: "Influencers are posting. Agencies are reporting. Brands are approving. And still... no one knows if anything actually worked. Welcome to influencer marketing in"
+description: "Influencers are posting. Agencies are reporting. Brands are approving. And still... no one knows if anything actually worked. Welcome to influencer marketing in India — a triangle built on vibes…"
 tag: "Influencers"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-78.webp"
 ---

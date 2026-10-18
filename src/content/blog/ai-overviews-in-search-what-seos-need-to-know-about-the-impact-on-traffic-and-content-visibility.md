@@ -1,7 +1,7 @@
 ---
 title: "AI Overviews in Search: What SEOs Need to Know About the Impact on Traffic and Content Visibility"
 date: 2024-10-29T02:26:34Z
-description: "The rise of AI Overviews in Google Search has introduced a new way for users to find quick answers and discover relevant content. While this might seem like an "
+description: "The rise of AI Overviews in Google Search has introduced a new way for users to find quick answers and discover relevant content. While this might seem like an exciting development for users, it…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/ai-overviews-seo-traffic-drop.png"
 ---

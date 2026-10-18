@@ -1,7 +1,7 @@
 ---
 title: "Google Explains Review Snippet Markup - What Changed & How to Fix Your Pages"
 date: 2025-11-19T04:03:52Z
-description: "Google has clarified how review and rating markup must be used. This is not a penalty update. It is a rulebook update. If your stars vanish from search, your tr"
+description: "Google has clarified how review and rating markup must be used. This is not a penalty update. It is a rulebook update. If your stars vanish from search, your traffic takes a direct hit. This guide…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/image-1.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Explainer: Does Removing Old Articles Help Your Crawl Budget & Rankings?"
 date: 2025-03-26T04:19:42Z
-description: "If you’ve ever wondered whether deleting old blog posts or pruning pages from your website will boost your Google rankings, here’s the simple answer: It depends"
+description: "If you’ve ever wondered whether deleting old blog posts or pruning pages from your website will boost your Google rankings, here’s the simple answer: It depends . Let’s break it down with insights…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image-10.png"
 ---

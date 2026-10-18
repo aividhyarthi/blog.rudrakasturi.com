@@ -1,7 +1,7 @@
 ---
 title: "TikTok Goes Dark in the U.S.: Perplexity AI’s Bold Merger Bid and What It Means for the Future"
 date: 2025-01-19T13:32:40Z
-description: "In a surprising twist, Perplexity AI has submitted a bid to merge with TikTok U.S., aiming to reshape the social media and AI landscape. This move comes as TikT"
+description: "In a surprising twist, Perplexity AI has submitted a bid to merge with TikTok U.S., aiming to reshape the social media and AI landscape. This move comes as TikTok faces increasing scrutiny and a…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/image-17.png"
 ---

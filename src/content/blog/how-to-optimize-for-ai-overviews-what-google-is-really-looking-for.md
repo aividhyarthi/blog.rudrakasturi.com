@@ -1,7 +1,7 @@
 ---
 title: "How to Optimize for AI Overviews: What Google Is Really Looking For"
 date: 2025-06-17T13:12:31Z
-description: "You don’t just write for readers anymore. You now write for a machine that summarizes you in one line or skips you entirely. Welcome to the era of AI Overviews "
+description: "You don’t just write for readers anymore. You now write for a machine that summarizes you in one line or skips you entirely. Welcome to the era of AI Overviews – Google's new feature that generates…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/google-ai-overviews-in-search.webp"
 ---

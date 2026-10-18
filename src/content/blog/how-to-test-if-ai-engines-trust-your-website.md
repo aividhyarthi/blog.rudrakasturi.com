@@ -1,7 +1,7 @@
 ---
 title: "How to Test If AI Engines Trust Your Website"
 date: 2026-01-18T02:39:44Z
-description: "A forensic, first-principles framework AI engines trust your website only if they are willing to risk being wrong because of you. That is the real bar. Not ment"
+description: "A forensic, first-principles framework AI engines trust your website only if they are willing to risk being wrong because of you. That is the real bar. Not mentions. Not rankings. Not citations…"
 tag: "AEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/image-22.webp"
 ---

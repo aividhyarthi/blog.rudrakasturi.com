@@ -1,7 +1,7 @@
 ---
 title: "The Impact of Back-to-Back Google Core Updates: Challenges and Opportunities"
 date: 2024-12-13T00:27:42Z
-description: "Google's recent back-to-back core updates in November and December 2024 have stirred significant discussions within the SEO and publishing communities. While th"
+description: "Google's recent back-to-back core updates in November and December 2024 have stirred significant discussions within the SEO and publishing communities. While these updates aim to improve the…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/google-logo.png"
 ---

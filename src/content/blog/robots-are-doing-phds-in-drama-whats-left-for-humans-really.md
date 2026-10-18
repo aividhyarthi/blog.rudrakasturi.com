@@ -1,7 +1,7 @@
 ---
 title: "Robots Are Doing PhDs in Drama - What’s Left for Humans, Really?"
 date: 2025-08-04T04:10:38Z
-description: "Here’s your 2025 update: China’s got a robot named Xueba 01 officially chasing a PhD in drama and film. Yes, drama. Not AI, not robotics, not number crunching. "
+description: "Here’s your 2025 update: China’s got a robot named Xueba 01 officially chasing a PhD in drama and film. Yes, drama. Not AI, not robotics, not number crunching. The one subject people said “needs…"
 tag: "AI Robots"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-18.webp"
 ---

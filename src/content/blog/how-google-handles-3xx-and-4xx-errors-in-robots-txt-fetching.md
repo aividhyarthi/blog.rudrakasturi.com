@@ -1,7 +1,7 @@
 ---
 title: "How Google Handles 3xx and 4xx Errors in Robots.txt Fetching?"
 date: 2024-12-22T04:06:29Z
-description: "When Google crawls a website, the robots.txt file serves as a roadmap, defining what content search engines can or cannot access. But what happens when Google e"
+description: "When Google crawls a website, the robots.txt file serves as a roadmap, defining what content search engines can or cannot access. But what happens when Google encounters 3xx (Redirection) or 4xx…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/robots-file-3xx-and-4xx-error-code.png"
 ---

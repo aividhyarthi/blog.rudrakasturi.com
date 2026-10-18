@@ -1,7 +1,7 @@
 ---
 title: "YouTube’s Blurred Thumbnails Test – A Step Toward Safer Search (and Smarter Monetization)"
 date: 2025-04-30T02:56:39Z
-description: "Announced: April 29, 2025 Audience: YouTube creators, content strategists, SEO folks, and digital safety advocates What’s the Update? YouTube is testing blurred"
+description: "Announced: April 29, 2025 Audience: YouTube creators, content strategists, SEO folks, and digital safety advocates What’s the Update? YouTube is testing blurred thumbnails in search results…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/create-a-highly-detailed-sharp-focused-image-of-a-youtube-search.webp"
 ---

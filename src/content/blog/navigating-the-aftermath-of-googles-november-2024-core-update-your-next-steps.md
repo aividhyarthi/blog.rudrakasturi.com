@@ -1,7 +1,7 @@
 ---
 title: "Traffic Dropped? What to Do After Google’s November 2024 Core Update: A Step-by-Step Guide"
 date: 2024-12-07T05:50:57Z
-description: "Google’s November 2024 Core Update has officially concluded, and for many businesses, it’s been a whirlwind of changes. Some websites have seen a surge in traff"
+description: "Google’s November 2024 Core Update has officially concluded, and for many businesses, it’s been a whirlwind of changes. Some websites have seen a surge in traffic and visibility, while others are…"
 tag: "Google Updates"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/website-traffic-dropped.png"
 ---

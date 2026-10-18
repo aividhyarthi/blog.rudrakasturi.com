@@ -1,7 +1,7 @@
 ---
 title: "Frequently Removing Content From Your Website Can Lead to a Drop in Search Rankings: Google Clarifies"
 date: 2024-10-06T05:56:46Z
-description: "Google recently clarified how they handle legal removals and content demotion for websites that frequently violate policies regarding copyright, defamation, cou"
+description: "Google recently clarified how they handle legal removals and content demotion for websites that frequently violate policies regarding copyright, defamation, counterfeit goods, or other serious…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-20.png"
 ---

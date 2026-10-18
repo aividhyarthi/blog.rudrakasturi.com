@@ -1,7 +1,7 @@
 ---
 title: "Google Tests Removing EU News Content From Search, News & Discover - Impact and Insights Explained"
 date: 2024-11-22T03:39:32Z
-description: "Google is conducting a new experiment in Europe that could have significant implications for both the tech giant and news publishers. This move, tied to complia"
+description: "Google is conducting a new experiment in Europe that could have significant implications for both the tech giant and news publishers. This move, tied to compliance with the European Copyright…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-21.png"
 ---

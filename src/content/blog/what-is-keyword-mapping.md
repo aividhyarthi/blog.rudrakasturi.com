@@ -1,7 +1,7 @@
 ---
 title: "What is keyword mapping?"
 date: 2021-07-10T02:34:40Z
-description: "Mapping is a commonly used technique for Search Engine Optimisation that helps to allocate a set of target keywords to each specific page. This method has been "
+description: "Mapping is a commonly used technique for Search Engine Optimisation that helps to allocate a set of target keywords to each specific page. This method has been employed more in the past, but it still…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/154.jpg"
 ---

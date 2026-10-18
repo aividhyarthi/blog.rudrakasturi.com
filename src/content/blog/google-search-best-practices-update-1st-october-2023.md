@@ -1,7 +1,7 @@
 ---
 title: "Prioritise Initial HTML for Product Markup: Google's Clarification on Product Markup for Shopping Results"
 date: 2024-10-02T05:28:16Z
-description: "Source: Google Search Central documentation updates on Product Markup and Generating Structured Data with JavaScript - October 1st, 2023. Important Points To Co"
+description: "Source: Google Search Central documentation updates on Product Markup and Generating Structured Data with JavaScript - October 1st, 2023. Important Points To Consider From The Update…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image.png"
 ---

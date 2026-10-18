@@ -1,7 +1,7 @@
 ---
 title: "Sergey Brin: I Don’t Think My Kids Should Go to College"
 date: 2025-08-05T09:30:49Z
-description: "Let’s talk about something that might make Indian parents a little nervous. Sergey Brin, the co-founder of Google a man whose company practically built the inte"
+description: "Let’s talk about something that might make Indian parents a little nervous. Sergey Brin, the co-founder of Google a man whose company practically built the internet as we know it now says, “I don’t…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-31.webp"
 ---

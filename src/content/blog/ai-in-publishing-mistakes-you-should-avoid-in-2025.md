@@ -1,7 +1,7 @@
 ---
 title: "AI in Publishing – Mistakes You Should Avoid in 2025"
 date: 2024-12-23T07:54:57Z
-description: "Hello, dear readers! Today, we’re diving into a fascinating yet critical topic: the common mistakes publishers, newsrooms, and CMS teams make while adopting AI."
+description: "Hello, dear readers! Today, we’re diving into a fascinating yet critical topic: the common mistakes publishers, newsrooms, and CMS teams make while adopting AI. AI is like a double-edged sword—it has…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/file-DbVm4qsSs1HDwuAkv3RZDj.webp"
 ---

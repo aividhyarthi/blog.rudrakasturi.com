@@ -1,7 +1,7 @@
 ---
 title: "China’s New AI Model Just Got Cheaper than DeepSeek. But That’s Not the Real Story."
 date: 2025-07-29T04:47:00Z
-description: "While Silicon Valley debates GPT-5’s “spark of AGI,” China is quietly and quickly scaling the AI cost curve. The latest entrant? A new large language model from"
+description: "While Silicon Valley debates GPT-5’s “spark of AGI,” China is quietly and quickly scaling the AI cost curve. The latest entrant? A new large language model from Moonshot AI, claiming to be even…"
 tag: "Cheap AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-85.webp"
 ---

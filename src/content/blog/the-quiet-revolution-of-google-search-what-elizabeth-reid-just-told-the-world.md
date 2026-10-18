@@ -1,7 +1,7 @@
 ---
 title: "The Quiet Revolution of Google Search: What Elizabeth Reid Just Told the World"
 date: 2025-04-16T02:55:48Z
-description: "\"Search isn’t just about finding answers anymore. It’s about starting a journey.\" – Elizabeth Reid, Head of Google Search Remember the good old days when you'd "
+description: "\"Search isn’t just about finding answers anymore. It’s about starting a journey.\" – Elizabeth Reid, Head of Google Search Remember the good old days when you'd type “best pizza near me” into Google…"
 tag: "Elizabeth Reid"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-27.webp"
 ---

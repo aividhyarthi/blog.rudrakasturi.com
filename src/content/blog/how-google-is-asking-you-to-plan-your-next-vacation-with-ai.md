@@ -1,7 +1,7 @@
 ---
 title: "How Google is Asking You to Plan Your Next Vacation with AI"
 date: 2025-09-10T04:25:34Z
-description: "Every year, millions of people turn to Google Flights to figure out when and where to travel for the holidays. But in 2025, Google isn’t just giving you flight "
+description: "Every year, millions of people turn to Google Flights to figure out when and where to travel for the holidays. But in 2025, Google isn’t just giving you flight prices. It’s nudging you to plan your…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-8.webp"
 ---

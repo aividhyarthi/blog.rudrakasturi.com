@@ -1,7 +1,7 @@
 ---
 title: "How Gen Z Navigates the Web: Insights Based on Rand Fishkin’s Web Theory"
 date: 2024-12-06T03:58:45Z
-description: "Rand Fishkin’s Theory of Web Journeys provides a fascinating lens to understand how modern users explore the web. Drawing from his analysis and my own observati"
+description: "Rand Fishkin’s Theory of Web Journeys provides a fascinating lens to understand how modern users explore the web. Drawing from his analysis and my own observations of Gen Z behavior , it’s clear that…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-12.png"
 ---

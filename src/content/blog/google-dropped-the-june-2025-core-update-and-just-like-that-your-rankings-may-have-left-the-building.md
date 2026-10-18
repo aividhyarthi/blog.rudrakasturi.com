@@ -1,7 +1,7 @@
 ---
 title: "Google Dropped the June 2025 Core Update. And Just Like That, Your Rankings May Have Left the Building"
 date: 2025-06-30T17:35:02Z
-description: "Google Spoke One Line. The Internet Shivered \"Today we released the June 2025 core update\" That’s it. No drama. No explanation. Just a link to the ranking updat"
+description: "Google Spoke One Line. The Internet Shivered \"Today we released the June 2025 core update\" That’s it. No drama. No explanation. Just a link to the ranking update page that will eventually be updated…"
 tag: "Algo Updates"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-85.webp"
 ---

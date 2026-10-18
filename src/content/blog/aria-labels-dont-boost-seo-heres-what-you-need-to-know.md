@@ -1,7 +1,7 @@
 ---
 title: "ARIA Labels Don’t Boost SEO – Here’s What You Need to Know"
 date: 2024-10-28T03:57:59Z
-description: "What is ARIA? ARIA (Accessible Rich Internet Applications) is a set of special attributes you can add to HTML elements. These attributes help make web content m"
+description: "What is ARIA? ARIA (Accessible Rich Internet Applications) is a set of special attributes you can add to HTML elements. These attributes help make web content more accessible to people with…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-63.png"
 ---

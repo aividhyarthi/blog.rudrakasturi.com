@@ -1,7 +1,7 @@
 ---
 title: "Mastering Mind Maps in NotebookLM: A Simple Guide"
 date: 2025-04-03T02:04:04Z
-description: "Ever feel overwhelmed by a mountain of information? Whether you're researching, learning something new, or planning a project, it’s easy to get lost in the deta"
+description: "Ever feel overwhelmed by a mountain of information? Whether you're researching, learning something new, or planning a project, it’s easy to get lost in the details. That’s where Mind Maps in…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-6.png"
 ---

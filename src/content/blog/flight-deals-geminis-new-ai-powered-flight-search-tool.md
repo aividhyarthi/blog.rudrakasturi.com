@@ -1,7 +1,7 @@
 ---
 title: "Flight Deals: Gemini's new AI-powered flight search tool"
 date: 2025-08-18T02:57:32Z
-description: "Flight Deals is Google’s AI-powered tool within Google Flights that enables travelers to search using natural language, simplifying the travel planning process. Launched in beta on August 14, 2025, it aims to match users' preferences with real-time flight deals, uncovering unique destinations and enhancing overall user experience, though inaccuracies exist."
+description: "Flight Deals is Google’s AI-powered tool within Google Flights that enables travelers to search using natural language, simplifying the travel planning process. Launched in beta on August 14, 2025…"
 tag: "AI Flight Deals"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-77.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "AI and the Journalist: A Candid Dialogue on Partnership, Not Replacement"
 date: 2024-10-11T04:31:48Z
-description: "In recent years, artificial intelligence (AI) has made significant inroads into various industries, including journalism. As AI becomes more sophisticated, many"
+description: "In recent years, artificial intelligence (AI) has made significant inroads into various industries, including journalism. As AI becomes more sophisticated, many journalists are left wondering: Am I…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-30.png"
 ---

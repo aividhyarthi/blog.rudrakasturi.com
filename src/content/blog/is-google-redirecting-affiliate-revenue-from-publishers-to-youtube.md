@@ -1,7 +1,7 @@
 ---
 title: "Is Google Redirecting Affiliate Revenue From Publishers to YouTube?"
 date: 2024-12-12T04:11:30Z
-description: "Over the past few months, a curious trend has emerged: publishers dependent on affiliate revenue are feeling the squeeze, while YouTube’s affiliate program is e"
+description: "Over the past few months, a curious trend has emerged: publishers dependent on affiliate revenue are feeling the squeeze, while YouTube’s affiliate program is expanding rapidly. Could this be a…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-24.png"
 ---

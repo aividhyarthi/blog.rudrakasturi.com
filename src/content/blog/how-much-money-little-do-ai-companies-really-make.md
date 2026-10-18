@@ -1,7 +1,7 @@
 ---
 title: "How Much Money (Little) Do AI Companies Really Make?"
 date: 2025-08-29T04:58:25Z
-description: "In business school, they teach you that revenue minus cost equals profit. In Silicon Valley, they teach you that hype minus PowerPoint equals valuation. The lat"
+description: "In business school, they teach you that revenue minus cost equals profit. In Silicon Valley, they teach you that hype minus PowerPoint equals valuation. The latest proof? Artificial Intelligence…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-99.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Google Search Central APAC 2025: In a World Full of AI Content, Google Still Wants a Human to Write It"
 date: 2025-07-24T04:48:17Z
-description: "In 2025, most teams are producing more content than ever. But here’s what most of them get wrong: Google’s ranking systems are trained on content written by hum"
+description: "In 2025, most teams are producing more content than ever. But here’s what most of them get wrong: Google’s ranking systems are trained on content written by humans, for humans. That line came…"
 tag: "Google Search"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-70.webp"
 ---

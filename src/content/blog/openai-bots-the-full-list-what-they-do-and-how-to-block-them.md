@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Bots. The Full List, What They Do, And How To Block Them"
 date: 2025-12-10T04:51:29Z
-description: "OpenAI has introduced a clearer system for identifying and controlling the bots that access websites. These bots appear in server logs the same way Googlebot, B"
+description: "OpenAI has introduced a clearer system for identifying and controlling the bots that access websites. These bots appear in server logs the same way Googlebot, Bingbot, or Pinterestbot do. The…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/12/openai-bots-the-full-list-what-they-do-and-how.webp"
 ---

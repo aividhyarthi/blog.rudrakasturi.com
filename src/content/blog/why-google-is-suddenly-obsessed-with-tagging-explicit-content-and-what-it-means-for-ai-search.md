@@ -1,7 +1,7 @@
 ---
 title: "Why Google Is Suddenly Obsessed with Tagging Explicit Content (And What It Means for AI Search)"
 date: 2025-06-07T06:39:55Z
-description: "Let’s be honest - when Google suddenly drops detailed guidelines on how to tag explicit content, it’s not just being a morality cop. There’s something much bigg"
+description: "Let’s be honest - when Google suddenly drops detailed guidelines on how to tag explicit content, it’s not just being a morality cop. There’s something much bigger happening under the hood. And yes, I…"
 tag: "AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-featured-image-that-visually-represents-the-concept-of-1.webp"
 ---

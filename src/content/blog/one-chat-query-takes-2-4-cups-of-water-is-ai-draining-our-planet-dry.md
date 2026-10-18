@@ -1,7 +1,7 @@
 ---
 title: "One Chat Query Takes 2 - 4 Cups of Water. Is AI Draining Our Planet Dry?"
 date: 2024-12-13T03:07:00Z
-description: "Artificial Intelligence (AI) is often hailed as the technology of the future, solving problems from healthcare to transportation. However, beneath its shiny ext"
+description: "Artificial Intelligence (AI) is often hailed as the technology of the future, solving problems from healthcare to transportation. However, beneath its shiny exterior lies a less-discussed issue: AI…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/imag-with-name-friday-note.png"
 ---

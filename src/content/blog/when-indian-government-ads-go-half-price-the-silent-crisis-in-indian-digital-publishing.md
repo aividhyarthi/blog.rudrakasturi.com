@@ -1,7 +1,7 @@
 ---
 title: "When Indian Government Ads Go Half Price: The Silent Crisis in Indian Digital Publishing"
 date: 2025-09-03T06:38:40Z
-description: "In the great drama of Indian media, there are three villains everyone loves to blame. First, Google , for its algorithmic experiments that make or break publish"
+description: "In the great drama of Indian media, there are three villains everyone loves to blame. First, Google , for its algorithmic experiments that make or break publisher traffic overnight. Second, AI , for…"
 tag: "Government Ad Rates"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/create-a-featured-image-for-a-blog-post-titled-government.webp"
 ---

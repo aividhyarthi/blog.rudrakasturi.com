@@ -1,7 +1,7 @@
 ---
 title: "Perplexity Expands Publisher Program with New Partnerships Across the Globe"
 date: 2024-12-05T17:36:53Z
-description: "Perplexity, the AI-powered search engine renowned for delivering factual and valuable answers, has announced a significant expansion of its publisher program . "
+description: "Perplexity, the AI-powered search engine renowned for delivering factual and valuable answers, has announced a significant expansion of its publisher program . Prominent news organizations including…"
 tag: "Industry News"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-9.png"
 ---

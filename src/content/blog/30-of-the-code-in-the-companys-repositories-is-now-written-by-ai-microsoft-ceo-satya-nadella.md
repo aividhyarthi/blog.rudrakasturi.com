@@ -1,7 +1,7 @@
 ---
 title: "30% of the code in the company’s repositories is now written by AI - Microsoft CEO Satya Nadella"
 date: 2025-05-02T04:43:02Z
-description: "At Meta’s LlamaCon conference this week, Microsoft CEO Satya Nadella dropped a jaw‑dropping statistic: 30% of the code in Microsoft’s repositories is now writte"
+description: "At Meta’s LlamaCon conference this week, Microsoft CEO Satya Nadella dropped a jaw‑dropping statistic: 30% of the code in Microsoft’s repositories is now written by AI . This figure—revealed during a…"
 tag: "AI Future"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/05/satya-nadella-and-mark-zuckerberg-on-stage-talking-1.webp"
 ---

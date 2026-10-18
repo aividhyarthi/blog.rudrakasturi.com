@@ -1,7 +1,7 @@
 ---
 title: "Google Discontinues AI While Browsing: What It Means for Users and Publishers"
 date: 2025-03-31T12:19:20Z
-description: "Hey there! Let’s talk about a recent move by Google that has sparked conversations across the web. On March 27, 2025, Google officially discontinued its \"AI whi"
+description: "Hey there! Let’s talk about a recent move by Google that has sparked conversations across the web. On March 27, 2025, Google officially discontinued its \"AI while browsing\" feature (previously known…"
 tag: "google ai summary"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image-13.png"
 ---

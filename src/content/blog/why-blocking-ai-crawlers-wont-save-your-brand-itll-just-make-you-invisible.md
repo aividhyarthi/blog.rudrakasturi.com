@@ -1,7 +1,7 @@
 ---
 title: "Why Blocking AI Crawlers Won’t Save Your Brand – It’ll Just Make You Invisible"
 date: 2025-06-10T02:45:30Z
-description: "Over the past year, I’ve noticed more and more businesses — big and small — starting to block AI crawlers from accessing their websites. The thinking goes: “If "
+description: "Over the past year, I’ve noticed more and more businesses — big and small — starting to block AI crawlers from accessing their websites. The thinking goes: “If we stop these bots from scraping our…"
 tag: "AI Crawling"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-21.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Query Fan-Out in AI Search: What It Is & How It Works?"
 date: 2026-06-22T04:14:54Z
-description: "When you type one question into an AI search engine — Google AI Overviews, ChatGPT, Perplexity, or Gemini — the system does not just search for that one questio"
+description: "When you type one question into an AI search engine — Google AI Overviews, ChatGPT, Perplexity, or Gemini — the system does not just search for that one question. It secretly breaks your question…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/06/query_fanout_feature_image.webp"
 ---

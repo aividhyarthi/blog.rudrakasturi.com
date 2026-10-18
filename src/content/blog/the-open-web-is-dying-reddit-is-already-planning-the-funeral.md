@@ -1,7 +1,7 @@
 ---
 title: "The Open Web Is Dying. Reddit Is Already Planning the Funeral."
 date: 2025-07-15T17:19:08Z
-description: "Inside the collective grief, sarcasm, and strategy playing out on Reddit as AI scrapes the soul out of the internet. First, a Reddit confession: “I miss when pe"
+description: "Inside the collective grief, sarcasm, and strategy playing out on Reddit as AI scrapes the soul out of the internet. First, a Reddit confession: “I miss when people made stupid stuff online just…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-38.webp"
 ---

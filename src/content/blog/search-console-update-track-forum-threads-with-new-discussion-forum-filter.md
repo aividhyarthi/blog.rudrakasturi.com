@@ -1,7 +1,7 @@
 ---
 title: "Search Console Update: Track Forum Threads with New 'Discussion Forum' Filter"
 date: 2025-07-08T16:41:38Z
-description: "Google now supports a new way for forums to show up better in Search. It’s called DiscussionForumPosting structured data . This means if your site has community"
+description: "Google now supports a new way for forums to show up better in Search. It’s called DiscussionForumPosting structured data . This means if your site has community conversations, Google can highlight…"
 tag: "Form Discussions"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-featured-image-that-represents-the-concept-of-discussion.webp"
 ---

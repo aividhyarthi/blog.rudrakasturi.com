@@ -1,7 +1,7 @@
 ---
 title: "Subject: Greetings from 2026: SEO is Alive, But It’s Wearing a New Hat"
 date: 2024-12-16T03:35:02Z
-description: "Dear Digital Marketer of 2024, I write to you from the year 2026 , where SEO is not just alive—it’s thriving, but oh boy, has it put on some futuristic shades. "
+description: "Dear Digital Marketer of 2024, I write to you from the year 2026 , where SEO is not just alive—it’s thriving, but oh boy, has it put on some futuristic shades. You probably thought Google’s Search…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-40.png"
 ---

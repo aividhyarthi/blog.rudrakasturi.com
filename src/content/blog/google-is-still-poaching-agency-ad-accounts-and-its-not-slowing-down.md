@@ -1,7 +1,7 @@
 ---
 title: "Google Is Still Poaching Agency Ad Accounts - And It's Not Slowing Down"
 date: 2026-08-12T06:43:23Z
-description: "Ad Platforms / Agency Trust Your Google rep is calling your client. Directly. Agencies keep catching Google Ads reps emailing their managed accounts straight, \""
+description: "Ad Platforms / Agency Trust Your Google rep is calling your client. Directly. Agencies keep catching Google Ads reps emailing their managed accounts straight, \"book a free call\" and all, over the…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/08/google-ads-email-poach-P7K4vCFt.webp"
 ---

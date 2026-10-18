@@ -1,7 +1,7 @@
 ---
 title: "Is Schema Useful for LLMs? The Impact of Schema on Search and Content Visibility"
 date: 2025-11-19T14:32:11Z
-description: "For years, structured data (schema markup) has helped search engines understand webpages. Today, schema plays an even broader role because it helps large langua"
+description: "For years, structured data (schema markup) has helped search engines understand webpages. Today, schema plays an even broader role because it helps large language models interpret, classify, and…"
 tag: "content structured data"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/image-5.webp"
 ---

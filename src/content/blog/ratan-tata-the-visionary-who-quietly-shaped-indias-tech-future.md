@@ -1,7 +1,7 @@
 ---
 title: "Ratan Tata: The Visionary Who Quietly Shaped India's Tech Future"
 date: 2024-10-11T04:09:32Z
-description: "In an era when the world was chasing after grandiose visions, Ratan Tata quietly set in motion a series of innovations that would come to define India’s tech la"
+description: "In an era when the world was chasing after grandiose visions, Ratan Tata quietly set in motion a series of innovations that would come to define India’s tech landscape. His leadership, though marked…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/ratan-tata.webp"
 ---

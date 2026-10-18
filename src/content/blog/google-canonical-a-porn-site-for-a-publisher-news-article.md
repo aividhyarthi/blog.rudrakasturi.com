@@ -1,7 +1,7 @@
 ---
 title: "Google Canonical a PORN Site for a Publisher News Article"
 date: 2025-07-10T13:37:59Z
-description: "Yes, this actually happened. A well-known Indian news publisher wrote and published a proper, original article. Google crawled it... and then decided the origin"
+description: "Yes, this actually happened. A well-known Indian news publisher wrote and published a proper, original article. Google crawled it... and then decided the original version exists on a porn site…"
 tag: "Canonical"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-an-image-with-this-line-google-canonical-a-2.webp"
 ---

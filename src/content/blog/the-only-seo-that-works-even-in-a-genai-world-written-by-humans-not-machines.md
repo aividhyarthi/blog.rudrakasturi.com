@@ -1,7 +1,7 @@
 ---
 title: "The Only SEO That Works - Even in a GenAI World: Written by Humans, Not Machines"
 date: 2025-07-24T05:02:38Z
-description: "In the age of AI content farms, cheap GenAI tools, and LLM-generated blogspam, one truth has quietly held its ground: Google’s ranking algorithms are still trai"
+description: "In the age of AI content farms, cheap GenAI tools, and LLM-generated blogspam, one truth has quietly held its ground: Google’s ranking algorithms are still trained on content written by humans for…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-71.webp"
 ---

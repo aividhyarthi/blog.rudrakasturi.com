@@ -1,7 +1,7 @@
 ---
 title: "Is SEO Still Worth It? A Reddit Post Sparks an Industry Reflection"
 date: 2024-12-08T19:08:04Z
-description: "Scrolling through the r/SEO subreddit, we stumbled upon a post that seemed to encapsulate the collective frustration of many in the SEO industry today. The user"
+description: "Scrolling through the r/SEO subreddit, we stumbled upon a post that seemed to encapsulate the collective frustration of many in the SEO industry today. The user, overwhelmed by the shifting dynamics…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-17.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Disallowing AI Crawlers: A Guide for SEOs and Technical Teams"
 date: 2024-12-18T03:12:21Z
-description: "A popular technical question at the Google Search Central Conference December 2024 in Zurich revolved around managing AI crawlers and their impact on normal sea"
+description: "A popular technical question at the Google Search Central Conference December 2024 in Zurich revolved around managing AI crawlers and their impact on normal search crawling. The session shed light on…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-high-resolution-image-that-visually-represents-the.png"
 ---

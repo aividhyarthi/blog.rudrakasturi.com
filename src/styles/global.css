@@ -216,3 +216,5 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; line-height: 1.12;
 .topic-row { display: flex; justify-content: space-between; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--rule); text-decoration: none; font-family: var(--serif); font-size: 1.5rem; font-weight: 700; }
 .topic-row small { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); font-weight: 400; }
 .topic-row:hover { color: var(--accent); }
+
+.contact p.label { font-family: var(--mono); font-size: 0.74rem; color: #d9a99c; margin-bottom: 0; max-width: none; }

@@ -1,7 +1,7 @@
 ---
 title: "The DOJ Wants Google to Sell Chrome: What’s Happening and Why?"
 date: 2024-11-22T02:47:58Z
-description: "In a big move against tech giant Google, the U.S. Department of Justice (DOJ) has proposed that Google sell its popular web browser, Chrome. This recommendation"
+description: "In a big move against tech giant Google, the U.S. Department of Justice (DOJ) has proposed that Google sell its popular web browser, Chrome. This recommendation is part of a broader effort to limit…"
 tag: "Chrome"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-20.png"
 ---

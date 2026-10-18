@@ -1,7 +1,7 @@
 ---
 title: "How Figma and OpenAI Are Redefining Design with AI: An Explainer"
 date: 2025-08-02T06:38:34Z
-description: "The world of digital design is evolving at an incredible pace, and the recent collaboration between Figma and OpenAI is a landmark moment. If you’re curious abo"
+description: "The world of digital design is evolving at an incredible pace, and the recent collaboration between Figma and OpenAI is a landmark moment. If you’re curious about how artificial intelligence is…"
 tag: "AI Collaboration"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/figma-and-openai.webp"
 ---

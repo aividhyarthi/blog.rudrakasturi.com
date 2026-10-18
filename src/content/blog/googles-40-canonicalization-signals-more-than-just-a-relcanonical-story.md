@@ -1,7 +1,7 @@
 ---
 title: "Google’s 40+ Canonicalization Signals: More Than Just a “Rel=Canonical” Story"
 date: 2024-12-08T19:42:34Z
-description: "Did you know Google taps into over 40 signals to figure out canonicalization? Yep, it’s not just about your trusty rel=\"canonical\" tag. Google’s system digs dee"
+description: "Did you know Google taps into over 40 signals to figure out canonicalization? Yep, it’s not just about your trusty rel=\"canonical\" tag. Google’s system digs deeper, considering redirects, x-default…"
 tag: "Google Search"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-high-resolution-image-featuring-a-digital-representation.png"
 ---

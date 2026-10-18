@@ -1,7 +1,7 @@
 ---
 title: "Google Explains Why Lazy Loading Can Delay Largest Contentful Paint (LCP)"
 date: 2025-08-22T05:01:33Z
-description: "Google’s Martin Splitt has explained why using lazy loading for images that appear right at the top of a webpage (like hero images or banners) can make your sit"
+description: "Google’s Martin Splitt has explained why using lazy loading for images that appear right at the top of a webpage (like hero images or banners) can make your site feel slower. The problem? The biggest…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-featured-image-showcasing-a-split-screen-design-highlighting-the.webp"
 ---

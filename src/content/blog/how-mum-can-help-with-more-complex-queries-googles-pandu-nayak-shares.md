@@ -1,7 +1,7 @@
 ---
 title: "How ‘MUM’ can help with more complex queries: Google’s Pandu Nayak shares"
 date: 2021-07-12T12:38:38Z
-description: "The digital experience has reached new heights in the last few years, thanks to the development of faster internet networks, and the unstoppable worldwide mobil"
+description: "The digital experience has reached new heights in the last few years, thanks to the development of faster internet networks, and the unstoppable worldwide mobile e-commerce businesses. From the past…"
 tag: "BERT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/translator.jpg"
 ---

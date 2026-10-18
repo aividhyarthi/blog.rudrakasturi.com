@@ -1,7 +1,7 @@
 ---
 title: "The Case for a Calm AI Mode"
 date: 2025-07-21T02:58:57Z
-description: "Why the Next Big AI Feature Isn’t Faster Answers. It’s Inner Peace. TL;DR: We don’t need another AI that screams speed. We need one that breathes before replyin"
+description: "Why the Next Big AI Feature Isn’t Faster Answers. It’s Inner Peace. TL;DR: We don’t need another AI that screams speed. We need one that breathes before replying. A Calm Mode for AI could be the most…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/calm-ai-isnt-boring-its-braver-1.webp"
 ---

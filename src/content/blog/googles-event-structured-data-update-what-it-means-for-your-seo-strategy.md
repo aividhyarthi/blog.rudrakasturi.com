@@ -1,7 +1,7 @@
 ---
 title: "Google’s Event Structured Data Update: What It Means for Your SEO Strategy"
 date: 2025-06-06T07:11:29Z
-description: "Google has recently updated its Events structured data documentation , introducing a set of changes that could significantly impact how your events are surfaced"
+description: "Google has recently updated its Events structured data documentation , introducing a set of changes that could significantly impact how your events are surfaced in search results. This isn’t a minor…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-featured-image-for-a-blog-post-about-googles-2.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Google Removes the 'Noarchive' Meta Tag: What It Means for Your Website"
 date: 2024-10-06T05:20:43Z
-description: "Google has made a significant change that affects how certain pages appear in search results. If you’ve ever used the \"noarchive\" meta tag on your website, this"
+description: "Google has made a significant change that affects how certain pages appear in search results. If you’ve ever used the \"noarchive\" meta tag on your website, this update is for you. Here’s everything…"
 tag: "Cache"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/NoArchive-Meta-Tag.webp"
 ---

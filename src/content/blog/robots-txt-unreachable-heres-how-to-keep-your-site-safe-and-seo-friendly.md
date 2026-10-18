@@ -1,7 +1,7 @@
 ---
 title: "Robots.txt Unreachable? Here's How to Keep Your Site Safe and SEO-Friendly"
 date: 2024-10-15T02:32:22Z
-description: "When managing a website, the robots.txt file plays an important role in telling search engines like Google which pages they should or shouldn’t crawl. But what "
+description: "When managing a website, the robots.txt file plays an important role in telling search engines like Google which pages they should or shouldn’t crawl. But what happens if Google can’t reach your…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-38.png"
 ---

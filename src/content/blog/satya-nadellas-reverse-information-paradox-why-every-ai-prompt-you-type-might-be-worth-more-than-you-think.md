@@ -1,7 +1,7 @@
 ---
 title: "Satya Nadella's Reverse Information Paradox: why every AI prompt you type might be worth more than you think"
 date: 2026-07-13T09:58:46Z
-description: "Satya Nadella's new warning is forcing companies to ask an uncomfortable question: when you pay for AI, what are you really giving away in return? The Original "
+description: "Satya Nadella's new warning is forcing companies to ask an uncomfortable question: when you pay for AI, what are you really giving away in return? The Original Paradox, Flipped In 1966, Nobel-winning…"
 tag: "ChatGPT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/image-2.webp"
 ---

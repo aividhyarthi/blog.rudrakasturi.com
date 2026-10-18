@@ -1,7 +1,7 @@
 ---
 title: "Google Search is Getting Smarter With AI: Here’s What That Means for You"
 date: 2024-10-05T03:40:28Z
-description: "Have you ever searched for something like “vegetarian appetizer ideas” and ended up with a confusing list of links, not sure which one to click on? Google’s new"
+description: "Have you ever searched for something like “vegetarian appetizer ideas” and ended up with a confusing list of links, not sure which one to click on? Google’s new AI-powered search feature is here to…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/AI-Recipes-Organised.webp"
 ---

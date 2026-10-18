@@ -1,7 +1,7 @@
 ---
 title: "How One “No One Knows Us” Supplement Brand Beat Big Players in AI Mode Search (Without Burning VC Cash)"
 date: 2025-06-30T10:17:19Z
-description: "Let me tell you a very desi story. A small health brand - let’s call it PachanPlus was doing everything right. Packaging looked premium (read: pastel and minima"
+description: "Let me tell you a very desi story. A small health brand - let’s call it PachanPlus was doing everything right. Packaging looked premium (read: pastel and minimal, like it went to IIT Bombay). Product…"
 tag: "Branding"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-84.webp"
 ---

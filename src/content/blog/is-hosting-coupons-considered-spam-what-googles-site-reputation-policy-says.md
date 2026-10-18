@@ -1,7 +1,7 @@
 ---
 title: "Is Hosting Coupons Considered Spam? What Google’s Site Reputation Policy Says?"
 date: 2024-10-06T05:34:10Z
-description: "If your website hosts coupons, you might wonder whether it’s considered spam under Google’s site reputation policies. Google recently clarified their stance, es"
+description: "If your website hosts coupons, you might wonder whether it’s considered spam under Google’s site reputation policies. Google recently clarified their stance, especially for websites working with…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Coupons-Policy.webp"
 ---

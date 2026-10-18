@@ -1,7 +1,7 @@
 ---
 title: "Why Old SEO Metrics Don’t Work Anymore — And What Indian Founders Should Measure Today"
 date: 2025-06-05T01:44:52Z
-description: "By Rudra Kasturi India | For founders, marketers & growth hackers Let’s be honest… The SEO game we all knew has changed. Back then: Rank on Google → get clicks "
+description: "By Rudra Kasturi India | For founders, marketers & growth hackers Let’s be honest… The SEO game we all knew has changed. Back then: Rank on Google → get clicks → get leads → celebrate. Now in 2025…"
 tag: "copilot"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/seo-kpis-in-2025-after-gen-ai-4.webp"
 ---

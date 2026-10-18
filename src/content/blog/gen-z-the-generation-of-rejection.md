@@ -1,7 +1,7 @@
 ---
 title: "Gen Z: The Generation of Rejection"
 date: 2025-03-17T05:57:13Z
-description: "As we step into 2025, Generation Z is making its mark on the world. With over 2.4 billion individuals globally, Gen Z makes up about 30% of the global populatio"
+description: "As we step into 2025, Generation Z is making its mark on the world. With over 2.4 billion individuals globally, Gen Z makes up about 30% of the global population and is projected to contribute…"
 tag: "GenZ"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image-1.png"
 ---

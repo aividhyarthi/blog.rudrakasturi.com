@@ -1,7 +1,7 @@
 ---
 title: "How McDonald’s Is Betting Big on AI to Transform Fast Food"
 date: 2025-08-02T06:50:13Z
-description: "The fast-food industry is entering a new era, and McDonald’s is leading the charge with a bold investment in artificial intelligence. According to recent news, "
+description: "The fast-food industry is entering a new era, and McDonald’s is leading the charge with a bold investment in artificial intelligence. According to recent news, McDonald’s plans to double its AI…"
 tag: "AI Food"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-high-resolution-image-featuring-a-modern-mcdonalds-1.webp"
 ---

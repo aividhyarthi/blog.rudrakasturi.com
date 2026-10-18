@@ -1,7 +1,7 @@
 ---
 title: "Site Ranking For Unusual Keywords? Here is why"
 date: 2021-07-16T18:38:07Z
-description: "Keywords are crucial because they connect what people are looking for with the content you're giving to meet that demand. Your aim in ranking on search engines "
+description: "Keywords are crucial because they connect what people are looking for with the content you're giving to meet that demand. Your aim in ranking on search engines is to drive organic traffic to your…"
 tag: "google page experience update"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/11000.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Vogue Just Featured an AI Model. It’s Not Just an Ad - It’s a Warning."
 date: 2025-07-28T10:23:38Z
-description: "When Vogue – the most powerful name in fashion – shows off a beautiful AI model in its pages , it’s not just about tech or trends. It’s a red flag. In the Augus"
+description: "When Vogue – the most powerful name in fashion – shows off a beautiful AI model in its pages , it’s not just about tech or trends. It’s a red flag. In the August 2025 issue, Vogue ran an ad for…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-featured-image-for-a-blog-post-titled-vogue.webp"
 ---

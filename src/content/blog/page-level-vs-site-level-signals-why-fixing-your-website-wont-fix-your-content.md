@@ -1,7 +1,7 @@
 ---
 title: "Page-Level vs. Site-Level Signals: Why Fixing Your Website Won't Fix Your Content"
 date: 2026-06-22T06:53:40Z
-description: "You can repaint the whole building. If the food on the plate is still mediocre, nobody comes back. Page-Level vs. Site-Level SEO Signals — Rudra Kasturi 22nd Ju"
+description: "You can repaint the whole building. If the food on the plate is still mediocre, nobody comes back. Page-Level vs. Site-Level SEO Signals — Rudra Kasturi 22nd June 2026 · 8 min read · Rudra Kasturi…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/06/page_vs_site_signals_feature_image_v2.webp"
 ---

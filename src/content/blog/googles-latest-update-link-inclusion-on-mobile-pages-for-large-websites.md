@@ -1,7 +1,7 @@
 ---
 title: "Google's Latest Update: Link Inclusion on Mobile Pages for Large Websites"
 date: 2024-11-07T05:00:14Z
-description: "What’s New? Google recently added a best practice in its crawl budget documentation for large websites that use separate HTML for mobile and desktop pages. This"
+description: "What’s New? Google recently added a best practice in its crawl budget documentation for large websites that use separate HTML for mobile and desktop pages. This update emphasizes the importance of…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image.png"
 ---

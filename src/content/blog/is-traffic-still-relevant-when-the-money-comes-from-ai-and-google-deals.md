@@ -1,7 +1,7 @@
 ---
 title: "Is Traffic Still Relevant When the Money Comes from AI and Google Deals?"
 date: 2024-12-06T04:16:10Z
-description: "But in 2024, the digital landscape is shifting. AI-powered platforms, growing communities like Reddit, and new monetization models are challenging the relevance"
+description: "But in 2024, the digital landscape is shifting. AI-powered platforms, growing communities like Reddit, and new monetization models are challenging the relevance of traffic as the key metric for…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-13.png"
 ---

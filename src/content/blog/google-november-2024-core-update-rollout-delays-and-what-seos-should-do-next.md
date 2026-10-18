@@ -1,7 +1,7 @@
 ---
 title: "Google November 2024 Core Update: Rollout Delays and What SEOs Should Do Next"
 date: 2024-12-05T02:51:43Z
-description: "Google announced its November 2024 Core Update on November 11, 2024 , with the promise of completing the rollout within two weeks. As of December 5, 2024 , the "
+description: "Google announced its November 2024 Core Update on November 11, 2024 , with the promise of completing the rollout within two weeks. As of December 5, 2024 , the update has yet to be confirmed as…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/google-algorithm-updates.png"
 ---

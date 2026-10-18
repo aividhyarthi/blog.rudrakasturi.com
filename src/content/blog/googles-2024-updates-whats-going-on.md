@@ -1,7 +1,7 @@
 ---
 title: "Google's 2024 Updates: What’s Going On?"
 date: 2024-10-05T05:38:36Z
-description: "Google’s been making some big changes this year to make sure we get the best stuff when we search online. Let’s dive into what Google has been up to and how it’"
+description: "Google’s been making some big changes this year to make sure we get the best stuff when we search online. Let’s dive into what Google has been up to and how it’s changing what we see when we search!…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/output-2-1.png"
 ---

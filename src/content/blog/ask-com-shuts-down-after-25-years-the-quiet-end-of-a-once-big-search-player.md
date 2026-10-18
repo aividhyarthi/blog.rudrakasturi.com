@@ -1,7 +1,7 @@
 ---
 title: "Ask.com Shuts Down After 25 Years: The Quiet End of a Once-Big Search Player"
 date: 2026-05-05T03:14:51Z
-description: "After 25 years on the internet, Ask.com has officially shut down. Parent company IAC confirmed that it is exiting the search business altogether, with Ask.com g"
+description: "After 25 years on the internet, Ask.com has officially shut down. Parent company IAC confirmed that it is exiting the search business altogether, with Ask.com going offline on May 1, 2026. For many…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/05/image.webp"
 ---

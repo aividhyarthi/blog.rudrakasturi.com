@@ -1,7 +1,7 @@
 ---
 title: "Why SEO is Important for you?"
 date: 2021-06-28T19:09:44Z
-description: "Are you an owner of an online business? Or just working for one? Do you ever wonder how to improve your ranking on Google without paying for it? Well, you might"
+description: "Are you an owner of an online business? Or just working for one? Do you ever wonder how to improve your ranking on Google without paying for it? Well, you might already be familiar with some of the…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/06/google-search-central-logo.png"
 ---

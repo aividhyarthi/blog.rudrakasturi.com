@@ -1,7 +1,7 @@
 ---
 title: "AI Mode Just Went Live 100% in India – And My First Observations Are Wild"
 date: 2025-07-09T08:09:46Z
-description: "I didn’t expect this to go live so soon. But yes, it’s here. Google’s AI Mode is now officially rolling out in India. Over the last 48 hours, I’ve been testing "
+description: "I didn’t expect this to go live so soon. But yes, it’s here. Google’s AI Mode is now officially rolling out in India. Over the last 48 hours, I’ve been testing queries across devices, browsers…"
 tag: "AI Mode"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/ai-mode-is-live-100-in-india-8.webp"
 ---

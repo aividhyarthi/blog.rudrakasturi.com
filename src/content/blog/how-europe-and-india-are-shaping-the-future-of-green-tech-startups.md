@@ -1,7 +1,7 @@
 ---
 title: "How Europe and India Are Shaping the Future of Green Tech Startups"
 date: 2025-01-07T11:16:01Z
-description: "The Green Tech Revolution The European Green Deal is our new growth strategy. It will help us cut emissions, create jobs, and drive innovation. - Ursula von der"
+description: "The Green Tech Revolution The European Green Deal is our new growth strategy. It will help us cut emissions, create jobs, and drive innovation. - Ursula von der Leyen , President of the European…"
 tag: "Industry News"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/image-8.png"
 ---

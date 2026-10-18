@@ -1,7 +1,7 @@
 ---
 title: "Are AI Selfie Apps Safe? The Hidden Risks of Uploading Your Photos"
 date: 2025-09-15T05:20:04Z
-description: "We all love a quick dopamine hit. Upload your selfie into an AI app - Gibilify, Gemini Image, Nano Banana, whatever cool-sounding nonsense they call it and seco"
+description: "We all love a quick dopamine hit. Upload your selfie into an AI app - Gibilify, Gemini Image, Nano Banana, whatever cool-sounding nonsense they call it and seconds later you’re staring at your…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-27.webp"
 ---

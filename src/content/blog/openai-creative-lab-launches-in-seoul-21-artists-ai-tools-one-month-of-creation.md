@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Creative Lab Launches in Seoul - 21 Artists, AI Tools, One Month of Creation"
 date: 2025-08-13T05:14:55Z
-description: "13th August 2025 – Seoul, South Korea OpenAI has officially launched the OpenAI Creative Lab , a global artist program aimed at empowering visual storytellers, "
+description: "13th August 2025 – Seoul, South Korea OpenAI has officially launched the OpenAI Creative Lab , a global artist program aimed at empowering visual storytellers, designers, and creators to explore new…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-74.webp"
 ---

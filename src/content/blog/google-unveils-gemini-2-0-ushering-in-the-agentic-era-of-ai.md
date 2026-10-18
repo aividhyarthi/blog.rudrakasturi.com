@@ -1,7 +1,7 @@
 ---
 title: "Google Unveils Gemini 2.0: Ushering in the Agentic Era of AI"
 date: 2024-12-12T05:05:11Z
-description: "In a monumental leap forward, Google has officially launched Gemini 2.0 , its most advanced AI model to date, designed for the “agentic era.” This next-generati"
+description: "In a monumental leap forward, Google has officially launched Gemini 2.0 , its most advanced AI model to date, designed for the “agentic era.” This next-generation AI system goes beyond understanding…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-25.png"
 ---

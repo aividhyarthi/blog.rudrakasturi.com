@@ -1,7 +1,7 @@
 ---
 title: "Where does the path of Personalized Knowledge Graphs lead?"
 date: 2021-07-09T06:27:11Z
-description: "Google introduces a new patent application referred to as a personalized entity repository in the form of knowledge graphs to assess the actions and suggestions"
+description: "Google introduces a new patent application referred to as a personalized entity repository in the form of knowledge graphs to assess the actions and suggestions of the users. This patent application…"
 tag: "Browseable Repository"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/line-graph-28148_1280.png"
 ---

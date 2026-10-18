@@ -1,7 +1,7 @@
 ---
 title: "Google’s all new ‘MUM’ algorithm: An emerging Google Search challenge"
 date: 2021-07-08T20:38:00Z
-description: "Google, lately, has been pulling out its weight to help the users have a better experience by constantly developing the Google AI. Similarly, Google has announc"
+description: "Google, lately, has been pulling out its weight to help the users have a better experience by constantly developing the Google AI. Similarly, Google has announced its all new algorithm named ‘MUM.’…"
 tag: "AI tool"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/google-485611_1280.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Blocking AI Bots in Robots.txt: A Comprehensive Guide"
 date: 2024-11-28T02:35:31Z
-description: "The exponential growth of AI and web crawling technologies has introduced many AI-driven bots that access and analyze websites. While some bots provide value (e"
+description: "The exponential growth of AI and web crawling technologies has introduced many AI-driven bots that access and analyze websites. While some bots provide value (e.g., improving search engines or…"
 tag: "AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-23.png"
 ---

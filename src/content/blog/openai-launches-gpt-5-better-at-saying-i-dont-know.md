@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Launches GPT-5: Better at Saying 'I Don’t Know"
 date: 2025-08-08T04:41:22Z
-description: "OpenAI has rolled out GPT-5, its most advanced artificial intelligence model to date, across all ChatGPT plans worldwide. The release replaces multiple separate"
+description: "OpenAI has rolled out GPT-5, its most advanced artificial intelligence model to date, across all ChatGPT plans worldwide. The release replaces multiple separate models with a single adaptive system…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/Screenshot-2025-08-08-at-9.50.24-AM.webp"
 ---

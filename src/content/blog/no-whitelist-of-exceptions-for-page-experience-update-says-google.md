@@ -1,7 +1,7 @@
 ---
 title: "‘No Whitelist of exceptions for Page Experience Update’ says Google"
 date: 2021-07-08T18:54:31Z
-description: "A whitelist is a database of email and IP addresses that have been designated as \"safe\" by search engines. According to Google's John Mueller, the page experien"
+description: "A whitelist is a database of email and IP addresses that have been designated as \"safe\" by search engines. According to Google's John Mueller, the page experience upgrade has no exception list or…"
 tag: "core web vitals update"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/rag-dolls-one-red-e1625770440767.jpg"
 ---

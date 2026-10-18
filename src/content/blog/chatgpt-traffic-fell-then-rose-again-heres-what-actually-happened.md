@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Traffic Fell, Then Rose Again. Here's What Actually Happened"
 date: 2026-07-02T03:26:05Z
-description: "E-commerce, SaaS, fintech, auto, health, beauty, astro — if any part of your traffic depends on ChatGPT, this is the pattern you need to understand, not just th"
+description: "E-commerce, SaaS, fintech, auto, health, beauty, astro — if any part of your traffic depends on ChatGPT, this is the pattern you need to understand, not just the headline. If you track referral…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/chatgpt-traffic-featured-image.webp"
 ---

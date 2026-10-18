@@ -1,7 +1,7 @@
 ---
 title: "Introducing ChatGPT Search: Instant, Timely Answers with Relevant Web Links!"
 date: 2024-11-01T03:14:04Z
-description: "OpenAI has introduced a new feature called ChatGPT Search, enhancing the ChatGPT experience by integrating real-time web search capabilities. This update allows"
+description: "OpenAI has introduced a new feature called ChatGPT Search, enhancing the ChatGPT experience by integrating real-time web search capabilities. This update allows users to access up-to-date information…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/Screenshot-2024-11-01-at-8.21.25 AM.png"
 ---

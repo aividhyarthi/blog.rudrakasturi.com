@@ -1,7 +1,7 @@
 ---
 title: "Google to end using ads for tracking user data"
 date: 2021-07-16T17:35:50Z
-description: "Google notified that after third-party cookies are phased out of its platforms, the Search Engine will not establish substitute identifiers to track individuals"
+description: "Google notified that after third-party cookies are phased out of its platforms, the Search Engine will not establish substitute identifiers to track individuals while they browse the web. After…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/google-485611_1280.png"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Instagram Update: Your Public Posts Will Show Up on Google from July 10"
 date: 2025-06-17T04:53:34Z
-description: "Instagram is making a big change, and if you have a professional account , you need to pay attention. From July 10, 2025 , your public photos and videos may sta"
+description: "Instagram is making a big change, and if you have a professional account , you need to pay attention. From July 10, 2025 , your public photos and videos may start appearing in search engine results…"
 tag: "Instagram"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-featured-image-for-a-blog-post-about-instagrams.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Clustering and Localization: How Google Keeps It All Organized"
 date: 2024-12-08T19:34:59Z
-description: "During a recent episode of Search Off The Record , Google’s Allan Scott shared fascinating insights into how Google deals with clustering and localization. If y"
+description: "During a recent episode of Search Off The Record , Google’s Allan Scott shared fascinating insights into how Google deals with clustering and localization. If you’ve ever wondered how Google decides…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-high-resolution-featured-image-for-a-blog.png"
 ---

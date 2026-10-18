@@ -1,7 +1,7 @@
 ---
 title: "America’s Students Get $1 Billion AI Investment from Google for Training and Resources"
 date: 2025-08-07T03:55:09Z
-description: "In a landmark announcement , Google has pledged $1 billion over the next three years to support AI education, tools, and infrastructure for students at accredit"
+description: "In a landmark announcement , Google has pledged $1 billion over the next three years to support AI education, tools, and infrastructure for students at accredited nonprofit colleges and universities…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/google-logo-ai-us-students-learning-ai-with.webp"
 ---

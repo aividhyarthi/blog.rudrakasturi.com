@@ -1,7 +1,7 @@
 ---
 title: "Could Zerodha + Comet Browser Change the Game for Indian Investors?"
 date: 2025-08-14T12:15:37Z
-description: "On August 9, 2025, a casual exchange on X (formerly Twitter) got the Indian investing community buzzing. Perplexity AI’s co-founder Aravind Srinivas posted a si"
+description: "On August 9, 2025, a casual exchange on X (formerly Twitter) got the Indian investing community buzzing. Perplexity AI’s co-founder Aravind Srinivas posted a simple question to Zerodha’s Nikhil…"
 tag: "AI finance"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/zerdha-perplexity-just-use-this-text-as-it-1.webp"
 ---

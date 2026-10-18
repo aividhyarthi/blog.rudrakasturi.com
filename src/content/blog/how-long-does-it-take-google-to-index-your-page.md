@@ -1,7 +1,7 @@
 ---
 title: "How long does it take Google to Index your Page?"
 date: 2021-07-16T18:41:53Z
-description: "A new video in the AskGooglebot series from John Mueller, a Google search relations representative, answers the question: how long does SEO take for new pages? "
+description: "A new video in the AskGooglebot series from John Mueller, a Google search relations representative, answers the question: how long does SEO take for new pages? The answer began with the standard John…"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/07/dallc2b7e-2024-07-27-19.57.21-a-clean-minimalistic-image-with-the-text-seo-written-in-a-modern-font.-the-background-should-be-simple-and-solid-similar-to-a-button-or-badge-desi.webp"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Google Traffic Drops by 50% After Site Hack: What SEOs Should Know"
 date: 2025-08-18T03:37:32Z
-description: "Security is often treated as a back-end concern, but a recent case shows why SEOs can’t afford to ignore it. A site reported a sudden 50% drop in Google traffic"
+description: "Security is often treated as a back-end concern, but a recent case shows why SEOs can’t afford to ignore it. A site reported a sudden 50% drop in Google traffic in just two weeks , falling from over…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-84.webp"
 ---

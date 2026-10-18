@@ -1,7 +1,7 @@
 ---
 title: "10 Ways to Try Our New Native Image Editing in the Gemini App"
 date: 2025-09-18T03:03:13Z
-description: "Our new Google DeepMind image generation and editing model nicknamed Nano Banana is now part of the Gemini app, opening up a new world of creativity. Whether yo"
+description: "Our new Google DeepMind image generation and editing model nicknamed Nano Banana is now part of the Gemini app, opening up a new world of creativity. Whether you want to see your pet as a comic-book…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-65.webp"
 ---

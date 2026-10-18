@@ -1,7 +1,7 @@
 ---
 title: "Made in India. Written by AI."
 date: 2025-10-19T07:01:57Z
-description: "I’m going to be honest. This article - the one you’re reading right now - is partly written by AI. Not ghostwritten, not fully automated. Just... assisted. But "
+description: "I’m going to be honest. This article - the one you’re reading right now - is partly written by AI. Not ghostwritten, not fully automated. Just... assisted. But even that feels strange. Because I’m…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-19-2025-12_10_00-PM.webp"
 ---

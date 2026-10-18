@@ -1,7 +1,7 @@
 ---
 title: "You Didn't Lose Your Job. You Got In Early."
 date: 2026-07-31T16:26:23Z
-description: "If you got laid off from SEO, here's the first thing I want you to do. Stop worrying. Not because it doesn't hurt. It does. But because you're standing at the s"
+description: "If you got laid off from SEO, here's the first thing I want you to do. Stop worrying. Not because it doesn't hurt. It does. But because you're standing at the start of something most people never get…"
 tag: "AEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/seo-blog-featured-image.webp"
 ---

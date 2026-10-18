@@ -1,7 +1,7 @@
 ---
 title: "The Inspiring Story of Britannica: From Bookshelves to AI Brilliance"
 date: 2024-12-22T04:50:13Z
-description: "For nearly 250 years, Encyclopaedia Britannica symbolized human knowledge. Its beautiful, gold-embossed volumes were more than just reference books—they were tr"
+description: "For nearly 250 years, Encyclopaedia Britannica symbolized human knowledge. Its beautiful, gold-embossed volumes were more than just reference books—they were treasures passed down generations, often…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-sharp-focus-image-depicting-the-transformation-of.png"
 ---

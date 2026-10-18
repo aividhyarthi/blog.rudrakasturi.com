@@ -1,7 +1,7 @@
 ---
 title: "Reddit, Google in Talks to Deepen AI Partnership: Report"
 date: 2025-09-18T02:39:03Z
-description: "Reddit has quietly become one of the most important suppliers of content for AI systems. Every Google AI Overview, every ChatGPT answer, every “what people are "
+description: "Reddit has quietly become one of the most important suppliers of content for AI systems. Every Google AI Overview, every ChatGPT answer, every “what people are saying online” snippet chances are…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-51.webp"
 ---

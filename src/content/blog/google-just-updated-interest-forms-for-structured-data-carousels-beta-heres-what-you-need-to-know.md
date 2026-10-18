@@ -1,7 +1,7 @@
 ---
 title: "Google Just Updated Interest Forms for Structured Data Carousels (Beta): Here's What You Need to Know"
 date: 2025-04-14T04:24:22Z
-description: "Hey folks, Nita here, I'm back with a quick-but-crucial update that anyone in SEO, especially technical SEO, should have on their radar. So, Google just made a "
+description: "Hey folks, Nita here, I'm back with a quick-but-crucial update that anyone in SEO, especially technical SEO, should have on their radar. So, Google just made a quiet little update on April 11 that…"
 tag: "Carousel Markup"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-23.png"
 ---

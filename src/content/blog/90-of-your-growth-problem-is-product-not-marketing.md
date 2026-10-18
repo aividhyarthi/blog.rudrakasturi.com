@@ -1,7 +1,7 @@
 ---
 title: "90% of your growth problem is product, not marketing."
 date: 2025-07-29T05:21:43Z
-description: "A familiar cycle It begins with a target. A revenue figure, growth curve, or user number often ambitious, sometimes unrealistic. Leadership aligns around it, an"
+description: "A familiar cycle It begins with a target. A revenue figure, growth curve, or user number often ambitious, sometimes unrealistic. Leadership aligns around it, and marketing is tasked with making it…"
 tag: "Marketing"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-highly-detailed-high-resolution-image-illustrating-the-concept-of-6.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "What is Baby Grok? Elon Musk’s New AI Chatbot for Kids"
 date: 2025-07-21T11:03:53Z
-description: "Because even kids want to ask AI weird questions. If you thought AI was only for adults asking \"What’s the stock market doing?\" or \"Write my MBA essay,\" think a"
+description: "Because even kids want to ask AI weird questions. If you thought AI was only for adults asking \"What’s the stock market doing?\" or \"Write my MBA essay,\" think again. Elon Musk is now building an AI…"
 tag: "AI Chatbot for Kids"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-66.webp"
 ---

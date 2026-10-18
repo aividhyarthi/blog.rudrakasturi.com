@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Takes Over: Now More Searched Than News on Google India"
 date: 2024-11-17T12:28:22Z
-description: "In a surprising trend, ChatGPT, the popular AI chatbot, has become one of the most searched terms on Google in India. As of November 2024, it has even surpassed"
+description: "In a surprising trend, ChatGPT, the popular AI chatbot, has become one of the most searched terms on Google in India. As of November 2024, it has even surpassed searches for the term \"news,\" marking…"
 tag: "ChatGPT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-6.png"
 ---

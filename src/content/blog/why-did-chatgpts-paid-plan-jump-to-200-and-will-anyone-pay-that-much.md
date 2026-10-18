@@ -1,7 +1,7 @@
 ---
 title: "Why Did ChatGPT's Paid Plan Jump to $200? And Will Anyone Pay That Much?"
 date: 2024-12-07T05:58:51Z
-description: "ChatGPT's premium version, once priced at a modest $20 per month , has skyrocketed to $200 per month , sparking widespread debate. The steep price hike is accom"
+description: "ChatGPT's premium version, once priced at a modest $20 per month , has skyrocketed to $200 per month , sparking widespread debate. The steep price hike is accompanied by new features, but it begs the…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/Screenshot-2024-12-07-at-10.57.30 AM.png"
 ---

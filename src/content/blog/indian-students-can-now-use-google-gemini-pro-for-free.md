@@ -1,7 +1,7 @@
 ---
 title: "Indian Students Can Now Use Google Gemini Pro for Free"
 date: 2025-07-16T10:01:20Z
-description: "Google is giving away its premium Gemini AI Pro plan worth nearly ₹19,500 a year absolutely free to students in India. No strings, no catch, no trial-and-trap s"
+description: "Google is giving away its premium Gemini AI Pro plan worth nearly ₹19,500 a year absolutely free to students in India. No strings, no catch, no trial-and-trap schemes. Just pure, unfiltered AI…"
 tag: "AI Tools"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-39.webp"
 ---

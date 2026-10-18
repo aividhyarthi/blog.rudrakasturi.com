@@ -1,7 +1,7 @@
 ---
 title: "Google Analytics (GA4) Solves the Mystery of Real-Time Website Traffic with New Realtime Pages Report"
 date: 2024-10-15T03:00:45Z
-description: "Google Analytics has just made it easier to monitor your website or app’s performance in real-time. With the newly introduced Realtime Pages Report , you can no"
+description: "Google Analytics has just made it easier to monitor your website or app’s performance in real-time. With the newly introduced Realtime Pages Report , you can now see exactly which pages are being…"
 tag: "Analytics"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/g4-realtime-pages.png"
 ---

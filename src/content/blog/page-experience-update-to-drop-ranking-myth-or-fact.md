@@ -1,7 +1,7 @@
 ---
 title: "Page Experience update to drop ranking: Myth or Fact?"
 date: 2021-07-07T20:07:02Z
-description: "Google has kicked off rolling out the Page Experience update but this particular update will be slowly but surely deployed through the end of August 2021. The s"
+description: "Google has kicked off rolling out the Page Experience update but this particular update will be slowly but surely deployed through the end of August 2021. The search engine shall stop using AMP for…"
 tag: "core web vitals 2021"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/19333415-e1625688505869.jpg"
 ---

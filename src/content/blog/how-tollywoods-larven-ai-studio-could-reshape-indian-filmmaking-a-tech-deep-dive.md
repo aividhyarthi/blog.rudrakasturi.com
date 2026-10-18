@@ -1,7 +1,7 @@
 ---
 title: "How Tollywood’s LARVEN AI Studio Could Reshape Indian Filmmaking — A Tech Deep Dive"
 date: 2025-05-04T06:21:17Z
-description: "The Telugu film industry, already renowned for pushing technological boundaries in Indian cinema, has thrown its hat into the AI ring with the launch of LARVEN "
+description: "The Telugu film industry, already renowned for pushing technological boundaries in Indian cinema, has thrown its hat into the AI ring with the launch of LARVEN AI Studio — a venture that could…"
 tag: "Dil Raju"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/05/create-a-stunning-high-resolution-featured-image-that-encapsulates-the-essence.webp"
 ---

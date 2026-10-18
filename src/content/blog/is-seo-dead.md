@@ -1,7 +1,7 @@
 ---
 title: "Is SEO dead?"
 date: 2021-07-08T20:30:15Z
-description: "In a world where we have over 170 million active users every digital marketing professional is expected to be well versed with SEO as the core tenets of Digital"
+description: "In a world where we have over 170 million active users every digital marketing professional is expected to be well versed with SEO as the core tenets of Digital Marketing. A few voices from the…"
 tag: "Digital Marketing"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/abstract-67913_1280-e1625776198387.jpg"
 ---

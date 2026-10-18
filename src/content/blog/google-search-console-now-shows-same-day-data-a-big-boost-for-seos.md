@@ -1,7 +1,7 @@
 ---
 title: "Google Search Console Now Shows Same-Day Data: A Big Boost for SEOs"
 date: 2024-10-28T11:51:03Z
-description: "Google has made an exciting change to Search Console— you can now see data on the same day ! This update will make life easier for SEOs, allowing them to track "
+description: "Google has made an exciting change to Search Console— you can now see data on the same day ! This update will make life easier for SEOs, allowing them to track website performance in real-time rather…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-65.png"
 ---

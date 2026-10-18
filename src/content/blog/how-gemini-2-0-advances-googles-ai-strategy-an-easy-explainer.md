@@ -1,7 +1,7 @@
 ---
 title: "How Gemini 2.0 Advances Google’s AI Strategy: An Easy Explainer"
 date: 2024-12-12T05:12:49Z
-description: "Google’s new AI model, Gemini 2.0 , is not just an upgrade—it’s a major step forward in how artificial intelligence can understand, organize, and act on informa"
+description: "Google’s new AI model, Gemini 2.0 , is not just an upgrade—it’s a major step forward in how artificial intelligence can understand, organize, and act on information. Let’s break it down in simple…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-26.png"
 ---

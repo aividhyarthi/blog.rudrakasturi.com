@@ -1,7 +1,7 @@
 ---
 title: "DolphinGemma: How Google AI is Learning to Talk to Dolphins!"
 date: 2025-04-29T03:11:30Z
-description: "What’s Happening? Scientists and Google DeepMind are working together on an exciting project called DolphinGemma . They're trying to \"talk\" to dolphins ! Dolphi"
+description: "What’s Happening? Scientists and Google DeepMind are working together on an exciting project called DolphinGemma . They're trying to \"talk\" to dolphins ! Dolphins are super smart animals. They make…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-45.webp"
 ---

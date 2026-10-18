@@ -1,7 +1,7 @@
 ---
 title: "AI Mode is Now in Hindi: 600+ Million Users Get Instant Answers"
 date: 2025-09-10T03:21:52Z
-description: "In 2017, Google quietly revealed a statistic that should have reshaped how Indian businesses thought about the internet: more people were searching in Hindi tha"
+description: "In 2017, Google quietly revealed a statistic that should have reshaped how Indian businesses thought about the internet: more people were searching in Hindi than in English. Fast forward to today…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-7.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Are AI Bots Breaking the Rules? The Cloudflare vs Perplexity Dispute, Simply Explained"
 date: 2025-08-06T04:37:08Z
-description: "Recently, Cloudflare a global leader in web security and performance blocked the AI company Perplexity from accessing websites across its network. The reason? C"
+description: "Recently, Cloudflare a global leader in web security and performance blocked the AI company Perplexity from accessing websites across its network. The reason? Cloudflare accused Perplexity of…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-37.webp"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Funding Take: What If the Next Great VC Wasn’t a Person?"
 date: 2025-07-10T03:32:01Z
-description: "The AI that Might Say No. And Be Right. We know this story by now. A charismatic founder. A glossy deck. A dream that reads like a sequel to the last unicorn. A"
+description: "The AI that Might Say No. And Be Right. We know this story by now. A charismatic founder. A glossy deck. A dream that reads like a sequel to the last unicorn. And a room full of VCs nodding not…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-21.webp"
 ---
