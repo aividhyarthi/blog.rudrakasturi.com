@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getAllPosts } from '../lib/posts';
+
+const posts = (await getAllPosts()).filter((p) => p.data.type !== 'article');
+---
+
+<BaseLayout title="Research & Case Studies | Rudra Kasturi" description="Original research and case studies on search, AI and growth.">
+  <div class="container">
+    <div class="page-header">
+      <h1>Research &amp; Case Studies</h1>
+      <p>Original analysis and real results from scaling digital businesses.</p>
+    </div>
+    {posts.length > 0 ? (
+      <div class="posts-grid" style="padding-bottom: 4rem;">{posts.map((p) => <PostCard post={p} />)}</div>
+    ) : (
+      <p class="section-subtitle" style="text-align:center; padding: 4rem 0;">Research and case studies are coming soon. <a href="/blog">Read the blog</a> in the meantime.</p>
+    )}
+  </div>
+</BaseLayout>

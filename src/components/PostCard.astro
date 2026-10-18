@@ -1,0 +1,16 @@
+---
+import { excerpt, formatDate, readingTime, type Post } from '../lib/posts';
+const { post } = Astro.props as { post: Post };
+const label = { article: null, research: 'Research', 'case-study': 'Case Study' }[post.data.type];
+---
+
+<article class="post-card">
+  {post.data.image && <a href={`/blog/${post.slug}/`} class="post-card-img"><img src={post.data.image} alt="" loading="lazy" /></a>}
+  <div class="post-card-meta">
+    {label && <span class="tag tag-strong">{label}</span>}
+    {post.data.tag && <span class="tag">{post.data.tag}</span>}
+  </div>
+  <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
+  <p>{excerpt(post)}</p>
+  <span class="post-meta">{formatDate(post.data.date)} · {readingTime(post)} min read</span>
+</article>

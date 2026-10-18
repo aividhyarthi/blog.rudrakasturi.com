@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "import-wp": "node scripts/import-wordpress.mjs"
+    "import-wp": "node scripts/import-wordpress.mjs",
+    "download-media": "node scripts/download-media.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "4.0.11",

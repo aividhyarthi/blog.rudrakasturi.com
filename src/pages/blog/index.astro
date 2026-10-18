@@ -1,30 +1,19 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getAllPosts, excerpt, formatDate } from '../../lib/posts';
+import PostCard from '../../components/PostCard.astro';
+import { getAllPosts } from '../../lib/posts';
 
 const allPosts = await getAllPosts();
 ---
 
-<BaseLayout title="Blog | Rudra Kasturi" description="All blog posts by Rudra Kasturi">
+<BaseLayout title="Blog | Rudra Kasturi" description="Articles on search, AI and growth by Rudra Kasturi">
   <div class="container">
     <div class="page-header">
       <h1>Blog</h1>
-      <p>All my posts in one place. Thoughts on tech, AI, and building things.</p>
+      <p>Practical writing on search, AI and growth strategy.</p>
     </div>
-
-    {allPosts.length > 0 ? (
-      <div class="posts-grid" style="padding-bottom: 4rem;">
-        {allPosts.map((post) => (
-          <article class="post-card">
-            {post.data.tag && <span class="tag">{post.data.tag}</span>}
-            <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
-            <p>{excerpt(post)}</p>
-            <span class="post-meta">{formatDate(post.data.date)}</span>
-          </article>
-        ))}
-      </div>
-    ) : (
-      <p class="section-subtitle" style="text-align:center; padding: 4rem 0;">No posts found. Check back soon!</p>
-    )}
+    <div class="posts-grid" style="padding-bottom: 4rem;">
+      {allPosts.map((post) => <PostCard post={post} />)}
+    </div>
   </div>
 </BaseLayout>

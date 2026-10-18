@@ -1,15 +1,23 @@
 ---
-import { getAllPosts, formatDate } from '../../lib/posts';
+import { getAllPosts, formatDate, readingTime } from '../../lib/posts';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import ConsultingCTA from '../../components/ConsultingCTA.astro';
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
-  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: {
+      post,
+      related: posts.filter((p) => p.slug !== post.slug && post.data.tag && p.data.tag === post.data.tag).slice(0, 3),
+    },
+  }));
 }
 
-const { post } = Astro.props;
+const { post, related } = Astro.props;
 const { Content } = await post.render();
-const { title, description, date, updated, tag } = post.data;
+const { title, description, date, updated, tag, image } = post.data;
 ---
 
 <BaseLayout title={`${title} | Rudra Kasturi`} description={description || undefined}>
@@ -18,7 +26,7 @@ const { title, description, date, updated, tag } = post.data;
       <a href="/blog" class="back-link">&larr; Back to all posts</a>
       <h1>{title}</h1>
       <p class="post-meta">
-        Published on {formatDate(date)}
+        By Rudra Kasturi · {formatDate(date)} · {readingTime(post)} min read
         {updated && <span> · Updated {formatDate(updated)}</span>}
       </p>
       {tag && (
@@ -27,6 +35,16 @@ const { title, description, date, updated, tag } = post.data;
         </div>
       )}
     </div>
+    {image && <img class="post-hero" src={image} alt="" />}
     <article class="post-content"><Content /></article>
+
+    <ConsultingCTA />
+
+    {related.length > 0 && (
+      <section class="related">
+        <h2>Keep reading</h2>
+        <div class="posts-grid">{related.map((p) => <PostCard post={p} />)}</div>
+      </section>
+    )}
   </div>
 </BaseLayout>

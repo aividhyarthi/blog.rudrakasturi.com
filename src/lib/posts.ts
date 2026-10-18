@@ -21,3 +21,8 @@ export function excerpt(post: Post, max = 150): string {
   const text = post.data.description;
   return text.length > max ? text.slice(0, max) + '...' : text;
 }
+
+export function readingTime(post: Post): number {
+  const words = post.body.split(/\s+/).length;
+  return Math.max(1, Math.round(words / 220));
+}

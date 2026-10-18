@@ -8,6 +8,8 @@ const blog = defineCollection({
     updated: z.coerce.date().optional(),
     description: z.string().default(''),
     tag: z.string().optional(),
+    // article = normal post; research = original research; case-study = client/project story
+    type: z.enum(['article', 'research', 'case-study']).default('article'),
     image: z.string().optional(),
     // Old WordPress address of this post, e.g. /2023/05/12/my-post/
     legacyPath: z.string().optional(),
