@@ -12,6 +12,7 @@ import TurndownService from 'turndown';
 const args = process.argv.slice(2);
 const file = args.find((a) => !a.startsWith('--'));
 const downloadImages = args.includes('--download-images');
+const redirectsOnly = args.includes('--redirects-only'); // rebuild public/_redirects without touching posts
 if (!file) {
   console.error('Usage: npm run import-wp -- path/to/export.xml [--download-images]');
   process.exit(1);
@@ -137,12 +138,12 @@ for (const item of items) {
     .filter((l) => l !== null)
     .join('\n');
 
-  fs.writeFileSync(path.join(outDir, `${slug}.md`), `${front}\n${body}\n`);
+  if (!redirectsOnly) fs.writeFileSync(path.join(outDir, `${slug}.md`), `${front}\n${body}\n`);
 
   const link = text(item.link);
   if (link && status === 'publish') {
     const old = new URL(link).pathname;
-    if (old !== '/' && old !== `/blog/${slug}/`) redirects.push(`${old} /blog/${slug}/ 301`);
+    if (old !== '/' && decodeURIComponent(old) !== `/${slug}/`) redirects.push(`${old} /${slug}/ 301`);
   }
   count++;
 }

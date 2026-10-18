@@ -1,7 +1,7 @@
 ---
 import { getAllPosts, getTopics, getTags, topicOf, formatDate } from '../lib/posts';
 import { coverUrl } from '../lib/cover';
-import { NEWSLETTER, START_HERE, SITE, TOOLS } from '../config';
+import { NEWSLETTER, newsletterAction, START_HERE, SITE, TOOLS, APPRANKR_POSTS, utm } from '../config';
 
 const { exclude = '' } = Astro.props as { exclude?: string };
 const all = await getAllPosts();
@@ -10,24 +10,25 @@ const must = START_HERE.map((s) => all.find((p) => p.slug === s)).filter((p) => 
 const topics = getTopics(all).filter((t) => t.count >= 3);
 const tags = getTags(all, 4).slice(0, 18);
 const tool = TOOLS[0];
-const viaEmail = !NEWSLETTER.action;
+const action = newsletterAction();
+const appr = TOOLS.find((t) => t.name === 'AppRankr')!;
 ---
 
 <aside class="sidebar">
-  <section class="box box-news">
+  <section class="box box-news" id="subscribe">
     <h3>{NEWSLETTER.title}</h3>
     <p>{NEWSLETTER.blurb}</p>
-    {viaEmail ? (
-      <form action={`mailto:${SITE.email}`} method="get" enctype="text/plain">
-        <input type="hidden" name="subject" value="Subscribe me to the Search & AI brief" />
-        <input type="email" name="body" placeholder="you@company.com" required aria-label="Your email" />
-        <button class="btn btn-mint" type="submit">Subscribe</button>
-      </form>
+    {action ? (
+      <>
+        <form class="news-form" action={action} method="post" target="news-frame">
+          <input type="email" name="email" placeholder="you@company.com" required aria-label="Your email" />
+          <button class="btn btn-mint" type="submit">Subscribe</button>
+        </form>
+        <p class="news-msg" hidden>Thanks! Please check your inbox to confirm.</p>
+        <iframe name="news-frame" title="Newsletter sign-up" hidden></iframe>
+      </>
     ) : (
-      <form action={NEWSLETTER.action} method="post" target="_blank">
-        <input type="email" name={NEWSLETTER.emailField} placeholder="you@company.com" required aria-label="Your email" />
-        <button class="btn btn-mint" type="submit">Subscribe</button>
-      </form>
+      <a class="btn btn-mint" href={SITE.linkedin} rel="noopener" style="display:block;text-align:center">Follow on LinkedIn</a>
     )}
   </section>
 
@@ -36,8 +37,8 @@ const viaEmail = !NEWSLETTER.action;
     <ul class="mini">
       {latest.map((p) => (
         <li>
-          <a href={`/blog/${p.slug}/`} class="mini-thumb" tabindex="-1" aria-hidden="true"><img src={coverUrl(p)} alt="" loading="lazy" width="120" height="63" /></a>
-          <div><a href={`/blog/${p.slug}/`}>{p.data.title}</a><small>{topicOf(p).name} · {formatDate(p.data.date)}</small></div>
+          <a href={`/${p.slug}/`} class="mini-thumb" tabindex="-1" aria-hidden="true"><img src={coverUrl(p)} alt="" loading="lazy" width="120" height="63" /></a>
+          <div><a href={`/${p.slug}/`}>{p.data.title}</a><small>{topicOf(p).name} · {formatDate(p.data.date)}</small></div>
         </li>
       ))}
     </ul>
@@ -46,7 +47,7 @@ const viaEmail = !NEWSLETTER.action;
   <section class="box">
     <h3>Must read</h3>
     <ol class="must">
-      {must.map((p) => <li><a href={`/blog/${p.slug}/`}>{p.data.title}</a></li>)}
+      {must.map((p) => <li><a href={`/${p.slug}/`}>{p.data.title}</a></li>)}
     </ol>
   </section>
 
@@ -64,10 +65,29 @@ const viaEmail = !NEWSLETTER.action;
     </div>
   </section>
 
+  <section class="box">
+    <h3>App store insights</h3>
+    <ol class="must">
+      {APPRANKR_POSTS.slice(0, 3).map((p) => <li><a href={utm(p.url, 'sidebar')} rel="noopener">{p.title}</a></li>)}
+    </ol>
+    <p style="margin-top:12px"><a class="link-arrow" href={utm(appr.url, 'sidebar')} rel="noopener">Try AppRankr &rarr;</a></p>
+  </section>
+
   <section class="box box-tool">
     <p class="label">Free tool</p>
     <h3>{tool.name}</h3>
     <p>{tool.blurb}</p>
-    <a class="btn" href={tool.url} rel="noopener">Try it &rarr;</a>
+    <a class="btn" href={utm(tool.url, 'sidebar')} rel="noopener">Try it &rarr;</a>
   </section>
 </aside>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('.news-form');
+  form?.addEventListener('submit', () => {
+    // The form posts into a hidden frame; show a thank-you right away.
+    setTimeout(() => {
+      form.hidden = true;
+      document.querySelector<HTMLElement>('.news-msg')!.hidden = false;
+    }, 600);
+  });
+</script>

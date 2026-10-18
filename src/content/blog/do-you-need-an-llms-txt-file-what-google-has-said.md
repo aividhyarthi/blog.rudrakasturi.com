@@ -33,7 +33,7 @@ It is a plain text file, placed on your website like robots.txt. The idea is to 
 - **John Mueller** (Google) said on the *Search Off the Record* podcast that an llms.txt file cannot help an AI decide which sites to show for a question. His reason: the file is written by the very site that wants to be chosen, so it cannot be trusted as a signal. He pointed back to normal web pages and internal links for discovery.
 - He also said none of the AI services have said they use llms.txt, and that server logs show they do not even check for it.
 - **Gary Illyes** (Google) said earlier, at a Search Central Live event, that Google does not support llms.txt and has no plans to.
-- Google's 2026 guide on AI search says plainly that you do not need llms.txt for its generative AI features. (We cover that guide in [AEO, GEO and AI SEO explained](/blog/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says/).)
+- Google's 2026 guide on AI search says plainly that you do not need llms.txt for its generative AI features. (We cover that guide in [AEO, GEO and AI SEO explained](/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says/).)
 
 ## A small twist
 

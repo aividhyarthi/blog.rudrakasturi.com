@@ -221,7 +221,7 @@ mark { background: linear-gradient(transparent 58%, var(--mint) 58%); color: inh
 .callout h3 { color: #fff; font-size: 1.7rem; margin-bottom: 10px; }
 .callout p { margin-bottom: 16px; color: #e3e8ff; }
 .callout .btn { margin: 0 8px 8px 0; }
-.related { padding: 24px 0 70px; }
+.related { padding: 56px 0 70px; }
 .related h2 { font-size: 1.9rem; margin-bottom: 10px; }
 
 /* Footer */
@@ -326,3 +326,16 @@ mark { background: linear-gradient(transparent 58%, var(--mint) 58%); color: inh
   .rail-track { grid-auto-columns: calc((100% - 20px) / 2); }
 }
 @media (max-width: 600px) { .rail-track { grid-auto-columns: 82%; } }
+
+/* ---------- Audit banner, AppRankr cards, newsletter message ---------- */
+.audit-banner { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin: 32px 0 0; padding: 28px 30px; border-radius: 14px; background: var(--orange); color: #fff; }
+.audit-banner .label { color: var(--ink); }
+.audit-banner h3 { color: #fff; font-size: 1.7rem; margin: 6px 0 8px; max-width: 18em; }
+.audit-banner p { color: #fff; max-width: 38em; }
+.audit-banner .btn { background: var(--ink); border-color: var(--ink); white-space: nowrap; }
+.audit-banner .btn:hover { background: #000; }
+.ext-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
+.ext-grid .card h3 { font-size: 1rem; }
+.news-msg { margin-top: 10px; font-weight: 700; color: var(--mint) !important; }
+@media (max-width: 1000px) { .ext-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .ext-grid { grid-template-columns: 1fr; } .audit-banner { padding: 22px; } }

@@ -36,7 +36,7 @@ In mid-May 2026 Google published a guide called "Optimizing your website for gen
 
 The guide also lists some myths. According to the coverage, Google says you do **not** need:
 
-- an llms.txt file (we explain this in [our llms.txt article](/blog/do-you-need-an-llms-txt-file-what-google-has-said/));
+- an llms.txt file (we explain this in [our llms.txt article](/do-you-need-an-llms-txt-file-what-google-has-said/));
 - special markup or special schema just for AI features;
 - to chop your content into tiny pieces for AI systems.
 
@@ -61,4 +61,4 @@ Also, Google's guide is about Google. ChatGPT and Perplexity may weigh things di
 3. Be useful enough that other sites and communities talk about you.
 4. Treat advice from tool vendors as ideas to test, not rules.
 
-*Next: see [what query fan-out is](/blog/what-is-query-fan-out-and-how-should-it-change-how-you-write/) and [a simple checklist for AI search](/blog/a-plain-english-checklist-for-ai-search-visibility/).*
+*Next: see [what query fan-out is](/what-is-query-fan-out-and-how-should-it-change-how-you-write/) and [a simple checklist for AI search](/a-plain-english-checklist-for-ai-search-visibility/).*

@@ -15,7 +15,7 @@ Create a file in `src/content/blog/`, e.g. `my-new-post.md`:
     Write your post here. **Bold**, ## headings, [links](https://example.com) all work.
 
 Upload images to `public/images/` and use `![alt text](/images/photo.jpg)`.
-The file name (without `.md`) becomes the web address: `/blog/my-new-post/`.
+The file name (without `.md`) becomes the web address, at the root like on WordPress: `/my-new-post/`.
 
 ## Bring over your old WordPress posts
 1. In WordPress go to Tools > Export > All content > Download Export File.
@@ -38,3 +38,11 @@ Research page and on the homepage, with a label.
 The site builds to plain files in `dist/` (`npm run build`). Any static host works:
 Cloudflare Pages, Netlify, Vercel or Railway (a Dockerfile is included).
 Build command: `npm run build`. Output folder: `dist`.
+
+## Newsletter
+Open `src/config.ts`, find `NEWSLETTER`, and set `provider` (`'substack'` or `'buttondown'`) and `id` (your publication name).
+Until `id` is set the sidebar shows a "Follow on LinkedIn" button instead of a sign-up form.
+
+## Cross-promotion
+- `APPRANKR_POSTS` in `src/config.ts` lists the AppRankr blog posts shown on the homepage and sidebar. Add a line per post (id, title, url, blurb).
+- The orange audit banner (AIPageAudit) appears on the homepage and under every article.

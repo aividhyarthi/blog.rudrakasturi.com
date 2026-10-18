@@ -52,4 +52,4 @@ In May 2026 YouTube said it would automatically label undisclosed photorealistic
 3. Label AI-made content honestly.
 4. Treat Ask YouTube as a test. Do not rebuild your plan around it yet.
 
-*Related: [How to do YouTube SEO for Shorts](/blog/how-to-do-youtube-seo-for-youtube-shorts-simple-tips-with-examples/).*
+*Related: [How to do YouTube SEO for Shorts](/how-to-do-youtube-seo-for-youtube-shorts-simple-tips-with-examples/).*

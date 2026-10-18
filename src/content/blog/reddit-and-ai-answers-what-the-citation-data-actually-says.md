@@ -43,8 +43,8 @@ Profound found that 99% of Reddit citations point to a **specific discussion thr
 ## What to do
 
 1. Do not assume the average number applies to you. Tinuiti warns brands against starting from the aggregate growth figure.
-2. If you join Reddit conversations, be genuinely useful in the actual threads people ask about. Ahrefs suggests checking whether your page titles and URLs match the sub-questions ChatGPT searches for. ([What is fan-out?](/blog/what-is-query-fan-out-and-how-should-it-change-how-you-write/))
+2. If you join Reddit conversations, be genuinely useful in the actual threads people ask about. Ahrefs suggests checking whether your page titles and URLs match the sub-questions ChatGPT searches for. ([What is fan-out?](/what-is-query-fan-out-and-how-should-it-change-how-you-write/))
 3. Spread your bets: Wikipedia, podcasts, YouTube and other publications also drive citations, according to Search Engine Journal.
 4. Re-check every few months. These numbers change quickly.
 
-*We also covered this earlier: [how Reddit quietly became the #1 domain for AI](/blog/how-reddit-quietly-became-the-1-domain-for-ai-and-why-it-changes-everything/).*
+*We also covered this earlier: [how Reddit quietly became the #1 domain for AI](/how-reddit-quietly-became-the-1-domain-for-ai-and-why-it-changes-everything/).*

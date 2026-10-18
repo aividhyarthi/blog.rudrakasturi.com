@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PostEntry from './PostEntry.astro';
 import Pagination from './Pagination.astro';
 import Sidebar from './Sidebar.astro';
-import type { Post } from '../lib/posts';
+import { PAGE_SIZE, type Post } from '../lib/posts';
 
 interface Props {
   title: string;
@@ -15,11 +15,31 @@ interface Props {
   current?: number;
   total?: number;
   base: string;
+  trail?: { name: string; url: string }[]; // breadcrumb steps after "Home"
+  totalCount?: number; // number of posts across all pages
 }
-const { title, description, label, heading, lede, posts, current = 1, total = 1, base } = Astro.props as Props;
+const { title, description, label, heading, lede, posts, current = 1, total = 1, base, trail = [], totalCount = posts.length } = Astro.props as Props;
+
+const origin = new URL(Astro.site!).origin;
+const pageUrl = new URL(Astro.url.pathname, origin).href;
+const crumbs = [{ name: 'Home', url: '/' }, ...trail, ...(current > 1 ? [{ name: `Page ${current}`, url: Astro.url.pathname }] : [])];
+const start = (current - 1) * PAGE_SIZE;
+const itemList = {
+  '@type': 'ItemList',
+  '@id': `${pageUrl}#itemlist`,
+  name: heading,
+  numberOfItems: totalCount,
+  itemListOrder: 'https://schema.org/ItemListOrderDescending',
+  itemListElement: posts.map((p, i) => ({
+    '@type': 'ListItem',
+    position: start + i + 1,
+    url: `${origin}/${p.slug}/`,
+    name: p.data.title,
+  })),
+};
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} pageType="CollectionPage" breadcrumbs={crumbs} jsonld={[itemList]} mainEntityId={`${pageUrl}#itemlist`}>
   <div class="wrap layout">
     <div>
       <div class="page-head">

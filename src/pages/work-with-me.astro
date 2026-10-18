@@ -1,9 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { SITE, TOOLS, mailto } from '../config';
+
+const origin = new URL(Astro.site!).origin;
+const service = {
+  '@type': 'ProfessionalService', '@id': `${origin}/work-with-me/#service`, name: 'Search, AI and growth consulting',
+  url: `${origin}/work-with-me/`, provider: { '@id': `${origin}/#organization` }, areaServed: 'Worldwide',
+  serviceType: ['Search and AI visibility strategy', 'Growth strategy', 'AI adoption advisory'], email: SITE.email,
+};
 ---
 
-<BaseLayout title="Work With Me | Rudra Kasturi" description="Consulting on search, AI and growth strategy for leadership teams.">
+<BaseLayout jsonld={[service]} mainEntityId={`${origin}/work-with-me/#service`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Work with me', url: '/work-with-me/' }]} title="Work With Me | Rudra Kasturi" description="Consulting on search, AI and growth strategy for leadership teams.">
   <div class="wrap">
     <div class="page-head">
       <p class="label">Work with me</p>

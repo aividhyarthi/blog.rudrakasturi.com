@@ -1,0 +1,109 @@
+---
+import { getAllPosts, formatDate, readingTime, topicOf, tagOf } from '../lib/posts';
+import { coverUrl, coverPngUrl } from '../lib/cover';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Carousel from '../components/Carousel.astro';
+import ConsultingCTA from '../components/ConsultingCTA.astro';
+import Sidebar from '../components/Sidebar.astro';
+import AuditBanner from '../components/AuditBanner.astro';
+import { SITE } from '../config';
+
+export async function getStaticPaths() {
+  const posts = await getAllPosts();
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: {
+      post,
+      related: posts.filter((p) => p.slug !== post.slug && topicOf(p).slug === topicOf(post).slug).slice(0, 8),
+    },
+  }));
+}
+
+const { post, related } = Astro.props;
+const { Content } = await post.render();
+const { title, description, date, updated, type, tldr, sources } = post.data;
+const topic = topicOf(post);
+const label = { article: 'Article', research: 'Research', 'case-study': 'Case study' }[type];
+
+// ---- schema.org Article ----
+const origin = new URL(Astro.site!).origin;
+const pageUrl = new URL(Astro.url.pathname, origin).href;
+const modified = updated ?? date;
+const tag = tagOf(post);
+const article = {
+  '@type': 'Article',
+  '@id': `${pageUrl}#article`,
+  url: pageUrl,
+  isPartOf: { '@id': `${pageUrl}#webpage` },
+  mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
+  headline: title.slice(0, 110),
+  description: description || tldr || title,
+  ...(tldr ? { abstract: tldr } : {}),
+  image: [{ '@type': 'ImageObject', url: `${origin}${coverPngUrl(post)}`, width: 1200, height: 630 }],
+  datePublished: date.toISOString(),
+  dateModified: modified.toISOString(),
+  author: { '@type': 'Person', '@id': `${origin}/#rudra`, name: 'Rudra Kasturi', url: `${origin}/about/`, sameAs: [SITE.linkedin] },
+  publisher: { '@type': 'Organization', '@id': `${origin}/#organization`, name: 'Rudra Kasturi Inc.', logo: { '@type': 'ImageObject', url: `${origin}/logo.png`, width: 512, height: 512 } },
+  articleSection: topic.name,
+  keywords: [...new Set([topic.name, tag?.name].filter(Boolean))].join(', '),
+  wordCount: post.body.split(/\s+/).filter(Boolean).length,
+  timeRequired: `PT${readingTime(post)}M`,
+  inLanguage: 'en',
+  isAccessibleForFree: true,
+  ...(sources.length
+    ? { citation: sources.map((src) => ({ '@type': 'CreativeWork', name: src.title, url: src.url, publisher: { '@type': 'Organization', name: src.publisher } })) }
+    : {}),
+};
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: topic.name, url: `/category/${topic.slug}/` },
+  { name: title, url: Astro.url.pathname },
+];
+---
+
+<BaseLayout
+  title={`${title} | Rudra Kasturi`}
+  description={description || tldr || undefined}
+  image={coverPngUrl(post)}
+  ogType="article"
+  published={date}
+  modified={modified}
+  section={topic.name}
+  breadcrumbs={crumbs}
+  jsonld={[article]}
+  mainEntityId={`${pageUrl}#article`}
+>
+  <div class="wrap layout">
+    <div class="article-main">
+      <header class="article-head">
+        <p class="label">{label} · <a href={`/category/${topic.slug}/`} style="text-decoration:none">{topic.name}</a></p>
+        <h1>{title}</h1>
+        <p class="byline">
+          By <b>Rudra Kasturi</b> · {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
+        </p>
+      </header>
+      <div class="post-hero"><img src={coverUrl(post)} alt="" width="1200" height="630" /></div>
+      {tldr && <div class="tldr"><b>IN PLAIN ENGLISH</b><p>{tldr}</p></div>}
+      <article class="prose"><Content /></article>
+
+      {sources.length > 0 && (
+        <section class="source-box" id="sources">
+          <h2>Sources</h2>
+          <ul>
+            {sources.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a> <span>· {s.publisher}</span></li>)}
+          </ul>
+        </section>
+      )}
+
+      <AuditBanner medium="article" />
+      <ConsultingCTA />
+    </div>
+    <Sidebar exclude={post.slug} />
+  </div>
+
+  {related.length > 0 && (
+    <div class="wrap related">
+      <Carousel title={`More on ${topic.name}`} href={`/category/${topic.slug}/`} posts={related} />
+    </div>
+  )}
+</BaseLayout>

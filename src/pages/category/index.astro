@@ -3,9 +3,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getAllPosts, getTopics } from '../../lib/posts';
 
 const topics = getTopics(await getAllPosts());
+const origin = new URL(Astro.site!).origin;
+const list = {
+  '@type': 'ItemList', '@id': `${origin}/category/#itemlist`, name: 'Topics', numberOfItems: topics.length,
+  itemListElement: topics.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, url: `${origin}/category/${t.slug}/` })),
+};
 ---
 
-<BaseLayout title="Topics | Rudra Kasturi" description="Browse articles by topic.">
+<BaseLayout pageType="CollectionPage" jsonld={[list]} mainEntityId={`${origin}/category/#itemlist`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Topics', url: '/category/' }]} title="Topics | Rudra Kasturi" description="Browse articles by topic.">
   <div class="wrap">
     <div class="page-head">
       <p class="label">Topics</p>

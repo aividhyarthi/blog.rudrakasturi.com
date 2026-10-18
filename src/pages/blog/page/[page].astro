@@ -22,5 +22,7 @@ const { posts, page, total, count } = Astro.props;
   posts={posts}
   current={page}
   total={total}
+  trail={[{ name: 'Articles', url: '/blog/' }]}
+  totalCount={count}
   base="/blog/"
 />

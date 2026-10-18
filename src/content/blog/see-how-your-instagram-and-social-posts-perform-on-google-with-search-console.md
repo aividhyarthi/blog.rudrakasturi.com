@@ -33,7 +33,7 @@ From the connected account you can see which **Google searches lead people to yo
 ## What this does not tell you
 
 - It reports **performance**, not whether *every* post is indexed.
-- One SEO guide claims Google and Bing began indexing Instagram posts in July 2025. We could not find a primary statement from Google or Microsoft confirming that, so treat it as unconfirmed. (We covered the Instagram change that was announced in July in [this earlier article](/blog/instagram-update-your-public-posts-will-show-up-on-google-from-july-10/).)
+- One SEO guide claims Google and Bing began indexing Instagram posts in July 2025. We could not find a primary statement from Google or Microsoft confirming that, so treat it as unconfirmed. (We covered the Instagram change that was announced in July in [this earlier article](/instagram-update-your-public-posts-will-show-up-on-google-from-july-10/).)
 
 ## Other places Instagram already showed up
 
@@ -51,4 +51,4 @@ Instagram's own search leans on captions and keywords, matching them to username
 3. Add alt text to images. It may help visibility, and it helps accessibility.
 4. Use the query data to decide your next posts. If people find you for a question, answer it again in a Reel.
 
-*Related: [How Instagram Reels can boost your Google search presence](/blog/how-instagram-reels-can-boost-your-google-search-presence/).*
+*Related: [How Instagram Reels can boost your Google search presence](/how-instagram-reels-can-boost-your-google-search-presence/).*

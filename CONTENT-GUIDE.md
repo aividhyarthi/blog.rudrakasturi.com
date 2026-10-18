@@ -7,7 +7,8 @@ with every claim traceable to a source.
 Google Search Central and Googlers' public statements, Search Engine Roundtable (seroundtable.com),
 Search Engine Land (searchengineland.com), Search Engine Journal (searchenginejournal.com), and the
 public conversations those outlets quote (X, Reddit, LinkedIn, conference talks).
-Rule: if we explain a story that comes from one of these, we link it in `sources`.
+Rule: if we explain a story that comes from one of these, we link it in `sources` (shown in a small Sources box at the end).
+Do not call sources out in headers, cards or the homepage (no "based on reporting by..."). Name the source naturally inside the text instead.
 
 ## Article format (front matter at the top of each `.md` file in src/content/blog)
     title: plain question or statement, no jargon

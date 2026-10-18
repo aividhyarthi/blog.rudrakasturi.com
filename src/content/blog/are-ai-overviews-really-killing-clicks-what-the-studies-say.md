@@ -51,6 +51,6 @@ Search Engine Journal's "Ask an SEO" advice is simple:
 
 ## What to do about it
 
-- Aim to be **cited inside** the AI answer, not only ranked below it. (See [how Reddit and other sources get cited](/blog/reddit-and-ai-answers-what-the-citation-data-actually-says/).)
+- Aim to be **cited inside** the AI answer, not only ranked below it. (See [how Reddit and other sources get cited](/reddit-and-ai-answers-what-the-citation-data-actually-says/).)
 - Create pages worth clicking: original data, tools, deep guides and anything an AI summary cannot fully replace.
 - Track **impressions** as well as clicks. Visibility has value even when the click does not happen.

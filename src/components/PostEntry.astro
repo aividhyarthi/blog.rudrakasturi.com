@@ -1,9 +1,8 @@
 ---
-import { excerpt, readingTime, topicOf, topicColor, sourceLine, type Post } from '../lib/posts';
+import { excerpt, readingTime, topicOf, topicColor, type Post } from '../lib/posts';
 import { coverUrl } from '../lib/cover';
 const { post } = Astro.props as { post: Post };
 const topic = topicOf(post);
-const via = sourceLine(post);
 const label = { article: null, research: 'Research', 'case-study': 'Case study' }[post.data.type];
 const when = post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 ---
@@ -15,11 +14,11 @@ const when = post.data.date.toLocaleDateString('en-US', { month: 'short', day: '
       <a href={`/category/${topic.slug}/`}>{topic.name}</a>
       <span>{when}</span>
     </p>
-    <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
+    <h3><a href={`/${post.slug}/`}>{post.data.title}</a></h3>
     <p class="entry-desc">{post.data.tldr ? excerpt({ data: { description: post.data.tldr } } as Post, 190) : excerpt(post, 190)}</p>
-    <p class="entry-meta">{readingTime(post)} min read{via && <> · via {via}</>}</p>
+    <p class="entry-meta">{readingTime(post)} min read</p>
   </div>
-  <a href={`/blog/${post.slug}/`} class="entry-thumb" tabindex="-1" aria-hidden="true">
+  <a href={`/${post.slug}/`} class="entry-thumb" tabindex="-1" aria-hidden="true">
     <img src={coverUrl(post)} alt="" loading="lazy" width="1200" height="630" />
   </a>
 </article>

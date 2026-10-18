@@ -2,7 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostEntry from '../components/PostEntry.astro';
 import Carousel from '../components/Carousel.astro';
-import { getAllPosts, getTopics, readingTime, topicOf, sourceLine, mixedLatest, HUBS, slugify } from '../lib/posts';
+import AuditBanner from '../components/AuditBanner.astro';
+import AppRankrSection from '../components/AppRankrSection.astro';
+import { getAllPosts, getTopics, readingTime, topicOf, mixedLatest, HUBS, slugify } from '../lib/posts';
 import { SITE, TOOLS, START_HERE, YEARS, mailto } from '../config';
 
 const all = await getAllPosts();
@@ -12,10 +14,20 @@ const latest = mixedLatest(all, 8, [featured.slug]);
 const rails = HUBS.map((name) => ({ name, slug: slugify(name), posts: all.filter((p) => topicOf(p).name === name).slice(0, 9) })).filter((r) => r.posts.length >= 3);
 const start = START_HERE.map((slug) => all.find((p) => p.slug === slug)).filter((p) => p !== undefined);
 const topics = getTopics(all).filter((t) => t.count >= 3);
-const featuredVia = sourceLine(featured);
+const origin = new URL(Astro.site!).origin;
+const home = [
+  {
+    '@type': 'Blog', '@id': `${origin}/#blog`, url: `${origin}/blog/`, name: 'Rudra Kasturi: SEO, AEO & AI search, explained',
+    publisher: { '@id': `${origin}/#organization` }, author: { '@id': `${origin}/#rudra` }, inLanguage: 'en',
+  },
+  {
+    '@type': 'ItemList', '@id': `${origin}/#latest`, name: 'Latest articles',
+    itemListElement: [featured, ...latest].map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })),
+  },
+];
 ---
 
-<BaseLayout title="Rudra Kasturi | SEO, AEO & AI Search, Explained in Plain English">
+<BaseLayout title="Rudra Kasturi | SEO, AEO & AI Search, Explained in Plain English" description="Plain-English explainers on SEO, AEO, AI search, YouTube and Instagram. By Rudra Kasturi: 24+ years in search, ex-Amazon, Yahoo, Times Internet, BYJU's." jsonld={home} mainEntityId={`${origin}/#latest`}>
   <section class="hero on-blue">
     <div class="wrap hero-grid">
       <div>
@@ -32,19 +44,12 @@ const featuredVia = sourceLine(featured);
       </div>
       <article class="feature">
         <p class="label">Latest explainer · {topicOf(featured).name}</p>
-        <h2><a href={`/blog/${featured.slug}/`}>{featured.data.title}</a></h2>
+        <h2><a href={`/${featured.slug}/`}>{featured.data.title}</a></h2>
         <p>{featured.data.tldr ?? featured.data.description}</p>
-        <p class="entry-meta">{readingTime(featured)} min read{featuredVia && <> · via {featuredVia}</>}</p>
+        <p class="entry-meta">{readingTime(featured)} min read</p>
       </article>
     </div>
   </section>
-
-  <div class="sources-strip">
-    <div class="wrap">
-      <b>We follow:</b>
-      <span>Google Search Central</span><span>Search Engine Roundtable</span><span>Search Engine Land</span><span>Search Engine Journal</span><span>YouTube &amp; Instagram creator updates</span>
-    </div>
-  </div>
 
   {start.length > 0 && (
     <section class="section" id="start">
@@ -56,7 +61,7 @@ const featuredVia = sourceLine(featured);
         </div>
         <div class="tiles">
           {start.map((p, i) => (
-            <a class={`tile t${i % 4}`} href={`/blog/${p.slug}/`}>
+            <a class={`tile t${i % 4}`} href={`/${p.slug}/`}>
               <small>{topicOf(p).name} · {readingTime(p)} min</small>
               <h3>{p.data.title}</h3>
             </a>
@@ -98,25 +103,9 @@ const featuredVia = sourceLine(featured);
     </div>
   </section>
 
-  <section class="section section-orange">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label" style="color: var(--ink)">Free to try</p>
-        <h2>Check your own site</h2>
-        <p class="sub">Two tools built from the same methods I use with clients.</p>
-      </div>
-      <div class="cols-2">
-        {TOOLS.map((t) => (
-          <div class="col">
-            <h3>{t.name}</h3>
-            <p>{t.blurb}</p>
-            <a class="go" href={t.url} rel="noopener">Open {t.name} &rarr;</a>
-            <span class="host">{t.host}</span>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
+  <div class="wrap" style="padding-top: 24px; padding-bottom: 56px;"><AuditBanner medium="home" /></div>
+
+  <AppRankrSection />
 
   <section class="contact">
     <div class="wrap">
