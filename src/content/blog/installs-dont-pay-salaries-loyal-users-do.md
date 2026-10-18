@@ -4,6 +4,8 @@ date: 2025-09-12T03:29:04Z
 description: "For years, Indian startups paraded installs like trophies. The deck was always the same: “10 million downloads.” Investors nodded. Headlines followed. And then, quietly, those users uninstalled in…"
 tag: "ASO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/app-installs.webp"
+categories: ["APP ASO","Industry News"]
+tags: ["ASO","First Party Data","Loyal Users","Rudra Kasturi"]
 ---
 
 For years, Indian startups paraded installs like trophies. The deck was always the same: _“10 million downloads.”_ Investors nodded. Headlines followed. And then, quietly, those users uninstalled in under a week.

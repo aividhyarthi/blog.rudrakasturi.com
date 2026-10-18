@@ -4,6 +4,8 @@ date: 2025-07-18T12:07:13Z
 description: "You open Google Discover. You see an article that says: “More than 80 publishers lost 20-50% of their traffic due to Google’s June update.” Source: Exchange4Media And what’s funny? Google itself…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-45.webp"
+categories: ["Google Updates","SEO"]
+tags: ["Google","Google ranking","Google Search","Rudra Kasturi","SEO"]
 ---
 
 You open Google Discover.

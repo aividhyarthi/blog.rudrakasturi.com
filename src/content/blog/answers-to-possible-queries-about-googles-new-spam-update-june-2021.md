@@ -4,6 +4,8 @@ date: 2021-07-12T17:05:42Z
 description: "Google, on a regular basis, releases spam updates in order to enhance its search results quality. Google's Search Liaison, Danny Sullivan tweeted about a spam-preventing algorithm update being rolled…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/spam-940521_1280.jpg"
+categories: ["SEO"]
+tags: ["Google","Google Search","Google Search challenge","Google Search Console","Rudra Kasturi","search engine optimisation","SEO","spam backlinks","Spam Update"]
 ---
 
 Google, on a regular basis, releases spam updates in order to enhance its search results quality. Google's Search Liaison, Danny Sullivan tweeted about a spam-preventing algorithm update being rolled out on 23rd June. Quite swiftly, the update was completely implemented on the very same day.

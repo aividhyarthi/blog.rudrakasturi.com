@@ -4,6 +4,8 @@ date: 2025-11-19T04:14:56Z
 description: "Google has updated its crawler documentation by adding a new user triggered fetcher called Google-Pinpoint . This fetcher belongs to Google’s Pinpoint research tool, which is widely used by…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/image-2.webp"
+categories: ["Crawling","Google Search"]
+tags: ["Google","Google Search","Google updates","Rudra Kasturi","SEO"]
 ---
 
 Google has updated its crawler documentation by adding a new user triggered fetcher called **[Google-Pinpoint](https://developers.google.com/search/docs/crawling-indexing/google-user-triggered-fetchers#google-pinpoint)**. This fetcher belongs to Google’s Pinpoint research tool, which is widely used by journalists, investigators, fact checkers, and researchers to analyse large sets of documents.

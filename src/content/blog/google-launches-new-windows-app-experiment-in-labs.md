@@ -4,6 +4,8 @@ date: 2025-09-18T03:30:23Z
 description: "Google is testing something new for Windows users a Google app for Windows , now live as an experiment in Labs. The idea is simple: make it easier to search, without breaking your flow. Search…"
 tag: "APP"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-69.webp"
+categories: ["Industry News","Windows"]
+tags: ["APP","Google","Google Labs","Rudra Kasturi"]
 ---
 
 Google is testing something new for Windows users a **Google app for Windows**, now live as an experiment in Labs. The idea is simple: make it easier to search, without breaking your flow.

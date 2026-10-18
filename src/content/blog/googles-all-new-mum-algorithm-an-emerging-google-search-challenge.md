@@ -4,6 +4,8 @@ date: 2021-07-08T20:38:00Z
 description: "Google, lately, has been pulling out its weight to help the users have a better experience by constantly developing the Google AI. Similarly, Google has announced its all new algorithm named ‘MUM.’…"
 tag: "AI tool"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/google-485611_1280.png"
+categories: ["Uncategorized"]
+tags: ["AI tool","Google","Google Search challenge","google update 2021","google update algorithm 2021","google update core web vitals","Google’s MUM","Multitask Unified Model"]
 ---
 
 Google, lately, has been pulling out its weight to help the users have a better experience by constantly developing the Google AI. Similarly, Google has announced its all new algorithm named ‘MUM.’ Google’s MUM, Multitask Unified Model, is a new AI tool designed to answer complex sets of questions that cannot be answered with a link or description. Complex set of questions imply queries pertaining to multiple subtopics as the answer. 

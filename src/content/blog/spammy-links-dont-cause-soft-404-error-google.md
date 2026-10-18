@@ -4,6 +4,8 @@ date: 2021-07-16T18:32:14Z
 description: "Do you have 404 errors in your Google Search Console reports or in Google Analytics? Take a deep breath and try not to be alarmed and panic. Some 404 errors are perfectly acceptable and have no…"
 tag: "404 error"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/404error.jpg"
+categories: ["Uncategorized"]
+tags: ["404 error","Google","Google Search challenge","Google Search Console","Index Coverage report","interlinking","search engine optimisation","SEO","Soft 4040 failure","website rankings"]
 ---
 
 Do you have 404 errors in your Google Search Console reports or in Google Analytics? Take a deep breath and try not to be alarmed and panic. Some 404 errors are perfectly acceptable and have no detrimental impact on SEO. However, some 404 problems must be rectified in order to prevent 404 errors from harming your SEO.  

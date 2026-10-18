@@ -4,6 +4,8 @@ date: 2021-07-12T12:38:38Z
 description: "The digital experience has reached new heights in the last few years, thanks to the development of faster internet networks, and the unstoppable worldwide mobile e-commerce businesses. From the past…"
 tag: "BERT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/translator.jpg"
+categories: ["SEO"]
+tags: ["BERT","Google","Google's MUM","Multitask Unified Model","Pandu Nayak","Rudra Kasturi","SEO","translator"]
 ---
 
 The digital experience has reached new heights in the last few years, thanks to the development of faster internet networks, and the unstoppable worldwide mobile e-commerce businesses. From the past two decades, Search Engines have gotten better at detecting intent, offering relevant results, and combining different verticals (such image, video, or local search), but all of the search engines have mostly operated in the same way. The search principle somewhat remains the same, type in a text query, and the search engine shall suggest a mix of organic links, rich results, and advertisements as an answer to your query. 

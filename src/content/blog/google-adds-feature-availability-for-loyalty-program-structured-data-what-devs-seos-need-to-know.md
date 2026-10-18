@@ -4,6 +4,8 @@ date: 2025-06-18T04:03:21Z
 description: "What Changed? On June 17, 2025 , Google updated its Loyalty Program structured data documentation to include a “Feature Availability” section. This section lists the countries and devices where…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-52.webp"
+categories: ["Industry News","SEO","Structure Data"]
+tags: ["Google","Rudra Kasturi","Schema","SEO","Structure Data"]
 ---
 
 **What Changed?**

@@ -4,6 +4,8 @@ date: 2025-06-27T04:36:42Z
 description: "Influencers are posting. Agencies are reporting. Brands are approving. And still... no one knows if anything actually worked. Welcome to influencer marketing in India — a triangle built on vibes…"
 tag: "Influencers"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-78.webp"
+categories: ["Opinion"]
+tags: ["Influencers","Marketing India","Rudra Kasturi"]
 ---
 
 Influencers are posting.  

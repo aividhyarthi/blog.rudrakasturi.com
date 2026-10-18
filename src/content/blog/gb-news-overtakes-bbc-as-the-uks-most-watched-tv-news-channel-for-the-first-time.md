@@ -4,6 +4,8 @@ date: 2025-08-01T18:02:51Z
 description: "GB News has become the most-watched TV news channel in Britain for the first time in July 2025, according to official data from BARB, the main TV ratings agency. July 2025 TV Ratings: Average Daily…"
 tag: "GB"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-stunning-featured-image-for-a-blog-post-titled-2.webp"
+categories: ["Industry News"]
+tags: ["GB","GB News","Rudra Kasturi","UK Most Watched TV"]
 ---
 
 GB News has become the most-watched TV news channel in Britain for the first time in July 2025, according to official data from BARB, the main TV ratings agency.

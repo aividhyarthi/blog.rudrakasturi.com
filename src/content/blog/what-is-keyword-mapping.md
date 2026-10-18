@@ -4,6 +4,8 @@ date: 2021-07-10T02:34:40Z
 description: "Mapping is a commonly used technique for Search Engine Optimisation that helps to allocate a set of target keywords to each specific page. This method has been employed more in the past, but it still…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/154.jpg"
+categories: ["SEO"]
+tags: ["Google","google page experience","keyword mapping","Keyword mapping work","Mapping","Page Experience Update 2021","primary keywords","Rudra Kasturi","search engine optimisation","SEO","SEO success in 2021"]
 ---
 
 Mapping is a commonly used technique for Search Engine Optimisation that helps to allocate a set of target keywords to each specific page. This method has been employed more in the past, but it still holds a great relevance and marketers should not overlook this digital marketing technique. 

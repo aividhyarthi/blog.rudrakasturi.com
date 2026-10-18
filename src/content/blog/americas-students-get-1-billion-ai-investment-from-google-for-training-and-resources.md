@@ -4,6 +4,8 @@ date: 2025-08-07T03:55:09Z
 description: "In a landmark announcement , Google has pledged $1 billion over the next three years to support AI education, tools, and infrastructure for students at accredited nonprofit colleges and universities…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/google-logo-ai-us-students-learning-ai-with.webp"
+categories: ["AI","AI Education","Google AI"]
+tags: ["ai","AI Education","AI Learning","Google","Rudra Kasturi"]
 ---
 
 **In a landmark [announcement](https://blog.google/products/gemini/google-ai-pro-students-learning/), Google has pledged $1 billion over the next three years to support AI education, tools, and infrastructure for students at accredited nonprofit colleges and universities across the United States.** This move, unveiled in August 2025, is being described as one of the largest investments in technology-driven learning ever made for American higher education.

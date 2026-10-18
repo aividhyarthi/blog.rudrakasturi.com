@@ -4,6 +4,8 @@ date: 2021-07-12T14:28:41Z
 description: "Google has modified the way it classifies soft 404s and now looks at a URL based on the device type. Now, if Google detects a URL and hits it on desktop before seeing it on mobile, it may send a soft…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/404error.jpg"
+categories: ["SEO"]
+tags: []
 ---
 
 Google has modified the way it classifies soft 404s and now looks at a URL based on the device type. Now, if Google detects a URL and hits it on desktop before seeing it on mobile, it may send a soft 404 error for the desktop but not for the mobile devices. In other words, Google detects the soft 404 status on the basis of every URL, as well as by device type.

@@ -4,6 +4,8 @@ date: 2025-04-16T03:45:09Z
 description: "What’s Changing? Google has announced that it will redirect all its country-level domains (like google.fr for France, google.in for India, or google.co.uk for the UK) to a single global domain…"
 tag: "Google ccTLDs"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-29.webp"
+categories: ["Google Search","SEO"]
+tags: ["Google ccTLDs","Google ranking","Rudra Kasturi","SEO"]
 ---
 
 ## What’s Changing?

@@ -4,6 +4,8 @@ date: 2021-07-13T13:28:41Z
 description: "The July 2021 core update is now \"essentially complete,\" according to Google. The Tech Giant finished rolling out the update which was released on July 1, 2021. The full rollout of such an upgrade…"
 tag: "google page experience"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/update-1672353_1280.png"
+categories: ["SEO"]
+tags: ["google page experience","google page experience update","Google ranking","google update 2021","google update algorithm 2021","google update core web vitals","Page Experience Update 2021","search engine optimisation","SEO"]
 ---
 
 The July 2021 core update is now "essentially complete," according to Google. The Tech Giant finished rolling out the update which was released on July 1, 2021. The full rollout of such an upgrade takes one to two weeks. 

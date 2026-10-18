@@ -4,6 +4,8 @@ date: 2024-12-22T03:20:30Z
 description: "YouTube recently announced that it will remove videos with misleading titles or thumbnails , focusing first on breaking news or current events content. This move aims to ensure viewers get accurate…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-featured-image-for-a-blog-post-about-youtubes-2.png"
+categories: ["YouTube"]
+tags: ["Rudra Kasturi"]
 ---
 
 YouTube recently announced that it will **remove videos with misleading titles or thumbnails**, focusing first on **breaking news** or **current events** content. This move aims to ensure viewers get accurate information and are not tempted by clickbait. Here’s what you need to know:

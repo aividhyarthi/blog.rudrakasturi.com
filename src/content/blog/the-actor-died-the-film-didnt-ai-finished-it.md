@@ -4,6 +4,8 @@ date: 2025-07-21T06:14:37Z
 description: "A few months ago, British director Gareth Edwards was in a tough spot. His lead actor passed away before the film could be completed. In 90s Bollywood, that would've meant: pause the film re-cast…"
 tag: "AI in films"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-65.webp"
+categories: ["AI"]
+tags: ["AI in films","AI in movie making","AI in movies","Rudra Kasturi"]
 ---
 
 A few months ago, British director Gareth Edwards was in a tough spot. His lead actor passed away before the film could be completed.

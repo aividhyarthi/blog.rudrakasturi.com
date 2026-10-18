@@ -4,6 +4,8 @@ date: 2024-10-05T06:44:13Z
 description: "If you're thinking about switching up the look of your Shopify store, one big question might be hanging over your head: \"Is changing my theme going to mess up my SEO?\" Let’s break it down together…"
 tag: "Explainers"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Shopify-Theme-SEO.webp"
+categories: ["Explainers","Google Search","SEO"]
+tags: []
 ---
 
 If you're thinking about switching up the look of your Shopify store, one big question might be hanging over your head: **"Is changing my theme going to mess up my SEO?"** Let’s break it down together, bust some myths, and figure out whether changing your Shopify theme is a good or bad move for your search rankings.

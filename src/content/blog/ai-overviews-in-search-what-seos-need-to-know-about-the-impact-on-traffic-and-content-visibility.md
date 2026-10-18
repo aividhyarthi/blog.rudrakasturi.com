@@ -4,6 +4,8 @@ date: 2024-10-29T02:26:34Z
 description: "The rise of AI Overviews in Google Search has introduced a new way for users to find quick answers and discover relevant content. While this might seem like an exciting development for users, it…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/ai-overviews-seo-traffic-drop.png"
+categories: ["Google AI","SEO"]
+tags: ["Google","Rudra Kasturi"]
 ---
 
 The rise of **AI Overviews** in Google Search has introduced a new way for users to find quick answers and discover relevant content. While this might seem like an exciting development for users, it raises some important concerns for **SEOs** and **content creators**. Could the introduction of AI-generated overviews change the way users interact with search results? Will they rely more on the AI's summarized content and less on organic search links? Let's dive into the potential impact on SEO and what you need to watch out for.

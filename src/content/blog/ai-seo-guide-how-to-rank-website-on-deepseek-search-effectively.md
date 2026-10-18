@@ -4,6 +4,8 @@ date: 2025-04-05T04:39:42Z
 description: "let’s break down how to rank your website on Deepseek (or any AI-powered search engine) in an actionable way. Think of it like making a new friend—you want to be helpful, authentic, and easy to…"
 tag: "AI SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/deepseek-ai.png"
+categories: ["AI","Explainers","SEO"]
+tags: ["AI SEO","Deepseek SEO","Rudra Kasturi"]
 ---
 
 let’s break down how to rank your website on Deepseek (or any AI-powered search engine) in an actionable way. Think of it like making a new friend—you want to be helpful, authentic, and easy to understand. Here’s your game plan:

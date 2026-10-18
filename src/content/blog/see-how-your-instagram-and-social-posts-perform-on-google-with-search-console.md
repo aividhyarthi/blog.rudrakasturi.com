@@ -20,6 +20,8 @@ sources:
   - title: "Google Confirms Discover Feed Shows More Social Posts"
     url: "https://www.seroundtable.com/google-discover-feed-social-media-posts-41011.html"
     publisher: "Search Engine Roundtable"
+categories: ["Social Media", "Google Search"]
+tags: ["Instagram", "Search Console"]
 ---
 
 Creators have long wondered: "Does Google show my Instagram posts, and can I see it?" Search Console now gives a partial answer.

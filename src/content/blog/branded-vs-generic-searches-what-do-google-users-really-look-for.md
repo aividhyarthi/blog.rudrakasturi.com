@@ -4,6 +4,8 @@ date: 2024-12-06T03:21:53Z
 description: "Is Google primarily a tool for discovering new information, or is it a gateway for users who already know what they’re looking for? In a recent analysis, Rand Fishkin, founder of SparkToro, explored…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-11.png"
+categories: ["Industry News","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 Is Google primarily a tool for discovering new information, or is it a gateway for users who already know what they’re looking for? In a recent analysis, [Rand Fishkin, founder of SparkToro, explored this fascinating divide between **branded** and **generic searches**, and the results might surprise you](https://sparktoro.com/blog/new-research-we-analyzed-332-million-queries-over-21-months-to-uncover-never-before-published-data-on-how-people-use-google/).

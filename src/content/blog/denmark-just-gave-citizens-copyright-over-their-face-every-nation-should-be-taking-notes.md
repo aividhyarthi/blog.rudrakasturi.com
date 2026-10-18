@@ -4,6 +4,8 @@ date: 2025-07-10T16:10:44Z
 description: "In an age where AI can clone your voice in 30 seconds, animate your face in 3 clicks, and turn your body into a political puppet - Denmark just drew a hard line. They're rewriting copyright law not…"
 tag: "AI Copyright"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-high-resolution-highly-detailed-image-that-visually-represents-denmarks-2.webp"
+categories: ["AI","Industry News"]
+tags: ["AI Copyright","Denmark","Denmark AI","Rudra Kasturi"]
 ---
 
 In an age where AI can clone your voice in 30 seconds, animate your face in 3 clicks, and turn your body into a political puppet - Denmark just drew a hard line.

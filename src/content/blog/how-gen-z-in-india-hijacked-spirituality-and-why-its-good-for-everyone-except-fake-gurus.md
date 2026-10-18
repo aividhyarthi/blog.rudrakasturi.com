@@ -4,6 +4,8 @@ date: 2025-08-04T03:52:42Z
 description: "Here’s a stat most old-school marketers will never admit: The average Gen Z in India spends at least ₹500 per month on something “spiritual” or “religious” apps, candles, online poojas, astrology…"
 tag: "GenZ"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/2-gitls-taking-pic-at-a-temple-like-a-selfie.webp"
+categories: ["GenZ","Industry News"]
+tags: ["GenZ","Gurus","Rudra Kasturi","Spirituality"]
 ---
 
 Here’s a stat most old-school marketers will never admit:  

@@ -4,6 +4,8 @@ date: 2024-10-05T06:36:50Z
 description: "You might have heard a lot of talk about whether using AI to write content can hurt your website’s SEO. Some people worry that Google will “punish” sites with AI-generated content. But is that really…"
 tag: "AI Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/AI-Content.webp"
+categories: ["Explainers","Google AI","Google Search","GPT","SEO"]
+tags: ["AI Content","Content","Google","Google ranking","Rudra Kasturi","SEO"]
 ---
 
 You might have heard a lot of talk about whether using AI to write content can hurt your website’s SEO. Some people worry that Google will “punish” sites with AI-generated content. But is that really true?

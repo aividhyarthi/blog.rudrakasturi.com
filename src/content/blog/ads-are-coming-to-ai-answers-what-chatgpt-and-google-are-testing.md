@@ -17,6 +17,8 @@ sources:
   - title: "Google Marketing Live 2026: Everything you need to know"
     url: "https://searchengineland.com/google-marketing-live-2026-everything-you-need-to-know-478167"
     publisher: "Search Engine Land"
+categories: ["AI Ads", "AI", "GPT"]
+tags: ["ChatGPT Ads", "AI Mode"]
 ---
 
 For years, AI assistants felt ad-free. That is ending. Here is what the trade press has reported.

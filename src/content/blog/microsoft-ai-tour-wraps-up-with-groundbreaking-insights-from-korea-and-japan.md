@@ -4,6 +4,8 @@ date: 2025-04-01T03:54:30Z
 description: "Hey everyone! Neha here from Microsoft, and I’m thrilled to share some electrifying highlights from our just-concluded Microsoft AI Tour in Korea and Japan . This wasn’t just another event—it was a…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-1.png"
+categories: ["AI","Industry News"]
+tags: ["ai","Innovation","Japan","MicrosoftAITour","Startups"]
 ---
 
 Hey everyone! Neha here from Microsoft, and I’m _thrilled_ to share some electrifying highlights from our just-concluded [**Microsoft AI Tour** in Korea and Japan](https://www.linkedin.com/posts/neha-mittal-5514498_and-its-a-wrapfantastic-interactions-activity-7311994117159362560-hvc8?utm_source=share&utm_medium=member_ios&rcm=ACoAAAF9M80BjBrJmv-nOPiveBencHcCDwZX4vA). This wasn’t just another event—it was a dynamic convergence of tech visionaries, startup disruptors, and AI trailblazers, all united to shape what’s next in innovation. Let’s dive in!

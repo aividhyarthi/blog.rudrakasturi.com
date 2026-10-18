@@ -4,6 +4,8 @@ date: 2025-06-27T06:29:53Z
 description: "You searched for “XUV500 second hand.” You didn’t type “best dealer,” “top reviews,” or “Rajahmundry.” But boom - the AI Mode results showed dealers, star ratings, and even Google reviews from local…"
 tag: "AI Mode"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-80.webp"
+categories: ["AI","AI Mode","Branding","SEO"]
+tags: ["AI Mode","Branding","Google","Google Local Reviews","Marketing","Rudra Kasturi"]
 ---
 
 **You searched for “XUV500 second hand.”**  

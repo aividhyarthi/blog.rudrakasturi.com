@@ -4,6 +4,8 @@ date: 2025-03-10T03:21:30Z
 description: "The world of search is evolving fast, and if you’re into SEO, you need to understand the latest update: A I Mode in the robots meta tag . Google has quietly rolled out AI Mode in Search Labs , and…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image.png"
+categories: ["AI","Crawling","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 The world of search is evolving fast, and if you’re into SEO, you **need** to understand the latest update: **A**[**I Mode in the robots meta tag**.](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag)

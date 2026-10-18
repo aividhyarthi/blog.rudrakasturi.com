@@ -4,6 +4,8 @@ date: 2021-07-16T14:48:33Z
 description: "Google's search index is a platform where the candidate pages qualify and provide the results which is why the indexing score of Google is so crucial. On that account, John Mueller of Google…"
 tag: "Content Delivery Network"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/representative-arrow-economy-chart-e1626446894435.jpg"
+categories: ["Uncategorized"]
+tags: ["Content Delivery Network","Google","Google Search Index","Google's web crawler","Googlebot","John Mueller","Rudra Kasturi","search engine optimisation","SEO"]
 ---
 
 Google's search index is a platform where the candidate pages qualify and provide the results which is why the indexing score of Google is so crucial. On that account, John Mueller of Google describes why and how big changes to a website's basic infrastructure may cause Google to significantly slow down web page crawling. Responding to a query about decreased crawl rates following major changes to a website's architecture, such as switching to a new content delivery network (CDN).

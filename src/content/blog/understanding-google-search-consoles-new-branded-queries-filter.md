@@ -4,6 +4,8 @@ date: 2025-11-24T11:31:05Z
 description: "Google has introduced a new feature in Search Console called the Branded Queries Filter. This update helps site owners understand how much of their search traffic comes from people who already know…"
 tag: "branded queries filter"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/Screenshot-2025-11-24-at-4.47.28-PM.webp"
+categories: ["Google Updates"]
+tags: ["branded queries filter","Google Search Console","google seo","GSC update","non branded queries","query filtering","search analytics","search performance","SEO Tools"]
 ---
 
 Google has introduced a new feature in Search Console called the Branded Queries Filter. This update helps site owners understand how much of their search traffic comes from people who already know their brand compared to users who are discovering them for the first time. If you use Search Console for SEO, content planning, or general site monitoring, this feature can make your traffic analysis much clearer.

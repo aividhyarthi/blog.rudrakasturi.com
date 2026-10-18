@@ -20,6 +20,8 @@ sources:
   - title: "AI crawlers: What are LLM & AI search crawlers and bots?"
     url: "https://searchengineland.com/guide/ai-crawlers"
     publisher: "Search Engine Land"
+categories: ["AI Mode", "Google Search", "SEO"]
+tags: ["AI Mode", "Search Console"]
 ---
 
 Many site owners ask: "Is Google's AI using my pages, and can I stop it?" Search Console now gives you two separate tools. They are easy to mix up, so here is a clear guide.

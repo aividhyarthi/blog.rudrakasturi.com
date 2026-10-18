@@ -4,6 +4,8 @@ date: 2024-10-05T03:57:59Z
 description: "Google just made it even easier for you to find what you need quickly — especially when you’re on the go and want a simple solution without having to do a lot of searching. Let’s break down what’s…"
 tag: "ai ads"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/AI-Ads-in-Overviews.webp"
+categories: ["Google AI","Google Search","Google Updates","SEO"]
+tags: ["ai ads","ai overview","Google","google ai","SEO"]
 ---
 
 Google just made it even easier for you to find what you need quickly — especially when you’re on the go and want a simple solution without having to do a lot of searching. Let’s break down what’s new and how it might make your Google searches more useful.

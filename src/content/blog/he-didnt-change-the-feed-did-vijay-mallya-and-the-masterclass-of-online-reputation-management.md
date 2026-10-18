@@ -4,6 +4,8 @@ date: 2025-06-18T07:34:21Z
 description: "For a decade, Vijay Mallya was the default example in every scam montage, every corruption debate, every punchline about billionaires who fled. The consensus was simple: He was guilty, gone, and…"
 tag: "Branding"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/ChatGPT-Image-Jun-18-2025-01_01_42-PM.webp"
+categories: ["Industry News","ORM"]
+tags: ["Branding","Masterclass","ORM","Rudra Kasturi","VIjay Malya"]
 ---
 
 For a decade, Vijay Mallya was the default example in every scam montage, every corruption debate, every punchline about billionaires who fled.

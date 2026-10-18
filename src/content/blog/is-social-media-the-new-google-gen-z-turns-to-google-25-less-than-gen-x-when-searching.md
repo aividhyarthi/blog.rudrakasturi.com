@@ -4,6 +4,8 @@ date: 2024-12-15T12:48:58Z
 description: "In a seismic shift in online behavior, Generation Z is redefining how we search for information, challenging the dominance of search engines like Google. According to insights reported by Forbes , a…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/is-social-media-the-new-google-gen-z-turns-to.png"
+categories: ["GenZ","Google Search","Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 In a seismic shift in online behavior, Generation Z is redefining how we search for information, challenging the dominance of search engines like Google. [According to insights reported by Forbes](https://www.forbes.com/advisor/business/software/social-media-new-google/#people_are_more_likely_to_search_for_businesses_on_tiktok_than_instagram_section), a notable decline of 25%, on average, has been observed in the use of Google for search between Gen Z and Gen X. This generational divide signals a significant change in digital habits, raising the question: is social media the new Google?

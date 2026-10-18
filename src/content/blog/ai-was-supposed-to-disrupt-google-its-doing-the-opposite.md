@@ -4,6 +4,8 @@ date: 2025-07-27T03:29:24Z
 description: "A year ago, the prediction was simple. AI chatbots would replace search that is Google Now the data is in. The outcome looks different. In June 2025, ChatGPT and other AI tools sent 53.1 million…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-74.webp"
+categories: ["AI","Google Search","GPT"]
+tags: ["ai","ChatGPT","Google","Perplexity","Rudra Kasturi","Search","Similarweb"]
 ---
 
 A year ago, the prediction was simple. AI chatbots would replace search that is Google

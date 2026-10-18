@@ -4,6 +4,8 @@ date: 2024-10-22T02:39:06Z
 description: "Highlights: The sitelinks search box will be removed globally from Google Search on November 21, 2024. The change does not affect search rankings or other sitelinks visual elements. There is no…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-48.png"
+categories: ["Google Updates","SEO","Structure Data"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 **Highlights:**

@@ -4,6 +4,8 @@ date: 2025-01-28T04:26:47Z
 description: "It’s happening. A seismic shift in the world of AI is upon us, and this time, the epicenter isn’t Silicon Valley—it’s China. DeepSeek, a relatively lesser-known AI company, has done the unthinkable…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/image-22.png"
+categories: ["AI","Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 It’s happening. A seismic shift in the world of AI is upon us, and this time, the epicenter isn’t Silicon Valley—it’s China. DeepSeek, a relatively lesser-known AI company, has done the unthinkable: it built an AI model, DeepSeek R1, that rivals OpenAI’s GPT-4. But here’s the kicker—it did it for **1/1000th of the cost**.

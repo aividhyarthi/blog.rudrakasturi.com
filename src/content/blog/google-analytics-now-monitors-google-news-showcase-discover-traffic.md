@@ -4,6 +4,8 @@ date: 2021-08-05T04:40:38Z
 description: "Google Analytics appears to be displaying some Google Discover visits, most likely from the Google News Showcase. If you look at your acquisition, source, and medium traffic, you could see…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/08/images.jpg"
+categories: ["Uncategorized"]
+tags: ["Google","google analytics","google discover","Google news","google news showcase","google page experience","Google ranking","search engine optimisation","SEO"]
 ---
 
 Google Analytics appears to be displaying some Google Discover visits, most likely from the Google News Showcase. If you look at your acquisition, source, and medium traffic, you could see \[newsshowcase / discover\] in the list. Vishal Marathe, from what I can understand, was the first to notice this and tweet about it:  

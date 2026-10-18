@@ -4,6 +4,8 @@ date: 2025-02-17T02:51:03Z
 description: "Structured data helps search engines understand content better, and for merchants, it ensures that product prices are displayed correctly in search results. Google has recently updated its Merchant…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/02/image.png"
+categories: ["SEO","Structure Data"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 Structured data helps search engines understand content better, and for merchants, it ensures that product prices are displayed correctly in search results. Google has recently updated its Merchant listing structured data guidelines to support more complex pricing structures. This includes the use of the `priceType` property and the new beta `validForMemberTier` property.

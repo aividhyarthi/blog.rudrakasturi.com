@@ -50,7 +50,10 @@ const { mode, action } = newsletterConfig();
           body: JSON.stringify(Object.fromEntries(new FormData(form))),
         });
         const data = await res.json().catch(() => ({}));
-        if (!res.ok || !(data.success === true || data.success === 'true')) throw new Error('rejected');
+        if (!res.ok || !(data.success === true || data.success === 'true')) {
+          console.warn('Newsletter sign-up was not accepted:', data.message || res.status);
+          throw new Error('rejected');
+        }
         remember();
         form.hidden = true;
         status.textContent = 'You are subscribed. The next briefing will arrive in your inbox.';

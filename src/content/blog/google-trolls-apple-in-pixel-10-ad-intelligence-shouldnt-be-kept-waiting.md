@@ -4,6 +4,8 @@ date: 2025-08-05T04:58:49Z
 description: "Google’s latest Pixel 10 ad lands a direct jab at Apple, mocking Siri’s delayed AI upgrade and positioning Pixel as the “ready now” smart choice. Is it just marketing, or is the AI gap real? Watch…"
 tag: "Google Pixel 10"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/google-pixel-10-smartphone.webp"
+categories: ["AI Trolls","Google AI","Industry News"]
+tags: ["Google Pixel 10","Rudra Kasturi","Siri AI"]
 ---
 
 _Google’s latest Pixel 10 ad lands a direct jab at Apple, mocking Siri’s delayed AI upgrade and positioning Pixel as the “ready now” smart choice. Is it just marketing, or is the AI gap real? Watch the video and decide._

@@ -4,6 +4,8 @@ date: 2025-08-01T10:12:56Z
 description: "Search isn’t just changing. It’s splitting in two. On one side: AI-generated snippets, lightning-fast summaries, and endless algorithmic content. On the other: Reddit, with its 20 billion real human…"
 tag: "google ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/reddit-logo.webp"
+categories: ["AI","Community","Industry News","Reddit"]
+tags: ["google ai","Reddit","Rudra Kasturi","UGC"]
 ---
 
 Search isn’t just changing. It’s splitting in two. On one side: AI-generated snippets, lightning-fast summaries, and endless algorithmic content. On the other: Reddit, with its 20 billion real human posts, deep threads, and the one thing bots can’t fake-lived experience.

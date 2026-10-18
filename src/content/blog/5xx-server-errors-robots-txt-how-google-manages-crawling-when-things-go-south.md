@@ -4,6 +4,8 @@ date: 2024-12-20T03:21:44Z
 description: "When Google attempts to crawl a website, it first checks the robots.txt file to see which pages it can access. This file tells search engines which sections of the site are off-limits. But what…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-56.png"
+categories: ["Crawling","Explainers","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 When Google attempts to crawl a website, it first checks the **robots.txt** file to see which pages it can access. This file tells search engines which sections of the site are off-limits. But what happens if a server error prevents Google from fetching the robots.txt file? Let’s explore Google’s approach in handling 5xx server errors when retrieving robots.txt.

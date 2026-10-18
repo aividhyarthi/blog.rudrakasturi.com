@@ -4,6 +4,8 @@ date: 2025-06-24T05:48:27Z
 description: "Google's much-awaited AI Mode in Search is now live in India - currently available in beta (experimental) mode. If you have noticed a new interface showing AI-generated summaries above the usual…"
 tag: "AI Mode"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/google-searchs-ai-mode-in-india.webp"
+categories: ["AI","Google Search","Industry News","SEO"]
+tags: ["AI Mode","Google","Google Search","Rudra Kasturi","SEO"]
 ---
 
 Google's much-awaited AI Mode in Search is now live in India - currently available in beta (experimental) mode. If you have noticed a new interface showing AI-generated summaries above the usual search results, you're already using Google's AI Mode.

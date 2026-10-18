@@ -4,6 +4,8 @@ date: 2025-04-25T03:59:15Z
 description: "YouTube just announced a new experiment that could reshape how users discover content on the platform—and if you're a creator, brand, or SEO specialist, you'll want to pay attention. As of April 23…"
 tag: "ai overview"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/generate-a-featured-image-for-a-blog-post-about-youtubes.webp"
+categories: ["AI","Industry News","SEO","YouTube"]
+tags: ["ai overview","Google","Rudra Kasturi","SEO","YouTube"]
 ---
 
 YouTube just announced a new experiment that could reshape how users discover content on the platform—and if you're a creator, brand, or SEO specialist, you'll want to pay attention.

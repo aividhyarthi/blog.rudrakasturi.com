@@ -4,6 +4,8 @@ date: 2025-04-30T02:56:39Z
 description: "Announced: April 29, 2025 Audience: YouTube creators, content strategists, SEO folks, and digital safety advocates What’s the Update? YouTube is testing blurred thumbnails in search results…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/create-a-highly-detailed-sharp-focused-image-of-a-youtube-search.webp"
+categories: ["Industry News","Videos","YouTube"]
+tags: ["Google","Rudra Kasturi","Video"]
 ---
 
 _Announced: April 29, 2025_  

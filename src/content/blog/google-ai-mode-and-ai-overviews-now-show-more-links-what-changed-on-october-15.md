@@ -17,6 +17,8 @@ sources:
   - title: "Google AI Overviews jump from 26% to 80% of branded queries"
     url: "https://searchengineland.com/google-ai-overviews-jump-branded-queries-september-492962"
     publisher: "Search Engine Land"
+categories: ["AI Mode", "Google AI", "AEO"]
+tags: ["AI Mode", "AI Overview"]
 ---
 
 On October 15, 2026 Google announced another round of changes to how links appear in AI Overviews and AI Mode. Here is a summary.

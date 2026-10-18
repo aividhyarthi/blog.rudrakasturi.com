@@ -39,15 +39,22 @@ The site builds to plain files in `dist/` (`npm run build`). Any static host wor
 Cloudflare Pages, Netlify, Vercel or Railway (a Dockerfile is included).
 Build command: `npm run build`. Output folder: `dist`.
 
-## Newsletter
-Sign-up forms appear in the sidebar, at the end of every article, on the homepage, and in a slide-in card that
-appears while someone reads (after scrolling about halfway, after 45 seconds, or when the mouse leaves toward the tab bar).
-It stays hidden for 14 days once closed and for good once someone subscribes.
+## Menu and sections
+The menu sections (SEO, AEO, LLMs, Google, YouTube, Forums) are defined in `SECTIONS` in `src/lib/posts.ts`.
+Each lists which of your WordPress categories and which title keywords belong to it; a post can appear in several.
+Your original WordPress category and tag addresses (`/category/seo/`, `/tag/google/` and so on) still work.
+The Tools dropdown is `toolLinks` in `src/layouts/BaseLayout.astro`.
 
-By default each sign-up is emailed to rudra@rudrakasturi.com (the first one triggers a one-time activation email from
-formsubmit.co: click the link). To send the weekly email you need a newsletter service. In `src/config.ts` set
-`NEWSLETTER.provider` to `'substack'` or `'buttondown'` and `NEWSLETTER.id` to your publication name. Then sign-ups go
-straight into that list.
+## Standalone pages
+Pages live in `src/content/pages/` and appear at the root (`/privacy-policy/`). Set `wide: true` for embedded tools.
+Old WordPress addresses that now point somewhere else are listed in `redirects-manual.txt`.
+The Research page stays hidden from the menu and search engines until it has posts.
+
+## Newsletter
+The sign-up boxes and the slide-in popup are switched off. To show them, set `enabled: true` in `NEWSLETTER` in `src/config.ts`.
+Before you do, finish the setup. The default sends each sign-up to rudra@rudrakasturi.com through formsubmit.co, which needs
+a one-time activation: look for an email from FormSubmit in that inbox and click its link (check spam). To send a weekly email you
+also need a newsletter service: set `provider` to `'substack'` or `'buttondown'` and `id` to your publication name.
 
 ## Cross-promotion
 - `APPRANKR_POSTS` in `src/config.ts` lists the AppRankr blog posts shown on the homepage and sidebar. Add a line per post (id, title, url, blurb).

@@ -4,6 +4,8 @@ date: 2025-03-22T04:38:04Z
 description: "Let’s talk about breakups—not the romantic kind, but the digital ones. In the US, one of the hottest search terms right now is “how to turn off Google AI Overview.” Sounds dramatic, right? But it…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/Screenshot-2025-03-22-at-10.06.53 AM.png"
+categories: ["SEO"]
+tags: []
 ---
 
 Let’s talk about breakups—not the romantic kind, but the digital ones. In the US, one of the hottest search terms right now is _“how to turn off Google AI Overview.”_ Sounds dramatic, right? But it turns out, many people may be not happy with Google’s AI-generated summaries popping up in their search results. If you’re one of them, don’t worry—you’re not alone, and I’ve got your back.

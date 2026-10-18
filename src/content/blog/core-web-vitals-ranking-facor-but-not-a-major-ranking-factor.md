@@ -4,6 +4,8 @@ date: 2024-10-30T05:56:06Z
 description: "Since the introduction of Core Web Vitals (CWV) , there has been ongoing discussion about its impact on search rankings. While CWV is important for user experience, it is not a major ranking factor…"
 tag: "Explainers"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Screenshot-2024-10-30-at-11.23.10 AM.png"
+categories: ["Explainers","SEO"]
+tags: []
 ---
 
 Since the introduction of **Core Web Vitals (CWV)**, there has been ongoing discussion about its impact on search rankings. While CWV is important for user experience, it is **not a major ranking factor**. Instead, it’s one of many signals Google uses to assess the quality and relevance of a webpage. If your website offers a poor user experience, it might affect user retention, but don’t expect CWV improvements alone to dramatically boost your rankings.

@@ -4,6 +4,8 @@ date: 2024-10-15T02:32:22Z
 description: "When managing a website, the robots.txt file plays an important role in telling search engines like Google which pages they should or shouldn’t crawl. But what happens if Google can’t reach your…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-38.png"
+categories: ["Crawling","Explainers","Google Search","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 When managing a website, the robots.txt file plays an important role in telling search engines like Google which pages they should or shouldn’t crawl. But what happens if Google can’t reach your robots.txt file? Does it mean disaster for your site? Not necessarily, but there are some key things to keep in mind.

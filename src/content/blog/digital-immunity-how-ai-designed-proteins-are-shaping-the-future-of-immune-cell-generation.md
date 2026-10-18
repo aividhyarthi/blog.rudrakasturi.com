@@ -4,6 +4,8 @@ date: 2025-08-02T06:27:17Z
 description: "The intersection of artificial intelligence and biotechnology is unlocking new possibilities in medical science. Recently, researchers have leveraged AI-designed proteins to engineer immune cells…"
 tag: "AI Health Tech"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-and-sharp-focused-image-representing-the-theme-1.webp"
+categories: ["AI","AI Health","Industry News"]
+tags: ["AI Health Tech","AI in Health","Digital Immunity","Rudra Kasturi"]
 ---
 
 The intersection of artificial intelligence and biotechnology is unlocking new possibilities in medical science. Recently, researchers have leveraged AI-designed proteins to engineer immune cells with remarkable precision. This breakthrough is opening fresh avenues in immunotherapy, vaccine development, and personalized medicine.

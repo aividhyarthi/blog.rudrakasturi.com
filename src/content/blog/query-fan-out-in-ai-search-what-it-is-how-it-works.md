@@ -4,6 +4,8 @@ date: 2026-06-22T04:14:54Z
 description: "When you type one question into an AI search engine — Google AI Overviews, ChatGPT, Perplexity, or Gemini — the system does not just search for that one question. It secretly breaks your question…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/06/query_fanout_feature_image.webp"
+categories: ["AEO","AI","SEO"]
+tags: ["ai","Google","Rudra Kasturi","SEO"]
 ---
 
 When you type one question into an AI search engine — Google AI Overviews, ChatGPT, Perplexity, or Gemini — the system does not just search for that one question. It secretly breaks your question into 5 to 20 related sub-questions, runs them all simultaneously, and combines the results into one answer. That process is called **Query Fan-Out** — and it is changing how brands need to think about digital visibility.

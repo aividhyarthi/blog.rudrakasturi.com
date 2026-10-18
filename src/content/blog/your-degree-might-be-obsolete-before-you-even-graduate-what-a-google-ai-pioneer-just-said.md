@@ -4,6 +4,8 @@ date: 2025-08-28T04:38:23Z
 description: "Jad Tarifi, the founder of Google’s Generative AI team and a key mind behind the AI revolution we’re living through, didn’t mince words in his recent remarks. He didn’t offer polite academic advice…"
 tag: "AI Education"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-high-resolution-highly-detailed-image-illustrating-the-theme-of.webp"
+categories: ["AI","AI Education"]
+tags: ["AI Education","Rudra Kasturi"]
 ---
 
 Jad Tarifi, the founder of Google’s Generative AI team and a key mind behind the AI revolution we’re living through, didn’t mince words in his recent remarks.

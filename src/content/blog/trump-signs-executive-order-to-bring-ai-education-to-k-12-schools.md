@@ -4,6 +4,8 @@ date: 2025-04-28T03:48:10Z
 description: "On April 23, 2025, President Donald Trump signed an executive order titled “Advancing Artificial Intelligence Education for American Youth,” aiming to integrate artificial intelligence (AI) into K–12…"
 tag: "Education AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-41.webp"
+categories: ["Industry News"]
+tags: ["Education AI","Rudra Kasturi"]
 ---
 
 On April 23, 2025, President Donald Trump signed an executive order titled **“Advancing Artificial Intelligence Education for American Youth,”** aiming to integrate artificial intelligence (AI) into K–12 education across the United States. This move is part of a broader initiative to modernize the American education system and prepare students for a future increasingly influenced by AI technologies.

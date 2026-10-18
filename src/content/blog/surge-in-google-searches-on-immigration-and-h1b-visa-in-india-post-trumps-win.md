@@ -4,6 +4,8 @@ date: 2024-11-17T08:55:44Z
 description: "The U.S. presidential election often casts ripples far beyond its borders, and the 2024 election of Donald Trump for another term has proven no exception. In India, the immediate aftermath has seen a…"
 tag: "h1b visa"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-5.png"
+categories: ["Industry News"]
+tags: ["h1b visa","Rudra Kasturi","us citizenship","usa visa"]
 ---
 
 The U.S. presidential election often casts ripples far beyond its borders, and the 2024 election of Donald Trump for another term has proven no exception. In India, the immediate aftermath has seen a spike in Google searches related to immigration, particularly "H1B visa," "illegal immigration," and "US birth citizenship." This trend reflects both a rising concern among aspirants looking to move to the U.S. and a broader curiosity about the possible changes to immigration policies under Trump’s renewed leadership.

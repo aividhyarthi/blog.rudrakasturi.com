@@ -4,6 +4,8 @@ date: 2024-11-20T02:10:59Z
 description: "If you’ve ever been in a meeting about SEO, you’ve probably heard someone say, “What’s our Domain Authority?” or “How can we increase our SEO score?” It’s not just junior marketers who talk about it…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-13.png"
+categories: ["Google Search","Google Updates","Industry News","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 If you’ve ever been in a meeting about SEO, you’ve probably heard someone say, “What’s our Domain Authority?” or “How can we increase our SEO score?” It’s not just junior marketers who talk about it—**even CEOs and decision-makers throw these terms around like they’re a secret weapon for ranking on Google.**

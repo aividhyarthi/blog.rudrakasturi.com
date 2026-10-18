@@ -4,6 +4,8 @@ date: 2024-10-05T05:46:40Z
 description: "You might have heard that using the same description for your YouTube video and on your website could get you in trouble with Google for duplicate content . Let's break down whether that’s true or…"
 tag: "Duplicate Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Youtube-vs-Website-Content.webp"
+categories: ["Explainers","SEO","YouTube"]
+tags: ["Duplicate Content","Google","Google ranking","Rudra Kasturi","SEO","YouTube"]
 ---
 
 You might have heard that using the **same description** for your YouTube video and on your website could get you in trouble with Google for **duplicate content**. Let's break down whether that’s true or just a myth!

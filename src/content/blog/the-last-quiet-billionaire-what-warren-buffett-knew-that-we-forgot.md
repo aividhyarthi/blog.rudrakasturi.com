@@ -4,6 +4,8 @@ date: 2025-05-04T05:49:57Z
 description: "“The stock market is a device for transferring money from the impatient to the patient.” – Warren Buffett He Didn’t Tweet. He Didn’t Hype. He Didn’t Rush. And Still — He Won. Warren Buffett just…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/05/create-a-highly-detailed-high-resolution-image-that-captures-the-essence.webp"
+categories: ["Industry News"]
+tags: ["Rudra Kasturi","Warren Buffett"]
 ---
 
 > **_“The stock market is a device for transferring money from the impatient to the patient.”  

@@ -4,6 +4,8 @@ date: 2024-10-14T02:50:43Z
 description: "If you’ve ever used SEMrush or other SEO tools, you might have come across the term “search ranking volatility.” This term is often accompanied by notifications like “Volatility is High!” But what…"
 tag: "Explainers"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-34.png"
+categories: ["Explainers","Google Search","SEO"]
+tags: []
 ---
 
 If you’ve ever used SEMrush or other SEO tools, you might have come across the term “search ranking volatility.” This term is often accompanied by notifications like “Volatility is High!” But what does that mean, and why should you care? Let’s break it down in simple terms.

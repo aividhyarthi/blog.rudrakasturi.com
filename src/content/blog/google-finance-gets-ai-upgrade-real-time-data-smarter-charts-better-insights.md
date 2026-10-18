@@ -4,6 +4,8 @@ date: 2025-08-11T01:32:21Z
 description: "Google Finance is stepping into the AI era with a complete redesign. The new version comes with a built-in conversational AI assistant, smarter market charts, and live market updates all in one…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-50.webp"
+categories: ["AI","AI FInance","GPT"]
+tags: ["Google","google ai","Google Finance","Rudra Kasturi"]
 ---
 
 Google Finance is stepping into the AI era with a complete redesign. The new version comes with a built-in conversational AI assistant, smarter market charts, and live market updates all in one interface. This move is designed to simplify financial research, speed up decision-making, and give investors a single platform to track and analyze markets in real time.

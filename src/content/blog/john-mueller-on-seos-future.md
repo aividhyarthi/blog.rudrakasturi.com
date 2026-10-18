@@ -4,6 +4,8 @@ date: 2021-07-07T20:44:00Z
 description: "Google's John Mueller discusses the future of SEO and if he believes it will never become outdated in the near future. A question was submitted during the Google Search Central SEO hangout on July 2…"
 tag: "future of search engines"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/manhattan-3866140_1280.jpg"
+categories: ["SEO"]
+tags: ["future of search engines","future of seo","future of seo 2021","future seo trends","Google","Rudra Kasturi","search engine optimisation","SEO"]
 ---
 
 Google's John Mueller discusses the future of SEO and if he believes it will never become outdated in the near future. A question was submitted during the Google Search Central SEO hangout on July 2 that simply asked, “What is your vision for the future of SEO?”  

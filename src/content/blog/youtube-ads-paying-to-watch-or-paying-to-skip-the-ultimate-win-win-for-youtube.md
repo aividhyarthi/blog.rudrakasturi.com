@@ -4,6 +4,8 @@ date: 2024-12-13T15:22:48Z
 description: "YouTube, oh YouTube! The ultimate timepass machine where you go to watch \"how to make biryani in 10 minutes\" but end up watching a dog skateboarding in Canada. And just when you're about to learn the…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-32.png"
+categories: ["Satirical","YouTube"]
+tags: ["Rudra Kasturi","SEO"]
 ---
 
 YouTube, oh YouTube! The ultimate timepass machine where you go to watch _"how to make biryani in 10 minutes"_ but end up watching a dog skateboarding in Canada. And just when you're about to learn the secret to that biryani, BAM! An ad for _"SuperCooker Pressure Cooker – The Choice of Champions!"_ interrupts your zen moment.

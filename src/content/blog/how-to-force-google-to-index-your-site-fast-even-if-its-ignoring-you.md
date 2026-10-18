@@ -4,6 +4,8 @@ date: 2025-04-05T08:39:13Z
 description: "Google doesn’t automatically index every page you create. If your content is stuck in \"indexing limbo,\" it’s invisible to search engines—no traffic, no sales, no growth. Let’s fix that! Step 1…"
 tag: "google crawling"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/google-indexing-website.png"
+categories: ["Crawling","SEO"]
+tags: ["google crawling","Google Indexing","page crawling","site indexing"]
 ---
 
 Google doesn’t automatically index every page you create. If your content is stuck in "indexing limbo," it’s invisible to search engines—no traffic, no sales, no growth. Let’s fix that!

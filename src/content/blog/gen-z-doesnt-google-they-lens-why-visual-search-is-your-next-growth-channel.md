@@ -4,6 +4,8 @@ date: 2025-07-24T06:11:48Z
 description: "How to Win in the Era of Google Lens and Visual Search 100 billion Lens searches. And nearly 1 in 5 shows buying intent. Welcome to the new search habit: Point, tap, and buy. For Gen Z and younger…"
 tag: "GenZ"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/Genz-Lens.webp"
+categories: ["GenZ","Google Search","SEO"]
+tags: ["GenZ","Google","Google Search","Rudra Kasturi","SEO"]
 ---
 
 **How to Win in the Era of Google Lens and Visual Search**

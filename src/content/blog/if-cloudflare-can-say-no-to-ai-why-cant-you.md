@@ -4,6 +4,8 @@ date: 2025-07-02T02:50:21Z
 description: "AI didn't ask. It just took. It crawled your websites. Trained on your stories. Summarized your headlines. And gave nothing back. Now finally, someone said no. Cloudflare just blocked major AI bots…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-highly-detailed-high-resolution-featured-image-for-a-blog-1.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","AI Block","Cloudflare","Google","Pay Content","Rudra Kasturi"]
 ---
 
 AI didn't ask. It just took.

@@ -4,6 +4,8 @@ date: 2025-01-19T13:32:40Z
 description: "In a surprising twist, Perplexity AI has submitted a bid to merge with TikTok U.S., aiming to reshape the social media and AI landscape. This move comes as TikTok faces increasing scrutiny and a…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/image-17.png"
+categories: ["AI","Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 In a surprising twist, **Perplexity AI** has submitted a bid to **merge** with TikTok U.S., aiming to reshape the social media and AI landscape. This move comes as TikTok faces increasing scrutiny and a potential ban in the United States. But why is Perplexity AI making this move, and what does it mean for TikTok, ByteDance, and the broader tech industry?

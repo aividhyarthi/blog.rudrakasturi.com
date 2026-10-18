@@ -2,7 +2,9 @@
 // Run during the Docker build. Output: nginx-redirects.conf
 import fs from 'node:fs';
 
-const lines = fs.existsSync('public/_redirects') ? fs.readFileSync('public/_redirects', 'utf8').split('\n') : [];
+const read = (f) => (fs.existsSync(f) ? fs.readFileSync(f, 'utf8').split('\n') : []);
+// Redirects generated from posts, plus the hand-written ones in redirects-manual.txt
+const lines = [...read('public/_redirects'), ...read('redirects-manual.txt')].filter((l) => !l.trim().startsWith('#'));
 const esc = (s) => s.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\$/g, '\\$');
 const entries = new Map();
 

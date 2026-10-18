@@ -4,6 +4,8 @@ date: 2024-10-05T06:17:57Z
 description: "If you’ve ever changed the URL of a page on your website, you’ve probably heard of a 301 redirect . But do these redirects affect SEO, and if so, how? Let’s dive into what 301 redirects are, how they…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Redirects.webp"
+categories: ["Explainers","SEO"]
+tags: ["Google","Google ranking","Rudra Kasturi","SEO"]
 ---
 
 If you’ve ever changed the URL of a page on your website, you’ve probably heard of a **301 redirect**. But do these redirects affect SEO, and if so, how? Let’s dive into what 301 redirects are, how they impact your website’s performance, and what other types of redirects you should know about.

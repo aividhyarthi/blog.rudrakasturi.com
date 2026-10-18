@@ -4,6 +4,8 @@ date: 2025-07-31T04:47:39Z
 description: "Google has just launched a new experimental feature called Web Guide in Search Labs and it’s a game-changer for people who want deeper, more structured information from Search. Search is no longer…"
 tag: "AI Search"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-92.webp"
+categories: ["AI","AI Mode","Google AI"]
+tags: ["AI Search","AI Web Search","Google","Rudra Kasturi","SEO"]
 ---
 
 Google has just launched a new experimental feature called **Web Guide** in **Search Labs** and it’s a game-changer for people who want **deeper, more structured information** from Search.

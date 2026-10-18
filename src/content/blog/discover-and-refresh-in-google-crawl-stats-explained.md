@@ -4,6 +4,8 @@ date: 2025-08-01T10:43:22Z
 description: "When you look at Crawl Stats in Google Search Console, you’ll see the terms Discover and Refresh . Here’s what they mean: Discover Discover is when Googlebot finds a new page on your website that it…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-6.webp"
+categories: ["Crawling","Explainers","Google Search","SEO"]
+tags: ["Google","Refersh","Rudra Kasturi","SEO"]
 ---
 
 When you look at **Crawl Stats** in Google Search Console, you’ll see the terms **Discover** and **Refresh**. Here’s what they mean:

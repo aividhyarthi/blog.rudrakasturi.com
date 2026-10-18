@@ -4,6 +4,8 @@ date: 2024-12-18T03:12:21Z
 description: "A popular technical question at the Google Search Central Conference December 2024 in Zurich revolved around managing AI crawlers and their impact on normal search crawling. The session shed light on…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-high-resolution-image-that-visually-represents-the.png"
+categories: ["AI","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 A popular technical question at the [Google Search Central Conference December 2024](https://www.mrjonathanjones.com/2024/12/14/google-search-central-conference-zurich-2024/) in Zurich revolved around managing AI crawlers and their impact on normal search crawling. The session shed light on this increasingly relevant topic and provided actionable insights for SEOs and webmasters.

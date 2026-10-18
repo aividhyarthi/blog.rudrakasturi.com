@@ -4,6 +4,8 @@ date: 2024-11-20T03:17:09Z
 description: "The search landscape has been dominated by Google for years, but recent data hints at growing competition from alternative platforms, including AI-driven tools like ChatGPT. Thanks to Rand Fishkin’s…"
 tag: "ChatGPT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-17.png"
+categories: ["AI","GPT","Industry News","SEO"]
+tags: ["ChatGPT","Google","Rudra Kasturi","SEO"]
 ---
 
 The search landscape has been dominated by Google for years, but recent data hints at growing competition from alternative platforms, including AI-driven tools like ChatGPT. Thanks to [Rand Fishkin’s analysis](https://www.linkedin.com/posts/randfishkin_how-big-is-chatgpts-market-share-of-search-activity-7264714114264899584-etIi?utm_source=share&utm_medium=member_desktop), we now have an approximate cross-platform breakdown of search market share that sheds light on how much ground large language models (LLMs) like ChatGPT are gaining.

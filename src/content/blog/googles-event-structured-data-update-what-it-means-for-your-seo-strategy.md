@@ -4,6 +4,8 @@ date: 2025-06-06T07:11:29Z
 description: "Google has recently updated its Events structured data documentation , introducing a set of changes that could significantly impact how your events are surfaced in search results. This isn’t a minor…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-featured-image-for-a-blog-post-about-googles-2.webp"
+categories: ["Industry News","SEO","Structure Data"]
+tags: ["Rudra Kasturi","SEO","SEO strategy","Structured Data"]
 ---
 
 Google has recently updated its [Events structured data documentation](https://developers.google.com/search/docs/appearance/structured-data/event), introducing a set of changes that could significantly impact how your events are surfaced in search results. This isn’t a minor tweak — it redefines what qualifies as a legitimate, structured event in Google’s eyes.

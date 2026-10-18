@@ -4,6 +4,8 @@ date: 2024-12-18T03:25:21Z
 description: "At the Google Search Central Conference December 2024 in Zurich, one of the most impactful messages for SEOs and content creators came from John Mueller: “If you’re only writing for Google, you’re…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/people-first-content-2.png"
+categories: ["AI","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 At the [Google Search Central Conference December 2024](https://www.mrjonathanjones.com/2024/12/14/google-search-central-conference-zurich-2024/) in Zurich, one of the most impactful messages for SEOs and content creators came from John Mueller:

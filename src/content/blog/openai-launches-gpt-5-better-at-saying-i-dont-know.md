@@ -4,6 +4,8 @@ date: 2025-08-08T04:41:22Z
 description: "OpenAI has rolled out GPT-5, its most advanced artificial intelligence model to date, across all ChatGPT plans worldwide. The release replaces multiple separate models with a single adaptive system…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/Screenshot-2025-08-08-at-9.50.24-AM.webp"
+categories: ["AI","GPT","Industry News"]
+tags: ["ai","Google","GPT","Rudra Kasturi","SEO"]
 ---
 
 OpenAI has rolled out GPT-5, its most advanced artificial intelligence model to date, across all ChatGPT plans worldwide. The release replaces multiple separate models with a single adaptive system that can switch between fast, lightweight responses and deep, analytical reasoning depending on the task.

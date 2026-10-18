@@ -4,6 +4,8 @@ date: 2024-12-15T03:45:38Z
 description: "Google is stepping up its game with more frequent core updates. Why? To make sure search results work better with AI, prioritize useful content, and keep users happy. This means SEOs and business…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-35.png"
+categories: ["AI","Industry News","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 Google is stepping up its game with more frequent core updates. Why? To make sure search results work better with AI, prioritize useful content, and keep users happy. This means SEOs and business owners need to stay sharp because these updates are likely to shake things up regularly.

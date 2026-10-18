@@ -4,6 +4,8 @@ date: 2024-12-17T10:48:31Z
 description: "Google Labs has introduced its latest experiment, Whisk , a tool designed to turn your creative ideas into visuals effortlessly. Currently available via a waitlist, Whisk combines cutting-edge AI…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-and-visually-engaging-image-that-captures.png"
+categories: ["AI"]
+tags: ["ai","Rudra Kasturi"]
 ---
 
 Google Labs has introduced its latest experiment, **[Whisk](http://abs.google/fx/tools/whisk/)**, a tool designed to turn your creative ideas into visuals effortlessly. Currently available via a waitlist, Whisk combines cutting-edge AI technology to let users input or generate images, blending subjects, styles, and scenes into unique creations—perfect for crafting digital plushies, enamel pins, stickers, or any personalized visuals.

@@ -4,6 +4,8 @@ date: 2025-07-19T03:57:05Z
 description: "Something changed after March 2025 Algo Update. The traffic says so. Some of the sports, entertainment sites lost most of its traffic. Some collapsed. Several other Indian-owned sites covering global…"
 tag: "Global SEO Traffic"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/google-crushing-indian-publishers-to-rank-in-usa-2.webp"
+categories: ["Industry News","SEO"]
+tags: ["Global SEO Traffic","Google","Google Algo Update","Google ranking","Rudra Kasturi","SEO Traffic"]
 ---
 
 #### Something changed after March 2025 Algo Update. The traffic says so.

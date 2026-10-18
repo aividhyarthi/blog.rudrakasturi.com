@@ -4,6 +4,8 @@ date: 2024-12-13T03:07:00Z
 description: "Artificial Intelligence (AI) is often hailed as the technology of the future, solving problems from healthcare to transportation. However, beneath its shiny exterior lies a less-discussed issue: AI…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/imag-with-name-friday-note.png"
+categories: ["AI","Google AI","GPT","Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 Artificial Intelligence (AI) is often hailed as the technology of the future, solving problems from healthcare to transportation. However, beneath its shiny exterior lies a less-discussed issue: AI systems are consuming massive amounts of water, and their environmental footprint is growing rapidly. This unchecked water usage could exacerbate desertification and pose significant challenges to global sustainability.

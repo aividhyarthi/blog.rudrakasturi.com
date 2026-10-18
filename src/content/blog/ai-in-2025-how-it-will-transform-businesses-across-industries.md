@@ -4,6 +4,8 @@ date: 2024-12-23T04:54:25Z
 description: "Artificial intelligence (AI) is not just a futuristic concept—it’s actively shaping the present and gearing up to revolutionize businesses by 2025. From retail to healthcare, manufacturing to…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/ai-in-2025-1.png"
+categories: ["AI"]
+tags: ["Rudra Kasturi"]
 ---
 
 Artificial intelligence (AI) is not just a futuristic concept—it’s actively shaping the present and gearing up to revolutionize businesses by 2025. From retail to healthcare, manufacturing to education, AI will become a cornerstone of innovation and efficiency. Here’s a deep dive into how AI will transform industries, along with real-world examples to paint a clearer picture.

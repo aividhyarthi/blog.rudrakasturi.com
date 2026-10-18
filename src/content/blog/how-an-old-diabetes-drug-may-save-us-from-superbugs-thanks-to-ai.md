@@ -4,6 +4,8 @@ date: 2025-07-21T11:11:49Z
 description: "The story of Halicin: From forgotten medicine to bacteria killer. Imagine digging through old boxes in your attic and finding a tool that can save the world. That’s basically what just happened in…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-67.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","Bacteria Killer","Halicin tablet","Old Diabetes Drug","Rudra Kasturi","Superbugs"]
 ---
 
 ### The story of Halicin: From forgotten medicine to bacteria killer.

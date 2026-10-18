@@ -4,6 +4,8 @@ date: 2024-10-14T03:37:34Z
 description: "In the ever-evolving landscape of SEO and content creation, Google’s Helpful Content Update (HCU) and core algorithm updates have reshaped how content is ranked and presented. Recently, a fascinating…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/ai-overview.webp"
+categories: ["Explainers","Google AI","Google Search","SEO"]
+tags: ["Google","google ai","google ai overview","Rudra Kasturi","SEO"]
 ---
 
 In the ever-evolving landscape of SEO and content creation, Google’s Helpful Content Update (HCU) and core algorithm updates have reshaped how content is ranked and presented. Recently, a fascinating observation by industry experts has surfaced: websites hit by the Helpful Content Update seem to be excluded from Google’s AI Overviews, even if they rank well in traditional search results.

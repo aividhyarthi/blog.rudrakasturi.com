@@ -4,6 +4,8 @@ date: 2024-12-13T00:27:42Z
 description: "Google's recent back-to-back core updates in November and December 2024 have stirred significant discussions within the SEO and publishing communities. While these updates aim to improve the…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/google-logo.png"
+categories: ["Google Updates","SEO"]
+tags: ["Rudra Kasturi","SEO"]
 ---
 
 Google's recent back-to-back core updates in November and [December 2024](https://x.com/googlesearchc/status/1867234561228460274) have stirred significant discussions within the SEO and publishing communities. While these updates aim to improve the relevance and quality of search results, they have also caused waves of traffic loss, uncertainty, and criticism. Let’s dive into the implications of these frequent updates, the traffic volatility they cause, and their potential long-term benefits.

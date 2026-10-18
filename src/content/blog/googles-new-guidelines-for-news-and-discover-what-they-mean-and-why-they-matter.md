@@ -4,6 +4,8 @@ date: 2025-01-15T03:37:10Z
 description: "Google has introduced new rules for content in News and Discover , focusing on transparency and trust. If you're a publisher or content creator, understanding these guidelines is essential to keep…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/google-discover-new-guidelines.png"
+categories: ["Google Search","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 Google has introduced new rules for content in **News** and **Discover**, focusing on transparency and trust. If you're a publisher or content creator, understanding these guidelines is essential to keep your content visible and compliant. Here's a simple explanation of what these rules mean, with examples to make them easy to follow.

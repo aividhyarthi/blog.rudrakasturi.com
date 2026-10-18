@@ -4,6 +4,8 @@ date: 2025-08-07T04:02:43Z
 description: "Google just made its digital learning tool, NotebookLM, available to students as young as 13. If you’re a parent, teacher, or student wondering what this means for real classroom life, here’s a clear…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-google-notebooklm-students-using-notebooklm-with-rudra-1.webp"
+categories: ["AI","Google AI","Industry News"]
+tags: ["ai","Google","Notebook LM","Rudra Kasturi","Students"]
 ---
 
 Google just made its digital learning tool, NotebookLM, available to students as young as 13. If you’re a parent, teacher, or student wondering what this means for real classroom life, here’s a clear explainer on the benefits and safeguards.

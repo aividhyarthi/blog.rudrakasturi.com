@@ -4,6 +4,8 @@ date: 2025-06-17T04:43:21Z
 description: "What’s New? Google has officially confirmed: Clicks from AI Overviews and AI Mode now count towards your total traffic in Search Console. So if someone discovers your website via those fancy new AI…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/google-ai-mode-clicks-in-google-search-console.webp"
+categories: ["AI","Industry News","SEO"]
+tags: ["Google","Google AI Mode","Google AI Overviews","Google Search Clicks","Rudra Kasturi","Search Console","SEO"]
 ---
 
 ## What’s New?

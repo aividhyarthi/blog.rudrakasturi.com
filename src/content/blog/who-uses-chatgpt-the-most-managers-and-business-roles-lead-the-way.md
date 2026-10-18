@@ -4,6 +4,8 @@ date: 2025-09-17T03:47:05Z
 description: "When we think of ChatGPT, the image often leans toward students, programmers, or researchers. But new data tells a different story. According to a large-scale study of ChatGPT conversations…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-43.webp"
+categories: ["AI","GPT"]
+tags: ["ai","GPT","Rudra Kasturi"]
 ---
 
 When we think of ChatGPT, the image often leans toward students, programmers, or researchers. But new data tells a different story. According to a large-scale study of ChatGPT conversations (2024–25), **management and business professionals are the most active users of ChatGPT in workplace settings**.

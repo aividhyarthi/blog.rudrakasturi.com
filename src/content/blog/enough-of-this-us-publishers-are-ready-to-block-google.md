@@ -4,6 +4,8 @@ date: 2026-07-24T02:42:08Z
 description: "Dispatch · Search & Media Google Zero, Everywhere at Once American publishers are threatening to block Google entirely. It's a live option for them because they have somewhere else to send their…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/google-zero-feature-image.webp"
+categories: ["AEO","AI","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 Dispatch · Search & Media

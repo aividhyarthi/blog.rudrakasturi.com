@@ -4,6 +4,8 @@ date: 2026-01-20T06:21:33Z
 description: "The question is no longer if ChatGPT will introduce ads. The real question is how the industry is preparing for it . And here is the uncomfortable truth. No one is shocked. Everyone is adjusting…"
 tag: "ads"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/image-24.webp"
+categories: ["AI","AI Ads","GPT"]
+tags: ["ads","ChatGPT","Rudra Kasturi"]
 ---
 
 The question is no longer _if_ ChatGPT will introduce ads.  

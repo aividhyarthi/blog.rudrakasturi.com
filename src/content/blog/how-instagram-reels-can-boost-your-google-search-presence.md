@@ -4,6 +4,8 @@ date: 2025-04-02T02:25:21Z
 description: "Ravi : Bro, I just searched for “gardening tips” on Google, and guess what? I saw Instagram Reels right in the search results! Priya : Wait, what? Instagram Reels on Google? I thought Google only…"
 tag: "Google videos"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-3.png"
+categories: ["Google Search","Industry News","Videos","YouTube"]
+tags: ["Google videos","Instagram","Reels","Rudra Kasturi","SEO","videos"]
 ---
 
 **Ravi**: Bro, I just searched for “gardening tips” on Google, and guess what? I saw Instagram Reels right in the search results!

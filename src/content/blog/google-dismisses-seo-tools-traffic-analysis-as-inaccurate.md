@@ -4,6 +4,8 @@ date: 2025-08-08T04:02:06Z
 description: "Google says your traffic is fine. Ahrefs, SimilarWeb, Semrush, BrightEdge, and your revenue team say otherwise. So who’s wrong? Apparently, everyone but Google . Let’s break it down - how third-party…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/google-dismisses-seo-tools-traffic-analysis-as-inaccurate-just.webp"
+categories: ["Google Search","Industry News"]
+tags: ["Google","Rudra Kasturi","Traffic Drop"]
 ---
 
 Google says your traffic is fine.  

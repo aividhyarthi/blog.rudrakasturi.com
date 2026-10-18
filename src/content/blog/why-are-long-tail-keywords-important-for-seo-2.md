@@ -4,6 +4,8 @@ date: 2021-07-12T16:58:25Z
 description: "Are you looking for a strategy to improve your website's search engine optimization (SEO), attract more search traffic, and boost conversions? If that's the case, you should learn more about…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/yada-yada-222767_1280.jpg"
+categories: ["SEO"]
+tags: ["Google","keyword mapping","keyword ranking","keywords","LONG-TAIL KEYWORDS","Rudra Kasturi","search engine optimisation","SEO"]
 ---
 
 Are you looking for a strategy to improve your website's search engine optimization (SEO), attract more search traffic, and boost conversions? If that's the case, you should learn more about long-tail keywords. These are lengthier terms that individuals seek up on the internet when they're ready to buy or need specific information.

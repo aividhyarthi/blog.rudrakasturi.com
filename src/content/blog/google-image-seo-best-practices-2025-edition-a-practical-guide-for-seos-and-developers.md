@@ -4,6 +4,8 @@ date: 2025-05-16T03:28:31Z
 description: "Google updated its image SEO documentation on May 12, 2025. While much of it reaffirms existing advice, one key clarification stands out: Google now explicitly recommends using a consistent URL for…"
 tag: "Image Search"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/05/create-a-featured-image-for-a-blog-post-about-google.webp"
+categories: ["Image SEO","SEO"]
+tags: ["Image Search","Images SEO","Rudra Kasturi","SEO"]
 ---
 
 Google updated its image SEO documentation on May 12, 2025. While much of it reaffirms existing advice, one key clarification stands out: Google now explicitly recommends using a consistent URL for each image across your website. Below is a breakdown of the full guidance with actionable insights for SEOs and web developers.

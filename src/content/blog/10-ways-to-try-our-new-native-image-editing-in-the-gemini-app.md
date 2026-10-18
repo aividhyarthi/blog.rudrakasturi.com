@@ -4,6 +4,8 @@ date: 2025-09-18T03:03:13Z
 description: "Our new Google DeepMind image generation and editing model nicknamed Nano Banana is now part of the Gemini app, opening up a new world of creativity. Whether you want to see your pet as a comic-book…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-65.webp"
+categories: ["AI","AI Photos","Nano Banana"]
+tags: ["ai","gemini app","Google","nana banana","Rudra Kasturi"]
 ---
 
 Our new Google DeepMind image generation and editing model nicknamed **Nano Banana** is now part of the Gemini app, opening up a new world of creativity. Whether you want to see your pet as a comic-book hero or imagine a surreal scene from your childhood, this update makes it easier than ever.

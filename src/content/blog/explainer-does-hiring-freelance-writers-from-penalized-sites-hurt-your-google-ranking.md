@@ -4,6 +4,8 @@ date: 2025-03-26T02:57:17Z
 description: "Google’s Search Liaison, Danny Sullivan, recently addressed a common concern: If you hire freelancers who previously worked on sites hit by Google penalties (like spam or low-quality content), will…"
 tag: "Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image-7.png"
+categories: ["Content","Explainers","SEO"]
+tags: []
 ---
 
 Google’s Search Liaison, Danny Sullivan, recently addressed a common concern: _If you hire freelancers who previously worked on sites hit by Google penalties (like spam or low-quality content), will your site get penalized too?_

@@ -4,6 +4,8 @@ date: 2025-08-02T06:50:13Z
 description: "The fast-food industry is entering a new era, and McDonald’s is leading the charge with a bold investment in artificial intelligence. According to recent news, McDonald’s plans to double its AI…"
 tag: "AI Food"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-high-resolution-image-featuring-a-modern-mcdonalds-1.webp"
+categories: ["AI","AI Food","Industry News"]
+tags: ["AI Food","Food Tech","Mc Donalds","Rudra Kasturi"]
 ---
 
 The fast-food industry is entering a new era, and McDonald’s is leading the charge with a bold investment in artificial intelligence. According to recent news, McDonald’s plans to double its AI investment by 2027. But what does this mean for the iconic restaurant chain and for everyday customers?

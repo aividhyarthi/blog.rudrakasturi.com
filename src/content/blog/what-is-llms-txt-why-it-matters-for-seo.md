@@ -4,6 +4,8 @@ date: 2025-07-21T11:39:40Z
 description: "Think of it as robots.txt for AI , guiding large language models (LLMs) to your most valuable content instead of them scraping everything—not just SEO crawlers. llms.txt is a Markdown file placed at…"
 tag: "AI Crawling"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/llms-txt-how-ai-bots-read-your-content.webp"
+categories: ["AI","Crawling","SEO"]
+tags: ["AI Crawling","AI SEO","LLM Crawling","LLMS Txt","Rudra Kasturi","SEO LLM txt"]
 ---
 
 Think of it as **robots.txt for AI**, guiding large language models (LLMs) to your most valuable content instead of them scraping everything—not just SEO crawlers. `llms.txt` is a Markdown file placed at the root of a website, pointing to important pages like docs, blogs, videos, etc.

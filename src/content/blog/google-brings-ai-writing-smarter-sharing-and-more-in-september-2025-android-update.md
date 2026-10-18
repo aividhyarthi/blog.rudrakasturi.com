@@ -4,6 +4,8 @@ date: 2025-09-14T03:15:26Z
 description: "Google has announced its latest batch of Android features, rolling out to devices globally this September. The update introduces AI-powered writing tools, improvements to media sharing, new ways to…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-26.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","Android","Google","Rudra Kasturi"]
 ---
 
 Google has announced its latest batch of Android features, rolling out to devices globally this September. The update introduces AI-powered writing tools, improvements to media sharing, new ways to use emoji, and even a playful selfie-to-Android bot trick.

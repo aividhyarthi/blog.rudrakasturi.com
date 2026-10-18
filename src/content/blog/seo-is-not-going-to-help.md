@@ -4,6 +4,8 @@ date: 2021-07-13T12:49:16Z
 description: "‘There are times when no SEO technique will boost a website's search results rating’, says John Mueller, a Google Search Advocate. He further explains that sometimes it’s not a technical issue…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/search-645284_1280.jpg"
+categories: ["Uncategorized"]
+tags: ["Google","google indexing website","Rudra Kasturi","search engine optimisation","SEO","seo analyzer","seo based content writing","SEO basics","SEO Benefits","seo business","SEO cannot help","SEO Help","SEO is not going to help?","SEO News"]
 ---
 
 ‘There are times when no SEO technique will boost a website's search results rating’, says John Mueller, a Google Search Advocate. He further explains that sometimes it’s not a technical issue, sometimes it’s not something you can fix by just “buying a bunch of links”, sometimes it’s just that the site strategy or the content is now obsolete.” 

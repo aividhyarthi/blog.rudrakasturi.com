@@ -4,6 +4,8 @@ date: 2025-06-24T08:12:00Z
 description: "Google’s new AI Mode, also called the Search Generative Experience (SGE), is rolling out in India. It’s being touted as the next evolution in search - faster answers, fewer clicks, and intelligent…"
 tag: "AI Mode"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-72.webp"
+categories: ["AI","Crawling","Explainers","Google Search","SEO"]
+tags: ["AI Mode","AI Summaries","Google","Google Search","Indexing","Rudra Kasturi","SEO"]
 ---
 
 Google’s new AI Mode, also called the Search Generative Experience (SGE), is rolling out in India. It’s being touted as the next evolution in search - faster answers, fewer clicks, and intelligent summaries.

@@ -4,6 +4,8 @@ date: 2025-09-14T03:04:02Z
 description: "Google has introduced a new feature called Satellite SOS in the Pixel Watch 4 (LTE) that lets users send emergency messages via satellite when terrestrial service (cellular) is unavailable. The goal…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/create-a-high-resolution-highly-detailed-image-showcasing-the-pixel-watch.webp"
+categories: ["Industry News"]
+tags: ["Google","Pixel Watch","Rudra Kasturi","SOS Satellite"]
 ---
 
 Google has introduced a new feature called **Satellite SOS** in the Pixel Watch 4 (LTE) that lets users send emergency messages via satellite when terrestrial service (cellular) is unavailable.

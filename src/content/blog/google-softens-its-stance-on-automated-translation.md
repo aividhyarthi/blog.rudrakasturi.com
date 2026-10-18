@@ -4,6 +4,8 @@ date: 2025-06-13T04:33:05Z
 description: "AI + human review is the new formula for multilingual SEO success What Changed? Google recently updated its guidance on automated translations, moving away from a strict \"automated = spam\" stance to…"
 tag: "Automated Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-high-resolution-highly-detailed-image-depicting-a-professional-setting-1.webp"
+categories: ["AI","Content","SEO"]
+tags: ["Automated Content","Google","Rudra Kasturi","SEO","Translation"]
 ---
 
 _AI + human review is the new formula for multilingual SEO success_

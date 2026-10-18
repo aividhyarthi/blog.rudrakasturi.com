@@ -4,6 +4,8 @@ date: 2025-06-16T11:17:22Z
 description: "While the internet debates ChatGPT, AI Overviews, and Google's \"future of search\". No one’s talking about the platform that’s actually winning the game: YouTube. According to Datos (June 2025)…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/youtube-replacing-google-search.webp"
+categories: ["AI","SEO","Videos","YouTube"]
+tags: ["Google","Rudra Kasturi","SEO","YouTube"]
 ---
 
 ![chart, line chart](https://rudrakasturi.wpcomstaging.com/wp-content/uploads/2025/06/1749469092237.webp)

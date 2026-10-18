@@ -4,6 +4,8 @@ date: 2025-08-01T12:51:22Z
 description: "A new Microsoft Research study reveals which occupations are most exposed to artificial intelligence and which remain insulated for now. Drawing on over 200,000 interactions with Microsoft’s Bing…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-7.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","Google","Jobs","Rudra Kasturi","SEO"]
 ---
 
 A new Microsoft Research study reveals which occupations are most exposed to artificial intelligence and which remain insulated for now. Drawing on over 200,000 interactions with Microsoft’s Bing Copilot, the analysis assigns an “AI applicability score” to more than 80 job roles, helping to forecast the evolving workplace landscape

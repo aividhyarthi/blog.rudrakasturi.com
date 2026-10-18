@@ -1,23 +1,25 @@
 ---
-import { getAllPosts, getTopics, getTags, topicOf, formatDate } from '../lib/posts';
+import { getAllPosts, getSections, getTags, topicOf, formatDate } from '../lib/posts';
 import { coverUrl } from '../lib/cover';
 import Subscribe from './Subscribe.astro';
-import { START_HERE, TOOLS, APPRANKR_POSTS, utm } from '../config';
+import { NEWSLETTER, START_HERE, TOOLS, APPRANKR_POSTS, utm } from '../config';
 
 const { exclude = '' } = Astro.props as { exclude?: string };
 const all = await getAllPosts();
 const latest = all.filter((p) => p.slug !== exclude).slice(0, 5);
 const must = START_HERE.map((s) => all.find((p) => p.slug === s)).filter((p) => p && p.slug !== exclude).slice(0, 5) as typeof all;
-const topics = getTopics(all).filter((t) => t.count >= 3);
+const topics = getSections(all);
 const tags = getTags(all, 4).slice(0, 18);
 const tool = TOOLS[0];
 const appr = TOOLS.find((t) => t.name === 'AppRankr')!;
 ---
 
 <aside class="sidebar">
-  <section class="box box-news">
-    <Subscribe variant="box" />
-  </section>
+  {NEWSLETTER.enabled && (
+    <section class="box box-news">
+      <Subscribe variant="box" />
+    </section>
+  )}
 
   <section class="box">
     <h3>Latest</h3>

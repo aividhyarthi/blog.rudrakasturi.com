@@ -4,6 +4,8 @@ date: 2026-02-12T11:51:41Z
 description: "If you look closely at Amazon India’s robots configuration, something jumps out. Googlebot is allowed. Amazonbot is allowed. Applebot-Extended is allowed. But most major AI crawlers are blocked…"
 tag: "AI bots"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-5.10.48-PM.webp"
+categories: ["AEO","AI","SEO"]
+tags: ["AI bots","AI Crawlers","Amazon","Google","Rudra Kasturi"]
 ---
 
 If you look closely at Amazon India’s robots configuration, something jumps out.

@@ -4,6 +4,8 @@ date: 2025-12-18T02:56:57Z
 description: "The Oscars will move to YouTube in 2029. This will end a broadcast relationship with ABC that began in 1976 and was renewed most recently under a deal running through the 100th Academy Awards in…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/12/image-5.webp"
+categories: ["SEO"]
+tags: []
 ---
 
 The Oscars will move to YouTube in 2029.

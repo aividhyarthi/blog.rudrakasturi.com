@@ -4,6 +4,8 @@ date: 2025-11-05T08:03:09Z
 description: "When Uma, a 21-year-old commerce student in Hyderabad, asked ChatGPT to explain “inflation like I’m 10,” she didn’t open Google again that week. The app sat neatly beside WhatsApp on her phone but it…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/chatgpt-is-now-in-every-phone-search-is-no.webp"
+categories: ["AI","SEO"]
+tags: ["ai","Google","Rudra Kasturi","SEO"]
 ---
 
 When Uma, a 21-year-old commerce student in Hyderabad, asked ChatGPT to explain “inflation like I’m 10,” she didn’t open Google again that week. The app sat neatly beside WhatsApp on her phone but it was the one she opened when she wanted clarity, not conversation.

@@ -4,6 +4,8 @@ date: 2024-10-02T05:28:16Z
 description: "Source: Google Search Central documentation updates on Product Markup and Generating Structured Data with JavaScript - October 1st, 2023. Important Points To Consider From The Update…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image.png"
+categories: ["Google Updates","SEO","Structure Data"]
+tags: ["Google","product markup","product structure data","SEO","shopping results"]
 ---
 
 **Source:** Google Search Central documentation updates on [Product Markup](https://developers.google.com/search/docs/appearance/structured-data/merchant-listing#technical-guidelines) and [Generating Structured Data with JavaScript](https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript) - October 1st, 2023.

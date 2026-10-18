@@ -4,6 +4,8 @@ date: 2021-07-07T19:37:18Z
 description: "A Google’s initiative to create an ecosystem that protects the privacy of its users and enables the business to build sustainable sites to reach their customers. The Tech Giant’s step is an evolution…"
 tag: "chrome privacy sandbox"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/vector_2640-e1625686589804.jpg"
+categories: ["SEO"]
+tags: ["chrome privacy sandbox","google privacy sandbox","google privacy sandbox explained","Privacy Sandbox","Rudra Kasturi","search engine optimisation","SEO","Third Party Cookies"]
 ---
 
 A Google’s initiative to create an ecosystem that protects the privacy of its users and enables the business to build sustainable sites to reach their customers. The Tech Giant’s step is an evolution that lays the foundations for a better, safer and more private web. In an effort to shake up the methods of how the marketing and advertising industries track people on the web, Google came up with this ‘Privacy Sandbox’ feature. 

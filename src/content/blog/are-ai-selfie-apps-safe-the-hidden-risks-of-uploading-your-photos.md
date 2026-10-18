@@ -4,6 +4,8 @@ date: 2025-09-15T05:20:04Z
 description: "We all love a quick dopamine hit. Upload your selfie into an AI app - Gibilify, Gemini Image, Nano Banana, whatever cool-sounding nonsense they call it and seconds later you’re staring at your…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-27.webp"
+categories: ["AI","AI Privacy"]
+tags: ["ai","AI Mode","AI Privacy","Nano Banana","Rudra Kasturi"]
 ---
 
 We all love a quick dopamine hit. Upload your selfie into an AI app - Gibilify, Gemini Image, Nano Banana, whatever cool-sounding nonsense they call it and seconds later you’re staring at your cartoon clone, a fake Vogue cover, or a futuristic version of yourself.

@@ -4,6 +4,8 @@ date: 2024-12-05T17:36:53Z
 description: "Perplexity, the AI-powered search engine renowned for delivering factual and valuable answers, has announced a significant expansion of its publisher program . Prominent news organizations including…"
 tag: "Industry News"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-9.png"
+categories: ["Industry News"]
+tags: []
 ---
 
 Perplexity, the AI-powered search engine renowned for delivering factual and valuable answers, has [announced a significant expansion of its publisher program](https://www.perplexity.ai/hub/blog/perplexity-expands-publisher-program-with-15-new-media-partners). Prominent news organizations including the LA Times, Adweek, and Mexico News Daily have signed up alongside a dozen other outlets to participate in a program that promises to reshape how publishers interact with AI-driven search platforms.

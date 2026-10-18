@@ -4,6 +4,8 @@ date: 2025-09-03T06:38:40Z
 description: "In the great drama of Indian media, there are three villains everyone loves to blame. First, Google , for its algorithmic experiments that make or break publisher traffic overnight. Second, AI , for…"
 tag: "Government Ad Rates"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/create-a-featured-image-for-a-blog-post-titled-government.webp"
+categories: ["Industry News"]
+tags: ["Government Ad Rates","News Ad Rates","Rudra Kasturi"]
 ---
 
 In the great drama of Indian media, there are three villains everyone loves to blame. First, **Google**, for its algorithmic experiments that make or break publisher traffic overnight. Second, **AI**, for threatening to replace journalists with soulless summaries. Third, **audiences**, for apparently not caring enough to pay for quality news.

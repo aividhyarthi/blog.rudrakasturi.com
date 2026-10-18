@@ -20,6 +20,8 @@ sources:
   - title: "AI Citation Share Ships, New Data Doubts LLMS.txt"
     url: "https://www.searchenginejournal.com/seo-pulse-ai-citation-share-ships-new-data-doubts-llms-txt/579942/"
     publisher: "Search Engine Journal"
+categories: ["AEO", "AI"]
+tags: ["llms.txt", "AEO"]
 ---
 
 If you work in SEO you have heard this: "add an llms.txt file so AI can understand your site." Is it true?

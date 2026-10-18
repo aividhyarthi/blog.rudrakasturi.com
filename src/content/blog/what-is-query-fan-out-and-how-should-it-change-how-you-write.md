@@ -14,6 +14,8 @@ sources:
   - title: "How to build topic clusters for SEO and AI search"
     url: "https://searchengineland.com/build-topic-clusters-seo-ai-search-493263"
     publisher: "Search Engine Land"
+categories: ["AEO", "AI"]
+tags: ["AEO", "Query fan-out"]
 ---
 
 When you type a question into Google's AI Mode or ChatGPT, the AI does not just search your exact words. It breaks your question into smaller questions, searches for each, and puts the pieces together. This is called **query fan-out**.

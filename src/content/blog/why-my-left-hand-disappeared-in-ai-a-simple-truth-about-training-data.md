@@ -4,6 +4,8 @@ date: 2025-06-19T06:47:57Z
 description: "The other day, I gave an AI a simple prompt: \"Draw me writing with my left hand on a blackboard.\" What came out? A beautiful image. Everything was perfect — except for one thing. I was confidently…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/generate-a-highly-detailed-sharp-focus-image-of-a-person-confidently.webp"
+categories: ["AI","Industry News","SEO"]
+tags: ["ai","AI Training","Rudra Kasturi","Training Data"]
 ---
 
 The other day, I gave an AI a simple prompt:  

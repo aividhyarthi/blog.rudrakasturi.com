@@ -4,6 +4,8 @@ date: 2024-12-27T04:02:40Z
 description: "Faceted navigation is a handy feature for users, allowing them to filter products or content by various criteria (like size, color, or price). But for search engines, it can be a crawling nightmare…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-76.png"
+categories: ["Crawling","Explainers","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 Faceted navigation is a handy feature for users, allowing them to filter products or content by various criteria (like size, color, or price). But for search engines, it can be a crawling nightmare, leading to overloading and inefficiency. Let’s dive deep into how to manage faceted navigation URLs effectively.

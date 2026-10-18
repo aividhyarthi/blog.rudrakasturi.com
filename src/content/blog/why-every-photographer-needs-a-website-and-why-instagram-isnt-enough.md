@@ -4,6 +4,8 @@ date: 2025-08-08T04:29:23Z
 description: "In 2025, a lot of photographers still believe Instagram is their portfolio. It’s easy to see why it’s visual, it’s free, and it’s where most clients hang out. But here’s the uncomfortable truth…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/why-every-photographer-needs-a-website-and-why-instagram-isnt-1.webp"
+categories: ["SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 In 2025, a lot of photographers still believe Instagram _is_ their portfolio. It’s easy to see why it’s visual, it’s free, and it’s where most clients hang out. But here’s the uncomfortable truth: **Instagram is a rented billboard. Your website is your own studio.**

@@ -4,6 +4,8 @@ date: 2024-12-05T17:06:16Z
 description: "What is Google Search Personalization? Google Search personalization tailors search results based on your previous activities, preferences, and settings within your Google account. By analyzing data…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-high-resolution-highly-detailed-featured-image-for-a-blog.png"
+categories: ["Google Search","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 #### **What is Google Search Personalization?**

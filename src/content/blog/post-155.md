@@ -3,6 +3,8 @@ title: "Crawl budget"
 date: 2026-10-18T15:41:53.144Z
 description: "Crawl budget, also known as crawl space or crawl time, is a term used to describe the amount of time spent for crawling by the search engine. The amount of attention a web crawler pays to your site…"
 draft: true
+categories: ["Uncategorized"]
+tags: []
 ---
 
 Crawl budget, also known as crawl space or crawl time, is a term used to describe the amount of time spent for crawling by the search engine. The amount of attention a web crawler pays to your site is referred to as the crawl budget. This degree of focus is determined by how often it actually wants to crawl and or how often does your website provide an opportunity to be crawled. Search engines won't be able to crawl your website efficiently if you waste crawl money, which will damage your SEO performance.

@@ -4,6 +4,8 @@ date: 2025-08-26T04:55:47Z
 description: "OpenAI is trying to replace Google as the world’s information engine. But to answer your real-time questions today, ChatGPT still leans on Google’s search results pulled via a paid scraping service…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-93.webp"
+categories: ["AI","Google Search","GPT"]
+tags: ["Google","OpenAI","Rudra Kasturi","SerpAPI"]
 ---
 
 OpenAI is trying to replace Google as the world’s information engine. But to answer your real-time questions today, ChatGPT still leans on Google’s search results pulled via a paid scraping service called SerpApi. No partnership. No backend magic. Just Google data, repackaged by a chatbot.

@@ -4,6 +4,8 @@ date: 2024-12-08T19:08:04Z
 description: "Scrolling through the r/SEO subreddit, we stumbled upon a post that seemed to encapsulate the collective frustration of many in the SEO industry today. The user, overwhelmed by the shifting dynamics…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-17.png"
+categories: ["AI","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 Scrolling through the r/SEO subreddit, we stumbled upon a [post](https://www.reddit.com/r/SEO/comments/1h7xwrx/im_frustrated_and_dont_know_what_to_do_is_seo/) that seemed to encapsulate the collective frustration of many in the SEO industry today. The user, overwhelmed by the shifting dynamics of SEO, wrote candidly:

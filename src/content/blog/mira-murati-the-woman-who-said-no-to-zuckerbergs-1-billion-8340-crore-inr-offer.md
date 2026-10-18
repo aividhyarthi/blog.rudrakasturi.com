@@ -4,6 +4,8 @@ date: 2025-07-31T03:53:20Z
 description: "Former OpenAI CTO Mira Murati just made headlines again not for what she built, but for what she rejected. According to reports, Murati turned down an eye-popping $1 billion offer from Mark…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/Screenshot-2025-07-31-at-9.20.03-AM.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","Google","Meta","Mira Murati","Open AI","Rudra Kasturi"]
 ---
 
 **Former OpenAI CTO Mira Murati just made headlines again not for what she built, but for what she rejected.**

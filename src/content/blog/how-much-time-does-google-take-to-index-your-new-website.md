@@ -4,6 +4,8 @@ date: 2021-07-13T10:37:18Z
 description: "In a strong desire to receive figures and results as quickly as possible, a frequently asked question is ‘How long to get indexed’. Well, the search engine suggests that there is no specific time for…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/sitemap-2488231_1280.jpg"
+categories: ["SEO"]
+tags: ["Google","Google bots","google crawler indexing","google indexing algorithm","google indexing api","google indexing bots","google indexing console","google indexing issues","google indexing website","Page Ranking","Rudra Kasturi","search engine optimisation","SEO"]
 ---
 
 In a strong desire to receive figures and results as quickly as possible, a frequently asked question is ‘How long to get indexed’. Well, the search engine suggests that there is no specific time for it to index your site for the first time; the time can vary. 

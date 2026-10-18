@@ -4,6 +4,8 @@ date: 2021-07-08T20:30:15Z
 description: "In a world where we have over 170 million active users every digital marketing professional is expected to be well versed with SEO as the core tenets of Digital Marketing. A few voices from the…"
 tag: "Digital Marketing"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/abstract-67913_1280-e1625776198387.jpg"
+categories: ["Uncategorized"]
+tags: ["Digital Marketing","Google","Is SEO dead?","keywords","online marketing","Rudra Kasturi","search engine optimisation","search engine results pages","SEO","top ranks"]
 ---
 
 In a world where we have over 170 million active users every digital marketing professional is expected to be well versed with SEO as the core tenets of Digital Marketing. A few voices from the marketing world's furthest reaches start to proclaim that SEO is dead, every few years . But is the world of Search Engine Optimisation really a dead space for online marketing? 

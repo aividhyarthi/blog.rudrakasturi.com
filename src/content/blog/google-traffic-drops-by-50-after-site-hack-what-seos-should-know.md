@@ -4,6 +4,8 @@ date: 2025-08-18T03:37:32Z
 description: "Security is often treated as a back-end concern, but a recent case shows why SEOs can’t afford to ignore it. A site reported a sudden 50% drop in Google traffic in just two weeks , falling from over…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-84.webp"
+categories: ["SEO"]
+tags: ["Google","google seo","Rudra Kasturi","SEO","SEO Hacked","Tech SEO","Traffic Dropped","Website Hacked"]
 ---
 
 Security is often treated as a back-end concern, but a recent case shows why SEOs can’t afford to ignore it. A site reported a sudden **50% drop in Google traffic in just two weeks**, falling from over 2,000 daily visits to around 1,100. The reason wasn’t an algorithm update or seasonal change - it was a hack.

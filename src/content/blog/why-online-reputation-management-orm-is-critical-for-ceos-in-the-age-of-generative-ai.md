@@ -4,6 +4,8 @@ date: 2025-06-09T12:09:47Z
 description: "In a world where a single AI-generated headline can sway public perception in minutes, CEOs are no longer just executives - they are public figures, brand assets, and algorithmic search results all…"
 tag: "Branding"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/why-online-reputation-management-is-very-crucial-for-ceos.webp"
+categories: ["Branding","ORM","SEO"]
+tags: ["Branding","Google","Rudra Kasturi","SEO"]
 ---
 
 In a world where a single AI-generated headline can sway public perception in minutes, CEOs are no longer just executives - they are public figures, brand assets, and algorithmic search results all rolled into one.

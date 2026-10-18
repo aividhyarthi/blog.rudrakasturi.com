@@ -4,6 +4,8 @@ date: 2024-10-08T04:23:35Z
 description: "What’s Happening? Google has provided a clear update on the use of fields in your robots.txt file. They have confirmed that only certain fields are officially supported. If you’re using fields that…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-21.png"
+categories: ["Explainers","Google Updates","SEO"]
+tags: ["Google","Indexing","Robots","Robots File","Rudra Kasturi","SEO"]
 ---
 
 #### What’s Happening?

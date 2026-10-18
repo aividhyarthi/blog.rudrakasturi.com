@@ -4,6 +4,8 @@ date: 2024-10-30T06:09:58Z
 description: "With the 2024 US elections approaching, we’ve noticed something interesting when searching for election-related information on Google India. The search results are mostly showing US-based websites…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-74.png"
+categories: ["Google Search","SEO"]
+tags: ["Google","Rudra Kasturi"]
 ---
 
 With the **2024 US elections** approaching, we’ve noticed something interesting when searching for election-related information on Google India. The search results are mostly showing **US-based websites**, even though **Indian news sites** are covering the event too. This raises a question: why is Google prioritizing US sources in India for US election coverage, while Indian publishers are doing thorough reporting?

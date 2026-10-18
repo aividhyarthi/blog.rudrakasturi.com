@@ -4,6 +4,8 @@ date: 2021-07-08T16:21:05Z
 description: "Navigating through the vast quantity of information available on the internet to find what you need would be virtually difficult without some assistance. Well, Google's ranking systems are built to…"
 tag: "Google Algorithm"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/magic-3315128_1280-e1625761238900.jpg"
+categories: ["SEO"]
+tags: ["Google Algorithm","Google ranking","google ranking factors","Google's ranking systems","keyword ranking","page speed","Rudra Kasturi","search engine ranking","SEO"]
 ---
 
 Navigating through the vast quantity of information available on the internet to find what you need would be virtually difficult without some assistance. Well, Google's ranking systems are built to do exactly that assistance. Google Rankings filter through hundreds of billions of websites in its Search index in a fraction of a second to discover the most relevant, helpful results, and present them in a way that makes it easy for you to find what you're searching for. 

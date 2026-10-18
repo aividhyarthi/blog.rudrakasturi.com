@@ -4,6 +4,8 @@ date: 2025-08-06T12:57:56Z
 description: "This isn’t just another “brand ambassador” gig or a feel-good moment for Indian cricket nostalgia. Reddit roped in Sachin Tendulkar, the God of Cricket, not just for the clicks, but to lay down a…"
 tag: "AI Super Power"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-of-cricket-ground-with-crowd-reddit-logo-with.webp"
+categories: ["AI","Community","Reddit"]
+tags: ["AI Super Power","Community","Rudra Kasturi","Sachin Tendulkar"]
 ---
 
 This isn’t just another “brand ambassador” gig or a feel-good moment for Indian cricket nostalgia. Reddit roped in Sachin Tendulkar, the God of Cricket, not just for the clicks, but to lay down a content strategy that most Indian media and platforms haven’t even woken up to.

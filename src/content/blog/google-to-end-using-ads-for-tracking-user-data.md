@@ -4,6 +4,8 @@ date: 2021-07-16T17:35:50Z
 description: "Google notified that after third-party cookies are phased out of its platforms, the Search Engine will not establish substitute identifiers to track individuals while they browse the web. After…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/google-485611_1280.png"
+categories: ["Uncategorized"]
+tags: ["Google","Google Chrome","google page experience","Google ranking","keywords","page experience update","Page Experience Update 2021","Rudra Kasturi","search engine optimisation","SEO","Third Party Cookies"]
 ---
 
 Google notified that after third-party cookies are phased out of its platforms, the Search Engine will not establish substitute identifiers to track individuals while they browse the web. After phasing out existing ad-tracking technology from Chrome browsers, Google says it will not build new techniques to track individual users across the internet. Last year, Google Chrome stated that it would stop supporting third-party cookies. However, the plan to ban third party cookies has been held back till 2023. 

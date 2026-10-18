@@ -4,6 +4,8 @@ date: 2024-12-13T03:20:31Z
 description: "The world of Chartered Accountancy (CA) is evolving rapidly, and Artificial Intelligence (AI) is at the heart of this transformation. For decades, CAs have been trusted advisors, helping businesses…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/ca-with-ai-2.png"
+categories: ["AI","Google AI","GPT","Industry News"]
+tags: ["ai","Rudra Kasturi"]
 ---
 
 The world of Chartered Accountancy (CA) is evolving rapidly, and Artificial Intelligence (AI) is at the heart of this transformation. For decades, CAs have been trusted advisors, helping businesses navigate the complexities of finance, compliance, and strategy. Now, AI offers tools to enhance their efficiency, solve problems faster, and provide deeper insights.

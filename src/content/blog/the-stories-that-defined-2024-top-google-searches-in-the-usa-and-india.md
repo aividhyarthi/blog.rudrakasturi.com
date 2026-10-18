@@ -4,6 +4,8 @@ date: 2024-12-26T04:05:29Z
 description: "Every Google search tells a story, and in 2024, those stories wove a tapestry of curiosity, passion, and engagement across the globe. From cricket fever to political dramas, here’s a deep dive into…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/what-us-and-indian-users-searched-in-google-2024.png"
+categories: ["Google Search"]
+tags: ["Rudra Kasturi"]
 ---
 
 Every Google search tells a story, and in 2024, those stories wove a tapestry of curiosity, passion, and engagement across the globe. From cricket fever to political dramas, here’s a deep dive into what captured hearts and clicks in the USA and India.

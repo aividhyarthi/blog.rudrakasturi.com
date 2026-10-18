@@ -23,6 +23,8 @@ export const START_HERE = [
 // provider 'substack' or 'buttondown': sign-ups go straight into that service's list; set `id` to your
 //   publication / username (yourname.substack.com or buttondown.com/yourname). Use one of these to send the weekly email.
 export const NEWSLETTER = {
+  // Sign-up boxes and the slide-in popup are hidden until this is true.
+  enabled: false,
   provider: 'formsubmit' as 'formsubmit' | 'substack' | 'buttondown',
   id: '',
   title: 'The Search & AI Briefing',

@@ -4,6 +4,8 @@ date: 2024-10-17T03:11:12Z
 description: "Google has revamped its shopping platform using cutting-edge artificial intelligence (AI) to transform how users shop online. The new AI-powered Google Shopping, rolling out in the U.S., integrates…"
 tag: "Shopping"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Shopping-Hero_4.width-1600.format-webp.webp"
+categories: ["AI","Google AI","Google Updates"]
+tags: ["Shopping"]
 ---
 
 Google has revamped its shopping platform using cutting-edge artificial intelligence (AI) to transform how users shop online. The new AI-powered Google Shopping, rolling out in the U.S., integrates Google’s Shopping Graph, which features 45 billion product listings, with AI models like Gemini to offer a more personalized and streamlined experience. Here’s a breakdown of the key updates:

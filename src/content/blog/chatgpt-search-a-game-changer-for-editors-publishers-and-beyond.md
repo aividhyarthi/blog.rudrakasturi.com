@@ -4,6 +4,8 @@ date: 2024-12-23T13:15:36Z
 description: "On December 16, OpenAI unveiled that ChatGPT Search is now available for all free-tier users on both the desktop version and the mobile app. This update promises to redefine the way editors…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/generate-a-highly-detailed-featured-image-for-a-blog-post-5.png"
+categories: ["AI","GPT"]
+tags: ["ai","Rudra Kasturi"]
 ---
 
 On December 16, OpenAI unveiled that ChatGPT Search is now available for all free-tier users on both the desktop version and the mobile app. This update promises to redefine the way editors, publishers, and general users interact with information, offering unique features and tools that cater to diverse needs. Let’s explore its impact, how it works, and how it stacks up against competitors in the AI search landscape.

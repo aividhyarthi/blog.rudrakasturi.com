@@ -4,6 +4,8 @@ date: 2025-09-17T02:58:47Z
 description: "YouTube has launched Ask Studio , an AI-powered chat assistant designed to help creators understand their channel, track video performance, and get new content ideas. It’s like having a personal…"
 tag: "Creators"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/Screenshot-2025-09-17-at-8.16.17-AM.webp"
+categories: ["AI","Videos","YouTube"]
+tags: ["Creators","Creatrors","Rudra Kasturi","videos","YouTube"]
 ---
 
 YouTube has launched **Ask Studio**, an AI-powered chat assistant designed to help creators understand their channel, track video performance, and get new content ideas.

@@ -4,6 +4,8 @@ date: 2024-12-20T05:30:57Z
 description: "Based on research by GMBapi.com Have you ever noticed that some of your 5-star reviews disappeared from your Google Business Profile? You’re not alone. Google has been cracking down on fake, spammy…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/generate-a-featured-image-for-a-blog-post-titled-why.png"
+categories: ["Industry News","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 _Based on research by [GMBapi.com](https://gmbapi.com/news/google-deletes-5-star-reviews/)_

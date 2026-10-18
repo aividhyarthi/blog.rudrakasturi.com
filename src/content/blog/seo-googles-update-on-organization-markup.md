@@ -4,6 +4,8 @@ date: 2024-10-06T05:49:57Z
 description: "Google recently made some updates to how organization markup is used and how they determine title links in search results. These changes might impact how your website appears on Google, especially…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-19.png"
+categories: ["Explainers","Google Updates","SEO","Structure Data"]
+tags: ["Google","Markup","Organisation Markup","SEO"]
 ---
 
 Google recently made some updates to how **organization markup** is used and how they determine **title links** in search results. These changes might impact how your website appears on Google, especially when it comes to your logo and page titles. Let’s break down what’s changed, why it matters, and what you should do about it.

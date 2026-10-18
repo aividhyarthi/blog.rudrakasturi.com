@@ -4,6 +4,8 @@ date: 2025-07-21T03:14:31Z
 description: "Last week, a student in China didn’t show up to his graduation ceremony. Instead, he sent a humanoid robot - built using AI and mechanical design skills to walk on stage, shake the principal’s hand…"
 tag: "Diploma Degree"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-62.webp"
+categories: ["AI","Industry News"]
+tags: ["Diploma Degree","Education System","Robots","Rudra Kasturi"]
 ---
 
 Last week, a student in China didn’t show up to his graduation ceremony.  

@@ -4,6 +4,8 @@ date: 2025-08-13T03:43:32Z
 description: "Silicon Valley is buzzing. Perplexity, once an AI search challenger, has now made a jaw-dropping move: a $34.5 billion unsolicited offer to purchase Google Chrome . That’s nearly double Perplexity’s…"
 tag: "AI Browser"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-73.webp"
+categories: ["AI","Industry News"]
+tags: ["AI Browser","AI Comet","Chrome Browser","Google","Perplexity","Rudra Kasturi"]
 ---
 
 Silicon Valley is buzzing. Perplexity, once an AI search challenger, has now made a jaw-dropping move: a **$34.5 billion unsolicited offer to purchase Google Chrome**. That’s nearly double Perplexity’s $18–$20 billion valuation. The optics and the ambition are unmistakable.

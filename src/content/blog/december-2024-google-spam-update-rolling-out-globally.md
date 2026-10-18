@@ -4,6 +4,8 @@ date: 2024-12-20T03:02:59Z
 description: "December 19, 2024 – Google has announced the rollout of its December 2024 spam update, a routine effort to enhance search quality and combat spam across all languages and regions. This update is part…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/december-google-spam-update-2024-1.png"
+categories: ["Google Updates","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 **December 19, 2024** – Google has announced the rollout of its December 2024 spam update, a routine effort to enhance search quality and combat spam across all languages and regions. This update is part of Google’s ongoing initiative to improve the relevance and reliability of its search results for users worldwide.

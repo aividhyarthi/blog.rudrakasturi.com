@@ -4,6 +4,8 @@ date: 2025-03-18T03:36:48Z
 description: "Picture this: You’ve spent months working hard, following all the “rules” to get your clients’ websites to rank on Google. Then, one morning, you wake up, check the rankings, and… poof ! Their sites…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/google-seo-not-happy-2.png"
+categories: ["Industry News","SEO"]
+tags: ["Rudra Kasturi","SEO"]
 ---
 
 **_Picture this:_** You’ve spent months working hard, following all the “rules” to get your clients’ websites to rank on Google. Then, one morning, you wake up, check the rankings, and… _poof_! Their sites have vanished from page 1 and are now buried on page 5. Your inbox is blowing up with angry emails, your boss is breathing down your neck, and you have no idea what went wrong. Sound stressful? Welcome to the life of an SEO professional in 2025.
