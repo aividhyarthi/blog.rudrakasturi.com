@@ -1,12 +1,12 @@
 ---
 title: "11 Things Liz Reid Told Publishers - Straight From Google's Head of Search"
 date: 2026-06-30T04:04:20Z
-description: "What Google Actually Told Publishers To Do :root{ --paper:#FFFFFF; --panel:#F7F7F5; --ink:#1C1C1A; --ink-soft:#5B5B56; --coral:#D8502A; --teal:#1C6B62; --mustar"
+description: "What Google Actually Told Publishers To Do SEO & AI Search · Reading the room What Google Actually Told Publishers To Do Google's Head of Search, Liz Reid, sat "
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/06/featured-image-google-publishers.webp"
 ---
 
-  What Google Actually Told Publishers To Do 
+  What Google Actually Told Publishers To Do
 
 SEO & AI Search · Reading the room
 

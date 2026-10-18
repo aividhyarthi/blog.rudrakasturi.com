@@ -1,0 +1,26 @@
+---
+import { excerpt, readingTime, type Post } from '../lib/posts';
+const { post } = Astro.props as { post: Post };
+const label = { article: null, research: 'Research', 'case-study': 'Case study' }[post.data.type];
+const d = post.data.date;
+const when = d.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+---
+
+<article class="entry">
+  <p class="entry-date">{when}</p>
+  <div class="entry-body">
+    <p class="entry-kicker">
+      {label && <strong>{label}</strong>}
+      {label && post.data.tag && ' · '}
+      {post.data.tag}
+    </p>
+    <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
+    <p class="entry-desc">{excerpt(post, 170)}</p>
+    <p class="entry-meta">{readingTime(post)} min read</p>
+  </div>
+  {post.data.image && (
+    <a href={`/blog/${post.slug}/`} class="entry-thumb" tabindex="-1" aria-hidden="true">
+      <img src={post.data.image} alt="" loading="lazy" onerror="this.parentElement.remove()" />
+    </a>
+  )}
+</article>

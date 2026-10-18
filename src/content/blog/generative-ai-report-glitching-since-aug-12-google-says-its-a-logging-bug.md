@@ -1,7 +1,7 @@
 ---
 title: "Generative AI Report Glitching Since Aug 12? Google Says It's a Logging Bug"
 date: 2026-08-18T05:27:50Z
-description: "#rk-gsc-clickdrop * { box-sizing: border-box; } #rk-gsc-clickdrop { max-width: 760px; margin: 0 auto; padding: 0 22px 60px; } #rk-gsc-clickdrop .rk-eyebrow { fo"
+description: "Search Console / Data Anomaly Seeing a click drop in Generative AI in GSC since Aug 12? It's a logging bug, not a ranking loss. A number of site owners started "
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/08/image.webp"
 ---

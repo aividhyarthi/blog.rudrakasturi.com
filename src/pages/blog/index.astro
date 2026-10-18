@@ -1,19 +1,25 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PostCard from '../../components/PostCard.astro';
+import PostEntry from '../../components/PostEntry.astro';
 import { getAllPosts } from '../../lib/posts';
 
-const allPosts = await getAllPosts();
+const posts = await getAllPosts();
+const years = [...new Set(posts.map((p) => p.data.date.getUTCFullYear()))];
 ---
 
 <BaseLayout title="Blog | Rudra Kasturi" description="Articles on search, AI and growth by Rudra Kasturi">
-  <div class="container">
-    <div class="page-header">
-      <h1>Blog</h1>
-      <p>Practical writing on search, AI and growth strategy.</p>
+  <div class="wrap">
+    <div class="page-head">
+      <p class="label">Blog</p>
+      <h1>Notes on search, AI and growth</h1>
+      <p class="lede">{posts.length} posts, newest first. Looking for deeper work? See the <a href="/research">research and case studies</a>.</p>
     </div>
-    <div class="posts-grid" style="padding-bottom: 4rem;">
-      {allPosts.map((post) => <PostCard post={post} />)}
-    </div>
+    {years.map((y) => (
+      <section>
+        <h2 class="year">{y}</h2>
+        {posts.filter((p) => p.data.date.getUTCFullYear() === y).map((p) => <PostEntry post={p} />)}
+      </section>
+    ))}
+    <div style="height: 72px"></div>
   </div>
 </BaseLayout>

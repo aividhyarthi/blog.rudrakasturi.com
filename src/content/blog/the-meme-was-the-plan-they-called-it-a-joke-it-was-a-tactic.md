@@ -1,12 +1,12 @@
 ---
 title: "The Meme Was the Plan - They Called It a Joke. It Was a Tactic"
 date: 2026-07-23T10:29:59Z
-description: "Cockroach Mode — How Gen Z Actually Pulled This Off :root{ --bg:#F3F0FF; --card:#FFFFFF; --ink:#201A2B; --ink-soft:#5B5468; --coral:#FF5A5F; --lime:#AEDB3C; --t"
+description: "Cockroach Mode — How Gen Z Actually Pulled This Off purely gen z · told by gen z-adjacent Genz Mode : how they actually pulled this off Not the politics. Not th"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/image-3.webp"
 ---
 
-  Cockroach Mode — How Gen Z Actually Pulled This Off    
+  Cockroach Mode — How Gen Z Actually Pulled This Off   
 
 purely gen z · told by gen z-adjacent
 

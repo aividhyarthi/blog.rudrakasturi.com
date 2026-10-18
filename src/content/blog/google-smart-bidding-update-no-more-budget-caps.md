@@ -1,7 +1,7 @@
 ---
 title: "Google Smart Bidding Update: No More Budget Caps"
 date: 2026-08-09T05:26:03Z
-description: "#sbg-root { --ink: #1C1D20; --ink-dim: #6B6E73; --panel: #FFFFFF; --panel-2: #F5F4F1; --line: #E2E0DA; --amber: #C97A24; --teal: #1E9E7E; --red-dim: #B24C3E; fo"
+description: "Google Ads &middot; Rolling out Aug 17, 2026 The Budget Governor Is Being Switched Off For years, a budget cap quietly overrode your Target CPA or Target ROAS w"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/08/smart_bidding_before_after_gauge.webp"
 ---

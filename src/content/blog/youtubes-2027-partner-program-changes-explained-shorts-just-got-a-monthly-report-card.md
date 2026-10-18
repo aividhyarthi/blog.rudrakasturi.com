@@ -1,7 +1,7 @@
 ---
 title: "YouTube's 2027 Partner Program Changes Explained: Shorts Just Got a Monthly Report Card"
 date: 2026-08-11T04:59:11Z
-description: "#rk-ypp-2027 { --ink: #0f0f0f; --sub: #5a5a5a; --line: #e6e6e6; --paper: #ffffff; --red: #ff0000; --red-deep: #cc0000; --green: #0a8f5b; --green-tint: #e9f8f1; "
+description: "Creator Economy · Platform Policy YouTube just redrew the line between who earns and how much Three changes land on the Partner Program in February 2027 — one o"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/08/ypp-2027-featured-image.webp"
 ---

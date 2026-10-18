@@ -1,472 +1,222 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getAllPosts, excerpt, formatDate } from '../lib/posts';
+import PostEntry from '../components/PostEntry.astro';
+import { getAllPosts } from '../lib/posts';
+import { SITE, TOOLS, COMPANIES, mailto } from '../config';
 
-const featuredPosts = (await getAllPosts()).slice(0, 6);
+const all = await getAllPosts();
+const research = all.filter((p) => p.data.type !== 'article').slice(0, 4);
+const latest = all.filter((p) => p.data.type === 'article').slice(0, 6);
 ---
-
 <BaseLayout title="Rudra Kasturi | Search, AI & Growth | Ex-Amazon, Yahoo, BYJU's, India Today | CSO">
-  <!-- Hero Section -->
-  <section class="hero-premium">
-    <div class="hero-bg-effects">
-      <div class="hero-orb hero-orb-1"></div>
-      <div class="hero-orb hero-orb-2"></div>
-      <div class="hero-orb hero-orb-3"></div>
-      <div class="hero-grid-overlay"></div>
-    </div>
-    <div class="container hero-content">
-      <div class="hero-left">
-        <div class="hero-badge">
-          <span class="badge-dot"></span>
-          Search. Strategy. AI. Growth. Revenue. Coach. Farmer.
-        </div>
-        <h1>
-          <span class="hero-line-1"><span class="gradient-text-hero">Rudra Kasturi</span></span>
-          <span class="hero-line-2">Search, AI & Growth</span>
-          <span class="hero-line-3">Built, Scaled, <span class="gradient-text-hero">Proven.</span></span>
-        </h1>
-        <p class="hero-desc">
-          Twenty years scaling digital businesses to hundreds of millions of users.
-          From building <strong>Amazon India's</strong> search foundation to driving 10X growth at
-          <strong>Times Group</strong> and leading growth at <strong>BYJU's</strong>.
-          <br/><br/>
-          I work on problems where scale, search, and AI decide the outcome.
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="label">{SITE.tagline}</p>
+        <h1 class="display">Search, AI &amp; Growth. Built, scaled, <span>proven.</span></h1>
+        <p class="lede">
+          Twenty years scaling digital businesses to hundreds of millions of users. From building Amazon India's search
+          foundation to driving 10X growth at Times Group and leading growth at BYJU's. Today I advise leadership
+          teams on where search and AI will move their numbers.
         </p>
-        <div class="hero-buttons">
-          <a href="/blog" class="btn btn-primary btn-glow">Read My Blog</a>
-          <a href="#about" class="btn btn-outline">Discover My Story</a>
-          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
-        </div>
-        <div class="hero-logos">
-          <span class="hero-logos-label">Worked With & Featured At</span>
-          <div class="logo-strip">
-            <span class="logo-tag">Amazon</span>
-            <span class="logo-tag">Yahoo</span>
-            <span class="logo-tag">Google I/O</span>
-            <span class="logo-tag">Times Group</span>
-            <span class="logo-tag">BYJU's</span>
-            <span class="logo-tag">India Today</span>
-            <span class="logo-tag">Tencent</span>
-          </div>
+        <div class="hero-actions">
+          <a class="btn" href="/work-with-me">Work with me</a>
+          <a class="btn btn-line" href="/research">Read the research</a>
         </div>
       </div>
-      <div class="hero-right">
-        <div class="hero-image-wrapper">
-          <img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi speaking at Google I/O 2019" class="hero-main-image" />
-          <div class="hero-image-badge">
-            <span>Speaker</span>
-            Google I/O '19
-          </div>
+      <figure class="figure hero-fig">
+        <img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi speaking at Google I/O 2019" />
+        <figcaption>Speaking at Google I/O, 2019</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="proof">
+    <div class="wrap">
+      <div class="proof-grid">
+        <div class="stat"><strong>500M+</strong><span>users reached</span></div>
+        <div class="stat"><strong>20+</strong><span>years in digital</span></div>
+        <div class="stat"><strong>4</strong><span>companies founded</span></div>
+        <div class="stat"><strong>3</strong><span>universities taught</span></div>
+      </div>
+      <p class="logos"><span>Worked with &amp; featured at</span> <b>Amazon</b> <b>Yahoo</b> <b>Google I/O</b> <b>Times Group</b> <b>BYJU's</b> <b>India Today</b> <b>Tencent</b></p>
+    </div>
+  </section>
+
+  {research.length > 0 && (
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="label">01 / Research</p>
+          <h2>Research and case studies</h2>
         </div>
+        {research.map((p) => <PostEntry post={p} />)}
+        <p class="more"><a href="/research">All research and case studies &rarr;</a></p>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">{research.length > 0 ? '02' : '01'} / Writing</p>
+        <h2>Latest from the blog</h2>
+        <p class="sub">Practical notes on AI, search, digital strategy and building at scale.</p>
+      </div>
+      {latest.map((p) => <PostEntry post={p} />)}
+      <p class="more"><a href="/blog">All {all.length} posts &rarr;</a></p>
+    </div>
+  </section>
+
+  <section class="section section-tinted">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">Work with me</p>
+        <h2>Three ways I help leadership teams</h2>
+      </div>
+      <div class="cols-3">
+        <div class="col"><span class="num">01</span><h3>Search &amp; AI visibility</h3><p>Organic growth in the age of AI answers: SEO, content systems, and getting cited by AI engines.</p></div>
+        <div class="col"><span class="num">02</span><h3>Growth strategy</h3><p>Where to invest next. Channel mix, funnels, experimentation, and the metrics your board cares about.</p></div>
+        <div class="col"><span class="num">03</span><h3>AI adoption</h3><p>Practical roadmaps for putting AI to work across marketing, product and operations, without the hype.</p></div>
+      </div>
+      <p class="more"><a href="/work-with-me">How an engagement works &rarr;</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">Tools</p>
+        <h2>Software I've built, ready to use</h2>
+        <p class="sub">The same methods I use in consulting, packaged as tools you can run yourself.</p>
+      </div>
+      <div class="cols-2">
+        {TOOLS.map((t, i) => (
+          <div class="col">
+            <span class="num">0{i + 1}</span>
+            <h3>{t.name}</h3>
+            <p>{t.blurb}</p>
+            <a class="go" href={t.url} rel="noopener">Open {t.name} &rarr;</a>
+            <span class="host">{t.host}</span>
+          </div>
+        ))}
       </div>
     </div>
   </section>
 
-  <!-- Credibility Bar -->
-  <section class="credibility-bar">
-    <div class="container">
-      <div class="cred-scroll">
-        <div class="cred-item">
-          <div class="cred-number">500M+</div>
-          <div class="cred-label">Users Reached</div>
+  <section class="section section-tinted">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">Track record</p>
+        <h2>Every role had a number attached</h2>
+      </div>
+      <div class="record">
+        <div class="record-row"><div><h3>India Today Group</h3><p class="role">Chief Strategy Officer</p></div><p>Driving AI-first transformation across editorial, distribution and monetisation. Building new revenue streams and restructuring digital infrastructure for scale.</p></div>
+        <div class="record-row"><div><h3>Times Internet</h3><p class="role">VP &amp; Head of Audience Growth</p></div><p>Led the largest SEO and audience growth transformation in the company's history. Scaled multiple properties to category-leading positions across comScore rankings.</p></div>
+        <div class="record-row"><div><h3>BYJU's</h3><p class="role">Senior Vice President, Growth</p></div><p>Led growth across India and international markets during the peak scale phase. Owned acquisition, retention and expansion strategy.</p></div>
+        <div class="record-row"><div><h3>Snapdeal</h3><p class="role">SEO Director</p></div><p>Led organic search strategy during hypergrowth, building scalable SEO systems for one of India's top e-commerce platforms.</p></div>
+        <div class="record-row"><div><h3>Amazon India</h3><p class="role">SEO Head</p></div><p>Built Amazon India's organic search presence from the ground up, establishing foundational SEO infrastructure at scale.</p></div>
+        <div class="record-row"><div><h3>Yahoo</h3><p class="role">SEO Head, India, SE Asia &amp; Middle East</p></div><p>Led search strategy across three regions, driving visibility and growth for one of the internet's defining platforms.</p></div>
+      </div>
+      <p class="advisory"><b>Advisory and consulting:</b> Tencent Group (growth consultant), CRED (advisor), Antler India (growth advisor), Haptik Group (advisor), Tasva, Aditya Birla (consultant).</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">About</p>
+        <h2>An operator, not a commentator</h2>
+      </div>
+      <div class="two-up">
+        <div>
+          <p class="lede">I have spent two decades at the intersection of search, AI and growth, as the person accountable for results.</p>
         </div>
-        <div class="cred-divider"></div>
-        <div class="cred-item">
-          <div class="cred-number">20+</div>
-          <div class="cred-label">Years in Digital</div>
+        <div>
+          <p>From building Amazon India's organic search from scratch to scaling Times Group properties to category-leading positions, to owning growth at BYJU's, the mandate has always been the same: identify the ceiling, then remove it.</p>
+          <p>I advise companies from Series A to enterprise scale across India, Southeast Asia, the Middle East and the US. And I teach, because the next generation doesn't need theory. It needs operators.</p>
         </div>
-        <div class="cred-divider"></div>
-        <div class="cred-item">
-          <div class="cred-number">4</div>
-          <div class="cred-label">Companies Founded</div>
-        </div>
-        <div class="cred-divider"></div>
-        <div class="cred-item">
-          <div class="cred-number">CSO</div>
-          <div class="cred-label">Chief Strategy Officer</div>
-        </div>
-        <div class="cred-divider"></div>
-        <div class="cred-item">
-          <div class="cred-number">SVP</div>
-          <div class="cred-label">Senior Vice President</div>
-        </div>
-        <div class="cred-divider"></div>
-        <div class="cred-item">
-          <div class="cred-number">3</div>
-          <div class="cred-label">Universities Taught</div>
-        </div>
+      </div>
+      <div class="photos" style="margin-top: 56px;">
+        <figure class="figure"><img src="/images/rudra-rand-fishkin.jpeg" alt="Rudra Kasturi with Rand Fishkin" loading="lazy" /><figcaption><b>Rand Fishkin</b><br />Founder, Moz &amp; SparkToro</figcaption></figure>
+        <figure class="figure"><img src="/images/rudra-matt.jpeg" alt="Rudra Kasturi with Matt Cutts" loading="lazy" /><figcaption><b>Matt Cutts</b><br />Former head of Google Webspam</figcaption></figure>
+        <figure class="figure"><img src="/images/rudra-john.jpeg" alt="Rudra Kasturi with John Mueller" loading="lazy" /><figcaption><b>John Mueller</b><br />Google Search Advocate</figcaption></figure>
+        <figure class="figure"><img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi at Google I/O 2019" loading="lazy" /><figcaption><b>Google I/O 2019</b><br />Progressive Web Apps talk</figcaption></figure>
       </div>
     </div>
   </section>
 
-  <!-- Career Timeline / Companies -->
-  <section class="section career-section">
-    <div class="container">
-      <h2 class="section-title text-center">The Track Record</h2>
-      <p class="section-subtitle text-center">Every engagement has produced measurable, step-change growth. Here's what that looks like in practice.</p>
-      <div class="career-grid">
-        <div class="career-card">
-          <div class="career-role">Chief Strategy Officer</div>
-          <div class="career-company">India Today Group</div>
-          <p>Driving AI-first transformation across editorial, distribution, and monetisation. Building new revenue streams and restructuring digital infrastructure for scale.</p>
-        </div>
-        <div class="career-card">
-          <div class="career-role">VP & Head of Audience Growth</div>
-          <div class="career-company">Times Internet (Times Group)</div>
-          <p>Led the largest SEO and audience growth transformation in the company's history. Scaled multiple properties to category-leading positions across comScore rankings.</p>
-        </div>
-        <div class="career-card">
-          <div class="career-role">Senior Vice President, Growth</div>
-          <div class="career-company">BYJU's</div>
-          <p>Led growth across India and international markets during peak scale phase. Owned acquisition, retention, and expansion strategy.</p>
-        </div>
-        <div class="career-card">
-          <div class="career-role">SEO Director</div>
-          <div class="career-company">Snapdeal</div>
-          <p>Led organic search strategy during hypergrowth, building scalable SEO systems for one of India's top e-commerce platforms.</p>
-        </div>
-        <div class="career-card">
-          <div class="career-role">SEO Head</div>
-          <div class="career-company">Amazon India</div>
-          <p>Built Amazon India's organic search presence from the ground up, establishing foundational SEO infrastructure at scale.</p>
-        </div>
-        <div class="career-card">
-          <div class="career-role">SEO Head, India, SE Asia & Middle East</div>
-          <div class="career-company">Yahoo</div>
-          <p>Led search strategy across three regions, driving visibility and growth for one of the internet's defining platforms.</p>
-        </div>
+  <section class="section section-tinted">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">Teaching &amp; writing</p>
+        <h2>Sharing what works</h2>
       </div>
-      <div class="career-advisory">
-        <h3 class="text-center">Advisory & Consulting</h3>
-        <div class="advisory-strip">
-          <span class="advisory-tag">Tencent Group / Growth Consultant</span>
-          <span class="advisory-tag">CRED / Advisor</span>
-          <span class="advisory-tag">Antler India / Growth Advisor</span>
-          <span class="advisory-tag">Haptik Group / Advisor</span>
-          <span class="advisory-tag">Tasva (Aditya Birla) / Consultant</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Photo Gallery -->
-  <section class="section photo-showcase">
-    <div class="container">
-      <h2 class="section-title text-center">You're Known By The Company You Keep</h2>
-      <p class="section-subtitle text-center">Two decades in the game means knowing the people who built the internet.</p>
-      <div class="photo-grid">
-        <div class="photo-card photo-card-featured">
-          <div class="photo-wrapper">
-            <img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi speaking at Google I/O 2019" />
-            <div class="photo-overlay">
-              <span class="photo-tag">Keynote Speaker</span>
-            </div>
-          </div>
-          <div class="photo-info">
-            <h3>Google I/O 2019</h3>
-            <p>Featured ET & Gaana for Progressive Web Apps at Google's premier developer conference</p>
-          </div>
-        </div>
-        <div class="photo-card">
-          <div class="photo-wrapper">
-            <img src="/images/rudra-rand-fishkin.jpeg" alt="Rudra Kasturi with Rand Fishkin, founder of Moz and SparkToro" />
-            <div class="photo-overlay">
-              <span class="photo-tag">MozCon</span>
-            </div>
-          </div>
-          <div class="photo-info">
-            <h3>With Rand Fishkin</h3>
-            <p>Founder of Moz & SparkToro. The godfather of modern SEO.</p>
-          </div>
-        </div>
-        <div class="photo-card">
-          <div class="photo-wrapper">
-            <img src="/images/rudra-matt.jpeg" alt="Rudra Kasturi with Matt Cutts, former head of Google Webspam" />
-            <div class="photo-overlay">
-              <span class="photo-tag">Google</span>
-            </div>
-          </div>
-          <div class="photo-info">
-            <h3>With Matt Cutts</h3>
-            <p>Former Head of Google Webspam. The legend who shaped search quality.</p>
-          </div>
-        </div>
-        <div class="photo-card">
-          <div class="photo-wrapper">
-            <img src="/images/rudra-john.jpeg" alt="Rudra Kasturi with John Mueller, Google Search Advocate" />
-            <div class="photo-overlay">
-              <span class="photo-tag">Google Search</span>
-            </div>
-          </div>
-          <div class="photo-info">
-            <h3>With John Mueller</h3>
-            <p>Google's Senior Search Analyst & Search Advocate. The voice of Google Search.</p>
-          </div>
-        </div>
-        <div class="photo-card">
-          <div class="photo-wrapper">
-            <img src="/images/farmer-rudra.jpeg" alt="Rudra Kasturi on his farm" />
-            <div class="photo-overlay">
-              <span class="photo-tag">The Farm Life</span>
-            </div>
-          </div>
-          <div class="photo-info">
-            <h3>Beyond the Boardroom</h3>
-            <p>When not scaling businesses, farming keeps things real. Patience, soil, and long games.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="section about-premium" id="about">
-    <div class="container">
-      <div class="about-layout">
-        <div class="about-content">
-          <div class="about-badge">About</div>
-          <h2 class="about-headline">What I <span class="gradient-text">Actually Do</span></h2>
-          <p class="about-lead">
-            I've spent two decades at the intersection of search, AI, and growth, as the person accountable for results.
-          </p>
-          <p>
-            From building <strong>Amazon India's</strong> organic search from scratch to scaling
-            <strong>Times Group</strong> properties to category-leading positions, to owning growth
-            at <strong>BYJU's</strong>, the mandate has always been the same: identify the ceiling, then remove it.
-          </p>
-          <p>
-            I also advise companies including <strong>Tencent</strong>, <strong>CRED</strong>,
-            <strong>Antler India</strong>, <strong>Haptik</strong>, and
-            <strong>Tasva (Aditya Birla Group)</strong>, across stages from Series A to enterprise scale.
-          </p>
-          <p>
-            And I teach. Because the next generation doesn't need theory. It needs operators.
-          </p>
-        </div>
-        <div class="about-highlights">
-          <div class="highlight-card">
-            <div class="highlight-icon">&#9733;</div>
-            <h4>Operator, Not Advisor</h4>
-            <p>CSO, SVP, and VP roles at companies with hundreds of millions of users. The decisions were mine to make and mine to live with.</p>
-          </div>
-          <div class="highlight-card">
-            <div class="highlight-icon">&#9775;</div>
-            <h4>Search & AI, Since the Beginning</h4>
-            <p>From early SEO infrastructure at Amazon and Yahoo to AI strategy at India Today. This has been the work for twenty years.</p>
-          </div>
-          <div class="highlight-card">
-            <div class="highlight-icon">&#9889;</div>
-            <h4>500M+ Users, Real Platforms</h4>
-            <p>Media, edtech, e-commerce, and entertainment at scale.</p>
-          </div>
-          <div class="highlight-card">
-            <div class="highlight-icon">&#127758;</div>
-            <h4>Global Footprint</h4>
-            <p>India, Southeast Asia, the Middle East, and the US. Across industries, stages, and market conditions.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Founder Section -->
-  <section class="section founder-section">
-    <div class="container">
-      <h2 class="section-title text-center">Founder & Builder</h2>
-      <p class="section-subtitle text-center">Building companies that create real impact</p>
-      <div class="founder-grid">
-        <a href="https://aividhyarthi.org" target="_blank" rel="noopener" class="founder-card">
-          <div class="founder-logo-text">AIVidhyaRthi</div>
-          <p>AI-powered education platform. Democratizing learning through artificial intelligence.</p>
-          <span class="founder-link">aividhyarthi.org &rarr;</span>
-        </a>
-        <a href="https://appstudiox.com" target="_blank" rel="noopener" class="founder-card">
-          <div class="founder-logo-text">AppStudioX</div>
-          <p>Product studio building next-generation apps and digital experiences.</p>
-          <span class="founder-link">appstudiox.com &rarr;</span>
-        </a>
-        <a href="https://hermidlife.com" target="_blank" rel="noopener" class="founder-card">
-          <div class="founder-logo-text">HerMidLife</div>
-          <p>Empowering women through content, community, and curated experiences.</p>
-          <span class="founder-link">hermidlife.com &rarr;</span>
-        </a>
-        <div class="founder-card founder-card-accent">
-          <div class="founder-logo-text">Rudra Kasturi Inc.</div>
-          <p>Strategic consulting for enterprises and startups. From search to AI, zero to scale.</p>
-          <span class="founder-link">Consulting &amp; Advisory</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Farmer Section -->
-  <section class="section farmer-section">
-    <div class="container">
-      <div class="farmer-layout">
-        <div class="farmer-image-wrapper">
-          <img src="/images/farmer-rudra.jpeg" alt="Rudra Kasturi on his farm" class="farmer-image" />
-        </div>
-        <div class="farmer-content">
-          <h2 class="section-title">Beyond the Boardroom</h2>
-          <p class="farmer-lead">When I'm not working, I'm on the farm.</p>
-          <p>
-            No dashboards. No decks. Just time, soil, and patience.
-          </p>
-          <p>
-            Farming is a long game. You plant, you tend, you wait. The outcome doesn't negotiate.
-          </p>
-          <p>
-            That discipline carries back into everything I build.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Speaking & Thought Leadership -->
-  <section class="section speaking-section">
-    <div class="container">
-      <h2 class="section-title text-center">Speaker & Thought Leader</h2>
-      <p class="section-subtitle text-center">Sharing knowledge on the world's biggest stages</p>
-      <div class="speaking-grid">
-        <div class="speaking-card speaking-featured">
-          <div class="speaking-video">
-            <a href="https://www.youtube.com/watch?v=3As9NibdIjk" target="_blank" rel="noopener" class="video-thumb">
-              <img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi at Google I/O" />
-              <div class="play-button">&#9654;</div>
-            </a>
-          </div>
-          <div class="speaking-info">
-            <span class="speaking-tag">Featured Talk</span>
-            <h3>Google I/O 2019</h3>
-            <p>Featured ET & Gaana for Progressive Web Apps at Google's premier developer conference</p>
-            <a href="https://www.youtube.com/watch?v=3As9NibdIjk" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Watch on YouTube &rarr;</a>
-          </div>
-        </div>
-        <div class="speaking-list">
-          <div class="speaking-item">
-            <div class="speaking-item-icon">&#127911;</div>
-            <div>
-              <h4>Google I/O & AMP Conferences</h4>
-              <p>Seasonal speaker at Google's flagship developer and AMP conferences</p>
-            </div>
-          </div>
-          <div class="speaking-item">
-            <div class="speaking-item-icon">&#127891;</div>
-            <div>
-              <h4>MMA Global & Industry Summits</h4>
-              <p>Speaker at Mobile Marketing Association and global digital marketing summits</p>
-            </div>
-          </div>
-          <div class="speaking-item">
-            <div class="speaking-item-icon">&#128218;</div>
-            <div>
-              <h4>University Guest Faculty</h4>
-              <p>Teaching Digital & AI at Bennett University, ITMI, and Masters' Union</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Teaching & Writing -->
-  <section class="section credentials-section">
-    <div class="container">
-      <div class="credentials-grid">
-        <div class="credential-block">
-          <h3 class="credential-heading">Educator & Guest Faculty</h3>
-          <p class="credential-desc">Shaping the next generation of digital leaders</p>
-          <ul class="credential-list">
-            <li>
-              <strong>Times Bennett University</strong>
-              <span>Digital Marketing & AI</span>
-            </li>
-            <li>
-              <strong>ITMI</strong>
-              <span>Media, AI & Digital Strategy</span>
-            </li>
-            <li>
-              <strong>Masters' Union</strong>
-              <span>Generative AI</span>
-            </li>
+      <div class="three-text">
+        <div>
+          <h3>Guest faculty</h3>
+          <ul>
+            <li>Times Bennett University<span>Digital marketing &amp; AI</span></li>
+            <li>ITMI<span>Media, AI &amp; digital strategy</span></li>
+            <li>Masters' Union<span>Generative AI</span></li>
           </ul>
         </div>
-        <div class="credential-block">
-          <h3 class="credential-heading">Writer & Columnist</h3>
-          <p class="credential-desc">Published in leading global media organizations</p>
-          <ul class="credential-list">
-            <li>
-              <strong>INMA</strong>
-              <span>International News Media Association</span>
-            </li>
-            <li>
-              <strong>Times of India</strong>
-              <span>India's largest English daily</span>
-            </li>
-            <li>
-              <strong>CNTI.org</strong>
-              <span>Center for News, Technology & Innovation</span>
-            </li>
+        <div>
+          <h3>Published in</h3>
+          <ul>
+            <li>INMA<span>International News Media Association</span></li>
+            <li>Times of India<span>India's largest English daily</span></li>
+            <li>CNTI.org<span>Center for News, Technology &amp; Innovation</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Speaking</h3>
+          <ul>
+            <li>Google I/O &amp; AMP conferences<span><a href="https://www.youtube.com/watch?v=3As9NibdIjk" rel="noopener">Watch the 2019 talk</a></span></li>
+            <li>MMA Global<span>Industry and marketing summits</span></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Latest Posts -->
-  <section class="section" id="blog">
-    <div class="container">
-      <h2 class="section-title text-center">Latest From The Blog</h2>
-      <p class="section-subtitle text-center">Insights on AI, Search, Digital Strategy, and Building at Scale</p>
-
-      {featuredPosts.length > 0 ? (
-        <div class="posts-grid">
-          {featuredPosts.map((post) => (
-            <article class="post-card">
-              {post.data.tag && <span class="tag">{post.data.tag}</span>}
-              <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
-              <p>{excerpt(post)}</p>
-              <span class="post-meta">{formatDate(post.data.date)}</span>
-            </article>
-          ))}
-        </div>
-      ) : (
-        <p class="section-subtitle text-center">New posts coming soon!</p>
-      )}
-
-      <div class="view-all">
-        <a href="/blog" class="btn btn-primary btn-glow" style="margin-top: 2rem;">Read All Posts &rarr;</a>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">Group companies</p>
+        <h2>Companies I founded and partner with</h2>
+      </div>
+      <div class="cols-3">
+        {COMPANIES.map((c) => (
+          <div class="col">
+            <h3>{c.name}</h3>
+            <p>{c.blurb}</p>
+            <a class="go" href={c.url} rel="noopener">Visit &rarr;</a>
+            <span class="host">{c.host}</span>
+          </div>
+        ))}
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="section contact-section" id="contact">
-    <div class="container">
-      <div class="contact-card">
-        <div class="contact-content">
-          <h2>Let's <span class="gradient-text">Talk</span></h2>
-          <p>
-            If you're working on a problem where search, AI, or growth will determine the outcome, reach out.
-            I take on a limited number of engagements and respond personally to serious inquiries.
-          </p>
-          <div class="contact-links">
-            <a href="https://linkedin.com/in/rudrakasturi" target="_blank" rel="noopener" class="btn btn-primary btn-glow">Connect on LinkedIn</a>
-            <a href="https://github.com/aividhyarthi" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
-            <a href="https://twitter.com/kasturitagore" target="_blank" rel="noopener" class="btn btn-outline">Twitter / X</a>
-          </div>
-        </div>
-        <div class="contact-roles">
-          <div class="role-chip">Keynote Speaker</div>
-          <div class="role-chip">AI Strategy Advisor</div>
-          <div class="role-chip">Growth Consulting</div>
-          <div class="role-chip">Digital Transformation</div>
-          <div class="role-chip">Startup Mentorship</div>
-          <div class="role-chip">Guest Faculty</div>
-          <div class="role-chip">GTM Strategy</div>
-        </div>
+  <section class="section section-tinted">
+    <div class="wrap two-up">
+      <figure class="figure"><img src="/images/farmer-rudra.jpeg" alt="Rudra Kasturi on his farm" loading="lazy" /></figure>
+      <div>
+        <p class="label">Beyond the boardroom</p>
+        <h2 style="font-size: 2.2rem; margin: 14px 0 18px;">When I'm not working, I'm on the farm.</h2>
+        <p>No dashboards. No decks. Just time, soil and patience. Farming is a long game: you plant, you tend, you wait, and the outcome doesn't negotiate. That discipline carries back into everything I build.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <p class="label label-light">Contact</p>
+      <h2 style="margin-top: 14px;">Have a problem worth solving?</h2>
+      <p>Send me a short note about your business and what you want to change. I read every one.</p>
+      <a class="btn" href={mailto}>Email {SITE.email}</a>
+      <a class="btn btn-line" href={SITE.linkedin} rel="noopener">Connect on LinkedIn</a>
     </div>
   </section>
 </BaseLayout>

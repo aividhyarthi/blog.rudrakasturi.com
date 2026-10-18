@@ -1,7 +1,7 @@
 ---
 title: "What Is ChatGPT Query Fan-Out? The Aug 2026 Change That Killed Reddit's Citations"
 date: 2026-08-20T04:58:22Z
-description: "#rk-fanout-post * { box-sizing: border-box; } #rk-fanout-post { max-width: 760px; margin: 0 auto; padding: 0 22px 60px; } #rk-fanout-post .rk-eyebrow { font-fam"
+description: "AI Search / GEO ChatGPT quietly rewired how it searches the web. Reddit paid the price. On August 8, 2026, ChatGPT started aggressively scoping its background s"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/08/image-1.webp"
 ---

@@ -33,7 +33,9 @@ turndown.keep(['iframe']);
 
 const text = (v) => (typeof v === 'string' ? v : (v?.['#text'] ?? ''));
 const clean = (html) =>
-  html.replace(/<!--[\s\S]*?-->/g, '').replace(/\[caption[^\]]*\]|\[\/caption\]/g, '');
+  html
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/<(style|script)[\s\S]*?<\/\1>/gi, '').replace(/\[caption[^\]]*\]|\[\/caption\]/g, '');
 const decode = (s) =>
   s
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))

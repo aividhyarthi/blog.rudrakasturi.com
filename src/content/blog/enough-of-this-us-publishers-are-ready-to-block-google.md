@@ -1,7 +1,7 @@
 ---
 title: "\"Enough of This\": US Publishers Are Ready to Block Google."
 date: 2026-07-24T02:42:08Z
-description: "@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@500;60"
+description: "Dispatch · Search & Media Google Zero, Everywhere at Once American publishers are threatening to block Google entirely. It's a live option for them because they"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/google-zero-feature-image.webp"
 ---

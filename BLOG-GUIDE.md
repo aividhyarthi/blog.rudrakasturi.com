@@ -20,17 +20,19 @@ The file name (without `.md`) becomes the web address: `/blog/my-new-post/`.
 ## Bring over your old WordPress posts
 1. In WordPress go to Tools > Export > All content > Download Export File.
 2. Put the downloaded `.xml` file in this folder.
-3. Run `npm install` then `npm run import-wp -- your-file.xml --download-images`.
+3. Run `npm install` then `npm run import-wp -- your-file.xml`, then `npm run download-media` to save the images.
 4. Delete `src/content/blog/welcome.md`, then commit.
 
 This also creates `public/_redirects`, which sends your old WordPress links to the
 new ones so you keep your Google rankings.
 
 ## Google ads (AdSense)
-Set an environment variable on your host: `PUBLIC_ADSENSE_CLIENT` = `ca-pub-XXXXXXXXXXXXXXXX`
-(from your AdSense account). The ads script is then added to every page.
-Also create `public/ads.txt` with the line AdSense gives you
-(`google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0`).
+Already set up: the ads script is on every page and `public/ads.txt` holds your AdSense line.
+Your publisher ID lives in `src/config.ts`. Turn on Auto ads inside your AdSense account.
+
+## Research and case studies
+Add `type: research` or `type: case-study` to a post's header. It then appears on the
+Research page and on the homepage, with a label.
 
 ## Hosting
 The site builds to plain files in `dist/` (`npm run build`). Any static host works:
