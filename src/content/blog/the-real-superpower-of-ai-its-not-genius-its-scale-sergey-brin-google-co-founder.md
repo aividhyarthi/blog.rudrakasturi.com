@@ -4,6 +4,8 @@ date: 2025-08-06T04:19:04Z
 description: "If you’ve been following Silicon Valley’s AI rhetoric, you’ll know the pitch: Artificial Intelligence as the new industrial revolution, the end of human drudgery, maybe even a step toward digital…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/crate-image-of-google-founder-sergey-brin-in-ai-gibhilify-format-3.webp"
+categories: ["AI","Google AI"]
+tags: ["ai","AI Supr Power","Googel Cofounder","Rudra Kasturi","Sergey Brin"]
 ---
 
 If you’ve been following Silicon Valley’s AI rhetoric, you’ll know the pitch: Artificial Intelligence as the new industrial revolution, the end of human drudgery, maybe even a step toward digital superintelligence. But listen to Sergey Brin Google’s co-founder and tech-world realist and you get a different story.

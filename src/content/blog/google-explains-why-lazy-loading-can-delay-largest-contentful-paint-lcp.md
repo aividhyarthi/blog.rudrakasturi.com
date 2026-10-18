@@ -4,6 +4,8 @@ date: 2025-08-22T05:01:33Z
 description: "Google’s Martin Splitt has explained why using lazy loading for images that appear right at the top of a webpage (like hero images or banners) can make your site feel slower. The problem? The biggest…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-featured-image-showcasing-a-split-screen-design-highlighting-the.webp"
+categories: ["Core Web Vitals","Image SEO"]
+tags: ["Google","Google Core Web Vitals","Google Rankigns","Google Search","Rudra Kasturi"]
 ---
 
 Google’s Martin Splitt has explained why using lazy loading for images that appear right at the top of a webpage (like hero images or banners) can make your site feel slower. The problem? The biggest visible image the one users see first loads late, and that directly hurts your Largest Contentful Paint (LCP) score.

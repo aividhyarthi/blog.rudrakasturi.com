@@ -4,6 +4,8 @@ date: 2025-08-08T07:24:18Z
 description: "So, GPT-5 is here. It’s sharper, faster, and now officially better at saying, “I don’t know.”…"
 tag: "ChatGPT"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/chatgpt-5-learned-to-say-no-i-dont-know.webp"
+categories: ["AI","GPT"]
+tags: ["ChatGPT","Google","GPT5","Rudra Kasturi"]
 ---
 
 So, GPT-5 is here. It’s sharper, faster, and now officially better at saying, _“I don’t know.”_

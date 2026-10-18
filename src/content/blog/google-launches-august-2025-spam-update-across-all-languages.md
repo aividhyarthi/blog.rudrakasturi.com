@@ -4,6 +4,8 @@ date: 2025-08-27T09:34:42Z
 description: "In August 2025, Google rolled out a new Spam Update that applies globally and to all languages . The update will take a few weeks to complete, and like all algorithm changes, it has already started…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/googles-august-2025-spam-update-1.webp"
+categories: ["Google Updates","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 In August 2025, Google rolled out a new **Spam Update** that applies **globally and to all languages**. The update will take a few weeks to complete, and like all algorithm changes, it has already started to stir movement in search rankings. Unlike a core update, this one is laser-focused on **fighting spam in search results**.

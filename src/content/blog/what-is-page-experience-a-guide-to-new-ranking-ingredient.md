@@ -4,6 +4,8 @@ date: 2021-07-07T20:34:43Z
 description: "Page experience as the word suggests is metrics to measure user experience and interaction of your audience on your web page. As you all must have heard, Google has once again updated its algorithm…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/worker-reading-news-with-tablet.jpg"
+categories: ["SEO"]
+tags: ["Google","google page experience","google page experience update","google privacy sandbox explained","page experience update","Page Experience Update 2021","Rudra Kasturi","SEO","web pages"]
 ---
 
 Page experience as the word suggests is metrics to measure user experience and interaction of your audience on your web page. As you all must have heard, Google has once again updated its algorithm by introducing a new factor called ‘Page Experience.’ What Page Experience? Why is it the talk of the SEO town? And how will this update affect your online business? 

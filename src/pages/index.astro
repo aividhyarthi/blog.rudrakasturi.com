@@ -5,16 +5,16 @@ import Carousel from '../components/Carousel.astro';
 import AuditBanner from '../components/AuditBanner.astro';
 import AppRankrSection from '../components/AppRankrSection.astro';
 import Subscribe from '../components/Subscribe.astro';
-import { getAllPosts, getTopics, readingTime, topicOf, mixedLatest, HUBS, slugify } from '../lib/posts';
-import { SITE, TOOLS, START_HERE, YEARS, mailto } from '../config';
+import { getAllPosts, getSections, readingTime, topicOf, mixedLatest, SECTIONS, inSection } from '../lib/posts';
+import { SITE, TOOLS, START_HERE, YEARS, NEWSLETTER, mailto } from '../config';
 
 const all = await getAllPosts();
 const researched = all.filter((p) => p.data.sources.length > 0);
 const featured = researched[0] ?? all[0];
 const latest = mixedLatest(all, 8, [featured.slug]);
-const rails = HUBS.map((name) => ({ name, slug: slugify(name), posts: all.filter((p) => topicOf(p).name === name).slice(0, 9) })).filter((r) => r.posts.length >= 3);
+const rails = SECTIONS.map((sec) => ({ name: sec.name, slug: sec.slug, posts: all.filter((p) => inSection(p, sec)).slice(0, 9) })).filter((r) => r.posts.length >= 3);
 const start = START_HERE.map((slug) => all.find((p) => p.slug === slug)).filter((p) => p !== undefined);
-const topics = getTopics(all).filter((t) => t.count >= 3);
+const topics = getSections(all);
 const origin = new URL(Astro.site!).origin;
 const home = [
   {
@@ -108,9 +108,11 @@ const home = [
 
   <AppRankrSection />
 
-  <section class="section section-tint" id="subscribe">
-    <div class="wrap"><Subscribe variant="inline" /></div>
-  </section>
+  {NEWSLETTER.enabled && (
+    <section class="section section-tint" id="subscribe">
+      <div class="wrap"><Subscribe variant="inline" /></div>
+    </section>
+  )}
 
   <section class="contact">
     <div class="wrap">

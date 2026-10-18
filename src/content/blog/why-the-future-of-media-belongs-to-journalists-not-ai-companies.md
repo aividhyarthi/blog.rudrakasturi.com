@@ -4,6 +4,8 @@ date: 2026-01-05T12:45:20Z
 description: "Every technology wave in media brings the same lazy fear. Will this replace journalists? It was asked with television. It was asked with the internet. It is now being asked with AI. The question is…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/a-happy-hournalist-face-with-ai-sticker-on-his-laptop-2.webp"
+categories: ["AI","Opinion"]
+tags: ["ai","Opinion","Rudra Kasturi"]
 ---
 
 Every technology wave in media brings the same lazy fear.

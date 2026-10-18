@@ -4,6 +4,8 @@ date: 2025-06-24T08:04:26Z
 description: "Google just rolled out its AI Mode in India under the Search Generative Experience (SGE) label. On paper, it promises smart summaries, fewer clicks, and instant clarity. But when we actually used it…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-71.webp"
+categories: ["AI","Google Search","SEO"]
+tags: ["ai","Google","Publishers","Rudra Kasturi","Search","SEO"]
 ---
 
 Google just rolled out its AI Mode in India under the Search Generative Experience (SGE) label. On paper, it promises smart summaries, fewer clicks, and instant clarity.

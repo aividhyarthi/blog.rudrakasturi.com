@@ -4,6 +4,8 @@ date: 2025-08-19T06:28:44Z
 description: "OpenAI has announced the launch of ChatGPT Go , a new subscription tier designed to bring advanced AI features to Indian users at an affordable price. Priced at Rs. 399 per month , the plan offers…"
 tag: "ChatGPT Cost"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-88.webp"
+categories: ["AI","GPT"]
+tags: ["ChatGPT Cost","Google","Gpt Cost in India","Rudra Kasturi"]
 ---
 
 OpenAI has announced the launch of **ChatGPT Go**, a new subscription tier designed to bring advanced AI features to Indian users at an affordable price. Priced at **Rs. 399 per month**, the plan offers expanded usage limits and payment flexibility, making it easier for individuals and professionals to access AI tools in their daily work.

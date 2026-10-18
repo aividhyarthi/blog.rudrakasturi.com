@@ -4,6 +4,8 @@ date: 2024-10-06T05:09:45Z
 description: "If you’re selling products online , there’s an important new update from Google that you need to know about. Starting in April 2025 , Google will be replacing the old EnergyConsumptionDetails type…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Screenshot-2024-10-06-at-10.37.45 AM.png"
+categories: ["Explainers","Google Updates","SEO","Structure Data"]
+tags: ["Google","Markup","product structure data","Rudra Kasturi","SEO","Structure Data"]
 ---
 
 **If you’re selling products online**, there’s an important new update from Google that you need to know about. Starting in **April 2025**, Google will be replacing the old **EnergyConsumptionDetails** type with a new and improved **Certification** type for merchant listings. Let’s break down what this change means and how it could affect your product listings.

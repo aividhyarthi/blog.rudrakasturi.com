@@ -4,6 +4,8 @@ date: 2024-12-12T05:12:49Z
 description: "Google’s new AI model, Gemini 2.0 , is not just an upgrade—it’s a major step forward in how artificial intelligence can understand, organize, and act on information. Let’s break it down in simple…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-26.png"
+categories: ["AI","Google AI","Industry News"]
+tags: ["Google","Rudra Kasturi"]
 ---
 
 Google’s new AI model, **Gemini 2.0**, is not just an upgrade—it’s a major step forward in how artificial intelligence can understand, organize, and act on information. Let’s break it down in simple terms:

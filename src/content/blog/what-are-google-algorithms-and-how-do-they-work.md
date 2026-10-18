@@ -4,6 +4,8 @@ date: 2021-07-12T16:02:39Z
 description: "The algorithms employed by Google to extract material from its search index and give the best possible results for a query are a complicated system. On its search engine results pages, the search…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/algorithm-3859539_1280.jpg"
+categories: ["SEO"]
+tags: ["Google","Google Algorithm","Google Algorithms","Google updates","Panda","Penguin","Rudra Kasturi","search engine optimisation","SEO"]
 ---
 
 The algorithms employed by Google to extract material from its search index and give the best possible results for a query are a complicated system. On its search engine results pages, the search engine employs a combination of algorithms and various ranking variables to provide webpages rated by relevance (SERPs).  

@@ -4,6 +4,8 @@ date: 2024-10-28T12:52:15Z
 description: "A recent SEO poll of major publishers across India reveals a substantial decline in Google Discover traffic following the August 2024 Core Update and subsequent unconfirmed updates. The results show…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/india-pubs-discover-traffic-drop-e1730119480573.jpeg"
+categories: ["SEO"]
+tags: []
 ---
 
 A recent **SEO poll** of major publishers across India reveals a substantial decline in **Google Discover traffic** following the **August 2024 Core Update** and subsequent unconfirmed updates. The results show that publishers have experienced an overall decrease in traffic to key content types, including **web stories** and **news articles**, with no specific content template exempt from this trend.

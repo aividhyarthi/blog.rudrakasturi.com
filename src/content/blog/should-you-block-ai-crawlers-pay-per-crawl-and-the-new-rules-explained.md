@@ -20,6 +20,8 @@ sources:
   - title: "Cloudflare Gives AI Agents Wallets That Pay For What They Access"
     url: "https://www.searchenginejournal.com/cloudflare-gives-ai-agents-wallets-that-pay-for-what-they-access/584959/"
     publisher: "Search Engine Journal"
+categories: ["AI", "Crawling"]
+tags: ["AI Crawlers", "Cloudflare"]
 ---
 
 Many publishers ask the same question: should I let AI bots read my site? Here is the background and the latest news.

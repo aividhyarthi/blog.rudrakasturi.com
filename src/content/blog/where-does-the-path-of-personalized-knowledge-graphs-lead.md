@@ -4,6 +4,8 @@ date: 2021-07-09T06:27:11Z
 description: "Google introduces a new patent application referred to as a personalized entity repository in the form of knowledge graphs to assess the actions and suggestions of the users. This patent application…"
 tag: "Browseable Repository"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/line-graph-28148_1280.png"
+categories: ["Uncategorized"]
+tags: ["Browseable Repository","Google","Google's Patent Application","personalised knowledge graph","Rudra Kasturi","search engine optimisation","SEO"]
 ---
 
 Google introduces a new patent application referred to as a personalized entity repository in the form of knowledge graphs to assess the actions and suggestions of the users. This patent application was published on July 16, 2020 and includes more information base and details than Google's 2006 patent application ‘Browseable Repository.’

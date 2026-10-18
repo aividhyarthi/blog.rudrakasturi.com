@@ -20,6 +20,8 @@ sources:
   - title: "How Do I Know If AI Overviews Are Taking Clicks From My Site And What Can I Do About It?"
     url: "https://www.searchenginejournal.com/how-do-i-know-if-ai-overviews-are-taking-clicks-from-my-site-and-what-can-i-do-about-it-ask-an-seo/583417/"
     publisher: "Search Engine Journal"
+categories: ["AEO", "Google Search"]
+tags: ["AI Overview", "Zero-click"]
 ---
 
 "AI Overviews are killing website traffic" is the most repeated line in SEO. What do the studies actually say? Here is a summary, with each number attached to who measured it.

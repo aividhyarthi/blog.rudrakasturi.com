@@ -4,6 +4,8 @@ date: 2025-07-08T06:28:06Z
 description: "As old vehicles face the axe, Google search data shows Delhi’s deregistered cars are being digitally exported to buyers across India. The law that changed the lane Starting July 1, 2025, the National…"
 tag: "Google Search Trends"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-10.webp"
+categories: ["Industry News","SEO"]
+tags: ["Google Search Trends","Google Trends","Rudra Kasturi"]
 ---
 
 _As old vehicles face the axe, Google search data shows Delhi’s deregistered cars are being digitally exported to buyers across India._

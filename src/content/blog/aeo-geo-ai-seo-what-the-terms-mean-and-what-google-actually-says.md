@@ -20,6 +20,8 @@ sources:
   - title: "Google's Danny Sullivan: SEO for AI is still SEO"
     url: "https://searchengineland.com/google-danny-sullivan-seo-for-ai-is-still-seo-466368"
     publisher: "Search Engine Land"
+categories: ["AEO", "AI"]
+tags: ["AEO", "GEO", "Google"]
 ---
 
 You have probably seen three new terms this year: **AEO**, **GEO** and **AI SEO**. They sound like three new skills. Here is what each one means.

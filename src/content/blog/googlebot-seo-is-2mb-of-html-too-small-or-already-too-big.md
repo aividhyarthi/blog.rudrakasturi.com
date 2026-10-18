@@ -4,6 +4,8 @@ date: 2026-02-13T08:19:56Z
 description: "A Practical SEO Reality Check Image Source: RK AEO Auditing Tool For years, SEOs have argued about Googlebot’s so-called “2MB HTML limit”. Some say: “2MB is nothing. Modern sites are huge.” Others…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/02/create-an-image-for-this-text-is-2mb-of.webp"
+categories: ["SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 ### A Practical SEO Reality Check

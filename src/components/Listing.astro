@@ -17,8 +17,9 @@ interface Props {
   base: string;
   trail?: { name: string; url: string }[]; // breadcrumb steps after "Home"
   totalCount?: number; // number of posts across all pages
+  noindex?: boolean;
 }
-const { title, description, label, heading, lede, posts, current = 1, total = 1, base, trail = [], totalCount = posts.length } = Astro.props as Props;
+const { title, description, label, heading, lede, posts, current = 1, total = 1, base, trail = [], totalCount = posts.length, noindex = false } = Astro.props as Props;
 
 const origin = new URL(Astro.site!).origin;
 const pageUrl = new URL(Astro.url.pathname, origin).href;
@@ -39,7 +40,7 @@ const itemList = {
 };
 ---
 
-<BaseLayout title={title} description={description} pageType="CollectionPage" breadcrumbs={crumbs} jsonld={[itemList]} mainEntityId={`${pageUrl}#itemlist`}>
+<BaseLayout title={title} description={description} noindex={noindex} pageType="CollectionPage" breadcrumbs={crumbs} jsonld={[itemList]} mainEntityId={`${pageUrl}#itemlist`}>
   <div class="wrap layout">
     <div>
       <div class="page-head">

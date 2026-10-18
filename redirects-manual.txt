@@ -1,0 +1,9 @@
+# Old WordPress addresses that no longer have a page of their own. Format: old-path new-path-or-url
+/about-rudra-kasturi/ /about/
+/contact-rudrakasturi/ /contact/
+/front-page/ /
+/appstudiox-services/ https://appstudiox.com/
+/learn-aeo-in-arabic/ /category/aeo/
+/category/aeo-arabic/ /category/aeo/
+/llmx-txt-validator/ /do-you-need-an-llms-txt-file-what-google-has-said/
+/llmx-file-creator/ /do-you-need-an-llms-txt-file-what-google-has-said/

@@ -4,6 +4,8 @@ date: 2025-08-11T02:04:06Z
 description: "A Big Launch That Went Wrong Fast When OpenAI launched GPT-5, it promised smarter reasoning, fewer mistakes, and faster answers. But instead of celebration, it triggered one of the biggest backlashes…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-and-sharp-focused-featured-image-for-a.webp"
+categories: ["AI","GPT","Industry News"]
+tags: ["ai","chatgpt 5","Rudra Kasturi"]
 ---
 
 ## A Big Launch That Went Wrong Fast

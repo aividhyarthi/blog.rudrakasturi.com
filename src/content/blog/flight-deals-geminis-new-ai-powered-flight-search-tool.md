@@ -4,6 +4,8 @@ date: 2025-08-18T02:57:32Z
 description: "Flight Deals is Google’s AI-powered tool within Google Flights that enables travelers to search using natural language, simplifying the travel planning process. Launched in beta on August 14, 2025…"
 tag: "AI Flight Deals"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-77.webp"
+categories: ["AI","AI Travel","Google AI"]
+tags: ["AI Flight Deals","AI Flight Price","Rudra Kasturi","Search Flights"]
 ---
 
 ### What is Flight Deals?

@@ -20,6 +20,8 @@ sources:
   - title: "Generative engine optimization (GEO): How to win AI mentions"
     url: "https://searchengineland.com/what-is-generative-engine-optimization-geo-444418"
     publisher: "Search Engine Land"
+categories: ["AEO", "AI", "GPT"]
+tags: ["ChatGPT", "Perplexity"]
 ---
 
 A common question from marketers: "How do I rank in ChatGPT?" In practice, there is no single ranking. Here is why.

@@ -4,6 +4,8 @@ date: 2025-06-19T09:15:56Z
 description: "You know what changed India forever? Not a budget speech. Not a startup unicorn. Not a TED Talk. It was that 399-rupee Jio SIM card . Suddenly, from Churu to Chikmagalur, people were watching…"
 tag: "Access"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/this-isnt-silicon-valley-this-is-satara-or-salem-or-sikar-and.webp"
+categories: ["AI","Industry News","Startups"]
+tags: ["Access","AI Vidhyarthi","Jio","Rudra Kasturi"]
 ---
 
 You know what changed India forever?  

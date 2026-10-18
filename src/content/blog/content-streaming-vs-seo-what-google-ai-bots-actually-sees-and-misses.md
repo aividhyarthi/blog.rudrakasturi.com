@@ -4,6 +4,8 @@ date: 2025-07-12T03:23:44Z
 description: "Content streaming is changing how we build modern websites. But here’s the catch: what’s great for user experience might be terrible for search visibility. Let’s break down what content streaming is…"
 tag: "AI SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-featured-image-for-a-blog-post-about-content.webp"
+categories: ["AI","SEO"]
+tags: ["AI SEO","Content Streaming","Google","Googlebot","Rudra Kasturi","SEO","Tech SEO"]
 ---
 
 Content streaming is changing how we build modern websites. But here’s the catch: what’s great for user experience might be terrible for search visibility.

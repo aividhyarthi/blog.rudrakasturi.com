@@ -17,6 +17,8 @@ sources:
   - title: "Google Search Console AI Reports Rolled Out Worldwide"
     url: "https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836/"
     publisher: "Search Engine Journal"
+categories: ["AEO", "SEO"]
+tags: ["AEO", "Checklist"]
 ---
 
 Work through this checklist over the next week. Each item links to the article that explains the reasoning.

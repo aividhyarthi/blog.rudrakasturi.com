@@ -4,6 +4,8 @@ date: 2025-08-18T03:21:50Z
 description: "Google's Gemini introduces memory features for personalized assistance, recalling past conversations and preferences, enhancing user interactions. Temporary Chats offer an incognito mode for privacy…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-82.webp"
+categories: ["AI","Google AI","Industry News"]
+tags: ["ai","gemini","Memory Chat","Personal Context","Personalisation Features","Rudra Kasturi","Temporary Chats"]
 ---
 
 AI assistants are getting smarter, but also a little nosier. Google’s Gemini is now rolling out **memory features** that make it feel like a real personal assistant remembering what you’ve said before, your preferences, and even your habits. Alongside this, Google has introduced **Temporary Chats**, an “incognito mode” for those moments when you don’t want Gemini to remember anything at all.

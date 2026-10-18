@@ -4,6 +4,8 @@ date: 2025-06-10T02:45:30Z
 description: "Over the past year, I’ve noticed more and more businesses — big and small — starting to block AI crawlers from accessing their websites. The thinking goes: “If we stop these bots from scraping our…"
 tag: "AI Crawling"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-21.webp"
+categories: ["AI","Crawling","SEO"]
+tags: ["AI Crawling","Bot Crawling","Google","Rudra Kasturi","SEO"]
 ---
 
 Over the past year, I’ve noticed more and more businesses — big and small — starting to block AI crawlers from accessing their websites. The thinking goes: “If we stop these bots from scraping our content, we can protect it from being used without permission.”

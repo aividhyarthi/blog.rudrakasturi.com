@@ -4,6 +4,8 @@ date: 2021-07-07T20:13:12Z
 description: "Are you prepared for Google's Page Experience Update? Google Page Experience algorithm, unlike others, is a very crucial update for the future of site’s performance. The Google’s Page Experience…"
 tag: "Google Algorithm"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/wavy_bus-02_single-12.jpg"
+categories: ["SEO"]
+tags: ["Google Algorithm","google page experience","google page experience update","Google ranking","page experience google","page experience update","Page Experience Update 2021","Rudra Kasturi"]
 ---
 
 **Are you prepared for Google's Page Experience Update?** 

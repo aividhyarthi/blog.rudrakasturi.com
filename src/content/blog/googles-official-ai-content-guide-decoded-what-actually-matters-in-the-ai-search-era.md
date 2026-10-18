@@ -4,6 +4,8 @@ date: 2026-05-18T06:14:21Z
 description: "Based on Google’s official AI Optimization Guide for Search The SEO industry has a strange habit. Google says one thing. The industry hears something else. Then LinkedIn experts appear with fancy…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/05/rudra-kasturi-6a0aa72865225.webp"
+categories: ["AEO","AI","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 _Based on Google’s official AI Optimization Guide for Search_

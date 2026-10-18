@@ -4,6 +4,8 @@ date: 2024-12-09T11:39:41Z
 description: "Google has recently updated its documentation to explain how its crawlers deal with cache control headers. This information was previously shared in a blog post, but now it's officially part of…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-22.png"
+categories: ["Crawling","Google Search","Google Updates","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 Google has recently updated its documentation to explain how its crawlers deal with **cache control headers.** This information was previously shared in a blog post, but now it's officially part of [Google’s documentation.](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)

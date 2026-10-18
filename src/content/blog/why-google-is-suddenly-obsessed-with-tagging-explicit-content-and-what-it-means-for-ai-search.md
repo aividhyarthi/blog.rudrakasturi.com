@@ -4,6 +4,8 @@ date: 2025-06-07T06:39:55Z
 description: "Let’s be honest - when Google suddenly drops detailed guidelines on how to tag explicit content, it’s not just being a morality cop. There’s something much bigger happening under the hood. And yes, I…"
 tag: "AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-featured-image-that-visually-represents-the-concept-of-1.webp"
+categories: ["AI","Google Search","SEO"]
+tags: []
 ---
 
 Let’s be honest - when Google suddenly drops detailed guidelines on how to tag explicit content, it’s not just being a morality cop.

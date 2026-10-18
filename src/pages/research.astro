@@ -6,6 +6,7 @@ const posts = (await getAllPosts()).filter((p) => p.data.type !== 'article');
 ---
 
 <Listing
+  noindex={posts.length === 0}
   title="Research & Case Studies | Rudra Kasturi"
   description="Original research and case studies on search, AI and growth."
   label="Research"

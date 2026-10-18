@@ -4,6 +4,8 @@ date: 2025-01-09T04:47:22Z
 description: "A New Era of Cross-Border Investments In a rapidly evolving global startup ecosystem, Indian venture capitalists (VCs) are increasingly setting their sights on European tech startups . With Europe…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/generate-an-image-showcasing-a-vibrant-interconnected-scene-of-indian.png"
+categories: ["Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 #### **A New Era of Cross-Border Investments**

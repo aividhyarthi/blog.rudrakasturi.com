@@ -4,6 +4,8 @@ date: 2025-09-23T03:32:36Z
 description: "The Big Picture Google’s latest move in e-commerce isn’t about ads or ranking tweaks - it’s about trust . The new Store Widget , already showing up for eligible merchants, has delivered up to 8% more…"
 tag: "Google Merchant Centre"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-73.webp"
+categories: ["Industry News","Merchant Centre"]
+tags: ["Google Merchant Centre","Google Reviews","Google Shopping Reviews","Google Store Widget","Rudra Kasturi"]
 ---
 
 ## The Big Picture

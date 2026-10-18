@@ -4,6 +4,8 @@ date: 2025-09-18T02:28:37Z
 description: "Google is changing how Discover works. Starting September 2025, you will see follow buttons, social media posts, and dedicated spaces for creators and publishers right inside Discover. What’s New in…"
 tag: "Discover"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-49.webp"
+categories: ["Google Discover","Google Search","SEO"]
+tags: ["Discover","Google","Rudra Kasturi","Search","SEO"]
 ---
 
 Google is changing how Discover works. Starting September 2025, you will see **follow buttons, social media posts, and dedicated spaces for creators and publishers** right inside Discover.

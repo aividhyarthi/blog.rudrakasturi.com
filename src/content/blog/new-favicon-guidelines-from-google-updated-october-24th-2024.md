@@ -4,6 +4,8 @@ date: 2024-10-25T02:52:02Z
 description: "On October 24th, 2024 , Google released updated guidelines for favicons in Google Search results. Favicons play an essential role in how users recognize and interact with websites in search results…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-51.png"
+categories: ["Google Search","Google Updates","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 On **October 24th, 2024**, Google released updated guidelines for favicons in Google Search results. Favicons play an essential role in how users recognize and interact with websites in search results. Google’s new guidelines help ensure that favicons meet certain standards and are eligible to appear next to your site’s title in search results. However, even with all the guidelines met, it’s important to note that the display of favicons is **not guaranteed**.

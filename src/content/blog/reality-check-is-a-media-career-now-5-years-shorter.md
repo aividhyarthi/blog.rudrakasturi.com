@@ -4,6 +4,8 @@ date: 2025-07-12T02:50:36Z
 description: "Ten years ago, building a career in journalism or content was a long-term plan. Today, that timeline has collapsed. Whether you’re a reporter, YouTuber, or digital editor, the same question is…"
 tag: "Opinion"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-featured-image-that-visually-represents-the-rapidly-changing.webp"
+categories: ["Opinion"]
+tags: []
 ---
 
 Ten years ago, building a career in journalism or content was a long-term plan. Today, that timeline has collapsed.

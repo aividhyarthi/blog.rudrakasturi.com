@@ -4,6 +4,8 @@ date: 2025-07-24T05:53:39Z
 description: "In 2025, most websites are chasing quantity. The logic is simple: “If it’s indexed, it’ll rank.” But here’s what Google actually said at Search Central APAC 2025: AI-generated content is part of the…"
 tag: "AI Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-71.webp"
+categories: ["Crawling","Google Search","SEO"]
+tags: ["AI Content","AI Indexing","AI Search","Google","Google Index","Rudra Kasturi","SEO"]
 ---
 
 In 2025, most websites are chasing quantity. The logic is simple: _“If it’s indexed, it’ll rank.”_

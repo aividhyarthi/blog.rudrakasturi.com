@@ -4,6 +4,8 @@ date: 2021-07-07T19:13:47Z
 description: "In order for your content to to be visible or to rank on Google, search engines run through your content to rank it. When your articles and pages are linked to from elsewhere on the internet, Google…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/warnschild-3927440_1280.jpg"
+categories: ["SEO"]
+tags: ["Google","Google ranking","inter-linking","overuse of internal links","Rudra Kasturi","SEO","Serach Engine Optimisation","web pages"]
 ---
 
 In order for your content to to be visible or to rank on Google, search engines run through your content to rank it. When your articles and pages are linked to from elsewhere on the internet, Google discovers them easier. Internal links connect your content and offer an insight to Google on your website's structure. The process of interlinking can help you create a hierarchy as a handout of the most important pages and articles with greater link value than less important ones. But, using too many internal links on the same page, according to Google, might dilute their value.

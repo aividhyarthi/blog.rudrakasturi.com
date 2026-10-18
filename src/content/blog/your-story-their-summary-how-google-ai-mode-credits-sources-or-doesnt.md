@@ -4,6 +4,8 @@ date: 2025-06-26T06:41:40Z
 description: "If you're a news publisher, blogger, or someone running a content site in India, here's something you need to know about Google's new AI Mode. It doesn't just show links anymore. It now summarises…"
 tag: "AI Mode"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/Screenshot-2025-06-26-at-11.13.08 AM.webp"
+categories: ["AI","AI Mode","SEO"]
+tags: ["AI Mode","AI Summaries","Google","Rankings","Rudra Kasturi","SEO","Summaries"]
 ---
 
 If you're a news publisher, blogger, or someone running a content site in India, here's something you need to know about Google's new AI Mode.

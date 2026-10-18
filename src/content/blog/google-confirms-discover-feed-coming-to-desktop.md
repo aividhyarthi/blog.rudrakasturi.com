@@ -4,6 +4,8 @@ date: 2025-04-11T04:48:28Z
 description: "In a move that’s caught the attention of many users, Google has confirmed it is bringing its Discover feed to desktop search. The news came straight from the source. A post by Google Search Liaison…"
 tag: "Google Desktop Discover"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-22.png"
+categories: ["Google Search","Industry News","SEO"]
+tags: ["Google Desktop Discover","google discover","Rudra Kasturi"]
 ---
 
 In a move that’s caught the attention of many users, Google has confirmed it is bringing its Discover feed to desktop search.

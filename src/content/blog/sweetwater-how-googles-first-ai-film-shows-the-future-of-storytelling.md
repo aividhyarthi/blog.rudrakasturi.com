@@ -4,6 +4,8 @@ date: 2025-09-18T02:51:35Z
 description: "Google has premiered Sweetwater , the first short film from its new AI on Screen initiative. On the surface, it’s just a 7-minute story about a family surviving on the edge of a drying river. But in…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-52.webp"
+categories: ["AI","AI in Movies"]
+tags: ["ai","Ai in Filmmaking","AI in movies","AI MOvie","Google First AI Movie","Rudra Kasturi","Sweetwater"]
 ---
 
 Google has premiered _Sweetwater_, the first short film from its new **AI on Screen** initiative. On the surface, it’s just a 7-minute story about a family surviving on the edge of a drying river. But in reality, it’s a signal of how AI is about to reshape cinema, content production, and even storytelling economies in India and around the world.

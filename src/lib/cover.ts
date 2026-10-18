@@ -108,16 +108,17 @@ const MOTIFS: Record<string, (p: P, r: () => number) => string> = {
 function motifFor(post: Post, rand: () => number, forced?: string): string {
   if (forced) return forced;
   const topic = topicOf(post).name;
-  const hay = `${post.data.title} ${post.data.tag ?? ''}`.toLowerCase();
+  const hay = `${post.data.title} ${post.data.tags.join(' ')}`.toLowerCase();
+  if (/instagram|tiktok|facebook|linkedin|social media/.test(hay)) return 'social';
+  if (/google ads|adwords|\bppc\b|smart bidding|\bads\b/.test(hay)) return 'target';
   if (/reddit|forum|community|comment|thread|conversation/.test(hay)) return 'bubbles';
   if (/click|traffic|\bctr\b|study|drop|decline|statistic/.test(hay)) return 'chart';
   if (topic === 'YouTube') return 'youtube';
-  if (topic === 'Instagram & Social') return 'social';
-  if (topic === 'Google Ads') return 'target';
-  if (topic === 'AEO & GEO') return rand() > 0.5 ? 'answer' : 'search';
-  if (topic === 'LLMs & AI') return rand() > 0.35 ? 'llm' : 'answer';
+  if (topic === 'Forums') return 'bubbles';
+  if (topic === 'AEO') return rand() > 0.5 ? 'answer' : 'search';
+  if (topic === 'LLMs') return rand() > 0.35 ? 'llm' : 'answer';
   if (topic === 'SEO') return rand() > 0.4 ? 'search' : 'chart';
-  if (topic === 'Google Updates') return rand() > 0.5 ? 'chart' : 'search';
+  if (topic === 'Google') return rand() > 0.5 ? 'chart' : 'search';
   return rand() > 0.5 ? 'blocks' : 'bubbles';
 }
 

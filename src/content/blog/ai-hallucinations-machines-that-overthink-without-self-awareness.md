@@ -4,6 +4,8 @@ date: 2025-09-11T03:51:27Z
 description: "One evening, two U.S. lawyers walked into court armed with a neat stack of case citations. Their research, prepared by ChatGPT, was polished and convincing. The problem? None of those cases existed…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/ai-hallucinations-and-the-parallels-with-human-overthinking-2.webp"
+categories: ["AI"]
+tags: ["ai","Hallucinations","Rudra Kasturi"]
 ---
 
 One evening, two U.S. lawyers walked into court armed with a neat stack of case citations. Their research, prepared by ChatGPT, was polished and convincing. The problem? None of those cases existed. The AI had invented them confident, detailed, and wrong.

@@ -4,6 +4,8 @@ date: 2024-10-12T03:36:34Z
 description: "As digital landscapes evolve, so do the behaviors and habits of news consumers. The next generation of news audiences is distinct in how they navigate and interact with information. Recent research…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-31.png"
+categories: ["GenZ","Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 As digital landscapes evolve, so do the behaviors and habits of news consumers. The next generation of news audiences is distinct in how they navigate and interact with information. Recent research reveals a set of emerging behaviors that are reshaping how news is consumed. Let’s break down these key trends and explore how young consumers are engaging with news in today’s digital world.

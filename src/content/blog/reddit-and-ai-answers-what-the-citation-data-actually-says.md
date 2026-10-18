@@ -17,6 +17,8 @@ sources:
   - title: "Wikipedia, Podcasts & Reddit Now Drive AI Citations, Ask Your PR Team How They Did It"
     url: "https://www.searchenginejournal.com/wikipedia-podcasts-reddit-now-drive-ai-citations-ask-your-pr-team-how-they-did-it/590994/"
     publisher: "Search Engine Journal"
+categories: ["Reddit", "AEO", "AI"]
+tags: ["Reddit", "AI Citations"]
 ---
 
 Last year the advice was "get on Reddit, AI loves it." This year the data is messier. Here is what the studies reported, and why they do not agree.

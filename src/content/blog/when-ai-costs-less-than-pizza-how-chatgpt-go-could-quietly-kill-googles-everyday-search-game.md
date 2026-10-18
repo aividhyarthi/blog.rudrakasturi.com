@@ -4,6 +4,8 @@ date: 2025-08-19T06:56:44Z
 description: "Rs. 399. That’s it. That’s the price point where India’s AI revolution just became very real . OpenAI didn’t throw a party. No glitzy influencer collabs. Just a quiet rollout of ChatGPT Go a ₹399…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-high-resolution-highly-detailed-image-featuring-a-diverse-group-1.webp"
+categories: ["AI","GPT","Industry News"]
+tags: ["ai","ChatGPT","Google","GPT","GPT Price in India","Rudra Kasturi"]
 ---
 
 **Rs. 399.**  

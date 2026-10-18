@@ -4,6 +4,8 @@ date: 2025-07-08T17:31:06Z
 description: "AI offered probabilities. She gave prophecy. And the world searched her name when the tremors began. Even in 2025, when AI books your doctor, replies to your boss, and tells you what to eat, people…"
 tag: "Astrolger"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-8-2025-10_47_26-PM.webp"
+categories: ["AI","Industry News"]
+tags: ["Astrolger","baba vanga","Japan Earth quake","Japan Tusmani","Rudra Kasturi","SEO"]
 ---
 
 _AI offered probabilities. She gave prophecy. And the world searched her name when the tremors began._

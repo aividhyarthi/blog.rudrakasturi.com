@@ -4,6 +4,8 @@ date: 2025-07-21T04:29:24Z
 description: "India’s courts are slow. As of July 2025, over 5 crore cases are pending across the judiciary. Of those, nearly 40 lakh are in the High Courts alone. Enter AI. But not the way Silicon Valley sells it…"
 tag: "AI in Highcourt"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-compelling-featured-image-for-a-blog-post-titled.webp"
+categories: ["AI","Industry News"]
+tags: ["AI in Highcourt","AI in Legal","Kerala News","Rudra Kasturi"]
 ---
 
 India’s courts are slow.  

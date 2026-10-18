@@ -4,6 +4,8 @@ date: 2025-04-16T04:37:24Z
 description: "Source: Search Engine Land Data from: SEMRush Sensor What’s Happening? Google has started showing fewer top 10 search results in its AI-generated summaries, also known as AI Overviews (formerly known…"
 tag: "google ai overview"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/create-a-highly-detailed-and-sharp-focus-image-that-encapsulates-1.webp"
+categories: ["Google AI","Google Search","SEO"]
+tags: ["google ai overview","Google Search","Rudra Kasturi","SEO"]
 ---
 
 **Source:** [Search Engine Land](https://searchengineland.com/google-ai-overview-organic-ranking-overlap-drop-core-update-454264)  

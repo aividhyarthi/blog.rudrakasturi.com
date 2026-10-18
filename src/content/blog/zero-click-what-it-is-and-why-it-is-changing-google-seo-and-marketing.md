@@ -4,6 +4,8 @@ date: 2025-11-25T08:12:22Z
 description: "For many years, digital marketing was built on one simple belief: if you could get someone to click your link on Google, you could win their attention, their trust, and possibly their business. But…"
 tag: "ai overviews google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/high-end-company-office-with-computer-showing-detailed-data-insights-executive-business-meetings.webp"
+categories: ["SEO"]
+tags: ["ai overviews google","google serp changes","google zero click","organic traffic decline","seo trends 2025","serp features","topical authority","zero click impact on seo","zero click searches","zero click seo"]
 ---
 
 For many years, digital marketing was built on one simple belief: if you could get someone to click your link on Google, you could win their attention, their trust, and possibly their business. But the search landscape is shifting fast. The rise of Zero Click searches is changing the way Google works, the way users behave, and the way marketers must think about visibility and traffic.

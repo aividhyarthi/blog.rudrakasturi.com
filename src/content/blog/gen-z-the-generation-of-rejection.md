@@ -4,6 +4,8 @@ date: 2025-03-17T05:57:13Z
 description: "As we step into 2025, Generation Z is making its mark on the world. With over 2.4 billion individuals globally, Gen Z makes up about 30% of the global population and is projected to contribute…"
 tag: "GenZ"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/03/image-1.png"
+categories: ["GenZ"]
+tags: ["GenZ","Rudra Kasturi"]
 ---
 
 As we step into 2025, Generation Z is making its mark on the world. With over 2.4 billion individuals globally, Gen Z makes up about 30% of the global population and is projected to contribute significantly to the workforce, with 27% of the total workforce by 2025. In the United States alone, there are over 68.6 million Gen Zers, and around 57% of them are enrolled in college, making them one of the most educated generations yet.

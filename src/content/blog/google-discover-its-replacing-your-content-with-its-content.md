@@ -4,6 +4,8 @@ date: 2025-08-01T04:40:46Z
 description: "Google Discover was never a reliable source. It was a bonus traffic pipe - erratic, unexplained, and dependent on what Google felt like showing users. But now, the bonus is ending. What’s Changing in…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image.webp"
+categories: ["Google Search","SEO"]
+tags: ["Google","google ai","google ai overview","Instagram","Reddit","Rudra Kasturi","YouTube"]
 ---
 
 Google Discover was never a reliable source. It was a bonus traffic pipe - erratic, unexplained, and dependent on what Google _felt_ like showing users.

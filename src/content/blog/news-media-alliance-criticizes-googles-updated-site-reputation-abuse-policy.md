@@ -4,6 +4,8 @@ date: 2024-12-08T14:04:37Z
 description: "The News/Media Alliance (NMA) has expressed strong opposition to Google’s recent changes to its site reputation abuse policy, urging federal agencies to intervene. In a letter addressed to the…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-16.png"
+categories: ["Google Search","Industry News","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 The News/Media Alliance (NMA) has expressed strong opposition to Google’s recent changes to its site reputation abuse policy, urging federal agencies to intervene. In a letter addressed to the Department of Justice and the Federal Trade Commission, the NMA criticized the policy changes, stating they jeopardize the visibility and viability of legitimate news outlets that rely on affiliate links and partner content for revenue and traffic.

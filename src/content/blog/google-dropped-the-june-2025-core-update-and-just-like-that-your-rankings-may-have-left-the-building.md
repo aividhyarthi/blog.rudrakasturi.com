@@ -4,6 +4,8 @@ date: 2025-06-30T17:35:02Z
 description: "Google Spoke One Line. The Internet Shivered \"Today we released the June 2025 core update\" That’s it. No drama. No explanation. Just a link to the ranking update page that will eventually be updated…"
 tag: "Algo Updates"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-85.webp"
+categories: ["Google Updates","SEO"]
+tags: ["Algo Updates","Google","Ranking","Rudra Kasturi","SEO"]
 ---
 
 ## Google Spoke One Line. The Internet Shivered

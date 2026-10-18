@@ -4,6 +4,8 @@ date: 2025-10-27T03:26:55Z
 description: "The Big Picture In October 2025, Google quietly dropped one of its most significant research papers in years - something that could eventually redefine how we simulate life, nature, and intelligence…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/10/image-10.webp"
+categories: ["AI","Industry News"]
+tags: ["Google","Quantum Computing","Rudra Kasturi"]
 ---
 
 ## The Big Picture

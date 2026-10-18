@@ -4,6 +4,8 @@ date: 2025-08-06T04:37:08Z
 description: "Recently, Cloudflare a global leader in web security and performance blocked the AI company Perplexity from accessing websites across its network. The reason? Cloudflare accused Perplexity of…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-37.webp"
+categories: ["AI","Crawling","Explainers"]
+tags: ["ai","Crawlig","Crawling","Google","Google Search","Indexing","Rudra Kasturi"]
 ---
 
 Recently, **Cloudflare** a global leader in web security and performance blocked the AI company **Perplexity** from accessing websites across its network. The reason? Cloudflare accused Perplexity of “stealth crawling” a technical term for accessing and collecting content from websites while deliberately **evading the rules** set by site owners.

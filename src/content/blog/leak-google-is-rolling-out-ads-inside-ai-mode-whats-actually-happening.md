@@ -4,6 +4,8 @@ date: 2025-08-05T04:29:56Z
 description: "What’s New? Google is preparing to show ads directly inside its AI-powered search results, branded as “AI Mode.” This is a fundamental shift. Ads will not just show up for keyword searches but will…"
 tag: "ai ads"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-featured-image-that-visually-represents-googles-new-advertising.webp"
+categories: ["AI","AI Ads","Industry News","SEO"]
+tags: ["ai ads","AI Overviews","Rudra Kasturi","SEO in Ads"]
 ---
 
 ![](https://rudrakasturi.wpcomstaging.com/wp-content/uploads/2025/08/image-25.webp)

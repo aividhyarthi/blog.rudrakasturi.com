@@ -20,6 +20,8 @@ sources:
   - title: "YouTube is no longer optional for SEO in the age of AI Overviews"
     url: "https://searchengineland.com/youtube-seo-ai-overviews-467253"
     publisher: "Search Engine Land"
+categories: ["YouTube", "Videos"]
+tags: ["YouTube", "Shorts"]
 ---
 
 If you publish on YouTube, two October announcements matter. Here is what changed.

@@ -4,6 +4,8 @@ date: 2025-06-09T11:29:24Z
 description: "Mentorship has long been considered a pillar of professional growth. From apprenticeship models to corporate mentoring programs, the idea that a more experienced individual can guide a less…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-featured-image-for-a-blog-post-titled-do-3.webp"
+categories: ["AI","GenZ","GPT"]
+tags: ["ai","GenZ","Google","Rudra Kasturi","SEO"]
 ---
 
 Mentorship has long been considered a pillar of professional growth. From apprenticeship models to corporate mentoring programs, the idea that a more experienced individual can guide a less experienced one through challenges, decisions, and uncertainties has stood the test of time.

@@ -4,6 +4,8 @@ date: 2025-08-12T17:41:10Z
 description: "Date: August 12, 2025 Google has launched its Preferred Sources feature for all users in the United States and India, expanding beyond its initial testing in Search Labs. The feature is currently…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-67.webp"
+categories: ["Google Search","Google Updates","Industry News","SEO"]
+tags: ["Google","Google news","Google Top Stories","Rudra Kasturi"]
 ---
 
 **Date:** August 12, 2025

@@ -4,6 +4,8 @@ date: 2024-12-22T05:24:09Z
 description: "On this day, we celebrate the birth anniversary of Srinivasa Ramanujan, a mathematical genius whose work continues to shape not just mathematics but also modern technology, including artificial…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-69.png"
+categories: ["Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 On this day, we celebrate the birth anniversary of Srinivasa Ramanujan, a mathematical genius whose work continues to shape not just mathematics but also modern technology, including artificial intelligence (AI). Born in 1887 in Erode, India, Ramanujan's story is one of brilliance, perseverance, and timeless impact. His contributions to mathematics have influenced fields ranging from physics to cryptography, and today, they even echo in AI—a field that thrives on patterns and logic, much like his groundbreaking discoveries.

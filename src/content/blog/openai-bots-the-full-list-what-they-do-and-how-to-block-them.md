@@ -4,6 +4,8 @@ date: 2025-12-10T04:51:29Z
 description: "OpenAI has introduced a clearer system for identifying and controlling the bots that access websites. These bots appear in server logs the same way Googlebot, Bingbot, or Pinterestbot do. The…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/12/openai-bots-the-full-list-what-they-do-and-how.webp"
+categories: ["AI","AI Mode","SEO"]
+tags: ["ai","Google","Google ranking","Google Search","Rudra Kasturi","search engine optimisation","SEO"]
 ---
 
 OpenAI has introduced a clearer system for identifying and controlling the bots that access websites. These bots appear in server logs the same way Googlebot, Bingbot, or Pinterestbot do. The difference now is simple transparency. You see the name. You know its purpose. You decide whether to allow it or block it.

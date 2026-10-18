@@ -4,6 +4,8 @@ date: 2025-04-03T06:29:09Z
 description: "Credit to Jeffry for spotting this shift Something big just happened. For the first time ever, AI apps aren’t just making waves—they’re taking over. In April, ChatGPT officially became the #1 most…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/create-a-highly-detailed-and-sharp-focused-featured-image-that-represents-1.png"
+categories: ["AI","Industry News"]
+tags: ["Google","Playstore"]
 ---
 
 Credit to [Jeffry](https://www.linkedin.com/posts/mrjefferson_ai-productmanagement-appstore-activity-7313107522553327617-5bCy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAFKi4sBkEh_ZEA4-5IZcEpm8cHTqDvBiEY) for spotting this shift

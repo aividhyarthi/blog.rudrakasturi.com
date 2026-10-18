@@ -4,6 +4,8 @@ date: 2025-06-06T07:54:54Z
 description: "Let’s talk about something that’s quietly shaking up the entire web. Last week, Google CEO Sundar Pichai sat down with Bloomberg at their Tech Summit and gave one of his clearest takes yet on where…"
 tag: "Content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/googel-about-ai-search-and-hiring-firing-1.webp"
+categories: ["AI","Content","Google AI","Google Search","SEO"]
+tags: ["Content","Google","Rudra Kasturi","Search","SEO"]
 ---
 
 Let’s talk about something that’s quietly shaking up the entire web. Last week, Google CEO **Sundar Pichai** sat down with Bloomberg at their Tech Summit and gave one of his clearest takes yet on where Google is headed—with **AI**, **Search**, and how the web will look in the next few years.

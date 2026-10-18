@@ -4,6 +4,8 @@ date: 2025-07-28T04:15:45Z
 description: "Last week, Sam Altman gave a warning. Not a product launch. Not a billion-dollar announcement. A legal disclaimer disguised as a heads-up : “There’s no confidentiality when using ChatGPT as a…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-76.webp"
+categories: ["AI"]
+tags: ["ai","AI Mental health","AI Therapist","Google","Rudra Kasturi","SEO"]
 ---
 
 Last week, Sam Altman gave a warning. Not a product launch. Not a billion-dollar announcement. A **legal disclaimer disguised as a heads-up**:

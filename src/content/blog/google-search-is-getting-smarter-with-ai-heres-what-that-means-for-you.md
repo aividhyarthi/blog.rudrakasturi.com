@@ -4,6 +4,8 @@ date: 2024-10-05T03:40:28Z
 description: "Have you ever searched for something like “vegetarian appetizer ideas” and ended up with a confusing list of links, not sure which one to click on? Google’s new AI-powered search feature is here to…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/AI-Recipes-Organised.webp"
+categories: ["Google AI","Google Search","Google Updates","SEO"]
+tags: ["ai","google ai overview","Google Search"]
 ---
 
 Have you ever searched for something like “vegetarian appetizer ideas” and ended up with a confusing list of links, not sure which one to click on? Google’s new AI-powered search feature is here to help make that easier. It’s like having a friend who helps you find exactly what you’re looking for, organized in a way that makes sense.

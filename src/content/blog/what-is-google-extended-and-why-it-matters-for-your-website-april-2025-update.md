@@ -4,6 +4,8 @@ date: 2025-04-26T03:45:30Z
 description: "If you manage a website, work in SEO, or are a developer dealing with content, you may have seen something called Google-Extended in recent updates from Google. In April 2025, Google made some…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/google-crawler.webp"
+categories: ["Crawling","Google Search","SEO"]
+tags: ["Google","Google Extended","Robots","Rudra Kasturi","SEO"]
 ---
 
 If you manage a website, work in SEO, or are a developer dealing with content, you may have seen something called **Google-Extended** in recent updates from Google.

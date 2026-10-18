@@ -4,6 +4,8 @@ date: 2024-12-22T04:06:29Z
 description: "When Google crawls a website, the robots.txt file serves as a roadmap, defining what content search engines can or cannot access. But what happens when Google encounters 3xx (Redirection) or 4xx…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/robots-file-3xx-and-4xx-error-code.png"
+categories: ["Crawling","Explainers","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 When Google crawls a website, the **robots.txt** file serves as a roadmap, defining what content search engines can or cannot access. But what happens when Google encounters **3xx (Redirection)** or **4xx (Client Errors)** while fetching this critical file? Let’s explore Google’s crawling behavior, its interpretation of these errors, and best practices for managing them.

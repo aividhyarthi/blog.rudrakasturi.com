@@ -4,6 +4,8 @@ date: 2025-11-19T04:27:55Z
 description: "Google has announced another structured data clean up. This time it affects three areas that many websites still use without understanding their actual purpose: Practice Problem markup, Dataset…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/image-3.webp"
+categories: ["Google Search","Structure Data"]
+tags: ["Google","Google Reviews","Reviews","Rudra Kasturi","SEO","Structured Markup"]
 ---
 
 Google has announced another structured data clean up. This time it affects three areas that many websites still use without understanding their actual purpose: Practice Problem markup, Dataset markup, and Book actions. The update looks small on the surface, but it sends a bigger message. Google is simplifying what appears in search and is pruning features that do not drive consistent user value.

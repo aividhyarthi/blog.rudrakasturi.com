@@ -4,6 +4,8 @@ date: 2025-08-01T07:57:58Z
 description: "I remember the first time I realized Google was showing me a Reddit thread as the top result instead of some glossy publisher or corporate blog. There it was: a wall of raw, messy, honest human…"
 tag: "AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-2.webp"
+categories: ["AI","Community","Google Search","SEO"]
+tags: []
 ---
 
 ![](https://rudrakasturi.wpcomstaging.com/wp-content/uploads/2025/08/Screenshot-2025-08-01-at-1.23.39-PM-476x1024.webp)

@@ -4,6 +4,8 @@ date: 2026-06-26T03:47:07Z
 description: "I Spent 20 Minutes Explaining a Form. Then ChatGPT Built the Feature. | Rudra Kasturi rudrakasturi.com ← All posts AI in everyday life I Spent 20 Minutes Explaining a Form. Then ChatGPT Built the…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/06/Screenshot-2026-06-26-at-7.04.15-AM.webp"
+categories: ["AI","SEO"]
+tags: ["ai","ChatGPT","Rudra Kasturi"]
 ---
 
   I Spent 20 Minutes Explaining a Form. Then ChatGPT Built the Feature. | Rudra Kasturi       

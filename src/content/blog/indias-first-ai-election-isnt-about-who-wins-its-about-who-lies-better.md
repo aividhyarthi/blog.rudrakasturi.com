@@ -4,6 +4,8 @@ date: 2025-07-14T03:55:10Z
 description: "In Bihar 2025, Deepfakes Vote First. You Vote Later. In the old days, politicians lied on stage. In 2025, they lie in your feed through AI-generated speeches, fake endorsements, and deepfake rants…"
 tag: "AI in Bihar Elections"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-highly-detailed-and-sharp-focused-image-depicting-a-modern.webp"
+categories: ["AI","Industry News"]
+tags: ["AI in Bihar Elections","Bihar Elections","Indian Elections","Rudra Kasturi"]
 ---
 
 **In Bihar 2025, Deepfakes Vote First. You Vote Later.**

@@ -4,6 +4,8 @@ date: 2025-09-16T02:34:15Z
 description: "When ChatGPT launched in late 2022, most people saw it as a quirky Q&A bot. Fast forward to mid-2025, and it has become a global phenomenon with over 700 million weekly users and 2.6 billion daily…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-31.webp"
+categories: ["AI","GPT","Industry News"]
+tags: ["ai","Google","Rudra Kasturi","Search"]
 ---
 
 When ChatGPT launched in late 2022, most people saw it as a quirky Q&A bot. Fast forward to mid-2025, and it has become a global phenomenon with **over 700 million weekly users** and **2.6 billion daily messages**.

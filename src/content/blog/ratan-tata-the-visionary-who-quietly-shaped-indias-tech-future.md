@@ -4,6 +4,8 @@ date: 2024-10-11T04:09:32Z
 description: "In an era when the world was chasing after grandiose visions, Ratan Tata quietly set in motion a series of innovations that would come to define India’s tech landscape. His leadership, though marked…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/ratan-tata.webp"
+categories: ["Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 In an era when the world was chasing after grandiose visions, Ratan Tata quietly set in motion a series of innovations that would come to define India’s tech landscape. His leadership, though marked by humility, was underpinned by an extraordinary ability to see the big picture while nurturing the smallest ideas. Through his efforts, what may have seemed like small steps at the time have now left an indelible mark on the global technology sector. Ratan Tata’s true genius lay not just in creating wealth or leading businesses, but in fostering a culture of innovation that would shape the future of generations to come.

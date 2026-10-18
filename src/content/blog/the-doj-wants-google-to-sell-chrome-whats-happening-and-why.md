@@ -4,6 +4,8 @@ date: 2024-11-22T02:47:58Z
 description: "In a big move against tech giant Google, the U.S. Department of Justice (DOJ) has proposed that Google sell its popular web browser, Chrome. This recommendation is part of a broader effort to limit…"
 tag: "Chrome"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-20.png"
+categories: ["Google Updates","Industry News"]
+tags: ["Chrome","Google Chrome","Google DOJ Clash","Rudra Kasturi"]
 ---
 
 In a big move against tech giant Google, the U.S. Department of Justice (DOJ) has proposed that Google sell its popular web browser, Chrome. This recommendation is part of a broader effort to limit Google’s power in the online search and advertising markets. Let’s break down what’s happening and why it’s a big deal.

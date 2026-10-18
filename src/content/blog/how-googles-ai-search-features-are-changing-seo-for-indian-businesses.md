@@ -4,6 +4,8 @@ date: 2025-06-05T02:13:55Z
 description: "What Exactly Are Google’s AI Search Features? Google’s search is no longer just a list of blue links. It now uses AI to deliver richer, smarter, and more interactive results. These include…"
 tag: "AI SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-highly-detailed-high-resolution-featured-image-for-a-blog-1.webp"
+categories: ["AI","SEO"]
+tags: ["AI SEO","Rudra Kasturi","SEO 2025"]
 ---
 
 ## What Exactly Are Google’s AI Search Features?

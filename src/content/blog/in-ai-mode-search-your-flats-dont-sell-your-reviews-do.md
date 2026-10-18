@@ -4,6 +4,8 @@ date: 2025-07-08T10:01:32Z
 description: "Try this: Search for “flats for sale in Bangalore” . Do it in the old “All” tab on Google. You’ll see: The usual suspects: MagicBricks, 99acres, Housing, NoBroker SEO-rich landing pages Listings…"
 tag: "AI in Real Esate"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-featured-image-for-a-blog-post-titled-in.webp"
+categories: ["AI Mode","SEO"]
+tags: ["AI in Real Esate","AI Mode","AI Search","Google","Rudra Kasturi","SEO"]
 ---
 
 Try this:  

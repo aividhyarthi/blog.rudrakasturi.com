@@ -4,6 +4,8 @@ date: 2026-06-21T08:30:58Z
 description: "For the last 5-6 years, your Instagram feed hasn't really been “yours.” Think about it — when did you last see a post because you follow that person? Most of what shows up now is from accounts you've…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/06/image-1.webp"
+categories: ["AI","Industry News","Social Media"]
+tags: ["ai","Rudra Kasturi"]
 ---
 
 _For the last 5-6 years, your Instagram feed hasn't really been “yours.”_

@@ -1,5 +1,6 @@
 ---
-import { SITE, COMPANIES, mailto } from '../config';
+import { SITE, COMPANIES, TOOLS, utm } from '../config';
+import { SECTIONS } from '../lib/posts';
 
 interface Crumb { name: string; url: string }
 interface Props {
@@ -26,13 +27,14 @@ const {
   description = 'Clear, sourced analysis of SEO, AEO, AI search, YouTube and social. By Rudra Kasturi.',
 } = Astro.props;
 const currentPath = Astro.url.pathname;
-const nav = [
-  { href: '/blog', label: 'Articles' },
-  { href: '/category', label: 'Topics' },
-  { href: '/research', label: 'Research' },
-  { href: '/companies', label: 'Tools' },
-  { href: '/about', label: 'About' },
+const toolLinks = [
+  { label: 'Your Website AEO Analyzer', href: '/your-website-aeo-analyzer/' },
+  { label: 'E-Commerce Product Page AEO Analyser', href: '/product-page-aeo-analyser/' },
+  { label: 'AI SEO GPT', href: '/ai-seo-gpt-by-rudra-kasturi/' },
+  ...TOOLS.map((t) => ({ label: `${t.name} (${t.host})`, href: utm(t.url, 'menu'), external: true })),
+  { label: 'All tools & companies', href: '/companies/' },
 ];
+const onToolPage = toolLinks.some((l) => !l.external && currentPath.startsWith(l.href));
 
 // ---- Structured data (schema.org JSON-LD) ----
 const origin = new URL(Astro.site!).origin;
@@ -119,10 +121,17 @@ const robots = noindex
       <div class="wrap masthead-in">
         <a href="/" class="brand">Rudra Kasturi <em>Inc.</em></a>
         <nav class="nav" aria-label="Main">
-          {nav.map((n) => (
-            <a href={n.href} class:list={[{ active: currentPath.startsWith(n.href) }]}>{n.label}</a>
+          {SECTIONS.map((sec) => (
+            <a href={`/category/${sec.slug}/`} class:list={[{ active: currentPath.startsWith(`/category/${sec.slug}/`) }]}>{sec.name}</a>
           ))}
-          <a href="/work-with-me" class="nav-cta">Work with me</a>
+          <div class="nav-dd">
+            <button type="button" class:list={['nav-dd-btn', { active: onToolPage }]} aria-expanded="false" aria-haspopup="true">Tools <span aria-hidden="true">&#9662;</span></button>
+            <div class="nav-menu">
+              {toolLinks.map((l) => <a href={l.href} rel={l.external ? 'noopener' : undefined}>{l.label}{l.external && ' ↗'}</a>)}
+            </div>
+          </div>
+          <a href="/about/" class:list={[{ active: currentPath.startsWith('/about') }]}>About</a>
+          <a href="/work-with-me/" class="nav-cta">Work with me</a>
         </nav>
       </div>
     </header>
@@ -136,18 +145,22 @@ const robots = noindex
         <div>
           <p class="brand brand-light">Rudra Kasturi <em>Inc.</em></p>
           <p class="footer-note">{SITE.tagline}</p>
-          <p class="footer-note"><a href={mailto}>{SITE.email}</a><br /><a href={SITE.linkedin} rel="noopener">LinkedIn</a> · <a href="/rss.xml">RSS</a></p>
+          <p class="footer-note"><a href={`mailto:${SITE.email}`}>{SITE.email}</a><br /><a href={SITE.linkedin} rel="noopener">LinkedIn</a> · <a href="/rss.xml">RSS</a></p>
+        </div>
+        <div>
+          <p class="label">Browse</p>
+          <ul>
+            {SECTIONS.map((sec) => <li><a href={`/category/${sec.slug}/`}>{sec.name}</a></li>)}
+          </ul>
         </div>
         <div>
           <p class="label">Explore</p>
           <ul>
-            <li><a href="/blog">All articles</a></li>
-            <li><a href="/category/">Topics</a></li>
-            <li><a href="/research">Research &amp; case studies</a></li>
-            <li><a href="/about">About Rudra</a></li>
-            <li><a href="/#subscribe">Newsletter</a></li>
-            <li><a href="/work-with-me">Work with me</a></li>
-            <li><a href="/companies">Companies &amp; tools</a></li>
+            <li><a href="/blog/">All articles</a></li>
+            <li><a href="/about/">About Rudra</a></li>
+            <li><a href="/work-with-me/">Work with me</a></li>
+            <li><a href="/companies/">Tools &amp; companies</a></li>
+            <li><a href="/contact/">Contact</a></li>
           </ul>
         </div>
         <div>
@@ -157,7 +170,21 @@ const robots = noindex
           </ul>
         </div>
       </div>
-      <div class="wrap footer-base">&copy; {new Date().getFullYear()} Rudra Kasturi. All rights reserved.</div>
+      <div class="wrap footer-base">
+        <span>&copy; {new Date().getFullYear()} Rudra Kasturi. All rights reserved.</span>
+        <span><a href="/privacy-policy/">Privacy Policy</a> · <a href="/terms-of-service/">Terms of Service</a></span>
+      </div>
+    </footer>
+    <script>
+      // Tools dropdown: opens on click or tap, closes on outside click or Escape (hover also works with CSS).
+      document.querySelectorAll<HTMLElement>('.nav-dd').forEach((dd) => {
+        const btn = dd.querySelector<HTMLButtonElement>('.nav-dd-btn')!;
+        const set = (open: boolean) => { dd.classList.toggle('open', open); btn.setAttribute('aria-expanded', String(open)); };
+        btn.addEventListener('click', () => set(!dd.classList.contains('open')));
+        document.addEventListener('click', (e) => { if (!dd.contains(e.target as Node)) set(false); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') set(false); });
+      });
+    </script>
     </footer>
   </body>
 </html>

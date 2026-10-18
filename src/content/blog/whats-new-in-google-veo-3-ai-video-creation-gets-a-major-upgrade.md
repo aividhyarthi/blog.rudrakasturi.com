@@ -4,6 +4,8 @@ date: 2025-07-31T04:15:51Z
 description: "Google just rolled out Veo 3 and Veo 3 Fast the latest update to its AI video creation engine. But what really matters isn’t the version number. It’s the powerful set of new features that give…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-90.webp"
+categories: ["AI","Industry News","Videos"]
+tags: ["ai","Google","Rudra Kasturi","Veo 3"]
 ---
 
 Google just rolled out **Veo 3 and Veo 3 Fast** the latest update to its AI video creation engine. But what really matters isn’t the version number. It’s the **powerful set of new features** that give creators more control, more realism, and more ways to scale content globally.

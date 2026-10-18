@@ -4,6 +4,8 @@ date: 2024-11-12T03:29:04Z
 description: "Today, Google announced a new change to how it ranks search results, called the November 2024 core update. This update aims to show people more helpful and reliable content when they search online…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-4.png"
+categories: ["Google Updates","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 Today, Google announced a new change to how it ranks search results, called the November 2024 core update. This update aims to show people more helpful and reliable content when they search online and to reduce the presence of content that feels like it was created just to rank highly in search results.

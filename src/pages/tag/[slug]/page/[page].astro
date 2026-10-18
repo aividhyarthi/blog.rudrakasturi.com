@@ -1,11 +1,11 @@
 ---
 import Listing from '../../../../components/Listing.astro';
-import { getAllPosts, getTags, tagOf, pageOf, totalPages } from '../../../../lib/posts';
+import { getAllPosts, getTags, postsWithTag, pageOf, totalPages } from '../../../../lib/posts';
 
 export async function getStaticPaths() {
   const all = await getAllPosts();
   return getTags(all, 3).flatMap((t) => {
-    const posts = all.filter((p) => tagOf(p)?.slug === t.slug);
+    const posts = postsWithTag(all, t.slug);
     const total = totalPages(posts.length);
     return Array.from({ length: total - 1 }, (_, i) => {
       const page = i + 2;

@@ -4,6 +4,8 @@ date: 2026-07-03T05:21:05Z
 description: "AI · What Just Happened On June 12, 2026, one of the most powerful AI models ever released disappeared from the internet overnight. No warning. No announcement. Just gone. Here’s exactly what…"
 tag: "AI SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/rudra-kasturi-6a4745bec1a5a.webp"
+categories: ["AI"]
+tags: ["AI SEO","Claude","Fabe 5","Rudra Kasturi"]
 ---
 
 AI · What Just Happened

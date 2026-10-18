@@ -4,6 +4,8 @@ date: 2021-07-08T18:54:31Z
 description: "A whitelist is a database of email and IP addresses that have been designated as \"safe\" by search engines. According to Google's John Mueller, the page experience upgrade has no exception list or…"
 tag: "core web vitals update"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/rag-dolls-one-red-e1625770440767.jpg"
+categories: ["SEO"]
+tags: ["core web vitals update","google page experience","John Mueller","page experience update","Page Experience Update 2021","Rudra Kasturi","search engine optimisation","SEO","SEO News","whitelist ip address","whitelist vs blacklist"]
 ---
 
 A whitelist is a database of email and IP addresses that have been designated as "safe" by search engines. According to Google's John Mueller, the page experience upgrade has no exception list or whitelist as far as it is known. That implies, there is no list or exception of sites to which Google page experience change will not be applied to. When asked about the page experience upgrade, John replied on Twitter, "as far as I know, there's no list of exceptions."  

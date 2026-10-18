@@ -4,6 +4,8 @@ date: 2024-10-05T08:50:16Z
 description: "The future of news is changing as young people reshape how they consume, trust, and interact with information. This research done by FT Strategies & Knight Lab, supported by by Google News…"
 tag: "GenZ"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-12.png"
+categories: ["Explainers","GenZ","Industry News"]
+tags: ["GenZ","Google","News research","Rudra Kasturi","SEO"]
 ---
 
 The future of news is changing as young people reshape how they consume, trust, and interact with information. This research done by FT Strategies & Knight Lab, supported by by Google News Initiatives focuses on the preferences of people aged 18 to 25 across India, Nigeria, and the United States, highlighting how these younger audiences view news today and what their ideal news experience could look like by 2030.

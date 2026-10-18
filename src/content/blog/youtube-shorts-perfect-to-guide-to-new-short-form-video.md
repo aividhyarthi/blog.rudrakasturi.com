@@ -4,6 +4,8 @@ date: 2021-07-12T17:16:48Z
 description: "Youtube launches yet another gesture called Youtube shorts. “Shorts is a new short-form video experience for creators and artists who want to shoot short, catchy videos using nothing but their mobile…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/youtube-shorts.jpg"
+categories: ["SEO"]
+tags: []
 ---
 
 Youtube launches yet another gesture called Youtube shorts. _“Shorts is a new short-form video experience for creators and artists who want to shoot short, catchy videos using nothing but their mobile phones.“_

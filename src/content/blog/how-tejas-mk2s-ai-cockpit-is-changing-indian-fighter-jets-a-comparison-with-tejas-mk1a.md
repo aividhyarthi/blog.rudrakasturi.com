@@ -4,6 +4,8 @@ date: 2025-08-02T12:28:29Z
 description: "India’s homegrown fighter jet program is moving fast, with the upcoming Tejas Mk2 promising to raise the bar for cockpit technology and pilot support. How does it stack up against the current Tejas…"
 tag: "AI in Aviation"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/generate-a-featured-image-that-captures-the-essence-of-the.webp"
+categories: ["AI","AI in Aviation","Industry News"]
+tags: ["AI in Aviation","AI News","Rudra Kasturi"]
 ---
 
 India’s homegrown fighter jet program is moving fast, with the upcoming Tejas Mk2 promising to raise the bar for cockpit technology and pilot support. How does it stack up against the current Tejas Mk1A? Here’s a look at how analogue systems are giving way to AI-powered, next-generation cockpits.

@@ -4,6 +4,8 @@ date: 2025-08-05T11:07:17Z
 description: "Script evaluation refers to the phase when the browser parses and executes JavaScript code. It includes: Parsing JavaScript files. Running global and in-line scripts. Executing event handlers…"
 tag: "Core Web Vitals"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-32.webp"
+categories: ["SEO"]
+tags: ["Core Web Vitals","Google","page speed","Rudra Kasturi","SEO"]
 ---
 
 **Script evaluation** refers to the phase when the browser parses and executes JavaScript code. It includes:

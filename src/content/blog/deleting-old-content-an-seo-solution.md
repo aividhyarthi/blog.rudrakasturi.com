@@ -4,6 +4,8 @@ date: 2021-07-12T14:59:30Z
 description: "Running a website is time consuming and arduous, however, constantly publishing articles or blog posts from years must have gotten you closer to your goal. With all this there’s also a good chance…"
 tag: "dead content"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/delete-file.jpg"
+categories: ["SEO"]
+tags: ["dead content","Google","Google Indexing","how to deal with dead content","old content","Rudra Kasturi","search engine optimisation","SEO","traffic","web traffic"]
 ---
 
 Running a website is time consuming and arduous, however, constantly publishing articles or blog posts from years must have gotten you closer to your goal. With all this there’s also a good chance that you have a ton of content that isn’t ranking and doesn’t get much or any traffic at all. The content could be dated, irrelevant to your business or it could simply not be of average content quality.

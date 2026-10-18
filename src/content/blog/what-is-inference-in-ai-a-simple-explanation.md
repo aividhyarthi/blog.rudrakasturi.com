@@ -4,6 +4,8 @@ date: 2025-07-31T04:36:52Z
 description: "Based on Google’s “ Ask a Techspert ” interview | Rewritten by Rudrakasturi.com What’s Inference in AI? Let’s Get the Basics Right Most people think AI is smart the moment you switch it on. But there…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-91.webp"
+categories: ["AI","Explainers"]
+tags: ["ai","Google","Inference","Rudra Kasturi","SEO"]
 ---
 
 _Based on Google’s “[Ask a Techspert](https://blog.google/technology/ai/ask-a-techspert-what-is-inference/)” interview | Rewritten by Rudrakasturi.com_

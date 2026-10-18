@@ -4,6 +4,8 @@ date: 2021-07-12T15:34:36Z
 description: "Keyword research is at the heart of pay-per-click marketing and SEO strategies, whether you like it or not. You might be selling yourself short on your potential success if you aren't bidding or…"
 tag: "AdWords Keyword Tool"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/2840523.jpg"
+categories: ["SEO"]
+tags: ["AdWords Keyword Tool","Google Ads","Google Keyword Planner","Google Surveys","Google Trends","Keyword Planner","Keyword Research Tools","keyword tools","keywords","Rudra Kasturi","search engine optimisation","SEMrush","SEO"]
 ---
 
 Keyword research is at the heart of pay-per-click marketing and SEO strategies, whether you like it or not. You might be selling yourself short on your potential success if you aren't bidding or employing the proper keywords, whether short- or long-tail.

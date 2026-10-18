@@ -4,6 +4,8 @@ date: 2024-12-16T10:44:05Z
 description: "A quiet revolution is happening in the way we search for information online. AI chatbots like Perplexity and ChatGPT are slowly but surely becoming the go-to tools for many tech-savvy users…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-43.png"
+categories: ["AI"]
+tags: ["Rudra Kasturi"]
 ---
 
 A quiet revolution is happening in the way we search for information online. AI chatbots like Perplexity and ChatGPT are slowly but surely becoming the go-to tools for many tech-savvy users, challenging Google’s long-standing dominance. Why is this shift happening, and what does it mean for us, businesses, and even Google itself? Let’s break it down in a simple and easy way to understand.

@@ -4,6 +4,8 @@ date: 2025-06-17T10:19:51Z
 description: "Spotted in the wild : Google Discover appears to be testing a new “AI summary” box on top of news cards signaling a quiet but significant change in how mobile users engage with news and content. Pic…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/create-a-featured-image-illustrating-the-concept-of-google-discover.webp"
+categories: ["AI","Google Search","Industry News","SEO"]
+tags: ["Google","google discover","Google Search","Rudra Kasturi","SEO"]
 ---
 
 **Spotted in the wild**: Google Discover appears to be **testing a new “AI summary” box** on top of news cards signaling a quiet but significant change in how mobile users engage with news and content.

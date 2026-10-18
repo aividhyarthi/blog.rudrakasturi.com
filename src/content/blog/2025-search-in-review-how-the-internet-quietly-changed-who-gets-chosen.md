@@ -4,6 +4,8 @@ date: 2025-12-29T05:07:39Z
 description: "There was no single moment in 2025 when the internet collapsed. No outage. No announcement. No dramatic shift that everyone noticed at once. What happened instead was quieter. And more dangerous. The…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/12/image-9.webp"
+categories: ["Opinion"]
+tags: ["ai","Google","Rudra Kasturi","search engine optimisation","SEO"]
 ---
 
 There was no single moment in 2025 when the internet collapsed.

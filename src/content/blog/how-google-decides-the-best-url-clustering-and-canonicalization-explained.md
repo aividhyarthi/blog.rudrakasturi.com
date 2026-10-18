@@ -4,6 +4,8 @@ date: 2024-12-08T19:22:03Z
 description: "In a recent episode of Search Off the Record , Google’s John Mueller, Martin Splitt, and Allan Scott pulled back the curtain on two crucial—and often misunderstood—concepts in SEO: clustering and…"
 tag: "Explainers"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-high-resolution-image-showcasing-the-concepts-of-1.png"
+categories: ["Explainers","Google Search","SEO"]
+tags: []
 ---
 
 In a recent episode of _[Search Off the Record](https://youtu.be/6bAlB0RHs9c?si=X8mVnk4yA1r8BQwz)_, Google’s John Mueller, Martin Splitt, and Allan Scott pulled back the curtain on two crucial—and often misunderstood—concepts in SEO: clustering and canonicalization. For anyone who has ever wrestled with duplicate content issues or puzzled over why Google chose one URL over another, this discussion sheds much-needed light on the internal mechanics of Google Search.

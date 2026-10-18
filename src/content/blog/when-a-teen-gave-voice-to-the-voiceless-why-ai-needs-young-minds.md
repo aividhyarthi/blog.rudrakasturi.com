@@ -4,6 +4,8 @@ date: 2025-08-28T04:27:12Z
 description: "One Class 11 student didn’t just build a project. He built purpose. While most students were busy memorizing math formulas or prepping for their next exam, a schoolboy in Gurugram quietly created a…"
 tag: "AI Minds"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-96.webp"
+categories: ["AI","AI Health"]
+tags: ["AI Minds","AI Vidhyarthi","Rudra Kasturi","Voice"]
 ---
 
 One Class 11 student didn’t just build a project. He built purpose.

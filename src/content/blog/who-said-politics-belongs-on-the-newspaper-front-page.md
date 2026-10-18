@@ -4,6 +4,8 @@ date: 2025-10-22T03:48:14Z
 description: "For over a century, newspapers have led with politics and policy - not people. It made sense once. But does it still, in an age where readers live on feeds, not front pages? If you open any newspaper…"
 tag: "Digital Media"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-22-2025-09_14_09-AM.webp"
+categories: ["Industry News"]
+tags: ["Digital Media","Entertainment","Politics","Rudra Kasturi"]
 ---
 
 _**For over a century, newspapers have led with politics and policy - not people.  

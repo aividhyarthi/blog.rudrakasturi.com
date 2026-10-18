@@ -4,6 +4,8 @@ date: 2024-11-22T03:39:32Z
 description: "Google is conducting a new experiment in Europe that could have significant implications for both the tech giant and news publishers. This move, tied to compliance with the European Copyright…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-21.png"
+categories: ["Google Search","Google Updates","Industry News"]
+tags: ["Google","Rudra Kasturi"]
 ---
 
 Google is conducting a new experiment in Europe that could have significant implications for both the tech giant and news publishers. This move, tied to compliance with the **European Copyright Directive (EUCD)**, involves temporarily removing search results from EU-based news publishers for 1% of users in select countries. Here’s a closer look at what’s happening, why it’s happening, and what it could mean for everyone involved.

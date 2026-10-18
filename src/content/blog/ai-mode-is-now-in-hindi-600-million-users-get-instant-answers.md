@@ -4,6 +4,8 @@ date: 2025-09-10T03:21:52Z
 description: "In 2017, Google quietly revealed a statistic that should have reshaped how Indian businesses thought about the internet: more people were searching in Hindi than in English. Fast forward to today…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-7.webp"
+categories: ["AI","AI Mode","SEO"]
+tags: ["ai","AI Mode","AI Mode in Hindi","Google","Rudra Kasturi","SEO"]
 ---
 
 In 2017, Google quietly revealed a statistic that should have reshaped how Indian businesses thought about the internet: more people were searching in Hindi than in English. Fast forward to today, and that tipping point has met its natural conclusion. **AI Mode - Google’s most advanced search feature is now available in Hindi.**

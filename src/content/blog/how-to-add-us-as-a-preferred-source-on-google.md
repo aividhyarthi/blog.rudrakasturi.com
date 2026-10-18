@@ -4,6 +4,8 @@ date: 2025-08-12T18:13:51Z
 description: "Google’s Preferred Sources feature lets you choose which publishers appear first for you in Top Stories . By adding us as your preferred source, you’ll see our updates more often and in a dedicated…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/Screenshot-2025-08-13-at-8.33.37-AM.webp"
+categories: ["Google Search","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 Google’s **Preferred Sources** feature lets you choose which publishers appear first for you in **Top Stories**. By adding us as your preferred source, you’ll see our updates more often and in a dedicated “From your sources” section.

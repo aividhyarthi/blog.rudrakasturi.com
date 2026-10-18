@@ -4,6 +4,8 @@ date: 2025-08-12T04:12:50Z
 description: "Google’s Gary Illyes has clarified an important point for anyone publishing online whether you run a newsroom, a SaaS product site, a B2B blog, or an SEO-driven portal. Using AI-generated content…"
 tag: "AI Content Penalty"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-60.webp"
+categories: ["SEO"]
+tags: ["AI Content Penalty","AI Images Ranking","AI Images SEO","Image SEO","Rudra Kasturi","SEO"]
 ---
 
 Google’s Gary Illyes has clarified an important point for anyone publishing online whether you run a newsroom, a SaaS product site, a B2B blog, or an SEO-driven portal. Using AI-generated content, especially AI images alongside legitimate text, **will not trigger a ranking penalty**.

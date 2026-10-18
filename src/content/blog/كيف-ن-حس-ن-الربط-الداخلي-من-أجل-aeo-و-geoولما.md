@@ -4,6 +4,8 @@ date: 2026-01-16T10:16:57Z
 description: "الخلاصة أولاً الربط الداخلي في AEO و GEO لا يهدف إلى تمرير قوة الروابط. هدفه هو تعليم أنظمة الذكاء الاصطناعي كيف ترتبط الإجابات ببعضها. الـ SEO يحاول رفع ترتيب الصفحات. أما AEO و GEO فيحاولان توجيه…"
 tag: "AEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/image-18.webp"
+categories: ["AEO","Arabic"]
+tags: []
 ---
 
 ### الخلاصة أولاً

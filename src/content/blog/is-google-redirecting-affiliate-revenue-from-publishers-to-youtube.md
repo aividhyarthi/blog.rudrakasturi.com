@@ -4,6 +4,8 @@ date: 2024-12-12T04:11:30Z
 description: "Over the past few months, a curious trend has emerged: publishers dependent on affiliate revenue are feeling the squeeze, while YouTube’s affiliate program is expanding rapidly. Could this be a…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-24.png"
+categories: ["Industry News","YouTube"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 Over the past few months, a curious trend has emerged: publishers dependent on affiliate revenue are feeling the squeeze, while YouTube’s affiliate program is expanding rapidly. Could this be a deliberate move by Google to push affiliate marketers away from traditional websites and onto its video platform? While there’s no official confirmation, the evidence paints an intriguing picture.

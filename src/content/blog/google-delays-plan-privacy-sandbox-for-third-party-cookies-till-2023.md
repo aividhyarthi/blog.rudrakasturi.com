@@ -4,6 +4,8 @@ date: 2021-07-07T19:30:23Z
 description: "The Tech Giant has pulled back its timeline to block the third party cookies on the search engine lately. Google, in the first stance, had intended to ban third-party cookies and replace them with…"
 tag: "chrome privacy sandbox"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/3690282.jpg"
+categories: ["SEO"]
+tags: ["chrome privacy sandbox","Google","google privacy sandbox","google privacy sandbox explained","Third Party Cookies","User Privacy"]
 ---
 
 The Tech Giant has pulled back its timeline to block the third party cookies on the search engine lately. Google, in the first stance, had intended to ban third-party cookies and replace them with better ‘cookieless’ technologies from its Privacy Sandbox. The new timeline has now been extended to 2023, two years after the anticipated time frame. 

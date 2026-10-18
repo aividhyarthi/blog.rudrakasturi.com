@@ -4,6 +4,8 @@ date: 2025-07-17T02:42:32Z
 description: "AI Is Thirsty. And You’re Paying the Water Bill. You asked ChatGPT a question. It gave you a killer idea. But while you patted yourself on the back, here’s what you didn’t see: That one “free” AI…"
 tag: "AI GPUs"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-featured-image-for-a-blog-post-titled-your-1.webp"
+categories: ["AI","Climate"]
+tags: ["AI GPUs","AI Serves","Climate","Google","Rudra Kasturi"]
 ---
 
 ### _**AI Is Thirsty. And You’re Paying the Water Bill.**_

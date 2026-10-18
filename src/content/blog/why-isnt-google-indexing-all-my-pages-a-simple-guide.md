@@ -4,6 +4,8 @@ date: 2024-10-09T02:57:24Z
 description: "Ever wonder why Google doesn’t seem to be showing all your website pages in search results? Don’t worry, you’re not alone. This can be frustrating, but the good news is that there are some common…"
 tag: "Crawlin"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-23.png"
+categories: ["Explainers","Google Search","SEO"]
+tags: ["Crawlin","Crawling","Google","Indexing"]
 ---
 
 Ever wonder why Google doesn’t seem to be showing all your website pages in search results? Don’t worry, you’re not alone. This can be frustrating, but the good news is that there are some common reasons why this happens—and most of them are easy to fix! Let’s break it down in a way that’s easy to understand.

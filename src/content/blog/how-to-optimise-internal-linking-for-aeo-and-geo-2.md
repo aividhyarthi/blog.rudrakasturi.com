@@ -4,6 +4,8 @@ date: 2026-01-16T11:38:37Z
 description: "دليل عملي بلغة بسيطة الخلاصة أولاً تحسين المحتوى لـ GEO لا يعني كتابة محتوى أطول. ولا يعني إرضاء خوارزمية بحث تقليدية. GEO يعني شيئاً واحداً فقط: كتابة محتوى يمكن للذكاء الاصطناعي أن يفهمه، يثق به،…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/image-19.webp"
+categories: ["AEO","Arabic"]
+tags: ["Google","Rudra Kasturi"]
 ---
 
 دليل عملي بلغة بسيطة

@@ -4,6 +4,8 @@ date: 2025-09-13T03:08:34Z
 description: "Picture a giant tent in space not for astronauts to sleep in, but for servers to hum quietly. Imagine a space station where racks of GPUs replace crew cabins, powered directly by the sun, cooled by…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-17.webp"
+categories: ["AI","AI in Space","Industry News","SEO"]
+tags: ["ai","AI in Space","Data Centres","Orbit","Rudra Kasturi"]
 ---
 
 Picture a giant tent in space not for astronauts to sleep in, but for servers to hum quietly. Imagine a space station where racks of GPUs replace crew cabins, powered directly by the sun, cooled by the cold vacuum, and connected back to Earth through satellite beams.

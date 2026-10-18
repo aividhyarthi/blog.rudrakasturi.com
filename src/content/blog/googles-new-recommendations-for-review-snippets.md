@@ -4,6 +4,8 @@ date: 2025-01-16T03:33:42Z
 description: "Google has rolled out an update to its review snippet documentation as of January 15 , adding a critical recommendation for websites and businesses that utilize ratings and reviews. This update…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/01/image-14.png"
+categories: ["Industry News","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 Google has rolled out an update to its review snippet documentation as of **January 15**, adding a critical recommendation for websites and businesses that utilize ratings and reviews. This update focuses on enhancing the quality and transparency of reviews, making them more meaningful for users.

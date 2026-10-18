@@ -4,6 +4,8 @@ date: 2024-12-13T01:22:10Z
 description: "In a heartwarming and innovative move, an AI-powered camera system in Odisha’s Rourkela forest division recently saved three elephants from a potentially fatal accident. The system alerted…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-29.png"
+categories: ["Google AI","GPT","Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 In a heartwarming and innovative move, an AI-powered camera system in Odisha’s Rourkela forest division recently saved three elephants from a potentially fatal accident. The system alerted authorities just in time to stop an oncoming train, preventing a tragic collision. This shows how technology can help protect our wildlife and ensure a safer future for animals.

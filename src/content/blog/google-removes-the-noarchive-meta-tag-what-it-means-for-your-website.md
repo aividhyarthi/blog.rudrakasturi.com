@@ -4,6 +4,8 @@ date: 2024-10-06T05:20:43Z
 description: "Google has made a significant change that affects how certain pages appear in search results. If you’ve ever used the \"noarchive\" meta tag on your website, this update is for you. Here’s everything…"
 tag: "Cache"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/NoArchive-Meta-Tag.webp"
+categories: ["Explainers","Google Updates","SEO"]
+tags: ["Cache","Google","Indexing","Meta Tags","Rudra Kasturi","SEO"]
 ---
 
 Google has made a significant change that affects how certain pages appear in search results. If you’ve ever used the **"noarchive" meta tag** on your website, this update is for you. Here’s everything you need to know about this change and what it means for your site.

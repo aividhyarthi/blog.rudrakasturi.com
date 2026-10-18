@@ -4,6 +4,8 @@ date: 2024-12-12T05:05:11Z
 description: "In a monumental leap forward, Google has officially launched Gemini 2.0 , its most advanced AI model to date, designed for the “agentic era.” This next-generation AI system goes beyond understanding…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-25.png"
+categories: ["AI","Google AI","Industry News"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 In a monumental leap forward, Google has officially launched **Gemini 2.0**, its most advanced AI model to date, designed for the “agentic era.” This next-generation AI system goes beyond understanding the world—it can plan, act, and seamlessly integrate into real-world applications, transforming how we interact with technology.

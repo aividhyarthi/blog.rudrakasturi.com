@@ -4,6 +4,8 @@ date: 2025-08-18T02:45:37Z
 description: "AI tools like ChatGPT and Gemini can provide wrong information leading to serious consequences, but companies avoid responsibility through disclaimers. Current legal frameworks offer little recourse…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-sharp-focused-image-that-visually-represents-the.webp"
+categories: ["AI","AI Compliance","Google AI","GPT"]
+tags: ["ai","AI Complaints","ChatGPT","Google Gemini","Rudra Kasturi"]
 ---
 
 _AI tools like ChatGPT and Gemini can provide wrong information leading to serious consequences, but companies avoid responsibility through disclaimers. Current legal frameworks offer little recourse. Users resort to public complaints for attention. Accountability is lacking, prompting calls for regulatory changes to treat AI as high-risk and enforce liability for errors._

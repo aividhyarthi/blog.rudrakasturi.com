@@ -4,6 +4,8 @@ date: 2025-07-20T03:15:02Z
 description: "Indians don’t need a new app to “stay updated.” We already have one app that runs the whole country. From wedding invites to tuition class timetables, from housing society notices to daily good…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-59.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","AI Assistant","Perplexity","Rudra Kasturi"]
 ---
 
 Indians don’t need a new app to “stay updated.” We already have one app that runs the whole country. From wedding invites to tuition class timetables, from housing society notices to daily good morning forwards - **WhatsApp is our operating system.**

@@ -4,6 +4,8 @@ date: 2025-06-10T03:15:31Z
 description: "And What It Means for SEO, Publishers, and AI Control Is llms.txt Supported by Search Engines? As of now, no major search engine officially supports llms.txt . Google, Bing, and others still rely on…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-23.webp"
+categories: ["AI","Crawling","SEO"]
+tags: ["ai","Bing","Google","Robots","Rudra Kasturi","SEO","Yahoo"]
 ---
 
 And What It Means for SEO, Publishers, and AI Control

@@ -4,6 +4,8 @@ date: 2025-06-10T03:00:30Z
 description: "Welcome to the post-product era. Where founders don’t build things - they prompt them. No MVP. No wireframes. Just a screenshot of ChatGPT generating a logo, a copywriting prompt that rhymes, and a…"
 tag: "Founders"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/imagine-a-start-up-founder-talking-to-vcs-to-raise-1.webp"
+categories: ["AI","Industry News"]
+tags: ["Founders","Prompts","Rudra Kasturi","VC"]
 ---
 
 Welcome to the post-product era. Where founders don’t build things - they _prompt_ them.

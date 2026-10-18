@@ -4,6 +4,8 @@ date: 2024-12-28T03:17:15Z
 description: "Artificial Intelligence (AI) has long been hailed as the technology of the future, but could its rapid advancement pose a threat to humanity? Prof. Geoffrey Hinton, a British-Canadian computer…"
 tag: "AI"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-79.png"
+categories: ["AI"]
+tags: []
 ---
 
 Artificial Intelligence (AI) has long been hailed as the technology of the future, but could its rapid advancement pose a threat to humanity? Prof. Geoffrey Hinton, a British-Canadian computer scientist often referred to as the "godfather of AI," believes there’s a growing chance it might.

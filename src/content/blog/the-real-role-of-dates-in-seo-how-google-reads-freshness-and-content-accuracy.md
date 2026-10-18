@@ -4,6 +4,8 @@ date: 2025-11-27T06:06:50Z
 description: "Search engines continue to evolve, but one thing has stayed surprisingly important: the dates on your articles. For publishers, editors and SEO teams, understanding how Google reads published dates…"
 tag: "article schema"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/ChatGPT-Image-Nov-27-2025-11_31_39-AM.webp"
+categories: ["SEO"]
+tags: ["article schema","content freshness","date signals","Google dates","google ranking factors","published date SEO","SEO freshness","SEO publishing best practices","SERP visibility","updated date SEO"]
 ---
 
 Search engines continue to evolve, but one thing has stayed surprisingly important: the dates on your articles. For publishers, editors and SEO teams, understanding how Google reads published dates, updated dates and schema signals is no longer optional. These small details influence rankings, trust, click through rates and the way your content appears in search results.

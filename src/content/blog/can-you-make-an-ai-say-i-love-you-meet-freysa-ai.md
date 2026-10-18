@@ -4,6 +4,8 @@ date: 2024-12-07T06:16:00Z
 description: "Ever thought about charming an AI into saying “I love you” ? Now you can! Freysa.ai is a fascinating project by a group of anonymous developers who are redefining how we think about AI. Their latest…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/fresya1.jpeg"
+categories: ["Google AI","GPT","Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 Ever thought about charming an AI into saying _“I love you”_? Now you can! **Freysa.ai** is a fascinating project by a group of anonymous developers who are redefining how we think about AI. Their latest challenge offers a cash prize—ranging from **$3,000 to tens of thousands of dollars**—if you can be the first to convince their AI bot, Freysa, to say those three magic words.

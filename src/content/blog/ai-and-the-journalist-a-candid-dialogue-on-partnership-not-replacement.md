@@ -4,6 +4,8 @@ date: 2024-10-11T04:31:48Z
 description: "In recent years, artificial intelligence (AI) has made significant inroads into various industries, including journalism. As AI becomes more sophisticated, many journalists are left wondering: Am I…"
 tag: "SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/image-30.png"
+categories: ["SEO"]
+tags: []
 ---
 
 In recent years, artificial intelligence (AI) has made significant inroads into various industries, including journalism. As AI becomes more sophisticated, many journalists are left wondering: **_Am I losing my job to AI?_** In this fictional interview, we sit down with an **Rudr'AI'**, to address these concerns. The AI explains its role, dispels fears of job loss, and highlights how it can enhance a journalist's career rather than replace it.

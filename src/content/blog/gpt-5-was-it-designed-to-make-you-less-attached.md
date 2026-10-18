@@ -4,6 +4,8 @@ date: 2025-08-11T02:20:43Z
 description: "When GPT-5 rolled out, many users complained it felt more formal, less warm, and harder to connect with than GPT-4o. On the surface, it looked like a downgrade. But reading Sam Altman’s recent…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-54.webp"
+categories: ["AI","GPT","SEO"]
+tags: ["ai","AI Attachment","GPT 4","GPT 5","Rudra Kasturi","Sam Altman"]
 ---
 
 When GPT-5 rolled out, many users complained it felt more formal, less warm, and harder to connect with than GPT-4o. On the surface, it looked like a downgrade. But reading Sam Altman’s recent remarks, there’s a different possibility: **maybe GPT-5 was built this way on purpose** to dial down emotional attachment.

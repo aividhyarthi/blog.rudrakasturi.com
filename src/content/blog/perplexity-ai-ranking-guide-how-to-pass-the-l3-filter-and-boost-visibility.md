@@ -4,6 +4,8 @@ date: 2025-08-11T02:41:42Z
 description: "Perplexity AI is quickly becoming one of the most talked-about answer engines - an AI-powered search tool that doesn’t just list links but gives you conversational answers backed by sources. But if…"
 tag: "AI SEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-55.webp"
+categories: ["AI","GPT","SEO"]
+tags: ["AI SEO","Perplexity SEO","Rudra Kasturi"]
 ---
 
 Perplexity AI is quickly becoming one of the most talked-about answer engines - an AI-powered search tool that doesn’t just list links but gives you conversational answers backed by sources.

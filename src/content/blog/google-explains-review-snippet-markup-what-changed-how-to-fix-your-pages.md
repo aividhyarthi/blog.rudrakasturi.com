@@ -4,6 +4,8 @@ date: 2025-11-19T04:03:52Z
 description: "Google has clarified how review and rating markup must be used. This is not a penalty update. It is a rulebook update. If your stars vanish from search, your traffic takes a direct hit. This guide…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/11/image-1.webp"
+categories: ["SEO","Structure Data"]
+tags: ["Google","Google Business Reviews","Google Markup","Reviews","Rudra Kasturi","SEO","Structured Markup"]
 ---
 
 Google has clarified how review and rating markup must be used. This is not a penalty update. It is a rulebook update. If your stars vanish from search, your traffic takes a direct hit. This guide explains what Google really means, why they did it, and how Indian and global websites can fix their structured data in a clean and predictable way.

@@ -4,6 +4,8 @@ date: 2024-12-18T03:02:55Z
 description: "The rise of AI in content production was a focal point at the Google Search Central Conference December 2024 in Zurich, sparking crucial discussions around its role and limitations. A key question…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/image-49.png"
+categories: ["AI","SEO"]
+tags: ["Rudra Kasturi"]
 ---
 
 The rise of AI in content production was a focal point at the Google Search Central Conference December 2024 in Zurich, sparking crucial discussions around its role and limitations. A key question tackled during the event was: **“Are we heading towards AI-first content production?”** Here’s a detailed exploration of the [insights](https://www.mrjonathanjones.com/2024/12/14/google-search-central-conference-zurich-2024/) shared during the session.

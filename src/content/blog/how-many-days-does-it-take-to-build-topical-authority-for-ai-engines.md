@@ -4,6 +4,8 @@ date: 2026-01-14T11:46:58Z
 description: "Short answer first It takes 30 to 120 days to build topical authority for AI engines , depending on how systematically you publish answers, not content. If you are posting random blogs, it can take…"
 tag: "AEO"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/01/image-8.webp"
+categories: ["AEO","AI","Content","SEO"]
+tags: []
 ---
 
 ## Short answer first

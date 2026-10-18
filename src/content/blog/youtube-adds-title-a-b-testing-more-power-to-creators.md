@@ -4,6 +4,8 @@ date: 2025-09-17T02:43:40Z
 description: "The Big Update YouTube has rolled out A/B testing for video titles giving creators the ability to test up to three different titles and thumbnails for each video. Until now, creators could only A/B…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-39.webp"
+categories: ["AI","Videos","YouTube"]
+tags: ["Rudra Kasturi","SEO","videos","YouTube"]
 ---
 
 ## The Big Update

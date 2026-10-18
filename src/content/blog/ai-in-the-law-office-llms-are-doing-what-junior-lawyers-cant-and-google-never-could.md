@@ -4,6 +4,8 @@ date: 2025-07-01T04:24:06Z
 description: "Legal research hasn’t changed in decades. But now, something smarter is doing the groundwork faster, cleaner, and without 10 open tabs. The Frustration is Real You have a tenant refusing to vacate. A…"
 tag: "AI Mod"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/image-87.webp"
+categories: ["AI","AI Mode"]
+tags: ["AI Mod","Jr Lawyers","Law Office AI","Legal AI","Rudra Kasturi"]
 ---
 
 _Legal research hasn’t changed in decades. But now, something smarter is doing the groundwork faster, cleaner, and without 10 open tabs._

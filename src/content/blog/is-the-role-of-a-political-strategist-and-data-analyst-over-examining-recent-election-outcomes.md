@@ -4,6 +4,8 @@ date: 2024-11-24T06:26:28Z
 description: "The recent electoral results in Haryana and Maharashtra and the perceived disconnect between political strategies, exit polls, and actual outcomes have reignited debates about the role of political…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/11/image-22.png"
+categories: ["Industry News"]
+tags: ["Rudra Kasturi"]
 ---
 
 The recent electoral results in **Haryana** and **Maharashtra** and the perceived disconnect between political strategies, exit polls, and actual outcomes have reignited debates about the role of political strategists and data analysts. These professionals, once hailed as the architects of electoral victories, are now under scrutiny. Are their methods failing? Is this career path obsolete? Let’s unpack this.

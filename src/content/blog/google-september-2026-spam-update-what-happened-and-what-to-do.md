@@ -17,6 +17,8 @@ sources:
   - title: "October 2026 Google Webmaster Report: Spam Update, Gemini 3.8, AI Contribution & Monopoly Rulings"
     url: "https://www.seroundtable.com/october-2026-google-webmaster-report-42185.html"
     publisher: "Search Engine Roundtable"
+categories: ["Google Updates", "SEO"]
+tags: ["Google Updates", "Spam update"]
 ---
 
 Google finished rolling out its September 2026 spam update on **October 8**. It started on September 24.

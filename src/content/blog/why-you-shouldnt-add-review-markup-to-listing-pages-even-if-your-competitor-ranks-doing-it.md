@@ -4,6 +4,8 @@ date: 2025-08-26T05:14:28Z
 description: "Google’s structured data guidelines are very clear: Review and AggregateRating markup should only be used on pages where the subject of the review is clearly the main content . That means individual…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-94.webp"
+categories: ["SEO","Structure Data"]
+tags: ["Google","Google Penalty","google seo","Google Spam Update","Rudra Kasturi","Structured Data"]
 ---
 
 Google’s structured data guidelines are very clear: Review and AggregateRating markup should only be used on pages where the subject of the review is clearly the **main content**. That means individual product pages, not category or listing pages. Still, many SEOs game the system. Some even win. But here’s what happens when Google catches it and why the risk isn’t worth it in the long run.

@@ -4,6 +4,8 @@ date: 2024-12-08T19:34:59Z
 description: "During a recent episode of Search Off The Record , Google’s Allan Scott shared fascinating insights into how Google deals with clustering and localization. If you’ve ever wondered how Google decides…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/create-a-highly-detailed-high-resolution-featured-image-for-a-blog.png"
+categories: ["Google Search","SEO"]
+tags: ["Google","Rudra Kasturi","SEO"]
 ---
 
 During a recent episode of _[Search Off The Record](https://youtu.be/6bAlB0RHs9c?si=QuYS1xWlICknmNiQ)_, Google’s Allan Scott shared fascinating insights into how Google deals with clustering and localization. If you’ve ever wondered how Google decides which version of a page to show for different regions or languages, this discussion offers valuable clarity. Spoiler: the answer, as Allan put it, is "it depends."

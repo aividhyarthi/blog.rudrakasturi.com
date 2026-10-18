@@ -4,6 +4,8 @@ date: 2025-08-06T04:02:32Z
 description: "Did you know that Google’s AI can now predict cyclones with days of advance warning sometimes even before most traditional weather models? It’s true, and it could be a game changer for how countries…"
 tag: "AI Predictions"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-featured-image-that-captures-the-essence-of-googles-2.webp"
+categories: ["AI","AI Predictions","Google AI","Industry News"]
+tags: ["AI Predictions","AI Rains","AI Weather","Rudra Kasturi"]
 ---
 
 Did you know that [Google’s AI](https://blog.google/technology/google-deepmind/weather-lab-ai-cyclone-prediction-tracking/) can now predict cyclones with days of advance warning sometimes even before most traditional weather models? It’s true, and it could be a game changer for how countries prepare for storms.

@@ -4,6 +4,8 @@ date: 2025-07-15T16:32:37Z
 description: "Google has quietly updated its structured data documentation for merchant return policies and loyalty programs and while it might look like a small clarification, the impact is real for anyone…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-highly-detailed-blog-post-featured-image-highlighting-googles.webp"
+categories: ["SEO","Structure Data"]
+tags: ["Google","Rudra Kasturi","SEO","Structured Data"]
 ---
 
 Google has quietly updated its structured data documentation for **merchant return policies** and **loyalty programs** and while it might look like a small clarification, the impact is real for anyone managing e-commerce SEO, Merchant Center feeds, or schema markup.

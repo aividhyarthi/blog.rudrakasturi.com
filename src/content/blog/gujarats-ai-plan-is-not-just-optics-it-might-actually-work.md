@@ -4,6 +4,8 @@ date: 2025-07-28T09:57:46Z
 description: "Everyone’s making noise about AI. Most governments? Issuing glossy PDFs, launching “portals,” or doing a one-day summit with hashtags like #AIforIndia. Gujarat just did something different. They…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-80.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","AI News","Rudra Kasturi"]
 ---
 
 Everyone’s making noise about AI. Most governments? Issuing glossy PDFs, launching “portals,” or doing a one-day summit with hashtags like #AIforIndia.

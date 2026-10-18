@@ -4,6 +4,8 @@ date: 2025-08-04T04:35:32Z
 description: "Who Is Hinton and Why Should You Care? Geoffrey Hinton, often called the \"Godfather of AI,\" won a Nobel Prize in Physics in 2024 for foundational work on neural networks. He helped build the tech…"
 tag: "AI Language"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/image-20.webp"
+categories: ["AI","Industry News"]
+tags: ["AI Language","Godfather of AI","Rudra Kasturi"]
 ---
 
 ### Who Is Hinton and Why Should You Care?

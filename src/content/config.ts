@@ -7,7 +7,9 @@ const blog = defineCollection({
     date: z.coerce.date(),
     updated: z.coerce.date().optional(),
     description: z.string().default(''),
-    tag: z.string().optional(),
+    tag: z.string().optional(), // legacy single tag
+    categories: z.array(z.string()).default([]), // WordPress categories
+    tags: z.array(z.string()).default([]), // WordPress tags
     // article = normal post; research = original research; case-study = client/project story
     type: z.enum(['article', 'research', 'case-study']).default('article'),
     image: z.string().optional(),
@@ -23,4 +25,14 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const pages = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().default(''),
+    wide: z.boolean().default(false), // wider layout, e.g. for embedded tools
+    noindex: z.boolean().default(false),
+  }),
+});
+
+export const collections = { blog, pages };

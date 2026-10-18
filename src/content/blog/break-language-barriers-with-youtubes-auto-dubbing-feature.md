@@ -4,6 +4,8 @@ date: 2024-12-16T11:35:28Z
 description: "Connecting the World Through Language Ever wanted to learn something new from a creator in another country but struggled with language barriers? YouTube's new Auto Dubbing feature is here to make…"
 tag: "Rudra Kasturi"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/12/youtube-auto-dubbing.png"
+categories: ["SEO","YouTube"]
+tags: ["Rudra Kasturi"]
 ---
 
 **Connecting the World Through Language**

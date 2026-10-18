@@ -4,6 +4,8 @@ date: 2025-09-16T02:57:15Z
 description: "Generative AI is no longer a niche tool. By mid-2025, 700 million people were using ChatGPT every week . That equals 1 in 10 adults worldwide - a pace of adoption faster than smartphones or the…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/09/image-33.webp"
+categories: ["AI","GPT","Industry News","SEO"]
+tags: ["ai","ChagtGPT","Rudra Kasturi","Search"]
 ---
 
 Generative AI is no longer a niche tool. By mid-2025, **700 million people were using ChatGPT every week**. That equals **1 in 10 adults worldwide** - a pace of adoption faster than smartphones or the internet itself.

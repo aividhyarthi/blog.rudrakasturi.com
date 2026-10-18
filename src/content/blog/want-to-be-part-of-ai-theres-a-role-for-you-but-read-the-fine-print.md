@@ -4,6 +4,8 @@ date: 2025-07-18T15:40:09Z
 description: "There’s a new role quietly popping up across startups, enterprises, and even government offices. You won’t find it in textbooks. Your college might not teach it. But companies are hiring fast — AI…"
 tag: "AI Ops Lead"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/image-46.webp"
+categories: ["AI","Industry News"]
+tags: ["AI Ops Lead","AI Person","Rudra Kasturi"]
 ---
 
 There’s a new role quietly popping up across startups, enterprises, and even government offices. You won’t find it in textbooks. Your college might not teach it. But companies are hiring fast — **AI Operations Lead**.

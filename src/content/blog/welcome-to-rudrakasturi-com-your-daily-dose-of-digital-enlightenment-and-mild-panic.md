@@ -4,6 +4,8 @@ date: 2025-04-15T04:10:11Z
 description: "Search is Dead. Long Live AI Overviews! Namaste, internet survivors! Welcome back to Rudrakasturi.com , where we decode the future, sprinkle some sarcasm on it, and serve it on a hot plate of digital…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/image-24.png"
+categories: ["Google AI","Google Search","SEO"]
+tags: ["ai","ai overview","Google","Rudra Kasturi","SEO"]
 ---
 
 **Search is Dead. Long Live AI Overviews!**

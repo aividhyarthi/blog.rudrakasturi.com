@@ -4,6 +4,8 @@ date: 2021-07-16T14:38:44Z
 description: "Google considers Core Web Vitals to be a set of particular elements that contribute to a webpage's overall user experience. Three specific page performance and user interaction statistics make up…"
 tag: "core web vitals 2021"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/check-list-2398890_1280.png"
+categories: ["SEO"]
+tags: ["core web vitals 2021","core web vitals ranking factor","core web vitals update","CSS optimization","fonts and icons","Google","Google ranking","google update core web vitals","Javascript","page experience update","Page Experience Update 2021","Rudra Kasturi","search engine optimisation","SEO","videos"]
 ---
 
 Google considers Core Web Vitals to be a set of particular elements that contribute to a webpage's overall user experience. Three specific page performance and user interaction statistics make up Core Web Vitals: greatest contentful paint, initial input delay, and cumulative layout shift. 

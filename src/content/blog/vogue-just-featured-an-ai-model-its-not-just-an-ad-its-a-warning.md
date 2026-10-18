@@ -4,6 +4,8 @@ date: 2025-07-28T10:23:38Z
 description: "When Vogue – the most powerful name in fashion – shows off a beautiful AI model in its pages , it’s not just about tech or trends. It’s a red flag. In the August 2025 issue, Vogue ran an ad for…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/07/create-a-featured-image-for-a-blog-post-titled-vogue.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","Rudra Kasturi","Vogue Model","Vogue Model AI"]
 ---
 
 When _Vogue_ – the most powerful name in fashion – shows off a [beautiful AI model in its pages](https://www.bbc.com/news/articles/cgeqe084nn4o), it’s not just about tech or trends. It’s a red flag.

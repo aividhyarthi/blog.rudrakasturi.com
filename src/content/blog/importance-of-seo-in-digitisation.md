@@ -4,6 +4,8 @@ date: 2021-06-29T07:10:03Z
 description: "Digitisation in the world has revolutionised the way businesses have started to operate and sell. Changing times have also evolved the way of marketing techniques and channels for your business…"
 tag: "featured"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/06/maxresdefault.jpg"
+categories: ["SEO"]
+tags: ["featured","SEO"]
 ---
 
 Digitisation in the world has revolutionised the way businesses have started to operate and sell. Changing times have also evolved the way of marketing techniques and channels for your business. Imagine having a retail shop without a sign board, no advertisement or word of mouth about your brand. No visibility, no advertisement and no existence, that is the meaning of digital marketing without the suitable SEO techniques.

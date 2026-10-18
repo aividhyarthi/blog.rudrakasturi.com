@@ -4,6 +4,8 @@ date: 2025-04-25T03:20:51Z
 description: "Google has officially announced the deprecation of the Special Announcements structured data feature, effective July 31, 2025 . If you’re in News SEO or work on content for health, government, or…"
 tag: "Google"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/schema-depriated.webp"
+categories: ["SEO","Structure Data"]
+tags: ["Google","Rudra Kasturi","SEO","Structured Data"]
 ---
 
 Google has officially announced the deprecation of the _Special Announcements_ structured data feature, effective **July 31, 2025**.

@@ -4,6 +4,8 @@ date: 2025-08-12T04:22:14Z
 description: "Google’s latest report on Gen Z trends and search behaviour in India has a clear message for brands, publishers, and marketers: if you want to connect with Gen Z when they are most ready to act, you…"
 tag: "GenZ"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/create-a-highly-detailed-and-sharp-focus-image-for-a.webp"
+categories: ["AI Ads","GenZ","Industry News"]
+tags: ["GenZ","Google Ads","Google Search","Rudra Kasturi","Search Ads"]
 ---
 
 Google’s latest report on **Gen Z trends and search behaviour in India** has a clear message for brands, publishers, and marketers: if you want to connect with Gen Z when they are most ready to act, you need to meet them in search.

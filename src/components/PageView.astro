@@ -1,0 +1,27 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ConsultingCTA from './ConsultingCTA.astro';
+
+const { page } = Astro.props as { page: CollectionEntry<'pages'> };
+const { Content } = await page.render();
+const { title, description, wide, noindex } = page.data;
+const legal = ['privacy-policy', 'terms-of-service'].includes(page.slug);
+---
+
+<BaseLayout
+  title={`${title} | Rudra Kasturi`}
+  description={description || undefined}
+  noindex={noindex}
+  breadcrumbs={[{ name: 'Home', url: '/' }, { name: title, url: `/${page.slug}/` }]}
+>
+  <div class={`wrap page-view ${wide ? 'page-wide' : ''}`}>
+    <div class="page-head">
+      <p class="label">{legal ? 'Legal' : 'Page'}</p>
+      <h1>{title}</h1>
+    </div>
+    <article class="prose"><Content /></article>
+    {!legal && <div class="page-cta"><ConsultingCTA /></div>}
+    <div style="height: 64px"></div>
+  </div>
+</BaseLayout>

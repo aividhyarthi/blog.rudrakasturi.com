@@ -4,6 +4,8 @@ date: 2025-06-20T04:42:17Z
 description: "Taking the Q&A google did Google Search Central Live 2025 – Warszawa Google HUB . Thanks Galus for Capturing the same in detail. Welcome to 2025, where the content is yours, the answer is Google's…"
 tag: "ai overview"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/06/visual-description-an-indian-man-in-kurta-pyjama-or-formal-wear-representing.webp"
+categories: ["AI","Google Search","SEO"]
+tags: ["ai overview","Google","Publishers","Rudra Kasturi","SEO"]
 ---
 
 Taking the Q&A google did [Google Search Central Live 2025 – Warszawa Google HUB](https://www.rankhouse.pl/blog/google-search-central-live-2025-warszawa-google-hub/). Thanks Galus for Capturing the same in detail.

@@ -4,6 +4,8 @@ date: 2025-04-02T02:05:59Z
 description: "The Big Switch-Off Are you tired of the endless cycle of bad news? You're not alone. Across the world, more and more people are choosing to avoid the news because it feels too negative, repetitive…"
 tag: "Negative news"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/create-a-featured-image-for-a-blog-post-titled-why-1.png"
+categories: ["Industry News"]
+tags: ["Negative news","News","News Avoidance","News Organisations","Non News","Rudra Kasturi","Traditional News"]
 ---
 
 #### **The Big Switch-Off**

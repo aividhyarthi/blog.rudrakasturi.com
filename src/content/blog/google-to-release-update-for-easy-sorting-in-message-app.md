@@ -4,6 +4,8 @@ date: 2021-07-12T15:46:23Z
 description: "Google is all geared up to launch two new features for Google's Messages app. This new feature has been introduced in order to offer a new method to read messages. users receive a variety of messages…"
 tag: "ads"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2021/07/working-in-office-2943747_1280.png"
+categories: ["SEO"]
+tags: ["ads","auto-categorised messages","Google","Google's Messages app","offers","One time passwords","OTP","search engine optimisation","SMS Categories"]
 ---
 
 Google is all geared up to launch two new features for Google's Messages app. This new feature has been introduced in order to offer a new method to read messages. users receive a variety of messages from friends and family as well as companies providing promotions, receipts, order confirmations, and other information, the company is offering a new method to read communications. 

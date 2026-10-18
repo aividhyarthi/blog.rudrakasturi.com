@@ -4,6 +4,8 @@ date: 2024-10-05T04:30:02Z
 description: "If you’ve been working on your website’s SEO, you may have come across something called “nofollow links.” But what are they, and do they actually help your site’s ranking in Google? Let’s break it…"
 tag: "bing seo"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2024/10/Nofollow-SEO-Links.webp"
+categories: ["Explainers","SEO"]
+tags: ["bing seo","explainers","google seo","nofollow","SEO"]
 ---
 
 If you’ve been working on your website’s SEO, you may have come across something called **“nofollow links.”** But what are they, and do they actually help your site’s ranking in Google? Let’s break it down in a way that’s easy to understand.

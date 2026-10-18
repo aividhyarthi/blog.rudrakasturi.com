@@ -4,6 +4,8 @@ date: 2026-07-07T03:43:31Z
 description: "SHOULD YOU BOTHER? Everyone's telling you to add \"llms.txt\" and Content-Signal headers to your website. Google says don't bother. A simple explanation of two trendy \"AI SEO\" tools, what a real test…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2026/07/llms-txt-featured-visual-notext.webp"
+categories: ["AEO","AI","SEO"]
+tags: ["ai","Google","Rudra Kasturi"]
 ---
 
 **SHOULD YOU BOTHER?**

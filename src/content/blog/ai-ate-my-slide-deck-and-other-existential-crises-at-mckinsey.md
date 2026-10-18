@@ -4,6 +4,8 @@ date: 2025-08-03T08:20:24Z
 description: "So, the Wall Street Journa l says AI is coming for consultants. Yes, those well-dressed folks who charge you five figures to tell you what you already know (but in prettier slides). Apparently…"
 tag: "ai"
 image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/08/generate-a-highly-detailed-high-resolution-image-that-visually-represents-the.webp"
+categories: ["AI","Industry News"]
+tags: ["ai","Consulting","Rudra Kasturi","Wall Street Journal"]
 ---
 
 So, the [Wall Street Journa](https://www.wsj.com/tech/ai/mckinsey-consulting-firms-ai-strategy-89fbf1be)l says AI is coming for consultants. Yes, those well-dressed folks who charge you five figures to tell you what you already know (but in prettier slides). Apparently, McKinsey the consulting world’s blue-blooded royalty now considers AI “existential.” Dramatic much?
