@@ -40,8 +40,14 @@ Cloudflare Pages, Netlify, Vercel or Railway (a Dockerfile is included).
 Build command: `npm run build`. Output folder: `dist`.
 
 ## Newsletter
-Open `src/config.ts`, find `NEWSLETTER`, and set `provider` (`'substack'` or `'buttondown'`) and `id` (your publication name).
-Until `id` is set the sidebar shows a "Follow on LinkedIn" button instead of a sign-up form.
+Sign-up forms appear in the sidebar, at the end of every article, on the homepage, and in a slide-in card that
+appears while someone reads (after scrolling about halfway, after 45 seconds, or when the mouse leaves toward the tab bar).
+It stays hidden for 14 days once closed and for good once someone subscribes.
+
+By default each sign-up is emailed to rudra@rudrakasturi.com (the first one triggers a one-time activation email from
+formsubmit.co: click the link). To send the weekly email you need a newsletter service. In `src/config.ts` set
+`NEWSLETTER.provider` to `'substack'` or `'buttondown'` and `NEWSLETTER.id` to your publication name. Then sign-ups go
+straight into that list.
 
 ## Cross-promotion
 - `APPRANKR_POSTS` in `src/config.ts` lists the AppRankr blog posts shown on the homepage and sidebar. Add a line per post (id, title, url, blurb).

@@ -17,21 +17,21 @@ export const START_HERE = [
   'how-instagram-reels-can-boost-your-google-search-presence',
 ];
 
-// Newsletter sign-up. Pick a provider and paste your publication / username below:
-//   provider: 'substack'   id: 'yourname'  ->  yourname.substack.com
-//   provider: 'buttondown' id: 'yourname'  ->  buttondown.com/yourname
-// Until an id is set, the sidebar shows a "Follow on LinkedIn" button instead of a form.
+// Newsletter sign-up.
+// provider 'formsubmit' (default): every sign-up is emailed to SITE.email as "New newsletter subscriber".
+//   The first sign-up triggers a one-time activation email from formsubmit.co: click the link in it.
+// provider 'substack' or 'buttondown': sign-ups go straight into that service's list; set `id` to your
+//   publication / username (yourname.substack.com or buttondown.com/yourname). Use one of these to send the weekly email.
 export const NEWSLETTER = {
-  provider: '' as '' | 'substack' | 'buttondown',
+  provider: 'formsubmit' as 'formsubmit' | 'substack' | 'buttondown',
   id: '',
-  title: 'The Search & AI brief',
-  blurb: 'One short email when something important changes in SEO, AEO and AI search. Plain English, no spam.',
+  title: 'The Search & AI Briefing',
+  blurb: 'A weekly briefing on what is changing in SEO, AEO and AI search, and what to do about it.',
 };
-export function newsletterAction(): string {
-  if (!NEWSLETTER.id) return '';
-  if (NEWSLETTER.provider === 'substack') return `https://${NEWSLETTER.id}.substack.com/api/v1/free?nojs=true`;
-  if (NEWSLETTER.provider === 'buttondown') return `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER.id}`;
-  return '';
+export function newsletterConfig(): { mode: 'ajax' | 'post'; action: string } {
+  if (NEWSLETTER.id && NEWSLETTER.provider === 'substack') return { mode: 'post', action: `https://${NEWSLETTER.id}.substack.com/api/v1/free?nojs=true` };
+  if (NEWSLETTER.id && NEWSLETTER.provider === 'buttondown') return { mode: 'post', action: `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER.id}` };
+  return { mode: 'ajax', action: `https://formsubmit.co/ajax/${SITE.email}` };
 }
 
 // Posts from the AppRankr blog, shown as cross-promotion. Each card links to apprankr.in.

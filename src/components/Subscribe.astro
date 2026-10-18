@@ -1,0 +1,67 @@
+---
+import { NEWSLETTER, SITE, newsletterConfig } from '../config';
+const { variant = 'box', heading = true } = Astro.props as { variant?: 'box' | 'inline' | 'popup'; heading?: boolean };
+const { mode, action } = newsletterConfig();
+---
+
+<div class={`subscribe subscribe-${variant}`}>
+  {heading && <h3>{NEWSLETTER.title}</h3>}
+  <p class="subscribe-blurb">{NEWSLETTER.blurb}</p>
+  <form class="subscribe-form" data-mode={mode} action={action} method="post" target={mode === 'post' ? '_blank' : undefined}>
+    <input type="email" name="email" required placeholder="Your email address" aria-label="Email address" autocomplete="email" />
+    {mode === 'ajax' && (
+      <>
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true" />
+        <input type="hidden" name="_subject" value="New newsletter subscriber" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="source" value={Astro.url.pathname} />
+      </>
+    )}
+    <button class="btn btn-mint" type="submit">Subscribe</button>
+  </form>
+  <p class="subscribe-status" role="status" aria-live="polite"></p>
+  <p class="subscribe-follow">Follow <a href={SITE.linkedin} rel="noopener">Rudra on LinkedIn</a> · <a href="/rss.xml">RSS</a></p>
+</div>
+
+<script>
+  const KEY = 'rk-subscribed';
+  const remember = () => { try { localStorage.setItem(KEY, '1'); } catch {} };
+
+  document.querySelectorAll<HTMLFormElement>('.subscribe-form').forEach((form) => {
+    const status = form.parentElement!.querySelector<HTMLElement>('.subscribe-status')!;
+    const button = form.querySelector<HTMLButtonElement>('button')!;
+
+    form.addEventListener('submit', async (e) => {
+      if (form.dataset.mode === 'post') {
+        // The provider's own page opens in a new tab and shows the real result (confirmation, CAPTCHA, errors).
+        remember();
+        status.textContent = 'Almost done: confirm your email address in the tab that just opened.';
+        return;
+      }
+      e.preventDefault();
+      button.disabled = true;
+      button.textContent = 'Subscribing…';
+      status.textContent = '';
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(Object.fromEntries(new FormData(form))),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !(data.success === true || data.success === 'true')) throw new Error('rejected');
+        remember();
+        form.hidden = true;
+        status.textContent = 'You are subscribed. The next briefing will arrive in your inbox.';
+        status.classList.add('ok');
+        document.dispatchEvent(new CustomEvent('rk:subscribed'));
+      } catch {
+        status.textContent = 'We could not complete your subscription. Please try again in a moment.';
+        status.classList.add('err');
+        button.disabled = false;
+        button.textContent = 'Subscribe';
+      }
+    });
+  });
+</script>

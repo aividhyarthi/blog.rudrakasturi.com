@@ -1,5 +1,5 @@
 ---
-title: "A plain-English checklist for AI search visibility"
+title: "A practical checklist for AI search visibility"
 date: 2026-10-18
 description: "A short checklist of what actually seems to matter for AI search, based on Google's guidance and the latest studies."
 tag: "AEO"
@@ -19,7 +19,7 @@ sources:
     publisher: "Search Engine Journal"
 ---
 
-You do not need a 50-page strategy. Here is a checklist you can work through this week. Each item links to the article that explains the reasoning.
+Work through this checklist over the next week. Each item links to the article that explains the reasoning.
 
 ## The basics (do these first)
 
@@ -29,7 +29,7 @@ You do not need a 50-page strategy. Here is a checklist you can work through thi
 
 ## The content
 
-- [ ] **Each key page answers the main question near the top**, in plain words.
+- [ ] **Each key page answers the main question near the top**, in direct language.
 - [ ] **Each page adds something original:** your data, your experience, your examples. Google calls this "non-commodity content".
 - [ ] **Follow-up questions are answered on the same page**, with clear headings. ([Query fan-out](/what-is-query-fan-out-and-how-should-it-change-how-you-write/))
 - [ ] **You do not make a page for every tiny variation.** That risks Google's scaled content rules.

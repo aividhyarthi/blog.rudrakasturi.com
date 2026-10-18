@@ -49,4 +49,4 @@ Several articles about these tests carry different dates, and most are trade rep
 1. **Do not move big budgets yet.** Treat ads in AI as experiments.
 2. Make sure your product feeds are clean. Both platforms lean on them.
 3. Fix your measurement so AI traffic is not hidden in "direct".
-4. Remember that organic visibility inside AI answers still matters. See [our checklist](/a-plain-english-checklist-for-ai-search-visibility/).
+4. Remember that organic visibility inside AI answers still matters. See [our checklist](/a-practical-checklist-for-ai-search-visibility/).

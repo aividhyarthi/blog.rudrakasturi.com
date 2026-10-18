@@ -22,7 +22,7 @@ sources:
     publisher: "Search Engine Land"
 ---
 
-You have probably seen three new terms this year: **AEO**, **GEO** and **AI SEO**. They sound like three new skills. Here is what they mean, in simple words.
+You have probably seen three new terms this year: **AEO**, **GEO** and **AI SEO**. They sound like three new skills. Here is what each one means.
 
 ## What the terms mean
 
@@ -61,4 +61,4 @@ Also, Google's guide is about Google. ChatGPT and Perplexity may weigh things di
 3. Be useful enough that other sites and communities talk about you.
 4. Treat advice from tool vendors as ideas to test, not rules.
 
-*Next: see [what query fan-out is](/what-is-query-fan-out-and-how-should-it-change-how-you-write/) and [a simple checklist for AI search](/a-plain-english-checklist-for-ai-search-visibility/).*
+*Next: see [what query fan-out is](/what-is-query-fan-out-and-how-should-it-change-how-you-write/) and [a practical checklist for AI search](/a-practical-checklist-for-ai-search-visibility/).*

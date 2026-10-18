@@ -22,7 +22,7 @@ sources:
     publisher: "Search Engine Land"
 ---
 
-A common question from marketers: "How do I rank in ChatGPT?" The honest answer is that there is no one ranking. Here is why.
+A common question from marketers: "How do I rank in ChatGPT?" In practice, there is no single ranking. Here is why.
 
 ## Every AI has different habits
 

@@ -1,7 +1,7 @@
 # How we write about SEO, AEO and AI search
 
-Goal: be the place people go to *understand* what is changing in search and AI, in plain English,
-with every claim traceable to a source.
+Goal: be the place people go to understand what is changing in search and AI, in clear and
+professional language, with every claim traceable to a source.
 
 ## Where stories come from
 Google Search Central and Googlers' public statements, Search Engine Roundtable (seroundtable.com),
@@ -15,7 +15,7 @@ Do not call sources out in headers, cards or the homepage (no "based on reportin
     date: 2026-10-18
     description: one sentence for Google
     tag: AEO            # topic; see GROUPS in src/lib/posts.ts
-    tldr: "Two or three simple sentences. This shows in the yellow 'In plain English' box."
+    tldr: "Two or three simple sentences. This shows in the 'Summary' box at the top."
     sources:
       - title: "Exact headline of the source article"
         url: "https://..."
@@ -30,3 +30,6 @@ Keep sentences short. Explain every acronym once. Link related articles on this 
 3. Never copy sentences from a source. Explain it in new words and link the original.
 4. Say what we could not confirm. Never fill gaps with guesses.
 5. Date-stamp anything that will go out of date. Update `updated:` when you revise.
+
+## Tone
+Write as a senior practitioner: clear, direct, specific. Avoid chatty fillers ("in plain English", "honestly", "the simple version", "a small twist") and exclamation marks.

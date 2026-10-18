@@ -22,7 +22,7 @@ sources:
     publisher: "Search Engine Land"
 ---
 
-If you publish on YouTube, two October announcements matter. Here they are in plain words.
+If you publish on YouTube, two October announcements matter. Here is what changed.
 
 ## 1. Less reach for reposted clips (October 1)
 
@@ -49,7 +49,7 @@ In May 2026 YouTube said it would automatically label undisclosed photorealistic
 
 1. Add your own voice, commentary or new angle to every clip you use.
 2. Say clearly what each Short answers, in the title and the first words you speak, so a question-based feature can understand it.
-3. Label AI-made content honestly.
+3. Label AI-made content accurately.
 4. Treat Ask YouTube as a test. Do not rebuild your plan around it yet.
 
 *Related: [How to do YouTube SEO for Shorts](/how-to-do-youtube-seo-for-youtube-shorts-simple-tips-with-examples/).*

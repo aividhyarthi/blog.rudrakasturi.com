@@ -1,0 +1,55 @@
+---
+import Subscribe from './Subscribe.astro';
+import { NEWSLETTER } from '../config';
+---
+
+<div class="nl-popup" id="nl-popup" role="dialog" aria-labelledby="nl-popup-title" hidden>
+  <button type="button" class="nl-close" aria-label="Close">&times;</button>
+  <h3 id="nl-popup-title">{NEWSLETTER.title}</h3>
+  <Subscribe variant="popup" heading={false} />
+</div>
+
+<script>
+  // A slide-in card, not a full-screen overlay, so it never blocks the article.
+  const popup = document.getElementById('nl-popup')!;
+  const SNOOZE_DAYS = 14;
+  const read = (k: string) => { try { return localStorage.getItem(k); } catch { return null; } };
+  const write = (k: string, v: string) => { try { localStorage.setItem(k, v); } catch {} };
+
+  const snoozed = () => {
+    if (read('rk-subscribed')) return true;
+    const t = Number(read('rk-popup-closed') || 0);
+    return t > 0 && Date.now() - t < SNOOZE_DAYS * 864e5;
+  };
+
+  if (!snoozed()) {
+    let shown = false;
+    const show = () => {
+      if (shown || snoozed()) return;
+      shown = true;
+      popup.hidden = false;
+      requestAnimationFrame(() => popup.classList.add('open'));
+    };
+    const hide = () => {
+      popup.classList.remove('open');
+      write('rk-popup-closed', String(Date.now()));
+      setTimeout(() => (popup.hidden = true), 300);
+    };
+
+    const onScroll = () => {
+      const max = document.documentElement.scrollHeight - innerHeight;
+      if (max > 0 && scrollY / max > 0.45) show();
+    };
+    addEventListener('scroll', onScroll, { passive: true });
+    setTimeout(show, 45000);
+    // Desktop exit intent, after the reader has been here for a while
+    const opened = Date.now();
+    document.addEventListener('mouseout', (e) => {
+      if (e.clientY <= 0 && !e.relatedTarget && Date.now() - opened > 10000) show();
+    });
+
+    popup.querySelector('.nl-close')!.addEventListener('click', hide);
+    addEventListener('keydown', (e) => { if (e.key === 'Escape' && popup.classList.contains('open')) hide(); });
+    document.addEventListener('rk:subscribed', () => setTimeout(hide, 3500));
+  }
+</script>

@@ -6,6 +6,8 @@ import Carousel from '../components/Carousel.astro';
 import ConsultingCTA from '../components/ConsultingCTA.astro';
 import Sidebar from '../components/Sidebar.astro';
 import AuditBanner from '../components/AuditBanner.astro';
+import Subscribe from '../components/Subscribe.astro';
+import NewsletterPopup from '../components/NewsletterPopup.astro';
 import { SITE } from '../config';
 
 export async function getStaticPaths() {
@@ -83,7 +85,7 @@ const crumbs = [
         </p>
       </header>
       <div class="post-hero"><img src={coverUrl(post)} alt="" width="1200" height="630" /></div>
-      {tldr && <div class="tldr"><b>IN PLAIN ENGLISH</b><p>{tldr}</p></div>}
+      {tldr && <div class="tldr"><b>SUMMARY</b><p>{tldr}</p></div>}
       <article class="prose"><Content /></article>
 
       {sources.length > 0 && (
@@ -95,11 +97,15 @@ const crumbs = [
         </section>
       )}
 
+      <section class="subscribe-band"><Subscribe variant="inline" /></section>
+
       <AuditBanner medium="article" />
       <ConsultingCTA />
     </div>
     <Sidebar exclude={post.slug} />
   </div>
+
+  <NewsletterPopup />
 
   {related.length > 0 && (
     <div class="wrap related">

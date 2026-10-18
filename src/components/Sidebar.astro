@@ -1,7 +1,8 @@
 ---
 import { getAllPosts, getTopics, getTags, topicOf, formatDate } from '../lib/posts';
 import { coverUrl } from '../lib/cover';
-import { NEWSLETTER, newsletterAction, START_HERE, SITE, TOOLS, APPRANKR_POSTS, utm } from '../config';
+import Subscribe from './Subscribe.astro';
+import { START_HERE, TOOLS, APPRANKR_POSTS, utm } from '../config';
 
 const { exclude = '' } = Astro.props as { exclude?: string };
 const all = await getAllPosts();
@@ -10,26 +11,12 @@ const must = START_HERE.map((s) => all.find((p) => p.slug === s)).filter((p) => 
 const topics = getTopics(all).filter((t) => t.count >= 3);
 const tags = getTags(all, 4).slice(0, 18);
 const tool = TOOLS[0];
-const action = newsletterAction();
 const appr = TOOLS.find((t) => t.name === 'AppRankr')!;
 ---
 
 <aside class="sidebar">
-  <section class="box box-news" id="subscribe">
-    <h3>{NEWSLETTER.title}</h3>
-    <p>{NEWSLETTER.blurb}</p>
-    {action ? (
-      <>
-        <form class="news-form" action={action} method="post" target="news-frame">
-          <input type="email" name="email" placeholder="you@company.com" required aria-label="Your email" />
-          <button class="btn btn-mint" type="submit">Subscribe</button>
-        </form>
-        <p class="news-msg" hidden>Thanks! Please check your inbox to confirm.</p>
-        <iframe name="news-frame" title="Newsletter sign-up" hidden></iframe>
-      </>
-    ) : (
-      <a class="btn btn-mint" href={SITE.linkedin} rel="noopener" style="display:block;text-align:center">Follow on LinkedIn</a>
-    )}
+  <section class="box box-news">
+    <Subscribe variant="box" />
   </section>
 
   <section class="box">
@@ -81,13 +68,3 @@ const appr = TOOLS.find((t) => t.name === 'AppRankr')!;
   </section>
 </aside>
 
-<script>
-  const form = document.querySelector<HTMLFormElement>('.news-form');
-  form?.addEventListener('submit', () => {
-    // The form posts into a hidden frame; show a thank-you right away.
-    setTimeout(() => {
-      form.hidden = true;
-      document.querySelector<HTMLElement>('.news-msg')!.hidden = false;
-    }, 600);
-  });
-</script>

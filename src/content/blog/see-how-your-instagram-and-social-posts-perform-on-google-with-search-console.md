@@ -47,7 +47,7 @@ Instagram's own search leans on captions and keywords, matching them to username
 ## What to do
 
 1. Connect your account in Search Console and note the queries that bring people in.
-2. Write captions in plain words people would search, not only hashtags.
+2. Write captions in the words people actually search for, not only hashtags.
 3. Add alt text to images. It may help visibility, and it helps accessibility.
 4. Use the query data to decide your next posts. If people find you for a question, answer it again in a Reel.
 

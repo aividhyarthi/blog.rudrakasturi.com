@@ -19,7 +19,7 @@ sources:
     publisher: "Search Engine Land"
 ---
 
-On October 15, 2026 Google announced another round of changes to how links appear in AI Overviews and AI Mode. Here is the simple version.
+On October 15, 2026 Google announced another round of changes to how links appear in AI Overviews and AI Mode. Here is a summary.
 
 ## What changed
 

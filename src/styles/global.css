@@ -336,6 +336,39 @@ mark { background: linear-gradient(transparent 58%, var(--mint) 58%); color: inh
 .audit-banner .btn:hover { background: #000; }
 .ext-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
 .ext-grid .card h3 { font-size: 1rem; }
-.news-msg { margin-top: 10px; font-weight: 700; color: var(--mint) !important; }
 @media (max-width: 1000px) { .ext-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .ext-grid { grid-template-columns: 1fr; } .audit-banner { padding: 22px; } }
+
+/* ---------- Subscribe forms and slide-in popup ---------- */
+.subscribe h3 { font-size: 1.35rem; margin-bottom: 8px; }
+.subscribe-blurb { margin-bottom: 14px; }
+.subscribe-form { display: flex; gap: 10px; }
+.subscribe-form input[type="email"] { flex: 1; min-width: 0; font: inherit; padding: 12px 14px; border-radius: 8px; border: 2px solid var(--ink); color: var(--ink); background: #fff; }
+.subscribe-form .btn { cursor: pointer; font: inherit; font-weight: 700; white-space: nowrap; }
+.subscribe-form .btn:disabled { opacity: 0.6; cursor: wait; }
+.subscribe-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.subscribe-status { margin-top: 10px; font-weight: 700; font-size: 0.95rem; min-height: 1px; }
+.subscribe-status.ok { color: var(--green); }
+.subscribe-status.err { color: #c62828; }
+.subscribe-follow { margin-top: 12px; font-size: 0.88rem; }
+.subscribe-follow a { font-weight: 700; }
+.subscribe-box .subscribe-form, .subscribe-popup .subscribe-form { flex-direction: column; }
+.subscribe-box h3, .subscribe-box .subscribe-blurb, .subscribe-box .subscribe-follow, .subscribe-box .subscribe-follow a { color: #fff; }
+.subscribe-box .subscribe-blurb { color: #e3e8ff; }
+.subscribe-box .subscribe-status.ok, .subscribe-popup .subscribe-status.ok { color: var(--mint); }
+.subscribe-box .subscribe-status.err, .subscribe-popup .subscribe-status.err { color: #ffd0cc; }
+.subscribe-popup .subscribe-blurb, .subscribe-popup .subscribe-follow, .subscribe-popup .subscribe-follow a { color: #e3e8ff; }
+.subscribe-band { margin: 32px 0 0; }
+.subscribe-inline { border: 2px solid var(--ink); border-radius: 14px; padding: 28px; background: #fff; }
+.subscribe-inline h3 { font-size: 1.6rem; }
+.section-tint .subscribe-inline { max-width: 760px; margin: 0 auto; }
+.nl-popup { position: fixed; right: 20px; bottom: 20px; width: min(390px, calc(100vw - 32px)); z-index: 60; background: var(--cobalt); color: #fff; border-radius: 14px; padding: 24px; box-shadow: 0 24px 70px rgba(11, 16, 48, 0.4); transform: translateY(130%); opacity: 0; transition: transform 0.35s ease, opacity 0.35s ease; }
+.nl-popup.open { transform: none; opacity: 1; }
+.nl-popup h3 { color: #fff; font-size: 1.5rem; margin: 0 28px 8px 0; }
+.nl-close { position: absolute; top: 8px; right: 10px; width: 34px; height: 34px; border: 0; background: transparent; color: #fff; font-size: 1.7rem; line-height: 1; cursor: pointer; border-radius: 50%; }
+.nl-close:hover { background: rgba(255, 255, 255, 0.16); }
+@media (prefers-reduced-motion: reduce) { .nl-popup { transition: none; } }
+@media (max-width: 600px) {
+  .nl-popup { right: 8px; left: 8px; bottom: 8px; width: auto; padding: 18px; }
+  .subscribe-form { flex-direction: column; }
+}

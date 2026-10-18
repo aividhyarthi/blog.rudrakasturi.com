@@ -23,7 +23,7 @@ interface Props {
 const {
   title, image, pageType = 'WebPage', breadcrumbs, jsonld = [], personExtra = {}, mainEntityId,
   ogType = 'website', published, modified, section, noindex = false,
-  description = 'Plain-English explainers on SEO, AEO, AI search, YouTube and social. By Rudra Kasturi.',
+  description = 'Clear, sourced analysis of SEO, AEO, AI search, YouTube and social. By Rudra Kasturi.',
 } = Astro.props;
 const currentPath = Astro.url.pathname;
 const nav = [
@@ -52,7 +52,7 @@ const graph: Record<string, unknown>[] = [
   },
   {
     '@type': 'WebSite', '@id': siteId, url: `${origin}/`, name: 'Rudra Kasturi',
-    description: 'Plain-English explainers on SEO, AEO and AI search by Rudra Kasturi.',
+    description: 'Clear, sourced analysis of SEO, AEO and AI search by Rudra Kasturi.',
     publisher: { '@id': orgId }, inLanguage: 'en',
   },
   {
@@ -145,6 +145,7 @@ const robots = noindex
             <li><a href="/category/">Topics</a></li>
             <li><a href="/research">Research &amp; case studies</a></li>
             <li><a href="/about">About Rudra</a></li>
+            <li><a href="/#subscribe">Newsletter</a></li>
             <li><a href="/work-with-me">Work with me</a></li>
             <li><a href="/companies">Companies &amp; tools</a></li>
           </ul>
