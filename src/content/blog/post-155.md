@@ -1,6 +1,6 @@
 ---
 title: "Crawl budget"
-date: 2026-10-18T15:31:11.537Z
+date: 2026-10-18T15:38:53.704Z
 description: "Crawl budget, also known as crawl space or crawl time, is a term used to describe the amount of time spent for crawling by the search engine. The amount of atte"
 draft: true
 ---

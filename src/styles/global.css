@@ -202,3 +202,17 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; line-height: 1.12;
 }
 
 .hero-grid > *, .two-up > *, .section-head > *, .entry > * { min-width: 0; }
+
+/* ---------- Topic chips and list ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 18px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); font-size: 0.88rem; }
+.chips-label { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-right: 8px; }
+.chips a { text-decoration: none; border: 1px solid var(--ink); padding: 5px 12px; }
+.chips a:hover { background: var(--ink); color: var(--paper); }
+.chips small { font-family: var(--mono); color: var(--muted); }
+.chips a:hover small { color: #cfc8b9; }
+.entry-kicker a { text-decoration: none; }
+.entry-kicker a:hover { color: var(--accent); }
+.topic-list { border-top: 2px solid var(--ink); }
+.topic-row { display: flex; justify-content: space-between; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--rule); text-decoration: none; font-family: var(--serif); font-size: 1.5rem; font-weight: 700; }
+.topic-row small { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); font-weight: 400; }
+.topic-row:hover { color: var(--accent); }

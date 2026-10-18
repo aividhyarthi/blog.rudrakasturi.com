@@ -1,5 +1,5 @@
 ---
-import { getAllPosts, formatDate, readingTime } from '../../lib/posts';
+import { getAllPosts, formatDate, readingTime, topicOf } from '../../lib/posts';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostEntry from '../../components/PostEntry.astro';
 import ConsultingCTA from '../../components/ConsultingCTA.astro';
@@ -10,20 +10,21 @@ export async function getStaticPaths() {
     params: { slug: post.slug },
     props: {
       post,
-      related: posts.filter((p) => p.slug !== post.slug && post.data.tag && p.data.tag === post.data.tag).slice(0, 3),
+      related: posts.filter((p) => p.slug !== post.slug && topicOf(p).slug === topicOf(post).slug).slice(0, 3),
     },
   }));
 }
 
 const { post, related } = Astro.props;
 const { Content } = await post.render();
-const { title, description, date, updated, tag, image, type } = post.data;
+const { title, description, date, updated, image, type } = post.data;
+const topic = topicOf(post);
 const label = { article: 'Article', research: 'Research', 'case-study': 'Case study' }[type];
 ---
 
 <BaseLayout title={`${title} | Rudra Kasturi`} description={description || undefined}>
   <header class="article-head">
-    <p class="label">{label}{tag && ` · ${tag}`}</p>
+    <p class="label">{label} · <a href={`/category/${topic.slug}/`} style="text-decoration:none">{topic.name}</a></p>
     <h1>{title}</h1>
     <p class="byline">
       By Rudra Kasturi · {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}

@@ -90,7 +90,12 @@ for (const item of items) {
   const status = text(item['wp:status']);
   if (status !== 'publish' && status !== 'draft') continue;
 
-  const slug = text(item['wp:post_name']) || `post-${text(item['wp:post_id'])}`;
+  const rawSlug = text(item['wp:post_name']);
+  let decoded = rawSlug;
+  try { decoded = decodeURIComponent(rawSlug); } catch {}
+  const slug =
+    decoded.toLowerCase().replace(/[^\p{L}\p{N}-]+/gu, '-').replace(/-+/g, '-').replace(/^-|-$/g, '') ||
+    `post-${text(item['wp:post_id'])}`;
   let html = clean(text(item['content:encoded']));
   if (downloadImages) html = await localiseImages(html, slug);
   for (const m of html.matchAll(/<img[^>]+src="([^"]+)"/g)) mediaUrls.add(m[1]);

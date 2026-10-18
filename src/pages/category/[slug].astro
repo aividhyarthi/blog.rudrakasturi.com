@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostEntry from '../../components/PostEntry.astro';
+import ConsultingCTA from '../../components/ConsultingCTA.astro';
+import { getAllPosts, getTopics, topicOf } from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getAllPosts();
+  return getTopics(posts).map((t) => ({
+    params: { slug: t.slug },
+    props: { topic: t, posts: posts.filter((p) => topicOf(p).slug === t.slug) },
+  }));
+}
+
+const { topic, posts } = Astro.props;
+---
+
+<BaseLayout title={`${topic.name} | Rudra Kasturi`} description={`Articles on ${topic.name} by Rudra Kasturi.`}>
+  <div class="wrap">
+    <div class="page-head">
+      <p class="label"><a href="/category/" style="text-decoration:none">Topics</a> / {topic.name}</p>
+      <h1>{topic.name}</h1>
+      <p class="lede">{topic.count} {topic.count === 1 ? 'post' : 'posts'}, newest first.</p>
+    </div>
+    {posts.map((p) => <PostEntry post={p} />)}
+    <div style="height: 24px"></div>
+    <ConsultingCTA />
+    <div style="height: 72px"></div>
+  </div>
+</BaseLayout>

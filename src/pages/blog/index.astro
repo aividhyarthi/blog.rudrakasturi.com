@@ -1,9 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostEntry from '../../components/PostEntry.astro';
-import { getAllPosts } from '../../lib/posts';
+import { getAllPosts, getTopics } from '../../lib/posts';
 
 const posts = await getAllPosts();
+const topics = getTopics(posts).filter((t) => t.count >= 3).slice(0, 10);
 const years = [...new Set(posts.map((p) => p.data.date.getUTCFullYear()))];
 ---
 
@@ -14,6 +15,11 @@ const years = [...new Set(posts.map((p) => p.data.date.getUTCFullYear()))];
       <h1>Notes on search, AI and growth</h1>
       <p class="lede">{posts.length} posts, newest first. Looking for deeper work? See the <a href="/research">research and case studies</a>.</p>
     </div>
+    <nav class="chips" aria-label="Topics">
+      <span class="chips-label">Browse by topic</span>
+      {topics.map((t) => <a href={`/category/${t.slug}/`}>{t.name} <small>{t.count}</small></a>)}
+      <a href="/category/">All topics &rarr;</a>
+    </nav>
     {years.map((y) => (
       <section>
         <h2 class="year">{y}</h2>

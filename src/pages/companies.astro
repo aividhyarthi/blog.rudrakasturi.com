@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE, TOOLS, COMPANIES, mailto } from '../config';
+---
+
+<BaseLayout title="Companies & Tools | Rudra Kasturi" description="Companies I founded and partner with, and the software tools I've built.">
+  <div class="wrap">
+    <div class="page-head">
+      <p class="label">Companies &amp; tools</p>
+      <h1>The group behind the work</h1>
+      <p class="lede">Alongside consulting, I build and back companies and software. Each one grew out of a problem I kept seeing in the field.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><p class="label">Group companies</p><h2>Founded and partnered</h2></div>
+      <div class="record">
+        {COMPANIES.map((c) => (
+          <div class="record-row">
+            <div><h3>{c.name}</h3><p class="role">{c.host}</p></div>
+            <div><p>{c.blurb}</p><p style="margin-top:10px"><a class="go" href={c.url} rel="noopener"><b>Visit {c.host} &rarr;</b></a></p></div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tinted">
+    <div class="wrap">
+      <div class="section-head"><p class="label">Tools</p><h2>Software you can use today</h2></div>
+      <div class="cols-2">
+        {TOOLS.map((t, i) => (
+          <div class="col"><span class="num">0{i + 1}</span><h3>{t.name}</h3><p>{t.blurb}</p><a class="go" href={t.url} rel="noopener">Open {t.name} &rarr;</a><span class="host">{t.host}</span></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="wrap">
+      <p class="label label-light">Partnerships</p>
+      <h2 style="margin-top: 14px;">Interested in working together?</h2>
+      <p>For consulting, partnerships or speaking, write to me directly.</p>
+      <a class="btn" href={mailto}>Email {SITE.email}</a>
+    </div>
+  </section>
+</BaseLayout>
