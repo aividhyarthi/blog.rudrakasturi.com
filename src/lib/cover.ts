@@ -89,6 +89,15 @@ const MOTIFS: Record<string, (p: P, r: () => number) => string> = {
     <rect x="-40" y="-20" width="300" height="190" rx="40" fill="${p.accent}"/>
     <path d="M200 170l30 66-70-40z" fill="${p.accent}"/>
     <circle cx="20" cy="75" r="14" fill="${p.bg}"/><circle cx="70" cy="75" r="14" fill="${p.bg}"/><circle cx="120" cy="75" r="14" fill="${p.bg}"/>`,
+  phone: (p) => `
+    <rect x="-120" y="-215" width="240" height="430" rx="44" fill="${p.fg}"/>
+    <rect x="-100" y="-190" width="200" height="380" rx="28" fill="${p.bg}" opacity=".16"/>
+    <rect x="-34" y="-205" width="68" height="14" rx="7" fill="${p.bg}" opacity=".5"/>
+    <rect x="-80" y="-150" width="50" height="50" rx="14" fill="${p.accent}"/><rect x="-18" y="-150" width="50" height="50" rx="14" fill="${p.soft}"/><rect x="44" y="-150" width="40" height="50" rx="14" fill="${p.bg}" opacity=".4"/>
+    <rect x="-80" y="-84" width="50" height="50" rx="14" fill="${p.soft}"/><rect x="-18" y="-84" width="50" height="50" rx="14" fill="${p.bg}" opacity=".4"/><rect x="44" y="-84" width="40" height="50" rx="14" fill="${p.accent}"/>
+    <rect x="-80" y="0" width="164" height="22" rx="11" fill="${p.bg}" opacity=".35"/><rect x="-80" y="38" width="120" height="22" rx="11" fill="${p.bg}" opacity=".35"/>
+    <rect x="-80" y="100" width="40" height="80" rx="8" fill="${p.accent}"/><rect x="-26" y="76" width="40" height="104" rx="8" fill="${p.soft}"/><rect x="28" y="50" width="40" height="130" rx="8" fill="${p.accent}"/>
+    ${star(150, -190, 46, p.accent)}`,
   blocks: (p) => `
     <rect x="-240" y="-170" width="260" height="200" rx="34" fill="${p.fg}"/>
     <rect x="40" y="-170" width="200" height="130" rx="34" fill="${p.accent}"/>
@@ -96,7 +105,8 @@ const MOTIFS: Record<string, (p: P, r: () => number) => string> = {
     <rect x="-240" y="50" width="260" height="120" rx="34" fill="${p.accent}" opacity=".9"/>`,
 };
 
-function motifFor(post: Post, rand: () => number): string {
+function motifFor(post: Post, rand: () => number, forced?: string): string {
+  if (forced) return forced;
   const topic = topicOf(post).name;
   const hay = `${post.data.title} ${post.data.tag ?? ''}`.toLowerCase();
   if (/reddit|forum|community|comment|thread|conversation/.test(hay)) return 'bubbles';
@@ -111,11 +121,11 @@ function motifFor(post: Post, rand: () => number): string {
   return rand() > 0.5 ? 'blocks' : 'bubbles';
 }
 
-export function coverSvg(post: Post): string {
+export function coverSvg(post: Post, forceMotif?: string): string {
   const seed = hash(post.slug);
   const rand = rng(seed);
   const pal = PALETTES[seed % PALETTES.length];
-  const motif = motifFor(post, rand);
+  const motif = motifFor(post, rand, forceMotif);
   const flipRoll = rand() > 0.5 ? -1 : 1;
   const flip = motif === 'youtube' || motif === 'social' || motif === 'bubbles' ? 1 : flipRoll;
   const rot = Math.round((rand() - 0.5) * 24);

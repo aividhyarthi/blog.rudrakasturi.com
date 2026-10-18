@@ -1,0 +1,28 @@
+---
+import { APPRANKR_POSTS, TOOLS, utm } from '../config';
+const tool = TOOLS.find((t) => t.name === 'AppRankr')!;
+---
+
+<section class="section section-sky">
+  <div class="wrap">
+    <div class="rail-head">
+      <div>
+        <p class="label">App store insights</p>
+        <h2>From the AppRankr blog</h2>
+      </div>
+      <div class="rail-nav"><a class="btn" href={utm(tool.url, 'home-section')} rel="noopener">Try AppRankr &rarr;</a></div>
+    </div>
+    <div class="ext-grid">
+      {APPRANKR_POSTS.map((p) => (
+        <article class="card c1">
+          <a href={utm(p.url, 'blog-card')} class="card-img" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src={`/covers/ext-${p.id}.svg`} alt="" loading="lazy" width="1200" height="630" />
+          </a>
+          <p class="entry-kicker"><a href={utm(tool.url, 'blog-card')} rel="noopener">AppRankr Blog</a></p>
+          <h3><a href={utm(p.url, 'blog-card')} rel="noopener">{p.title}</a></h3>
+          <p class="entry-meta">{p.blurb}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

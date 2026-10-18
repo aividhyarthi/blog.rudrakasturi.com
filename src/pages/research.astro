@@ -12,5 +12,7 @@ const posts = (await getAllPosts()).filter((p) => p.data.type !== 'article');
   heading="Research and case studies"
   lede="Original analysis and real results from scaling digital businesses. The first studies are being written; meanwhile, browse the articles."
   posts={pageOf(posts, 1)}
+  trail={[{ name: 'Research', url: '/research/' }]}
+  totalCount={posts.length}
   base="/research/"
 />

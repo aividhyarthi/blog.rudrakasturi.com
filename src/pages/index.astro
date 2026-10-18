@@ -2,7 +2,10 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostEntry from '../components/PostEntry.astro';
 import Carousel from '../components/Carousel.astro';
-import { getAllPosts, getTopics, readingTime, topicOf, sourceLine, mixedLatest, HUBS, slugify } from '../lib/posts';
+import AuditBanner from '../components/AuditBanner.astro';
+import AppRankrSection from '../components/AppRankrSection.astro';
+import Subscribe from '../components/Subscribe.astro';
+import { getAllPosts, getTopics, readingTime, topicOf, mixedLatest, HUBS, slugify } from '../lib/posts';
 import { SITE, TOOLS, START_HERE, YEARS, mailto } from '../config';
 
 const all = await getAllPosts();
@@ -12,18 +15,28 @@ const latest = mixedLatest(all, 8, [featured.slug]);
 const rails = HUBS.map((name) => ({ name, slug: slugify(name), posts: all.filter((p) => topicOf(p).name === name).slice(0, 9) })).filter((r) => r.posts.length >= 3);
 const start = START_HERE.map((slug) => all.find((p) => p.slug === slug)).filter((p) => p !== undefined);
 const topics = getTopics(all).filter((t) => t.count >= 3);
-const featuredVia = sourceLine(featured);
+const origin = new URL(Astro.site!).origin;
+const home = [
+  {
+    '@type': 'Blog', '@id': `${origin}/#blog`, url: `${origin}/blog/`, name: 'Rudra Kasturi: SEO, AEO & AI search, explained',
+    publisher: { '@id': `${origin}/#organization` }, author: { '@id': `${origin}/#rudra` }, inLanguage: 'en',
+  },
+  {
+    '@type': 'ItemList', '@id': `${origin}/#latest`, name: 'Latest articles',
+    itemListElement: [featured, ...latest].map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })),
+  },
+];
 ---
 
-<BaseLayout title="Rudra Kasturi | SEO, AEO & AI Search, Explained in Plain English">
+<BaseLayout title="Rudra Kasturi | SEO, AEO & AI Search Analysis" description="Clear, sourced analysis of SEO, AEO, AI search, YouTube and Instagram. By Rudra Kasturi: 24+ years in search, ex-Amazon, Yahoo, Times Internet, BYJU's." jsonld={home} mainEntityId={`${origin}/#latest`}>
   <section class="hero on-blue">
     <div class="wrap hero-grid">
       <div>
         <p class="label">SEO · AEO · LLMs · YouTube · Instagram</p>
-        <h1 class="display">Search is being rewritten by AI. Here's what it means, <mark>in plain English.</mark></h1>
+        <h1 class="display">Search is being rewritten by AI. <mark>What it means for your business.</mark></h1>
         <p class="lede">
-          New articles on what Google, ChatGPT, YouTube and Instagram are changing, what the experts are arguing about,
-          and what you should actually do. Every story links to its original source.
+          Analysis of what Google, ChatGPT, YouTube and Instagram are changing, what the experts are debating,
+          and what to do about it.
         </p>
         <div class="hero-actions">
           <a class="btn btn-mint" href="#start">Start here</a>
@@ -31,32 +44,25 @@ const featuredVia = sourceLine(featured);
         </div>
       </div>
       <article class="feature">
-        <p class="label">Latest explainer · {topicOf(featured).name}</p>
-        <h2><a href={`/blog/${featured.slug}/`}>{featured.data.title}</a></h2>
+        <p class="label">Featured · {topicOf(featured).name}</p>
+        <h2><a href={`/${featured.slug}/`}>{featured.data.title}</a></h2>
         <p>{featured.data.tldr ?? featured.data.description}</p>
-        <p class="entry-meta">{readingTime(featured)} min read{featuredVia && <> · via {featuredVia}</>}</p>
+        <p class="entry-meta">{readingTime(featured)} min read</p>
       </article>
     </div>
   </section>
-
-  <div class="sources-strip">
-    <div class="wrap">
-      <b>We follow:</b>
-      <span>Google Search Central</span><span>Search Engine Roundtable</span><span>Search Engine Land</span><span>Search Engine Journal</span><span>YouTube &amp; Instagram creator updates</span>
-    </div>
-  </div>
 
   {start.length > 0 && (
     <section class="section" id="start">
       <div class="wrap">
         <div class="section-head">
-          <p class="label">New to AEO and AI search?</p>
+          <p class="label">Start here</p>
           <h2>Start with these four</h2>
-          <p class="sub">From AI search to YouTube and Instagram: the questions everyone is asking, answered without jargon.</p>
+          <p class="sub">Essential reading across AI search, YouTube and Instagram.</p>
         </div>
         <div class="tiles">
           {start.map((p, i) => (
-            <a class={`tile t${i % 4}`} href={`/blog/${p.slug}/`}>
+            <a class={`tile t${i % 4}`} href={`/${p.slug}/`}>
               <small>{topicOf(p).name} · {readingTime(p)} min</small>
               <h3>{p.data.title}</h3>
             </a>
@@ -69,7 +75,7 @@ const featuredVia = sourceLine(featured);
   <section class="section section-tint">
     <div class="wrap">
       <div class="section-head">
-        <p class="label">Fresh from the field</p>
+        <p class="label">Latest</p>
         <h2>The latest across search, AI and social</h2>
       </div>
       {latest.map((p) => <PostEntry post={p} />)}
@@ -98,31 +104,19 @@ const featuredVia = sourceLine(featured);
     </div>
   </section>
 
-  <section class="section section-orange">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label" style="color: var(--ink)">Free to try</p>
-        <h2>Check your own site</h2>
-        <p class="sub">Two tools built from the same methods I use with clients.</p>
-      </div>
-      <div class="cols-2">
-        {TOOLS.map((t) => (
-          <div class="col">
-            <h3>{t.name}</h3>
-            <p>{t.blurb}</p>
-            <a class="go" href={t.url} rel="noopener">Open {t.name} &rarr;</a>
-            <span class="host">{t.host}</span>
-          </div>
-        ))}
-      </div>
-    </div>
+  <div class="wrap" style="padding-top: 24px; padding-bottom: 56px;"><AuditBanner medium="home" /></div>
+
+  <AppRankrSection />
+
+  <section class="section section-tint" id="subscribe">
+    <div class="wrap"><Subscribe variant="inline" /></div>
   </section>
 
   <section class="contact">
     <div class="wrap">
       <p class="label">Written by Rudra Kasturi</p>
       <h2>{YEARS} years in search, now explaining where it goes next.</h2>
-      <p>I also advise teams on search and AI strategy. If that's useful to you, say hello.</p>
+      <p>I also advise teams on search and AI strategy. To discuss working together, get in touch.</p>
       <a class="btn btn-mint" href="/about">About Rudra</a>
       <a class="btn btn-ghost" href={mailto}>Email {SITE.email}</a>
     </div>

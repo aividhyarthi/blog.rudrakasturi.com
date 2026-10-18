@@ -39,7 +39,7 @@ Some help pages say the rollout is still in progress, so you may not see the rep
 
 This is a separate setting that lets you exclude your site's links and content from AI Overviews, AI Mode and Discover's AI features. Google says it reached all websites worldwide as of August 31, 2026.
 
-Think carefully before using it. Opting out can also affect features like **Preferred Sources** (see [what changed on October 15](/blog/google-ai-mode-and-ai-overviews-now-show-more-links-what-changed-on-october-15/)).
+Think carefully before using it. Opting out can also affect features like **Preferred Sources** (see [what changed on October 15](/google-ai-mode-and-ai-overviews-now-show-more-links-what-changed-on-october-15/)).
 
 ## 3. robots.txt and Google-Extended: a different thing
 

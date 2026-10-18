@@ -22,7 +22,7 @@ sources:
     publisher: "Search Engine Land"
 ---
 
-A common question from marketers: "How do I rank in ChatGPT?" The honest answer is that there is no one ranking. Here is why.
+A common question from marketers: "How do I rank in ChatGPT?" In practice, there is no single ranking. Here is why.
 
 ## Every AI has different habits
 
@@ -52,4 +52,4 @@ Several guides repeat these ideas. Most come from tool vendors, so test them you
 3. Fix the gaps: missing pages, missing mentions, or blocked crawlers.
 4. Do not believe anyone who promises a guaranteed AI ranking.
 
-*Start with the basics: [AEO, GEO and AI SEO explained](/blog/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says/).*
+*Start with the basics: [AEO, GEO and AI SEO explained](/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says/).*

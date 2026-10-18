@@ -7,12 +7,14 @@ const all = await getAllPosts();
 
 <Listing
   title="Articles | Rudra Kasturi"
-  description="Articles on SEO, AEO, AI search, YouTube and social, explained in plain English."
+  description="Articles on SEO, AEO, AI search, YouTube and social, analysis and practical guidance."
   label="Articles"
   heading="Search and AI, explained"
   lede={`${all.length} articles, newest first.`}
   posts={pageOf(all, 1)}
   current={1}
   total={totalPages(all.length)}
+  trail={[{ name: 'Articles', url: '/blog/' }]}
+  totalCount={all.length}
   base="/blog/"
 />

@@ -19,14 +19,14 @@ sources:
     publisher: "Search Engine Land"
 ---
 
-On October 15, 2026 Google announced another round of changes to how links appear in AI Overviews and AI Mode. Here is the simple version.
+On October 15, 2026 Google announced another round of changes to how links appear in AI Overviews and AI Mode. Here is a summary.
 
 ## What changed
 
 - **Inline links move higher.** Links inside the AI answer will show more often and closer to the top, so key sources are easier to click.
 - **A test:** a section at the top of some answers with links to *official sites* for a specific task. Google has not said when this might expand.
 - **Article carousels** are now showing in more countries and languages.
-- **Preferred Sources:** to qualify in both AI Mode and AI Overviews, your site must be included in "Search generative AI features" in Search Console. (If you opted out there, you are out of this too. See [our guide to the Search Console AI controls](/blog/how-to-see-and-control-ai-overviews-and-ai-mode-in-search-console/).)
+- **Preferred Sources:** to qualify in both AI Mode and AI Overviews, your site must be included in "Search generative AI features" in Search Console. (If you opted out there, you are out of this too. See [our guide to the Search Console AI controls](/how-to-see-and-control-ai-overviews-and-ai-mode-in-search-console/).)
 - **Another test for creators:** in AI Mode video results, clicking a creator's name takes you to a Google Search profile page first, not straight to their site.
 
 ## The catch: no click data

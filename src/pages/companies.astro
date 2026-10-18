@@ -1,9 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { SITE, TOOLS, COMPANIES, mailto } from '../config';
+
+const origin = new URL(Astro.site!).origin;
+const list = {
+  '@type': 'ItemList', '@id': `${origin}/companies/#itemlist`, name: 'Group companies and tools',
+  itemListElement: [...COMPANIES, ...TOOLS].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, url: c.url })),
+};
 ---
 
-<BaseLayout title="Companies & Tools | Rudra Kasturi" description="Companies I founded and partner with, and the software tools I've built.">
+<BaseLayout pageType="CollectionPage" jsonld={[list]} mainEntityId={`${origin}/companies/#itemlist`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Companies & tools', url: '/companies/' }]} title="Companies & Tools | Rudra Kasturi" description="Companies I founded and partner with, and the software tools I've built.">
   <div class="wrap">
     <div class="page-head">
       <p class="label">Companies &amp; tools</p>

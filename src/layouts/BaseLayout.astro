@@ -1,13 +1,30 @@
 ---
 import { SITE, COMPANIES, mailto } from '../config';
 
+interface Crumb { name: string; url: string }
 interface Props {
   title: string;
   description?: string;
   image?: string;
+  // Structured data
+  pageType?: 'WebPage' | 'CollectionPage' | 'AboutPage' | 'ContactPage' | 'ProfilePage';
+  breadcrumbs?: Crumb[];
+  jsonld?: Record<string, unknown>[];
+  personExtra?: Record<string, unknown>;
+  mainEntityId?: string;
+  // Open Graph / indexing
+  ogType?: 'website' | 'article';
+  published?: Date;
+  modified?: Date;
+  section?: string;
+  noindex?: boolean;
 }
 
-const { title, image, description = 'Plain-English explainers on SEO, AEO and AI search, with every source linked. By Rudra Kasturi.' } = Astro.props;
+const {
+  title, image, pageType = 'WebPage', breadcrumbs, jsonld = [], personExtra = {}, mainEntityId,
+  ogType = 'website', published, modified, section, noindex = false,
+  description = 'Clear, sourced analysis of SEO, AEO, AI search, YouTube and social. By Rudra Kasturi.',
+} = Astro.props;
 const currentPath = Astro.url.pathname;
 const nav = [
   { href: '/blog', label: 'Articles' },
@@ -16,6 +33,52 @@ const nav = [
   { href: '/companies', label: 'Tools' },
   { href: '/about', label: 'About' },
 ];
+
+// ---- Structured data (schema.org JSON-LD) ----
+const origin = new URL(Astro.site!).origin;
+const abs = (u: string) => new URL(u, origin).href;
+const pageUrl = abs(currentPath);
+const orgId = `${origin}/#organization`;
+const siteId = `${origin}/#website`;
+const personId = `${origin}/#rudra`;
+const crumbs: Crumb[] = breadcrumbs ?? (currentPath === '/' ? [{ name: 'Home', url: '/' }] : [{ name: 'Home', url: '/' }, { name: title.split('|')[0].trim(), url: currentPath }]);
+
+const graph: Record<string, unknown>[] = [
+  {
+    '@type': 'Organization', '@id': orgId, name: 'Rudra Kasturi Inc.', url: `${origin}/`,
+    logo: { '@type': 'ImageObject', '@id': `${origin}/#logo`, url: abs('/logo.png'), width: 512, height: 512 },
+    image: abs('/logo.png'), sameAs: [SITE.linkedin], email: SITE.email, founder: { '@id': personId },
+    slogan: SITE.tagline,
+  },
+  {
+    '@type': 'WebSite', '@id': siteId, url: `${origin}/`, name: 'Rudra Kasturi',
+    description: 'Clear, sourced analysis of SEO, AEO and AI search by Rudra Kasturi.',
+    publisher: { '@id': orgId }, inLanguage: 'en',
+  },
+  {
+    '@type': 'Person', '@id': personId, name: 'Rudra Kasturi', url: abs('/about/'), sameAs: [SITE.linkedin],
+    email: SITE.email, worksFor: { '@id': orgId }, image: abs('/images/rudra-googleio.jpeg'),
+    ...personExtra,
+  },
+  {
+    '@type': pageType, '@id': `${pageUrl}#webpage`, url: pageUrl, name: title, description,
+    isPartOf: { '@id': siteId }, about: { '@id': orgId }, inLanguage: 'en',
+    breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
+    ...(mainEntityId ? { mainEntity: { '@id': mainEntityId } } : {}),
+    ...(image ? { primaryImageOfPage: { '@type': 'ImageObject', url: abs(image), width: 1200, height: 630 } } : {}),
+    ...(published ? { datePublished: published.toISOString() } : {}),
+    ...(modified ? { dateModified: modified.toISOString() } : {}),
+  },
+  {
+    '@type': 'BreadcrumbList', '@id': `${pageUrl}#breadcrumb`,
+    itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: abs(c.url) })),
+  },
+  ...jsonld,
+];
+const schema = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+const robots = noindex
+  ? 'noindex, follow'
+  : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 ---
 
 <!doctype html>
@@ -26,16 +89,29 @@ const nav = [
     <meta name="description" content={description} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-    {image && <meta property="og:image" content={new URL(image, Astro.site).href} />}
+    <meta name="robots" content={robots} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:site_name" content="Rudra Kasturi" />
+    <meta property="og:locale" content="en_US" />
+    {image && <meta property="og:image" content={abs(image)} />}
+    {image && <meta property="og:image:width" content="1200" />}
+    {image && <meta property="og:image:height" content="630" />}
+    {published && <meta property="article:published_time" content={published.toISOString()} />}
+    {modified && <meta property="article:modified_time" content={modified.toISOString()} />}
+    {section && <meta property="article:section" content={section} />}
     <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
-    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {image && <meta name="twitter:image" content={abs(image)} />}
+    <link rel="canonical" href={pageUrl} />
     <link rel="alternate" type="application/rss+xml" title="Rudra Kasturi" href="/rss.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
+    <script type="application/ld+json" set:html={schema} />
     <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
   </head>
   <body>
@@ -69,6 +145,7 @@ const nav = [
             <li><a href="/category/">Topics</a></li>
             <li><a href="/research">Research &amp; case studies</a></li>
             <li><a href="/about">About Rudra</a></li>
+            <li><a href="/#subscribe">Newsletter</a></li>
             <li><a href="/work-with-me">Work with me</a></li>
             <li><a href="/companies">Companies &amp; tools</a></li>
           </ul>

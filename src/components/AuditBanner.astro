@@ -1,0 +1,14 @@
+---
+import { TOOLS, utm } from '../config';
+const { medium = 'banner' } = Astro.props as { medium?: string };
+const tool = TOOLS[0];
+---
+
+<aside class="audit-banner">
+  <div>
+    <p class="label">Free tool · {tool.name}</p>
+    <h3>Is your page ready for Google and AI answers?</h3>
+    <p>Run it through {tool.name} and get a ranked list of what to fix for SEO and AI-answer visibility.</p>
+  </div>
+  <a class="btn" href={utm(tool.url, medium)} rel="noopener">Audit my page &rarr;</a>
+</aside>

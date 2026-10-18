@@ -38,9 +38,9 @@ It is a change aimed at pages that break Google's **spam policies**: things like
 ## What to do if your traffic dropped
 
 1. **Check the dates.** Compare traffic from September 24 to October 8 with the weeks before.
-2. **Read Google's spam policies** and honestly check your site against them, especially if you publish a lot of pages quickly or use paid links.
+2. **Read Google's spam policies** and carefully check your site against them, especially if you publish a lot of pages quickly or use paid links.
 3. **Look at which pages dropped**, not only the total. A pattern (all auto-generated pages, for example) tells you more.
 4. **Fix and wait.** Google says recovery can take a long time, so plan in months.
-5. **Do not panic-edit** the whole site. Big changes made without a clear cause make it harder to learn what worked.
+5. **Avoid sweeping changes** to the whole site. Big changes made without a clear cause make it harder to learn what worked.
 
 If your traffic did not move, nothing to do. Keep publishing useful content and avoid shortcuts.

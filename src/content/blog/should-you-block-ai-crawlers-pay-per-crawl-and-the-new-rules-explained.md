@@ -46,6 +46,6 @@ Search Engine Journal points out that **blocking or charging Googlebot can hurt 
 ## What to do
 
 1. List which bots hit your site, and separate **search bots** (keep them) from **AI training bots** (your choice).
-2. Decide on purpose. If AI citations matter for your brand, blocking everything also removes you. ([Why each AI differs](/blog/why-chatgpt-perplexity-and-google-cite-different-sources/))
+2. Decide on purpose. If AI citations matter for your brand, blocking everything also removes you. ([Why each AI differs](/why-chatgpt-perplexity-and-google-cite-different-sources/))
 3. Do not lock a permanent block into contracts. Coverage advises against it while the systems are still changing.
 4. Check your CDN settings. Cloudflare's defaults may already be blocking bots you wanted.

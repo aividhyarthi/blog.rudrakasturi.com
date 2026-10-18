@@ -15,7 +15,7 @@ Create a file in `src/content/blog/`, e.g. `my-new-post.md`:
     Write your post here. **Bold**, ## headings, [links](https://example.com) all work.
 
 Upload images to `public/images/` and use `![alt text](/images/photo.jpg)`.
-The file name (without `.md`) becomes the web address: `/blog/my-new-post/`.
+The file name (without `.md`) becomes the web address, at the root like on WordPress: `/my-new-post/`.
 
 ## Bring over your old WordPress posts
 1. In WordPress go to Tools > Export > All content > Download Export File.
@@ -38,3 +38,17 @@ Research page and on the homepage, with a label.
 The site builds to plain files in `dist/` (`npm run build`). Any static host works:
 Cloudflare Pages, Netlify, Vercel or Railway (a Dockerfile is included).
 Build command: `npm run build`. Output folder: `dist`.
+
+## Newsletter
+Sign-up forms appear in the sidebar, at the end of every article, on the homepage, and in a slide-in card that
+appears while someone reads (after scrolling about halfway, after 45 seconds, or when the mouse leaves toward the tab bar).
+It stays hidden for 14 days once closed and for good once someone subscribes.
+
+By default each sign-up is emailed to rudra@rudrakasturi.com (the first one triggers a one-time activation email from
+formsubmit.co: click the link). To send the weekly email you need a newsletter service. In `src/config.ts` set
+`NEWSLETTER.provider` to `'substack'` or `'buttondown'` and `NEWSLETTER.id` to your publication name. Then sign-ups go
+straight into that list.
+
+## Cross-promotion
+- `APPRANKR_POSTS` in `src/config.ts` lists the AppRankr blog posts shown on the homepage and sidebar. Add a line per post (id, title, url, blurb).
+- The orange audit banner (AIPageAudit) appears on the homepage and under every article.

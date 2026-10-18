@@ -1,16 +1,15 @@
 ---
-import { readingTime, topicOf, topicColor, sourceLine, formatDate, type Post } from '../lib/posts';
+import { readingTime, topicOf, topicColor, formatDate, type Post } from '../lib/posts';
 import { coverUrl } from '../lib/cover';
 const { post } = Astro.props as { post: Post };
 const topic = topicOf(post);
-const via = sourceLine(post);
 ---
 
 <article class={`card ${topicColor(topic.slug)}`}>
-  <a href={`/blog/${post.slug}/`} class="card-img" tabindex="-1" aria-hidden="true">
+  <a href={`/${post.slug}/`} class="card-img" tabindex="-1" aria-hidden="true">
     <img src={coverUrl(post)} alt="" loading="lazy" width="1200" height="630" />
   </a>
   <p class="entry-kicker"><a href={`/category/${topic.slug}/`}>{topic.name}</a><span>{formatDate(post.data.date)}</span></p>
-  <h3><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
-  <p class="entry-meta">{readingTime(post)} min read{via && <> · via {via}</>}</p>
+  <h3><a href={`/${post.slug}/`}>{post.data.title}</a></h3>
+  <p class="entry-meta">{readingTime(post)} min read</p>
 </article>

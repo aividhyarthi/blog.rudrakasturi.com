@@ -1,9 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { SITE, COMPANIES, YEARS, mailto } from '../config';
+
+const origin = new URL(Astro.site!).origin;
+const personExtra = {
+  jobTitle: 'Global Digital & AI Leader',
+  description: 'Rudra Kasturi has spent 24+ years in search, AI and growth. Ex-Amazon, Yahoo, Times Internet, Snapdeal, BYJU\'s and India Today; founder, educator and advisor.',
+  knowsAbout: ['Search engine optimization', 'Answer engine optimization', 'Generative AI', 'Growth strategy', 'App store optimization'],
+  affiliation: COMPANIES.map((c) => ({ '@type': 'Organization', name: c.name, url: c.url })),
+};
 ---
 
-<BaseLayout title="About Rudra Kasturi | Search, AI & Growth Leader" description="Rudra Kasturi: 24+ years in search, AI and growth. Ex-Amazon, Yahoo, Times Internet, BYJU's and India Today. CSO, SVP, founder, educator.">
+<BaseLayout pageType="AboutPage" personExtra={personExtra} mainEntityId={`${origin}/#rudra`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about/' }]} title="About Rudra Kasturi | Search, AI & Growth Leader" description="Rudra Kasturi: 24+ years in search, AI and growth. Ex-Amazon, Yahoo, Times Internet, BYJU's and India Today. CSO, SVP, founder, educator.">
   <section class="hero on-blue">
     <div class="wrap hero-grid">
       <div>
@@ -116,8 +124,8 @@ import { SITE, COMPANIES, YEARS, mailto } from '../config';
   <section class="contact">
     <div class="wrap">
       <p class="label">Contact</p>
-      <h2>Have a problem worth solving?</h2>
-      <p>Send me a short note about your business and what you want to change. I read every one.</p>
+      <h2>Let's work together.</h2>
+      <p>Send a short note about your business and what you want to change.</p>
       <a class="btn btn-mint" href={mailto}>Email {SITE.email}</a>
       <a class="btn btn-ghost" href={SITE.linkedin} rel="noopener">Connect on LinkedIn</a>
     </div>

@@ -52,4 +52,4 @@ One analysis of ChatGPT found commercial prompts triggered fan-out 78.3% of the 
 3. Make sure the page answers them, with clear headings.
 4. Do not stuff. If a question does not belong, leave it out.
 
-*Related: [AEO and GEO: what Google says](/blog/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says/) and [our earlier piece on ChatGPT's fan-out change](/blog/what-is-chatgpt-query-fan-out-the-aug-2026-change-that-killed-reddits-citations/).*
+*Related: [AEO and GEO: what Google says](/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says/) and [our earlier piece on ChatGPT's fan-out change](/what-is-chatgpt-query-fan-out-the-aug-2026-change-that-killed-reddits-citations/).*
