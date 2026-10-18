@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostEntry from './PostEntry.astro';
+import Pagination from './Pagination.astro';
+import Sidebar from './Sidebar.astro';
+import type { Post } from '../lib/posts';
+
+interface Props {
+  title: string;
+  description: string;
+  label: string;
+  heading: string;
+  lede: string;
+  posts: Post[];
+  current?: number;
+  total?: number;
+  base: string;
+}
+const { title, description, label, heading, lede, posts, current = 1, total = 1, base } = Astro.props as Props;
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="wrap layout">
+    <div>
+      <div class="page-head">
+        <p class="label">{label}</p>
+        <h1>{heading}</h1>
+        <p class="lede">{lede}{current > 1 && ` (Page ${current} of ${total})`}</p>
+      </div>
+      {posts.length > 0 ? posts.map((p) => <PostEntry post={p} />) : <p class="lede">Nothing here yet.</p>}
+      <Pagination current={current} total={total} base={base} />
+      <div style="height: 64px"></div>
+    </div>
+    <Sidebar />
+  </div>
+</BaseLayout>

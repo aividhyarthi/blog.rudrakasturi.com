@@ -1,0 +1,29 @@
+---
+import Listing from '../../../../components/Listing.astro';
+import { getAllPosts, getTopics, topicOf, pageOf, totalPages } from '../../../../lib/posts';
+
+export async function getStaticPaths() {
+  const all = await getAllPosts();
+  return getTopics(all).flatMap((t) => {
+    const posts = all.filter((p) => topicOf(p).slug === t.slug);
+    const total = totalPages(posts.length);
+    return Array.from({ length: total - 1 }, (_, i) => {
+      const page = i + 2;
+      return { params: { slug: t.slug, page: String(page) }, props: { topic: t, posts: pageOf(posts, page), page, total } };
+    });
+  });
+}
+const { topic, posts, page, total } = Astro.props;
+---
+
+<Listing
+  title={`${topic.name}, page ${page} | Rudra Kasturi`}
+  description={`Articles on ${topic.name} by Rudra Kasturi.`}
+  label="Topic"
+  heading={topic.name}
+  lede={`${topic.count} articles, newest first.`}
+  posts={posts}
+  current={page}
+  total={total}
+  base={`/category/${topic.slug}/`}
+/>

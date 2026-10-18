@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE, COMPANIES, YEARS, mailto } from '../config';
+---
+
+<BaseLayout title="About Rudra Kasturi | Search, AI & Growth Leader" description="Rudra Kasturi: 24+ years in search, AI and growth. Ex-Amazon, Yahoo, Times Internet, BYJU's and India Today. CSO, SVP, founder, educator.">
+  <section class="hero on-blue">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="label">{SITE.tagline}</p>
+        <h1 class="display">Search, AI &amp; Growth. Built, scaled, <mark>proven.</mark></h1>
+        <p class="lede">
+          I'm Rudra Kasturi. {YEARS} years scaling digital businesses to hundreds of millions of users. From building
+          Amazon India's search foundation to driving 10X growth at Times Group and leading growth at BYJU's.
+          Today I advise leadership teams on where search and AI will move their numbers.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-mint" href="/work-with-me">Work with me</a>
+          <a class="btn btn-ghost" href={mailto}>Email me</a>
+        </div>
+      </div>
+      <figure class="figure">
+        <img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi speaking at Google I/O 2019" style="aspect-ratio: 4/5; object-position: center top;" />
+        <figcaption>Speaking at Google I/O, 2019</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><strong>500M+</strong><span>users reached</span></div>
+        <div class="stat"><strong>{YEARS}</strong><span>years in digital</span></div>
+        <div class="stat"><strong>4</strong><span>companies founded</span></div>
+        <div class="stat"><strong>3</strong><span>universities taught</span></div>
+      </div>
+      <p style="margin-top: 28px; font-weight: 700;">Worked with &amp; featured at: Amazon · Yahoo · Google I/O · Times Group · BYJU's · India Today · Tencent</p>
+    </div>
+  </section>
+
+  <section class="section section-tint">
+    <div class="wrap">
+      <div class="section-head"><p class="label">Track record</p><h2>Every role had a number attached</h2></div>
+      <div class="record">
+        <div class="record-row"><div><h3>India Today Group</h3><p class="role">Chief Strategy Officer</p></div><p>Driving AI-first transformation across editorial, distribution and monetisation. Building new revenue streams and restructuring digital infrastructure for scale.</p></div>
+        <div class="record-row"><div><h3>Times Internet</h3><p class="role">VP &amp; Head of Audience Growth</p></div><p>Led the largest SEO and audience growth transformation in the company's history. Scaled multiple properties to category-leading positions across comScore rankings.</p></div>
+        <div class="record-row"><div><h3>BYJU's</h3><p class="role">Senior Vice President, Growth</p></div><p>Led growth across India and international markets during the peak scale phase. Owned acquisition, retention and expansion strategy.</p></div>
+        <div class="record-row"><div><h3>Snapdeal</h3><p class="role">SEO Director</p></div><p>Led organic search strategy during hypergrowth, building scalable SEO systems for one of India's top e-commerce platforms.</p></div>
+        <div class="record-row"><div><h3>Amazon India</h3><p class="role">SEO Head</p></div><p>Built Amazon India's organic search presence from the ground up, establishing foundational SEO infrastructure at scale.</p></div>
+        <div class="record-row"><div><h3>Yahoo</h3><p class="role">SEO Head, India, SE Asia &amp; Middle East</p></div><p>Led search strategy across three regions, driving visibility and growth for one of the internet's defining platforms.</p></div>
+      </div>
+      <p class="advisory"><b>Advisory and consulting:</b> Tencent Group (growth consultant), CRED (advisor), Antler India (growth advisor), Haptik Group (advisor), Tasva, Aditya Birla (consultant).</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><p class="label">About</p><h2>An operator, not a commentator</h2></div>
+      <div class="two-up" style="margin-bottom: 52px;">
+        <div><p class="lede">I have spent {YEARS} years at the intersection of search, AI and growth, as the person accountable for results.</p></div>
+        <div>
+          <p>From building Amazon India's organic search from scratch to scaling Times Group properties to category-leading positions, to owning growth at BYJU's, the mandate has always been the same: identify the ceiling, then remove it.</p>
+          <p>I advise companies from Series A to enterprise scale across India, Southeast Asia, the Middle East and the US. And I teach, because the next generation doesn't need theory. It needs operators.</p>
+        </div>
+      </div>
+      <div class="photos">
+        <figure class="figure"><img src="/images/rudra-rand-fishkin.jpeg" alt="Rudra Kasturi with Rand Fishkin" loading="lazy" /><figcaption><b>Rand Fishkin</b><br />Founder, Moz &amp; SparkToro</figcaption></figure>
+        <figure class="figure"><img src="/images/rudra-matt.jpeg" alt="Rudra Kasturi with Matt Cutts" loading="lazy" /><figcaption><b>Matt Cutts</b><br />Former head of Google Webspam</figcaption></figure>
+        <figure class="figure"><img src="/images/rudra-john.jpeg" alt="Rudra Kasturi with John Mueller" loading="lazy" /><figcaption><b>John Mueller</b><br />Google Search Advocate</figcaption></figure>
+        <figure class="figure"><img src="/images/rudra-googleio.jpeg" alt="Rudra Kasturi at Google I/O 2019" loading="lazy" /><figcaption><b>Google I/O 2019</b><br />Progressive Web Apps talk</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-sky">
+    <div class="wrap">
+      <div class="section-head"><p class="label">Teaching &amp; writing</p><h2>Sharing what works</h2></div>
+      <div class="three-text">
+        <div><h3>Guest faculty</h3><ul>
+          <li>Times Bennett University<span>Digital marketing &amp; AI</span></li>
+          <li>ITMI<span>Media, AI &amp; digital strategy</span></li>
+          <li>Masters' Union<span>Generative AI</span></li></ul></div>
+        <div><h3>Published in</h3><ul>
+          <li>INMA<span>International News Media Association</span></li>
+          <li>Times of India<span>India's largest English daily</span></li>
+          <li>CNTI.org<span>Center for News, Technology &amp; Innovation</span></li></ul></div>
+        <div><h3>Speaking</h3><ul>
+          <li>Google I/O &amp; AMP conferences<span><a href="https://www.youtube.com/watch?v=3As9NibdIjk" rel="noopener">Watch the 2019 talk</a></span></li>
+          <li>MMA Global<span>Industry and marketing summits</span></li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><p class="label">Group companies</p><h2>Companies I founded and partner with</h2></div>
+      <div class="cols-3">
+        {COMPANIES.map((c) => (
+          <div class="col"><h3>{c.name}</h3><p>{c.blurb}</p><a class="go" href={c.url} rel="noopener">Visit &rarr;</a><span class="host">{c.host}</span></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint">
+    <div class="wrap two-up">
+      <figure class="figure"><img src="/images/farmer-rudra.jpeg" alt="Rudra Kasturi on his farm" loading="lazy" style="aspect-ratio: 4/3; object-position: center;" /></figure>
+      <div>
+        <p class="label">Beyond the boardroom</p>
+        <h2 style="font-size: 2.3rem; margin: 10px 0 16px;">When I'm not working, I'm on the farm.</h2>
+        <p>No dashboards. No decks. Just time, soil and patience. Farming is a long game: you plant, you tend, you wait, and the outcome doesn't negotiate. That discipline carries back into everything I build.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="wrap">
+      <p class="label">Contact</p>
+      <h2>Have a problem worth solving?</h2>
+      <p>Send me a short note about your business and what you want to change. I read every one.</p>
+      <a class="btn btn-mint" href={mailto}>Email {SITE.email}</a>
+      <a class="btn btn-ghost" href={SITE.linkedin} rel="noopener">Connect on LinkedIn</a>
+    </div>
+  </section>
+</BaseLayout>

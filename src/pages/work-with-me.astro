@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE, TOOLS, mailto } from '../config';
+---
+
+<BaseLayout title="Work With Me | Rudra Kasturi" description="Consulting on search, AI and growth strategy for leadership teams.">
+  <div class="wrap">
+    <div class="page-head">
+      <p class="label">Work with me</p>
+      <h1>Advisory for teams who want search, AI and growth to show up in revenue</h1>
+      <p class="lede">I work with founders, CEOs and growth leaders. I have run these functions at Amazon, Yahoo, Times Internet, BYJU's and India Today, so the advice comes from having owned the numbers.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><p class="label">Focus areas</p><h2>Where I can help</h2></div>
+      <div class="cols-3">
+        <div class="col"><span class="num">01</span><h3>Search &amp; AI visibility</h3><p>An honest audit of how you show up in Google and in AI answers, and a roadmap that fixes the biggest gaps first.</p></div>
+        <div class="col"><span class="num">02</span><h3>Growth strategy</h3><p>Channel mix, funnels and experimentation, tied to the metrics your board and investors actually track.</p></div>
+        <div class="col"><span class="num">03</span><h3>AI adoption</h3><p>Where AI genuinely saves time or earns money across marketing, product and operations, and where it doesn't.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tinted">
+    <div class="wrap">
+      <div class="section-head"><p class="label">How it works</p><h2>A simple, three-step engagement</h2></div>
+      <div class="cols-3">
+        <div class="col"><span class="num">Step 1</span><h3>Intro call</h3><p>You describe the problem. I tell you plainly whether I can help, and if not, who can.</p></div>
+        <div class="col"><span class="num">Step 2</span><h3>Diagnosis</h3><p>I study your data and your market, and report what is holding growth back and what is worth doing.</p></div>
+        <div class="col"><span class="num">Step 3</span><h3>Roadmap &amp; support</h3><p>A prioritised plan with owners and numbers, and ongoing advisory while your team executes.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><p class="label">Self-serve</p><h2>Prefer to start with a tool?</h2></div>
+      <div class="cols-2">
+        {TOOLS.map((t, i) => (
+          <div class="col"><span class="num">0{i + 1}</span><h3>{t.name}</h3><p>{t.blurb}</p><a class="go" href={t.url} rel="noopener">Open {t.name} &rarr;</a><span class="host">{t.host}</span></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="wrap">
+      <p class="label label-light">Start here</p>
+      <h2 style="margin-top: 14px;">Tell me the problem.</h2>
+      <p>A few lines on your business, your goal and what you've tried is enough.</p>
+      <a class="btn" href={mailto}>Email {SITE.email}</a>
+      <a class="btn btn-line" href={SITE.linkedin} rel="noopener">Message on LinkedIn</a>
+    </div>
+  </section>
+</BaseLayout>

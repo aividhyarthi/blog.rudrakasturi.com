@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllPosts, getTopics } from '../../lib/posts';
+
+const topics = getTopics(await getAllPosts());
+---
+
+<BaseLayout title="Topics | Rudra Kasturi" description="Browse articles by topic.">
+  <div class="wrap">
+    <div class="page-head">
+      <p class="label">Topics</p>
+      <h1>Browse by topic</h1>
+      <p class="lede">Everything on the blog, grouped by subject. Pick a topic to see all its articles.</p>
+    </div>
+    <div class="topic-list">
+      {topics.map((t) => (
+        <a href={`/category/${t.slug}/`} class="topic"><span>{t.name}</span><small>{t.count}</small></a>
+      ))}
+    </div>
+    
+  </div>
+</BaseLayout>

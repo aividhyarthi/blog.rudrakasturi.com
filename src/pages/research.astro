@@ -1,0 +1,16 @@
+---
+import Listing from '../components/Listing.astro';
+import { getAllPosts, pageOf, totalPages } from '../lib/posts';
+
+const posts = (await getAllPosts()).filter((p) => p.data.type !== 'article');
+---
+
+<Listing
+  title="Research & Case Studies | Rudra Kasturi"
+  description="Original research and case studies on search, AI and growth."
+  label="Research"
+  heading="Research and case studies"
+  lede="Original analysis and real results from scaling digital businesses. The first studies are being written; meanwhile, browse the articles."
+  posts={pageOf(posts, 1)}
+  base="/research/"
+/>

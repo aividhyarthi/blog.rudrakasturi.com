@@ -1,0 +1,26 @@
+---
+import Listing from '../../../components/Listing.astro';
+import { getAllPosts, pageOf, totalPages } from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const all = await getAllPosts();
+  const total = totalPages(all.length);
+  return Array.from({ length: total - 1 }, (_, i) => {
+    const page = i + 2;
+    return { params: { page: String(page) }, props: { posts: pageOf(all, page), page, total, count: all.length } };
+  });
+}
+const { posts, page, total, count } = Astro.props;
+---
+
+<Listing
+  title={`Articles, page ${page} | Rudra Kasturi`}
+  description="Articles on SEO, AEO, AI search, YouTube and social, explained in plain English."
+  label="Articles"
+  heading="Search and AI, explained"
+  lede={`${count} articles, newest first.`}
+  posts={posts}
+  current={page}
+  total={total}
+  base="/blog/"
+/>
