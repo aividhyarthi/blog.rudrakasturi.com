@@ -1,15 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostEntry from '../components/PostEntry.astro';
-import { getAllPosts, getTopics, readingTime, topicOf, sourceLine } from '../lib/posts';
+import Carousel from '../components/Carousel.astro';
+import { getAllPosts, getTopics, readingTime, topicOf, sourceLine, mixedLatest, HUBS, slugify } from '../lib/posts';
 import { SITE, TOOLS, START_HERE, YEARS, mailto } from '../config';
 
 const all = await getAllPosts();
 const researched = all.filter((p) => p.data.sources.length > 0);
 const featured = researched[0] ?? all[0];
-const latest = all.filter((p) => p.slug !== featured.slug).slice(0, 7);
+const latest = mixedLatest(all, 8, [featured.slug]);
+const rails = HUBS.map((name) => ({ name, slug: slugify(name), posts: all.filter((p) => topicOf(p).name === name).slice(0, 9) })).filter((r) => r.posts.length >= 3);
 const start = START_HERE.map((slug) => all.find((p) => p.slug === slug)).filter((p) => p !== undefined);
-const topics = getTopics(all).filter((t) => t.count >= 3).slice(0, 12);
+const topics = getTopics(all).filter((t) => t.count >= 3);
 const featuredVia = sourceLine(featured);
 ---
 
@@ -17,14 +19,14 @@ const featuredVia = sourceLine(featured);
   <section class="hero on-blue">
     <div class="wrap hero-grid">
       <div>
-        <p class="label">SEO · AEO · AI search · LLMs</p>
+        <p class="label">SEO · AEO · LLMs · YouTube · Instagram</p>
         <h1 class="display">Search is being rewritten by AI. Here's what it means, <mark>in plain English.</mark></h1>
         <p class="lede">
-          New articles on what Google, ChatGPT and Perplexity are changing, what the experts are arguing about,
+          New articles on what Google, ChatGPT, YouTube and Instagram are changing, what the experts are arguing about,
           and what you should actually do. Every story links to its original source.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-yellow" href="#start">Start here</a>
+          <a class="btn btn-mint" href="#start">Start here</a>
           <a class="btn btn-ghost" href="/blog">Read the latest</a>
         </div>
       </div>
@@ -40,7 +42,7 @@ const featuredVia = sourceLine(featured);
   <div class="sources-strip">
     <div class="wrap">
       <b>We follow:</b>
-      <span>Google Search Central</span><span>Search Engine Roundtable</span><span>Search Engine Land</span><span>Search Engine Journal</span><span>and the conversations around them</span>
+      <span>Google Search Central</span><span>Search Engine Roundtable</span><span>Search Engine Land</span><span>Search Engine Journal</span><span>YouTube &amp; Instagram creator updates</span>
     </div>
   </div>
 
@@ -50,7 +52,7 @@ const featuredVia = sourceLine(featured);
         <div class="section-head">
           <p class="label">New to AEO and AI search?</p>
           <h2>Start with these four</h2>
-          <p class="sub">The questions everyone is asking, answered without jargon.</p>
+          <p class="sub">From AI search to YouTube and Instagram: the questions everyone is asking, answered without jargon.</p>
         </div>
         <div class="tiles">
           {start.map((p, i) => (
@@ -64,16 +66,24 @@ const featuredVia = sourceLine(featured);
     </section>
   )}
 
-  <section class="section section-butter">
+  <section class="section section-tint">
     <div class="wrap">
       <div class="section-head">
         <p class="label">Fresh from the field</p>
-        <h2>The latest in search and AI</h2>
+        <h2>The latest across search, AI and social</h2>
       </div>
       {latest.map((p) => <PostEntry post={p} />)}
       <p class="more"><a class="link-arrow" href="/blog">All {all.length} articles &rarr;</a></p>
     </div>
   </section>
+
+  {rails.map((r, i) => (
+    <section class:list={['section', { 'section-sky': i % 2 === 0 }]}>
+      <div class="wrap">
+        <Carousel label="Topic" title={r.name} href={`/category/${r.slug}/`} posts={r.posts} />
+      </div>
+    </section>
+  ))}
 
   <section class="section">
     <div class="wrap">
@@ -113,7 +123,7 @@ const featuredVia = sourceLine(featured);
       <p class="label">Written by Rudra Kasturi</p>
       <h2>{YEARS} years in search, now explaining where it goes next.</h2>
       <p>I also advise teams on search and AI strategy. If that's useful to you, say hello.</p>
-      <a class="btn btn-yellow" href="/about">About Rudra</a>
+      <a class="btn btn-mint" href="/about">About Rudra</a>
       <a class="btn btn-ghost" href={mailto}>Email {SITE.email}</a>
     </div>
   </section>

@@ -1,8 +1,10 @@
 ---
 import { getAllPosts, formatDate, readingTime, topicOf } from '../../lib/posts';
+import { coverUrl, coverPngUrl } from '../../lib/cover';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PostEntry from '../../components/PostEntry.astro';
+import Carousel from '../../components/Carousel.astro';
 import ConsultingCTA from '../../components/ConsultingCTA.astro';
+import Sidebar from '../../components/Sidebar.astro';
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -10,53 +12,55 @@ export async function getStaticPaths() {
     params: { slug: post.slug },
     props: {
       post,
-      related: posts.filter((p) => p.slug !== post.slug && topicOf(p).slug === topicOf(post).slug).slice(0, 3),
+      related: posts.filter((p) => p.slug !== post.slug && topicOf(p).slug === topicOf(post).slug).slice(0, 8),
     },
   }));
 }
 
 const { post, related } = Astro.props;
 const { Content } = await post.render();
-const { title, description, date, updated, image, type, tldr, sources } = post.data;
+const { title, description, date, updated, type, tldr, sources } = post.data;
 const topic = topicOf(post);
 const label = { article: 'Article', research: 'Research', 'case-study': 'Case study' }[type];
 ---
 
-<BaseLayout title={`${title} | Rudra Kasturi`} description={description || undefined}>
-  <header class="article-head">
-    <p class="label">{label} · <a href={`/category/${topic.slug}/`} style="text-decoration:none">{topic.name}</a></p>
-    <h1>{title}</h1>
-    <p class="byline">
-      By <b>Rudra Kasturi</b> · {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
-    </p>
-    {sources.length > 0 && (
-      <p class="reported">
-        Based on reporting by {sources.slice(0, 3).map((s, i) => (<>{i > 0 && ', '}<a href={s.url} rel="noopener">{s.publisher}</a></>))}. <a href="#sources">All sources &darr;</a>
-      </p>
-    )}
-  </header>
-  {tldr && (
-    <div class="tldr-wrap"><div class="tldr"><b>IN PLAIN ENGLISH</b><p>{tldr}</p></div></div>
-  )}
-  {image && <div class="post-hero"><img src={image} alt="" onerror="this.parentElement.remove()" /></div>}
-  <article class="prose"><Content /></article>
+<BaseLayout title={`${title} | Rudra Kasturi`} description={description || undefined} image={coverPngUrl(post)}>
+  <div class="wrap layout">
+    <div class="article-main">
+      <header class="article-head">
+        <p class="label">{label} · <a href={`/category/${topic.slug}/`} style="text-decoration:none">{topic.name}</a></p>
+        <h1>{title}</h1>
+        <p class="byline">
+          By <b>Rudra Kasturi</b> · {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
+        </p>
+        {sources.length > 0 && (
+          <p class="reported">
+            Based on reporting by {sources.slice(0, 3).map((s, i) => (<>{i > 0 && ', '}<a href={s.url} rel="noopener">{s.publisher}</a></>))}. <a href="#sources">All sources &darr;</a>
+          </p>
+        )}
+      </header>
+      <div class="post-hero"><img src={coverUrl(post)} alt="" width="1200" height="630" /></div>
+      {tldr && <div class="tldr"><b>IN PLAIN ENGLISH</b><p>{tldr}</p></div>}
+      <article class="prose"><Content /></article>
 
-  {sources.length > 0 && (
-    <section class="source-box" id="sources">
-      <h2>Sources</h2>
-      <p>This article summarises and explains the reporting below. Read the originals for the full story.</p>
-      <ul>
-        {sources.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a> <span>· {s.publisher}</span></li>)}
-      </ul>
-    </section>
-  )}
+      {sources.length > 0 && (
+        <section class="source-box" id="sources">
+          <h2>Sources</h2>
+          <p>This article summarises and explains the reporting below. Read the originals for the full story.</p>
+          <ul>
+            {sources.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a> <span>· {s.publisher}</span></li>)}
+          </ul>
+        </section>
+      )}
 
-  <div class="wrap"><ConsultingCTA /></div>
+      <ConsultingCTA />
+    </div>
+    <Sidebar exclude={post.slug} />
+  </div>
 
   {related.length > 0 && (
-    <section class="wrap related">
-      <h2>Keep reading</h2>
-      {related.map((p) => <PostEntry post={p} />)}
-    </section>
+    <div class="wrap related">
+      <Carousel title={`More on ${topic.name}`} href={`/category/${topic.slug}/`} posts={related} />
+    </div>
   )}
 </BaseLayout>

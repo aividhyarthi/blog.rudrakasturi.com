@@ -1,22 +1,16 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import PostEntry from '../components/PostEntry.astro';
-import ConsultingCTA from '../components/ConsultingCTA.astro';
-import { getAllPosts } from '../lib/posts';
+import Listing from '../components/Listing.astro';
+import { getAllPosts, pageOf, totalPages } from '../lib/posts';
 
 const posts = (await getAllPosts()).filter((p) => p.data.type !== 'article');
 ---
 
-<BaseLayout title="Research & Case Studies | Rudra Kasturi" description="Original research and case studies on search, AI and growth.">
-  <div class="wrap">
-    <div class="page-head">
-      <p class="label">Research</p>
-      <h1>Research and case studies</h1>
-      <p class="lede">Original analysis and real results from scaling digital businesses.</p>
-    </div>
-    {posts.length > 0 ? posts.map((p) => <PostEntry post={p} />) : (
-      <p class="lede" style="padding: 24px 0 8px;">The first studies are being written. Meanwhile, read the <a href="/blog">blog</a>.</p>
-    )}
-  </div>
-  <div class="wrap" style="padding-bottom: 72px;"><ConsultingCTA /></div>
-</BaseLayout>
+<Listing
+  title="Research & Case Studies | Rudra Kasturi"
+  description="Original research and case studies on search, AI and growth."
+  label="Research"
+  heading="Research and case studies"
+  lede="Original analysis and real results from scaling digital businesses. The first studies are being written; meanwhile, browse the articles."
+  posts={pageOf(posts, 1)}
+  base="/research/"
+/>

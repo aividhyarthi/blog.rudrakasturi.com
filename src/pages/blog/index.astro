@@ -1,31 +1,18 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import PostEntry from '../../components/PostEntry.astro';
-import { getAllPosts, getTopics } from '../../lib/posts';
+import Listing from '../../components/Listing.astro';
+import { getAllPosts, pageOf, totalPages } from '../../lib/posts';
 
-const posts = await getAllPosts();
-const topics = getTopics(posts).filter((t) => t.count >= 3).slice(0, 10);
-const years = [...new Set(posts.map((p) => p.data.date.getUTCFullYear()))];
+const all = await getAllPosts();
 ---
 
-<BaseLayout title="Blog | Rudra Kasturi" description="Articles on search, AI and growth by Rudra Kasturi">
-  <div class="wrap">
-    <div class="page-head">
-      <p class="label">Blog</p>
-      <h1>Search and AI, explained</h1>
-      <p class="lede">{posts.length} articles, newest first. Looking for deeper work? See the <a href="/research">research and case studies</a>.</p>
-    </div>
-    <nav class="chips" aria-label="Topics">
-      <span class="chips-label">Browse by topic</span>
-      {topics.map((t) => <a href={`/category/${t.slug}/`}>{t.name} <small>{t.count}</small></a>)}
-      <a href="/category/">All topics &rarr;</a>
-    </nav>
-    {years.map((y) => (
-      <section>
-        <h2 class="year">{y}</h2>
-        {posts.filter((p) => p.data.date.getUTCFullYear() === y).map((p) => <PostEntry post={p} />)}
-      </section>
-    ))}
-    <div style="height: 72px"></div>
-  </div>
-</BaseLayout>
+<Listing
+  title="Articles | Rudra Kasturi"
+  description="Articles on SEO, AEO, AI search, YouTube and social, explained in plain English."
+  label="Articles"
+  heading="Search and AI, explained"
+  lede={`${all.length} articles, newest first.`}
+  posts={pageOf(all, 1)}
+  current={1}
+  total={totalPages(all.length)}
+  base="/blog/"
+/>

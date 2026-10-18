@@ -12,10 +12,19 @@ export const YEARS = '24+';
 // Hand-picked articles shown in "Start here" on the homepage (post slugs).
 export const START_HERE = [
   'aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says',
-  'do-you-need-an-llms-txt-file-what-google-has-said',
-  'what-is-query-fan-out-and-how-should-it-change-how-you-write',
-  'are-ai-overviews-really-killing-clicks-what-the-studies-say',
+  'why-chatgpt-perplexity-and-google-cite-different-sources',
+  'how-to-do-youtube-seo-for-youtube-shorts-simple-tips-with-examples',
+  'how-instagram-reels-can-boost-your-google-search-presence',
 ];
+
+// Newsletter sign-up. Paste your provider's form address here (Buttondown, Substack, beehiiv, Mailchimp...)
+// and the form posts straight to it. Until then, the form opens an email to you with the subscriber's address.
+export const NEWSLETTER = {
+  action: '',
+  emailField: 'email',
+  title: 'The Search & AI brief',
+  blurb: 'One short email when something important changes in SEO, AEO and AI search. Plain English, every source linked.',
+};
 
 export const mailto = `mailto:${SITE.email}?subject=${encodeURIComponent('Consulting enquiry')}`;
 

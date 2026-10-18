@@ -1,0 +1,19 @@
+---
+const { current, total, base } = Astro.props as { current: number; total: number; base: string };
+const href = (n: number) => (n === 1 ? base : `${base}page/${n}/`);
+const nums: (number | '…')[] = [];
+for (let n = 1; n <= total; n++) {
+  if (n === 1 || n === total || Math.abs(n - current) <= 2) nums.push(n);
+  else if (nums[nums.length - 1] !== '…') nums.push('…');
+}
+---
+
+{total > 1 && (
+  <nav class="pager" aria-label="Pages">
+    {current > 1 ? <a class="pager-step" href={href(current - 1)} rel="prev">&larr; Newer</a> : <span class="pager-step off">&larr; Newer</span>}
+    <ul>
+      {nums.map((n) => <li>{n === '…' ? <span class="gap">…</span> : <a href={href(n)} aria-current={n === current ? 'page' : undefined} class:list={[{ on: n === current }]}>{n}</a>}</li>)}
+    </ul>
+    {current < total ? <a class="pager-step" href={href(current + 1)} rel="next">Older &rarr;</a> : <span class="pager-step off">Older &rarr;</span>}
+  </nav>
+)}
