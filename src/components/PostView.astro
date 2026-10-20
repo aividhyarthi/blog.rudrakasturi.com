@@ -9,6 +9,7 @@ import AuditBanner from './AuditBanner.astro';
 import Subscribe from './Subscribe.astro';
 import NewsletterPopup from './NewsletterPopup.astro';
 import Avatar from './Avatar.astro';
+import Share from './Share.astro';
 import { authorOf } from '../lib/authors';
 import { SITE, NEWSLETTER } from '../config';
 
@@ -85,9 +86,11 @@ const crumbs = [
           </p>
         </div>
       </header>
+      <Share url={pageUrl} title={title} slug={post.slug} where="top" />
       <div class="post-hero"><img src={coverUrl(post)} alt="" width="1200" height="630" /></div>
       {tldr && <div class="tldr"><b>SUMMARY</b><p>{tldr}</p></div>}
       <article class="prose"><Content /></article>
+      <Share url={pageUrl} title={title} slug={post.slug} where="bottom" />
 
       {sources.length > 0 && (
         <section class="source-box" id="sources">
