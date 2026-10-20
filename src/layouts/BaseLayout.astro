@@ -195,7 +195,8 @@ const robots = noindex
         btn.addEventListener('click', function () { if (!deferred) return; deferred.prompt(); deferred.userChoice.finally(function () { deferred = null; li.hidden = true; }); });
         window.addEventListener('appinstalled', function () { li.hidden = true; });
         var ua = navigator.userAgent;
-        if (/iphone|ipad|ipod/i.test(ua) && !/crios|fxios/i.test(ua)) document.getElementById('ios-install').hidden = false;
+        var ios = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); // newer iPads report as a Mac
+        if (ios && !/crios|fxios/i.test(ua)) document.getElementById('ios-install').hidden = false;
       })();
     </script>
     <script>
