@@ -99,8 +99,8 @@ export async function stats(db) {
 
 export const listByStatus = async (db, status) => (await db.query('SELECT * FROM subscribers WHERE status = $1 ORDER BY id', [status])).rows;
 
-export async function alreadySent(db, issue, id) {
-  return (await db.query('SELECT 1 FROM deliveries WHERE issue=$1 AND subscriber_id=$2', [issue, id])).rowCount > 0;
+export async function claimDelivery(db, issue, id) {
+  return (await db.query('INSERT INTO deliveries (issue, subscriber_id) VALUES ($1,$2) ON CONFLICT DO NOTHING', [issue, id])).rowCount > 0;
 }
-export const recordSent = (db, issue, id) => db.query('INSERT INTO deliveries (issue, subscriber_id) VALUES ($1,$2) ON CONFLICT DO NOTHING', [issue, id]);
+export const releaseDelivery = (db, issue, id) => db.query('DELETE FROM deliveries WHERE issue=$1 AND subscriber_id=$2', [issue, id]);
 export const recordIssue = (db, issue, subject) => db.query('INSERT INTO issues (issue, subject) VALUES ($1,$2) ON CONFLICT DO NOTHING', [issue, subject]);

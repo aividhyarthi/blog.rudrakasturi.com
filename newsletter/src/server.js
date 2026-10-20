@@ -41,11 +41,16 @@ export function createApp(db, deps = {}) {
   async function sendDigestTo(rows, its, issue) {
     let sent = 0, skipped = 0;
     for (const s of rows) {
-      if (issue && await store.alreadySent(db, issue, s.id)) { skipped++; continue; }
+      // Claim the delivery first so two overlapping sends can never both email the same person.
+      if (issue && !(await store.claimDelivery(db, issue, s.id))) { skipped++; continue; }
       const { unsubUrl } = links(s);
       const d = buildDigest(its, unsubUrl);
-      await mail({ to: s.email, subject: d.subject, html: d.html, text: d.text, unsubUrl });
-      if (issue) await store.recordSent(db, issue, s.id);
+      try {
+        await mail({ to: s.email, subject: d.subject, html: d.html, text: d.text, unsubUrl });
+      } catch (err) {
+        if (issue) await store.releaseDelivery(db, issue, s.id); // failed: allow a retry
+        throw err;
+      }
       sent++;
     }
     return { sent, skipped };
@@ -106,14 +111,14 @@ export function createApp(db, deps = {}) {
       if (url.pathname === '/subscribe' && req.method === 'POST') {
         const wantsJson = (req.headers.accept || '').includes('json') || (req.headers['content-type'] || '').includes('json');
         const ok = (code = 200) => wantsJson
-          ? send(code, { ok: true, message: 'Check your inbox to confirm your email.' })
+          ? send(code, { ok: true, success: true, message: 'Check your inbox to confirm your email.' })
           : send(code, pageHtml({ title: 'Check your inbox', message: 'We sent you an email. Click the button in it to confirm your subscription.' }));
         const ip = String(req.headers['x-forwarded-for'] || req.socket.remoteAddress || '').split(',')[0].trim();
-        if (limited(ip)) return send(429, wantsJson ? { ok: false, error: 'Too many attempts. Try again later.' } : pageHtml({ title: 'Too many attempts', message: 'Please try again in an hour.' }));
+        if (limited(ip)) return send(429, wantsJson ? { ok: false, success: false, error: 'Too many attempts. Try again later.' } : pageHtml({ title: 'Too many attempts', message: 'Please try again in an hour.' }));
         const b = await readBody(req);
-        if (b.company) return ok(); // hidden field: only bots fill it in
+        if (b.company || b._honey) return ok(); // hidden field: only bots fill it in
         const email = store.normEmail(b.email);
-        if (!store.validEmail(email)) return send(400, wantsJson ? { ok: false, error: 'Please enter a valid email address.' } : pageHtml({ title: 'Check the address', message: 'That email address does not look right. Go back and try again.' }));
+        if (!store.validEmail(email)) return send(400, wantsJson ? { ok: false, success: false, error: 'Please enter a valid email address.' } : pageHtml({ title: 'Check the address', message: 'That email address does not look right. Go back and try again.' }));
         const { row, sendConfirm: should } = await store.addSignup(db, { email, name: String(b.name || '').slice(0, 80), source: String(b.source || 'site').slice(0, 40) });
         if (should) await sendConfirm(row, false);
         return ok(); // same answer whether or not the address was already on the list

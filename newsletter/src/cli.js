@@ -12,11 +12,10 @@ const issue = issueKey();
 await store.recordIssue(db, issue, items[0].title);
 let sent = 0, skipped = 0;
 for (const s of await store.listByStatus(db, 'active')) {
-  if (await store.alreadySent(db, issue, s.id)) { skipped++; continue; }
+  if (!(await store.claimDelivery(db, issue, s.id))) { skipped++; continue; }
   const unsubUrl = `${config.publicUrl}/unsubscribe?t=${s.token}`;
   const d = buildDigest(items, unsubUrl);
-  await sendMail({ to: s.email, subject: d.subject, html: d.html, text: d.text, unsubUrl });
-  await store.recordSent(db, issue, s.id);
+  try { await sendMail({ to: s.email, subject: d.subject, html: d.html, text: d.text, unsubUrl }); } catch (err) { await store.releaseDelivery(db, issue, s.id); throw err; }
   sent++;
 }
 console.log(`digest ${issue}: sent ${sent}, skipped ${skipped}`);

@@ -22,12 +22,13 @@ export const START_HERE = [
 // Newsletter sign-up.
 // provider 'formsubmit' (default): every sign-up is emailed to SITE.email as "New newsletter subscriber".
 //   The first sign-up triggers a one-time activation email from formsubmit.co: click the link in it.
+// provider 'self': our own newsletter service; set `id` to its address, e.g. https://news.rudrakasturi.com
 // provider 'substack' or 'buttondown': sign-ups go straight into that service's list; set `id` to your
 //   publication / username (yourname.substack.com or buttondown.com/yourname). Use one of these to send the weekly email.
 export const NEWSLETTER = {
   // Sign-up boxes and the slide-in popup are hidden until this is true.
   enabled: true,
-  provider: 'formsubmit' as 'formsubmit' | 'substack' | 'buttondown',
+  provider: 'formsubmit' as 'formsubmit' | 'substack' | 'buttondown' | 'self',
   id: '',
   title: 'Subscribe to Rudra Kasturi',
   blurb: 'A weekly briefing on what is changing in SEO, AEO and AI search, and what to do about it.',
@@ -35,6 +36,7 @@ export const NEWSLETTER = {
 export function newsletterConfig(): { mode: 'ajax' | 'post'; action: string } {
   if (NEWSLETTER.id && NEWSLETTER.provider === 'substack') return { mode: 'post', action: `https://${NEWSLETTER.id}.substack.com/api/v1/free?nojs=true` };
   if (NEWSLETTER.id && NEWSLETTER.provider === 'buttondown') return { mode: 'post', action: `https://buttondown.com/api/emails/embed-subscribe/${NEWSLETTER.id}` };
+  if (NEWSLETTER.id && NEWSLETTER.provider === 'self') return { mode: 'ajax', action: `${NEWSLETTER.id.replace(/\/$/, '')}/subscribe` };
   return { mode: 'ajax', action: `https://formsubmit.co/ajax/${SITE.email}` };
 }
 
