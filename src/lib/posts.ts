@@ -2,9 +2,11 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Post = CollectionEntry<'blog'>;
 
-// All published posts, newest first.
+// All published posts, newest first. A post dated in the future stays hidden until a build runs after that time
+// (the "Publish scheduled posts" workflow triggers that build).
 export async function getAllPosts(): Promise<Post[]> {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const now = Date.now();
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.date.valueOf() <= now);
   return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
