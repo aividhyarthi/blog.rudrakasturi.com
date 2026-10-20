@@ -1,0 +1,51 @@
+---
+// A one-time welcome card for first-time desktop visitors. It is dismissible, never shown on phones,
+// and is remembered for 30 days, so it cannot get in the way of search visitors or returning readers.
+---
+
+<div class="welcome-overlay" id="welcome" role="dialog" aria-modal="true" aria-labelledby="welcome-title" hidden>
+  <div class="welcome-card">
+    <button type="button" class="welcome-close" aria-label="Close">&times;</button>
+    <p class="label">SEO · AEO · LLMs · YouTube · Forums</p>
+    <h2 id="welcome-title" class="display">Search is being rewritten by AI. <mark>What it means for your business.</mark></h2>
+    <p class="lede">
+      Analysis of what Google, ChatGPT, YouTube and Instagram are changing, what the experts are debating,
+      and what to do about it.
+    </p>
+    <div class="hero-actions">
+      <button type="button" class="btn btn-mint" data-close>Read the latest</button>
+      <a class="btn btn-ghost" href="/about/">About Rudra</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  const overlay = document.getElementById('welcome')!;
+  const KEY = 'rk-welcome-seen';
+  const DAYS = 30;
+  const read = () => { try { return Number(localStorage.getItem(KEY) || 0); } catch { return 0; } };
+  const write = () => { try { localStorage.setItem(KEY, String(Date.now())); } catch {} };
+  const force = new URLSearchParams(location.search).has('welcome'); // add ?welcome to preview it
+  const desktop = matchMedia('(min-width: 900px)').matches;
+  const seenRecently = read() > 0 && Date.now() - read() < DAYS * 864e5;
+
+  if (overlay && desktop && (force || !seenRecently)) {
+    let opener: Element | null = null;
+    const open = () => {
+      opener = document.activeElement;
+      overlay.hidden = false;
+      requestAnimationFrame(() => overlay.classList.add('open'));
+      overlay.querySelector<HTMLElement>('.welcome-close')!.focus();
+    };
+    const close = () => {
+      overlay.classList.remove('open');
+      write();
+      setTimeout(() => { overlay.hidden = true; (opener as HTMLElement | null)?.focus?.(); }, 250);
+    };
+    setTimeout(open, 5000); // 5-second pause before showing
+    overlay.querySelector('.welcome-close')!.addEventListener('click', close);
+    overlay.querySelectorAll('[data-close]').forEach((b) => b.addEventListener('click', close));
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+    addEventListener('keydown', (e) => { if (e.key === 'Escape' && overlay.classList.contains('open')) close(); });
+  }
+</script>

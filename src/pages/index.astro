@@ -5,16 +5,20 @@ import Carousel from '../components/Carousel.astro';
 import AuditBanner from '../components/AuditBanner.astro';
 import AppRankrSection from '../components/AppRankrSection.astro';
 import Subscribe from '../components/Subscribe.astro';
-import { getAllPosts, getSections, readingTime, topicOf, mixedLatest, SECTIONS, inSection } from '../lib/posts';
+import Sidebar from '../components/Sidebar.astro';
+import WelcomeModal from '../components/WelcomeModal.astro';
+import { getAllPosts, readingTime, topicOf, topicColor, formatDate, mixedLatest, SECTIONS, inSection } from '../lib/posts';
+import { coverUrl } from '../lib/cover';
 import { SITE, TOOLS, START_HERE, YEARS, NEWSLETTER, mailto } from '../config';
 
 const all = await getAllPosts();
 const researched = all.filter((p) => p.data.sources.length > 0);
 const featured = researched[0] ?? all[0];
-const latest = mixedLatest(all, 8, [featured.slug]);
+const mixed = mixedLatest(all, 12, [featured.slug]);
+const top = mixed.slice(0, 4); // "Top stories" next to the lead story
+const latest = mixed.slice(4); // main feed
 const rails = SECTIONS.map((sec) => ({ name: sec.name, slug: sec.slug, posts: all.filter((p) => inSection(p, sec)).slice(0, 9) })).filter((r) => r.posts.length >= 3);
 const start = START_HERE.map((slug) => all.find((p) => p.slug === slug)).filter((p) => p !== undefined);
-const topics = getSections(all);
 const origin = new URL(Astro.site!).origin;
 const home = [
   {
@@ -23,42 +27,60 @@ const home = [
   },
   {
     '@type': 'ItemList', '@id': `${origin}/#latest`, name: 'Latest articles',
-    itemListElement: [featured, ...latest].map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })),
+    itemListElement: [featured, ...top, ...latest].map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })),
   },
 ];
 ---
 
 <BaseLayout title="Rudra Kasturi | SEO, AEO & AI Search Analysis" description="Clear, sourced analysis of SEO, AEO, AI search, YouTube and Instagram. By Rudra Kasturi: 24+ years in search, ex-Amazon, Yahoo, Times Internet, BYJU's." jsonld={home} mainEntityId={`${origin}/#latest`}>
-  <section class="hero on-blue">
-    <div class="wrap hero-grid">
-      <div>
-        <p class="label">SEO · AEO · LLMs · YouTube · Instagram</p>
-        <h1 class="display">Search is being rewritten by AI. <mark>What it means for your business.</mark></h1>
-        <p class="lede">
-          Analysis of what Google, ChatGPT, YouTube and Instagram are changing, what the experts are debating,
-          and what to do about it.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-mint" href="#start">Start here</a>
-          <a class="btn btn-ghost" href="/blog">Read the latest</a>
-        </div>
-      </div>
-      <article class="feature">
-        <p class="label">Featured · {topicOf(featured).name}</p>
+  <h1 class="sr-only">Rudra Kasturi: SEO, AEO and AI search analysis</h1>
+
+  <section class="front">
+    <div class="wrap lead-grid">
+      <article class={`lead ${topicColor(topicOf(featured).slug)}`}>
+        <a class="lead-img" href={`/${featured.slug}/`} tabindex="-1" aria-hidden="true">
+          <img src={coverUrl(featured)} alt="" width="1200" height="630" fetchpriority="high" />
+        </a>
+        <p class="entry-kicker"><a href={`/category/${topicOf(featured).slug}/`}>{topicOf(featured).name}</a><span>{formatDate(featured.data.date)}</span></p>
         <h2><a href={`/${featured.slug}/`}>{featured.data.title}</a></h2>
-        <p>{featured.data.tldr ?? featured.data.description}</p>
+        <p class="lead-desc">{featured.data.tldr ?? featured.data.description}</p>
         <p class="entry-meta">{readingTime(featured)} min read</p>
       </article>
+      <div class="top-stories">
+        <h2 class="rail-title">Top stories</h2>
+        {top.map((p) => (
+          <article class={`top-row ${topicColor(topicOf(p).slug)}`}>
+            <a href={`/${p.slug}/`} class="top-thumb" tabindex="-1" aria-hidden="true"><img src={coverUrl(p)} alt="" loading="lazy" width="1200" height="630" /></a>
+            <div>
+              <p class="entry-kicker"><a href={`/category/${topicOf(p).slug}/`}>{topicOf(p).name}</a><span>{formatDate(p.data.date)}</span></p>
+              <h3><a href={`/${p.slug}/`}>{p.data.title}</a></h3>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="feed">
+    <div class="wrap layout">
+      <div>
+        <div class="section-head">
+          <p class="label">Latest</p>
+          <h2>The latest across search, AI and social</h2>
+        </div>
+        {latest.map((p) => <PostEntry post={p} />)}
+        <p class="more"><a class="link-arrow" href="/blog/">All {all.length} articles &rarr;</a></p>
+      </div>
+      <Sidebar />
     </div>
   </section>
 
   {start.length > 0 && (
-    <section class="section" id="start">
+    <section class="section section-tint" id="start">
       <div class="wrap">
         <div class="section-head">
           <p class="label">Start here</p>
-          <h2>Start with these four</h2>
-          <p class="sub">Essential reading across AI search, YouTube and Instagram.</p>
+          <h2>New to AI search? Start with these four</h2>
         </div>
         <div class="tiles">
           {start.map((p, i) => (
@@ -72,17 +94,6 @@ const home = [
     </section>
   )}
 
-  <section class="section section-tint">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label">Latest</p>
-        <h2>The latest across search, AI and social</h2>
-      </div>
-      {latest.map((p) => <PostEntry post={p} />)}
-      <p class="more"><a class="link-arrow" href="/blog">All {all.length} articles &rarr;</a></p>
-    </div>
-  </section>
-
   {rails.map((r, i) => (
     <section class:list={['section', { 'section-sky': i % 2 === 0 }]}>
       <div class="wrap">
@@ -90,19 +101,6 @@ const home = [
       </div>
     </section>
   ))}
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="label">Browse</p>
-        <h2>Find it by topic</h2>
-      </div>
-      <div class="topics">
-        {topics.map((t) => <a class="topic" href={`/category/${t.slug}/`}>{t.name} <small>{t.count}</small></a>)}
-      </div>
-      <p class="more"><a class="link-arrow" href="/category/">All topics &rarr;</a></p>
-    </div>
-  </section>
 
   <div class="wrap" style="padding-top: 24px; padding-bottom: 56px;"><AuditBanner medium="home" /></div>
 
@@ -123,4 +121,5 @@ const home = [
       <a class="btn btn-ghost" href={mailto}>Email {SITE.email}</a>
     </div>
   </section>
+  <WelcomeModal />
 </BaseLayout>
