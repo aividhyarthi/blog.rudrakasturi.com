@@ -321,7 +321,7 @@ mark { background: linear-gradient(transparent 58%, var(--mint) 58%); color: inh
 .layout .callout { max-width: none; margin: 32px 0 0; }
 
 @media (max-width: 1000px) {
-  .layout { grid-template-columns: 1fr; gap: 0; }
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 0; }
   .sidebar { padding-top: 10px; }
   .rail-track { grid-auto-columns: calc((100% - 20px) / 2); }
 }
@@ -481,3 +481,14 @@ mark { background: linear-gradient(transparent 58%, var(--mint) 58%); color: inh
   .lead-grid { grid-template-columns: 1fr; gap: 28px; }
   .top-row { grid-template-columns: 96px 1fr; }
 }
+
+/* ---------- Small-screen safety: nothing may make the page wider than the phone ---------- */
+html, body { max-width: 100%; overflow-x: clip; }
+.layout > *, .article-main { min-width: 0; }
+.prose { overflow-wrap: anywhere; }
+.prose img, .prose video, .prose svg { max-width: 100%; height: auto; }
+.prose iframe { max-width: 100%; }
+.prose table { display: block; max-width: 100%; overflow-x: auto; }
+.prose pre, .prose code { max-width: 100%; }
+.prose pre { overflow-x: auto; }
+.install-btn { background: none; border: 0; padding: 0; font: inherit; color: inherit; text-decoration: underline; cursor: pointer; }
