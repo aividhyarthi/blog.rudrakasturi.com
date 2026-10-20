@@ -24,7 +24,7 @@ const origin = new URL(Astro.site!).origin;
 const pageUrl = new URL(Astro.url.pathname, origin).href;
 const modified = updated ?? date;
 const article = {
-  '@type': 'Article',
+  '@type': sources.length > 0 ? 'NewsArticle' : 'Article',
   '@id': `${pageUrl}#article`,
   url: pageUrl,
   isPartOf: { '@id': `${pageUrl}#webpage` },
@@ -36,7 +36,7 @@ const article = {
   datePublished: date.toISOString(),
   dateModified: modified.toISOString(),
   author: { '@id': `${origin}/authors/${author.slug}/#person` },
-  reviewedBy: { '@id': `${origin}/#rudra` },
+  reviewedBy: { '@id': `${origin}/#organization` },
   publisher: { '@type': 'Organization', '@id': `${origin}/#organization`, name: 'Rudra Kasturi Inc.', logo: { '@type': 'ImageObject', url: `${origin}/logo.png`, width: 512, height: 512 } },
   articleSection: topic.name,
   keywords: [...new Set([topic.name, ...tagsOf(post).map((t) => t.name)])].slice(0, 8).join(', '),
@@ -80,7 +80,7 @@ const crumbs = [
         <div class="byline-row">
           <Avatar author={author} size={44} />
           <p class="byline">
-            By <a href={`/authors/${author.slug}/`}><b>{author.name}</b></a> <span class="ai-tag" title="AI author persona. See the contributors page.">AI author</span> · Reviewed by <a href="/about/"><b>Rudra Kasturi</b></a><br />
+            By <a href={`/authors/${author.slug}/`}><b>{author.name}</b></a> · Reviewed by <b>Editorial Desk</b><br />
             {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
           </p>
         </div>

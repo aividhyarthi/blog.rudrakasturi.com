@@ -112,6 +112,10 @@ const robots = noindex
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <meta name="theme-color" content="#2540f5" />
+    {SITE.googleSiteVerification && <meta name="google-site-verification" content={SITE.googleSiteVerification} />}
     <title>{title}</title>
     <script type="application/ld+json" set:html={schema} />
     <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
@@ -176,6 +180,9 @@ const robots = noindex
         <span><a href="/privacy-policy/">Privacy Policy</a> · <a href="/terms-of-service/">Terms of Service</a></span>
       </div>
     </footer>
+    <script is:inline>
+      if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(function () {});
+    </script>
     <script>
       // Tools dropdown: opens on click or tap, closes on outside click or Escape (hover also works with CSS).
       document.querySelectorAll<HTMLElement>('.nav-dd').forEach((dd) => {

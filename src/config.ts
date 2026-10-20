@@ -1,5 +1,7 @@
 // Facts used across the site. Edit here and every page updates.
 export const SITE = {
+  // Paste the content value of the Search Console HTML-tag verification here (optional).
+  googleSiteVerification: '',
   name: 'Rudra Kasturi',
   tagline: 'Search. Strategy. AI. Growth. Revenue. Coach. Farmer.',
   email: 'rudra@rudrakasturi.com',
@@ -24,10 +26,10 @@ export const START_HERE = [
 //   publication / username (yourname.substack.com or buttondown.com/yourname). Use one of these to send the weekly email.
 export const NEWSLETTER = {
   // Sign-up boxes and the slide-in popup are hidden until this is true.
-  enabled: false,
+  enabled: true,
   provider: 'formsubmit' as 'formsubmit' | 'substack' | 'buttondown',
   id: '',
-  title: 'The Search & AI Briefing',
+  title: 'Subscribe to Rudra Kasturi',
   blurb: 'A weekly briefing on what is changing in SEO, AEO and AI search, and what to do about it.',
 };
 export function newsletterConfig(): { mode: 'ajax' | 'post'; action: string } {

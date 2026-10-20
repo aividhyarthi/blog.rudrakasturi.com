@@ -40,3 +40,4 @@ User-agent: Bytespider
 Allow: /
 
 Sitemap: https://blog.rudrakasturi.com/sitemap-index.xml
+Sitemap: https://blog.rudrakasturi.com/news-sitemap.xml
