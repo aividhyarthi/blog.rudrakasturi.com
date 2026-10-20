@@ -166,6 +166,8 @@ const robots = noindex
             <li><a href="/companies/">Tools &amp; companies</a></li>
             <li><a href="/authors/">Contributors</a></li>
             <li><a href="/contact/">Contact</a></li>
+            <li id="install-li" hidden><button type="button" class="install-btn" id="install-app">Install the app</button></li>
+            <li id="ios-install" hidden><small>To install: tap Share, then Add to Home Screen.</small></li>
           </ul>
         </div>
         <div>
@@ -182,6 +184,20 @@ const robots = noindex
     </footer>
     <script is:inline>
       if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(function () {});
+    </script>
+    <script is:inline>
+      // "Install the app" button: shown when the browser says the site can be installed.
+      (function () {
+        var standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+        if (standalone) return;
+        var li = document.getElementById('install-li'), btn = document.getElementById('install-app'), deferred = null;
+        window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); deferred = e; li.hidden = false; });
+        btn.addEventListener('click', function () { if (!deferred) return; deferred.prompt(); deferred.userChoice.finally(function () { deferred = null; li.hidden = true; }); });
+        window.addEventListener('appinstalled', function () { li.hidden = true; });
+        var ua = navigator.userAgent;
+        var ios = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); // newer iPads report as a Mac
+        if (ios && !/crios|fxios/i.test(ua)) document.getElementById('ios-install').hidden = false;
+      })();
     </script>
     <script>
       // Tools dropdown: opens on click or tap, closes on outside click or Escape (hover also works with CSS).
