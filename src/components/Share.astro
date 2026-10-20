@@ -1,0 +1,50 @@
+---
+// Share buttons for articles: WhatsApp, X, LinkedIn, copy link, and an Instagram-ready image.
+const { url, title, slug, where = 'top' } = Astro.props as { url: string; title: string; slug: string; where?: 'top' | 'bottom' };
+const enc = encodeURIComponent;
+const links = [
+  { name: 'WhatsApp', href: `https://wa.me/?text=${enc(`${title} ${url}`)}`, cls: 'wa' },
+  { name: 'X', href: `https://x.com/intent/post?text=${enc(title)}&url=${enc(url)}`, cls: 'x' },
+  { name: 'LinkedIn', href: `https://www.linkedin.com/sharing/share-offsite/?url=${enc(url)}`, cls: 'li' },
+];
+---
+<div class={`share share-${where}`} data-url={url} data-title={title} data-card={`/social/${slug}.png`}>
+  <span class="share-label">Share</span>
+  {links.map((l) => <a class={`share-btn ${l.cls}`} href={l.href} target="_blank" rel="noopener noreferrer">{l.name}</a>)}
+  <button type="button" class="share-btn ig" data-ig>Instagram</button>
+  <button type="button" class="share-btn copy" data-copy>Copy link</button>
+  <span class="share-status" role="status" aria-live="polite"></span>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.share').forEach((box) => {
+    if (box.dataset.ready) return;
+    box.dataset.ready = '1';
+    const status = box.querySelector<HTMLElement>('.share-status')!;
+    const say = (m: string) => { status.textContent = m; setTimeout(() => (status.textContent = ''), 5000); };
+    const url = box.dataset.url!, title = box.dataset.title!, card = box.dataset.card!;
+
+    box.querySelector('[data-copy]')!.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(url); say('Link copied.'); }
+      catch { window.prompt('Copy this link:', url); }
+    });
+
+    box.querySelector('[data-ig]')!.addEventListener('click', async () => {
+      // Instagram has no web share link, so we hand over a ready-made 4:5 image of the article.
+      try {
+        const blob = await (await fetch(card)).blob();
+        const file = new File([blob], 'rudra-kasturi-post.png', { type: 'image/png' });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          await navigator.share({ files: [file], text: `${title} ${url}` });
+          return;
+        }
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob); a.download = 'rudra-kasturi-post.png';
+        document.body.appendChild(a); a.click(); a.remove();
+        say('Image saved. Open Instagram and post it.');
+      } catch (e) {
+        if ((e as Error).name !== 'AbortError') say('Could not prepare the image. Try again.');
+      }
+    });
+  });
+</script>
