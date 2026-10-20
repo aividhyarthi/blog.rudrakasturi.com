@@ -1,0 +1,30 @@
+name: Publish scheduled posts
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-scheduled
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - id: due
+        run: node scripts/publish-due.mjs
+      - name: Commit the stamp so the site rebuilds
+        if: steps.due.outputs.changed == 'true'
+        run: |
+          git config user.name "publish-bot"
+          git config user.email "publish-bot@users.noreply.github.com"
+          git add .publish-stamp
+          git commit -m "Publish scheduled posts"
+          git push origin HEAD:main
