@@ -10,7 +10,6 @@ const latest = all.filter((p) => p.slug !== exclude).slice(0, 5);
 const must = START_HERE.map((s) => all.find((p) => p.slug === s)).filter((p) => p && p.slug !== exclude).slice(0, 5) as typeof all;
 const topics = getSections(all);
 const tags = getTags(all, 4).slice(0, 18);
-const tool = TOOLS[0];
 const appr = TOOLS.find((t) => t.name === 'AppRankr')!;
 ---
 
@@ -62,11 +61,5 @@ const appr = TOOLS.find((t) => t.name === 'AppRankr')!;
     <p style="margin-top:12px"><a class="link-arrow" href={utm(appr.url, 'sidebar')} rel="noopener">Try AppRankr &rarr;</a></p>
   </section>
 
-  <section class="box box-tool">
-    <p class="label">Free tool</p>
-    <h3>{tool.name}</h3>
-    <p>{tool.blurb}</p>
-    <a class="btn" href={utm(tool.url, 'sidebar')} rel="noopener">Try it &rarr;</a>
-  </section>
 </aside>
 

@@ -1,0 +1,5 @@
+---
+import type { Author } from '../lib/authors';
+const { author, size = 44 } = Astro.props as { author: Author; size?: number };
+---
+<img class="avatar" src={`/authors/${author.slug}.svg`} alt={`Illustrated avatar of ${author.name}`} width={size} height={size} loading="lazy" style={`width:${size}px;height:${size}px`} />

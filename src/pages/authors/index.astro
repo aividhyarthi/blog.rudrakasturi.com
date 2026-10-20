@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Avatar from '../../components/Avatar.astro';
+import { AUTHORS, postsByAuthor } from '../../lib/authors';
+import { getAllPosts } from '../../lib/posts';
+import { SITE } from '../../config';
+
+const all = await getAllPosts();
+const origin = new URL(Astro.site!).origin;
+const list = {
+  '@type': 'ItemList', '@id': `${origin}/authors/#itemlist`, name: 'Contributors', numberOfItems: AUTHORS.length,
+  itemListElement: AUTHORS.map((a, i) => ({ '@type': 'ListItem', position: i + 1, name: a.name, url: `${origin}/authors/${a.slug}/` })),
+};
+---
+<BaseLayout title="Contributors | Rudra Kasturi" description="The contributor desk behind the blog: AI author personas for SEO, AEO, LLMs, Google, YouTube and community search, reviewed and published by Rudra Kasturi." pageType="CollectionPage" jsonld={[list]} mainEntityId={`${origin}/authors/#itemlist`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Contributors', url: '/authors/' }]}>
+  <div class="wrap">
+    <div class="page-head">
+      <p class="label">Contributors</p>
+      <h1>The contributor desk</h1>
+      <p class="lede">Each topic on this blog has its own AI author persona. The personas are not real people. Their articles are drafted with AI from cited public sources, then reviewed and published by Rudra Kasturi, who is responsible for the content.</p>
+    </div>
+    <div class="author-grid">
+      {AUTHORS.map((a) => (
+        <a class="author-card" href={`/authors/${a.slug}/`}>
+          <Avatar author={a} size={96} />
+          <h2>{a.name}</h2>
+          <p class="role">{a.role}</p>
+          <p>{a.bio}</p>
+          <small>{postsByAuthor(all, a.slug).length} articles</small>
+        </a>
+      ))}
+    </div>
+    <p class="disclosure">Questions about the content? Write to <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+  </div>
+</BaseLayout>
