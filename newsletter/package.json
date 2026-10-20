@@ -1,0 +1,14 @@
+{
+  "name": "rk-newsletter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/smoke.mjs",
+    "preview": "node test/make-preview.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "pg": "^8.13.0" },
+  "devDependencies": { "pg-mem": "^3.0.5" }
+}

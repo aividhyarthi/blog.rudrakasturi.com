@@ -1,6 +1,6 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
-import { getAllPosts } from '../lib/posts';
+import { getAllPosts, topicOf } from '../lib/posts';
 
 export async function GET(context: APIContext) {
   const posts = await getAllPosts();
@@ -11,8 +11,9 @@ export async function GET(context: APIContext) {
     items: posts.map((post) => ({
       title: post.data.title,
       pubDate: post.data.date,
-      description: post.data.description,
+      description: post.data.tldr ?? post.data.description,
       link: `/${post.slug}/`,
+      categories: [topicOf(post).name],
     })),
   });
 }
