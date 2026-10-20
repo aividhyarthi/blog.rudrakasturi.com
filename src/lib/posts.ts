@@ -128,7 +128,7 @@ export function mixedLatest(posts: Post[], count: number, exclude: string[] = []
   const queues = SECTIONS.map((sec) => posts.filter((p) => inSection(p, sec) && !exclude.includes(p.slug)));
   const out: Post[] = [];
   for (let i = 0; out.length < count && i < 50; i++) {
-    for (const q of queues) if (q[i] && out.length < count) out.push(q[i]);
+    for (const q of queues) if (q[i] && out.length < count && !out.includes(q[i])) out.push(q[i]);
   }
   return out.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
