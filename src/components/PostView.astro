@@ -8,12 +8,15 @@ import Sidebar from './Sidebar.astro';
 import AuditBanner from './AuditBanner.astro';
 import Subscribe from './Subscribe.astro';
 import NewsletterPopup from './NewsletterPopup.astro';
+import Avatar from './Avatar.astro';
+import { authorOf } from '../lib/authors';
 import { SITE, NEWSLETTER } from '../config';
 
 const { post, related } = Astro.props as { post: Post; related: Post[] };
 const { Content } = await post.render();
 const { title, description, date, updated, type, tldr, sources } = post.data;
 const topic = topicOf(post);
+const author = authorOf(post);
 const label = { article: 'Article', research: 'Research', 'case-study': 'Case study' }[type];
 
 // ---- schema.org Article ----
@@ -21,7 +24,7 @@ const origin = new URL(Astro.site!).origin;
 const pageUrl = new URL(Astro.url.pathname, origin).href;
 const modified = updated ?? date;
 const article = {
-  '@type': 'Article',
+  '@type': sources.length > 0 ? 'NewsArticle' : 'Article',
   '@id': `${pageUrl}#article`,
   url: pageUrl,
   isPartOf: { '@id': `${pageUrl}#webpage` },
@@ -32,7 +35,8 @@ const article = {
   image: [{ '@type': 'ImageObject', url: `${origin}${coverPngUrl(post)}`, width: 1200, height: 630 }],
   datePublished: date.toISOString(),
   dateModified: modified.toISOString(),
-  author: { '@type': 'Person', '@id': `${origin}/#rudra`, name: 'Rudra Kasturi', url: `${origin}/about/`, sameAs: [SITE.linkedin] },
+  author: { '@id': `${origin}/authors/${author.slug}/#person` },
+  reviewedBy: { '@id': `${origin}/#organization` },
   publisher: { '@type': 'Organization', '@id': `${origin}/#organization`, name: 'Rudra Kasturi Inc.', logo: { '@type': 'ImageObject', url: `${origin}/logo.png`, width: 512, height: 512 } },
   articleSection: topic.name,
   keywords: [...new Set([topic.name, ...tagsOf(post).map((t) => t.name)])].slice(0, 8).join(', '),
@@ -60,7 +64,12 @@ const crumbs = [
   modified={modified}
   section={topic.name}
   breadcrumbs={crumbs}
-  jsonld={[article]}
+  jsonld={[article, {
+    '@type': 'Person', '@id': `${origin}/authors/${author.slug}/#person`, name: author.name, jobTitle: author.role,
+    url: `${origin}/authors/${author.slug}/`, image: `${origin}/authors/${author.slug}.png`, knowsAbout: author.knows,
+    description: `${author.bio} ${author.name} is an AI author persona; content is reviewed and published by Rudra Kasturi.`,
+    worksFor: { '@id': `${origin}/#organization` },
+  }]}
   mainEntityId={`${pageUrl}#article`}
 >
   <div class="wrap layout">
@@ -68,9 +77,13 @@ const crumbs = [
       <header class="article-head">
         <p class="label">{label} · <a href={`/category/${topic.slug}/`} style="text-decoration:none">{topic.name}</a></p>
         <h1>{title}</h1>
-        <p class="byline">
-          By <b>Rudra Kasturi</b> · {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
-        </p>
+        <div class="byline-row">
+          <Avatar author={author} size={44} />
+          <p class="byline">
+            By <a href={`/authors/${author.slug}/`}><b>{author.name}</b></a> · Reviewed by <b>Editorial Desk</b><br />
+            {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
+          </p>
+        </div>
       </header>
       <div class="post-hero"><img src={coverUrl(post)} alt="" width="1200" height="630" /></div>
       {tldr && <div class="tldr"><b>SUMMARY</b><p>{tldr}</p></div>}

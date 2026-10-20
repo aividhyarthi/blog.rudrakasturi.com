@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PostEntry from './PostEntry.astro';
 import Pagination from './Pagination.astro';
 import Sidebar from './Sidebar.astro';
+import Contributors from './Contributors.astro';
 import { PAGE_SIZE, type Post } from '../lib/posts';
 
 interface Props {
@@ -18,8 +19,9 @@ interface Props {
   trail?: { name: string; url: string }[]; // breadcrumb steps after "Home"
   totalCount?: number; // number of posts across all pages
   noindex?: boolean;
+  contributors?: string; // section slug whose authors are shown under the heading
 }
-const { title, description, label, heading, lede, posts, current = 1, total = 1, base, trail = [], totalCount = posts.length, noindex = false } = Astro.props as Props;
+const { title, description, label, heading, lede, posts, current = 1, total = 1, base, trail = [], totalCount = posts.length, noindex = false, contributors } = Astro.props as Props;
 
 const origin = new URL(Astro.site!).origin;
 const pageUrl = new URL(Astro.url.pathname, origin).href;
@@ -46,7 +48,8 @@ const itemList = {
       <div class="page-head">
         <p class="label">{label}</p>
         <h1>{heading}</h1>
-        <p class="lede">{lede}{current > 1 && ` (Page ${current} of ${total})`}</p>
+        {(lede || current > 1) && <p class="lede">{lede}{current > 1 && ` (Page ${current} of ${total})`}</p>}
+        {contributors && <Contributors topic={contributors} />}
       </div>
       {posts.length > 0 ? posts.map((p) => <PostEntry post={p} />) : <p class="lede">Nothing here yet.</p>}
       <Pagination current={current} total={total} base={base} />

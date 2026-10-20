@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostEntry from '../../../components/PostEntry.astro';
+import Avatar from '../../../components/Avatar.astro';
+import { AUTHORS, postsByAuthor } from '../../../lib/authors';
+import { getAllPosts } from '../../../lib/posts';
+import { SITE } from '../../../config';
+
+export function getStaticPaths() {
+  return AUTHORS.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const all = await getAllPosts();
+const posts = postsByAuthor(all, a.slug);
+const shown = posts.slice(0, 20);
+const origin = new URL(Astro.site!).origin;
+const person = {
+  '@type': 'Person', '@id': `${origin}/authors/${a.slug}/#person`, name: a.name, jobTitle: a.role,
+  url: `${origin}/authors/${a.slug}/`, image: `${origin}/authors/${a.slug}.png`,
+  description: `${a.bio} ${a.name} is an AI author persona; content is reviewed and published by Rudra Kasturi.`,
+  knowsAbout: a.knows, worksFor: { '@id': `${origin}/#organization` },
+};
+const list = {
+  '@type': 'ItemList', '@id': `${origin}/authors/${a.slug}/#itemlist`, name: `Articles by ${a.name}`, numberOfItems: posts.length,
+  itemListElement: shown.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })),
+};
+---
+<BaseLayout title={`${a.name}, ${a.role} | Rudra Kasturi`} description={`${a.name} covers ${a.knows.slice(0, 3).join(', ')}. AI author persona, reviewed by Rudra Kasturi.`} pageType="ProfilePage" jsonld={[person, list]} mainEntityId={`${origin}/authors/${a.slug}/#person`} image={`/authors/${a.slug}.png`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Contributors', url: '/authors/' }, { name: a.name, url: `/authors/${a.slug}/` }]}>
+  <div class="wrap">
+    <div class="page-head author-head">
+      <Avatar author={a} size={120} />
+      <div>
+        <p class="label">{a.role}</p>
+        <h1>{a.name}</h1>
+        <p class="lede">{a.bio}</p>
+        <p class="disclosure">{a.name} is an AI author persona, not a real person. Articles are reviewed and published by <a href="/about/">Rudra Kasturi</a>. <a href="/authors/">All contributors</a></p>
+      </div>
+    </div>
+    <h2 class="rail-title" style="margin-top:24px">Articles by {a.name}</h2>
+    {shown.map((p) => <PostEntry post={p} />)}
+    {posts.length > shown.length && <p class="more"><a class="link-arrow" href={`/category/${a.topics[0]}/`}>More in {a.topics[0].toUpperCase()} &rarr;</a></p>}
+    <div style="height:64px"></div>
+  </div>
+</BaseLayout>

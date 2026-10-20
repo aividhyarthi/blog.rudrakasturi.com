@@ -1,0 +1,21 @@
+---
+import Avatar from './Avatar.astro';
+import { authorsForTopic } from '../lib/authors';
+const { topic } = Astro.props as { topic: string };
+const authors = authorsForTopic(topic);
+---
+{authors.length > 0 && (
+  <div class="contributors">
+    <p class="label">Contributors</p>
+    <ul>
+      {authors.map((a) => (
+        <li>
+          <a href={`/authors/${a.slug}/`}>
+            <Avatar author={a} size={48} />
+            <span><b>{a.name}</b><small>{a.role}</small></span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}

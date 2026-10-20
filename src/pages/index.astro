@@ -5,7 +5,9 @@ import Carousel from '../components/Carousel.astro';
 import AuditBanner from '../components/AuditBanner.astro';
 import AppRankrSection from '../components/AppRankrSection.astro';
 import Subscribe from '../components/Subscribe.astro';
-import Sidebar from '../components/Sidebar.astro';
+import PostCard from '../components/PostCard.astro';
+import { APPRANKR_POSTS, utm } from '../config';
+import { getTags } from '../lib/posts';
 import WelcomeModal from '../components/WelcomeModal.astro';
 import { getAllPosts, readingTime, topicOf, topicColor, formatDate, mixedLatest, SECTIONS, inSection } from '../lib/posts';
 import { coverUrl } from '../lib/cover';
@@ -15,8 +17,10 @@ const all = await getAllPosts();
 const researched = all.filter((p) => p.data.sources.length > 0);
 const featured = researched[0] ?? all[0];
 const mixed = mixedLatest(all, 12, [featured.slug]);
-const top = mixed.slice(0, 4); // "Top stories" next to the lead story
-const latest = mixed.slice(4); // main feed
+const top = mixed.slice(0, 3); // "Top stories" next to the lead story
+const latest = mixed.slice(3);
+const appr = TOOLS.find((t) => t.name === 'AppRankr')!;
+const tool = TOOLS[0]; // main feed
 const rails = SECTIONS.map((sec) => ({ name: sec.name, slug: sec.slug, posts: all.filter((p) => inSection(p, sec)).slice(0, 9) })).filter((r) => r.posts.length >= 3);
 const start = START_HERE.map((slug) => all.find((p) => p.slug === slug)).filter((p) => p !== undefined);
 const origin = new URL(Astro.site!).origin;
@@ -57,21 +61,43 @@ const home = [
             </div>
           </article>
         ))}
+        <div class="top-row top-appstore">
+          <div class="appstore-ico" aria-hidden="true">&#9638;</div>
+          <div>
+            <p class="entry-kicker"><a href={utm(appr.url, 'home-top')} rel="noopener">App store insights</a><span>AppRankr</span></p>
+            <h3><a href={utm(APPRANKR_POSTS[0].url, 'home-top')} rel="noopener">{APPRANKR_POSTS[0].title}</a></h3>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="feed">
-    <div class="wrap layout">
-      <div>
-        <div class="section-head">
-          <p class="label">Latest</p>
-          <h2>The latest across search, AI and social</h2>
-        </div>
-        {latest.map((p) => <PostEntry post={p} />)}
-        <p class="more"><a class="link-arrow" href="/blog/">All {all.length} articles &rarr;</a></p>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">Latest</p>
+        <h2>The latest across search, AI and social</h2>
       </div>
-      <Sidebar />
+      <div class="card-grid">
+        {latest.map((p) => <PostCard post={p} />)}
+      </div>
+      <p class="more"><a class="link-arrow" href="/blog/">All {all.length} articles &rarr;</a></p>
+
+      <div class="widget-row">
+        <section class="widget">
+          <p class="label">App store insights</p>
+          <ul>
+            {APPRANKR_POSTS.slice(0, 3).map((p) => <li><a href={utm(p.url, 'home-widget')} rel="noopener">{p.title}</a></li>)}
+          </ul>
+          <a class="link-arrow" href={utm(appr.url, 'home-widget')} rel="noopener">More on AppRankr &rarr;</a>
+        </section>
+        <section class="widget widget-tool">
+          <p class="label">Free tool</p>
+          <h3>{tool.name}</h3>
+          <p>{tool.blurb}</p>
+          <a class="btn" href={utm(tool.url, 'home-widget')} rel="noopener">Try it &rarr;</a>
+        </section>
+      </div>
     </div>
   </section>
 
