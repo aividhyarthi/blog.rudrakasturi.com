@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" role="img" aria-label="How Google Discover's stale-story filters work: stories enter, two filters check for newer coverage and for fading relevance, either one removes a story before ranking">
+<rect width="800" height="980" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="36" font-weight="800" fill="#0b1030">How Discover removes stale stories</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">As described in Google's research paper</text>
+<rect x="140" y="140" width="520" height="90" rx="18" fill="#0b1030"/>
+<text x="400" y="196" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">Stories that could be shown</text>
+<path d="M400 236 v50" stroke="#2340f5" stroke-width="8" stroke-linecap="round"/><path d="M380 276 l20 26 l20 -26z" fill="#2340f5"/>
+<rect x="40" y="310" width="720" height="200" rx="18" fill="#ff5a1f"/>
+<text x="70" y="362" font-size="22" font-weight="800" fill="#0b1030" letter-spacing="2">FILTER 1</text>
+<text x="70" y="406" font-size="34" font-weight="800" fill="#fff">Supersession</text>
+<text x="70" y="448" font-size="26" fill="#fff">A newer story on the same topic</text>
+<text x="70" y="482" font-size="26" fill="#fff">makes this one out of date.</text>
+<text x="740" y="412" font-size="54" font-weight="800" fill="#fff" text-anchor="end">-64.0%</text>
+<text x="740" y="450" font-size="22" fill="#fff" text-anchor="end">staleness reports</text>
+<rect x="40" y="530" width="720" height="200" rx="18" fill="#2340f5"/>
+<text x="70" y="582" font-size="22" font-weight="800" fill="#6ee7c8" letter-spacing="2">FILTER 2</text>
+<text x="70" y="626" font-size="34" font-weight="800" fill="#fff">Relevance decay</text>
+<text x="70" y="668" font-size="26" fill="#e3e8ff">The story is predicted to lose</text>
+<text x="70" y="702" font-size="26" fill="#e3e8ff">value quickly as time passes.</text>
+<text x="740" y="632" font-size="54" font-weight="800" fill="#fff" text-anchor="end">-34.4%</text>
+<text x="740" y="670" font-size="22" fill="#e3e8ff" text-anchor="end">staleness reports</text>
+<path d="M400 736 v40" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 766 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="800" width="720" height="150" rx="18" fill="#0b8f6a"/>
+<text x="70" y="852" font-size="30" font-weight="800" fill="#fff">Either filter is enough to remove a story</text>
+<text x="70" y="892" font-size="26" fill="#e8fff6">This happens before ranking. Combined result</text>
+<text x="70" y="926" font-size="26" fill="#e8fff6">after two years in Discover: 54.9% fewer reports.</text>
+</g></svg>
