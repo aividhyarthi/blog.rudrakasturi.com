@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Timeline of the PHP2Shell flaw: found in August, reported on 11 August, fixed on 21 October, governments warn on 21 and 22 October">
+<rect width="800" height="900" rx="24" fill="#f1f4ff"/>
+<text x="40" y="70" font-family="Archivo, Arial, Helvetica, sans-serif" font-size="38" font-weight="800" fill="#0b1030">What happened, step by step</text>
+<line x1="90" y1="140" x2="90" y2="800" stroke="#2340f5" stroke-width="6" stroke-linecap="round"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<circle cx="90" cy="165" r="26" fill="#2340f5"/><text x="90" y="175" font-size="26" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="150" y="160" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">AUGUST 2026</text>
+<text x="150" y="196" font-size="30" font-weight="800" fill="#0b1030">Researchers find two flaws</text>
+<text x="150" y="232" font-size="26" fill="#1c2349">A security firm uses OpenAI's AI model</text>
+<text x="150" y="264" font-size="26" fill="#1c2349">to spot serious bugs in PHP.</text>
+<circle cx="90" cy="360" r="26" fill="#2340f5"/><text x="90" y="370" font-size="26" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="150" y="355" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">11 AUGUST</text>
+<text x="150" y="391" font-size="30" font-weight="800" fill="#0b1030">Reported in private</text>
+<text x="150" y="427" font-size="26" fill="#1c2349">The firm tells the people who</text>
+<text x="150" y="459" font-size="26" fill="#1c2349">maintain PHP, so a fix can be built.</text>
+<circle cx="90" cy="555" r="26" fill="#0b8f6a"/><text x="90" y="565" font-size="26" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="150" y="550" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">21 OCTOBER</text>
+<text x="150" y="586" font-size="30" font-weight="800" fill="#0b1030">The fix is released</text>
+<text x="150" y="622" font-size="26" fill="#1c2349">Everyone who runs PHP is asked</text>
+<text x="150" y="654" font-size="26" fill="#1c2349">to update.</text>
+<circle cx="90" cy="750" r="26" fill="#ff5a1f"/><text x="90" y="760" font-size="26" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="150" y="745" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">21 TO 22 OCTOBER</text>
+<text x="150" y="781" font-size="30" font-weight="800" fill="#0b1030">Governments sound the alarm</text>
+<text x="150" y="817" font-size="26" fill="#1c2349">US agencies say: update now, or</text>
+<text x="150" y="849" font-size="26" fill="#1c2349">take the system offline.</text>
+</g></svg>
