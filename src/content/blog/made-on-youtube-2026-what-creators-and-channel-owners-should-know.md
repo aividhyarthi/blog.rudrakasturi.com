@@ -30,7 +30,7 @@ YouTube held its Made on YouTube event on September 23, 2026. Reports we reviewe
 
 ## Testing
 
-- Reports say that starting in 2027, creators will be able to test three different cuts of a Short.
+- Reports say that starting in 2027, creators will be able to test up to three different edits of either a Short or a regular video. Gigazine says this is coming to select creators first, so it may not apply to every channel at launch.
 - A **Dynamic Thumbnails** feature will let YouTube pick among several thumbnails based on viewer engagement, also reported for 2027.
 
 ## Shorts and live

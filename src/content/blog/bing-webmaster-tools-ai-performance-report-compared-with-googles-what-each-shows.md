@@ -29,7 +29,7 @@ Several guides date the report to February 2026, in public preview for verified 
 
 - **Total citations**: how often your pages are cited in AI answers.
 - **Average cited pages**.
-- **Grounding queries**: the questions the AI used when it looked up sources.
+- **Grounding queries**: key phrases the AI used when retrieving content for its answers. They are reported as a sample, they are not what users typed, and they are not tied to individual citations.
 - **Page-level citation activity**.
 
 The guides note that the report does not include click-through rate or a view of traffic. One guide says a June 2026 update added a share-of-citations view. We could not confirm that from a second source.
@@ -43,7 +43,7 @@ Google's help page describes impressions for AI Overviews and AI Mode in Search,
 | | Bing | Google |
 | --- | --- | --- |
 | Counts | Citations | Impressions |
-| Questions used | Grounding queries shown | Queries not shown |
+| Search phrases | Grounding phrases (sampled) | Queries not shown |
 | Clicks | Not included | Not included |
 | Status | Public preview, per guides | Rolled out worldwide, per reports |
 
@@ -51,7 +51,7 @@ Google's help page describes impressions for AI Overviews and AI Mode in Search,
 
 1. **Verify your site in Bing Webmaster Tools** if you have not, so the report can appear.
 2. **List your most-cited pages** in each report. Pages that appear in both are your strongest sources.
-3. **Read the grounding queries.** They show the questions your pages answer, which can guide new articles.
+3. **Read the grounding phrases as hints.** They show the kinds of phrases the AI looks up when it finds your pages. They are a sample, not questions people asked, so use them as a topic guide, not as demand data.
 4. **Keep measuring clicks separately** with your normal analytics.
 
 Citation counts show visibility, not visits, so treat both reports as one input among several.

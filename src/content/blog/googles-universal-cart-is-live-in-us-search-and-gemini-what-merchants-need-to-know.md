@@ -3,7 +3,7 @@ title: "Google's Universal Cart is live in US Search and Gemini: what merchants 
 date: 2026-10-24T07:00:00+05:30
 description: "Google launched Universal Cart in the US on October 15. What it does, what is missing compared with the May preview, and what merchants must do to take part."
 tag: "Google Shopping"
-tldr: "Google's Universal Cart is now available in US Google Search, including AI Mode, and in the Gemini app. Shoppers can collect products from several retailers in one cart. Merchants must support Google's Universal Commerce Protocol and be selected through Merchant Center to appear in it."
+tldr: "Google's Universal Cart is now available in US Google Search, including AI Mode, and in the Gemini app. Shoppers can collect products from several retailers in one cart. Merchants must implement Google's Universal Commerce Protocol, submit an interest form, and be selected by Google to appear in it."
 sources:
   - title: "Universal Cart Launches In Google Search (U.S.)"
     url: "https://seroundtable.com/universal-cart-google-search-42312.html"
@@ -17,6 +17,9 @@ sources:
   - title: "Google's Universal Cart Launches in the US: What Changed Since I/O and What Merchants Need to Get Their Products In"
     url: "https://stellagent.ai/insights/google-universal-cart-us-launch"
     publisher: "Stellagent"
+  - title: "How to onboard to the Universal Commerce Protocol in Merchant Center"
+    url: "https://support.google.com/merchants/answer/16992327?hl=en"
+    publisher: "Google"
 categories: ["Google Search", "Merchant Centre", "AEO"]
 tags: ["Google Shopping", "Universal Cart", "Gemini", "Merchant Center"]
 ---
@@ -40,7 +43,7 @@ At I/O, Google described a cart that shoppers could add to from Search, Gemini, 
 
 ## Which merchants are in
 
-Reports name Nike, Sephora, Target, Ulta Beauty, Walmart and Wayfair, along with many Shopify merchants. To be purchasable in the cart, merchants need to implement Google's Universal Commerce Protocol (UCP), including its Cart API. They then apply through the Merchant Center integration hub, which began rolling out in the US in October, and wait to be selected.
+Reports name Nike, Sephora, Target, Ulta Beauty, Walmart and Wayfair, along with many Shopify merchants. To be purchasable in the cart, merchants need to implement Google's Universal Commerce Protocol (UCP), including its Cart API. Google's Merchant Center onboarding guide says merchants first complete the technical implementation, then submit an interest form. Merchants that Google selects are notified and get access to an onboarding experience in Merchant Center, including a test environment. Selection is not automatic.
 
 ## Outside the US
 
@@ -49,7 +52,7 @@ Google has not given a confirmed date for the UK or the EU. Sources differ on ot
 ## What to do
 
 1. **If you sell in the US,** read Google's documentation for the Universal Commerce Protocol and check with your developer or platform provider whether it is supported.
-2. **Check Merchant Center** for the new integration hub and for an application option.
+2. **Submit Google's interest form** once your implementation is ready, using the Merchant Center onboarding guide. Google selects merchants, so there is no guaranteed approval.
 3. **Keep your product data accurate,** including prices and stock, since the cart shows alerts based on them.
 4. **If you do not sell products,** nothing changes for you. Watch for the YouTube and Gmail expansion if you do.
 
