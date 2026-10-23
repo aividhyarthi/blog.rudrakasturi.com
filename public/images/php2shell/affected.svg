@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 840" role="img" aria-label="Who is affected: sites that run PHP, such as WordPress sites, shops, news and government sites; sites that do not use PHP are not affected">
+<rect width="800" height="840" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Who is affected?</text>
+<rect x="40" y="110" width="720" height="400" rx="18" fill="#ff5a1f"/>
+<text x="70" y="165" font-size="30" font-weight="800" fill="#fff">Sites that run PHP</text>
+<text x="70" y="200" font-size="24" fill="#fff">(and have not applied the fix)</text>
+<g font-size="27" font-weight="700" fill="#fff">
+<rect x="70" y="228" width="300" height="56" rx="28" fill="#0b1030" opacity=".25"/><text x="90" y="266">WordPress sites</text>
+<rect x="390" y="228" width="340" height="56" rx="28" fill="#0b1030" opacity=".25"/><text x="410" y="266">Online shops</text>
+<rect x="70" y="302" width="300" height="56" rx="28" fill="#0b1030" opacity=".25"/><text x="90" y="340">News and blogs</text>
+<rect x="390" y="302" width="340" height="56" rx="28" fill="#0b1030" opacity=".25"/><text x="410" y="340">Government sites</text>
+<rect x="70" y="376" width="300" height="56" rx="28" fill="#0b1030" opacity=".25"/><text x="90" y="414">Small businesses</text>
+<rect x="390" y="376" width="340" height="56" rx="28" fill="#0b1030" opacity=".25"/><text x="410" y="414">Many web apps</text>
+</g>
+<text x="70" y="475" font-size="23" fill="#fff">Estimates of how many sites use PHP go as high as 70%.</text>
+<rect x="40" y="540" width="720" height="250" rx="18" fill="#0b8f6a"/>
+<text x="70" y="595" font-size="30" font-weight="800" fill="#fff">Sites that do not use PHP</text>
+<text x="70" y="640" font-size="26" fill="#e8fff6">Plain HTML or "static" sites, and sites built</text>
+<text x="70" y="676" font-size="26" fill="#e8fff6">on other languages (such as Node.js or Python)</text>
+<text x="70" y="712" font-size="26" fill="#e8fff6">are not affected by these two flaws.</text>
+<text x="70" y="760" font-size="23" fill="#e8fff6">Not sure? Ask your web host.</text>
+</g></svg>

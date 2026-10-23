@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 820" role="img" aria-label="How the flaw works: an attacker sends a crafted request to a PHP server and can then run their own commands, without a password">
+<rect width="800" height="820" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">How the flaw works</text>
+<rect x="140" y="110" width="520" height="150" rx="18" fill="#0b1030"/>
+<circle cx="230" cy="185" r="30" fill="#ff5a1f"/><circle cx="230" cy="176" r="10" fill="#0b1030"/><path d="M208 208 q22 -26 44 0z" fill="#0b1030"/>
+<text x="290" y="178" font-size="30" font-weight="800" fill="#fff">An attacker</text>
+<text x="290" y="214" font-size="24" fill="#c9d0ff">anywhere on the internet</text>
+<path d="M400 270 v80" stroke="#2340f5" stroke-width="8" stroke-linecap="round"/><path d="M380 335 l20 28 l20 -28z" fill="#2340f5"/>
+<text x="430" y="322" font-size="26" font-weight="700" fill="#1c2349">sends a crafted request</text>
+<rect x="140" y="380" width="520" height="150" rx="18" fill="#2340f5"/>
+<rect x="190" y="425" width="70" height="60" rx="8" fill="#fff"/><rect x="200" y="437" width="50" height="8" rx="4" fill="#2340f5"/><rect x="200" y="455" width="50" height="8" rx="4" fill="#6ee7c8"/>
+<text x="290" y="448" font-size="30" font-weight="800" fill="#fff">A website server</text>
+<text x="290" y="484" font-size="24" fill="#e3e8ff">that runs PHP, not yet updated</text>
+<path d="M400 540 v80" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 605 l20 28 l20 -28z" fill="#ff5a1f"/>
+<text x="430" y="592" font-size="26" font-weight="700" fill="#1c2349">no password needed</text>
+<rect x="140" y="650" width="520" height="130" rx="18" fill="#ff5a1f"/>
+<text x="400" y="705" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">The attacker can run their own</text>
+<text x="400" y="745" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">commands on the server</text>
+</g></svg>
