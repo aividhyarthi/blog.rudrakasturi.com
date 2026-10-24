@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1010" role="img" aria-label="Timeline of five Google Search documentation updates in October 2026: generative AI content guide on 1 October, UGC Fresh Data Program on 8 October, Indexing API quota page on 16 October, control what you share on 21 October, URL structure on 23 October">
+<rect width="800" height="1010" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Documentation updates in October</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">From Google Search Central, newest last</text>
+<line x1="90" y1="160" x2="90" y2="900" stroke="#2340f5" stroke-width="6" stroke-linecap="round"/>
+<circle cx="90" cy="175" r="24" fill="#2340f5"/>
+<text x="150" y="168" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">1 OCTOBER</text>
+<text x="150" y="204" font-size="28" font-weight="800" fill="#0b1030">Generative AI content guide</text>
+<text x="150" y="238" font-size="24" fill="#1c2349">Adds points from the quality raters guidelines</text>
+<circle cx="90" cy="355" r="24" fill="#7a3cff"/>
+<text x="150" y="348" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">8 OCTOBER</text>
+<text x="150" y="384" font-size="28" font-weight="800" fill="#0b1030">UGC Fresh Data Program</text>
+<text x="150" y="418" font-size="24" fill="#1c2349">New page for user-generated content platforms</text>
+<circle cx="90" cy="535" r="24" fill="#0b8f6a"/>
+<text x="150" y="528" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">16 OCTOBER</text>
+<text x="150" y="564" font-size="28" font-weight="800" fill="#0b1030">Indexing API quota page</text>
+<text x="150" y="598" font-size="24" fill="#1c2349">Current limits and process, old form removed</text>
+<circle cx="90" cy="715" r="24" fill="#ff5a1f"/>
+<text x="150" y="708" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">21 OCTOBER</text>
+<text x="150" y="744" font-size="28" font-weight="800" fill="#0b1030">Control what you share</text>
+<text x="150" y="778" font-size="24" fill="#1c2349">Lists robots meta, data-nosnippet,</text>
+<text x="150" y="808" font-size="24" fill="#1c2349">X-Robots-Tag and the AI control</text>
+<circle cx="90" cy="895" r="24" fill="#2340f5"/>
+<text x="150" y="888" font-size="22" font-weight="800" fill="#ff5a1f" letter-spacing="2">23 OCTOBER</text>
+<text x="150" y="924" font-size="28" font-weight="800" fill="#0b1030">URL structure best practices</text>
+<text x="150" y="958" font-size="24" fill="#1c2349">Hyphens versus underscores clarified</text>
+</g></svg>
