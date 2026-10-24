@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1030" role="img" aria-label="How Universal Cart works: a shopper finds products in Google Search or Gemini, saves them from several retailers into one cart, sees price alerts and promo codes, then pays in the cart with Google Pay or moves the items to the merchant's cart">
+<rect width="800" height="1030" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">How Universal Cart works</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">US launch, 15 October 2026</text>
+
+<rect x="40" y="140" width="720" height="150" rx="18" fill="#0b1030"/>
+<circle cx="95" cy="215" r="28" fill="#6ee7c8"/><text x="95" y="226" font-size="30" font-weight="800" fill="#0b1030" text-anchor="middle">1</text>
+<text x="150" y="200" font-size="30" font-weight="800" fill="#fff">Shopper finds products</text>
+<text x="150" y="238" font-size="25" fill="#c9d0ff">in Google Search (including AI Mode)</text>
+<text x="150" y="270" font-size="25" fill="#c9d0ff">or in the Gemini app</text>
+
+<path d="M400 296 v36" stroke="#2340f5" stroke-width="8" stroke-linecap="round"/><path d="M380 324 l20 24 l20 -24z" fill="#2340f5"/>
+
+<rect x="40" y="356" width="720" height="170" rx="18" fill="#2340f5"/>
+<circle cx="95" cy="441" r="28" fill="#fff"/><text x="95" y="452" font-size="30" font-weight="800" fill="#2340f5" text-anchor="middle">2</text>
+<text x="150" y="418" font-size="30" font-weight="800" fill="#fff">Saves them in one cart</text>
+<text x="150" y="456" font-size="25" fill="#e3e8ff">from several retailers at once, such as</text>
+<text x="150" y="488" font-size="25" fill="#e3e8ff">Nike, Target, Walmart and Sephora</text>
+
+<path d="M400 532 v36" stroke="#2340f5" stroke-width="8" stroke-linecap="round"/><path d="M380 560 l20 24 l20 -24z" fill="#2340f5"/>
+
+<rect x="40" y="592" width="720" height="170" rx="18" fill="#7a3cff"/>
+<circle cx="95" cy="677" r="28" fill="#fff"/><text x="95" y="688" font-size="30" font-weight="800" fill="#7a3cff" text-anchor="middle">3</text>
+<text x="150" y="654" font-size="30" font-weight="800" fill="#fff">The cart keeps watch</text>
+<text x="150" y="692" font-size="25" fill="#ece1ff">Price-drop and restock alerts,</text>
+<text x="150" y="724" font-size="25" fill="#ece1ff">card perks and promo codes</text>
+
+<path d="M400 768 v36" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 796 l20 24 l20 -24z" fill="#ff5a1f"/>
+
+<rect x="40" y="828" width="350" height="140" rx="18" fill="#ff5a1f"/>
+<text x="215" y="880" font-size="26" font-weight="800" fill="#fff" text-anchor="middle">Pay in the cart</text>
+<text x="215" y="918" font-size="23" fill="#fff" text-anchor="middle">with Google Pay</text>
+<rect x="410" y="828" width="350" height="140" rx="18" fill="#0b8f6a"/>
+<text x="585" y="880" font-size="26" font-weight="800" fill="#fff" text-anchor="middle">Or move the items</text>
+<text x="585" y="918" font-size="23" fill="#e8fff6" text-anchor="middle">to the merchant's cart</text>
+<text x="400" y="1006" font-size="21" fill="#4a5280" text-anchor="middle">The shopper confirms each purchase.</text>
+</g></svg>

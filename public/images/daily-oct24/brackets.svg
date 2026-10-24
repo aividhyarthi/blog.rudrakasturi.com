@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Two URL forms, one with raw square brackets and one with %5B and %5D, are treated by Google as different URLs; use one form in links, canonical tags and sitemaps">
+<rect width="800" height="800" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Two URLs, not one</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">According to Google's John Mueller</text>
+<rect x="40" y="140" width="720" height="150" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="22" font-weight="800" fill="#6ee7c8" letter-spacing="2">RAW BRACKETS</text>
+<text x="70" y="240" font-size="27" font-weight="700" fill="#fff">/shoes?filter[colour]=red</text>
+<text x="400" y="332" font-size="40" font-weight="800" fill="#ff5a1f" text-anchor="middle">&#8800;</text>
+<rect x="40" y="350" width="720" height="150" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="22" font-weight="800" fill="#6ee7c8" letter-spacing="2">ENCODED (%5B AND %5D)</text>
+<text x="70" y="450" font-size="27" font-weight="700" fill="#fff">/shoes?filter%5Bcolour%5D=red</text>
+<rect x="40" y="540" width="720" height="220" rx="18" fill="#0b8f6a"/>
+<text x="70" y="592" font-size="30" font-weight="800" fill="#fff">Pick one form and use it everywhere</text>
+<g font-size="26" fill="#e8fff6"><text x="70" y="642">&#8226; internal links</text><text x="70" y="682">&#8226; canonical tags</text><text x="70" y="722">&#8226; sitemaps</text></g>
+</g></svg>

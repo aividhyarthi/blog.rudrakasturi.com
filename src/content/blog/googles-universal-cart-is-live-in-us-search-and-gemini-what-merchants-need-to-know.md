@@ -35,6 +35,8 @@ According to the reports we reviewed, shoppers can:
 - See card perks and promo codes.
 - Either pay with Google Pay inside the cart, or move the items to the retailer's own cart.
 
+![A four-step flow: a shopper finds products in Search or Gemini, saves them from several retailers in one cart, gets price alerts and promo codes, then pays with Google Pay or moves the items to the merchant's cart](/images/universal-cart/how-it-works.svg)
+
 Google showed the feature at its I/O event on May 19. Reports say each purchase is confirmed by the shopper, so this is a convenience tool and not an agent that buys on its own.
 
 ## What is narrower than the preview
@@ -44,6 +46,8 @@ At I/O, Google described a cart that shoppers could add to from Search, Gemini, 
 ## Which merchants are in
 
 Reports name Nike, Sephora, Target, Ulta Beauty, Walmart and Wayfair, along with many Shopify merchants. To be purchasable in the cart, merchants need to implement Google's Universal Commerce Protocol (UCP), including its Cart API. Google's Merchant Center onboarding guide says merchants first complete the technical implementation, then submit an interest form. Merchants that Google selects are notified and get access to an onboarding experience in Merchant Center, including a test environment. Selection is not automatic.
+
+![A four-step path for merchants: implement the Universal Commerce Protocol, submit the interest form, wait to be selected by Google, then onboard in Merchant Center with a test environment](/images/universal-cart/merchant-path.svg)
 
 ## Outside the US
 

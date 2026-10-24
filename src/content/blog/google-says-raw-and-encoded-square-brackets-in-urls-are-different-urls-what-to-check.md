@@ -17,6 +17,8 @@ tags: ["URLs", "Canonical", "John Mueller"]
 
 Google Search Advocate John Mueller said on Bluesky that a URL with raw square brackets and the same URL with the encoded forms (%5B for [ and %5D for ]) are different URLs. Search Engine Roundtable and Search Engine Journal reported it around October 20, 2026.
 
+![Two URLs that differ only by raw square brackets or %5B and %5D, shown as not equal, with advice to pick one form for links, canonical tags and sitemaps](/images/daily-oct24/brackets.svg)
+
 ## What was said
 
 - A raw bracket URL and its encoded version are separate URLs for Google.
