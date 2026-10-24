@@ -23,6 +23,8 @@ tags: ["Bing", "Search Console", "AI Citations", "Copilot"]
 
 Site owners can now see how often their pages appear in AI answers from two search engines. Bing Webmaster Tools has an **AI Performance** report, and Google Search Console has a **generative AI performance** report. This article compares them. The Bing details come from third-party guides, because we did not find a Microsoft announcement dated October 2026, so check your own account.
 
+![A comparison of Bing Webmaster Tools AI Performance and Google Search Console's generative AI report, showing what each counts and that neither includes clicks](/images/daily-oct24/bing-google.svg)
+
 ## Bing: AI Performance
 
 Several guides date the report to February 2026, in public preview for verified sites. They describe these measures:

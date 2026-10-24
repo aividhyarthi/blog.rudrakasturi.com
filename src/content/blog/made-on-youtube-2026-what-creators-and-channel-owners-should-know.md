@@ -23,6 +23,8 @@ tags: ["YouTube", "YouTube Studio", "Shorts", "Creators"]
 
 YouTube held its Made on YouTube event on September 23, 2026. Reports we reviewed describe a mix of features available now and others planned for 2027. Details differ between outlets, so treat our summary as a guide and confirm in Google's own announcement and your YouTube Studio.
 
+![Features from Made on YouTube 2026 split into those announced and rolling out in stages, and those planned for 2027](/images/daily-oct24/youtube.svg)
+
 ## Studio
 
 - **Ask Studio** is an AI assistant inside YouTube Studio. Reports say it can review draft videos, analyse channel performance and viewer comments, and suggest alternative titles and thumbnails. It is described as expanding to the YouTube mobile apps.

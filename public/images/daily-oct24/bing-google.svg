@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" role="img" aria-label="Bing's AI Performance report counts citations and shows sampled grounding phrases; Google's generative AI report counts impressions; neither shows clicks">
+<rect width="800" height="880" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Two AI reports compared</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">What each one counts</text>
+<rect x="40" y="140" width="720" height="330" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">Bing Webmaster Tools</text>
+<text x="70" y="226" font-size="23" fill="#6ee7c8">AI Performance (public preview, per guides)</text>
+<g font-size="26" fill="#fff"><text x="70" y="286">&#10003; Counts citations of your pages</text><text x="70" y="330">&#10003; Shows sampled grounding phrases</text><text x="70" y="374">&#10003; Page-level citation activity</text><text x="70" y="430" fill="#ffb59a">&#215; No click-through data</text></g>
+<rect x="40" y="500" width="720" height="300" rx="18" fill="#0b8f6a"/>
+<text x="70" y="550" font-size="30" font-weight="800" fill="#fff">Google Search Console</text>
+<text x="70" y="586" font-size="23" fill="#e8fff6">Generative AI performance report</text>
+<g font-size="26" fill="#fff"><text x="70" y="646">&#10003; Counts impressions in AI features</text><text x="70" y="690">&#10003; Pages, country and device</text><text x="70" y="740" fill="#ffd9c8">&#215; No clicks, position or queries</text></g>
+<text x="400" y="850" font-size="24" fill="#4a5280" text-anchor="middle">Visibility reports, not traffic reports.</text>
+</g></svg>

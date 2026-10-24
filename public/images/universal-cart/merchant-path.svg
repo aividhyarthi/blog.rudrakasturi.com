@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 990" role="img" aria-label="How a merchant joins Universal Cart: implement the Universal Commerce Protocol, submit Google's interest form, wait to be selected, then use the Merchant Center onboarding with a test environment">
+<rect width="800" height="990" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">How a merchant gets in</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">As described in Google's onboarding guide</text>
+
+<rect x="40" y="140" width="720" height="150" rx="18" fill="#2340f5"/>
+<circle cx="95" cy="215" r="28" fill="#fff"/><text x="95" y="226" font-size="30" font-weight="800" fill="#2340f5" text-anchor="middle">1</text>
+<text x="150" y="200" font-size="30" font-weight="800" fill="#fff">Build the technical side</text>
+<text x="150" y="238" font-size="25" fill="#e3e8ff">Implement Google's Universal Commerce</text>
+<text x="150" y="270" font-size="25" fill="#e3e8ff">Protocol, including the Cart API</text>
+
+<path d="M400 296 v36" stroke="#2340f5" stroke-width="8" stroke-linecap="round"/><path d="M380 324 l20 24 l20 -24z" fill="#2340f5"/>
+
+<rect x="40" y="356" width="720" height="150" rx="18" fill="#7a3cff"/>
+<circle cx="95" cy="431" r="28" fill="#fff"/><text x="95" y="442" font-size="30" font-weight="800" fill="#7a3cff" text-anchor="middle">2</text>
+<text x="150" y="416" font-size="30" font-weight="800" fill="#fff">Submit the interest form</text>
+<text x="150" y="454" font-size="25" fill="#ece1ff">Tell Google you are ready to take part</text>
+
+<path d="M400 512 v36" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 540 l20 24 l20 -24z" fill="#ff5a1f"/>
+
+<rect x="40" y="572" width="720" height="170" rx="18" fill="#ff5a1f"/>
+<circle cx="95" cy="657" r="28" fill="#fff"/><text x="95" y="668" font-size="30" font-weight="800" fill="#ff5a1f" text-anchor="middle">3</text>
+<text x="150" y="634" font-size="30" font-weight="800" fill="#fff">Google decides</text>
+<text x="150" y="672" font-size="25" fill="#fff">Merchants are selected and notified.</text>
+<text x="150" y="704" font-size="25" fill="#fff">Approval is not automatic.</text>
+
+<path d="M400 748 v36" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 776 l20 24 l20 -24z" fill="#0b8f6a"/>
+
+<rect x="40" y="808" width="720" height="160" rx="18" fill="#0b8f6a"/>
+<circle cx="95" cy="873" r="28" fill="#fff"/><text x="95" y="884" font-size="30" font-weight="800" fill="#0b8f6a" text-anchor="middle">4</text>
+<text x="150" y="862" font-size="30" font-weight="800" fill="#fff">Onboard in Merchant Center</text>
+<text x="150" y="900" font-size="25" fill="#e8fff6">Includes a test environment to check</text>
+<text x="150" y="928" font-size="25" fill="#e8fff6">the integration</text>
+</g></svg>

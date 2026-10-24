@@ -20,6 +20,8 @@ tags: ["Google App", "AI Mode", "Search Interface"]
 
 Search Engine Roundtable reported on October 15, 2026 that Google is testing a redesigned search bar in the Google mobile app.
 
+![The Google app search bar now, labelled Search, and the tested bar with a plus button and the label Ask Google](/images/daily-oct24/askgoogle.svg)
+
 ## What was reported
 
 - The bar shows a **"+" button** and the label **"Ask Google"** instead of "Search".
