@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 990" role="img" aria-label="Ways to control what Google Search shows: remove or password-protect content, noindex, robots.txt for images and video, robots meta tag and data-nosnippet and X-Robots-Tag, and the Search generative AI control in Search Console">
+<rect width="800" height="990" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Controlling what Google shows</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Methods listed in Google's documentation</text>
+<rect x="40" y="140" width="720" height="130" rx="18" fill="#0b1030"/>
+<text x="70" y="190" font-size="28" font-weight="800" fill="#fff">Remove it or password-protect it</text>
+<text x="70" y="232" font-size="24" fill="#c9d0ff">Works for all content types</text>
+<rect x="40" y="290" width="720" height="130" rx="18" fill="#2340f5"/>
+<text x="70" y="340" font-size="28" font-weight="800" fill="#fff">Use the noindex rule</text>
+<text x="70" y="382" font-size="24" fill="#e3e8ff">Works for all content types</text>
+<rect x="40" y="440" width="720" height="130" rx="18" fill="#7a3cff"/>
+<text x="70" y="490" font-size="28" font-weight="800" fill="#fff">Block crawling with robots.txt</text>
+<text x="70" y="532" font-size="24" fill="#ece1ff">Applies to images and video</text>
+<rect x="40" y="590" width="720" height="150" rx="18" fill="#0b8f6a"/>
+<text x="70" y="640" font-size="28" font-weight="800" fill="#fff">Robots meta tag, data-nosnippet,</text>
+<text x="70" y="676" font-size="28" font-weight="800" fill="#fff">or X-Robots-Tag</text>
+<text x="70" y="716" font-size="24" fill="#e8fff6">Page-level and text-level settings</text>
+<rect x="40" y="760" width="720" height="190" rx="18" fill="#ff5a1f"/>
+<text x="70" y="810" font-size="28" font-weight="800" fill="#fff">Search generative AI control</text>
+<text x="70" y="852" font-size="24" fill="#fff">Site-wide, set in Search Console</text>
+<text x="70" y="888" font-size="24" fill="#fff">Covers AI Overviews and AI Mode</text>
+</g></svg>
