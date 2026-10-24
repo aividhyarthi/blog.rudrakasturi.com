@@ -33,7 +33,7 @@ YouTube held its Made on YouTube event on September 23, 2026. Reports we reviewe
 ## Testing
 
 - Reports say that starting in 2027, creators will be able to test up to three different edits of either a Short or a regular video. Gigazine says this is coming to select creators first, so it may not apply to every channel at launch.
-- A **Dynamic Thumbnails** feature will let YouTube pick among several thumbnails based on viewer engagement, also reported for 2027.
+- A **Dynamic Thumbnails** feature will let YouTube pick among several thumbnails based on viewer engagement. YouTube's announcement lists it among the new Studio tools, and Gigazine reports it is launching to select creators first. Earlier reports tied it to 2027, so check your Studio for the current status.
 
 ## Shorts and live
 
@@ -48,7 +48,7 @@ AI-assisted product tagging and the Amazon affiliate programme are reported to b
 ## What to do
 
 1. **Check your Studio** for Ask Studio. Rollouts are gradual, so some channels will see it first.
-2. **Prepare thumbnail options.** If Dynamic Thumbnails arrives, having several strong thumbnails per video will matter.
+2. **Prepare thumbnail options.** When Dynamic Thumbnails reaches your channel, having several strong thumbnails per video will matter.
 3. **Treat 2027 features as plans,** not commitments. Do not rebuild a content plan around them yet.
 4. **Read the official announcement** for features that affect monetisation or shopping in your country.
 
