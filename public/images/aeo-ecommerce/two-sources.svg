@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Two ways to give Google product data: Product structured data on the page and a Merchant Center feed. Google says providing both maximizes eligibility and helps it verify your data.">
+<rect width="800" height="900" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Two sources of product data</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">As described in Google's product documentation</text>
+
+<rect x="40" y="140" width="720" height="210" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. Structured data on the page</text>
+<text x="70" y="230" font-size="25" fill="#e3e8ff">Product markup on each product page:</text>
+<text x="70" y="262" font-size="25" fill="#e3e8ff">price, availability, ratings, shipping,</text>
+<text x="70" y="294" font-size="25" fill="#e3e8ff">return information</text>
+
+<rect x="40" y="380" width="720" height="210" rx="18" fill="#7a3cff"/>
+<text x="70" y="430" font-size="30" font-weight="800" fill="#fff">2. A Merchant Center feed</text>
+<text x="70" y="470" font-size="25" fill="#ece1ff">Product data uploaded to Google and</text>
+<text x="70" y="502" font-size="25" fill="#ece1ff">opted in to free listings in the</text>
+<text x="70" y="534" font-size="25" fill="#ece1ff">Merchant Center console</text>
+
+<path d="M400 600 v34" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 626 l20 24 l20 -24z" fill="#0b8f6a"/>
+
+<rect x="40" y="664" width="720" height="200" rx="18" fill="#0b8f6a"/>
+<text x="70" y="714" font-size="30" font-weight="800" fill="#fff">Use both, and keep them matching</text>
+<text x="70" y="754" font-size="25" fill="#e8fff6">Google says both together maximize</text>
+<text x="70" y="786" font-size="25" fill="#e8fff6">eligibility and help it verify your data</text>
+</g></svg>

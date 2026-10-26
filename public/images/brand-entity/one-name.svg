@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="One brand name should match across five places: the home page, Organization markup, the About page, author pages and profile links listed in sameAs">
+<rect width="800" height="1000" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">One brand, five places</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">The same name and details in each</text>
+
+<rect x="40" y="140" width="720" height="130" rx="18" fill="#0b1030"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">Your brand name</text>
+<text x="70" y="232" font-size="25" fill="#c9cff0">Choose one form and use it everywhere</text>
+
+<rect x="40" y="296" width="720" height="130" rx="18" fill="#2340f5"/>
+<text x="70" y="346" font-size="30" font-weight="800" fill="#fff">1. Home page</text>
+<text x="70" y="388" font-size="25" fill="#e3e8ff">WebSite markup, title and headings</text>
+
+<rect x="40" y="446" width="720" height="130" rx="18" fill="#7a3cff"/>
+<text x="70" y="496" font-size="30" font-weight="800" fill="#fff">2. Organization markup</text>
+<text x="70" y="538" font-size="25" fill="#ece1ff">Name, logo, URL and sameAs links</text>
+
+<rect x="40" y="596" width="720" height="130" rx="18" fill="#ff5a1f"/>
+<text x="70" y="646" font-size="30" font-weight="800" fill="#fff">3. About page</text>
+<text x="70" y="688" font-size="25" fill="#fff">Who you are, in plain words</text>
+
+<rect x="40" y="746" width="720" height="110" rx="18" fill="#0b8f6a"/>
+<text x="70" y="794" font-size="30" font-weight="800" fill="#fff">4. Author pages</text>
+<text x="70" y="832" font-size="25" fill="#e8fff6">Real names, with ProfilePage markup</text>
+
+<rect x="40" y="876" width="720" height="100" rx="18" fill="#2340f5"/>
+<text x="70" y="921" font-size="30" font-weight="800" fill="#fff">5. Profile links</text>
+<text x="70" y="955" font-size="25" fill="#e3e8ff">Your official pages, listed in sameAs</text>
+</g></svg>
