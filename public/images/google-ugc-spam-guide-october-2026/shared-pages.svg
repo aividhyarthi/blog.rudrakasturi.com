@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" role="img" aria-label="Decision flow from Google's updated guide: a user creates a shareable page, you decide whether it is meant for search, and if not you apply noindex or block crawling by default; then you monitor Search Console for unexpected spikes">
+<rect width="800" height="960" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Shared pages: decide first</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">From Google's updated spam-prevention guide</text>
+
+<rect x="40" y="140" width="720" height="140" rx="18" fill="#2340f5"/>
+<text x="70" y="192" font-size="30" font-weight="800" fill="#fff">1. A user makes a shareable page</text>
+<text x="70" y="234" font-size="25" fill="#e3e8ff">A shared page, generated output or tool</text>
+
+<path d="M400 286 v32" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 310 l20 24 l20 -24z" fill="#7a3cff"/>
+
+<rect x="40" y="342" width="720" height="150" rx="18" fill="#7a3cff"/>
+<text x="70" y="394" font-size="30" font-weight="800" fill="#fff">2. Is it meant for search?</text>
+<text x="70" y="436" font-size="25" fill="#ece1ff">Or only for people who have the link?</text>
+
+<path d="M400 498 v32" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 522 l20 24 l20 -24z" fill="#ff5a1f"/>
+
+<rect x="40" y="554" width="720" height="170" rx="18" fill="#ff5a1f"/>
+<text x="70" y="606" font-size="30" font-weight="800" fill="#fff">3. If not, keep it out of the index</text>
+<text x="70" y="648" font-size="25" fill="#fff">Apply noindex with a robots meta tag</text>
+<text x="70" y="680" font-size="25" fill="#fff">or X-Robots-Tag, or block crawling</text>
+<text x="70" y="712" font-size="25" fill="#fff">in robots.txt by default</text>
+
+<path d="M400 730 v32" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 754 l20 24 l20 -24z" fill="#0b8f6a"/>
+
+<rect x="40" y="786" width="720" height="150" rx="18" fill="#0b8f6a"/>
+<text x="70" y="838" font-size="30" font-weight="800" fill="#fff">4. Watch for abuse</text>
+<text x="70" y="880" font-size="25" fill="#e8fff6">Check Page Indexing and Performance</text>
+<text x="70" y="912" font-size="25" fill="#e8fff6">reports for unexpected spikes</text>
+</g></svg>
