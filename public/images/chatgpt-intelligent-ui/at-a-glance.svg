@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1030" role="img" aria-label="ChatGPT Intelligent UI at a glance: what it adds, who got it and when, and where it applies, as reported by news outlets">
+<rect width="800" height="1030" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Intelligent UI at a glance</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Launched with GPT-6 in ChatGPT, October 2026</text>
+
+<rect x="40" y="140" width="720" height="200" rx="18" fill="#2340f5"/>
+<text x="70" y="192" font-size="30" font-weight="800" fill="#fff">What it adds</text>
+<text x="70" y="234" font-size="25" fill="#e3e8ff">Answers can include interactive charts,</text>
+<text x="70" y="266" font-size="25" fill="#e3e8ff">diagrams, forms and tappable buttons,</text>
+<text x="70" y="298" font-size="25" fill="#e3e8ff">not only text</text>
+
+<rect x="40" y="368" width="720" height="210" rx="18" fill="#7a3cff"/>
+<text x="70" y="420" font-size="30" font-weight="800" fill="#fff">Who got it, and when</text>
+<text x="70" y="462" font-size="25" fill="#ece1ff">Oct 7: Plus, Pro, Business, Enterprise</text>
+<text x="70" y="494" font-size="25" fill="#ece1ff">Oct 8: expansion to Free and Go</text>
+<text x="70" y="526" font-size="25" fill="#ece1ff">(as reported by news outlets)</text>
+
+<rect x="40" y="606" width="720" height="170" rx="18" fill="#ff5a1f"/>
+<text x="70" y="658" font-size="30" font-weight="800" fill="#fff">Where it applies</text>
+<text x="70" y="700" font-size="25" fill="#fff">ChatGPT's Chat experience, not</text>
+<text x="70" y="732" font-size="25" fill="#fff">Work or Codex</text>
+
+<rect x="40" y="804" width="720" height="190" rx="18" fill="#0b8f6a"/>
+<text x="70" y="856" font-size="30" font-weight="800" fill="#fff">Your control</text>
+<text x="70" y="898" font-size="25" fill="#e8fff6">A Simple layout setting reduces the</text>
+<text x="70" y="930" font-size="25" fill="#e8fff6">visual elements, though some may</text>
+<text x="70" y="962" font-size="25" fill="#e8fff6">still appear</text>
+</g></svg>

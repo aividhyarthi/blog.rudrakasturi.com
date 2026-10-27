@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" role="img" aria-label="How Claude Duet works as described by Anthropic: a morning brief, ongoing watching of connected apps, tasks you hand over, and approval before it acts on your behalf">
+<rect width="800" height="980" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">How Claude Duet works</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">As Anthropic describes the research preview</text>
+
+<rect x="40" y="140" width="720" height="150" rx="18" fill="#2340f5"/>
+<text x="70" y="192" font-size="30" font-weight="800" fill="#fff">1. A morning brief</text>
+<text x="70" y="234" font-size="25" fill="#e3e8ff">Key items across your connected apps</text>
+
+<path d="M400 296 v32" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 320 l20 24 l20 -24z" fill="#7a3cff"/>
+
+<rect x="40" y="352" width="720" height="150" rx="18" fill="#7a3cff"/>
+<text x="70" y="404" font-size="30" font-weight="800" fill="#fff">2. It keeps watch</text>
+<text x="70" y="446" font-size="25" fill="#ece1ff">Messages you only when something</text>
+<text x="70" y="478" font-size="25" fill="#ece1ff">needs your attention</text>
+
+<path d="M400 508 v32" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 532 l20 24 l20 -24z" fill="#ff5a1f"/>
+
+<rect x="40" y="564" width="720" height="170" rx="18" fill="#ff5a1f"/>
+<text x="70" y="616" font-size="30" font-weight="800" fill="#fff">3. You hand it tasks</text>
+<text x="70" y="658" font-size="25" fill="#fff">From scheduling meetings to building</text>
+<text x="70" y="690" font-size="25" fill="#fff">dashboards and sales forecasts, even</text>
+<text x="70" y="722" font-size="25" fill="#fff">when you step away</text>
+
+<path d="M400 740 v32" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 764 l20 24 l20 -24z" fill="#0b8f6a"/>
+
+<rect x="40" y="796" width="720" height="150" rx="18" fill="#0b8f6a"/>
+<text x="70" y="848" font-size="30" font-weight="800" fill="#fff">4. It checks before it acts</text>
+<text x="70" y="890" font-size="25" fill="#e8fff6">Approval comes before actions taken</text>
+<text x="70" y="922" font-size="25" fill="#e8fff6">on your behalf</text>
+</g></svg>
