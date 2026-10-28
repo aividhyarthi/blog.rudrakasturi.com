@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 932" role="img" aria-label="Four checks for a news article: indexed and eligible, honest dates, a clear headline and large image, and a real byline">
+<rect width="800" height="932" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">News article: four checks</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Search, Top Stories, Discover and AI features</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. Indexed and eligible</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Discover needs no special tags, only</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">indexed content that meets policies</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">2. Honest dates</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">datePublished and dateModified that</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">match the visible dates</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">3. A strong headline and image</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">No clickbait, and a large image</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">at least 1200 px wide</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="122" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">4. A real byline</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Author name with a link to a bio page</text>
+</g></svg>
