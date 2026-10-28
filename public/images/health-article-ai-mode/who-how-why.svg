@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" role="img" aria-label="Google's Who, How and Why questions for content: who created it, how it was created, and why it exists, with a higher accuracy bar for health topics">
+<rect width="800" height="980" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Who, How and Why</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Google's questions for health content</text>
+
+<rect x="40" y="140" width="720" height="200" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">Who wrote it?</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">A real byline that links to an</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">author page with true background,</text>
+<text x="70" y="296" font-size="25" fill="#e3e8ff">and an expert reviewer if used</text>
+
+<rect x="40" y="366" width="720" height="200" rx="18" fill="#7a3cff"/>
+<text x="70" y="416" font-size="30" font-weight="800" fill="#fff">How was it made?</text>
+<text x="70" y="458" font-size="25" fill="#ece1ff">Clear sources and evidence, and</text>
+<text x="70" y="490" font-size="25" fill="#ece1ff">honest notes on any automation</text>
+<text x="70" y="522" font-size="25" fill="#ece1ff">or AI that helped</text>
+
+<rect x="40" y="592" width="720" height="170" rx="18" fill="#ff5a1f"/>
+<text x="70" y="642" font-size="30" font-weight="800" fill="#fff">Why does it exist?</text>
+<text x="70" y="684" font-size="25" fill="#fff">To help the reader, not just to</text>
+<text x="70" y="716" font-size="25" fill="#fff">attract search visits</text>
+
+<rect x="40" y="790" width="720" height="150" rx="18" fill="#0b8f6a"/>
+<text x="70" y="840" font-size="30" font-weight="800" fill="#fff">Health topics: a higher bar</text>
+<text x="70" y="882" font-size="25" fill="#e8fff6">Content must be highly accurate</text>
+<text x="70" y="914" font-size="25" fill="#e8fff6">and match expert consensus</text>
+</g></svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" role="img" aria-label="Three checks for a blog: let the right crawlers in, publish something only you can say, and measure with Search Console and your analytics">
+<rect width="800" height="980" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Three checks for your blog</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Access, value and measurement</text>
+
+<rect x="40" y="140" width="720" height="250" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. Let the right crawlers in</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Googlebot needs the page indexed</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">and eligible for a snippet.</text>
+<text x="70" y="296" font-size="25" fill="#e3e8ff">OpenAI says to allow OAI-SearchBot</text>
+<text x="70" y="328" font-size="25" fill="#e3e8ff">for ChatGPT search</text>
+
+<rect x="40" y="420" width="720" height="230" rx="18" fill="#7a3cff"/>
+<text x="70" y="470" font-size="30" font-weight="800" fill="#fff">2. Say what only you can say</text>
+<text x="70" y="512" font-size="25" fill="#ece1ff">First-hand tests, data and views,</text>
+<text x="70" y="544" font-size="25" fill="#ece1ff">not a summary of what everyone</text>
+<text x="70" y="576" font-size="25" fill="#ece1ff">already says</text>
+
+<rect x="40" y="680" width="720" height="250" rx="18" fill="#0b8f6a"/>
+<text x="70" y="730" font-size="30" font-weight="800" fill="#fff">3. Measure what happens</text>
+<text x="70" y="772" font-size="25" fill="#e8fff6">Use the generative AI report in</text>
+<text x="70" y="804" font-size="25" fill="#e8fff6">Search Console for Google, and your</text>
+<text x="70" y="836" font-size="25" fill="#e8fff6">analytics for ChatGPT referrals</text>
+</g></svg>
