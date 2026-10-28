@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 996" role="img" aria-label="Ads in AI Overviews and AI Mode: what Google says for AI Overviews, what reports say for AI Mode, that eligibility is not a guarantee, and what advertisers should check">
+<rect width="800" height="996" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Ads in AI Overviews and AI Mode</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Sources differ, so check your account</text>
+<rect x="40" y="140" width="720" height="186" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">AI Overviews</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Google says existing Search, Shopping</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">and Performance Max ads can be eligible</text>
+<text x="70" y="296" font-size="25" fill="#e3e8ff">if they win the auction and fit the query</text>
+<path d="M400 330 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 348 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="382" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="432" font-size="30" font-weight="800" fill="#fff">AI Mode</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">Reports name Performance Max and</text>
+<text x="70" y="506" font-size="25" fill="#ece1ff">AI Max for Search as the eligible types</text>
+<path d="M400 540 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 558 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="592" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="642" font-size="30" font-weight="800" fill="#fff">Not guaranteed</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">Eligible to serve is not the same as</text>
+<text x="70" y="716" font-size="25" fill="#ffffff">shown in every AI answer</text>
+<path d="M400 750 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 768 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="802" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="852" font-size="30" font-weight="800" fill="#fff">Your move</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">Read Google Ads Help, then audit match</text>
+<text x="70" y="926" font-size="25" fill="#e8fff6">types, feeds and landing pages</text>
+</g></svg>
