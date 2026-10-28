@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 868" role="img" aria-label="Four checks for a recipe post: a real photo, recipe markup, tested steps, and markup that matches the visible page">
+<rect width="800" height="868" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Recipe post: four checks</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">What Google asks of recipe pages</text>
+<rect x="40" y="140" width="720" height="122" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. A real finished-dish photo</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Crawlable image, several sizes if you can</text>
+<path d="M400 266 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 284 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="318" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="368" font-size="30" font-weight="800" fill="#fff">2. Recipe markup</text>
+<text x="70" y="410" font-size="25" fill="#ece1ff">Name and image are required; add</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">ingredients, steps and times</text>
+<path d="M400 476 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 494 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="528" width="720" height="122" rx="18" fill="#ff5a1f"/>
+<text x="70" y="578" font-size="30" font-weight="800" fill="#fff">3. Steps you have cooked</text>
+<text x="70" y="620" font-size="25" fill="#ffffff">First-hand detail beats a rewrite</text>
+<path d="M400 654 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 672 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="706" width="720" height="122" rx="18" fill="#0b8f6a"/>
+<text x="70" y="756" font-size="30" font-weight="800" fill="#fff">4. Markup matches the page</text>
+<text x="70" y="798" font-size="25" fill="#e8fff6">Everything marked up must be visible</text>
+</g></svg>
