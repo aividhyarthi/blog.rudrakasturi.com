@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 964" role="img" aria-label="Four sitemap rules for a blog: list the right URLs, keep lastmod honest, respect size limits, and submit the sitemap in Search Console or robots.txt">
+<rect width="800" height="964" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Sitemap rules for a blog</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">What Google says to get right</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. List the right URLs</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Full, absolute URLs of the pages</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">you want in search results</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">2. Keep lastmod honest</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">Update it only after a significant</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">change; priority is ignored</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">3. Mind the size limits</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">50 MB or 50,000 URLs per file;</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">split larger sites</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">4. Submit it</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Use the Sitemaps report or a</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">Sitemap line in robots.txt</text>
+</g></svg>
