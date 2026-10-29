@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 964" role="img" aria-label="Four hreflang rules: list every version including itself, link both ways, use fully qualified URLs with an x-default fallback, and pick one method among HTML, HTTP header or sitemap">
+<rect width="800" height="964" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">hreflang: four rules</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">To tell Google about localized pages</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. List every version</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Each page lists itself and all</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">other language or region versions</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">2. Link both ways</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">If two pages do not point to each</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">other, the tags are ignored</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">3. Use full URLs and x-default</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">Include https and the host; add a</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">fallback for unmatched users</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">4. Pick one method</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">HTML tags, an HTTP header or a</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">sitemap are equivalent to Google</text>
+</g></svg>
