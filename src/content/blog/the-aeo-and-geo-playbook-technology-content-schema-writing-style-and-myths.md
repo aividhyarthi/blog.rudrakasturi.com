@@ -47,7 +47,7 @@ Our view: write the answer first, then the detail, and put your own evidence in 
 
 ## 3. Schema and data
 
-Google says structured data is not required for generative AI search and that there is no special schema.org markup to add. It still recommends structured data as part of SEO because it helps eligibility for rich results. For shops and local businesses, it names Merchant Center feeds and Business Profiles as ways to appear in AI responses. Our view: accurate markup that matches the visible page is worth keeping; markup added to chase AI is not. Start with [AEO for e-commerce](/aeo-for-e-commerce-product-pages-feeds-and-what-google-says-about-universal-cart/).
+Google says structured data is not required for generative AI search and that there is no special schema.org markup to add. It still recommends structured data as part of SEO because it helps eligibility for rich results. For shops and local businesses, it names Merchant Center feeds and Business Profiles as ways to appear in AI responses. Our view: accurate markup that matches the visible page is worth keeping; markup added to chase AI is not. Use our [schema decision table by page type](/schema-for-aeo-and-geo-a-decision-table-by-page-type-and-a-ten-point-audit/), and for shops start with [AEO for e-commerce](/aeo-for-e-commerce-product-pages-feeds-and-what-google-says-about-universal-cart/).
 
 ## 4. Measurement
 
