@@ -76,6 +76,7 @@ Google also warns that creating separate pages for every query variation, mainly
 ## Data worth knowing
 
 - [AI-referred shoppers delivered 83% more revenue per visit in September, Adobe data shows](/ai-referred-shoppers-delivered-83-percent-more-revenue-per-visit-in-september-adobe-data-shows/)
+- [Google opens a Connected Apps preview for Gemini and AI Mode in Search: what it means for brands](/google-opens-connected-apps-platform-preview-for-gemini-and-ai-mode-in-search/)
 
 ## What to do first
 
