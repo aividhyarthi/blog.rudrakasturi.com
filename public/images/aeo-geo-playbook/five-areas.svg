@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1174" role="img" aria-label="The five areas of an AEO and GEO playbook: technology, content and writing, schema and data, measurement, and myths to ignore">
+<rect width="800" height="1174" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">The AEO and GEO playbook</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Five areas, in the order to work on them</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. Technology</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Indexed, crawlable, renderable and</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">allowed to show a snippet</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">2. Content and writing</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">Original, first-hand and answer-first,</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">written for people</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">3. Schema and data</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">Accurate markup and feeds; no special</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">AI markup is required</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">4. Measurement</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Search Console reports plus a monthly</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">set of test prompts</text>
+<path d="M400 928 v24" stroke="#0b1030" stroke-width="8" stroke-linecap="round"/><path d="M380 946 l20 24 l20 -24z" fill="#0b1030"/>
+<rect x="40" y="980" width="720" height="154" rx="18" fill="#0b1030"/>
+<text x="70" y="1030" font-size="30" font-weight="800" fill="#fff">5. Myths to ignore</text>
+<text x="70" y="1072" font-size="25" fill="#c9cff0">llms.txt, chunking, rewriting for AI</text>
+<text x="70" y="1104" font-size="25" fill="#c9cff0">and bought mentions</text>
+</g></svg>
