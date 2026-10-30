@@ -1,0 +1,8 @@
+/* Homepage lead: third-party units (for example AdSense auto-placed "Discover more" boxes) must never widen
+   the lead column, squeeze "Top stories" or push the headline out of view. */
+@media (min-width: 901px) {
+  .lead-grid { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); }
+}
+.lead-grid > * { min-width: 0; }
+.lead { overflow: hidden; }
+.lead ins, .lead iframe, .lead .google-auto-placed, .top-stories ins, .top-stories iframe { max-width: 100% !important; overflow: hidden; }
