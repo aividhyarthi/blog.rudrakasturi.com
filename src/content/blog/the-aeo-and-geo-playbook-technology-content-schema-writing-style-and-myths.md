@@ -40,6 +40,7 @@ Google says original, non-commodity content, with a unique point of view and fir
 Our view: write the answer first, then the detail, and put your own evidence in the middle of the page. These guides show how:
 
 - [Answer-first pages](/write-answer-first-pages-open-with-the-direct-answer-then-the-detail/)
+- [12 sentence rewrites that make a page easier to quote](/12-sentence-rewrites-that-make-a-page-easier-to-quote-before-and-after/)
 - [Writing content that AI summarises without killing your credit](/how-to-write-content-that-ai-summarises-without-killing-your-brand-credit/)
 - [FAQs for AEO without looking spammy](/how-to-optimise-faqs-for-aeo-without-looking-spammy/)
 - [Internal linking for AEO and GEO](/how-to-optimise-internal-linking-for-aeo-and-geo/)

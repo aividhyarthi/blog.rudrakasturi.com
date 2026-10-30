@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 964" role="img" aria-label="Four moves for sentences that are easy to quote: name the subject, be exact, one claim per sentence, and lead with the answer">
+<rect width="800" height="964" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Four moves for clearer sentences</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Each one helps readers first</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. Name the subject</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Replace "it" and "this" with the</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">product, plan or topic itself</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">2. Be exact</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">Swap vague words for a number,</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">a date or a condition</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">3. One claim per sentence</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">Split long sentences so each one</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">can stand alone if quoted</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">4. Lead with the answer</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Put the direct answer first, then</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">the reason and the detail</text>
+</g></svg>
