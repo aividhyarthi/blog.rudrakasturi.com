@@ -73,6 +73,10 @@ Google also warns that creating separate pages for every query variation, mainly
 - [Mobile app](/how-to-get-your-mobile-app-found-in-chatgpt-google-and-the-app-stores/)
 - [Ads in AI Overviews and AI Mode](/google-ads-in-ai-overviews-and-ai-mode-what-advertisers-should-check/)
 
+## Data worth knowing
+
+- [AI-referred shoppers delivered 83% more revenue per visit in September, Adobe data shows](/ai-referred-shoppers-delivered-83-percent-more-revenue-per-visit-in-september-adobe-data-shows/)
+
 ## What to do first
 
 1. **Check indexing and snippet eligibility** for your top ten pages.
