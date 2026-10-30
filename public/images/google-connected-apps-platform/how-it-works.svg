@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 964" role="img" aria-label="Four steps of Google Connected Apps Platform: build an MCP connection, register in Google Connected Console, the user links the app once, then it is used in Gemini and AI Mode in Search">
+<rect width="800" height="964" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Connected Apps: how it works</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Reported steps for developers and users</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. Build a connection</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">A cloud MCP server, or an Android</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">MCP using AppFunctions</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">2. Register and submit</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">Use Google Connected Console to</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">register tools and publish</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">3. User links the app once</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">Sign-in uses OAuth 2.1 so Gemini</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">can act on the user's behalf</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">4. Used in Gemini and Search</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Account data and actions appear</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">inside the conversation</text>
+</g></svg>
