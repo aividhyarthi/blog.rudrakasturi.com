@@ -32,6 +32,7 @@ Google says a page must be indexed and eligible to be shown in Search with a sni
 - Run the quick test in [five checks for AI search visibility](/five-checks-for-ai-search-visibility-you-can-do-today/) and the longer [practical checklist](/a-practical-checklist-for-ai-search-visibility/).
 - Understand how the systems differ in [AI Mode vs Search](/google-ai-mode-vs-search-crawling-indexing-ranking-and-summarising-explained/).
 - For Microsoft's side, see [getting cited in Copilot and Bing](/how-to-get-your-content-cited-in-microsoft-copilot-and-bing/).
+- For AI crawlers and training, see the reported [shared AI training opt-out](/openai-google-microsoft-and-anthropic-back-one-shared-ai-training-opt-out-what-is-reported/).
 
 ## 2. Content and writing
 
