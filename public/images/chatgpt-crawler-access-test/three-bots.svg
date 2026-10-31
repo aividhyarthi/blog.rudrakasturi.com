@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 964" role="img" aria-label="Three OpenAI user agents as described in reports of its documentation: GPTBot for training, OAI-SearchBot for the ChatGPT search index, ChatGPT-User for user-initiated fetches, followed by a ten minute access test">
+<rect width="800" height="964" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Three OpenAI user agents</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">What each is described as doing</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">GPTBot</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Crawls content that may be used in</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">training; separate from ChatGPT search</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">OAI-SearchBot</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">Builds the ChatGPT search index; opt</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">out and you will not show in answers</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">ChatGPT-User</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">Fetches pages when a person asks;</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">robots.txt rules may not apply</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">Your 10-minute test</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Read robots.txt, request a page as</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">each bot, then check your firewall</text>
+</g></svg>
