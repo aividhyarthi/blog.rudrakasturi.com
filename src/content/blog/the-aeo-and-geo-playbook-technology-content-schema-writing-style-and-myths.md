@@ -66,6 +66,8 @@ Google lists several tactics it says you can ignore for Google Search:
 
 Google also warns that creating separate pages for every query variation, mainly to manipulate AI responses, violates its scaled content abuse policy.
 
+For each myth in turn, with what to do instead, see [four AEO and GEO myths checked against Google's guide](/four-aeo-and-geo-myths-checked-against-googles-guide-and-what-to-do-instead/).
+
 ## By page type
 
 - [Blog](/how-to-get-your-blog-found-in-chatgpt-and-google-ai-mode-a-practical-guide/)
