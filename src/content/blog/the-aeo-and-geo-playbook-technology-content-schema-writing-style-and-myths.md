@@ -68,6 +68,8 @@ Google also warns that creating separate pages for every query variation, mainly
 
 For each myth in turn, with what to do instead, see [four AEO and GEO myths checked against Google's guide](/four-aeo-and-geo-myths-checked-against-googles-guide-and-what-to-do-instead/).
 
+Before you pay for a citation promise, read [no one can guarantee an AI citation](/no-one-can-guarantee-an-ai-citation-what-you-can-control-and-how-to-judge-the-promise/).
+
 ## By page type
 
 - [Blog](/how-to-get-your-blog-found-in-chatgpt-and-google-ai-mode-a-practical-guide/)
