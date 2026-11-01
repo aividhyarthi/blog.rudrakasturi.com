@@ -34,6 +34,7 @@ Google says a page must be indexed and eligible to be shown in Search with a sni
 - For Microsoft's side, see [getting cited in Copilot and Bing](/how-to-get-your-content-cited-in-microsoft-copilot-and-bing/).
 - For AI crawlers and training, see the reported [shared AI training opt-out](/openai-google-microsoft-and-anthropic-back-one-shared-ai-training-opt-out-what-is-reported/).
 - To check that ChatGPT's crawlers can reach you, run the [10-minute GPTBot, OAI-SearchBot and ChatGPT-User test](/can-chatgpt-reach-your-site-a-10-minute-test-for-gptbot-oai-searchbot-and-chatgpt-user/).
+- To see which crawlers actually visit, follow our [ten-minute server log method](/how-to-read-server-logs-for-search-and-ai-crawlers-a-ten-minute-method/).
 
 ## 2. Content and writing
 
