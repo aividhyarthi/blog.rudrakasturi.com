@@ -44,6 +44,7 @@ Our view: write the answer first, then the detail, and put your own evidence in 
 
 - [Answer-first pages](/write-answer-first-pages-open-with-the-direct-answer-then-the-detail/)
 - [12 sentence rewrites that make a page easier to quote](/12-sentence-rewrites-that-make-a-page-easier-to-quote-before-and-after/)
+- [First-hand evidence: eight kinds you can add to any page](/first-hand-evidence-eight-kinds-you-can-add-to-any-page-and-what-never-to-fake/)
 - [Writing content that AI summarises without killing your credit](/how-to-write-content-that-ai-summarises-without-killing-your-brand-credit/)
 - [FAQs for AEO without looking spammy](/how-to-optimise-faqs-for-aeo-without-looking-spammy/)
 - [Internal linking for AEO and GEO](/how-to-optimise-internal-linking-for-aeo-and-geo/)
