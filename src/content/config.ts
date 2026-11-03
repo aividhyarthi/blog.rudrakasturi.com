@@ -22,6 +22,8 @@ const blog = defineCollection({
       .array(z.object({ title: z.string(), url: z.string().url(), publisher: z.string() }))
       .default([]),
     draft: z.boolean().default(false),
+    // true = listed automatically at the bottom of the AEO and GEO playbook page.
+    playbook: z.boolean().default(false),
   }),
 });
 

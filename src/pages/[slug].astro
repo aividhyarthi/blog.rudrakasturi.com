@@ -6,6 +6,7 @@ import PostView from '../components/PostView.astro';
 import PageView from '../components/PageView.astro';
 
 export async function getStaticPaths() {
+  const PLAYBOOK_SLUG = 'the-aeo-and-geo-playbook-technology-content-schema-writing-style-and-myths';
   const posts = await getAllPosts();
   const pages = await getCollection('pages');
   return [
@@ -16,13 +17,15 @@ export async function getStaticPaths() {
         post,
         page: undefined,
         related: posts.filter((p) => p.slug !== post.slug && topicOf(p).slug === topicOf(post).slug).slice(0, 8),
+        // The playbook page lists every post marked playbook: true, so new guides need no edit to that page.
+        series: post.slug === PLAYBOOK_SLUG ? posts.filter((p) => p.data.playbook) : [],
       },
     })),
-    ...pages.map((page) => ({ params: { slug: page.slug }, props: { kind: 'page' as const, page, post: undefined, related: [] } })),
+    ...pages.map((page) => ({ params: { slug: page.slug }, props: { kind: 'page' as const, page, post: undefined, related: [], series: [] } })),
   ];
 }
 
-const { kind, post, page, related } = Astro.props;
+const { kind, post, page, related, series } = Astro.props;
 ---
 
-{kind === 'post' ? <PostView post={post!} related={related} /> : <PageView page={page!} />}
+{kind === 'post' ? <PostView post={post!} related={related} series={series} /> : <PageView page={page!} />}

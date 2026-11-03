@@ -13,7 +13,7 @@ import Share from './Share.astro';
 import { authorOf } from '../lib/authors';
 import { SITE, NEWSLETTER } from '../config';
 
-const { post, related } = Astro.props as { post: Post; related: Post[] };
+const { post, related, series = [] } = Astro.props as { post: Post; related: Post[]; series?: Post[] };
 const { Content } = await post.render();
 const { title, description, date, updated, type, tldr, sources } = post.data;
 const topic = topicOf(post);
@@ -90,6 +90,14 @@ const crumbs = [
       <div class="post-hero"><img src={coverUrl(post)} alt="" width="1200" height="630" /></div>
       {tldr && <div class="tldr"><b>SUMMARY</b><p>{tldr}</p></div>}
       <article class="prose"><Content /></article>
+      {series.length > 0 && (
+        <section class="prose">
+          <h2>Newest guides in this playbook</h2>
+          <ul>
+            {series.map((s) => <li><a href={`/${s.slug}/`}>{s.data.title}</a></li>)}
+          </ul>
+        </section>
+      )}
       <Share url={pageUrl} title={title} slug={post.slug} where="bottom" />
 
       {sources.length > 0 && (
