@@ -1,7 +1,7 @@
 // Facts used across the site. Edit here and every page updates.
 export const SITE = {
   // Paste the content value of the Search Console HTML-tag verification here (optional).
-  googleSiteVerification: '',
+  googleSiteVerification: 'sxPoZT3xoLuLLAEMqhOPd_IGbac5xcnxQdckPe7_Gp0',
   name: 'Rudra Kasturi',
   tagline: 'Search. Strategy. AI. Growth. Revenue. Coach. Farmer.',
   email: 'rudra@rudrakasturi.com',
