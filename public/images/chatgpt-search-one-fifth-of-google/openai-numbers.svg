@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 964" role="img" aria-label="ChatGPT figures shared by OpenAI: 1.2 billion weekly users, search-like query volume about one fifth of Google, 250 million combined weekly voice and dictation users, and 1.5 billion images a week">
+<rect width="800" height="964" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">ChatGPT by the numbers, per OpenAI</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Company figures, shared at a New York dinner</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1.2 billion weekly users</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Up from 1 billion in about two</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">months, according to OpenAI</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">About one fifth of Google</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">OpenAI says its search-like query</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">volume is roughly 20% of Google's</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">250 million voice users</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">Combined weekly users of dictation</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">and speaking with ChatGPT</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">1.5 billion images a week</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">The weekly image count OpenAI gave,</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">plus plans to merge Chat and Work</text>
+</g></svg>
