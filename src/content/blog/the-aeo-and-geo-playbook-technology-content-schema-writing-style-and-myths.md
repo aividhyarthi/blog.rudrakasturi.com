@@ -54,6 +54,8 @@ Our view: write the answer first, then the detail, and put your own evidence in 
 
 Google says structured data is not required for generative AI search and that there is no special schema.org markup to add. It still recommends structured data as part of SEO because it helps eligibility for rich results. For shops and local businesses, it names Merchant Center feeds and Business Profiles as ways to appear in AI responses. Our view: accurate markup that matches the visible page is worth keeping; markup added to chase AI is not. Use our [schema decision table by page type](/schema-for-aeo-and-geo-a-decision-table-by-page-type-and-a-ten-point-audit/), and for shops start with [AEO for e-commerce](/aeo-for-e-commerce-product-pages-feeds-and-what-google-says-about-universal-cart/).
 
+Guides: the [schema decision table](/schema-for-aeo-and-geo-a-decision-table-by-page-type-and-a-ten-point-audit/) and a [checklist for Article markup that matches the page](/article-schema-that-matches-the-page-author-dates-and-headline-with-a-checklist/).
+
 ## 4. Measurement
 
 Google points to the Generative AI performance report in Search Console and warns against third-party tools that claim to use internal Google metrics. See [what the report shows and leaves out](/search-console-generative-ai-report-what-it-shows-and-what-it-leaves-out/) and [Bing's AI Performance report compared](/bing-webmaster-tools-ai-performance-report-compared-with-googles-what-each-shows/). Our view: add a monthly set of 20 test prompts and record whether your brand and pages appear, and use our [20-prompt AI visibility test](/a-20-prompt-ai-visibility-test-template-scoring-rubric-and-monthly-routine/) with a scoring sheet. For a deeper view of trust, see [testing whether AI engines trust your site](/how-to-test-if-ai-engines-trust-your-website/). To check what AI tools say about your business, use our [six-question brand audit worksheet](/how-to-audit-what-ai-tools-say-about-your-brand-a-six-question-worksheet/). To see what AI traffic does reach you, use our [four-step analytics setup](/how-to-track-ai-referral-traffic-in-analytics-a-four-step-setup-and-its-limits/).
@@ -74,12 +76,18 @@ For each myth in turn, with what to do instead, see [four AEO and GEO myths chec
 
 Before you pay for a citation promise, read [no one can guarantee an AI citation](/no-one-can-guarantee-an-ai-citation-what-you-can-control-and-how-to-judge-the-promise/).
 
+On the claim that AI answers have ended SEO, see [what the evidence supports and what it does not](/myth-seo-is-dead-because-of-ai-answers-what-the-evidence-supports-and-what-it-does-not/).
+
 ## By page type
 
 - [Blog](/how-to-get-your-blog-found-in-chatgpt-and-google-ai-mode-a-practical-guide/)
 - [Category page](/how-to-get-your-ecommerce-category-page-found-in-chatgpt-and-google-ai-mode/)
 - [Health article](/how-to-prepare-a-health-article-for-google-ai-mode-trust-sources-and-authors/)
 - [Mobile app](/how-to-get-your-mobile-app-found-in-chatgpt-google-and-the-app-stores/)
+- [SaaS landing page](/how-to-get-a-saas-landing-page-found-in-chatgpt-google-ai-mode-and-copilot/)
+- [Comparison page (X vs Y)](/how-to-get-a-comparison-page-x-vs-y-cited-in-ai-answers/)
+- [Glossary or definition page](/how-to-get-a-glossary-or-definition-page-cited-in-ai-answers/)
+- [Pricing page](/how-to-get-your-pricing-page-understood-by-ai-tools-and-crawlers/)
 - [Ads in AI Overviews and AI Mode](/google-ads-in-ai-overviews-and-ai-mode-what-advertisers-should-check/)
 
 ## Data worth knowing
