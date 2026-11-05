@@ -26,7 +26,7 @@ categories: ["AEO", "Analytics", "AI Search"]
 tags: ["ChatGPT", "UTM", "GA4", "Direct traffic", "AI referrals", "Adobe", "Measurement"]
 ---
 
-If your ChatGPT visits fell sharply in October and your Direct traffic rose, your site may not have lost anything. Several reports say that ChatGPT changed how its links are opened, and that analytics tools started counting those visits as Direct. This post explains what is reported, what the numbers look like, how to check your own data in minutes, and what not to conclude. We could not open the original analysis or the articles, so this is based on search summaries and a chart from Adobe's analysis that a reader shared with us. Treat figures as reported and sampled.
+If your ChatGPT visits fell sharply in October and your Direct traffic rose, your site may not have lost anything. Several reports say that ChatGPT changed how its links are opened, and that analytics tools started counting those visits as Direct. This post explains what is reported, what the numbers look like, how to check your own data in minutes, and what not to conclude. We could not open Adobe's original analysis or the news articles, so the Adobe figures come from search summaries and a chart a reader shared with us. The section on WISLR's own test comes from the full WISLR article, which we read. Treat figures as reported and sampled.
 
 ## What changed
 
