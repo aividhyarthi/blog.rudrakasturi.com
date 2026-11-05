@@ -1,6 +1,7 @@
 ---
 title: "Where did my ChatGPT traffic go? The October UTM bug that sent AI visits to Direct, and how to check your data"
 date: 2026-11-04T10:00:00+05:30
+updated: 2026-11-05T12:30:00+05:30
 description: "In October, ChatGPT links reportedly lost their utm_source=chatgpt.com tag and their referrer, so visits showed up as Direct. What Adobe's data shows, what changed between versions, how to check your own numbers, and what not to conclude."
 tag: "AEO"
 tldr: "Reports based on Adobe data say that around 8 to 10 October, with the GPT-6 rollout, ChatGPT links stopped carrying utm_source=chatgpt.com and opened without a referrer, so analytics filed the visits as Direct. On about 500 pages, ChatGPT visits fell by roughly 31,000 a day while Direct rose by about 26,000. The tag reportedly returned around 15 to 16 October. Your history is not corrected, so mark the dates and compare Direct and ChatGPT together."
@@ -18,11 +19,14 @@ sources:
   - title: "ChatGPT Bug Sent AI Referral Traffic to Direct After GPT-6"
     url: "https://almcorp.com/news/chatgpt-bug-sent-ai-referral-traffic-to-direct-after-gpt-6/"
     publisher: "ALM Corp"
+  - title: "ChatGPT Now Puts a 'Shop at' Button in Its Shopping Answers, and Most of Them Point to Big-Box Stores"
+    url: "https://www.wislr.com/articles/chatgpt-shop-at-buttons-big-box/"
+    publisher: "WISLR"
 categories: ["AEO", "Analytics", "AI Search"]
 tags: ["ChatGPT", "UTM", "GA4", "Direct traffic", "AI referrals", "Adobe", "Measurement"]
 ---
 
-If your ChatGPT visits fell sharply in October and your Direct traffic rose, your site may not have lost anything. Several reports say that ChatGPT changed how its links are opened, and that analytics tools started counting those visits as Direct. This post explains what is reported, what the numbers look like, how to check your own data in minutes, and what not to conclude. We could not open the original analysis or the articles, so this is based on search summaries and a chart from Adobe's analysis that a reader shared with us. Treat figures as reported and sampled.
+If your ChatGPT visits fell sharply in October and your Direct traffic rose, your site may not have lost anything. Several reports say that ChatGPT changed how its links are opened, and that analytics tools started counting those visits as Direct. This post explains what is reported, what the numbers look like, how to check your own data in minutes, and what not to conclude. We could not open Adobe's original analysis or the news articles, so the Adobe figures come from search summaries and a chart a reader shared with us. The section on WISLR's own test comes from the full WISLR article, which we read. Treat figures as reported and sampled.
 
 ## What changed
 
@@ -48,6 +52,45 @@ Adobe describes its data as sampled and directional, and it excludes bots. Two f
 Search Engine Land's headline calls the drop a bug. Reports say OpenAI confirmed that, and that the tag returned around 15 October, with one report saying 16 October. We found no public OpenAI statement, so the confirmation rests on the analyst's account. Other write-ups tie the change to GPT-6 and note that OpenAI has not explained the cause itself.
 
 Important: reports say your history is not corrected. Visits recorded in that window stay filed as Direct.
+
+## What WISLR's own test found
+
+WISLR, a company that tracks AI search, tested ChatGPT's links itself instead of relying on analytics numbers. We read its article, published 14 October and updated 16 October 2026. This adds details the other reports do not have.
+
+**What the links did, day by day**
+
+| Dates | Did the link carry the tag (utm_source=chatgpt.com)? | Did the link carry a referrer? |
+|---|---|---|
+| Before 8 October (from WISLR's data on one store: 94% of identified ChatGPT visits had the tag and no referrer; not from tested links) | Yes | No, for most visits |
+| 8 to 15 October | No. None of the 47 links WISLR tested had it | No |
+| 16 October | Yes. Every link WISLR tested had it | Still No |
+
+This means the tag is the only signal analytics tools have. The referrer is still missing, even after the fix.
+
+**Who confirmed the bug**
+
+WISLR says Cedric Huesler of Adobe reported that OpenAI confirmed the bug to him on 14 October as a known bug in the GPT-6 rollout. He said a fix started reaching users around 2am Pacific on 15 October, and that tagged ChatGPT clicks were back to 95% to 100% of the previous week's level by that morning. WISLR notes that OpenAI has not commented publicly.
+
+**What was lost, and where it went**
+
+On one store WISLR measures, ChatGPT visits from 9 to 13 October were 66% lower than from 1 to 7 October. On a second store they were 57% lower. Gemini visits rose.
+
+WISLR also found that the lost clicks did not all land in the same place:
+
+- Lost clicks to support and how-to pages came back as Direct visits.
+- Lost clicks to product pages did not come back as Direct for US visitors, and only about half did elsewhere.
+
+So if you only check Direct on one type of page, you may think you lost traffic that was really counted as Direct, or the other way around. Check both product pages and support pages.
+
+**Your baseline was already low**
+
+WISLR says that an earlier, smaller loss on 25 September removed the referrer from untagged ChatGPT clicks. So even the 1 to 7 October numbers undercount how many people ChatGPT sends.
+
+**Something else changed at the same time**
+
+On 10 October, ChatGPT began adding "Shop at" buttons to shopping answers, and most go to big retailers. Some of the clicks that used to reach your product pages may now go to a store. Read [our post on those buttons](/chatgpt-shop-at-buttons-most-go-to-big-box-stores/) and our post on [telling lost clicks from lost visibility](/chatgpt-visits-fell-did-chatgpt-stop-recommending-you/).
+
+Source: WISLR, "ChatGPT Now Puts a 'Shop at' Button in Its Shopping Answers, and Most of Them Point to Big-Box Stores", https://www.wislr.com/articles/chatgpt-shop-at-buttons-big-box/
 
 ## Our view
 
