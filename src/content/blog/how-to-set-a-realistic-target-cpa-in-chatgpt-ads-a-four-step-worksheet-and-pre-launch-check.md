@@ -6,7 +6,7 @@ tag: "AEO"
 tldr: "OpenAI says Target CPA is an average-cost goal, not a guaranteed price, and that a target below recent performance may restrict delivery. The safest start is your actual CPA for the same event over a consistent window. A $20 target on a $40 actual CPA does not mean purchases at half the cost."
 sources:
   - title: "Bidding strategies and how pricing works in ChatGPT Ads"
-    url: "https://help.openai.com/"
+    url: "https://help.openai.com/en/articles/20001634-bidding-strategies-and-how-pricing-works-in-chatgpt-ads"
     publisher: "OpenAI Help Center"
 categories: ["Ads", "ChatGPT Ads", "AI Search"]
 tags: ["ChatGPT Ads", "Target CPA", "Conversion tracking", "Landing pages"]

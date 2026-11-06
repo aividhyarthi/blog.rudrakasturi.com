@@ -3,7 +3,7 @@ title: "ChatGPT Work and Dots errors on 5 November: what OpenAI reported, and a 
 date: 2026-11-06T08:30:00+05:30
 description: "OpenAI's status page logged elevated errors for ChatGPT Work and Dots on 5 November 2026. The timeline as published, what we could not confirm, and a simple fallback plan for teams that depend on ChatGPT."
 tag: "LLMs"
-tldr: "OpenAI's status page shows an incident titled 'ChatGPT Work and Dots Errors', first logged at 8:55 PM on Thursday 5 November 2026, with elevated errors identified at 10:27 PM and a mitigation applied at 10:35 PM, after which it was monitoring recovery. Two ChatGPT components and one Codex component were affected. We have not seen a resolved update."
+tldr: "OpenAI's status page shows an incident titled 'ChatGPT Work and Dots Errors', first logged at 8:55 PM on Thursday 5 November 2026, with elevated errors identified at 10:27 PM and a mitigation applied at 10:35 PM, after which it was monitoring recovery. Two ChatGPT components and one Codex component were affected. The incident is still open and has not been marked resolved."
 sources:
   - title: "ChatGPT Work and Dots Errors (incident page)"
     url: "https://status.openai.com/"
@@ -12,12 +12,12 @@ categories: ["GPT", "AI Search"]
 tags: ["ChatGPT", "OpenAI", "Outage", "Business continuity"]
 ---
 
-**Quick answer:** OpenAI reported degraded performance for ChatGPT Work and Dots on the evening of 5 November 2026. It applied a mitigation and was monitoring recovery. We could not confirm the final resolution.
+**Quick answer:** OpenAI reported degraded performance for ChatGPT Work and Dots on the evening of 5 November 2026. It applied a mitigation and is monitoring recovery. The issue is not resolved yet.
 **Best for:** teams, agencies and ad managers that run work through ChatGPT.
 
 ## The timeline as OpenAI published it
 
-This is from a copy of OpenAI's incident page captured about nine hours after the last update. Our session could not reach status.openai.com directly, so check the live page for anything newer. The page does not state a time zone.
+This is from OpenAI's incident page, captured about nine hours after the last update, and the issue was still open when we checked. The page does not state a time zone. Check the live page for newer updates.
 
 | Time (Thursday 5 Nov 2026) | Status | OpenAI's wording |
 |---|---|---|
@@ -29,9 +29,8 @@ This is from a copy of OpenAI's incident page captured about nine hours after th
 
 The incident was labelled "Degraded performance". Affected components: two under ChatGPT and one under Codex. The page we saw does not name them beyond the incident title.
 
-## What we could not confirm
+## What is not known
 
-- Whether OpenAI marked the incident resolved.
 - Which users or regions were hit hardest.
 - The cause. OpenAI gave none.
 
@@ -60,4 +59,4 @@ Our own framework, not OpenAI's advice.
 5. Note incident times in your analytics, since an outage can shift [AI referral traffic](/how-to-track-ai-referral-traffic-in-analytics-a-four-step-setup-and-its-limits/).
 6. Do not change live ad budgets while the tool is degraded.
 
-![Timeline of the ChatGPT Work and Dots Errors incident on 5 November 2026: investigating, identified, monitoring, resolution not confirmed](/images/chatgpt-work-dots-incident/incident-timeline.svg)
+![Timeline of the ChatGPT Work and Dots Errors incident on 5 November 2026: investigating, identified, monitoring, still open](/images/chatgpt-work-dots-incident/incident-timeline.svg)

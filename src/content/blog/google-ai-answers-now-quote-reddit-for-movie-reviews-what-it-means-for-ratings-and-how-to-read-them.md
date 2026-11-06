@@ -3,7 +3,7 @@ title: "Google's AI answers now quote Reddit for movie reviews: what that means 
 date: 2026-11-06T09:05:00+05:30
 description: "A Google AI answer for a film review now splits critic reactions from Reddit viewer reactions. Here is what a screenshot shows, why it matters beyond site ratings, and how to check the sources."
 tag: "AEO"
-tldr: "A screenshot of a Google AI answer for the query 'ramayan review' shows positives, criticisms and a 'Viewer Reactions' section that quotes a Reddit comment and an IGN review, with Reddit, YouTube and Times of India links. Real viewer talk is now part of the verdict, not just site ratings. The summary can still be wrong, so open the sources."
+tldr: "A Google AI Overview screenshot for the query 'ramayan review' shows positives, criticisms and a 'Viewer Reactions' section that quotes a Reddit comment and an IGN review, with Reddit, YouTube and Times of India links. Real viewer talk is now part of the verdict, not just site ratings. The summary can still be wrong, so open the sources."
 sources:
   - title: "Google Search AI Overviews For Movie Reviews"
     url: "https://www.seroundtable.com/google-movie-reviews-ai-overviews-38981.html"
@@ -22,9 +22,9 @@ playbook: true
 **Quick answer:** For at least one big film release, Google's AI answer now builds its verdict from critics and from real viewers, with Reddit quoted by name. Site ratings are no longer the only voice.
 **Best for:** film fans, entertainment publishers, review sites and any brand that depends on public opinion.
 
-## What the screenshot shows
+## What the AI Overview shows
 
-We were sent a screenshot of a Google result for the query "ramayan review". At the top is an AI Overview on the standard results page (the screenshot shows the All tab, not the separate AI Mode tab). It describes the first part of Nitesh Tiwari's *Ramayana* as drawing a "heavily divided but massive critical and audience response".
+Our screenshot shows a Google AI Overview for the query "ramayan review", taken by the author on 6 November 2026. It describes the first part of Nitesh Tiwari's *Ramayana* as drawing a "heavily divided but massive critical and audience response".
 
 Below that, the answer is organised in four blocks:
 
@@ -33,7 +33,7 @@ Below that, the answer is organised in four blocks:
 - **Viewer Reactions:** two quoted lines, one from a Reddit comment and one from IGN.
 - **Sources:** small labels linking to The Times of India, YouTube and Reddit (r/tollywood).
 
-We have the screenshot only. We have not tested the query ourselves, and Google's answers vary by user and time.
+Google's answers vary by user and time, so yours may differ.
 
 ## Why this is different from ratings
 

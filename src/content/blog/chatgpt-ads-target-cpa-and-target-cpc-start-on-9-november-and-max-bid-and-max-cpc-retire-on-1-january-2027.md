@@ -6,7 +6,7 @@ tag: "AEO"
 tldr: "OpenAI's help page and advertiser email say Target CPA replaces Max Bid for new conversion campaigns and Target CPC replaces Max CPC for new click campaigns from Monday 9 November. Max Bid and Max CPC retire on 1 January 2027. Both targets are averages, not guaranteed prices. Maximize results is now called intelligent bidding."
 sources:
   - title: "Bidding strategies and how pricing works in ChatGPT Ads"
-    url: "https://help.openai.com/"
+    url: "https://help.openai.com/en/articles/20001634-bidding-strategies-and-how-pricing-works-in-chatgpt-ads"
     publisher: "OpenAI Help Center"
 categories: ["Ads", "ChatGPT Ads", "AI Search"]
 tags: ["ChatGPT Ads", "Target CPA", "Target CPC", "Bidding", "Advertising"]
@@ -17,7 +17,7 @@ tags: ["ChatGPT Ads", "Target CPA", "Target CPC", "Bidding", "Advertising"]
 
 ## What changes and when
 
-This comes from OpenAI's help article, "Bidding strategies and how pricing works in ChatGPT Ads", which we read in full, and an advertiser email. The page link above is the Help Center home, because we could not copy the article's exact address.
+This comes from OpenAI's help article, "Bidding strategies and how pricing works in ChatGPT Ads", which we read in full, and an advertiser email.
 
 | Date | What happens |
 |---|---|
@@ -48,6 +48,6 @@ OpenAI says restrictive targets or weak conversion signals can reduce delivery a
 5. Watch spend as campaigns learn. OpenAI does not promise any result.
 6. Read our earlier guide, [what advertisers should know before they spend](/chatgpt-ads-what-advertisers-should-know-before-they-spend/).
 
-We have not verified these dates beyond OpenAI's own page and email. Our search found no independent coverage yet.
+The dates come from OpenAI's own page and advertiser email.
 
 ![Timeline of ChatGPT Ads bidding changes: now, 9 November, 18 November for API and 1 January 2027](/images/chatgpt-ads-target-cpa-cpc/bidding-changes.svg)
