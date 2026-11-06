@@ -1,62 +1,53 @@
 ---
-title: "Google Business Profile Cars for Sale: what the dealership inventory pilot is, and how it helps buyers and dealers"
+title: "Google Business Profile now shows a dealership's cars for sale: what it is and how it helps buyers and dealers"
 date: 2026-11-06T09:00:00+05:30
-description: "Google's help page describes a limited pilot that shows a dealership's cars for sale on its Business Profile. Here is what it does, how it helps shoppers and dealers, and a six-step checklist."
+description: "Google is piloting car inventory on dealership Business Profiles, so shoppers can search and sort cars before they visit. What the feature does, how it helps both sides, and how dealers can join."
 draft: true
 tag: "Google"
-tldr: "Google's Business Profile help page describes a limited pilot in which a dealership's available cars appear on its profile, where shoppers can search, sort and read about them. Dealers join through an interest form and manage it under Edit Profile, then Cars for Sale. Google does not promise results, so treat it as a test."
+tldr: "Google's Business Profile help page describes a limited pilot: a dealership's available cars appear on its Business Profile, where shoppers can search, sort and learn about them. Dealers join through an interest form and manage it under Edit Profile, then Cars for Sale, where they choose to show their cars and pick data providers."
 sources:
-  - title: "Google Business Profile Help: Edit your Business Profile information (Car dealership inventory, limited availability)"
+  - title: "Google Business Profile Help: Car dealership inventory (limited availability)"
     url: "https://support.google.com/business/answer/3039617?hl=en"
     publisher: "Google Business Profile Help"
-  - title: "Google rolling out cars for sale in Google Business Profiles"
-    url: "https://searchengineland.com/google-rolling-out-cars-for-sale-in-google-business-profiles-392234"
-    publisher: "Search Engine Land"
-  - title: "Cars For Sale On Google Business Profiles"
-    url: "https://seroundtable.com/cars-for-sale-on-google-business-profiles-32707.html"
-    publisher: "Search Engine Roundtable"
 categories: ["Google Business", "Google Search", "Local SEO"]
 tags: ["Google Business Profile", "Car dealers", "Local search", "Inventory"]
 ---
 
-**Quick answer:** Google is piloting a "Cars for Sale" section on dealership Business Profiles. Shoppers can search and sort the cars from the profile. Dealers opt in with an interest form and manage the feature themselves.
-**Best for:** car dealers, and agencies and software partners that work with them.
+When someone searches for a car dealership, they land on its Google Business Profile: the address, hours, phone number and reviews. Google is now testing a new section on that profile that shows the cars the dealership has for sale.
 
-## What Google's help page says
+![Google Business Profile Help page, section Car dealership inventory (limited availability), describing the pilot and where dealers manage it](/images/gbp-cars-for-sale-pilot/help-page-car-dealership-inventory.png)
 
-Google's Business Profile help page describes the feature as a new pilot. In its words, Google displays available sales inventory on dealership Business Profiles, where customers can search, sort and learn about the cars, which might make customers come to the dealership. A dealer, or someone who works with dealers, can ask to join through an interest form.
+## What Google says
 
-Partners who sign up manage it on Google Search. To update sales inventory, choose **Edit Profile**, then **Cars for Sale**. From there you can choose whether to show the cars for sale and select preferred data providers.
+The help page calls it a new feature pilot. Google displays available sales inventory on dealership Business Profiles. Customers can search, sort and learn about the cars, which might make them come to the dealership.
 
-Google's help page is the primary source for this section.
+A dealer, or anyone who works with dealers, can ask to try it by filling out an interest form. Partners who join the pilot manage it on Google Search. To update the inventory, they choose **Edit Profile**, then **Cars for Sale**. There they can choose whether to show the cars for sale and select preferred data providers.
 
-## What earlier coverage adds
+The page lists it as "limited availability". Google does not say how many dealerships are in the pilot or when it will open to everyone.
 
-Search Engine Land and Search Engine Roundtable reported on car inventory in Business Profiles in earlier years, when it was a test. Details from those years, such as who can join, may have changed, so check the help page.
+## How it helps car buyers
 
-## How it helps shoppers and dealers
+- **They see what is on the lot before they go.** No calling to ask whether a model is in stock.
+- **They can search and sort.** Narrowing by what matters to them is faster than scrolling a dealer's website.
+- **It happens in the place they already looked.** They found the dealership on Google, and the cars are right there.
 
-| Who | What changes | Our view |
-|---|---|---|
-| Shopper | Sees real cars on the profile before visiting, and can sort them | Fewer wasted trips and phone calls |
-| Dealer | Inventory sits in the place local searches already land | A showroom window inside the search result |
-| Both | Less guessing about what is on the lot | Only works if the data is current |
+## How it helps dealerships
 
-The "our view" column is our judgement, not Google's.
+- **Your stock sits on the page people see first.** A shopper checking your reviews and hours can also see your cars.
+- **More of the visits are people who want a specific car.** In my view, someone who has already found a car they like is a better visitor than someone who only knows your name.
+- **You stay in control.** You choose whether to show the cars, and which data providers supply them.
 
-## The risk to manage
+## The one thing that can go wrong
 
-A profile that shows a car that was sold last week creates a bad visit. The feature depends on inventory data that you or your provider keep fresh. Compare it with the same cars on your own website, as in our guide to [local business pages in AI search](/how-to-get-your-local-business-page-found-in-google-ai-mode-and-chatgpt/).
+In my view, the risk is out-of-date stock. If a car shows on the profile and it was sold last week, the shopper's trip is wasted and they will remember it. This feature is only as good as the inventory data behind it.
 
 ## What to do
 
-1. Read the help page and fill out the interest form if you are a dealer or work with dealers.
-2. Ask your website or inventory provider whether it is one of the data providers offered under Cars for Sale.
-3. Compare prices and availability on the profile with your own site every week. Fix any mismatch the same day.
-4. Remove sold cars quickly. This is our advice, not a Google rule.
-5. Keep the rest of the profile strong. See [what drives local ranking](/gbp-ranking-factors-what-really-drives-local-seo-in-2025/).
-6. Tag your profile website link so you can see visits from it in analytics.
+1. **Fill out the interest form** on Google's help page if you are a dealer, or if you work with dealers.
+2. **Ask your website or inventory provider** whether they are one of the data providers offered under Cars for Sale.
+3. **Once you are in,** go to Edit Profile, then Cars for Sale, and choose to show your cars and pick your provider.
+4. **Keep it current.** Remove sold cars and fix prices quickly. That is my advice, not Google's rule.
+5. **Keep the rest of the profile strong.** Photos, hours, reviews and answers still decide who gets chosen. See [what drives local ranking](/gbp-ranking-factors-what-really-drives-local-seo-in-2025/).
+6. **Track the visits.** Add tracking to your profile's website link and watch what happens in analytics.
 
-Google does not guarantee more visits or sales from the pilot. Results will vary.
-
-![Four steps of the Google Business Profile Cars for Sale pilot: dealer joins, inventory is supplied, Google shows cars on the profile, shopper visits](/images/gbp-cars-for-sale-pilot/how-it-works.svg)
+This is a pilot, so what you see and when you see it may differ from dealer to dealer.
