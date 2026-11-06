@@ -2,6 +2,7 @@
 title: "ChatGPT Work and Dots errors on 5 November: what OpenAI reported, and a continuity plan for teams"
 date: 2026-11-06T08:30:00+05:30
 description: "OpenAI's status page logged elevated errors for ChatGPT Work and Dots on 5 November 2026. The timeline as published, what we could not confirm, and a simple fallback plan for teams that depend on ChatGPT."
+draft: true
 tag: "LLMs"
 tldr: "OpenAI's status page shows an incident titled 'ChatGPT Work and Dots Errors', first logged at 8:55 PM on Thursday 5 November 2026, with elevated errors identified at 10:27 PM and a mitigation applied at 10:35 PM, after which it was monitoring recovery. Two ChatGPT components and one Codex component were affected. The incident is still open and has not been marked resolved."
 sources:

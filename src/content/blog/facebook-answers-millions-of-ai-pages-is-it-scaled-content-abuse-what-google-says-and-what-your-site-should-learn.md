@@ -2,6 +2,7 @@
 title: "Facebook Answers: millions of AI-generated pages. Is it scaled content abuse, and what should your site learn?"
 date: 2026-11-06T08:40:00+05:30
 description: "Facebook's AI-generated Answers pages rank widely on Google. What Google's scaled content abuse policy says, what the data shows, why Facebook may escape a penalty, and what that means for your own site."
+draft: true
 tag: "SEO"
 tldr: "Saul Westbrook of Peripheral reports millions of AI-generated pages under facebook.com/fb-answers/, with Semrush estimating about 40.6 million worldwide visits in October 2026. Google defines scaled content abuse as many pages made mainly to manipulate rankings. Facebook has not commented and Google has not ruled on these pages. Do not copy the tactic."
 sources:

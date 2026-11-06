@@ -2,6 +2,7 @@
 title: "ChatGPT Ads: Target CPA and Target CPC start on 9 November, and Max Bid and Max CPC retire on 1 January 2027"
 date: 2026-11-06T08:20:00+05:30
 description: "OpenAI is replacing Max Bid and Max CPC in ChatGPT Ads with Target CPA and Target CPC. The dates, what each option does, what API users must change, and what to check before you switch."
+draft: true
 tag: "AEO"
 tldr: "OpenAI's help page and advertiser email say Target CPA replaces Max Bid for new conversion campaigns and Target CPC replaces Max CPC for new click campaigns from Monday 9 November. Max Bid and Max CPC retire on 1 January 2027. Both targets are averages, not guaranteed prices. Maximize results is now called intelligent bidding."
 sources:

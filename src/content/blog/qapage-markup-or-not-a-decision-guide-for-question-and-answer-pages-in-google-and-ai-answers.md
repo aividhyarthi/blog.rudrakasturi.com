@@ -2,6 +2,7 @@
 title: "QAPage markup or not: a decision guide for question-and-answer pages in Google and AI answers"
 date: 2026-11-06T19:00:00+05:30
 description: "Google's QAPage markup is for one question with answers people can submit, not for FAQs or how-to pages. A decision table, a minimal example, and what to do for pages that do not qualify."
+draft: true
 tag: "SEO"
 tldr: "Google says QAPage structured data is for pages focused on a single question and its answers, where users can submit answers. It is not for FAQs, how-to guides, blog posts or essays. If your page does not fit, skip the markup and write clear questions with answer-first paragraphs instead."
 sources:

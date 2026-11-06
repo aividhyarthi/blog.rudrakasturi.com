@@ -2,6 +2,7 @@
 title: "Why a grocery store's apple guide ranks on page one for 'types of apples', and what our blog posts can copy"
 date: 2026-11-06T11:30:00+05:30
 description: "LaBonne's Markets, a Connecticut grocer, ranks for hundreds of apple searches with one guide. Semrush data, the page's structure, and a five-part pattern any blog post can borrow."
+draft: true
 tag: "SEO"
 tldr: "Semrush shows LaBonne's apple guide in position 2 for 'types of apples' (40,500 searches a month) and position 4 for 'apples' (246,000). It is a single-purpose page with a picker chart at the top, a quick-picks list, an identical block for each apple, and buying and storage tips. We can copy the structure, but not the authority behind it."
 sources:

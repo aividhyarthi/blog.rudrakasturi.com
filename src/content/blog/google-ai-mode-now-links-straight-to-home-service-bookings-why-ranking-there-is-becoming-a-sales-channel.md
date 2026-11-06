@@ -2,6 +2,7 @@
 title: "Google AI Mode now links straight to home service bookings: why ranking there is becoming a sales channel"
 date: 2026-11-06T08:50:00+05:30
 description: "Google AI Mode now offers direct booking and quote links for home services in the US. This is the shift from answer engine to booking tool, and what local service businesses should check."
+draft: true
 tag: "AEO"
 tldr: "On 4 November 2026 Google's Robby Stein said AI Mode has direct links to research and book home services through partners including Angi, Thumbtack, Housecall Pro and Jobber, with ServiceTitan coming soon, available in the US. AI Mode is moving from answering questions to completing jobs, so a business missing from the answer may miss the booking."
 sources:

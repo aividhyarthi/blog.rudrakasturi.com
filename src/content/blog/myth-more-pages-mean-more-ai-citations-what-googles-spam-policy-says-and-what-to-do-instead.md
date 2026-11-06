@@ -2,6 +2,7 @@
 title: "Myth: more pages mean more AI citations. What Google's spam policy says and what to do instead"
 date: 2026-11-06T16:30:00+05:30
 description: "Publishing hundreds of near-identical pages to get cited by AI is a trap. What Google's scaled content abuse and doorway abuse policies say, plus a five-question test for each page."
+draft: true
 tag: "AEO"
 tldr: "Google defines scaled content abuse as many pages generated mainly to manipulate rankings, and doorway abuse as substantially similar pages made to rank for similar queries. Nothing in either policy says more pages earn more citations. A page should earn its place by answering a distinct question with something first-hand."
 sources:

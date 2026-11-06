@@ -2,6 +2,7 @@
 title: "Google Business Profile Cars for Sale: what the dealership inventory pilot is, and how it helps buyers and dealers"
 date: 2026-11-06T09:00:00+05:30
 description: "Google's help page describes a limited pilot that shows a dealership's cars for sale on its Business Profile. Here is what it does, how it helps shoppers and dealers, and a six-step checklist."
+draft: true
 tag: "Google"
 tldr: "Google's Business Profile help page describes a limited pilot in which a dealership's available cars appear on its profile, where shoppers can search, sort and read about them. Dealers join through an interest form and manage it under Edit Profile, then Cars for Sale. Google does not promise results, so treat it as a test."
 sources:

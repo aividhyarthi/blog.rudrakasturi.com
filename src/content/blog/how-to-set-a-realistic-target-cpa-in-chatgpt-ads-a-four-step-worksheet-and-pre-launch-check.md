@@ -2,6 +2,7 @@
 title: "How to set a realistic Target CPA in ChatGPT Ads: a four-step worksheet and pre-launch check"
 date: 2026-11-06T14:00:00+05:30
 description: "Before ChatGPT Ads moves conversion campaigns to Target CPA, use this worksheet: confirm conversion signals, find your actual CPA, set a target, and review it as the campaign learns."
+draft: true
 tag: "AEO"
 tldr: "OpenAI says Target CPA is an average-cost goal, not a guaranteed price, and that a target below recent performance may restrict delivery. The safest start is your actual CPA for the same event over a consistent window. A $20 target on a $40 actual CPA does not mean purchases at half the cost."
 sources:

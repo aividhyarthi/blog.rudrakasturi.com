@@ -2,6 +2,7 @@
 title: "Google's AI answers now quote Reddit for movie reviews: what that means for ratings and how to read them"
 date: 2026-11-06T09:05:00+05:30
 description: "A Google AI answer for a film review now splits critic reactions from Reddit viewer reactions. Here is what a screenshot shows, why it matters beyond site ratings, and how to check the sources."
+draft: true
 tag: "AEO"
 tldr: "A Google AI Overview screenshot for the query 'ramayan review' shows positives, criticisms and a 'Viewer Reactions' section that quotes a Reddit comment and an IGN review, with Reddit, YouTube and Times of India links. Real viewer talk is now part of the verdict, not just site ratings. The summary can still be wrong, so open the sources."
 sources:
