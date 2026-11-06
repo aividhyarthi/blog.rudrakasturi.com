@@ -1,8 +1,7 @@
 ---
 title: "ChatGPT Work and Dots are down with errors: what it means for you and what could go wrong"
-date: 2026-11-06T08:30:00+05:30
+date: 2026-11-06T08:48:00+05:30
 description: "OpenAI is reporting elevated errors for ChatGPT Work and Dots, with Codex also affected. Here is what those products do, what an outage can break for you, and what to do while it is open."
-draft: true
 tag: "LLMs"
 tldr: "OpenAI's status page shows an open incident, 'ChatGPT Work and Dots Errors', first logged on the evening of 5 November 2026. Elevated errors were confirmed, a fix was applied, and OpenAI is still watching recovery. Work and Dots run tasks on their own, so a failure can mean a stalled job, a missed scheduled run or a silent agent, not just an error message."
 sources:
@@ -23,6 +22,8 @@ OpenAI has an open incident on its status page called "ChatGPT Work and Dots Err
 
 ![OpenAI status page showing the ChatGPT Work and Dots Errors incident: monitoring, degraded performance, two ChatGPT components and one Codex component affected, with the update timeline](/images/chatgpt-work-dots-incident/status-page.png)
 
+*Source: [OpenAI Status](https://status.openai.com/), screenshot of the incident page.*
+
 ## What happened
 
 The incident was first logged at 8:55 PM on Thursday 5 November 2026. OpenAI's updates, in order:
@@ -35,9 +36,9 @@ The status is "Monitoring" and the label is "Degraded performance". Two ChatGPT 
 
 ## What Work and Dots are
 
-**ChatGPT Work** launched in July 2026. It is an agent that does longer, multi-step jobs across your connected apps and files, such as email, Slack and calendars, and produces documents, spreadsheets and presentations. It can also run Scheduled Tasks, like refreshing a report every morning or watching a website for changes.
+**[ChatGPT Work](https://venturebeat.com/technology/openai-introduces-chatgpt-work-a-cloud-based-ai-agent-that-manages-tasks-across-email-slack-and-calendars)** launched in July 2026. It is an agent that does longer, multi-step jobs across your connected apps and files, such as email, Slack and calendars, and produces documents, spreadsheets and presentations. It can also run Scheduled Tasks, like refreshing a report every morning or watching a website for changes.
 
-**Dots** were announced on 29 September 2026. A dot is an always-on agent with its own cloud computer. It keeps working after you close the chat, and you can message it in ChatGPT, Slack or Teams.
+**[Dots](https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/)** were announced on 29 September 2026. A dot is an always-on agent with its own cloud computer. It keeps working after you close the chat, and you can message it in ChatGPT, Slack or Teams.
 
 The difference from normal chat matters. When chat fails, you see an error and try again. When these fail, the work can fail while you are not looking.
 

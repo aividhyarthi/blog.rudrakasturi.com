@@ -1,10 +1,16 @@
 ---
 title: "Google AI Mode now books home services for you: why ranking there is becoming a sales channel"
-date: 2026-11-06T08:50:00+05:30
+date: 2026-11-06T08:52:00+05:30
 description: "Google AI Mode now gives direct links to book home services in the US. It is no longer only a place to ask questions. Here is what it shows, what it means for local businesses, and how to prepare."
-draft: true
 tag: "AEO"
 tldr: "Google's Robby Stein announced that AI Mode now has direct links to research and book home services, through partners including Angi, Thumbtack, Housecall Pro and Jobber, with ServiceTitan coming soon. It is live in the US. AI Mode now picks a shortlist of local businesses and shows booking slots, so a business that is not in the answer may never get the call."
+sources:
+  - title: "Google AI Mode adds home services booking links"
+    url: "https://searchengineland.com/google-ai-mode-adds-home-services-booking-links-500603"
+    publisher: "Search Engine Land"
+  - title: "Google Adds Home Service Booking & Quote Links To AI Mode"
+    url: "https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871/"
+    publisher: "Search Engine Journal"
 categories: ["AEO", "AI Mode", "Google AI", "Local SEO"]
 tags: ["AI Mode", "Home services", "Local search", "Booking", "Conversion"]
 playbook: true
@@ -23,6 +29,8 @@ He described his own case. A main line at home backed up and water was coming up
 This is AI Mode answering the request "help me find a handyman to assemble a bed and dresser tomorrow".
 
 ![Google AI Mode answer for a handyman request, showing two local businesses with star ratings, review counts, open status, addresses, a short description and bookable time slots](/images/ai-mode-home-services-booking/ai-mode-handyman-booking.png)
+
+*Source: Google AI Mode result, our screenshot.*
 
 The answer says it found several local handyman services with online availability tomorrow, plus a few more that can give a quote, and it gives "direct links to book". Each business shows:
 

@@ -1,8 +1,7 @@
 ---
 title: "Google's AI Overview now shows what real viewers say about a movie, with Reddit quoted: what it means for movie reviews"
-date: 2026-11-06T09:05:00+05:30
+date: 2026-11-06T08:56:00+05:30
 description: "Search for a movie review on Google and the AI Overview now splits critics from viewers and quotes Reddit users. What it shows, why it matters more than star ratings, and what publishers and brands should do."
-draft: true
 tag: "AEO"
 tldr: "Searching 'ramayan review' on Google now brings an AI Overview with the positives, the criticisms and a 'Viewer Reactions' section that quotes a Reddit user and IGN, with links to Reddit, YouTube and The Times of India. Real viewers' words are now part of the answer, so a movie's reputation no longer rests only on the ratings sites show. Producers, publishers and viewers each have a part to play."
 categories: ["AEO", "AI Mode", "Google AI", "Reddit"]
@@ -17,6 +16,8 @@ Until now, a movie review search on Google meant star ratings from a few sites. 
 I searched "ramayan review" on Google. The AI Overview on the results page opens by saying Nitesh Tiwari's *Ramayana: Part 1* has had a "heavily divided but massive critical and audience response". Then it breaks the answer into sections.
 
 ![Google search for ramayan review showing an AI Overview with The Positives, The Criticisms and Viewer Reactions, including quotes from Reddit and IGN](/images/reddit-movie-reviews-ai-answers/ai-overview-ramayan-review.png)
+
+*Source: Google search for "ramayan review", our screenshot.*
 
 - **The Positives:** Yash as Ravana, the visual effects, the cast (Sai Pallavi, Rakul Preet Singh, Lara Dutta) and the music by Hans Zimmer and A.R. Rahman.
 - **The Criticisms:** the three-hour-fifteen-minute runtime and pacing, some reviewers finding Ranbir Kapoor's portrayal of Rama too sanitized or mechanical, and jumpy editing in the first half.

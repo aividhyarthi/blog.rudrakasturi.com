@@ -1,8 +1,7 @@
 ---
 title: "Google Business Profile can now show a dealership's car inventory: what it is and how it helps buyers and dealers"
-date: 2026-11-06T09:00:00+05:30
+date: 2026-11-06T08:54:00+05:30
 description: "Google is piloting a feature that shows a dealership's available car inventory on its Google Business Profile, so shoppers can search and sort the cars before they visit. How it works and how dealers join."
-draft: true
 tag: "Google"
 tldr: "Google is piloting car inventory on dealership Business Profiles: the cars a dealership has for sale appear on its Business Profile in Google, where shoppers can search, sort and learn about them before visiting. Dealers join through an interest form and manage it under Edit Profile, then Cars for Sale."
 sources:
@@ -16,6 +15,8 @@ tags: ["Google Business Profile", "Car dealers", "Local search", "Inventory"]
 When someone searches for a car dealership, they land on its Google Business Profile: the address, hours, phone number and reviews. Google is now testing a new section on that profile that shows the dealership's car inventory, the cars it has for sale right now.
 
 ![Google Business Profile Help page, section Car dealership inventory (limited availability), describing the pilot and where dealers manage it](/images/gbp-cars-for-sale-pilot/help-page-car-dealership-inventory.png)
+
+*Source: [Google Business Profile Help](https://support.google.com/business/answer/3039617?hl=en), Car dealership inventory (limited availability).*
 
 ## What Google says
 

@@ -1,8 +1,7 @@
 ---
 title: "Facebook Answers: 40 million visits a month from AI-generated pages. Is this scaled content abuse?"
-date: 2026-11-06T08:40:00+05:30
+date: 2026-11-06T08:50:00+05:30
 description: "Facebook has put millions of AI-written Answers pages into Google, and they now bring in about 40 million visits a month. What the pages are, what Google's scaled content abuse policy says, and what it means for your site."
-draft: true
 tag: "SEO"
 tldr: "Facebook Answers pages are AI summaries of a topic, built from Facebook posts and indexed on Google. Saul Westbrook of Peripheral reports Semrush estimates of about 40.6 million visits worldwide in October 2026, up from almost nothing in May. Google bans scaled content abuse, but these pages are still ranking. If you run a normal site, this is not a tactic to copy."
 sources:
@@ -14,13 +13,15 @@ tags: ["Scaled content abuse", "Facebook", "Spam policy", "AI-generated content"
 playbook: true
 ---
 
-Search expert Saul Westbrook of Peripheral found something odd on Google: millions of Facebook pages, written by AI, ranking for everyday searches. This is his research, and it is one of the clearest recent examples of what Google calls scaled content abuse.
+Search expert Saul Westbrook of [Peripheral](https://www.peripheralcreative.com/news/facebook-answers-ai-generated-pages) found something odd on Google: millions of Facebook pages, written by AI, ranking for everyday searches. This is his research, and it is one of the clearest recent examples of what Google calls scaled content abuse.
 
 ## What Facebook Answers is
 
 The pages sit under `facebook.com/fb-answers/`. Each one is a short AI summary of a topic, labelled "Summarized by Meta AI". Under the summary are the real Facebook posts it was built from, and a line such as "53 people talking about this".
 
 ![A Facebook Answers page titled Using American Express for Travel, with a Meta AI summary and Facebook posts underneath](/images/facebook-answers-scaled-content/fb-answers-example.png)
+
+*Source: [Peripheral](https://www.peripheralcreative.com/news/facebook-answers-ai-generated-pages), screenshot of a Facebook Answers page.*
 
 Westbrook noticed them in June 2026. They came soon after Meta launched its own AI Mode, and he believes they are saved versions of what that AI Mode produces, set up to rank in search. Each page ends with a "More like this" list and a "Good result / Bad result" button. His guess is that Facebook is using them to collect feedback on its AI answers.
 
@@ -47,6 +48,8 @@ In October, about 21.1 million of those visits came from the US and 2.9 million 
 
 ![Semrush chart of monthly worldwide organic traffic to facebook.com/fb-answers since June, rising to about 40 million](/images/facebook-answers-scaled-content/traffic-chart.png)
 
+*Source: [Peripheral](https://www.peripheralcreative.com/news/facebook-answers-ai-generated-pages), Semrush chart of monthly worldwide organic traffic to facebook.com/fb-answers/.*
+
 Some pages rank high for big searches. Westbrook lists "LAS Airport location" at position 1 (about 17,800 visits), an Amex travel search at position 2 (about 23,900) and "Labcorp" at position 6 (about 16,400).
 
 ## Where it looks like abuse
@@ -56,6 +59,8 @@ Google defines scaled content abuse as many pages generated for the primary purp
 Westbrook points out how closely Facebook Answers fits. It created a huge number of pages in a short time, and many are very similar. He found over 180 English pages on padel tennis alone, with near-identical titles.
 
 ![Five Google results from facebook.com/fb-answers, all about padel tennis, with near-identical titles](/images/facebook-answers-scaled-content/padel-pages.png)
+
+*Source: [Peripheral](https://www.peripheralcreative.com/news/facebook-answers-ai-generated-pages), a selection of Facebook Answers page titles on padel tennis in Google results.*
 
 There is also a quality problem. He found pages on cryptocurrency, medical advice and gambling built from individual people's posts, not from experts. One weather page told him London's temperature the next day would be 34 to 35 degrees, in November.
 
