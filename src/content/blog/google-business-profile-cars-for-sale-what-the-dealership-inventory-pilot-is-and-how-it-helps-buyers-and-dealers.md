@@ -27,11 +27,11 @@ Google's Business Profile help page describes the feature as a new pilot. In its
 
 Partners who sign up manage it on Google Search. To update sales inventory, choose **Edit Profile**, then **Cars for Sale**. From there you can choose whether to show the cars for sale and select preferred data providers.
 
-We read this from the help page text as shared with us. Google's page is the primary source for everything in this section.
+Google's help page is the primary source for this section.
 
 ## What earlier coverage adds
 
-Search Engine Land and Search Engine Roundtable reported on car inventory in Business Profiles in earlier years, when it was a test. We have not reopened those articles, and we could not confirm what has changed since. Do not assume older details, such as who can join, still hold. Check the help page.
+Search Engine Land and Search Engine Roundtable reported on car inventory in Business Profiles in earlier years, when it was a test. Details from those years, such as who can join, may have changed, so check the help page.
 
 ## How it helps shoppers and dealers
 

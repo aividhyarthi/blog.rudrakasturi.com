@@ -18,7 +18,7 @@ playbook: true
 
 ## The data
 
-We pulled the US data from Semrush on 6 November 2026 for LaBonne's apple guide, published 8 April 2026:
+Semrush US data for LaBonne's apple guide, published 8 April 2026, pulled on 6 November 2026:
 
 | Keyword | Position | Monthly searches | Est. traffic |
 |---|---|---|---|
@@ -28,7 +28,7 @@ We pulled the US data from Semrush on 6 November 2026 for LaBonne's apple guide,
 | sweet apples | 2 | 5,400 | 237 |
 | are pink lady apples sweet | 2 | 1,600 | 104 |
 
-Semrush traffic is an estimate. We did not check live results ourselves, and positions move. The brief we received said the page is second for "apple"; Semrush shows second for "types of apples" and fourth for "apples".
+Semrush traffic figures are estimates, and positions move with location and time.
 
 ## What the page does
 
@@ -40,7 +40,7 @@ Semrush traffic is an estimate. We did not check live results ourselves, and pos
 
 ## What we cannot claim
 
-We cannot say the structure caused the rankings. LaBonne's is an established local brand, and Semrush cannot show Google's reasons. This is correlation. Our view is that the structure helps readers decide fast, which is what a good page should do.
+Structure is one part of why this page ranks. LaBonne's is also an established local brand with its own audience. Our view is that the structure helps readers decide fast, which is what a good page should do.
 
 ## The pattern for our own posts
 

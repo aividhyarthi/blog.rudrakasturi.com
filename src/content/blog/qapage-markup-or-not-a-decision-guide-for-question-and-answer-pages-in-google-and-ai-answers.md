@@ -17,7 +17,7 @@ tags: ["QAPage", "Structured data", "Forums", "Community", "Schema"]
 
 ## What Google says
 
-We read Google's QAPage documentation on 6 November 2026. QAPage markup can make a page eligible for a Q&A rich result and may help Google produce a better snippet. Google's rules include:
+From Google's QAPage documentation, checked 6 November 2026: QAPage markup can make a page eligible for a Q&A rich result and may help Google produce a better snippet. Google's rules include:
 
 - Use it only when the focus of the page is a single question and its answers.
 - One QAPage per page.

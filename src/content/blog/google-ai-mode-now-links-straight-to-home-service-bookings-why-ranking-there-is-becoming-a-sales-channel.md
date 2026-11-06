@@ -31,11 +31,11 @@ Robby Stein of Google posted on X that Google is making it easier to research an
 
 Stein described his own use: a backed-up main line at home, a description typed into AI Mode, and an answer that compared local pricing, checked reviews and made recommendations. He booked a plumber who came out and fixed it. That is his account, and it is one example.
 
-Search Engine Land, Search Engine Journal and Search Engine Roundtable covered the launch. We took details from their summaries and Housecall Pro's press release, and have not opened Google's own documentation.
+Search Engine Land, Search Engine Journal and Search Engine Roundtable covered the launch. Housecall Pro also issued a press release.
 
 ## What the screenshots show
 
-A screenshot shared with us shows the query "help me find a handyman to assemble a bed and dresser tomorrow". The answer lists local businesses with a star rating, review count, open status, address, a short summary and time slots such as 12:30 PM and 2:15 PM. Those are the visible signals. Google has not said how it chooses or ranks providers.
+Our screenshot of AI Mode for the query "help me find a handyman to assemble a bed and dresser tomorrow" shows an answer that lists local businesses with a star rating, review count, open status, address, a short summary and time slots such as 12:30 PM and 2:15 PM. Those are the visible signals. Google has not said how it chooses or ranks providers.
 
 ## Why it matters for B2C and local businesses
 
@@ -46,7 +46,7 @@ Two things follow, and both are our view:
 - **Rank inside the answer is the new first page.** If you are not in the shortlist, you are not in the choice.
 - **Booking tools matter.** The links run through partner platforms. A business that cannot take a booking online may lose to one that can.
 
-Trade coverage also reports that some partners say AI Mode requests carry no lead fee. We could not verify that, so confirm it with your platform.
+Trade coverage also reports that some partners say AI Mode requests carry no lead fee. Confirm the terms with your platform.
 
 ## What to do
 

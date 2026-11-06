@@ -5,6 +5,9 @@ description: "Facebook's AI-generated Answers pages rank widely on Google. What 
 tag: "SEO"
 tldr: "Saul Westbrook of Peripheral reports millions of AI-generated pages under facebook.com/fb-answers/, with Semrush estimating about 40.6 million worldwide visits in October 2026. Google defines scaled content abuse as many pages made mainly to manipulate rankings. Facebook has not commented and Google has not ruled on these pages. Do not copy the tactic."
 sources:
+  - title: "Facebook made one quiet change, and increased organic traffic by over 40 million visits a month"
+    url: "https://www.peripheralcreative.com/news/facebook-answers-ai-generated-pages"
+    publisher: "Peripheral"
   - title: "Facebook Answers AI-Generated Pages Scaled Content Abuse In Google Search"
     url: "https://www.seroundtable.com/facebook-answers-google-42467.html"
     publisher: "Search Engine Roundtable"
@@ -21,7 +24,7 @@ playbook: true
 
 ## What was found
 
-Saul Westbrook of Peripheral reported that from around summer 2026 Meta had indexed millions of AI-generated pages under facebook.com/fb-answers/. Each is an AI summary of a topic, built from Facebook posts. Search Engine Roundtable also covered it. Its coverage cites over 6 million indexed pages, while Westbrook's article, using Semrush estimates, counts over 39 million pages ranking for at least one US keyword. The two figures measure different things, and both are estimates.
+Saul Westbrook of [Peripheral](https://www.peripheralcreative.com/news/facebook-answers-ai-generated-pages) reported that from around summer 2026 Meta had indexed millions of AI-generated pages under facebook.com/fb-answers/. Each is an AI summary of a topic, built from Facebook posts. Search Engine Roundtable also covered it. Its coverage cites over 6 million indexed pages, while Westbrook's article, using Semrush estimates, counts over 39 million pages ranking for at least one US keyword. The two figures measure different things, and both are estimates.
 
 Westbrook's numbers, all Semrush estimates:
 

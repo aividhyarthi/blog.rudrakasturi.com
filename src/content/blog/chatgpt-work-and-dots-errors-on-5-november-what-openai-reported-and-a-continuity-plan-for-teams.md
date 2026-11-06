@@ -29,12 +29,10 @@ This is from OpenAI's incident page, captured about nine hours after the last up
 
 The incident was labelled "Degraded performance". Affected components: two under ChatGPT and one under Codex. The page we saw does not name them beyond the incident title.
 
-## What is not known
+## What OpenAI has not said
 
 - Which users or regions were hit hardest.
 - The cause. OpenAI gave none.
-
-Third-party trackers listed similar Work and Dots incidents in October, including 6, 14, 22 and 30 October. We took that from search summaries and did not verify the dates.
 
 ## Why it matters now
 

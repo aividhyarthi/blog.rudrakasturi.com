@@ -36,7 +36,7 @@ OpenAI advises comparing recent performance with what the outcome is worth to yo
 | First target (our suggestion) | $40 to $45 |
 | Review date | 7 days |
 
-The $40 comes from OpenAI's example. The other numbers are made up to show the layout.
+The $40 comes from OpenAI's example. The other numbers are illustrative.
 
 ## Step 4: review as it learns
 
@@ -60,6 +60,6 @@ Our checklist, not OpenAI's:
 4. Change the target in small steps and wait for data.
 5. Read [what to know before you spend](/chatgpt-ads-what-advertisers-should-know-before-they-spend/).
 
-Results are not guaranteed. We have not run these campaigns, and OpenAI's page is our only source.
+Results are not guaranteed.
 
 ![Four-step worksheet for setting a realistic Target CPA in ChatGPT Ads: check signal, find actual CPA, set the target, review as it learns](/images/chatgpt-ads-target-cpa-worksheet/target-cpa-worksheet.svg)

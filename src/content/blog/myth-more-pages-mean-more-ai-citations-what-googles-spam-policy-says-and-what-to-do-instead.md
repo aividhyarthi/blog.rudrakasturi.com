@@ -21,7 +21,7 @@ playbook: true
 
 ## What Google's policy says
 
-We read Google's spam policies page on 6 November 2026.
+From Google's spam policies page, checked 6 November 2026:
 
 - **Scaled content abuse** is when many pages are generated for the primary purpose of manipulating search rankings. Google's examples include using generative AI to produce many pages that add nothing for users, and stitching together content from other pages without adding value.
 - **Doorway abuse** is when sites or pages are created to rank for specific, similar queries. Examples include multiple pages targeting different cities that funnel people to one page, and substantially similar pages.

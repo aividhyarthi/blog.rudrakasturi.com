@@ -17,7 +17,7 @@ tags: ["ChatGPT Ads", "Target CPA", "Target CPC", "Bidding", "Advertising"]
 
 ## What changes and when
 
-This comes from OpenAI's help article, "Bidding strategies and how pricing works in ChatGPT Ads", which we read in full, and an advertiser email.
+This comes from OpenAI's help article, "Bidding strategies and how pricing works in ChatGPT Ads", and OpenAI's email to advertisers.
 
 | Date | What happens |
 |---|---|
