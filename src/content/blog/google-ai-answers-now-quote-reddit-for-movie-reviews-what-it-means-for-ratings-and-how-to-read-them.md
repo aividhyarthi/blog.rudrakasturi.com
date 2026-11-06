@@ -4,7 +4,7 @@ date: 2026-11-06T09:05:00+05:30
 description: "Search for a movie review on Google and the AI Overview now splits critics from viewers and quotes Reddit users. What it shows, why it matters more than star ratings, and what publishers and brands should do."
 draft: true
 tag: "AEO"
-tldr: "Searching 'ramayan review' on Google now brings an AI Overview with the positives, the criticisms and a 'Viewer Reactions' section that quotes a Reddit user and IGN, with links to Reddit, YouTube and The Times of India. Real viewers' words are now part of the answer, so a movie's reputation no longer rests only on the ratings sites show."
+tldr: "Searching 'ramayan review' on Google now brings an AI Overview with the positives, the criticisms and a 'Viewer Reactions' section that quotes a Reddit user and IGN, with links to Reddit, YouTube and The Times of India. Real viewers' words are now part of the answer, so a movie's reputation no longer rests only on the ratings sites show. Producers, publishers and viewers each have a part to play."
 categories: ["AEO", "AI Mode", "Google AI", "Reddit"]
 tags: ["Reddit", "Movie reviews", "AI Overviews", "User-generated content"]
 playbook: true
@@ -29,18 +29,26 @@ A star rating tells you how many people liked a film. It does not tell you why. 
 
 For someone deciding whether to spend three hours and the price of a ticket, that is more useful than a number. It also means real viewers, the people talking on Reddit, now shape how a film is summarized, next to the critics.
 
-## What it means beyond movies
+## If you are a movie producer or run the digital team
 
-This is not just about film. In my view, the same thing will happen to anything people discuss in public: products, apps, restaurants, courses, brands. What people say in forum threads is now being pulled into the answer. If you only watch your star rating, you are missing the part that readers actually see.
+Now you know where to focus. The answer is built from three places: critics, viewers talking on Reddit, and video reviews on YouTube. Your trailer and press kit are only part of it.
 
-## One thing to keep in mind
+- Read the Reddit threads and YouTube reviews from opening day. They decide what the answer says about your film.
+- Take the complaints seriously. If viewers keep saying the first half is slow, that line will keep appearing in the answer.
+- Do not seed threads or buy reviews. Real conversation is what gets picked up, and fake conversation is easy to spot.
 
-A quote from a thread is one person's opinion. The AI picks the quotes, and a short summary can make a split opinion sound neater than it is. Open the thread behind the quote before you decide.
+## If you are a publisher or a review site
 
-## What to do
+Do not give 5 stars when internet users are saying the film is bad. Readers can now see both in the same answer. If your rating does not match what viewers say, you lose their trust, and next time they will not believe your stars at all.
 
-1. **As a viewer,** open the Reddit thread and the critic link behind each quote, and look at the date.
-2. **As a review site or publisher,** star ratings alone will not stand out. Add what a thread cannot: a clear verdict, who the film is for, what you noticed that others did not. See [first-hand evidence](/first-hand-evidence-eight-kinds-you-can-add-to-any-page-and-what-never-to-fake/).
-3. **As a brand,** read the Reddit threads about you. They feed the answers people see. Our guide on [how Reddit became a top source for AI](/how-reddit-quietly-became-the-1-domain-for-ai-and-why-it-changes-everything/) explains why.
-4. **Check your own searches.** Search your brand name plus "review" and see what the AI Overview says. Take a screenshot every month.
-5. **Do not fake it.** Seeding threads or posting fake reviews puts your reputation at risk.
+Give a rating you can defend and say why. Add what a thread cannot: a clear verdict, who the film is for, what you noticed that others missed. See [first-hand evidence](/first-hand-evidence-eight-kinds-you-can-add-to-any-page-and-what-never-to-fake/).
+
+## If you are a viewer
+
+Check both sides: the critics and the viewer threads. Open the thread behind a quote and look at the date, because a quote is one person's opinion and the AI chooses which ones to show. Then take your own call.
+
+## This is where AI search is going
+
+The answer is built from many voices: critics, viewers and video. For it to work, everyone has to do their part. Producers have to listen, publishers have to be honest, and viewers have to look at both sides. If one channel is missing or faked, the whole answer goes wrong.
+
+This is not only about movies. In my view, the same will happen to products, apps, restaurants and courses: whatever people say in public threads becomes part of the answer. Our guide on [how Reddit became a top source for AI](/how-reddit-quietly-became-the-1-domain-for-ai-and-why-it-changes-everything/) explains why that matters for brands.
