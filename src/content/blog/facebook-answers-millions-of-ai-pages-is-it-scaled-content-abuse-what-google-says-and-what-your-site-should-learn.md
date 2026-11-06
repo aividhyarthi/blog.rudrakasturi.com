@@ -1,62 +1,77 @@
 ---
-title: "Facebook Answers: millions of AI-generated pages. Is it scaled content abuse, and what should your site learn?"
+title: "Facebook Answers: 40 million visits a month from AI-generated pages. Is this scaled content abuse?"
 date: 2026-11-06T08:40:00+05:30
-description: "Facebook's AI-generated Answers pages rank widely on Google. What Google's scaled content abuse policy says, what the data shows, why Facebook may escape a penalty, and what that means for your own site."
+description: "Facebook has put millions of AI-written Answers pages into Google, and they now bring in about 40 million visits a month. What the pages are, what Google's scaled content abuse policy says, and what it means for your site."
 draft: true
 tag: "SEO"
-tldr: "Saul Westbrook of Peripheral reports millions of AI-generated pages under facebook.com/fb-answers/, with Semrush estimating about 40.6 million worldwide visits in October 2026. Google defines scaled content abuse as many pages made mainly to manipulate rankings. Facebook has not commented and Google has not ruled on these pages. Do not copy the tactic."
+tldr: "Facebook Answers pages are AI summaries of a topic, built from Facebook posts and indexed on Google. Saul Westbrook of Peripheral reports Semrush estimates of about 40.6 million visits worldwide in October 2026, up from almost nothing in May. Google bans scaled content abuse, but these pages are still ranking. If you run a normal site, this is not a tactic to copy."
 sources:
   - title: "Facebook made one quiet change, and increased organic traffic by over 40 million visits a month"
     url: "https://www.peripheralcreative.com/news/facebook-answers-ai-generated-pages"
     publisher: "Peripheral"
-  - title: "Facebook Answers AI-Generated Pages Scaled Content Abuse In Google Search"
-    url: "https://www.seroundtable.com/facebook-answers-google-42467.html"
-    publisher: "Search Engine Roundtable"
-  - title: "Spam policies for Google web search"
-    url: "https://developers.google.com/search/docs/essentials/spam-policies"
-    publisher: "Google Search Central"
 categories: ["SEO", "Google Updates", "AI Search"]
 tags: ["Scaled content abuse", "Facebook", "Spam policy", "AI-generated content", "Case study"]
 playbook: true
 ---
 
-**Quick answer:** Facebook has put millions of AI-summarised "Answers" pages into Google, and many rank. Whether that breaks Google's scaled content abuse policy is undecided. Smaller sites should not assume the same pages would survive for them.
-**Best for:** SEOs, publishers and anyone tempted to generate pages in bulk.
+Search expert Saul Westbrook of Peripheral found something odd on Google: millions of Facebook pages, written by AI, ranking for everyday searches. This is his research, and it is one of the clearest recent examples of what Google calls scaled content abuse.
 
-## What was found
+## What Facebook Answers is
 
-Saul Westbrook of [Peripheral](https://www.peripheralcreative.com/news/facebook-answers-ai-generated-pages) reported that from around summer 2026 Meta had indexed millions of AI-generated pages under facebook.com/fb-answers/. Each is an AI summary of a topic, built from Facebook posts. Search Engine Roundtable also covered it. Its coverage cites over 6 million indexed pages, while Westbrook's article, using Semrush estimates, counts over 39 million pages ranking for at least one US keyword. The two figures measure different things, and both are estimates.
+The pages sit under `facebook.com/fb-answers/`. Each one is a short AI summary of a topic, labelled "Summarized by Meta AI". Under the summary are the real Facebook posts it was built from, and a line such as "53 people talking about this".
 
-Westbrook's numbers, all Semrush estimates:
+![A Facebook Answers page titled Using American Express for Travel, with a Meta AI summary and Facebook posts underneath](/images/facebook-answers-scaled-content/fb-answers-example.png)
 
-- Worldwide organic visits to the section: about 129,500 in May, 1.03 million in July, 12.2 million in August, 36.4 million in September and 40.6 million in October 2026.
-- Example US rankings include position 1 for "LAS Airport location" and position 2 for an Amex travel query.
-- He found over 180 near-overlapping English pages on padel tennis.
-- Facebook has not commented, and LLM crawlers appear to be blocked from the pages, though Google's AI Overviews cite them.
+Westbrook noticed them in June 2026. They came soon after Meta launched its own AI Mode, and he believes they are saved versions of what that AI Mode produces, set up to rank in search. Each page ends with a "More like this" list and a "Good result / Bad result" button. His guess is that Facebook is using them to collect feedback on its AI answers.
 
-## What Google's policy says
+## The numbers
 
-Google's spam policies define scaled content abuse as many pages generated for the primary purpose of manipulating search rankings. Its examples include using generative AI to produce many pages that add nothing for users. Doorway abuse covers substantially similar pages created to rank for similar queries. User-generated content is not itself a violation under the site reputation policy.
+All of these are Semrush estimates, as reported by Westbrook.
 
-## Why Facebook may not be penalised, and why you might be
+- Over **39 million** of these pages rank on Google for at least one keyword in the US.
+- Since going live, they have brought in over **100 million** visits worldwide.
+- Between July and August, the number of keywords with a Facebook Answers page ranking jumped from 4 million to 53 million worldwide.
 
-Our view, not Google's: the pages draw on real first-party posts, and Facebook has strong authority. Westbrook notes they survived the September spam update. A new or small site generating similar pages has neither advantage. See our [September update review](/google-september-2026-spam-update-what-happened-and-what-to-do/).
+Estimated monthly visits from Google, worldwide:
 
-## The test to run on your own site
-
-| Question | Safer answer |
+| Month (2026) | Visits |
 |---|---|
-| Does each page answer a distinct question? | Yes, and you can name it |
-| Is there first-hand data or experience? | Yes, and it is shown |
-| Would a person find page 2 useful after page 1? | Yes |
-| Are many pages near copies with swapped words? | No |
+| May | 129,514 |
+| June | 114,728 |
+| July | 1,032,527 |
+| August | 12,167,857 |
+| September | 36,388,769 |
+| October | 40,590,906 |
+
+In October, about 21.1 million of those visits came from the US and 2.9 million from the UK.
+
+![Semrush chart of monthly worldwide organic traffic to facebook.com/fb-answers since June, rising to about 40 million](/images/facebook-answers-scaled-content/traffic-chart.png)
+
+Some pages rank high for big searches. Westbrook lists "LAS Airport location" at position 1 (about 17,800 visits), an Amex travel search at position 2 (about 23,900) and "Labcorp" at position 6 (about 16,400).
+
+## Where it looks like abuse
+
+Google defines scaled content abuse as many pages generated for the primary purpose of manipulating search rankings. It defines doorway abuse as pages created to rank for specific, similar searches.
+
+Westbrook points out how closely Facebook Answers fits. It created a huge number of pages in a short time, and many are very similar. He found over 180 English pages on padel tennis alone, with near-identical titles.
+
+![Five Google results from facebook.com/fb-answers, all about padel tennis, with near-identical titles](/images/facebook-answers-scaled-content/padel-pages.png)
+
+There is also a quality problem. He found pages on cryptocurrency, medical advice and gambling built from individual people's posts, not from experts. One weather page told him London's temperature the next day would be 34 to 35 degrees, in November.
+
+## Why Facebook may get away with it
+
+Westbrook thinks Google may treat the pages as genuine value, because all the content comes from Facebook's own users. The pages also survived Google's September spam update. He notes this is a possible reading, and Google has not commented. Facebook has not spoken publicly about the pages either.
+
+## What it means for your site
+
+Facebook has huge authority and its own supply of real posts. A normal site that generates thousands of similar AI pages has neither. If Google judges your pages to be scaled content abuse, the penalty can hit more than those pages.
+
+So I would not treat this as a tactic. Westbrook's own advice is not to build a strategy on these pages, because they are new and may not keep ranking.
 
 ## What to do
 
-1. Do not copy Facebook's approach. Rankings today say nothing about penalties tomorrow.
-2. Search your own site for near-duplicate pages and merge them.
-3. Check what Facebook Answers says about your brand with site:facebook.com/fb-answers "your brand", as Westbrook suggests.
-4. Read [our plain-English spam policy audit](/google-spam-policies-in-plain-english-a-self-audit-for-your-site-in-four-groups/).
-5. Re-check in a month. Westbrook warns the pages are new and may not keep ranking.
-
-![Four questions Google applies to scaled content, shown against Facebook Answers: many pages, purpose, added value and no ruling yet](/images/facebook-answers-scaled-content/scale-test.svg)
+1. **Do not mass-produce pages.** One strong page beats 50 near-copies.
+2. **Post on Facebook as a brand.** Westbrook says these pages draw on real posts, so a strong Facebook presence could get your brand into them.
+3. **Check what they say about you.** Search `site:facebook.com/fb-answers "your brand"` on Google to find pages that mention you.
+4. **Watch for changes.** If Google acts on these pages, it will show how it enforces the policy.
