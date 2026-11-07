@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Which AEO job is yours: a blog needs original content, a shop needs accurate product feeds, a local business needs an up-to-date Business Profile, an app needs one clear page per app, and a software company needs a page that answers buyer questions">
+<rect width="800" height="900" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="66" font-size="36" font-weight="800" fill="#0b1030">Which AEO job is yours?</text>
+<text x="40" y="102" font-size="22" fill="#4a5280">Find your site type. Do that job first.</text>
+
+<rect x="40" y="130" width="720" height="136" rx="18" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<rect x="40" y="130" width="230" height="136" rx="18" fill="#2340f5"/>
+<text x="64" y="206" font-size="26" font-weight="800" fill="#fff">Blog or</text><text x="64" y="238" font-size="26" font-weight="800" fill="#fff">publisher</text>
+<text x="294" y="176" font-size="20" fill="#4a5280">Pulls from</text><text x="294" y="204" font-size="22" font-weight="700" fill="#0b1030">Your indexed, crawlable pages</text>
+<text x="294" y="236" font-size="20" fill="#4a5280">First job: <tspan font-weight="700" fill="#2340f5">original, first-hand content</tspan></text>
+<text x="640" y="152" font-size="15" font-weight="700" fill="#0b8f6a" text-anchor="middle">GOOGLE GUIDE</text>
+
+<rect x="40" y="286" width="720" height="136" rx="18" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<rect x="40" y="286" width="230" height="136" rx="18" fill="#7a3cff"/>
+<text x="64" y="362" font-size="26" font-weight="800" fill="#fff">Online shop</text>
+<text x="294" y="332" font-size="20" fill="#4a5280">Pulls from</text><text x="294" y="360" font-size="22" font-weight="700" fill="#0b1030">Product pages and product feeds</text>
+<text x="294" y="392" font-size="20" fill="#4a5280">First job: <tspan font-weight="700" fill="#7a3cff">keep Merchant Center feeds current</tspan></text>
+<text x="640" y="308" font-size="15" font-weight="700" fill="#0b8f6a" text-anchor="middle">GOOGLE GUIDE</text>
+
+<rect x="40" y="442" width="720" height="136" rx="18" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<rect x="40" y="442" width="230" height="136" rx="18" fill="#ff5a1f"/>
+<text x="64" y="518" font-size="26" font-weight="800" fill="#fff">Local</text><text x="64" y="550" font-size="26" font-weight="800" fill="#fff">business</text>
+<text x="294" y="488" font-size="20" fill="#4a5280">Pulls from</text><text x="294" y="516" font-size="22" font-weight="700" fill="#0b1030">Business Profile and your website</text>
+<text x="294" y="548" font-size="20" fill="#4a5280">First job: <tspan font-weight="700" fill="#ff5a1f">keep the Business Profile accurate</tspan></text>
+<text x="640" y="464" font-size="15" font-weight="700" fill="#0b8f6a" text-anchor="middle">GOOGLE GUIDE</text>
+
+<rect x="40" y="598" width="720" height="136" rx="18" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<rect x="40" y="598" width="230" height="136" rx="18" fill="#0b8f6a"/>
+<text x="64" y="674" font-size="26" font-weight="800" fill="#fff">App</text>
+<text x="294" y="644" font-size="20" fill="#4a5280">Pulls from</text><text x="294" y="672" font-size="22" font-weight="700" fill="#0b1030">Store listing and your website</text>
+<text x="294" y="704" font-size="20" fill="#4a5280">First job: <tspan font-weight="700" fill="#0b8f6a">one clear page per app</tspan></text>
+<text x="640" y="620" font-size="15" font-weight="700" fill="#b45309" text-anchor="middle">OUR VIEW</text>
+
+<rect x="40" y="754" width="720" height="136" rx="18" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<rect x="40" y="754" width="230" height="136" rx="18" fill="#0b1030"/>
+<text x="64" y="830" font-size="26" font-weight="800" fill="#fff">Software or</text><text x="64" y="862" font-size="26" font-weight="800" fill="#fff">service firm</text>
+<text x="294" y="800" font-size="20" fill="#4a5280">Pulls from</text><text x="294" y="828" font-size="22" font-weight="700" fill="#0b1030">Product, pricing and FAQ pages</text>
+<text x="294" y="860" font-size="20" fill="#4a5280">First job: <tspan font-weight="700" fill="#0b1030">answer buyer questions plainly</tspan></text>
+<text x="640" y="776" font-size="15" font-weight="700" fill="#b45309" text-anchor="middle">OUR VIEW</text>
+</g></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" role="img" aria-label="Commodity content versus non-commodity content, with Google's homebuyer example and an AEO example of our own">
+<rect width="800" height="780" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="66" font-size="36" font-weight="800" fill="#0b1030">Same topic, two kinds of page</text>
+<text x="40" y="102" font-size="22" fill="#4a5280">Google says non-commodity content matters most</text>
+
+<text x="40" y="146" font-size="18" font-weight="700" fill="#4a5280">GOOGLE'S EXAMPLE</text>
+<rect x="40" y="160" width="350" height="230" rx="18" fill="#e4e7f5"/>
+<text x="64" y="196" font-size="17" font-weight="800" fill="#6a7090">COMMODITY</text>
+<text x="64" y="236" font-size="23" font-weight="800" fill="#0b1030">"7 Tips for First-Time</text><text x="64" y="264" font-size="23" font-weight="800" fill="#0b1030">Homebuyers"</text>
+<text x="64" y="308" font-size="19" fill="#4a5280">Common knowledge</text><text x="64" y="336" font-size="19" fill="#4a5280">Could come from anyone</text><text x="64" y="364" font-size="19" fill="#4a5280">Adds little new</text>
+<rect x="410" y="160" width="350" height="230" rx="18" fill="#0b8f6a"/>
+<text x="434" y="196" font-size="17" font-weight="800" fill="#c8f5e4">NON-COMMODITY</text>
+<text x="434" y="232" font-size="21" font-weight="800" fill="#fff">"Why We Waived the Inspection</text><text x="434" y="258" font-size="21" font-weight="800" fill="#fff">&amp; Saved Money: A Look Inside</text><text x="434" y="284" font-size="21" font-weight="800" fill="#fff">the Sewer Line"</text>
+<text x="434" y="316" font-size="19" fill="#e8fff6">First-hand experience</text><text x="434" y="342" font-size="19" fill="#e8fff6">Specific, checkable detail</text><text x="434" y="368" font-size="19" fill="#e8fff6">Hard for anyone to copy</text>
+
+<text x="40" y="440" font-size="18" font-weight="700" fill="#4a5280">THE SAME IDEA FOR AEO (OUR EXAMPLE)</text>
+<rect x="40" y="454" width="350" height="230" rx="18" fill="#e4e7f5"/>
+<text x="64" y="490" font-size="17" font-weight="800" fill="#6a7090">COMMODITY</text>
+<text x="64" y="530" font-size="23" font-weight="800" fill="#0b1030">"5 Tips to Show Up in</text><text x="64" y="558" font-size="23" font-weight="800" fill="#0b1030">AI Answers"</text>
+<text x="64" y="602" font-size="19" fill="#4a5280">Every agency says this</text><text x="64" y="630" font-size="19" fill="#4a5280">No test, no data</text><text x="64" y="658" font-size="19" fill="#4a5280">Nothing to cite</text>
+<rect x="410" y="454" width="350" height="230" rx="18" fill="#2340f5"/>
+<text x="434" y="490" font-size="17" font-weight="800" fill="#cfd6ff">NON-COMMODITY</text>
+<text x="434" y="526" font-size="21" font-weight="800" fill="#fff">"We Asked 3 AI Tools 10</text><text x="434" y="552" font-size="21" font-weight="800" fill="#fff">Questions About Our Own Site.</text><text x="434" y="578" font-size="21" font-weight="800" fill="#fff">Here Is Who Cited Us"</text>
+<text x="434" y="610" font-size="19" fill="#e3e8ff">Our own test</text><text x="434" y="636" font-size="19" fill="#e3e8ff">Real results, dated</text><text x="434" y="662" font-size="19" fill="#e3e8ff">Only we can publish it</text>
+
+<text x="40" y="730" font-size="17" fill="#4a5280">Source for the first pair: Google Search Central, generative AI guide.</text>
+<text x="40" y="756" font-size="17" fill="#4a5280">The second pair is our own illustration, not a Google example.</text>
+</g></svg>
