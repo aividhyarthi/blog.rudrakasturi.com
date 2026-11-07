@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1250" role="img" aria-label="The evolution of search in three stages: SEO helps people find you in search results, AEO makes your content the answer to a specific question, and GEO makes your brand a trusted source in AI recommendations">
+<rect width="800" height="1250" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="66" font-size="36" font-weight="800" fill="#0b1030">The evolution of search</text>
+<text x="40" y="102" font-size="22" fill="#4a5280">SEO, then AEO, then GEO</text>
+
+<rect x="40" y="130" width="720" height="330" rx="20" fill="#fff" stroke="#2340f5" stroke-width="3"/>
+<text x="64" y="170" font-size="15" font-weight="800" fill="#2340f5">STAGE 1</text>
+<text x="736" y="178" font-size="32" font-weight="800" fill="#2340f5" text-anchor="end">SEO</text>
+<text x="64" y="214" font-size="30" font-weight="800" fill="#0b1030">Get found</text>
+<text x="64" y="244" font-size="20" fill="#4a5280">The person searches on Google.</text>
+<rect x="64" y="262" width="672" height="152" rx="12" fill="#f1f4ff"/>
+<rect x="80" y="274" width="640" height="34" rx="17" fill="#fff" stroke="#c9d1ff" stroke-width="2"/>
+<text x="100" y="297" font-size="18" fill="#0b1030">best moisturiser for dry skin</text>
+<text x="84" y="334" font-size="17" font-weight="800" fill="#2340f5">Beauty store: Best moisturisers</text><rect x="84" y="341" width="360" height="6" rx="3" fill="#c9d1ff"/>
+<text x="84" y="364" font-size="17" font-weight="800" fill="#2340f5">Marketplace: Moisturisers</text><rect x="84" y="371" width="320" height="6" rx="3" fill="#c9d1ff"/>
+<text x="84" y="394" font-size="17" font-weight="800" fill="#2340f5">Health site: Dry skin guide</text><rect x="84" y="401" width="340" height="6" rx="3" fill="#c9d1ff"/>
+<text x="64" y="444" font-size="20" font-weight="800" fill="#2340f5">Goal: rank higher and get clicks</text>
+
+<path d="M400 466 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 484 l20 22 l20 -22z" fill="#7a3cff"/>
+<text x="428" y="494" font-size="18" fill="#4a5280">Search engines start answering questions</text>
+
+<rect x="40" y="520" width="720" height="310" rx="20" fill="#fff" stroke="#7a3cff" stroke-width="3"/>
+<text x="64" y="560" font-size="15" font-weight="800" fill="#7a3cff">STAGE 2</text>
+<text x="736" y="568" font-size="32" font-weight="800" fill="#7a3cff" text-anchor="end">AEO</text>
+<text x="64" y="604" font-size="30" font-weight="800" fill="#0b1030">Become the answer</text>
+<text x="64" y="634" font-size="20" fill="#4a5280">The person asks a specific question.</text>
+<rect x="64" y="652" width="672" height="122" rx="12" fill="#f5efff"/>
+<text x="84" y="684" font-size="18" font-weight="800" fill="#0b1030">Question: Which ingredients help dry skin?</text>
+<text x="84" y="714" font-size="18" fill="#0b1030">Answer: Ceramides, hyaluronic acid, glycerin and</text>
+<text x="84" y="738" font-size="18" fill="#0b1030">shea butter can help moisturise dry skin.</text>
+<text x="84" y="764" font-size="16" font-weight="800" fill="#7a3cff">Source: your website content</text>
+<text x="64" y="810" font-size="20" font-weight="800" fill="#7a3cff">Goal: get your content selected as the answer</text>
+
+<path d="M400 836 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 854 l20 22 l20 -22z" fill="#ff5a1f"/>
+<text x="428" y="864" font-size="18" fill="#4a5280">Generative AI combines information</text>
+
+<rect x="40" y="890" width="720" height="330" rx="20" fill="#fff" stroke="#ff5a1f" stroke-width="3"/>
+<text x="64" y="930" font-size="15" font-weight="800" fill="#ff5a1f">STAGE 3</text>
+<text x="736" y="938" font-size="32" font-weight="800" fill="#ff5a1f" text-anchor="end">GEO</text>
+<text x="64" y="974" font-size="30" font-weight="800" fill="#0b1030">Become the trusted source</text>
+<text x="64" y="1004" font-size="20" fill="#4a5280">The person asks an AI for a recommendation.</text>
+<rect x="64" y="1022" width="672" height="112" rx="12" fill="#fff1ea"/>
+<text x="84" y="1054" font-size="18" font-weight="800" fill="#0b1030">Question: Recommend the best moisturisers</text>
+<text x="84" y="1078" font-size="18" font-weight="800" fill="#0b1030">for dry skin in India.</text>
+<text x="84" y="1108" font-size="18" fill="#0b1030">The AI writes one recommendation from several sources.</text>
+<rect x="64" y="1146" width="520" height="32" rx="16" fill="#ff5a1f"/>
+<text x="84" y="1168" font-size="17" font-weight="800" fill="#fff">Your brand may be mentioned, recommended or cited</text>
+<text x="64" y="1206" font-size="20" font-weight="800" fill="#ff5a1f">Goal: get your brand recognised in AI answers</text>
+</g></svg>
