@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" role="img" aria-label="From traffic to decisions: what the shopper does and what the store wants at each step, from searching Google to buying, and the strategy flow of visibility, answer, trust, discovery and conversion">
+<rect width="800" height="720" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="66" font-size="36" font-weight="800" fill="#0b1030">From traffic to decisions</text>
+<text x="40" y="102" font-size="22" fill="#4a5280">What the shopper does, and what the store wants</text>
+<text x="40" y="142" font-size="16" font-weight="800" fill="#4a5280">THE SHOPPER</text>
+<text x="430" y="142" font-size="16" font-weight="800" fill="#4a5280">THE STORE WANTS</text>
+
+<rect x="40" y="156" width="330" height="82" rx="16" fill="#2340f5"/><text x="64" y="205" font-size="22" font-weight="800" fill="#fff">Searches Google</text>
+<path d="M378 197 l20 0 m-8 -9 l9 9 l-9 9" fill="none" stroke="#0b1030" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="430" y="156" width="330" height="82" rx="16" fill="#fff" stroke="#2340f5" stroke-width="3"/><text x="454" y="205" font-size="22" font-weight="800" fill="#0b1030">The store ranks</text>
+
+<rect x="40" y="254" width="330" height="82" rx="16" fill="#7a3cff"/><text x="64" y="303" font-size="22" font-weight="800" fill="#fff">Asks a question</text>
+<path d="M378 295 l20 0 m-8 -9 l9 9 l-9 9" fill="none" stroke="#0b1030" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="430" y="254" width="330" height="82" rx="16" fill="#fff" stroke="#7a3cff" stroke-width="3"/><text x="454" y="292" font-size="22" font-weight="800" fill="#0b1030">Its content becomes</text><text x="454" y="320" font-size="22" font-weight="800" fill="#0b1030">the answer</text>
+
+<rect x="40" y="352" width="330" height="82" rx="16" fill="#ff5a1f"/><text x="64" y="390" font-size="22" font-weight="800" fill="#fff">Asks an AI for</text><text x="64" y="418" font-size="22" font-weight="800" fill="#fff">recommendations</text>
+<path d="M378 393 l20 0 m-8 -9 l9 9 l-9 9" fill="none" stroke="#0b1030" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="430" y="352" width="330" height="82" rx="16" fill="#fff" stroke="#ff5a1f" stroke-width="3"/><text x="454" y="390" font-size="22" font-weight="800" fill="#0b1030">Its products get</text><text x="454" y="418" font-size="22" font-weight="800" fill="#0b1030">discovered or cited</text>
+
+<rect x="40" y="450" width="330" height="82" rx="16" fill="#0b8f6a"/><text x="64" y="499" font-size="22" font-weight="800" fill="#fff">Decides what to buy</text>
+<path d="M378 491 l20 0 m-8 -9 l9 9 l-9 9" fill="none" stroke="#0b1030" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="430" y="450" width="330" height="82" rx="16" fill="#fff" stroke="#0b8f6a" stroke-width="3"/><text x="454" y="488" font-size="22" font-weight="800" fill="#0b1030">The shopper visits</text><text x="454" y="516" font-size="22" font-weight="800" fill="#0b1030">the store and buys</text>
+
+<text x="40" y="582" font-size="16" font-weight="800" fill="#4a5280">THE STRATEGY, IN ONE LINE</text>
+<rect x="40" y="598" width="128" height="52" rx="26" fill="#2340f5"/><text x="104" y="630" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">Visibility</text>
+<rect x="190" y="598" width="128" height="52" rx="26" fill="#7a3cff"/><text x="254" y="630" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">Answer</text>
+<rect x="340" y="598" width="128" height="52" rx="26" fill="#ff5a1f"/><text x="404" y="630" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">Trust</text>
+<rect x="490" y="598" width="128" height="52" rx="26" fill="#0b8f6a"/><text x="554" y="630" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">Discovery</text>
+<rect x="640" y="598" width="120" height="52" rx="26" fill="#0b1030"/><text x="700" y="630" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">Conversion</text>
+<g fill="none" stroke="#4a5280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M172 624 l12 0 m-5 -5 l5 5 l-5 5"/><path d="M322 624 l12 0 m-5 -5 l5 5 l-5 5"/><path d="M472 624 l12 0 m-5 -5 l5 5 l-5 5"/><path d="M622 624 l12 0 m-5 -5 l5 5 l-5 5"/></g>
+<text x="40" y="694" font-size="17" fill="#4a5280">Neither AEO nor GEO guarantees a citation or a recommendation.</text>
+</g></svg>

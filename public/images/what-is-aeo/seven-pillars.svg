@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 910" role="img" aria-label="The seven pillars of AEO: question-based content, direct answers, structured content, entity clarity, schema markup, authority and trust, and internal linking">
+<rect width="800" height="910" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="66" font-size="36" font-weight="800" fill="#0b1030">The 7 pillars of AEO</text>
+<text x="40" y="102" font-size="22" fill="#4a5280">Our working framework, not an official list</text>
+<rect x="40" y="130" width="720" height="94" rx="16" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<circle cx="92" cy="177" r="30" fill="#2340f5"/><text x="92" y="188" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="144" y="170" font-size="25" font-weight="800" fill="#0b1030">Question-based content</text>
+<text x="144" y="200" font-size="19" fill="#4a5280">Answer the questions people actually ask</text>
+<rect x="40" y="238" width="720" height="94" rx="16" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<circle cx="92" cy="285" r="30" fill="#7a3cff"/><text x="92" y="296" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="144" y="278" font-size="25" font-weight="800" fill="#0b1030">Direct answers</text>
+<text x="144" y="308" font-size="19" fill="#4a5280">Put a clear answer in the first few sentences</text>
+<rect x="40" y="346" width="720" height="94" rx="16" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<circle cx="92" cy="393" r="30" fill="#ff5a1f"/><text x="92" y="404" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="144" y="386" font-size="25" font-weight="800" fill="#0b1030">Structured content</text>
+<text x="144" y="416" font-size="19" fill="#4a5280">Descriptive headings, lists, tables and FAQs</text>
+<rect x="40" y="454" width="720" height="94" rx="16" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<circle cx="92" cy="501" r="30" fill="#0b8f6a"/><text x="92" y="512" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="144" y="494" font-size="25" font-weight="800" fill="#0b1030">Entity clarity</text>
+<text x="144" y="524" font-size="19" fill="#4a5280">Make brands, products and people unambiguous</text>
+<rect x="40" y="562" width="720" height="94" rx="16" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<circle cx="92" cy="609" r="30" fill="#2340f5"/><text x="92" y="620" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<text x="144" y="602" font-size="25" font-weight="800" fill="#0b1030">Schema markup</text>
+<text x="144" y="632" font-size="19" fill="#4a5280">Helps machines read a page. Google: not required for AI</text>
+<rect x="40" y="670" width="720" height="94" rx="16" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<circle cx="92" cy="717" r="30" fill="#7a3cff"/><text x="92" y="728" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<text x="144" y="710" font-size="25" font-weight="800" fill="#0b1030">Authority and trust</text>
+<text x="144" y="740" font-size="19" fill="#4a5280">Sources, expert input, evidence, fresh updates</text>
+<rect x="40" y="778" width="720" height="94" rx="16" fill="#fff" stroke="#d6dcff" stroke-width="2"/>
+<circle cx="92" cy="825" r="30" fill="#ff5a1f"/><text x="92" y="836" font-size="30" font-weight="800" fill="#fff" text-anchor="middle">7</text>
+<text x="144" y="818" font-size="25" font-weight="800" fill="#0b1030">Internal linking</text>
+<text x="144" y="848" font-size="19" fill="#4a5280">Connect guides, categories and related questions</text>
+</g></svg>
