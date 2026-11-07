@@ -85,27 +85,35 @@ This is our working framework, not an official list. Where Google's guide says s
 
 ![The seven pillars of AEO](/images/what-is-aeo/seven-pillars.svg)
 
-| Pillar | What to do | Caveat |
-|---|---|---|
-| 1. Question-based content | Cover the real questions users ask | Google warns that a separate page for every query variation, made mainly to influence AI answers, can violate its scaled content abuse policy. Put the questions on one page. |
-| 2. Direct answers | Answer in the first few sentences | Google says you need not write in a special way for AI. Clarity helps readers either way. |
-| 3. Structured content | Descriptive headings, lists, tables, FAQs | Google says chopping content into tiny pieces is not required. |
-| 4. Entity clarity | Make products, brands, people and their relationships unambiguous | Our view. |
-| 5. Schema markup | Use relevant structured data | Google says no special markup is needed for AI features. It still helps with rich results. See [schema by page type](/schema-for-aeo-and-geo-a-decision-table-by-page-type-and-a-ten-point-audit/). |
-| 6. Authority and trust | Credible sources, expert input, evidence, updates | Google says original, non-commodity content likely matters most. |
-| 7. Internal linking | Connect guides, categories and related questions | See [internal linking for AEO](/how-to-optimise-internal-linking-for-aeo-and-geo/). |
+| Pillar and what to do | Caveat |
+|---|---|
+| **1. Question-based content.** Cover the real questions users ask | Google warns that a separate page for every query variation, made mainly to influence AI answers, can violate its scaled content abuse policy. Put the questions on one page. |
+| **2. Direct answers.** Answer in the first few sentences | Google says you need not write in a special way for AI. Clarity helps readers either way. |
+| **3. Structured content.** Descriptive headings, lists, tables, FAQs | Google says chopping content into tiny pieces is not required. |
+| **4. Entity clarity.** Make products, brands, people and their relationships unambiguous | Our view. |
+| **5. Schema markup.** Use relevant structured data | Google says no special markup is needed for AI features. It still helps with rich results. See [schema by page type](/schema-for-aeo-and-geo-a-decision-table-by-page-type-and-a-ten-point-audit/). |
+| **6. Authority and trust.** Credible sources, expert input, evidence, updates | Google says original, non-commodity content likely matters most. |
+| **7. Internal linking.** Connect guides, categories and related questions | See [internal linking for AEO](/how-to-optimise-internal-linking-for-aeo-and-geo/). |
 
 ## Different AI tools, different habits
 
 This is where AEO stops being a Google topic. Google's guide covers Google Search features only. For the rest, the evidence is thinner, and it says so.
 
+<div style="display:flex;flex-wrap:wrap;gap:18px 24px;align-items:flex-end;justify-content:center;background:#f1f4ff;border-radius:16px;padding:22px 16px;margin:20px 0">
+<figure style="margin:0;text-align:center"><img src="/images/what-is-aeo/logos/google-ai-mode.png" alt="Google AI Mode logo" height="52" style="height:52px;width:auto;border-radius:10px"><figcaption style="font-size:14px;margin-top:6px">AI Mode</figcaption></figure>
+<figure style="margin:0;text-align:center"><img src="/images/what-is-aeo/logos/gemini.png" alt="Gemini logo" height="40" style="height:40px;width:auto;border-radius:10px"><figcaption style="font-size:14px;margin-top:6px">Gemini</figcaption></figure>
+<figure style="margin:0;text-align:center"><img src="/images/what-is-aeo/logos/chatgpt.png" alt="ChatGPT logo" height="52" style="height:52px;width:auto;border-radius:10px"><figcaption style="font-size:14px;margin-top:6px">ChatGPT</figcaption></figure>
+<figure style="margin:0;text-align:center"><img src="/images/what-is-aeo/logos/copilot.png" alt="Microsoft Copilot logo" height="52" style="height:52px;width:auto;border-radius:10px"><figcaption style="font-size:14px;margin-top:6px">Copilot</figcaption></figure>
+<figure style="margin:0;text-align:center"><img src="/images/what-is-aeo/logos/perplexity.png" alt="Perplexity logo" height="52" style="height:52px;width:auto;border-radius:10px"><figcaption style="font-size:14px;margin-top:6px">Perplexity</figcaption></figure>
+</div>
+
 | Platform | What we can say |
 |---|---|
 | Google AI Overviews and AI Mode | Pages come from Google's Search index. A page must be indexed and eligible to show with a snippet. See [AI Mode vs Search](/google-ai-mode-vs-search-crawling-indexing-ranking-and-summarising-explained/) and [optimising for AI Overviews](/how-to-optimize-for-ai-overviews-what-google-is-really-looking-for/). |
 | Gemini | Google's own assistant. Google's guide covers Search features, not the Gemini app. See [how Gemini decides when to ground answers](/how-googles-gemini-decides-when-to-use-grounding-for-user-queries/). |
-| ChatGPT | Search Engine Journal reported an Ahrefs study saying its most-cited sites tilt toward primary sources. See [ranking in ChatGPT](/ai-seo-guide-how-to-rank-your-website-on-chatgpt/). |
-| Microsoft Copilot | Reported to rely on Bing's index. Bing Webmaster Tools has an AI Performance report. See [Copilot and Bing](/how-to-get-your-content-cited-in-microsoft-copilot-and-bing/). |
-| Perplexity | One practitioner's testing found heavy YouTube citation. A single test, so a clue, not a rule. See [ranking on Perplexity](/ai-seo-guide-how-to-rank-your-website-on-perplexity-ai/). |
+| <img src="/images/what-is-aeo/logos/chatgpt.png" alt="ChatGPT logo" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:-5px;margin-right:6px">ChatGPT | Search Engine Journal reported an Ahrefs study saying its most-cited sites tilt toward primary sources. See [ranking in ChatGPT](/ai-seo-guide-how-to-rank-your-website-on-chatgpt/). |
+| <img src="/images/what-is-aeo/logos/copilot.png" alt="Microsoft Copilot logo" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:-5px;margin-right:6px">Microsoft Copilot | Reported to rely on Bing's index. Bing Webmaster Tools has an AI Performance report. See [Copilot and Bing](/how-to-get-your-content-cited-in-microsoft-copilot-and-bing/). |
+| <img src="/images/what-is-aeo/logos/perplexity.png" alt="Perplexity logo" width="22" height="22" style="width:22px;height:22px;object-fit:contain;vertical-align:-5px;margin-right:6px">Perplexity | One practitioner's testing found heavy YouTube citation. A single test, so a clue, not a rule. See [ranking on Perplexity](/ai-seo-guide-how-to-rank-your-website-on-perplexity-ai/). |
 | Claude | We have not found a published source-selection guide. Test it with the scorecard below. |
 
 The bigger lesson comes from Search Engine Land's reporting of AI citation data: there is no universal top source for brands, and each AI picks differently. Read more in [why ChatGPT, Perplexity and Google cite different sources](/why-chatgpt-perplexity-and-google-cite-different-sources/). Our view: do not chase one "AI ranking". Build pages worth citing and test each platform.
