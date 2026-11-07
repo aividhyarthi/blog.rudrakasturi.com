@@ -1,8 +1,8 @@
 ---
 title: "What is AEO? Answer engine optimisation across Google AI Overviews, AI Mode, ChatGPT, Gemini and Perplexity"
-date: 2026-11-07T09:00:00+05:30
+date: 2026-11-07T09:59:00+05:30
 description: "AEO (answer engine optimisation) means making your content easy for AI answers to find and cite. How it differs from SEO and GEO, the 7 pillars, how each AI platform behaves, and how to measure it."
-draft: true
+draft: false
 tag: "AEO"
 tldr: "AEO, short for answer engine optimisation, is making your content clear and trustworthy enough that AI answers can extract it and cite it: Google AI Overviews and AI Mode, ChatGPT, Gemini, Copilot, Perplexity and others. Think of it as the next step after SEO. Google says optimising for its AI features is still SEO, and reports show each AI picks sources differently, so test your own pages instead of chasing one ranking."
 sources:
