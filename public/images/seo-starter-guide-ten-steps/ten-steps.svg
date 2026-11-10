@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 974" role="img" aria-label="Ten steps from Google SEO starter guide grouped into four stages: be found, be organised, be useful, look good in results">
+<rect width="800" height="974" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">SEO in ten steps</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Our grouping of Google's starter guide</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">A. Be found (steps 1 to 3)</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">Understand Search, let Google crawl,</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">check Google sees what users see</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">B. Be organised (steps 4 to 5)</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">Descriptive URLs and grouped pages,</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">and fewer duplicate versions</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">C. Be useful (steps 6 to 7)</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">Answer what readers search for,</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">and link to relevant resources</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">D. Look good (steps 8 to 10)</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Title links, snippets and images,</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">then promote and keep learning</text>
+</g></svg>
