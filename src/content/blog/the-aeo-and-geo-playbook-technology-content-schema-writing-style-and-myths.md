@@ -91,6 +91,9 @@ On the claim that AI answers have ended SEO, see [what the evidence supports and
 - [Job listing](/how-to-get-a-job-listing-found-in-google-and-ai-answers-a-four-check-audit/)
 - [Course page](/how-to-get-a-course-page-found-in-google-and-ai-answers-what-course-markup-asks-for/)
 - [Event page](/how-to-get-an-event-page-found-in-google-and-ai-answers-a-four-point-checklist/)
+- [Author and profile pages](/author-and-profile-pages-that-google-and-ai-tools-can-recognise-a-four-point-checklist/)
+- [Paywalled article](/how-to-get-a-paywalled-article-indexed-without-cloaking-a-four-step-guide/)
+- [Calculator or online tool page](/how-to-get-a-calculator-or-online-tool-page-found-in-ai-search-a-four-part-page-plan/)
 - [Ads in AI Overviews and AI Mode](/google-ads-in-ai-overviews-and-ai-mode-what-advertisers-should-check/)
 
 ## Data worth knowing

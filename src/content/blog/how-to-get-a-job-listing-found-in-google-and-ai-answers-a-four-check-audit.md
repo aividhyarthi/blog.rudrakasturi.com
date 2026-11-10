@@ -1,6 +1,6 @@
 ---
 title: "How to get a job listing found in Google and AI answers: a four-check audit"
-date: 2026-11-09T10:00:00+05:30
+date: 2026-11-10T11:00:00+05:30
 description: "Four checks for job pages: markup that matches the page, one URL per job, telling Google about changes, and expiring closed jobs. Based on Google's JobPosting documentation."
 tag: "AEO"
 tldr: "Google's JobPosting documentation (last updated 8 September 2026) asks for markup that matches the visible page, one canonical URL per job, the Indexing API for new and changed jobs, and prompt expiry of closed jobs. Google also says no special markup is needed for generative AI search. The audit below is our own."

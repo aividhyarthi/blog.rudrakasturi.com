@@ -1,6 +1,6 @@
 ---
 title: "How to get a course page found in Google and AI answers: what course markup asks for"
-date: 2026-11-09T13:00:00+05:30
+date: 2026-11-10T13:00:00+05:30
 description: "What Google's course list markup requires: a real course, at least three of them, carousel markup and a provider. Plus a four-step test for training providers and colleges."
 tag: "AEO"
 tldr: "Google's course list documentation (last updated 8 September 2026) says Course markup is for real curriculum with an instructor and a roster, that you must mark up at least three courses, and that a summary or all-in-one page needs carousel markup. Google also says no special markup is needed for generative AI search."

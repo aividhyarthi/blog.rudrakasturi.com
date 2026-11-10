@@ -1,6 +1,6 @@
 ---
 title: "How to get an event page found in Google and AI answers: a four-point checklist"
-date: 2026-11-09T16:00:00+05:30
+date: 2026-11-10T16:00:00+05:30
 description: "One page per event, correct dates, an up-to-date status and public bookability. A checklist drawn from Google's event structured data documentation."
 tag: "AEO"
 tldr: "Google's event documentation (last updated 8 September 2026) requires a unique URL per event, accurate name, date and location, and a status that is updated when an event is cancelled or rescheduled. Events open only to members or invitees are not eligible. Google also says no special markup is needed for AI features."
