@@ -42,7 +42,7 @@ A loan EMI calculator page could say: "Monthly instalment = P x r x (1 + r)^n / 
 
 1. Open your tool page with scripts off or use the URL Inspection tool. Is any text there besides the tool?
 2. Add the four parts above, in plain HTML.
-3. Add a date and a note on the sources for any rates. See [honest dates](/how-to-show-honest-page-dates-when-to-update-a-page-and-what-google-says-about-dates/) once live.
+3. Add a visible date and a note on the sources for any rates or rules the tool uses.
 4. Make the page distinct: one question, one tool. See [first-hand evidence](/first-hand-evidence-eight-kinds-you-can-add-to-any-page-and-what-never-to-fake/).
 5. Check how it renders with our [JavaScript check](/javascript-seo-a-ten-minute-check-for-script-heavy-sites/).
 
