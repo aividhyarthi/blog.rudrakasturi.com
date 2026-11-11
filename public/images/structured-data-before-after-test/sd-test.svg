@@ -20,6 +20,6 @@
 <path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
 <rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
 <text x="70" y="820" font-size="30" font-weight="800" fill="#fff">4. Compare and decide</text>
-<text x="70" y="862" font-size="25" fill="#e8fff6">Check the same pages after a few weeks</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Record for a few months, then compare</text>
 <text x="70" y="894" font-size="25" fill="#e8fff6">and keep a note of the result</text>
 </g></svg>
