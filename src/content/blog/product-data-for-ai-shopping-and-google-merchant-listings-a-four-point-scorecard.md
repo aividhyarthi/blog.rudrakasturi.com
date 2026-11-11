@@ -42,11 +42,11 @@ Shopping results, AI answers and product snippets all depend on the same thing: 
 | 4. Markup in the first HTML | Developer | 45 min | View source, not inspect element | Price and availability are in the source |
 | 5. One URL per currency | Developer | 30 min | Compare currency switchers | Each currency has its own URL |
 | 6. Match price and stock | Ops | 45 min | Compare page, markup and Merchant Center | No mismatch on the sample |
-| 7. Fix, then re-sample | Team lead | Monthly | Repeat steps 1 to 6 | Score is 20 of 20, or a plan exists |
+| 7. Fix, then re-sample | Team lead | Monthly | Repeat steps 1 to 6 | All 20 sampled pages score 3 or 4, or a dated fix plan exists |
 
 ## Score each page from 0 to 4
 
-One point each for: single product, buyable here, markup in the first HTML, correct currency URL. Fewer than 3 means fix before anything else. This is our own scoring.
+One point each for: single product, buyable here, markup in the first HTML, correct currency URL. A page passes with 3 or 4. Fewer than 3 means fix it before anything else. This is our own scoring, not Google's.
 
 ## Common mistakes
 
