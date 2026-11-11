@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 974" role="img" aria-label="Dataset markup: name and description, creator and license, download links and a sitemap">
+<rect width="800" height="974" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="38" font-weight="800" fill="#0b1030">Dataset markup</text>
+<text x="40" y="108" font-size="24" fill="#4a5280">Make data discoverable</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="30" font-weight="800" fill="#fff">1. Name it clearly</text>
+<text x="70" y="232" font-size="25" fill="#e3e8ff">A unique name for each distinct dataset</text>
+<text x="70" y="264" font-size="25" fill="#e3e8ff">Add a 50 to 5000 character summary</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="30" font-weight="800" fill="#fff">2. Say who made it and how to reuse it</text>
+<text x="70" y="442" font-size="25" fill="#ece1ff">creator and license are recommended</text>
+<text x="70" y="474" font-size="25" fill="#ece1ff">for people who want to cite it</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="30" font-weight="800" fill="#fff">3. Link the download</text>
+<text x="70" y="652" font-size="25" fill="#ffffff">distribution with contentUrl and format</text>
+<text x="70" y="684" font-size="25" fill="#ffffff">so tools can find the files</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="154" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="30" font-weight="800" fill="#fff">4. Help Google find the pages</text>
+<text x="70" y="862" font-size="25" fill="#e8fff6">Use a sitemap and sameAs links</text>
+<text x="70" y="894" font-size="25" fill="#e8fff6">for every dataset description page</text>
+</g></svg>
