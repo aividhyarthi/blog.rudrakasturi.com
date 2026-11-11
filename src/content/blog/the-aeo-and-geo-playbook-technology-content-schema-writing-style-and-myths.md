@@ -35,6 +35,8 @@ Google says a page must be indexed and eligible to be shown in Search with a sni
 - For AI crawlers and training, see the reported [shared AI training opt-out](/openai-google-microsoft-and-anthropic-back-one-shared-ai-training-opt-out-what-is-reported/).
 - To check that ChatGPT's crawlers can reach you, run the [10-minute GPTBot, OAI-SearchBot and ChatGPT-User test](/can-chatgpt-reach-your-site-a-10-minute-test-for-gptbot-oai-searchbot-and-chatgpt-user/).
 - To see which crawlers actually visit, follow our [ten-minute server log method](/how-to-read-server-logs-for-search-and-ai-crawlers-a-ten-minute-method/).
+- For the official view in one place, use our [team checklist for AI Overviews and AI Mode](/ai-overviews-and-ai-mode-what-google-says-you-need-and-a-team-checklist-for-seo-and-aeo/).
+- To decide what Google may show or use, see [control what you share with Google](/control-what-you-share-with-google-the-options-compared-and-when-to-use-each/).
 
 ## 2. Content and writing
 
@@ -49,12 +51,17 @@ Our view: write the answer first, then the detail, and put your own evidence in 
 - [FAQs for AEO without looking spammy](/how-to-optimise-faqs-for-aeo-without-looking-spammy/)
 - [Internal linking for AEO and GEO](/how-to-optimise-internal-linking-for-aeo-and-geo/)
 - [Brand entity clean-up](/brand-entity-clean-up-one-name-one-story-across-search-and-ai-answers/)
+- [Using generative AI content: a pre-publish checklist](/using-generative-ai-content-on-your-site-what-google-says-and-a-pre-publish-checklist/)
 
 ## 3. Schema and data
 
 Google says structured data is not required for generative AI search and that there is no special schema.org markup to add. It still recommends structured data as part of SEO because it helps eligibility for rich results. For shops and local businesses, it names Merchant Center feeds and Business Profiles as ways to appear in AI responses. Our view: accurate markup that matches the visible page is worth keeping; markup added to chase AI is not. Use our [schema decision table by page type](/schema-for-aeo-and-geo-a-decision-table-by-page-type-and-a-ten-point-audit/), and for shops start with [AEO for e-commerce](/aeo-for-e-commerce-product-pages-feeds-and-what-google-says-about-universal-cart/).
 
 Guides: the [schema decision table](/schema-for-aeo-and-geo-a-decision-table-by-page-type-and-a-ten-point-audit/) and a [checklist for Article markup that matches the page](/article-schema-that-matches-the-page-author-dates-and-headline-with-a-checklist/).
+
+
+- [Organization markup and sameAs for brand clarity](/organization-markup-and-sameas-for-brand-clarity-what-google-recommends-and-a-six-step-rollout/)
+- [Video structured data and key moments](/video-structured-data-and-key-moments-a-five-step-guide-for-watch-pages/)
 
 ## 4. Measurement
 
@@ -89,6 +96,14 @@ On the claim that AI answers have ended SEO, see [what the evidence supports and
 - [Glossary or definition page](/how-to-get-a-glossary-or-definition-page-cited-in-ai-answers/)
 - [Pricing page](/how-to-get-your-pricing-page-understood-by-ai-tools-and-crawlers/)
 - [Ads in AI Overviews and AI Mode](/google-ads-in-ai-overviews-and-ai-mode-what-advertisers-should-check/)
+- [Job listing](/how-to-get-a-job-listing-found-in-google-and-ai-answers-a-four-check-audit/)
+- [Course page](/how-to-get-a-course-page-found-in-google-and-ai-answers-what-course-markup-asks-for/)
+- [Event page](/how-to-get-an-event-page-found-in-google-and-ai-answers-a-four-point-checklist/)
+- [Author and profile pages](/author-and-profile-pages-that-google-and-ai-tools-can-recognise-a-four-point-checklist/)
+- [Paywalled article](/how-to-get-a-paywalled-article-indexed-without-cloaking-a-four-step-guide/)
+- [Calculator or online tool page](/how-to-get-a-calculator-or-online-tool-page-found-in-ai-search-a-four-part-page-plan/)
+- [Product pages and merchant listings](/product-data-for-ai-shopping-and-google-merchant-listings-a-four-point-scorecard/)
+- [Video watch pages](/video-structured-data-and-key-moments-a-five-step-guide-for-watch-pages/)
 
 ## Data worth knowing
 
