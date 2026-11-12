@@ -34,7 +34,7 @@ export async function GET() {
     'Every published article has a plain Markdown endpoint at its .md URL. These files are generated from the same source as the HTML pages and include canonical URL, publication dates, description, categories, tags and source references.',
     '',
   ];
-  return new Response(lines.join('\\n'), {
-    headers: { 'Content-Type': 'text/plain; charset=utf-8', 'X-Robots-Tag': 'noindex' },
+  return new Response(lines.join('\n'), {
+    headers: { 'Content-Type': 'text/plain; charset=utf-8' },
   });
 }
