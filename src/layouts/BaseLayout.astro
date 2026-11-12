@@ -19,11 +19,12 @@ interface Props {
   modified?: Date;
   section?: string;
   noindex?: boolean;
+  markdownUrl?: string;
 }
 
 const {
   title, image, pageType = 'WebPage', breadcrumbs, jsonld = [], personExtra = {}, mainEntityId,
-  ogType = 'website', published, modified, section, noindex = false,
+  ogType = 'website', published, modified, section, noindex = false, markdownUrl,
   description = 'Clear, sourced analysis of SEO, AEO, AI search, YouTube and social. By Rudra Kasturi.',
 } = Astro.props;
 const currentPath = Astro.url.pathname;
@@ -107,6 +108,7 @@ const robots = noindex
     <meta name="twitter:description" content={description} />
     {image && <meta name="twitter:image" content={abs(image)} />}
     <link rel="canonical" href={pageUrl} />
+    {markdownUrl && <link rel="alternate" type="text/markdown" href={abs(markdownUrl)} />}
     <link rel="alternate" type="application/rss+xml" title="Rudra Kasturi" href="/rss.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
