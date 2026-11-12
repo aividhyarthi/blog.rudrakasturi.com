@@ -26,6 +26,10 @@ The process is not identical for every company. An online business with a websit
 
 This guide explains how to start, which verification methods may appear, what happens after you submit a claim, and where the process differs for online and physical businesses.
 
+![ChatGPT Business Hub dashboard showing the business profile and available management options](/images/verify-business-on-chatgpt/business-hub-dashboard.jpg)
+
+*The Business Hub dashboard provides access to your claimed business profile and its available management tools.*
+
 **Important:** OpenAI controls eligibility and verification. The options shown in your Business Hub account are the ones that apply to your business. A claim does not guarantee a profile, a recommendation or a higher position in ChatGPT answers.
 
 ## What does business verification on ChatGPT mean?
@@ -150,9 +154,17 @@ After the claim is approved, OpenAI may ask you to complete identity verificatio
 
 The Persona process may ask for a government issued identity document, business registration information and proof that you are authorised to represent the business.
 
+![ChatGPT Business Hub asking the account holder to verify their authority with identity documentation](/images/verify-business-on-chatgpt/authority-verification.jpg)
+
+*Persona identity verification is a separate step from claiming the business listing.*
+
 Submit only genuine and accurate information. The person completing the process must be authorised to act for the business.
 
 OpenAI reviews the submission and emails its decision or requests more information. The blue verified badge appears after Persona verification is approved.
+
+![ChatGPT Business Hub showing that business verification is under review](/images/verify-business-on-chatgpt/verification-under-review.jpg)
+
+*After submission, the claim may remain under review while OpenAI checks the information.*
 
 ## Step 6: Review and update your business information
 
