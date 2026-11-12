@@ -8,6 +8,6 @@ export async function getStaticPaths() {
 
 export async function GET({ props }: { props: { post: Awaited<ReturnType<typeof getAllPosts>>[number] } }) {
   return new Response(postMarkdown(props.post), {
-    headers: { 'Content-Type': 'text/markdown; charset=utf-8', 'X-Robots-Tag': 'noindex' },
+    headers: { 'Content-Type': 'text/markdown; charset=utf-8' },
   });
 }
