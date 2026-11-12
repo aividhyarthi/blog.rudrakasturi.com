@@ -1,283 +1,246 @@
 ---
-title: "OpenAI Introduces Business Hub in ChatGPT: What Indian Businesses Need to Know"
+title: "How to Verify Your Business on ChatGPT: Step-by-Step Guide"
 date: 2026-11-12
-description: "OpenAI's new Business Hub lets eligible companies manage their business presence and understand discovery in ChatGPT. Here is what it means for Indian businesses."
+description: "Learn how to claim and verify your business on ChatGPT Business Hub, which verification methods are available, and what online and physical businesses need to know."
 tag: "AEO"
-tldr: "OpenAI has introduced Businesses in ChatGPT, giving eligible companies a way to claim their business, update information, and view aggregated engagement insights. Business Agents are currently limited to eligible businesses in the United States, but the announcement signals a major shift in how customers may discover and interact with companies through AI."
+tldr: "Eligible businesses can claim a profile through ChatGPT Business Hub and verify their authority using the methods offered for that business. Online businesses may be able to add a business that is not listed, while local stores and restaurants currently have a more limited claim process. Claiming a profile and completing identity verification are separate steps."
 sources:
-  - title: "Introducing Businesses in ChatGPT"
-    url: "https://openai.com/index/introducing-businesses-chatgpt/"
+  - title: "Setting up your business on ChatGPT"
+    url: "https://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt"
+    publisher: "OpenAI Help Center"
+  - title: "Businesses in ChatGPT: Claim Your Business"
+    url: "https://openai.com/business/businesses-in-chatgpt/"
+    publisher: "OpenAI"
+  - title: "Businesses in ChatGPT"
+    url: "https://openai.com/policies/businesses-in-chatgpt/"
     publisher: "OpenAI"
 ---
 
-# OpenAI Introduces Business Hub in ChatGPT: What Indian Businesses Need to Know
+# How to Verify Your Business on ChatGPT: Step-by-Step Guide
 
-For years, businesses have worked to get discovered on Google. They have invested in websites, search rankings, business listings, reviews, advertisements and content marketing. Now, another important discovery channel is taking shape: AI conversations.
+If you own a business, you may have started asking a new question: how do I verify my business on ChatGPT?
 
-OpenAI has announced **Businesses in ChatGPT**, a new set of tools that allows eligible companies to claim their business presence, manage information and understand how people discover and engage with them through ChatGPT.
+OpenAI has introduced Business Hub, a place where eligible businesses can claim and manage their business information in ChatGPT. Once a business is claimed and the required checks are completed, its authorised representative can update details and, where eligible, access business insights and other features.
 
-The announcement, published on November 10, 2026, introduces a Business Hub, business engagement insights and a new capability called Business Agents.
+The process is not identical for every company. An online business with a website may be able to add its business if it is not already listed. A physical store, restaurant or local service business follows a more restricted process under OpenAI's current guidance.
 
-OpenAI says ChatGPT is used by 1.2 billion people each week. That is the audience opportunity highlighted in its announcement, although businesses should not interpret this figure as a guarantee of customer reach or traffic.
+This guide explains how to start, which verification methods may appear, what happens after you submit a claim, and where the process differs for online and physical businesses.
 
-For Indian companies, the development deserves attention. It suggests that business discovery is moving beyond traditional search results towards platforms where customers ask questions, compare products and make decisions through conversations.
+**Important:** OpenAI controls eligibility and verification. The options shown in your Business Hub account are the ones that apply to your business. A claim does not guarantee a profile, a recommendation or a higher position in ChatGPT answers.
 
-## What exactly is Businesses in ChatGPT?
+## What does business verification on ChatGPT mean?
 
-Businesses in ChatGPT is OpenAI's new business-facing platform, currently in beta.
+Business verification is the process of confirming that you own a business or are authorised to manage its profile.
 
-It gives eligible companies a way to manage how their business information appears in ChatGPT and access certain insights about how people engage with them.
+OpenAI's Business Hub allows eligible businesses to claim a listing, provide accurate information and manage selected details. A claimed profile is not the same as a fully verified identity.
 
-There are three important parts to the announcement.
+There are two stages to understand:
 
-1. **Business Hub:** A place where companies can claim and manage their business information.
-2. **Business Insights:** Aggregated information about business mentions, website clicks and common discovery topics.
-3. **Business Agents:** Conversational agents that eligible companies can build to help customers explore their products and services.
+1. **Claim verification:** You prove that you are authorised to manage the business. OpenAI may offer a business phone, business email, website domain or Shopify verification method.
+2. **Identity verification:** After the claim is approved, OpenAI may require identity verification through Persona before you can publish changes, view insights, connect a product feed or create an eligible Business Agent.
 
-These features address three different business needs: being represented accurately, understanding discovery and interacting with potential customers.
+OpenAI says a blue verified badge appears after Persona identity verification is approved. Simply submitting a claim does not automatically give the profile that badge.
 
-## 1. Businesses can claim their presence in ChatGPT
+## Before you start: identify which type of business you have
 
-The first major feature is the ability to claim a business through Business Hub.
+The correct route depends on how your business operates.
 
-Once a business completes the verification process, it can update important information about its organisation. OpenAI also says businesses can add self-service product feeds containing details such as pricing and availability.
-
-This is significant because AI systems need reliable information when answering questions about companies and their offerings.
-
-Consider a customer searching for a laptop.
-
-Instead of visiting several websites, the customer may ask ChatGPT to compare laptops based on budget, performance, battery life and intended use.
-
-If a company's product information is incomplete or outdated, the information presented to the customer may not reflect the latest offering.
-
-A verified business presence and updated product information can help reduce this information gap.
-
-OpenAI says eligible businesses in locations where ChatGPT is available can claim their business through Business Hub. Existing OpenAI Enterprise customers and advertisers can also work with their OpenAI representatives. Shopify merchants have an additional connection route through Business Hub or Shopify admin.
-
-**What this means for India:** Indian businesses should check their eligibility and the available verification process through Business Hub. OpenAI's announcement does not say that every business will automatically receive access to every feature.
-
-## 2. Businesses will get insights into how people discover them
-
-The second feature could become particularly interesting for marketing and SEO teams.
-
-Business Hub will provide aggregated insights into how people engage with a business in ChatGPT.
-
-OpenAI identifies three types of information:
-
-- Business mentions
-- Website clicks
-- Discovery topics, which are common themes across conversations where the business website is cited
-
-This is important because businesses have traditionally measured digital discovery through search impressions, clicks, rankings and conversions.
-
-AI discovery creates another set of questions.
-
-How often is a business mentioned in ChatGPT? Which subjects lead people to its website? What kinds of customer needs are associated with its brand?
-
-These insights could help businesses understand how they are represented in AI-generated answers and identify gaps in the information they publish.
-
-There is, however, an important privacy distinction.
-
-OpenAI says businesses will not receive users' individual conversations or Business Agent chats. The insights are aggregated and are only shown when enough interactions exist to meet certain thresholds.
-
-In other words, this is not a dashboard for reading customer conversations. It is a way to understand broader engagement patterns.
-
-## 3. Business Agents can help customers make decisions
-
-The third feature introduces a more interactive experience.
-
-Eligible organisations can build, test and launch a Business Agent after claiming their business.
-
-A Business Agent can help customers explore a company's products and services through a separate conversation.
-
-Imagine a customer looking for a suitable health insurance plan.
-
-The customer may want to understand differences in coverage, exclusions, premium costs and available options.
-
-A Business Agent could help explain the company's offerings using information supplied by the business.
-
-Similarly, an online retailer could use an agent to help customers compare products, understand specifications and find options that match their requirements.
-
-This moves the interaction beyond simply showing a company name or website link.
-
-It creates an opportunity for a business to participate in the customer's decision-making process.
-
-OpenAI says Business Agent conversations will be clearly labelled and kept separate from the user's original ChatGPT conversation and ChatGPT's independent answers.
-
-**Availability matters:** Business Agents are currently available to eligible ecommerce and online service businesses in the United States. Indian businesses should not assume they can build and launch one immediately. OpenAI says it plans to expand the programme to more markets and business categories over time.
-
-## What is the difference between Business Hub and Business Agents?
-
-These two features are connected, but they solve different problems.
-
-| Capability | Business Hub | Business Agents |
-|---|---|---|
-| Main purpose | Manage business presence | Interact with customers |
-| Business verification | Yes | Requires a claimed business |
-| Update business details | Yes | Uses business information |
-| Engagement insights | Yes | Not its primary purpose |
-| Product information | Product feeds supported | Can help customers explore offerings |
-| Customer conversations | No direct agent conversation | Yes |
-| Current availability | Eligible businesses where ChatGPT is available | Eligible businesses in the US |
-
-The distinction is important. Claiming a business does not automatically mean that the company has launched a customer-facing AI agent.
-
-## What does this mean for Indian businesses?
-
-India has a large base of ecommerce companies, consumer brands, financial services businesses, educational institutions, travel companies and local service providers.
-
-Many of these businesses already invest in Google visibility, online marketplaces, social media and paid advertising.
-
-The new announcement adds another area to consider: how accurately AI platforms understand and represent their business.
-
-For example, imagine an Indian consumer asking ChatGPT:
-
-"Which are the best budget smartphones under ₹15,000?"
-
-Or:
-
-"Compare online MBA programmes in India."
-
-Or:
-
-"Find a reliable travel company for a family holiday in Kerala."
-
-The business that has clear, accurate and useful information across its website and other trusted sources has a better foundation for being understood by AI systems.
-
-This does not mean that claiming a Business Hub profile guarantees a recommendation or citation. Nor does it mean that traditional SEO is becoming irrelevant.
-
-It means that businesses need to pay closer attention to the information available about them across the web.
-
-## Five things businesses should start doing now
-
-Even before every feature becomes available in India, companies can prepare.
-
-### 1. Build a complete and consistent business identity
-
-Check whether your company name, website, address, contact details, products and services are consistent across your website and major business profiles.
-
-Avoid having different descriptions of the same business across multiple platforms.
-
-### 2. Make product and service information easy to understand
-
-Your website should clearly explain what you sell, who it is for, how much it costs and what makes it different.
-
-For ecommerce businesses, product names, specifications, availability, pricing and images should be accurate and regularly updated.
-
-### 3. Create useful pages that answer customer questions
-
-Do not build pages only around keywords.
-
-Create content that helps customers understand products, compare alternatives, evaluate features and make decisions.
-
-For example, a financial services company should explain eligibility, fees, risks, benefits and limitations rather than relying only on promotional descriptions.
-
-### 4. Strengthen your website's technical foundations
-
-Make sure important pages can be accessed by search engines and relevant AI crawlers.
-
-Use structured data where appropriate, maintain clear navigation, avoid conflicting product information and ensure that important content is available as readable text.
-
-Structured data can help describe information on a page, but it does not guarantee that an AI platform will select or cite it.
-
-### 5. Start measuring AI discovery
-
-Businesses should begin recording how their brands appear across AI search experiences.
-
-A practical measurement framework can include:
-
-- Brand mentions across a fixed set of customer questions
-- Website citations and referral visits
-- Product and service accuracy
-- Competitor visibility
-- Leads and conversions from AI-driven discovery
-
-The purpose is to understand whether AI platforms are helping customers discover the business and whether that discovery leads to meaningful outcomes.
-
-## A new measurement opportunity for SEO and marketing teams
-
-The introduction of Business Hub could eventually give marketers another source of first-party discovery information.
-
-Today, teams commonly use Google Search Console to understand search impressions, clicks and queries. They use analytics platforms to measure website engagement and conversions.
-
-Business Hub adds the possibility of understanding mentions, website clicks and discovery topics within ChatGPT.
-
-These datasets should not be treated as interchangeable. They measure different types of activity and may use different attribution and reporting methods.
-
-A useful starting scorecard would look like this:
-
-| Metric | What it tells the business |
+| Your business | What to expect |
 |---|---|
-| ChatGPT mentions | How often the business is mentioned |
-| Website clicks | How many visits come through ChatGPT |
-| Discovery topics | Themes associated with website citations |
-| Brand accuracy | Whether business details are represented correctly |
-| AI referral conversions | Whether AI-driven visits generate leads or sales |
+| Online business with a website and no customer facing premises | If eligible, you may be able to claim an existing listing or add your business |
+| Ecommerce store using Shopify | Shopify can be offered as a verification and connection route |
+| Physical shop, restaurant or local business | OpenAI currently says local stores and restaurants can claim only an existing US listing |
+| Business outside the United States with a physical location | Check the current Business Hub eligibility and options. Do not assume that a local listing can be created or claimed |
+| Company with an OpenAI Enterprise relationship or advertising account | OpenAI says you can work with your OpenAI representative |
 
-The last two are suggested business metrics, not features OpenAI has confirmed as part of Business Hub.
+If you operate only online, read our detailed guide to [verifying an online business on ChatGPT without a physical store](/verify-online-business-on-chatgpt/).
 
-Over time, companies could combine these measures with their existing SEO and analytics reports to understand the commercial value of AI discovery.
+If customers visit your shop, office, clinic or restaurant, read [how to verify a physical business on ChatGPT](/verify-physical-business-on-chatgpt/).
 
-## Does this mean SEO is changing?
+## Step 1: Open ChatGPT Business Hub
 
-Yes, but it does not mean that SEO is disappearing.
+Sign in to the ChatGPT account you want to use to manage your business.
 
-Search engines and AI platforms have different ways of presenting information. A traditional search engine may show a list of links. A conversational AI platform can interpret a question, combine information and provide a response that helps someone make a decision.
+Open Business Hub from the ChatGPT sidebar. You can also start from OpenAI's [Businesses in ChatGPT page](https://openai.com/business/businesses-in-chatgpt/).
 
-Businesses therefore need to think beyond ranking individual pages.
+Choose the option to claim your business or add a business, depending on what the interface offers.
 
-They need to make their company, products, services, expertise and supporting information easy to understand.
+Use an account that the business owner or authorised representative can continue to access. Avoid starting the process from an employee's personal account if that person will not be responsible for managing the business.
 
-This is where Answer Engine Optimisation (AEO) becomes relevant. AEO focuses on making useful and reliable information easier for AI-powered answer systems to interpret and potentially reference.
+## Step 2: Search for your business
 
-However, no single AEO technique guarantees visibility in ChatGPT. A claimed business profile, structured data, product feeds and well-written content are useful parts of a broader information strategy, not guaranteed ranking signals.
+Search using the business's actual name.
 
-## What should Indian businesses do next?
+If a matching listing appears, open it and check the details carefully. Confirm that it is the correct company and not another business with a similar name.
 
-OpenAI's announcement is an early step towards a more direct relationship between businesses and AI platforms.
+If you cannot find the business, the next step depends on the business type. OpenAI's Help Center says an eligible online business may see an option to add a business. Local stores and restaurants can currently claim only an existing US listing.
 
-For Indian businesses, the immediate priority should be to check Business Hub eligibility, understand the available verification process and improve the quality of their online business information.
+Do not create a duplicate listing just because the first search did not show the result you expected. Check spelling, brand names and the website associated with the business before proceeding.
 
-Business Agents are currently restricted to eligible US businesses, so companies in India should treat that capability as a future opportunity rather than an available product.
+## Step 3: Select the verification method offered
 
-The larger change is worth watching.
+After selecting the correct business, ChatGPT will show the verification methods available for that claim.
 
-Customers may increasingly use AI not just to find a company, but to understand its products, compare its services and decide whether to buy from it.
+OpenAI currently documents these possible methods:
 
-The companies that prepare their information, websites and customer experience for this change will be in a stronger position as these platforms expand.
+### Option A: Verify using your business phone
 
-**The next phase of digital visibility will not be only about whether your website appears in search results. It will also be about whether AI systems can understand your business, explain what you offer and help the right customers find you.**
+1. Select **Business phone** if it appears.
+2. Choose SMS or an automated phone call.
+3. Select **Get code**.
+4. Enter the code sent to the number shown in the verification flow.
+
+Use a number that the business controls and can access. A personal number should not be used unless it is genuinely the business contact number and the interface accepts it.
+
+### Option B: Verify using your business email
+
+1. Select **Business email**.
+2. Select **Get code**.
+3. Open the mailbox associated with your business.
+4. Enter the code sent by OpenAI.
+
+Use an email address that clearly belongs to the business. If the verification screen specifies an address or domain, follow that requirement exactly.
+
+### Option C: Verify using your website domain
+
+This option is especially relevant to businesses that operate through a website.
+
+1. Select **Website domain** in the verification flow.
+2. ChatGPT will display a DNS TXT record.
+3. Sign in to the service that manages your domain's DNS.
+4. Add a new TXT record using the exact type, host or name, and value shown by ChatGPT.
+5. Save the DNS record.
+6. Return to ChatGPT and select **Verify domain**.
+7. Follow any remaining instructions.
+
+A DNS TXT record is a small piece of text stored in your domain's DNS settings. It helps OpenAI check that you control the domain.
+
+Do not copy a sample TXT value from another website or use a value from an unrelated OpenAI verification process. Each claim can have its own record value. Copy the exact information generated in your Business Hub session.
+
+DNS changes may take time to become visible. If verification does not work immediately, wait and try again rather than repeatedly creating different records.
+
+### Option D: Verify through Shopify
+
+If you operate an eligible Shopify store and the Shopify option appears:
+
+1. Select **Shopify store**.
+2. Choose **Connect Shopify**.
+3. Review the permissions requested.
+4. Select the option to log in to Shopify.
+5. Sign in to the store associated with the business.
+6. Follow the prompts to complete the connection.
+
+OpenAI says Shopify merchants can connect through Business Hub or the Shopify admin. The available Shopify flow may depend on the store and its eligibility.
+
+## Step 4: Submit the claim and wait for OpenAI's decision
+
+After completing the selected verification method, submit the claim.
+
+OpenAI reviews the request and sends an email with its decision or a request for more information. The claim may remain under review while the checks are completed.
+
+If the interface provides a way to cancel the claim, use it only if you no longer want to continue.
+
+If the listing is locked or you cannot access it, OpenAI's Help Center says to use the **Contact support** option shown in the flow.
+
+## Step 5: Complete identity verification with Persona
+
+Claim verification and identity verification are not the same thing.
+
+After the claim is approved, OpenAI may ask you to complete identity verification through Persona. This additional step is required before certain actions, including publishing business information changes, viewing insights, connecting a product feed or creating an eligible Business Agent.
+
+The Persona process may ask for a government issued identity document, business registration information and proof that you are authorised to represent the business.
+
+Submit only genuine and accurate information. The person completing the process must be authorised to act for the business.
+
+OpenAI reviews the submission and emails its decision or requests more information. The blue verified badge appears after Persona verification is approved.
+
+## Step 6: Review and update your business information
+
+After the required checks are approved, open your business profile in Business Hub.
+
+Depending on the profile and available features, you may be able to update details such as:
+
+- Business website
+- Business description
+- Business category
+- Logo and cover image
+- Products or services
+- Delivery policy
+- Return policy
+- Product information and availability
+
+Make sure that the details match the information on your website and other official business channels.
+
+OpenAI's policy says businesses must provide accurate information and must be the owner or an authorised representative. Do not add an address, service area, product, qualification or customer promise that does not accurately describe the business.
+
+OpenAI may review submitted changes. Updates can take time to appear in a profile or in ChatGPT answers. ChatGPT may also use information from other sources.
+
+## What if your business is not listed?
+
+Do not assume that every business can create a new profile.
+
+OpenAI's current Help Center describes a different route for eligible online businesses and local businesses:
+
+- If you operate an eligible online business, you may see an option to add it.
+- Local stores and restaurants can currently claim only an existing US listing.
+- If a listing is locked, use the support option in Business Hub.
+- If another person has already claimed your business, use the ownership dispute process and provide the requested proof.
+
+For the online only route, see [How to verify your online business on ChatGPT](/verify-online-business-on-chatgpt/).
+
+For physical locations, see [How to verify your physical business on ChatGPT](/verify-physical-business-on-chatgpt/).
+
+## Common ChatGPT business verification problems
+
+| Problem | What to check |
+|---|---|
+| Business does not appear in search | Check the business name and website. Confirm that the business type is eligible for the add business option |
+| No website domain option | Use only the verification methods shown for your claim |
+| TXT record is not detected | Check the host, value and DNS provider. Allow time for DNS changes to propagate |
+| Business email code does not arrive | Check spam, mailbox access and whether the address matches the business details |
+| Phone code does not arrive | Confirm that the number shown is correct and can receive the selected message or call |
+| Claim is under review | Wait for OpenAI's email. Respond if it requests additional information |
+| Business is already claimed | Use the ownership dispute process rather than creating a duplicate |
+| Persona verification is pending | Wait for the review decision before attempting features that require approval |
+
+## Does verifying a business improve its ChatGPT ranking?
+
+No such guarantee has been announced.
+
+Claiming a business allows eligible companies to manage information and, after the required checks, access certain features. OpenAI says claiming does not guarantee higher placement or sales.
+
+ChatGPT continues to make independent recommendations and comparisons. A business should therefore treat verification as an information accuracy and profile management step, not as a shortcut to ranking first.
+
+Keep your website useful, publish accurate product and service details, explain policies clearly and make it easy for customers to understand what the business offers.
 
 ## Frequently asked questions
 
-### What is Businesses in ChatGPT?
+### Is ChatGPT business verification free?
 
-Businesses in ChatGPT is OpenAI's beta offering that allows eligible companies to claim and manage their business information, view aggregated engagement insights and, where eligible, use Business Agents.
+Check the current Business Hub process and any terms presented during signup. Do not assume that access to every related feature, such as advertising or Business Agents, is included with a business claim.
 
-### Can Indian businesses claim their business on ChatGPT?
+### Can I verify my business on ChatGPT without a physical address?
 
-OpenAI says eligible businesses located in places where ChatGPT is available can claim their business through Business Hub. Indian businesses should check the current eligibility and verification process directly in Business Hub.
+Eligible online businesses may be able to add and claim a business without a customer facing physical store. The exact options depend on the business's location, type and the verification methods shown in Business Hub.
 
-### What is a ChatGPT Business Agent?
+### Can I verify my business using only my website?
 
-A Business Agent is a conversational experience that a company can build to help customers explore its products and services, compare options and ask follow-up questions.
+If the Website domain option is offered, you can verify control by adding the TXT record supplied by ChatGPT to your domain's DNS settings. The process may still require further claim review or Persona identity verification.
 
-### Are Business Agents available in India?
+### Can I claim a business in India?
 
-As of November 12, 2026, OpenAI's announcement says Business Agents are available to eligible ecommerce and online service businesses in the United States. It has not announced general availability for Indian businesses.
+OpenAI says eligible businesses in locations where ChatGPT is available can claim a business, but eligibility depends on location, business type and verification support. Its current Help Center says local stores and restaurants can claim only an existing US listing. Online businesses should check whether the add business option is available to them.
 
-### Does claiming a business guarantee that ChatGPT will recommend it?
+### Does a verified business get a blue tick immediately?
 
-No. Claiming a business allows eligible companies to manage their information. OpenAI does not say that claiming a profile guarantees recommendations, mentions, rankings or website citations.
+No. OpenAI says the blue check appears after the required Persona identity verification is approved. Claim submission alone does not provide the badge.
 
-### Will businesses be able to read customer conversations?
+### Can I create a Business Agent after verification?
 
-No. OpenAI says Business Hub provides aggregated insights and does not share users' individual conversations or Business Agent chats with businesses.
+Only if the business meets the separate Business Agent requirements. OpenAI currently describes Business Agents as available to eligible ecommerce and online service businesses in the United States. Business verification alone does not guarantee Agent eligibility.
 
-### How is Business Hub different from Google Business Profile?
+## Official sources
 
-Both involve managing business information, but they are different products with different platforms and capabilities. Business Hub also introduces ChatGPT-specific engagement insights and a route towards Business Agents.
-
-## Source
-
-OpenAI: [Introducing Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt/), November 10, 2026.
+- [Setting up your business on ChatGPT](https://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt)
+- [Businesses in ChatGPT: Claim Your Business](https://openai.com/business/businesses-in-chatgpt/)
+- [Businesses in ChatGPT policy](https://openai.com/policies/businesses-in-chatgpt/)
