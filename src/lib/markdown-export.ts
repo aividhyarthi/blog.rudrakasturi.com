@@ -29,5 +29,5 @@ export function postMarkdown(post: Post): string {
     '',
     `Canonical article: ${canonical}`,
   ];
-  return lines.join('\\n');
+  return lines.join('\n');
 }
