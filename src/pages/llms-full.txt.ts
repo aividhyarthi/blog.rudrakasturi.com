@@ -10,8 +10,8 @@ export async function GET() {
     'Each entry is generated from the canonical Markdown source used to publish the HTML article.',
     '',
     ...posts.flatMap((post) => [postMarkdown(post), '', '---', '']),
-  ].join('\\n');
+  ].join('\n');
   return new Response(content, {
-    headers: { 'Content-Type': 'text/plain; charset=utf-8', 'X-Robots-Tag': 'noindex' },
+    headers: { 'Content-Type': 'text/plain; charset=utf-8' },
   });
 }
