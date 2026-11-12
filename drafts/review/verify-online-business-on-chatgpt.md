@@ -28,6 +28,10 @@ For an online only company, the website domain verification option is especially
 
 This guide explains how the process works, what information to prepare, how to add the TXT record and what to do if verification fails.
 
+![ChatGPT Business Hub dashboard showing a business profile and its management options](/images/verify-business-on-chatgpt/business-hub-dashboard.jpg)
+
+*The dashboard is where an eligible online business can manage its claimed profile and available features.*
+
 **Important:** Having a website does not automatically make a business eligible. OpenAI considers factors including location, business type and verification support. Follow the options shown in your own Business Hub account.
 
 ## Can you verify an online business without a physical address?
@@ -165,6 +169,10 @@ If the claim is approved, you can access the business profile in Business Hub. T
 OpenAI separates the claim verification process from identity verification.
 
 Persona identity verification may be required before you can publish changes to business information, view insights, connect a product feed or create an eligible Business Agent.
+
+![ChatGPT Business Hub identity and authority verification prompt](/images/verify-business-on-chatgpt/authority-verification.jpg)
+
+*Domain control and personal identity checks serve different purposes in the verification process.*
 
 You may be asked for a government issued identity document, business registration details and proof that you are authorised to represent the business.
 
