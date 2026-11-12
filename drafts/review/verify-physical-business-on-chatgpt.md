@@ -28,6 +28,10 @@ That means a business owner should first check whether the business is eligible 
 
 This guide explains the current process, what to do if your listing appears, how verification works and what physical businesses outside the United States need to know.
 
+![ChatGPT Business Hub dashboard showing a business profile and management options](/images/verify-business-on-chatgpt/business-hub-dashboard.jpg)
+
+*The Business Hub dashboard displays the profile and the actions available to its authorised manager.*
+
 ## Can a physical business be verified on ChatGPT?
 
 Eligible physical businesses may be able to claim a listing through Business Hub, subject to OpenAI's location, business type and verification requirements.
@@ -147,6 +151,10 @@ Not every physical business will see every verification method. Use only the opt
 After completing the selected method, submit the claim.
 
 OpenAI says it reviews the request and sends an email with the decision or a request for more information.
+
+![ChatGPT Business Hub status message showing business verification under review](/images/verify-business-on-chatgpt/verification-under-review.jpg)
+
+*Submitting a claim does not mean it is approved immediately. OpenAI may review it and request more information.*
 
 If your listing is locked, use the Contact support option shown in Business Hub.
 
