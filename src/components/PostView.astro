@@ -25,7 +25,7 @@ const origin = new URL(Astro.site!).origin;
 const pageUrl = new URL(Astro.url.pathname, origin).href;
 const modified = updated ?? date;
 const article = {
-  '@type': sources.length > 0 ? 'NewsArticle' : 'Article',
+  '@type': type === 'article' ? 'BlogPosting' : 'Article',
   '@id': `${pageUrl}#article`,
   url: pageUrl,
   isPartOf: { '@id': `${pageUrl}#webpage` },
@@ -60,6 +60,7 @@ const crumbs = [
   title={`${title} | Rudra Kasturi`}
   description={description || tldr || undefined}
   image={coverPngUrl(post)}
+  markdownUrl={`/${post.slug}.md`}
   ogType="article"
   published={date}
   modified={modified}
