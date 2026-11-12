@@ -59,3 +59,19 @@ also need a newsletter service: set `provider` to `'substack'` or `'buttondown'`
 ## Cross-promotion
 - `APPRANKR_POSTS` in `src/config.ts` lists the AppRankr blog posts shown on the homepage and sidebar. Add a line per post (id, title, url, blurb).
 - The orange audit banner (AIPageAudit) appears on the homepage and under every article.
+
+## Markdown and AI-readable article access
+
+The Markdown in `src/content/blog/` is the single source of truth. Do not create or maintain a second copy of an article.
+
+Every published article is automatically available in two forms:
+- Human-readable HTML: `https://blog.rudrakasturi.com/<slug>/`
+- Plain Markdown: `https://blog.rudrakasturi.com/<slug>.md`
+
+The HTML page advertises its Markdown alternate. The Markdown export includes title, canonical URL, publication and modification dates, description, content type, categories, tags, summary and source references.
+
+The site also generates:
+- `/llms.txt`: site guide, topic collections and links to all published articles and their Markdown versions.
+- `/llms-full.txt`: the complete published article corpus in Markdown form.
+
+These outputs are generated at build time from published posts only. Drafts and future-dated posts remain excluded. Do not edit generated files manually. The existing scheduled publishing workflow remains responsible for rebuilding the site when scheduled posts become publishable.
