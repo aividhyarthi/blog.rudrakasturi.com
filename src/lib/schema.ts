@@ -145,7 +145,7 @@ export async function buildArticleBlocks(o: {
   const cover: Record<string, unknown> = {
     '@type': 'ImageObject', '@id': `${pageUrl}#primaryimage`, url: abs(coverPng), contentUrl: abs(coverPng),
     width: 1200, height: 630, encodingFormat: 'image/png', caption: title, name: title, representativeOfPage: true,
-    creator: { '@id': orgId }, creditText: 'Rudra Kasturi Inc.',
+    creditText: 'Rudra Kasturi Inc.',
   };
   const inBody = await Promise.all(bodyImages(post.body).map((i) => imageInfo(i.src, i.alt, origin)));
   const images: Record<string, unknown>[] = [cover, ...inBody.map((i, n) => ({
@@ -153,13 +153,13 @@ export async function buildArticleBlocks(o: {
     ...(i.width ? { width: i.width } : {}), ...(i.height ? { height: i.height } : {}),
     ...(i.format ? { encodingFormat: i.format } : {}),
     ...(i.alt ? { caption: i.alt, name: i.alt, description: i.alt } : {}),
-    creator: { '@id': orgId }, creditText: 'Rudra Kasturi Inc.',
+    creditText: 'Rudra Kasturi Inc.',
   }))];
 
+  // Tables and the FAQ stand on their own: no link back to the Article, so validators do not nest the Article under them.
   const tables = bodyTables(post.body).map((t, n) => ({
     '@type': 'Table', '@id': `${pageUrl}#table-${n + 1}`, name: t.name, about: t.name,
     description: `Table with ${t.rows} rows and the columns: ${t.columns.join(', ')}.`,
-    isPartOf: { '@id': `${pageUrl}#article` },
   }));
   const faq = bodyFaq(post.body);
   const modified = updated ?? date;
@@ -181,8 +181,6 @@ export async function buildArticleBlocks(o: {
     image: images, thumbnailUrl: abs(coverPng),
     author: person,
     publisher: { ...organization },
-    copyrightHolder: { '@id': orgId },
-    ...(tables.length ? { hasPart: tables.map((t) => ({ '@id': t['@id'] })) } : {}),
     ...(sources.length ? { citation: sources.map((s) => ({ '@type': 'CreativeWork', name: s.title, url: s.url, publisher: { '@type': 'Organization', name: s.publisher } })) } : {}),
   };
 
@@ -195,7 +193,6 @@ export async function buildArticleBlocks(o: {
   if (faq.length >= 2) {
     blocks.push({
       '@type': 'FAQPage', '@id': `${pageUrl}#faq`, url: pageUrl, name: title, inLanguage: 'en',
-      isPartOf: { '@id': `${pageUrl}#article` },
       mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     });
   }
