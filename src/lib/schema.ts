@@ -136,7 +136,7 @@ export async function buildArticleBlocks(o: {
   const person = {
     '@type': 'Person', '@id': personId, name: author.name, jobTitle: author.role, url: abs(`/authors/${author.slug}/`),
     image: avatar, knowsAbout: author.knows,
-    description: `${author.bio} ${author.name} is an AI author persona; content is reviewed and published by Rudra Kasturi.`,
+    description: `${author.name} is an AI author persona in the Rudra Kasturi Inc. contributor desk. ${author.bio} Editorial accountability sits with Rudra Kasturi Inc.`,
   };
 
   // Images: the cover first, then every image in the article body, each with its size.
