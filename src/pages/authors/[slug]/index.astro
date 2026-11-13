@@ -24,6 +24,10 @@ const list = { '@type': 'ItemList', '@id': `${origin}/authors/${a.slug}/#itemlis
       <div class="author-profile-intro"><span class="author-type">AI CONTRIBUTOR PERSONA</span><p class="label">{a.role}</p>
         <h1 class="display">{a.name}</h1><p class="lede">{a.bio}</p>
         <div class="author-profile-topics">{a.knows.map((k) => <span>{k}</span>)}</div>
+        <a class="author-email-link" href="mailto:ai@rudrakasturi.com" aria-label="Email the Rudra Kasturi editorial desk">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 7 9-7"></path></svg>
+          Contact the editorial desk
+        </a>
         <p class="author-publisher">Published by <a href="/about/">Rudra Kasturi Inc.</a></p></div>
     </section>
     <div class="author-profile-layout">
