@@ -16,7 +16,7 @@ sources:
     publisher: "Google Workspace"
 categories: ["AI Tools","Google Workspace","Productivity"]
 tags: ["Gemini Skills","Google Workspace","SKILL.md","AI workflows","Gmail"]
-draft: true
+draft: false
 ---
 
 Google is bringing reusable Gemini Skills into everyday Workspace applications. The idea is simple but useful: teach Gemini how your team wants a task done once, save those instructions, and call them again when the same kind of work comes up.
