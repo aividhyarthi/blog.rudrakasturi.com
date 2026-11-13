@@ -22,7 +22,7 @@ sources:
     publisher: "Google Search Central"
 categories: ["SEO","AEO","AI Search"]
 tags: ["Gemini 4 Hydrogen","Google Search","SEO","AI traffic","AI citations","AI Overviews","AI Mode"]
-draft: true
+draft: false
 ---
 
 Google's 12 November 2026 announcement brings Gemini 4 Hydrogen into Google Search globally. Google describes it as the biggest model upgrade to Search yet. The practical change is that Search is being designed to understand more of what a person means, investigate connected parts of a question and return a more structured response with useful links.
