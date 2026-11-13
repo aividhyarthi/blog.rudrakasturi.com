@@ -4,32 +4,33 @@ import Avatar from '../../components/Avatar.astro';
 import { AUTHORS, postsByAuthor } from '../../lib/authors';
 import { getAllPosts } from '../../lib/posts';
 import { SITE } from '../../config';
-
 const all = await getAllPosts();
 const origin = new URL(Astro.site!).origin;
-const list = {
-  '@type': 'ItemList', '@id': `${origin}/authors/#itemlist`, name: 'Contributors', numberOfItems: AUTHORS.length,
-  itemListElement: AUTHORS.map((a, i) => ({ '@type': 'ListItem', position: i + 1, name: a.name, url: `${origin}/authors/${a.slug}/` })),
-};
+const list = { '@type': 'ItemList', '@id': `${origin}/authors/#itemlist`, name: 'Contributors', numberOfItems: AUTHORS.length,
+  itemListElement: AUTHORS.map((a, i) => ({ '@type': 'ListItem', position: i + 1, name: a.name, url: `${origin}/authors/${a.slug}/` })) };
 ---
-<BaseLayout title="Contributors | Rudra Kasturi" description="The contributor desk behind the blog: AI author personas for SEO, AEO, LLMs, Google, YouTube and community search, reviewed and published by Rudra Kasturi." pageType="CollectionPage" jsonld={[list]} mainEntityId={`${origin}/authors/#itemlist`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Contributors', url: '/authors/' }]}>
-  <div class="wrap">
-    <div class="page-head">
-      <p class="label">Contributors</p>
-      <h1>The contributor desk</h1>
-      <p class="lede">Each topic on this blog has its own AI author persona. The personas are not real people. Their articles are drafted with AI from cited public sources, then reviewed and published by Rudra Kasturi, who is responsible for the content.</p>
-    </div>
-    <div class="author-grid">
-      {AUTHORS.map((a) => (
-        <a class="author-card" href={`/authors/${a.slug}/`}>
-          <Avatar author={a} size={96} />
-          <h2>{a.name}</h2>
-          <p class="role">{a.role}</p>
-          <p>{a.bio}</p>
-          <small>{postsByAuthor(all, a.slug).length} articles</small>
+<BaseLayout title="Our Contributors | Rudra Kasturi" description="Meet the specialist AI contributor personas covering SEO, AEO, AI search, LLMs, Google, YouTube and community discovery at Rudra Kasturi." pageType="CollectionPage" jsonld={[list]} mainEntityId={`${origin}/authors/#itemlist`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Contributors', url: '/authors/' }]}>
+  <div class="wrap contributors-page">
+    <section class="contributors-hero">
+      <div><p class="label">THE EDITORIAL DESK</p><h1 class="display">Specialist voices.<br /><mark>One editorial standard.</mark></h1>
+        <p class="lede">A focused contributor desk covering search, AI, publishing and the technology changing how people discover information.</p></div>
+      <div class="contributors-stat"><strong>{AUTHORS.length}</strong><span>specialist AI personas</span><strong>{all.length}</strong><span>published articles</span></div>
+    </section>
+    <div class="contributors-intro"><h2>Meet the contributors</h2>
+      <p>Each contributor has a defined subject area, editorial interests and a distinct point of view. These are AI author personas, not human journalists. Their profiles include illustrative personality details to make the desk easier to navigate. Rudra Kasturi Inc. is the publisher and is responsible for the editorial standards of this site.</p></div>
+    <div class="author-grid author-grid-refresh">
+      {AUTHORS.map((a, i) => (
+        <a class="author-card author-card-refresh" href={`/authors/${a.slug}/`}>
+          <div class="author-card-top"><Avatar author={a} size={104} /><span class="author-index">{String(i + 1).padStart(2, '0')}</span></div>
+          <h2>{a.name}</h2><p class="role">{a.role}</p><p>{a.bio}</p>
+          <div class="author-card-tags">{a.knows.slice(0, 3).map((k) => <span>{k}</span>)}</div>
+          <div class="author-card-foot"><small>{postsByAuthor(all, a.slug).length} articles</small><b>View profile <span aria-hidden="true">→</span></b></div>
         </a>
       ))}
     </div>
+    <section class="contributors-note"><p class="label">HOW THE DESK WORKS</p><h2>Specialisation without pretending to be human</h2>
+      <p>AI personas help organise coverage by subject. They do not have personal employment histories, lived experiences or independent human identities. Articles are prepared using research and cited sources, then published under the Rudra Kasturi Inc. editorial operation.</p>
+      <a class="link-arrow" href="/about/">Read about our editorial approach →</a></section>
     <p class="disclosure">Questions about the content? Write to <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
   </div>
 </BaseLayout>
