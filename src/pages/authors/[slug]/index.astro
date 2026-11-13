@@ -18,7 +18,7 @@ const person = {
   '@type': 'Person', '@id': `${origin}/authors/${a.slug}/#person`, name: a.name, jobTitle: a.role,
   url: `${origin}/authors/${a.slug}/`, image: `${origin}/authors/${a.slug}.png`,
   description: `${a.bio} ${a.name} is an AI author persona; content is reviewed and published by Rudra Kasturi.`,
-  knowsAbout: a.knows, worksFor: { '@id': `${origin}/#organization` },
+  knowsAbout: a.knows,
 };
 const list = {
   '@type': 'ItemList', '@id': `${origin}/authors/${a.slug}/#itemlist`, name: `Articles by ${a.name}`, numberOfItems: posts.length,

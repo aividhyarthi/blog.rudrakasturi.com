@@ -54,18 +54,15 @@ const logo = { '@type': 'ImageObject', '@id': `${origin}/#logo`, url: abs('/logo
 const organization = {
   '@type': 'Organization', '@id': orgId, name: 'Rudra Kasturi Inc.', url: `${origin}/`, logo,
   image: abs('/logo.png'), sameAs: [SITE.linkedin], email: SITE.email, slogan: SITE.tagline,
-  founder: { '@type': 'Person', name: 'Rudra Kasturi', url: abs('/about/') },
 };
 const website = {
   '@type': 'WebSite', '@id': siteId, url: `${origin}/`, name: 'Rudra Kasturi',
   description: 'Clear, sourced analysis of SEO, AEO and AI search by Rudra Kasturi.',
-  publisher: { '@type': 'Organization', '@id': orgId, name: 'Rudra Kasturi Inc.' }, inLanguage: 'en',
+  inLanguage: 'en',
 };
 const webpage = {
   '@type': pageType, '@id': `${pageUrl}#webpage`, url: pageUrl, name: title, description,
-  isPartOf: { '@type': 'WebSite', '@id': siteId, url: `${origin}/` }, inLanguage: 'en',
-  ...(isListing ? { breadcrumb: { '@id': `${pageUrl}#breadcrumb` } } : {}),
-  ...(mainEntityId ? { mainEntity: { '@id': mainEntityId } } : {}),
+  inLanguage: 'en',
   ...(image ? { primaryImageOfPage: { '@type': 'ImageObject', url: abs(image), width: 1200, height: 630 } } : {}),
   ...(published ? { datePublished: published.toISOString() } : {}),
   ...(modified ? { dateModified: modified.toISOString() } : {}),
@@ -85,9 +82,10 @@ const siteNavigation = {
 const extras = isHome ? jsonld.filter((n) => n['@type'] === 'ItemList') : jsonld;
 const aboutPerson = Object.keys(personExtra).length
   ? [{ '@type': 'Person', '@id': personId, name: 'Rudra Kasturi', url: abs('/about/'), sameAs: [SITE.linkedin], email: SITE.email,
-       worksFor: { '@type': 'Organization', '@id': orgId, name: 'Rudra Kasturi Inc.' }, image: abs('/images/rudra-googleio.jpeg'), ...personExtra }]
+       image: abs('/images/rudra-googleio.jpeg'), ...personExtra }]
   : [];
-// One block per entity. Article pages: Article, Person, BreadcrumbList, Organization, ImageObject, Table, FAQPage.
+// One block per entity, with no links between blocks, so each shows on its own in a validator.
+// Article pages: Article, Person, BreadcrumbList, Organization, ImageObject, Table, FAQPage.
 // Home and plain pages: WebPage, Organization, WebSite (+ the latest-articles carousel on the home page).
 // Listing pages: WebPage, Organization, WebSite, BreadcrumbList, SiteNavigationElement and the carousel.
 const blocks: Record<string, unknown>[] = articleBlocks
@@ -133,11 +131,13 @@ const robots = noindex
     <link rel="apple-touch-icon" href="/icon-192.png" />
     <meta name="theme-color" content="#2540f5" />
     {SITE.googleSiteVerification && <meta name="google-site-verification" content={SITE.googleSiteVerification} />}
+    <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MK5HNN7X');</script>
     <title>{title}</title>
     {schemaScripts.map((s) => <script type="application/ld+json" set:html={s} />)}
     <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
   </head>
   <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MK5HNN7X" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="masthead">
       <div class="wrap masthead-in">
         <a href="/" class="brand">Rudra Kasturi <em>Inc.</em></a>

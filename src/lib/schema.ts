@@ -131,14 +131,12 @@ export async function buildArticleBlocks(o: {
   const organization = {
     '@type': 'Organization', '@id': orgId, name: 'Rudra Kasturi Inc.', url: `${origin}/`, logo, image: logo.url,
     sameAs: [SITE.linkedin], email: SITE.email, slogan: SITE.tagline,
-    founder: { '@type': 'Person', name: 'Rudra Kasturi', url: abs('/about/') },
   };
   const avatar = { '@type': 'ImageObject', url: abs(`/authors/${author.slug}.png`), contentUrl: abs(`/authors/${author.slug}.png`), width: 480, height: 480, encodingFormat: 'image/png', caption: `Illustrated avatar of ${author.name}` };
   const person = {
     '@type': 'Person', '@id': personId, name: author.name, jobTitle: author.role, url: abs(`/authors/${author.slug}/`),
     image: avatar, knowsAbout: author.knows,
     description: `${author.bio} ${author.name} is an AI author persona; content is reviewed and published by Rudra Kasturi.`,
-    worksFor: { '@type': 'Organization', '@id': orgId, name: 'Rudra Kasturi Inc.', url: `${origin}/` },
   };
 
   // Images: the cover first, then every image in the article body, each with its size.
@@ -180,7 +178,7 @@ export async function buildArticleBlocks(o: {
     datePublished: date.toISOString(), dateModified: modified.toISOString(),
     image: images, thumbnailUrl: abs(coverPng),
     author: person,
-    publisher: { ...organization },
+    publisher: { '@type': 'Organization', name: 'Rudra Kasturi Inc.', url: `${origin}/`, logo },
     ...(sources.length ? { citation: sources.map((s) => ({ '@type': 'CreativeWork', name: s.title, url: s.url, publisher: { '@type': 'Organization', name: s.publisher } })) } : {}),
   };
 
