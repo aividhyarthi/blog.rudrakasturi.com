@@ -16,7 +16,7 @@ sources:
     publisher: "Google"
 categories: ["Android","AI Development","Mobile"]
 tags: ["Android MCP","Gemini Nano","AICore","ML Kit","Agentic apps"]
-draft: true
+draft: false
 ---
 
 For years, mobile apps have trained people to follow a fixed route. Open the app, find the right screen, tap a menu, enter information and submit.
