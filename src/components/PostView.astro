@@ -57,7 +57,8 @@ const articleBlocks = await buildArticleBlocks({
         <div class="byline-row">
           <Avatar author={author} size={44} />
           <p class="byline">
-            By <a href={`/authors/${author.slug}/`}><b>{author.name}</b></a> · Reviewed by <b>Editorial Desk</b><br />
+            By <a href={`/authors/${author.slug}/`}><b>{author.name}</b></a> <span class="ai-tag">AI contributor</span><br />
+            <span class="byline-role">{author.role} · Published by Rudra Kasturi Inc.</span><br />
             {formatDate(date)} · {readingTime(post)} min read{updated && ` · Updated ${formatDate(updated)}`}
           </p>
         </div>
