@@ -2,7 +2,7 @@ import type { Post } from './posts';
 import { topicOf } from './posts';
 
 // The blog's contributor desk. These are AI author personas (not real people) and are
-// labelled as such on every author page. Rudra Kasturi reviews and publishes the content.
+// clearly labelled as AI personas on every author page. Rudra Kasturi Inc. is the publisher and owns editorial accountability.
 export interface Author {
   slug: string;
   name: string;
@@ -10,6 +10,8 @@ export interface Author {
   topics: string[]; // section slugs they cover
   bio: string;
   knows: string[];
+  interests: string[]; // illustrative editorial interests
+  beyondDesk: string[]; // fictional personality details for the AI persona
   skin: string; hair: string; shirt: string; bg: string;
   style: 'short' | 'long' | 'bun' | 'curly' | 'bald';
   glasses?: boolean; beard?: boolean;
@@ -19,42 +21,62 @@ export const AUTHORS: Author[] = [
   { slug: 'aarav-menon', name: 'Aarav Menon', role: 'Technical SEO Analyst', topics: ['seo'],
     bio: 'Covers crawling, indexing, site architecture, structured data and Core Web Vitals, with a focus on what Google documents and what testing shows.',
     knows: ['Technical SEO', 'Crawling and indexing', 'Core Web Vitals', 'Structured data'],
+    interests: ["Web performance","Open source tooling","Search patents","System design"],
+    beyondDesk: ["Building small browser tools","Reading engineering blogs","Cycling routes","Chess puzzles"],
     skin: '#c68a5f', hair: '#1c1c28', shirt: '#2540f5', bg: '#dfe6ff', style: 'short', glasses: true },
   { slug: 'priya-raman', name: 'Priya Raman', role: 'Search Strategy Editor', topics: ['seo'],
     bio: 'Writes on content strategy, search intent, link building and how SEO teams plan and report their work.',
     knows: ['Content strategy', 'Search intent', 'Link building', 'SEO reporting'],
+    interests: ["Editorial planning","Audience research","Content operations","Digital publishing"],
+    beyondDesk: ["Long-form journalism","Independent magazines","Food writing","Urban walks"],
     skin: '#b57850', hair: '#20151a', shirt: '#0f9d6b', bg: '#d8f7ea', style: 'long' },
   { slug: 'maya-fernandes', name: 'Maya Fernandes', role: 'AEO Analyst', topics: ['aeo'],
     bio: 'Tracks answer engine optimization: how AI Overviews, AI Mode and answer engines pick and cite sources, and what site owners can do about it.',
     knows: ['Answer engine optimization', 'AI Overviews', 'AI citations', 'Generative engine optimization'],
+    interests: ["AI answer quality","Search behaviour","Information architecture","Digital inclusion"],
+    beyondDesk: ["Museum visits","Design journals","Language learning","Documentary films"],
     skin: '#e3b48f', hair: '#6b3a22', shirt: '#7b3df0', bg: '#ece1ff', style: 'bun' },
   { slug: 'daniel-okafor', name: 'Daniel Okafor', role: 'Entities and Structured Data Writer', topics: ['aeo'],
     bio: 'Explains entities, schema markup and knowledge graphs, and how machine-readable pages are understood by search and AI systems.',
     knows: ['Schema markup', 'Entities', 'Knowledge graph', 'llms.txt'],
+    interests: ["Knowledge graphs","Semantic web","Data quality","Open standards"],
+    beyondDesk: ["Afrofuturist fiction","Jazz history","Logic puzzles","Community mentoring"],
     skin: '#7a4a2e', hair: '#0d0d12', shirt: '#ff5a1f', bg: '#ffe4d6', style: 'short', beard: true },
   { slug: 'kenji-watanabe', name: 'Kenji Watanabe', role: 'LLM and AI Products Reporter', topics: ['llms'],
     bio: 'Follows ChatGPT, Gemini, Claude, Perplexity and Copilot: product changes, model releases and what they mean for publishers and marketers.',
     knows: ['ChatGPT', 'Gemini', 'Claude', 'Perplexity'],
+    interests: ["Foundation models","AI product design","Human-computer interaction","Developer ecosystems"],
+    beyondDesk: ["Photography","Japanese design","Retro computing","Coffee brewing"],
     skin: '#e8c29c', hair: '#15151c', shirt: '#14213d', bg: '#d9ecff', style: 'short', glasses: true },
   { slug: 'sofia-alvarez', name: 'Sofia Alvarez', role: 'AI Search Research Writer', topics: ['llms', 'aeo'],
     bio: 'Reads the studies on AI search behavior, citation patterns and referral traffic, and summarizes the findings with the numbers.',
     knows: ['AI search studies', 'Referral traffic', 'Citation analysis', 'Measurement'],
+    interests: ["AI and information behaviour","Search product research","Publisher visibility","Evidence-led measurement"],
+    beyondDesk: ["Street photography","Hiking","Contemporary fiction","Sustainable travel"],
     skin: '#d2a07a', hair: '#3a2418', shirt: '#0f9d6b', bg: '#d8f7ea', style: 'curly' },
   { slug: 'rohan-iyer', name: 'Rohan Iyer', role: 'Google Updates Reporter', topics: ['google'],
     bio: 'Covers Google core updates, spam policies, Search Console changes and the statements from Google Search Central.',
     knows: ['Core updates', 'Spam policies', 'Search Console', 'Google Search Central'],
+    interests: ["Search policy","Algorithm updates","Publisher ecosystems","Search Console"],
+    beyondDesk: ["Cricket analytics","History podcasts","Long-distance running","Public policy"],
     skin: '#b9825a', hair: '#1a1410', shirt: '#2540f5', bg: '#dfe6ff', style: 'short' },
   { slug: 'elena-petrova', name: 'Elena Petrova', role: 'Google Ads and Discover Editor', topics: ['google'],
     bio: 'Writes about Google Ads, Discover, Business Profiles and Merchant Center, including policy and product changes.',
     knows: ['Google Ads', 'Google Discover', 'Business Profile', 'Merchant Center'],
+    interests: ["Performance advertising","Discovery systems","Commerce media","Platform policy"],
+    beyondDesk: ["Architecture","Art exhibitions","Classical music","City breaks"],
     skin: '#f0cdb0', hair: '#8a5a2b', shirt: '#ff5a1f', bg: '#ffe4d6', style: 'long' },
   { slug: 'tara-nguyen', name: 'Tara Nguyen', role: 'YouTube and Video Search Writer', topics: ['youtube'],
     bio: 'Covers YouTube search, Shorts, recommendations and creator policy, and how video shows up in Google and AI answers.',
     knows: ['YouTube SEO', 'Shorts', 'Video search', 'Creator policy'],
+    interests: ["Video discovery","Creator economy","Short-form storytelling","Audience retention"],
+    beyondDesk: ["Independent cinema","Travel journals","Cooking","Live music"],
     skin: '#e0b48a', hair: '#141018', shirt: '#7b3df0', bg: '#ece1ff', style: 'bun', glasses: true },
   { slug: 'marcus-bell', name: 'Marcus Bell', role: 'Community and Social Search Reporter', topics: ['forums'],
     bio: 'Follows Reddit, forums, Instagram and social platforms, and how community conversations influence search and AI answers.',
     knows: ['Reddit', 'Forums', 'Instagram', 'Social search'],
+    interests: ["Online communities","Social discovery","Trust and safety","Digital culture"],
+    beyondDesk: ["Community radio","Street food","Football","Oral histories"],
     skin: '#a56a45', hair: '#2b1a10', shirt: '#14213d', bg: '#d9ecff', style: 'bald', beard: true },
 ];
 
