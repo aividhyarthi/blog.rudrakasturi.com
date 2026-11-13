@@ -12,6 +12,7 @@ import Avatar from './Avatar.astro';
 import Share from './Share.astro';
 import { authorOf } from '../lib/authors';
 import { SITE, NEWSLETTER } from '../config';
+import { buildArticleBlocks } from '../lib/schema';
 
 const { post, related, series = [] } = Astro.props as { post: Post; related: Post[]; series?: Post[] };
 const { Content } = await post.render();
@@ -24,36 +25,16 @@ const label = { article: 'Article', research: 'Research', 'case-study': 'Case st
 const origin = new URL(Astro.site!).origin;
 const pageUrl = new URL(Astro.url.pathname, origin).href;
 const modified = updated ?? date;
-const article = {
-  '@type': type === 'article' ? 'BlogPosting' : 'Article',
-  '@id': `${pageUrl}#article`,
-  url: pageUrl,
-  isPartOf: { '@id': `${pageUrl}#webpage` },
-  mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
-  headline: title.slice(0, 110),
-  description: description || tldr || title,
-  ...(tldr ? { abstract: tldr } : {}),
-  image: [{ '@type': 'ImageObject', url: `${origin}${coverPngUrl(post)}`, width: 1200, height: 630 }],
-  datePublished: date.toISOString(),
-  dateModified: modified.toISOString(),
-  author: { '@id': `${origin}/authors/${author.slug}/#person` },
-  reviewedBy: { '@id': `${origin}/#organization` },
-  publisher: { '@type': 'Organization', '@id': `${origin}/#organization`, name: 'Rudra Kasturi Inc.', logo: { '@type': 'ImageObject', url: `${origin}/logo.png`, width: 512, height: 512 } },
-  articleSection: topic.name,
-  keywords: [...new Set([topic.name, ...tagsOf(post).map((t) => t.name)])].slice(0, 8).join(', '),
-  wordCount: post.body.split(/\s+/).filter(Boolean).length,
-  timeRequired: `PT${readingTime(post)}M`,
-  inLanguage: 'en',
-  isAccessibleForFree: true,
-  ...(sources.length
-    ? { citation: sources.map((src) => ({ '@type': 'CreativeWork', name: src.title, url: src.url, publisher: { '@type': 'Organization', name: src.publisher } })) }
-    : {}),
-};
 const crumbs = [
   { name: 'Home', url: '/' },
   { name: topic.name, url: `/category/${topic.slug}/` },
   { name: title, url: Astro.url.pathname },
 ];
+// Article, Person, BreadcrumbList, Organization, ImageObject, Table and FAQPage, each in its own block.
+const articleBlocks = await buildArticleBlocks({
+  post, origin, pageUrl, author, topic, crumbs,
+  tags: tagsOf(post).map((x) => x.name), coverPng: coverPngUrl(post), minutes: readingTime(post),
+});
 ---
 
 <BaseLayout
@@ -66,13 +47,7 @@ const crumbs = [
   modified={modified}
   section={topic.name}
   breadcrumbs={crumbs}
-  jsonld={[article, {
-    '@type': 'Person', '@id': `${origin}/authors/${author.slug}/#person`, name: author.name, jobTitle: author.role,
-    url: `${origin}/authors/${author.slug}/`, image: `${origin}/authors/${author.slug}.png`, knowsAbout: author.knows,
-    description: `${author.bio} ${author.name} is an AI author persona; content is reviewed and published by Rudra Kasturi.`,
-    worksFor: { '@id': `${origin}/#organization` },
-  }]}
-  mainEntityId={`${pageUrl}#article`}
+  articleBlocks={articleBlocks}
 >
   <div class="wrap layout">
     <div class="article-main">
