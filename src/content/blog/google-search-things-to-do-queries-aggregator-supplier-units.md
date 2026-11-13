@@ -19,7 +19,7 @@ sources:
     publisher: "Google Search Central"
 categories: ["Google Search","Travel SEO","Local Discovery"]
 tags: ["Things to Do","Aggregator units","Supplier units","Travel platforms","Google Search"]
-draft: true
+draft: false
 ---
 
 A person planning a weekend in Paris may not begin with a hotel or flight search. They may ask a more immediate question: what can we do this Saturday, how much will it cost and where can we book it?
