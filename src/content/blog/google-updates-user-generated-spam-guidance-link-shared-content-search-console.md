@@ -13,7 +13,7 @@ sources:
     publisher: "Google Search Central"
 categories: ["SEO","Forums","Google Search","Platform Safety"]
 tags: ["User generated content","UGC spam","Forums SEO","Search Console","Link sharing"]
-draft: true
+draft: false
 ---
 
 A user creates a page on your platform and clicks "Share link". They send it to a colleague, customer or family member. The page is intended for direct access by people who have the link.
