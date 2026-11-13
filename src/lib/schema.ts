@@ -132,7 +132,7 @@ export async function buildArticleBlocks(o: {
     '@type': 'Organization', '@id': orgId, name: 'Rudra Kasturi Inc.', url: `${origin}/`, logo, image: logo.url,
     sameAs: [SITE.linkedin], email: SITE.email, slogan: SITE.tagline,
   };
-  const avatar = { '@type': 'ImageObject', url: abs(`/authors/${author.slug}.png`), contentUrl: abs(`/authors/${author.slug}.png`), width: 480, height: 480, encodingFormat: 'image/png', caption: `Illustrated avatar of ${author.name}` };
+  const avatar = { '@type': 'ImageObject', url: abs(`/images/authors/${author.slug}.jpg`), contentUrl: abs(`/images/authors/${author.slug}.jpg`), width: 480, height: 480, encodingFormat: 'image/jpeg', caption: `Portrait of ${author.name}` };
   const person = {
     '@type': 'Person', '@id': personId, name: author.name, jobTitle: author.role, url: abs(`/authors/${author.slug}/`),
     image: avatar, knowsAbout: author.knows,
