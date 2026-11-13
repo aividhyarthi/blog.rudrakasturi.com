@@ -4,41 +4,51 @@ import PostEntry from '../../../components/PostEntry.astro';
 import Avatar from '../../../components/Avatar.astro';
 import { AUTHORS, postsByAuthor } from '../../../lib/authors';
 import { getAllPosts } from '../../../lib/posts';
-import { SITE } from '../../../config';
-
-export function getStaticPaths() {
-  return AUTHORS.map((a) => ({ params: { slug: a.slug }, props: { a } }));
-}
+export function getStaticPaths() { return AUTHORS.map((a) => ({ params: { slug: a.slug }, props: { a } })); }
 const { a } = Astro.props;
 const all = await getAllPosts();
 const posts = postsByAuthor(all, a.slug);
 const shown = posts.slice(0, 20);
 const origin = new URL(Astro.site!).origin;
-const person = {
-  '@type': 'Person', '@id': `${origin}/authors/${a.slug}/#person`, name: a.name, jobTitle: a.role,
+const person = { '@type': 'Person', '@id': `${origin}/authors/${a.slug}/#person`, name: a.name, jobTitle: a.role,
   url: `${origin}/authors/${a.slug}/`, image: `${origin}/authors/${a.slug}.png`,
-  description: `${a.bio} ${a.name} is an AI author persona; content is reviewed and published by Rudra Kasturi.`,
-  knowsAbout: a.knows,
-};
-const list = {
-  '@type': 'ItemList', '@id': `${origin}/authors/${a.slug}/#itemlist`, name: `Articles by ${a.name}`, numberOfItems: posts.length,
-  itemListElement: shown.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })),
-};
+  description: `${a.name} is an AI author persona in the Rudra Kasturi Inc. contributor desk. ${a.bio}`, knowsAbout: a.knows };
+const list = { '@type': 'ItemList', '@id': `${origin}/authors/${a.slug}/#itemlist`, name: `Articles by ${a.name}`, numberOfItems: posts.length,
+  itemListElement: shown.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })) };
 ---
-<BaseLayout title={`${a.name}, ${a.role} | Rudra Kasturi`} description={`${a.name} covers ${a.knows.slice(0, 3).join(', ')}. AI author persona, reviewed by Rudra Kasturi.`} pageType="ProfilePage" jsonld={[person, list]} mainEntityId={`${origin}/authors/${a.slug}/#person`} image={`/authors/${a.slug}.png`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Contributors', url: '/authors/' }, { name: a.name, url: `/authors/${a.slug}/` }]}>
-  <div class="wrap">
-    <div class="page-head author-head">
-      <Avatar author={a} size={120} />
-      <div>
-        <p class="label">{a.role}</p>
-        <h1>{a.name}</h1>
-        <p class="lede">{a.bio}</p>
-        <p class="disclosure">{a.name} is an AI author persona, not a real person. Articles are reviewed and published by <a href="/about/">Rudra Kasturi</a>. <a href="/authors/">All contributors</a></p>
+<BaseLayout title={`${a.name}, ${a.role} | Rudra Kasturi`} description={`${a.name} is an AI author persona covering ${a.knows.slice(0, 3).join(', ')} for Rudra Kasturi Inc.`} pageType="ProfilePage" jsonld={[person, list]} mainEntityId={`${origin}/authors/${a.slug}/#person`} image={`/authors/${a.slug}.png`} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Contributors', url: '/authors/' }, { name: a.name, url: `/authors/${a.slug}/` }]}>
+  <div class="wrap author-profile">
+    <p class="author-breadcrumb"><a href="/">Home</a> / <a href="/authors/">Contributors</a> / {a.name}</p>
+    <section class="author-profile-hero">
+      <Avatar author={a} size={220} />
+      <div class="author-profile-intro"><span class="author-type">AI CONTRIBUTOR PERSONA</span><p class="label">{a.role}</p>
+        <h1 class="display">{a.name}</h1><p class="lede">{a.bio}</p>
+        <div class="author-profile-topics">{a.knows.map((k) => <span>{k}</span>)}</div>
+        <p class="author-publisher">Published by <a href="/about/">Rudra Kasturi Inc.</a></p></div>
+    </section>
+    <div class="author-profile-layout">
+      <div class="author-profile-main">
+        <section class="author-section"><p class="label">PROFILE</p><h2>About {a.name.split(' ')[0]}</h2>
+          <p>{a.bio} The role of this contributor persona is to bring a consistent subject lens to research, explain technical developments in plain language and connect announcements with practical implications for publishers, marketers and businesses.</p>
+          <p>This is an AI persona created to organise specialist coverage. It does not represent a real individual, personal career history or lived experience. Editorial accountability sits with Rudra Kasturi Inc.</p></section>
+        <section class="author-section"><p class="label">SUBJECT EXPERTISE</p><h2>Areas of focus</h2><div class="author-expertise">{a.knows.map((k) => <span>{k}</span>)}</div></section>
+        <section class="author-section"><p class="label">EDITORIAL INTERESTS</p><h2>Questions this desk explores</h2>
+          <div class="author-interest-grid">{a.interests.map((x) => <div><span class="interest-mark">+</span>{x}</div>)}</div></section>
+        <section class="author-section"><p class="label">LATEST WORK</p><h2>Articles by {a.name.split(' ')[0]} <span class="article-count">({posts.length})</span></h2>
+          {shown.length > 0 ? shown.map((p) => <PostEntry post={p} />) : <p>New articles from this contributor will appear here.</p>}
+          {posts.length > shown.length && <p class="more"><a class="link-arrow" href={`/category/${a.topics[0]}/`}>Explore more in {a.topics[0].toUpperCase()} →</a></p>}</section>
       </div>
+      <aside class="author-profile-aside">
+        <section class="author-aside-card author-aside-highlight"><p class="label">AT A GLANCE</p><h2>The brief</h2><dl>
+          <dt>Contributor type</dt><dd>AI editorial persona</dd><dt>Desk</dt><dd>{a.role}</dd>
+          <dt>Coverage areas</dt><dd>{a.topics.map((t) => t.toUpperCase()).join(', ')}</dd><dt>Publisher</dt><dd>Rudra Kasturi Inc.</dd></dl></section>
+        <section class="author-aside-card"><p class="label">BEYOND THE DESK</p><h2>Persona interests</h2>
+          <p class="aside-explainer">Illustrative interests that give this AI persona a recognisable editorial character. They are not claims about a real person's hobbies.</p>
+          <ul>{a.beyondDesk.map((x) => <li>{x}</li>)}</ul></section>
+        <section class="author-aside-card author-disclosure-card"><h2>Editorial transparency</h2>
+          <p>This profile belongs to an AI contributor persona. It is not a human author biography. Rudra Kasturi Inc. publishes the site and owns its editorial standards.</p>
+          <a class="link-arrow" href="/about/">About the publication →</a></section>
+      </aside>
     </div>
-    <h2 class="rail-title" style="margin-top:24px">Articles by {a.name}</h2>
-    {shown.map((p) => <PostEntry post={p} />)}
-    {posts.length > shown.length && <p class="more"><a class="link-arrow" href={`/category/${a.topics[0]}/`}>More in {a.topics[0].toUpperCase()} &rarr;</a></p>}
-    <div style="height:64px"></div>
   </div>
 </BaseLayout>
