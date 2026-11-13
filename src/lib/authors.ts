@@ -80,6 +80,10 @@ export const AUTHORS: Author[] = [
     skin: '#a56a45', hair: '#2b1a10', shirt: '#14213d', bg: '#d9ecff', style: 'bald', beard: true },
 ];
 
+// Authors with no photo yet; they keep the illustrated avatar until one is supplied.
+export const NO_PHOTO = ['kenji-watanabe', 'rohan-iyer', 'elena-petrova', 'marcus-bell'];
+export const avatarPath = (slug: string) => (NO_PHOTO.includes(slug) ? `/authors/${slug}.svg` : `/images/authors/${slug}.jpg`);
+
 export const authorBySlug = (slug: string) => AUTHORS.find((a) => a.slug === slug)!;
 
 export function authorsForTopic(topicSlug: string): Author[] {
