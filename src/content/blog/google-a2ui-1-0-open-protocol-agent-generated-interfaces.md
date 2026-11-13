@@ -16,7 +16,7 @@ sources:
     publisher: "A2UI"
 categories: ["AI Development","Agents","Product"]
 tags: ["A2UI","Generative UI","Google Developers","AI agents","MCP"]
-draft: true
+draft: false
 ---
 
 Most AI assistants still communicate in one dominant format: text. Ask an assistant to compare three insurance plans and it may return a long explanation. Ask it to help reschedule a meeting and it may give you a sequence of instructions.
