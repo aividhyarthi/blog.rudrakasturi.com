@@ -6,7 +6,7 @@ tag: "Google Workspace"
 tldr: "Google is rolling out reusable Gemini Skills across Workspace apps and Workspace Studio. A Skill is a repeatable set of instructions, rules and reference material that tells Gemini how to perform a type of task. Instead of explaining your brand voice, report format or sales process in every prompt, you can save the instructions and invoke them with / or @. Skills can be combined and connected to Studio flows. Availability depends on the Workspace edition and age eligibility. The practical opportunity is to standardise repetitive knowledge work, while keeping human review for important decisions."
 sources:
   - title: "Scale customized AI across your team with skills in Google Workspace and Workspace Studio"
-    url: "https://workspaceupdates.googleblog.com/"
+    url: "https://workspaceupdates.googleblog.com/2026/11/skills-in-workspace.html"
     publisher: "Google Workspace"
   - title: "About the transition from Gems to skills"
     url: "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/about-the-transition-to-skills"
@@ -63,7 +63,7 @@ This does not mean every task becomes automatic. A Skill guides Gemini. It does 
 
 ## 3. How do you actually use a Skill?
 
-Google's November 9 rollout update says Skills are rolling out across Workspace Studio and Workspace apps, including Gmail, Docs, Slides, Drive and Chat on the web. The exact interface and availability can vary during rollout.
+Google's 10 November rollout announcement says Skills are rolling out across Workspace Studio and Workspace apps, including Gmail, Docs, Slides, Drive and Chat on the web. They are not yet available in Sheets or Meet, and Workspace Skills currently support English prompts and instructions only. The exact interface and availability can vary during rollout.
 
 A practical starting process looks like this:
 
@@ -84,7 +84,7 @@ Describe the inputs, steps, output format and rules. Include examples of good ou
 
 **Step 3: Create or edit the Skill.**
 
-Google says users can create Skills from scratch, start with templates and edit Markdown-native SKILL.md files in Workspace Studio. Skills can also be drafted and collaborated on in Google Docs. Follow the current in-product creation flow available to your account.
+Google says users can create Skills from scratch, start with templates and edit Markdown-native SKILL.md files in Workspace Studio. They can also draft and collaborate on Skills in Google Docs, or prompt Gemini in Gmail, Docs, Slides, Drive and Chat to create, refine and test them. Follow the current in-product creation flow available to your account.
 
 **Step 4: Test before sharing or using it widely.**
 
@@ -92,7 +92,7 @@ Give the Skill three different examples: a normal case, an incomplete case and a
 
 **Step 5: Invoke it when needed.**
 
-Google's guidance says users can invoke a Skill in chat using / or @ followed by its name. Skills can be combined in a single prompt. For example, a user might apply a "Meeting Summary" Skill and a "Project Status Report" Skill to turn a meeting transcript into a structured update.
+Google says Gemini can automatically recognise an enabled Skill when it is relevant, or users can invoke one or more Skills explicitly with an @ mention. For example, a user might apply a "Meeting Summary" Skill and a "Project Status Report" Skill to turn a meeting transcript into a structured update. Users can create, test and share Skills from Workspace Studio, draft and collaborate on them in Google Docs, and create or refine them by prompting Gemini inside supported Workspace apps. A shared Skill is an independent copy: later edits by the original creator do not overwrite the recipient's copy. If the Skill refers to Drive files, recipients also need permission to those files.
 
 **Step 6: Share and connect it to a workflow.**
 
