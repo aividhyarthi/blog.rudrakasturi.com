@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 import type { Post } from './posts';
-import type { Author } from './authors';
+import { avatarPath, type Author } from './authors';
 import { SITE } from '../config';
 
 const PUBLIC = path.resolve(process.cwd(), 'public');
@@ -132,7 +132,7 @@ export async function buildArticleBlocks(o: {
     '@type': 'Organization', '@id': orgId, name: 'Rudra Kasturi Inc.', url: `${origin}/`, logo, image: logo.url,
     sameAs: [SITE.linkedin], email: SITE.email, slogan: SITE.tagline,
   };
-  const avatar = { '@type': 'ImageObject', url: abs(`/images/authors/${author.slug}.jpg`), contentUrl: abs(`/images/authors/${author.slug}.jpg`), width: 480, height: 480, encodingFormat: 'image/jpeg', caption: `Portrait of ${author.name}` };
+  const avatar = { '@type': 'ImageObject', url: abs(avatarPath(author.slug)), contentUrl: abs(avatarPath(author.slug)), width: 480, height: 480, encodingFormat: avatarPath(author.slug).endsWith('.svg') ? 'image/svg+xml' : 'image/jpeg', caption: `Portrait of ${author.name}` };
   const person = {
     '@type': 'Person', '@id': personId, name: author.name, jobTitle: author.role, url: abs(`/authors/${author.slug}/`),
     image: avatar, knowsAbout: author.knows,

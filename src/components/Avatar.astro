@@ -1,6 +1,6 @@
 ---
-import type { Author } from '../lib/authors';
+import { avatarPath, type Author } from '../lib/authors';
 const { author, size = 44 } = Astro.props as { author: Author; size?: number };
-const portrait = `/images/authors/${author.slug}.jpg`;
+const portrait = avatarPath(author.slug);
 ---
 <img class="avatar" src={portrait} alt={`AI generated editorial portrait representing ${author.name}`} width={size} height={size} loading="lazy" decoding="async" style={`width:${size}px;height:${size}px;object-fit:cover;border-radius:50%`} />
