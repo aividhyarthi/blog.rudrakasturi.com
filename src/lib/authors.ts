@@ -2,7 +2,7 @@ import type { Post } from './posts';
 import { topicOf } from './posts';
 
 // The blog's contributor desk. These are AI author personas (not real people) and are
-// labelled as such on every author page. Rudra Kasturi reviews and publishes the content.
+// clearly labelled as AI personas on every author page. Rudra Kasturi Inc. is the publisher and owns editorial accountability.
 export interface Author {
   slug: string;
   name: string;
@@ -51,7 +51,7 @@ export const AUTHORS: Author[] = [
   { slug: 'sofia-alvarez', name: 'Sofia Alvarez', role: 'AI Search Research Writer', topics: ['llms', 'aeo'],
     bio: 'Reads the studies on AI search behavior, citation patterns and referral traffic, and summarizes the findings with the numbers.',
     knows: ['AI search studies', 'Referral traffic', 'Citation analysis', 'Measurement'],
-    interests: ["AI search studies","Referral traffic","Citation analysis","Measurement"],
+    interests: ["AI and information behaviour","Search product research","Publisher visibility","Evidence-led measurement"],
     beyondDesk: ["Street photography","Hiking","Contemporary fiction","Sustainable travel"],
     skin: '#d2a07a', hair: '#3a2418', shirt: '#0f9d6b', bg: '#d8f7ea', style: 'curly' },
   { slug: 'rohan-iyer', name: 'Rohan Iyer', role: 'Google Updates Reporter', topics: ['google'],
