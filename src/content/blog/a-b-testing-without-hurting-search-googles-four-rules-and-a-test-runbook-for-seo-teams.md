@@ -3,18 +3,23 @@ title: "A/B testing without hurting search: Google's four rules and a test runbo
 date: 2026-11-14T12:00:00+05:30
 description: "Google's guidance on minimizing A/B testing impact in Search: no cloaking, rel=canonical, 302 not 301, and a short test. A runbook with owners, checks and a made-up example."
 tag: "SEO"
-tldr: "Google's A/B testing page (last updated 10 December 2025) says do not cloak test pages, use rel=canonical on alternate URLs, use 302 rather than 301 redirects, and run the experiment only as long as necessary, then remove the test elements. Googlebot generally does not support cookies. The runbook is ours."
+tldr: "Google's A/B testing page says do not cloak test pages, use rel=canonical on alternate URLs, use 302 rather than 301 redirects, and run the experiment only as long as necessary, then remove the test elements. Googlebot generally does not support cookies. The runbook is ours."
 sources:
   - title: "Minimize A/B testing impact in Google Search"
     url: "https://developers.google.com/search/docs/crawling-indexing/website-testing"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "Experiments", "Technical SEO"]
 tags: ["A/B testing", "Cloaking", "302 redirect", "rel=canonical", "Experiments"]
 ---
 
-Growth teams test pages all the time, and SEO teams are often asked afterwards whether a test hurt search. Google's testing page (last updated 10 December 2025 as we read it) gives four rules. This post turns them into a runbook you can attach to every experiment ticket.
+Growth teams test pages all the time, and SEO teams are often asked afterwards whether a test hurt search. Google's testing page gives four rules. This post turns them into a runbook you can attach to every experiment ticket.
 
-**Best for:** SEO leads working with product, growth and conversion teams.
+**Best for:** SEO leads working with product, growth and conversion teams. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** An A/B test shows different versions of a page to different visitors to see which works better. The risk for search is that Google may see versions you did not intend, so the setup matters.
+
+**SEO and AEO angle:** Google's generative AI guide says its AI features are rooted in core Search ranking and quality systems, so the SEO hygiene in this post applies there too.
 
 ![A/B testing and search: do not cloak, canonical the variants, use 302 redirects, and end the test promptly](/images/ab-testing-search/ab-testing.svg)
 

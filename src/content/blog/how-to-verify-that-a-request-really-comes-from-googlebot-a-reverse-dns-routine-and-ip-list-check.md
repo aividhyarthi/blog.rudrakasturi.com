@@ -3,18 +3,23 @@ title: "How to verify that a request really comes from Googlebot: a reverse DNS 
 date: 2026-11-14T14:00:00+05:30
 description: "Google's page on verifying its crawlers and fetchers: three categories, the reverse then forward DNS check, and published IP lists. A routine with owners and checks, plus a made-up example."
 tag: "SEO"
-tldr: "Google's verification page (last updated 20 March 2026) says you can check whether a request really comes from Google by reverse DNS lookup then a forward lookup that must match the original IP, or by matching IPs against Google's published JSON lists. Crawlers fall into three categories: common, special-case and user-triggered. The routine is ours."
+tldr: "Google's verification page says you can check whether a request really comes from Google by reverse DNS lookup then a forward lookup that must match the original IP, or by matching IPs against Google's published JSON lists. Crawlers fall into three categories: common, special-case and user-triggered. The routine is ours."
 sources:
   - title: "Verify requests from Google crawlers and fetchers"
     url: "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "Crawling", "Server logs"]
 tags: ["Googlebot", "Reverse DNS", "Server logs", "Crawlers", "Bot verification"]
 ---
 
-A user agent string can say anything. If your logs show "Googlebot" hitting a page thousands of times, you need a way to know whether Google really sent it. Google's verification page (last updated 20 March 2026 as we read it) gives two methods. This post turns them into a routine for log analysis and for security reviews.
+A user agent string can say anything. If your logs show "Googlebot" hitting a page thousands of times, you need a way to know whether Google really sent it. Google's verification page gives two methods. This post turns them into a routine for log analysis and for security reviews.
 
-**Best for:** SEO analysts, developers and security teams who read server logs.
+**Best for:** SEO analysts, developers and security teams who read server logs. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** Googlebot is the program Google uses to visit pages so they can appear in Search. Anyone can pretend to be it in a server log, so Google publishes a way to check.
+
+**SEO and AEO angle:** Google's generative AI guide says its AI features use publicly accessible, crawlable content, so knowing which visits are really Google's helps you keep crawling healthy without blocking the real thing.
 
 ![Verifying Googlebot: identify the category, reverse DNS lookup, forward lookup must match the IP, or match the published IP lists](/images/verify-googlebot-requests/verify-googlebot.svg)
 

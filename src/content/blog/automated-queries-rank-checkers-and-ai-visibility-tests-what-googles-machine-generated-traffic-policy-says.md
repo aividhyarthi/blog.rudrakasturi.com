@@ -3,21 +3,27 @@ title: "Automated queries, rank checkers and AI visibility tests: what Google's 
 date: 2026-11-15T15:00:00+05:30
 description: "Google's spam policy names machine-generated traffic: automated queries and scraping results for rank checking without permission. How AEO teams can design prompt tests and choose tools with that in mind, with owners and a made-up example."
 tag: "AEO"
-tldr: "Google's spam policies (last updated 28 August 2026) define machine-generated traffic as automated queries to Google, including scraping results for rank-checking, done without express permission, and say it violates the spam policies and Terms of Service. Google's third-party guidance (5 June 2026) says tools cannot see its internal data. The checklist for AEO test design is ours."
+tldr: "Google's spam policies define machine-generated traffic as automated queries to Google, including scraping results for rank-checking, done without express permission, and say it violates the spam policies and Terms of Service. Google's third-party guidance says tools cannot see its internal data. The checklist for AEO test design is ours."
 sources:
   - title: "Spam policies for Google web search"
     url: "https://developers.google.com/search/docs/essentials/spam-policies"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
   - title: "Google Search's guidance on using third-party SEO tools, services, and advice"
     url: "https://developers.google.com/search/docs/fundamentals/third-party-seo"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["AEO", "Spam policies", "Measurement"]
 tags: ["Machine-generated traffic", "Rank tracking", "AI visibility", "Prompt testing", "Spam policy"]
 ---
 
-AEO teams track how often their brand appears in AI answers, and many tools do it by sending large numbers of queries. Google's spam policies (last updated 28 August 2026 as we read them) contain a short section on automated traffic. This post explains what it says and how to design tests and tool choices with it in mind. It is not legal advice.
+AEO teams track how often their brand appears in AI answers, and many tools do it by sending large numbers of queries. Google's spam policies contain a short section on automated traffic. This post explains what it says and how to design tests and tool choices with it in mind. It is not legal advice.
 
-**Best for:** AEO and SEO leads who run visibility tests, and anyone buying a rank-tracking or AI-tracking tool.
+**Best for:** AEO and SEO leads who run visibility tests, and anyone buying a rank-tracking or AI-tracking tool. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** Rank checkers and AI visibility tools send many queries to see where you appear. Google's spam policy limits automated queries sent to Google.
+
+**SEO and AEO angle:** This post is mainly for AEO teams, but the same rule applies to classic rank tracking, so SEO teams should read it too.
 
 ![Automated queries and AI tests: know the policy, prefer first-party data, keep manual samples small, ask vendors how they collect](/images/automated-queries-ai-tests/automated-queries.svg)
 

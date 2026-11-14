@@ -3,18 +3,23 @@ title: "Anatomy of a Google search result: which visual elements you can influen
 date: 2026-11-14T20:00:00+05:30
 description: "Google's Visual Elements gallery names the parts of a search result: attribution, title link, snippet, byline date, sitelinks, rich attributes and more. An audit table with owners and checks and a made-up example."
 tag: "SEO"
-tldr: "Google's Visual Elements gallery (last updated 4 February 2026) describes text, rich, image and video results and exploration features, and the child elements in each, such as favicon, site name, title link, snippet, byline date and sitelinks. Appearance varies by device, country and language. The audit table is ours."
+tldr: "Google's Visual Elements gallery describes text, rich, image and video results and exploration features, and the child elements in each, such as favicon, site name, title link, snippet, byline date and sitelinks. Appearance varies by device, country and language. The audit table is ours."
 sources:
   - title: "Visual Elements gallery of Google Search"
     url: "https://developers.google.com/search/docs/appearance/visual-elements-gallery"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "Search appearance", "Technical SEO"]
 tags: ["Visual elements", "Title link", "Snippet", "Sitelinks", "Search appearance"]
 ---
 
-When a stakeholder says "fix our snippet" or "why is the icon wrong", it helps to use the same words Google uses. Google's Visual Elements gallery (last updated 4 February 2026 as we read it) names every part of a search result. This post turns it into an audit table, so each element has an owner and a page to learn from.
+When a stakeholder says "fix our snippet" or "why is the icon wrong", it helps to use the same words Google uses. Google's Visual Elements gallery names every part of a search result. This post turns it into an audit table, so each element has an owner and a page to learn from.
 
-**Best for:** SEO leads, content teams and brand teams who review how pages look in Search.
+**Best for:** SEO leads, content teams and brand teams who review how pages look in Search. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** A search result is made of parts, such as the site name, title link, snippet and extras. Knowing their names helps teams talk about fixes.
+
+**SEO and AEO angle:** Google's generative AI guide says a page must be indexed and eligible to show in Search with a snippet to appear in AI features, and those features show clickable links, so the same parts matter.
 
 ![Search result anatomy: attribution, title link and snippet, rich attributes and images, exploration features](/images/search-result-anatomy/anatomy.svg)
 

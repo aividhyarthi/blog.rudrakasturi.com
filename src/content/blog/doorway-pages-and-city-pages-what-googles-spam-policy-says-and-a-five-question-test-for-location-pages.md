@@ -3,18 +3,23 @@ title: "Doorway pages and city pages: what Google's spam policy says and a five-
 date: 2026-11-14T18:00:00+05:30
 description: "Google's spam policy on doorway abuse and keyword stuffing, with its examples about region and city pages. A five-question test for location pages, an audit routine and a made-up example."
 tag: "SEO"
-tldr: "Google's spam policies (last updated 28 August 2026) define doorway abuse as sites or pages created to rank for specific, similar queries that lead users to intermediate pages less useful than the final destination, including pages targeted at regions or cities that funnel users to one page. Blocks of text listing cities and regions are named as keyword stuffing. The five-question test is ours."
+tldr: "Google's spam policies define doorway abuse as sites or pages created to rank for specific, similar queries that lead users to intermediate pages less useful than the final destination, including pages targeted at regions or cities that funnel users to one page. Blocks of text listing cities and regions are named as keyword stuffing. The five-question test is ours."
 sources:
   - title: "Spam policies for Google web search"
     url: "https://developers.google.com/search/docs/essentials/spam-policies"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "Spam policies", "Local SEO"]
 tags: ["Doorway pages", "Location pages", "City pages", "Keyword stuffing", "Spam policy"]
 ---
 
-Businesses that serve many areas are tempted to publish one page per city. Google's spam policies (last updated 28 August 2026 as we read them) name doorway abuse and keyword stuffing, and both use city examples. This post turns those sections into a test you can apply to every location page.
+Businesses that serve many areas are tempted to publish one page per city. Google's spam policies name doorway abuse and keyword stuffing, and both use city examples. This post turns those sections into a test you can apply to every location page.
 
-**Best for:** SEO leads, local SEO teams and agencies that manage multi-location sites.
+**Best for:** SEO leads, local SEO teams and agencies that manage multi-location sites. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** A doorway page exists only to catch a search and push people on to another page. Location pages can drift into this when they are copied with only the city name changed.
+
+**SEO and AEO angle:** Google's generative AI guide warns that creating separate content for every query variation, mainly to manipulate rankings or AI responses, violates its scaled content abuse policy.
 
 ![Location page test: does it help on its own, differ from siblings, lead somewhere useful, avoid city lists, and fit a clear hierarchy](/images/doorway-city-pages-test/doorway-pages.svg)
 

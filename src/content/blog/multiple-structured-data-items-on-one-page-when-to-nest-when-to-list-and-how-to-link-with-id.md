@@ -3,18 +3,23 @@ title: "Multiple structured data items on one page: when to nest, when to list, 
 date: 2026-11-14T15:00:00+05:30
 description: "Google says it understands multiple items on a page, nested or individual, and that linked items help. How to choose, how to use @id, and a made-up recipe page example with owners and checks."
 tag: "AEO"
-tldr: "Google's general structured data guidelines (last updated 10 July 2026) say Google Search understands multiple items on a page whether nested or listed individually, recommend @id to link items that belong together, say to include the main type for the page's focus, and say to mark up all visible reviews if you mark up reviews. The steps are ours."
+tldr: "Google's general structured data guidelines say Google Search understands multiple items on a page whether nested or listed individually, recommend @id to link items that belong together, say to include the main type for the page's focus, and say to mark up all visible reviews if you mark up reviews. The steps are ours."
 sources:
   - title: "General structured data guidelines: multiple items on a page"
     url: "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["AEO", "Structured data", "Technical SEO"]
 tags: ["Structured data", "JSON-LD", "@id", "Nested markup", "Recipe"]
 ---
 
-A single page often holds several things: a recipe, a video of that recipe, reviews and a breadcrumb trail. Google's general guidelines (last updated 10 July 2026 as we read them) cover how to mark up more than one item. This post turns that short section into a decision rule and a checklist.
+A single page often holds several things: a recipe, a video of that recipe, reviews and a breadcrumb trail. Google's general guidelines cover how to mark up more than one item. This post turns that short section into a decision rule and a checklist.
 
-**Best for:** developers who write JSON-LD and SEO leads who review it.
+**Best for:** developers who write JSON-LD and SEO leads who review it. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** Structured data labels what is on a page. When a page holds several things, such as a recipe and a video of it, you also need to say how those things relate.
+
+**SEO and AEO angle:** Google's generative AI guide says structured data is not required for its AI features and that no special markup exists for them, but it is still worth getting right for rich results.
 
 ![Multiple items on a page: pick the main type, nest related items or list separate ones, link with @id, mark up everything visible](/images/multiple-structured-data-items/multiple-items.svg)
 

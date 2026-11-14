@@ -3,18 +3,23 @@ title: "Movie carousel markup: required image and name, the mobile-only limit, a
 date: 2026-11-14T19:00:00+05:30
 description: "Google's movie carousel structured data: required image and name, recommended rating, release date, director and review, and a mobile-only feature. A rollout with owners and checks and a made-up example."
 tag: "AEO"
-tldr: "Google's movie carousel page (last updated 8 September 2026) says movie lists can be marked up so users can explore movies in Search, that the carousel is only available on mobile devices, that image and name are required, and that aggregateRating, dateCreated, director and review are recommended. Images need a 6:9 ratio as stated on the page. The rollout is ours."
+tldr: "Google's movie carousel page says movie lists can be marked up so users can explore movies in Search, that the carousel is only available on mobile devices, that image and name are required, and that aggregateRating, dateCreated, director and review are recommended. Images need a 6:9 ratio as stated on the page. The rollout is ours."
 sources:
   - title: "Movie carousel (Movie) structured data"
     url: "https://developers.google.com/search/docs/appearance/structured-data/movie"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["AEO", "Structured data", "Entertainment"]
 tags: ["Movie markup", "Carousel", "Structured data", "Entertainment SEO", "Rich results"]
 ---
 
-Searches like "best movies of 2026" return lists, and Google has a rich result for them. Its movie carousel page (last updated 8 September 2026 as we read it) says how to mark up your list pages. This post turns it into a rollout for entertainment sites and review blogs.
+Searches like "best movies of 2026" return lists, and Google has a rich result for them. Its movie carousel page says how to mark up your list pages. This post turns it into a rollout for entertainment sites and review blogs.
 
-**Best for:** film sites, review blogs and streaming guides that publish ranked or themed movie lists.
+**Best for:** film sites, review blogs and streaming guides that publish ranked or themed movie lists. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** A carousel is a row of cards you swipe through in results. The movie carousel is built from a list page that has markup for each movie.
+
+**SEO and AEO angle:** Google's generative AI guide says structured data is not required for its AI features and that no special markup exists for them, but it is still worth getting right for rich results.
 
 ![Movie carousel markup: a list page, required image and name, recommended rating and director, mobile only](/images/movie-carousel-markup/movie-carousel.svg)
 

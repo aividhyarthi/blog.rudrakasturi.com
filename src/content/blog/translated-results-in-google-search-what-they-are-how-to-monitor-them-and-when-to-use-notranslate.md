@@ -3,18 +3,23 @@ title: "Translated results in Google Search: what they are, how to monitor them 
 date: 2026-11-15T17:00:00+05:30
 description: "Google may translate the title link and snippet of results that are not in the searcher's language. What the feature does, how to measure it in Search Console, how to opt out with notranslate, and a made-up example."
 tag: "SEO"
-tldr: "Google's translated results page (last updated 10 December 2025) says Google may translate the title link and snippet of results not in the query language, for languages that include Hindi, Bengali, Tamil, Telugu, Marathi and English. Clicking opens a machine-translated page, Google hosts no translated pages, and the notranslate rule opts out. The routine is ours."
+tldr: "Google's translated results page says Google may translate the title link and snippet of results not in the query language, for languages that include Hindi, Bengali, Tamil, Telugu, Marathi and English. Clicking opens a machine-translated page, Google hosts no translated pages, and the notranslate rule opts out. The routine is ours."
 sources:
   - title: "Translated results in Google Search"
     url: "https://developers.google.com/search/docs/appearance/translated-results"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "International SEO", "Search appearance"]
 tags: ["Translated results", "notranslate", "Multilingual SEO", "Hindi", "Search Console"]
 ---
 
-A person searches in Hindi and sees a result from an English page, with the title and snippet already in Hindi. That is a translated result. Google's page on it (last updated 10 December 2025 as we read it) explains what it does and how to opt out. This post turns it into a routine for publishers who serve readers in more than one language.
+A person searches in Hindi and sees a result from an English page, with the title and snippet already in Hindi. That is a translated result. Google's page on it explains what it does and how to opt out. This post turns it into a routine for publishers who serve readers in more than one language.
 
-**Best for:** publishers, ecommerce and SaaS sites with international or regional-language audiences.
+**Best for:** publishers, ecommerce and SaaS sites with international or regional-language audiences. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** Machine translation can show your page's title and snippet in another language when someone searches in that language.
+
+**SEO and AEO angle:** Google's pages do not say how translation relates to AI features, so measure translated results in Search Console and treat AI features separately.
 
 ![Translated results: Google may translate title and snippet, machine translation opens on click, measure in Search Console, opt out with notranslate](/images/translated-results/translated-results.svg)
 

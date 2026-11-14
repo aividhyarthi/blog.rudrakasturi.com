@@ -3,18 +3,23 @@ title: "Employer aggregate rating markup for company review sites: required prop
 date: 2026-11-15T12:00:00+05:30
 description: "Google's EmployerAggregateRating structured data for sites that host user ratings of employers: required properties, scale rules, content rules and a move away from review snippets. Steps with a made-up example."
 tag: "AEO"
-tldr: "Google's employer aggregate rating page (last updated 8 September 2026) says sites that publish user-generated ratings of hiring organizations can add EmployerAggregateRating, which needs itemReviewed, ratingValue and ratingCount or reviewCount. Ratings must be visible, about one specific employer, posted by users on your site, and accurately aggregated. The rollout is ours."
+tldr: "Google's employer aggregate rating page says sites that publish user-generated ratings of hiring organizations can add EmployerAggregateRating, which needs itemReviewed, ratingValue and ratingCount or reviewCount. Ratings must be visible, about one specific employer, posted by users on your site, and accurately aggregated. The rollout is ours."
 sources:
   - title: "Employer aggregate rating (EmployerAggregateRating) structured data"
     url: "https://developers.google.com/search/docs/appearance/structured-data/employer-rating"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["AEO", "Structured data", "Jobs"]
 tags: ["EmployerAggregateRating", "Employer ratings", "Jobs SEO", "Structured data", "Reviews"]
 ---
 
-Job seekers read employer ratings before they apply, and Google has markup for sites that collect them. Its employer aggregate rating page (last updated 8 September 2026 as we read it) is specific about who qualifies. This post turns it into a rollout for company review and career sites.
+Job seekers read employer ratings before they apply, and Google has markup for sites that collect them. Its employer aggregate rating page is specific about who qualifies. This post turns it into a rollout for company review and career sites.
 
-**Best for:** sites that host user ratings about employers, and their developers and content teams.
+**Best for:** sites that host user ratings about employers, and their developers and content teams. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** An employer rating is a score people give a company they worked for. This markup tells Google the score and how many people gave it.
+
+**SEO and AEO angle:** Google's generative AI guide says structured data is not required for its AI features and that no special markup exists for them, but it is still worth getting right for rich results.
 
 ![Employer rating markup: your site hosts user ratings, one employer per page, required properties, honest totals](/images/employer-aggregate-rating/employer-rating.svg)
 

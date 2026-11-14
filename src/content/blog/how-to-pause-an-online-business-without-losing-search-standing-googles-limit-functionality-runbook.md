@@ -3,18 +3,23 @@ title: "How to pause an online business without losing search standing: Google's
 date: 2026-11-15T13:00:00+05:30
 description: "Google's guide to temporarily pausing a site: limit functionality, use a banner with data-nosnippet, update structured data, and use a 503 only for a day or two. A runbook with owners, checks and a made-up example."
 tag: "SEO"
-tldr: "Google's guide to temporarily pausing a website (last updated 10 December 2025) recommends keeping the site online and limiting functionality, for example disabling the cart and showing a banner. Disabling the whole site is not recommended and should last a few days at most. For 1 to 2 days it suggests a 503 error page; do not use 403, 404, 410, noindex or the Removals tool for closures. The runbook is ours."
+tldr: "Google's guide to temporarily pausing a website recommends keeping the site online and limiting functionality, for example disabling the cart and showing a banner. Disabling the whole site is not recommended and should last a few days at most. For 1 to 2 days it suggests a 503 error page; do not use 403, 404, 410, noindex or the Removals tool for closures. The runbook is ours."
 sources:
   - title: "Temporarily pause or disable a website"
     url: "https://developers.google.com/search/docs/crawling-indexing/pause-online-business"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "Ecommerce", "Operations"]
 tags: ["Pause website", "503 status", "Ecommerce SEO", "Out of stock", "Site closure"]
 ---
 
-Stock runs out, a warehouse closes or an owner goes on leave, and someone suggests switching the site off. Google's guide to pausing a business (last updated 10 December 2025 as we read it) is clear that this is the wrong first move. This post turns it into a runbook for ecommerce and operations teams.
+Stock runs out, a warehouse closes or an owner goes on leave, and someone suggests switching the site off. Google's guide to pausing a business is clear that this is the wrong first move. This post turns it into a runbook for ecommerce and operations teams.
 
-**Best for:** ecommerce managers, developers and SEO leads who face a temporary closure.
+**Best for:** ecommerce managers, developers and SEO leads who face a temporary closure. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** If a shop must stop selling for a while, the safe move is to keep the site online and switch off buying, not to take the site down.
+
+**SEO and AEO angle:** Because a page must be indexed to be eligible for Google's AI features (generative AI guide), keeping pages indexed during a pause keeps them eligible.
 
 ![Pausing a site: keep it online, disable the cart, add a banner, update data, use 503 only for a day or two](/images/pause-online-business/pause-site.svg)
 

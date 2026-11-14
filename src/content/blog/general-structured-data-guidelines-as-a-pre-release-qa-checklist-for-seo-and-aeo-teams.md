@@ -3,18 +3,23 @@ title: "General structured data guidelines as a pre-release QA checklist for SEO
 date: 2026-11-14T11:00:00+05:30
 description: "Google's general structured data guidelines turned into a release checklist: format, access, visible content, relevance, completeness, location and images. Owners, checks and a made-up example audit."
 tag: "AEO"
-tldr: "Google's general structured data guidelines (last updated 10 July 2026) say markup must follow the content policies, use JSON-LD, Microdata or RDFa, stay crawlable, describe content visible on the page, and include all required properties. A valid test result does not guarantee a rich result. The seven-step checklist is ours."
+tldr: "Google's general structured data guidelines say markup must follow the content policies, use JSON-LD, Microdata or RDFa, stay crawlable, describe content visible on the page, and include all required properties. A valid test result does not guarantee a rich result. The seven-step checklist is ours."
 sources:
   - title: "General structured data guidelines"
     url: "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["AEO", "Structured data", "Technical SEO"]
 tags: ["Structured data", "Schema markup", "QA checklist", "Rich results", "AEO"]
 ---
 
-Most teams test structured data with a validator and stop there. Google's general guidelines (last updated 10 July 2026 as we read them) say a clean test is not the whole story. Some quality rules cannot be tested by a tool. This post turns the page into a checklist you can run before every release that touches markup.
+Most teams test structured data with a validator and stop there. Google's general guidelines say a clean test is not the whole story. Some quality rules cannot be tested by a tool. This post turns the page into a checklist you can run before every release that touches markup.
 
-**Best for:** SEO and AEO leads, and developers who ship schema.
+**Best for:** SEO and AEO leads, and developers who ship schema. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** Structured data is extra code on a page that labels what it contains, such as a recipe, a product or an author, so search engines do not have to guess. These guidelines are the rulebook for that code.
+
+**SEO and AEO angle:** Google's generative AI guide says structured data is not required for its AI features and that no special markup exists for them, but it is still worth getting right for rich results.
 
 ![Structured data QA: format and access, visible and honest content, complete and specific properties, then test and monitor](/images/structured-data-qa-checklist/sd-qa.svg)
 

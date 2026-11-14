@@ -3,18 +3,23 @@ title: "How to identify Google Search traffic in analytics and server logs: Refe
 date: 2026-11-15T16:00:00+05:30
 description: "Google's guide to spotting Search traffic by the HTTP Referer header, the values it sends, why the Referer is sometimes blank, and why analytics never match Search Console. A checklist with owners and a made-up example."
 tag: "SEO"
-tldr: "Google's guide to identifying Search traffic (last updated 12 November 2026) says Google Search uses the origin referrer policy, so the Referer holds only the scheme and host, never the query. Blank referrers, redirects, ad blockers and different counting methods mean analytics and server logs rarely match Search Console one to one. The checklist is ours."
+tldr: "Google's guide to identifying Search traffic says Google Search uses the origin referrer policy, so the Referer holds only the scheme and host, never the query. Blank referrers, redirects, ad blockers and different counting methods mean analytics and server logs rarely match Search Console one to one. The checklist is ours."
 sources:
   - title: "Identify Google Search traffic in your web analytics or server logs"
     url: "https://developers.google.com/search/docs/monitor-debug/identify-google-search-traffic"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "Analytics", "Measurement"]
 tags: ["Analytics", "Referer header", "Server logs", "Search Console", "Organic traffic"]
 ---
 
-Marketing reports Google traffic from analytics, SEO reports it from Search Console, and the numbers never agree. Google published a guide on this (last updated 12 November 2026 as we read it) that explains which Referer values to look for and why the totals differ. This post turns it into a checklist for analysts and SEO leads.
+Marketing reports Google traffic from analytics, SEO reports it from Search Console, and the numbers never agree. Google published a guide on this that explains which Referer values to look for and why the totals differ. This post turns it into a checklist for analysts and SEO leads.
 
-**Best for:** analysts, SEO leads and developers who maintain analytics and log pipelines.
+**Best for:** analysts, SEO leads and developers who maintain analytics and log pipelines. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** Analytics tools count visits to your site. Search Console counts clicks in Google. The two measure different things, so they rarely match.
+
+**SEO and AEO angle:** Google's generative AI guide points to the generative AI performance report in Search Console for impressions in AI features. This post covers the web analytics side.
 
 ![Identifying Search traffic: know the Referer values, check channel rules, expect blanks, reconcile with Search Console](/images/identify-google-search-traffic/identify-traffic.svg)
 

@@ -3,21 +3,27 @@ title: "How to judge AEO and GEO tools and advice: Google's third-party guidance
 date: 2026-11-14T13:00:00+05:30
 description: "Google's guidance on third-party SEO tools, services and advice, including AEO and GEO claims, turned into a six-question scorecard with owners, checks and a made-up example."
 tag: "AEO"
-tldr: "Google's guidance on third-party SEO advice (last updated 5 June 2026) says to check advice against official guidance, that Google does not evaluate third-party services, that third-party tools have no access to its internal ranking data, and that Search Console gives first-party data. Its generative AI guide says no third-party tool has access to its internal ranking or AI systems. The scorecard is ours."
+tldr: "Google's guidance on third-party SEO advice says to check advice against official guidance, that Google does not evaluate third-party services, that third-party tools have no access to its internal ranking data, and that Search Console gives first-party data. Its generative AI guide says no third-party tool has access to its internal ranking or AI systems. The scorecard is ours."
 sources:
   - title: "Google Search's guidance on using third-party SEO tools, services, and advice"
     url: "https://developers.google.com/search/docs/fundamentals/third-party-seo"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
   - title: "Optimizing your website for generative AI features on Google Search"
     url: "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["AEO", "SEO", "Tools"]
 tags: ["AEO tools", "GEO", "Third-party SEO", "Vendor evaluation", "Search Console"]
 ---
 
-Every week a new tool or agency promises AI visibility. Google has a page on how to weigh such offers (last updated 5 June 2026 as we read it), and its generative AI guide adds a warning about tools that claim to use internal Google metrics. This post turns both into a scorecard a team can use before buying or acting on any advice.
+Every week a new tool or agency promises AI visibility. Google has a page on how to weigh such offers, and its generative AI guide adds a warning about tools that claim to use internal Google metrics. This post turns both into a scorecard a team can use before buying or acting on any advice.
 
-**Best for:** SEO and AEO leads, marketing heads and anyone signing a tool or agency contract.
+**Best for:** SEO and AEO leads, marketing heads and anyone signing a tool or agency contract. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** AEO means answer engine optimisation: work aimed at being shown in AI answers. GEO is the generative version of the same idea. Tools in this area promise to measure or improve it, and this post helps you ask whether the promise holds.
+
+**SEO and AEO angle:** Google's guidance covers both labels together: for SEO and AEO teams alike, claims should be checked against official guidance.
 
 ![Judging AEO tools: check claims against Google guidance, separate opinion from official, treat tool data as estimates, confirm with Search Console](/images/judging-aeo-geo-tools/judging-tools.svg)
 

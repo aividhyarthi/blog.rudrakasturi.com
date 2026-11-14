@@ -3,18 +3,23 @@ title: "Software app markup: required properties, app types and a launch checkli
 date: 2026-11-14T17:00:00+05:30
 description: "Google's software app structured data: required name, price and a rating or review, recommended category and operating system, and the VideoGame co-typing rule. A checklist with a made-up example."
 tag: "AEO"
-tldr: "Google's software app page (last updated 8 September 2026) lists name, offers.price and either aggregateRating or review as required, and applicationCategory and operatingSystem as recommended. It supports MobileApplication and WebApplication, and says a page typed only as VideoGame gets no rich result, so co-type it. The checklist is ours."
+tldr: "Google's software app page lists name, offers.price and either aggregateRating or review as required, and applicationCategory and operatingSystem as recommended. It supports MobileApplication and WebApplication, and says a page typed only as VideoGame gets no rich result, so co-type it. The checklist is ours."
 sources:
   - title: "Software app (SoftwareApplication) structured data"
     url: "https://developers.google.com/search/docs/appearance/structured-data/software-app"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["AEO", "Structured data", "Apps"]
 tags: ["SoftwareApplication", "App markup", "SaaS", "Structured data", "Rich results"]
 ---
 
-App and SaaS pages describe a product, a price and a rating, and Google has dedicated markup for that. Its software app page (last updated 8 September 2026 as we read it) is short but has a few rules that are easy to miss. This post turns them into a launch checklist.
+App and SaaS pages describe a product, a price and a rating, and Google has dedicated markup for that. Its software app page is short but has a few rules that are easy to miss. This post turns them into a launch checklist.
 
-**Best for:** marketers and developers who run app, tool or SaaS landing pages.
+**Best for:** marketers and developers who run app, tool or SaaS landing pages. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** Software app markup is code that tells Google an app's name, price, rating and type, so it can show those details in results.
+
+**SEO and AEO angle:** Google's generative AI guide says structured data is not required for its AI features and that no special markup exists for them, but it is still worth getting right for rich results.
 
 ![Software app markup: required name, price and rating or review, recommended category and operating system, co-type games](/images/software-app-markup/software-app.svg)
 

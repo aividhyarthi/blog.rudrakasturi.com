@@ -3,18 +3,23 @@ title: "Hidden text and links vs accordions and tabs: what Google's spam policy 
 date: 2026-11-14T16:00:00+05:30
 description: "Google's spam policy on hidden text and link abuse, and the design elements it says are fine: accordions, tabs, sliders, tooltips and screen-reader text. A six-step audit with a made-up example."
 tag: "SEO"
-tldr: "Google's spam policies (last updated 28 August 2026) define hidden text and link abuse as placing content so it is not easily viewable by people, solely to manipulate search engines. Accordions, tabbed content, sliders, tooltips and screen-reader-only text are listed as not violating the policy. Hackers may also inject hidden links. The audit is ours."
+tldr: "Google's spam policies define hidden text and link abuse as placing content so it is not easily viewable by people, solely to manipulate search engines. Accordions, tabbed content, sliders, tooltips and screen-reader-only text are listed as not violating the policy. Hackers may also inject hidden links. The audit is ours."
 sources:
   - title: "Spam policies for Google web search"
     url: "https://developers.google.com/search/docs/essentials/spam-policies"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "Spam policies", "Technical SEO"]
 tags: ["Hidden text", "Hidden links", "Spam policy", "Accordions", "Hacked content"]
 ---
 
-Many pages use accordions, tabs and sliders, and teams sometimes worry that collapsed text counts as hidden text. Google's spam policies (last updated 28 August 2026 as we read them) draw the line clearly. This post turns that section into an audit for designers, developers and SEO teams.
+Many pages use accordions, tabs and sliders, and teams sometimes worry that collapsed text counts as hidden text. Google's spam policies draw the line clearly. This post turns that section into an audit for designers, developers and SEO teams.
 
-**Best for:** SEO leads, front-end developers and site security reviewers.
+**Best for:** SEO leads, front-end developers and site security reviewers. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** Hidden text means words placed on a page so search engines see them but people do not. Google treats that as spam, but ordinary collapsible sections are fine.
+
+**SEO and AEO angle:** Google's spam policy also covers attempts to manipulate generative AI responses in Google Search, so hiding text for machines is not a shortcut there either.
 
 ![Hidden text audit: find text hidden from people, separate normal interface patterns, check for injected links, fix and record](/images/hidden-text-links-audit/hidden-text.svg)
 

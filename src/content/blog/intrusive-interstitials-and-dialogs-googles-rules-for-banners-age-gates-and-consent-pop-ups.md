@@ -3,18 +3,23 @@ title: "Intrusive interstitials and dialogs: Google's rules for banners, age gat
 date: 2026-11-15T14:00:00+05:30
 description: "Google's guidance on intrusive interstitials and dialogs: use small banners, avoid covering the whole page, do not redirect for consent, and handle mandatory age gates. An audit with owners, checks and a made-up example."
 tag: "SEO"
-tldr: "Google's page on intrusive interstitials and dialogs (last updated 10 December 2025) says they can make it hard for Google to understand content and frustrate users. It recommends small banners over full-page overlays, common libraries, no full-page obscuring and no redirects to a separate consent page. Mandatory interstitials such as age gates are exempt but have best practices. The audit is ours."
+tldr: "Google's page on intrusive interstitials and dialogs says they can make it hard for Google to understand content and frustrate users. It recommends small banners over full-page overlays, common libraries, no full-page obscuring and no redirects to a separate consent page. Mandatory interstitials such as age gates are exempt but have best practices. The audit is ours."
 sources:
   - title: "Avoid intrusive interstitials and dialogs"
     url: "https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials"
     publisher: "Google Search Central"
+    reviewed: "13 Nov 2026"
 categories: ["SEO", "Page experience", "UX"]
 tags: ["Interstitials", "Pop-ups", "Consent banners", "Age gate", "Page experience"]
 ---
 
-Newsletter pop-ups, app install prompts and consent screens all compete with the content a visitor came for. Google's page on interstitials and dialogs (last updated 10 December 2025 as we read it) explains why that matters for Search and what to do instead. This post turns it into an audit for marketing, design and SEO teams.
+Newsletter pop-ups, app install prompts and consent screens all compete with the content a visitor came for. Google's page on interstitials and dialogs explains why that matters for Search and what to do instead. This post turns it into an audit for marketing, design and SEO teams.
 
-**Best for:** marketing managers, designers and developers who add overlays to pages.
+**Best for:** marketing managers, designers and developers who add overlays to pages. Learners are welcome: each step names who does it and how to check it.
+
+**New to SEO or AEO?** An interstitial is a pop-up or overlay that covers a page, such as a newsletter box or an app prompt.
+
+**SEO and AEO angle:** Google says intrusive overlays make it hard for Google and other search engines to understand content, and its generative AI guide asks for a good page experience.
 
 ![Interstitials and dialogs: prefer small banners, do not cover the page, do not redirect for consent, treat mandatory gates with care](/images/intrusive-interstitials/interstitials.svg)
 
