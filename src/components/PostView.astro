@@ -81,7 +81,7 @@ const articleBlocks = await buildArticleBlocks({
         <section class="source-box" id="sources">
           <h2>Sources</h2>
           <ul>
-            {sources.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a> <span>· {s.publisher}</span></li>)}
+            {sources.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a> <span>· {s.publisher}{s.reviewed ? `, page reviewed ${s.reviewed}` : ''}</span></li>)}
           </ul>
         </section>
       )}

@@ -19,7 +19,7 @@ const blog = defineCollection({
     tldr: z.string().optional(),
     // Where the story comes from. Every researched article must list its sources.
     sources: z
-      .array(z.object({ title: z.string(), url: z.string().url(), publisher: z.string() }))
+      .array(z.object({ title: z.string(), url: z.string().url(), publisher: z.string(), reviewed: z.string().optional() }))
       .default([]),
     draft: z.boolean().default(false),
     // true = listed automatically at the bottom of the AEO and GEO playbook page.
