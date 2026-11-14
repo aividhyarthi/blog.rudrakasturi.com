@@ -192,10 +192,10 @@ details.tech summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--m
           <div class="sec-h">Fix these sentences first</div>
           <ol id="fixList" class="fixlist"></ol>
         </div>
-        <div id="flagBox" hidden>
-          <div class="sec-h">Flagged words and phrases</div>
+        <details id="flagBox" class="tech" hidden>
+          <summary id="flagSummary">Flagged words and phrases</summary>
           <ul id="flaglist" class="flaglist"></ul>
-        </div>
+        </details>
         <div id="ignoredBox" hidden>
           <div class="sec-h">Ignored (click to restore)</div>
           <div id="ignored" class="chips"></div>
@@ -369,7 +369,10 @@ function analyze(text, ignore){
   const isFrag = s => !/[.!?]["”')]?$/.test(s.trim()) && wc(s)<=8;
   const isBlock = s => wc(s)>60;
   const sentences = allSents.filter(s=>!isFrag(s) && !isBlock(s));
-  const fragCount = allSents.filter(isFrag).length, blockCount = allSents.filter(isBlock).length;
+  const lostFrag = paras.reduce((a,pp)=>{ const ss=splitSentences(pp); return a+(ss.length>1?ss.filter(isFrag).length:0); },0);
+  const blockCount = allSents.filter(isBlock).length;
+  // A long block with almost no punctuation is a sign the line breaks were lost (a long list sentence has plenty of commas and semicolons).
+  const flatBlocks = allSents.filter(x=>isBlock(x) && (x.match(/[,;:]/g)||[]).length/wc(x)*100<6).length;
   const words = text.toLowerCase().match(/[a-z0-9]+(?:['’][a-z]+)?/g) || [];
   const n = words.length, per100 = x => n ? x/n*100 : 0;
   const S = sentences.length, lens = sentences.map(wc);
@@ -539,7 +542,7 @@ function analyze(text, ignore){
 
   const warnings=[];
   if(n<80) warnings.push('This text is under 80 words, so the score is not very reliable. Paste more text for a better reading.');
-  if(blockCount>0 || fragCount>=Math.max(4,allSents.length*0.15))
+  if(lostFrag>=Math.max(3,allSents.length*0.1) || flatBlocks>0)
     warnings.push('Parts of this text look like pasted tables, lists or headings with the line breaks lost. Those pieces are skipped when scoring rhythm. For the most accurate result, paste with the original line breaks.');
   return {score,layers,ranges,flags,sents,sentCounts,words:n,sentences:S,warnings};
 }
@@ -790,7 +793,7 @@ const PLAIN = {
 const colorFor = s => s<30?'var(--lo)':s<55?'var(--mid)':'var(--hi)';
 function verdictFor(s){
   if(s<30) return {k:'lo', title:'Reads as human-written'};
-  if(s<55) return {k:'mid', title:'Mixed: some parts read as AI'};
+  if(s<55) return {k:'mid', title:'Mixed signals'};
   return {k:'hi', title:'Likely AI-written'};
 }
 function evidence(key, res){
@@ -801,7 +804,8 @@ function evidence(key, res){
 function summarize(res){
   const c=res.sentCounts;
   const top=res.layers.filter(l=>PLAIN[l.key]&&!l.na&&l.score>=35).sort((a,b)=>b.score*b.weight-a.score*a.weight).slice(0,3).map(l=>PLAIN[l.key].name.toLowerCase().replace(/\bai\b/g,'AI'));
-  let lead = c.total ? (c.strong+c.maybe)+' of '+c.total+' sentences read as AI-style'+(c.strong?' ('+c.strong+' strongly)':'')+'.' : '';
+  let lead = !c.total ? '' : (c.strong+c.maybe)===0 ? 'No single sentence stands out; the score comes from the overall writing style.'
+    : (c.strong+c.maybe)+' of '+c.total+' sentences read as AI-style'+(c.strong?' ('+c.strong+' strongly)':'')+'.';
   lead += top.length ? ' Biggest causes: '+top.join(', ')+'.' : ' No major causes found.';
   return lead.trim();
 }
@@ -875,7 +879,8 @@ function render(){
   // What is making it read as AI, in plain words, biggest first
   const ranked=shown.layers.filter(l=>PLAIN[l.key]&&!l.na&&l.score>=15).sort((a,b)=>b.score*b.weight-a.score*a.weight);
   $('issues').innerHTML = ranked.length ? ranked.map(l=>{
-    const ui=PLAIN[l.key], sev=l.score>=60?['big','Big issue']:l.score>=35?['mid','Needs work']:['low','Minor'], ev=evidence(l.key, shown);
+    const ui=PLAIN[l.key], light=(l.key==='voice'||l.key==='plain'||l.key==='vocab'), sc=light?Math.min(l.score,59):l.score;
+    const sev=sc>=60?['big','Big issue']:sc>=35?['mid','Needs work']:['low','Minor'], ev=evidence(l.key, shown);
     return '<div class="issue"><div class="is-top"><b>'+esc(ui.name)+'</b><span class="sev '+sev[0]+'">'+sev[1]+'</span></div>'+
       '<div class="is-body">'+esc(ui.bad)+'</div>'+(ev?'<div class="is-ev">'+esc(ev)+'</div>':'')+
       '<div class="is-fix"><b>Fix:</b> '+esc(ui.fix)+'</div></div>';
@@ -915,6 +920,7 @@ function render(){
   // Flagged words and phrases
   const list=shown.flags.slice(0,14);
   $('flagBox').hidden=!list.length;
+  $('flagSummary').textContent='Flagged words and phrases ('+shown.flags.length+'), with Ignore buttons';
   $('flaglist').innerHTML=list.map(g=>{
     const r=g.rule, pri=r?r.pri:(g.type==='head'?'High':'Low');
     const why = r ? (r.tip||r.cat) : ({dash:'Repeated em dashes are a weak signal on their own.',trans:'Mechanical transitions (Moreover, Furthermore) are common in AI writing.',head:'Generic section label. Say what the section actually tells the reader.'})[g.type];
