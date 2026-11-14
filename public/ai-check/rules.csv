@@ -131,7 +131,7 @@ phrase,A rich tapestry of,Metaphorical padding,High,A mix of / several,Name the 
 phrase,Shed light on,Stock metaphor,Medium,Explain / reveal / clarify,Use a direct verb.,shed(?:s|ding)? light on,
 phrase,Valuable insights into,Vague benefit claim,Medium,Findings about / evidence on,Say what the insight is.,,
 phrase,At the end of the day,Transition cliché,Medium,In practice / ultimately / delete,Use only in conversational voice.,,
-phrase,All things considered,Transition cliché,Medium,Overall / given these facts,Give the actual judgement.,"all things considered,?\s*","Overall, "
+phrase,All things considered,Transition cliché,Medium,Overall / given these facts,Give the actual judgement.,"all things considered,?\s*","In the end, "
 phrase,That being said,Transition cliché,Medium,But / however / delete,Use only for a real contrast.,,
 phrase,Having said that,Transition cliché,Medium,But / however,Avoid repeated pivot phrases.,"having said that,?\s*","Still, |But "
 phrase,At its core,Abstract framing,Medium,Basically / the main point is,State the core mechanism.,"at its core,?\s*","Basically, "
@@ -377,8 +377,8 @@ swap,delves into,Plain-word swap,,,,delves into,digs into|looks at
 swap,delved into,Plain-word swap,,,,delved into,dug into|looked at
 swap,delving into,Plain-word swap,,,,delving into,digging into|looking at
 swap,in today['’]s fast-paced ... world,Plain-word swap,,,,"in today['’]s (?:fast-paced|digital|ever-changing|modern|competitive)(?: \w+)? (?:world|landscape|era|age|market),?\s*","Today, |Right now, |These days, |[delete]"
-swap,it['’]s important to note that,Plain-word swap,,,,"it(?:['’]s| is) (?:important|crucial|essential|vital) to (?:note|mention|remember|understand)(?: that)?,?\s*",[delete]|Keep in mind that |[delete]
-swap,it['’]s worth noting that,Plain-word swap,,,,"it(?:['’]s| is) worth (?:noting|mentioning)(?: that)?,?\s*",[delete]|Note that |[delete]
+swap,it['’]s important to note that,Plain-word swap,,,,"it(?:['’]s| is) (?:important|crucial|essential|vital) to (?:note|mention|remember|understand)(?: that)?,?\s*",[delete]|Keep in mind that 
+swap,it['’]s worth noting that,Plain-word swap,,,,"it(?:['’]s| is) worth (?:noting|mentioning)(?: that)?,?\s*",[delete]|Note that 
 swap,in the realm of,Plain-word swap,,,,in the (?:realm|world|landscape) of,in
 swap,a testament to,Plain-word swap,,,,a testament to,proof of
 swap,a rich tapestry of,Plain-word swap,,,,(?:a )?rich tapestry of,a mix of
@@ -463,7 +463,7 @@ swap,needless to say,Plain-word swap,,,,"needless to say,?\s*",[delete]
 swap,simply put,Plain-word swap,,,,"simply put,?\s*","In short, "
 swap,that being said,Plain-word swap,,,,"that being said,?\s*","Still, |But "
 swap,that said,Plain-word swap,,,,"that said,?\s*","Still, |But "
-swap,all in all,Plain-word swap,,,,"all in all,?\s*","Overall, |In the end, "
+swap,all in all,Plain-word swap,,,,"all in all,?\s*","In the end, "
 swap,underscores,Plain-word swap,,,,underscores,shows
 swap,underscored,Plain-word swap,,,,underscored,showed
 swap,underscoring,Plain-word swap,,,,underscoring,showing
