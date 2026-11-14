@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Humanness Checker</title>
+<style>
+:root{
+  --bg:#f7f6f2; --surface:#ffffff; --text:#1d1d1b; --muted:#6a6a64; --border:#e2e1da;
+  --accent:#2f5d50; --accent-text:#ffffff; --accent-soft:#e4efe9;
+  --lo:#2f7d5b; --mid:#b7791f; --hi:#b4442f;
+  --hl-phrase:#fbe9b7; --hl-dash:#d9e8fb; --hl-trans:#f4d9e8; --hl-head:#d6efd9;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#141413; --surface:#1e1e1c; --text:#ecebe6; --muted:#9a9990; --border:#333330;
+    --accent:#7fc4ae; --accent-text:#10201b; --accent-soft:#22312c;
+    --lo:#6fcf9f; --mid:#e0b457; --hi:#ef8a74;
+    --hl-phrase:#5a4a1c; --hl-dash:#1f3a5c; --hl-trans:#5a2a45; --hl-head:#1f4a2a;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 16px 64px}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 24px}
+.grid{display:grid;gap:20px;grid-template-columns:1fr}
+@media(min-width:900px){.grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}}
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px}
+.panel h2{font-size:15px;margin:0 0 10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+textarea{width:100%;min-height:340px;resize:vertical;border:1px solid var(--border);border-radius:10px;padding:12px;background:var(--bg);color:var(--text);font:inherit;line-height:1.55}
+textarea:focus,select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:12px 0}
+.row label{font-size:14px;color:var(--muted);display:flex;gap:6px;align-items:center}
+select,input[type=number]{background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:6px 8px;font:inherit;font-size:14px}
+input[type=number]{width:64px}
+.spacer{flex:1}
+#wc{font-size:13px;color:var(--muted)}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+button{font:inherit;font-weight:600;border-radius:10px;padding:10px 18px;cursor:pointer;border:1px solid var(--border);background:var(--surface);color:var(--text)}
+button.primary{background:var(--accent);color:var(--accent-text);border-color:var(--accent)}
+button.small{padding:6px 12px;font-size:14px}
+button:disabled{opacity:.5;cursor:not-allowed}
+.hint{font-size:13px;color:var(--muted);margin:12px 0 0}
+.hint code{background:var(--bg);padding:1px 5px;border-radius:4px}
+.empty{color:var(--muted);padding:30px 8px;text-align:center}
+.score{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.big{font-size:56px;font-weight:700;line-height:1;letter-spacing:-.02em}
+.lbl{font-weight:600}
+.arrow{font-size:28px;color:var(--muted)}
+.meter{height:10px;background:var(--bg);border:1px solid var(--border);border-radius:99px;overflow:hidden;margin:12px 0 6px}
+.meter>i{display:block;height:100%;border-radius:99px;transition:width .4s}
+.note{font-size:13px;color:var(--muted)}
+.warn{background:var(--hl-phrase);padding:8px 10px;border-radius:8px;font-size:14px;margin:10px 0}
+.layer{padding:10px 0;border-top:1px solid var(--border)}
+.layer:first-of-type{border-top:0}
+.lh{display:flex;justify-content:space-between;gap:10px;font-weight:600;font-size:15px}
+.lh span:last-child{font-variant-numeric:tabular-nums}
+.lbar{height:6px;background:var(--bg);border-radius:99px;margin:6px 0;overflow:hidden}
+.lbar>i{display:block;height:100%;border-radius:99px}
+.ld{font-size:13.5px;color:var(--muted)}
+.tabs{display:flex;gap:6px;margin:18px 0 10px;border-bottom:1px solid var(--border)}
+.tab{background:none;border:0;border-bottom:3px solid transparent;border-radius:0;padding:8px 12px;color:var(--muted)}
+.tab[aria-selected=true]{color:var(--text);border-bottom-color:var(--accent)}
+.view{white-space:pre-wrap;word-wrap:break-word;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px;max-height:420px;overflow:auto}
+mark{border-radius:3px;padding:0 2px;color:inherit}
+mark.phrase{background:var(--hl-phrase)} mark.dash{background:var(--hl-dash)} mark.trans{background:var(--hl-trans)} mark.head{background:var(--hl-head)}
+.legend{font-size:13px;color:var(--muted);margin:8px 0;display:flex;gap:14px;flex-wrap:wrap}
+.tips{margin:12px 0 0;padding-left:20px;font-size:14px}
+.tips li{margin:4px 0}
+.tips-h{font-weight:600;font-size:14px;margin:16px 0 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Humanness Checker</h1>
+  <p class="sub">Paste your content to see how "AI-written" it reads, then humanize it. Runs entirely in your browser. Nothing is uploaded or sent anywhere.</p>
+
+  <div class="grid">
+    <section class="panel" aria-label="Your content">
+      <h2>Your content</h2>
+      <textarea id="src" placeholder="Paste your article, product description or email here..."></textarea>
+      <div class="row">
+        <label>Tone
+          <select id="tone"><option value="pro">Professional</option><option value="casual">Conversational</option></select>
+        </label>
+        <label>Target score
+          <input id="target" type="number" min="5" max="80" value="30" aria-label="Target AI-likeness score">
+        </label>
+        <span class="spacer"></span>
+        <span id="wc">0 words</span>
+      </div>
+      <div class="actions">
+        <button id="check">Check</button>
+        <button id="humanize" class="primary">Check and humanize</button>
+      </div>
+      <p class="hint">Numbers, percentages and rates are never changed. To fully protect required wording (such as a legal disclaimer), wrap it in double braces: <code>{{Past performance is not a guarantee of future results.}}</code></p>
+    </section>
+
+    <section class="panel" aria-label="Results" aria-live="polite">
+      <h2>Results</h2>
+      <div id="empty" class="empty">Paste some text and press <b>Check</b>.</div>
+      <div id="out" hidden>
+        <div class="score">
+          <span id="sBefore" class="big"></span>
+          <span id="arrow" class="arrow" hidden>→</span>
+          <span id="sAfter" class="big" hidden></span>
+          <span id="sLabel" class="lbl"></span>
+        </div>
+        <div class="meter"><i id="meterBar"></i></div>
+        <div class="note">AI-likeness: 0 means reads human, 100 means reads very AI-like. This is our own estimate, not what any outside detector would say.</div>
+        <div id="warnBox"></div>
+        <div id="layers" style="margin-top:14px"></div>
+
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" id="tabFlag" aria-selected="true">Flagged text</button>
+          <button class="tab" role="tab" id="tabHum" aria-selected="false" hidden>Humanized text</button>
+        </div>
+        <div id="paneFlag">
+          <div class="legend">
+            <span><mark class="phrase">Stock phrase</mark></span>
+            <span><mark class="dash">Em dash</mark></span>
+            <span><mark class="trans">Stiff transition</mark></span>
+            <span><mark class="head">AI-style heading</mark></span>
+          </div>
+          <div id="flagView" class="view"></div>
+        </div>
+        <div id="paneHum" hidden>
+          <div class="row" style="margin-top:0">
+            <button id="copy" class="small">Copy text</button>
+            <button id="reuse" class="small">Use as input and re-check</button>
+            <span id="passInfo" class="note"></span>
+          </div>
+          <div id="humView" class="view"></div>
+        </div>
+        <div id="tipsBox" hidden>
+          <div class="tips-h">Still worth fixing by hand</div>
+          <ul id="tips" class="tips"></ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script>
+/* ============================================================
+   Humanness Checker — all logic is local, no network, no libraries
+   ============================================================ */
+(function(){
+"use strict";
+
+/* ---------- helpers ---------- */
+const clamp01 = x => Math.max(0, Math.min(1, x));
+const pick = a => a[Math.floor(Math.random()*a.length)];
+const ABBR = ['e.g.','i.e.','etc.','vs.','Mr.','Mrs.','Ms.','Dr.','No.','Rs.','U.S.','Inc.','Ltd.','approx.'];
+const protectAbbr = t => { ABBR.forEach(a => { t = t.split(a).join(a.replace(/\./g,'\u0001')); }); return t; };
+const restoreAbbr = t => t.replace(/\u0001/g,'.');
+const wc = s => (s.trim().match(/\S+/g) || []).length;
+const cap = s => s.replace(/^(\W*)([a-z])/, (m,a,b)=>a+b.toUpperCase());
+
+function splitSentences(para){
+  const p = protectAbbr(para);
+  return p.split(/(?<=[.!?]["”')]?)\s+(?=["“'(]?[A-Z0-9\u0002])/).map(restoreAbbr).filter(s=>s.trim());
+}
+
+/* ---------- Layer data ---------- */
+// Stock phrases typical of AI writing. Used for detection AND (where safe) replacement.
+const CLICHES = [
+  "delv(?:e|es|ed|ing) (?:in)?to","in today['’]s (?:fast-paced|digital|ever-changing|modern|competitive)(?: \\w+)? (?:world|landscape|era|age|market)",
+  "it(?:['’]s| is) (?:important|crucial|essential|vital) to (?:note|mention|remember|understand)(?: that)?","it(?:['’]s| is) worth (?:noting|mentioning)(?: that)?",
+  "in the (?:realm|world|landscape) of","a testament to","(?:rich )?tapestry","navigat(?:e|es|ed|ing) (?:the )?(?:complexities|landscape|challenges|world|maze) of",
+  "unlock(?:s|ed|ing)? (?:the )?(?:power|potential|secrets)","game[- ]chang(?:er|ing)","seamless(?:ly)?","robust","leverag(?:e|es|ed|ing)","utiliz(?:e|es|ed|ing)",
+  "comprehensive","cutting[- ]edge","state[- ]of[- ]the[- ]art","elevat(?:e|es|ed|ing)","embark(?:s|ed|ing)? on","ever[- ]evolving",
+  "in conclusion","to sum up","in summary","plethora","myriad","paramount","pivotal","fost(?:er|ers|ered|ering)","empower(?:s|ed|ing)?",
+  "streamlin(?:e|es|ed|ing)","holistic","look no further","take (?:it|your \\w+) to the next level","dive (?:deep )?into","when it comes to","in order to",
+  "a wide range of","tailored to","ensur(?:e|es|ed|ing) that","crucial","plays? a (?:crucial|vital|key|pivotal|significant) role","hassle[- ]free","worry[- ]free",
+  "facilitat(?:e|es|ed|ing)","numerous","optimal","at the end of the day","peace of mind","whether you['’]re .{3,40}? or","your (?:go-to|one-stop)","unparalleled","effortless(?:ly)?",
+  "have you ever wondered","ready to (?:get started|take|dive|transform)","let['’]s (?:dive|explore|break (?:it )?down|unpack)","here['’]s the thing","buckle up","without further ado",
+  "stay tuned","it goes without saying","needless to say","simply put","that being said","that said","all in all","in this (?:article|guide|post|blog)",
+  "underscor(?:e|es|ed|ing)","bolster(?:s|ed|ing)?","garner(?:s|ed|ing)?","spearhead(?:s|ed|ing)?","multifaceted","nuanced","intricate","intricacies","meticulous(?:ly)?",
+  "unveil(?:s|ed|ing)?","transformative","revolutioniz(?:e|es|ed|ing)","imperative","indispensable","invaluable","encompass(?:es|ed|ing)?","in essence","a game plan"
+];
+const CLICHE_RES = CLICHES.map(s => new RegExp("\\b(?:"+s+")\\b","gi"));
+const TRANS_RE = /(^|[.!?]["”')]?\s+|\n)(Moreover|Furthermore|Additionally|In addition|In conclusion|Overall|Ultimately|Importantly|Notably|Consequently|In essence|Indeed)\b,?/g;
+const DASH_RE = /\s*[—–]\s*(?=[A-Za-z])/g;
+const CONTRACTION_RE = /\b(?:it|that|there|here|what|who|he|she|let)['’]s\b|\b\w+n['’]t\b|\b(?:I|you|we|they)['’](?:m|re|ve|ll|d)\b/gi;
+const PRONOUN_RE = /\b(?:I|me|my|we|our|us|you|your)\b/gi;
+const CONTRAST_RE = /\bnot (?:only|just|merely)\b.{1,80}?\b(?:but|it['’]s|it is)\b/gi;
+const TRIPLET_RE = /\b[\w-]+(?: [\w-]+)?, [\w-]+(?: [\w-]+)?,? (?:and|or) [\w-]+/i;
+
+// Generic section labels that AI tools put on almost every article.
+const HEAD_LIST = ["Introduction","Intro","Overview","Key Takeaways?","Takeaways?","Quick Takeaways?","Summary","Quick Summary","Executive Summary","Conclusion","Final Thoughts?","Closing Thoughts?",
+  "Wrapping Up","In Summary","TL;DR","TLDR","FAQs?","Frequently Asked Questions","Quick Recap","Recap","The Bottom Line","Bottom Line","Let['’]s Dive In","Getting Started","Next Steps",
+  "Why (?:It|This) Matters","What You Need to Know","Things to Keep in Mind","Pros and Cons","Best Practices","Common Mistakes","Key Considerations","Key Benefits","Key Features",
+  "Final Verdict","Looking Ahead","At a Glance","Call to Action","Final Word"];
+const HEAD_INLINE_RE = new RegExp("(^|\\n|[.!?:]\\s+)(?:#+\\s*|\\*\\*)?("+HEAD_LIST.join("|")+")(?=\\*\\*|[\\s:]|$)","gi");
+const HEAD_GENERIC_RE = /(^|\n)(?:#+\s*)?((?:Understanding|Exploring|Mastering|Navigating|Unlocking|Demystifying|Benefits of|The Future of|The Importance of|The Role of|Why .{3,30} Matters)\b[^\n.!?]{2,60})(?=\n|$)/gi;
+
+const FANCY = "utili[sz]e|commence|endeavou?r|ascertain|subsequently|prior to|in the event that|with regard to|pertaining to|aforementioned|henceforth|thereby|therein|whilst|amongst|notwithstanding|ameliorate|expedite|facilitate|individuals|approximately|sufficient|demonstrate|obtain|assistance|regarding|consequently|nevertheless|nonetheless|thus|hence|therefore|multifaceted|nuanced|intricate|underscore[sd]?|bolster|garner|spearhead|encompass|paradigm|synergy|elucidate|delineate|meticulous|imperative|indispensable|invaluable|transformative|revolutionize|unveil|endeavours?";
+const FANCY_RE = new RegExp("\\b(?:"+FANCY+")\\w*\\b","gi");
+const TAIL_RE = /,\s(?:making|allowing|helping|ensuring|enabling|providing|giving|offering|creating|leading to|resulting in|reducing|improving|boosting)\b/i;
+const HEDGE_RE = /\b(?:can|may|might|could|often|typically|generally|usually|tends? to|various|several|a variety of|a range of)\b/gi;
+
+function typedRanges(text){
+  const all=[]; let m;
+  for(const re of CLICHE_RES){ re.lastIndex=0; while((m=re.exec(text))){ all.push({start:m.index,end:m.index+m[0].length,type:'phrase'}); if(!m[0].length) re.lastIndex++; } }
+  TRANS_RE.lastIndex=0; while((m=TRANS_RE.exec(text))){ const s=m.index+m[1].length; all.push({start:s,end:s+m[2].length,type:'trans'}); }
+  DASH_RE.lastIndex=0; while((m=DASH_RE.exec(text))){ all.push({start:m.index,end:m.index+m[0].length,type:'dash'}); }
+  HEAD_INLINE_RE.lastIndex=0;
+  while((m=HEAD_INLINE_RE.exec(text))){
+    if(!/[A-Z]/.test(m[2][0])) continue;                     // a real heading starts with a capital
+    const s=m.index+m[0].indexOf(m[2], m[1].length); all.push({start:s,end:s+m[2].length,type:'head'});
+  }
+  HEAD_GENERIC_RE.lastIndex=0;
+  while((m=HEAD_GENERIC_RE.exec(text))){ const s=m.index+m[0].indexOf(m[2], m[1].length); all.push({start:s,end:s+m[2].length,type:'head'}); }
+  all.sort((a,b)=>a.start-b.start||b.end-a.end);
+  const out=[]; let last=0;
+  for(const r of all){ if(r.start>=last){ out.push(r); last=r.end; } }
+  return out;
+}
+
+function syllables(w){
+  w=w.toLowerCase().replace(/[^a-z]/g,''); if(w.length<=3) return 1;
+  w=w.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/,'').replace(/^y/,'');
+  const m=w.match(/[aeiouy]{1,2}/g); return m?m.length:1;
+}
+
+/* ---------- Analysis ---------- */
+function analyze(text){
+  const paras = text.split(/\n+/).map(s=>s.trim()).filter(Boolean);
+  const allSents = paras.flatMap(splitSentences);
+  // Real sentences only: drop headings / table cells (short, no end punctuation) and giant unbroken blocks.
+  const isFrag = s => !/[.!?]["”')]?$/.test(s.trim()) && wc(s)<=8;
+  const isBlock = s => wc(s)>60;
+  const sentences = allSents.filter(s=>!isFrag(s) && !isBlock(s));
+  const fragCount = allSents.filter(isFrag).length, blockCount = allSents.filter(isBlock).length;
+  const words = text.toLowerCase().match(/[a-z0-9]+(?:['’][a-z]+)?/g) || [];
+  const n = words.length;
+  const per100 = x => n ? x/n*100 : 0;
+  const S = sentences.length;
+  const lens = sentences.map(wc);
+  const ranges = typedRanges(text);
+  const layers = [];
+
+  // 1. Rhythm
+  { let score=0, detail='Too few full sentences to judge rhythm.';
+    if(S>=4){
+      const mean=lens.reduce((a,b)=>a+b,0)/S;
+      const sd=Math.sqrt(lens.reduce((a,b)=>a+(b-mean)**2,0)/S);
+      const cv=sd/mean;
+      score=clamp01((0.6-cv)/(0.6-0.3))*100;
+      detail=`Sentence lengths vary by ${Math.round(cv*100)}% (human writing is usually 50%+). Shortest ${Math.min(...lens)} words, longest ${Math.max(...lens)}, average ${mean.toFixed(0)}.`;
+    }
+    layers.push({key:'rhythm',name:'Rhythm',weight:.15,score,detail}); }
+
+  // 2. AI-style headings & structure
+  { const hits=ranges.filter(r=>r.type==='head').length;
+    const score=[0,45,75,100][Math.min(hits,3)];
+    const names=ranges.filter(r=>r.type==='head').slice(0,4).map(r=>'"'+text.slice(r.start,r.end).trim()+'"').join(', ');
+    layers.push({key:'headings',name:'AI-style headings',weight:.13,score,
+      detail:hits?`${hits} generic AI-style heading${hits>1?'s':''} found: ${names}.`:'No generic AI headings (Introduction, Key takeaways, Summary...) found.'}); }
+
+  // 3. Stock phrases
+  { const pc=ranges.filter(r=>r.type==='phrase').length;
+    const d=per100(pc);
+    layers.push({key:'phrases',name:'Stock phrases',weight:.20,score:clamp01(d/2)*100,
+      detail:pc?`${pc} stock phrase${pc>1?'s':''} found (${d.toFixed(1)} per 100 words). Typical AI wording like "leverage", "seamless", "delve into".`:'No typical AI stock phrases found.'}); }
+
+  // 4. Repetition
+  { let score=0, detail='Not enough text to judge repetition.';
+    if(S>=4){
+      const openers=sentences.map(s=>s.toLowerCase().split(/\s+/).slice(0,2).join(' '));
+      const cnt={}; openers.forEach(o=>cnt[o]=(cnt[o]||0)+1);
+      const rep=openers.filter(o=>cnt[o]>1).length/S;
+      const tri={}; for(let i=0;i<n-2;i++){const k=words[i]+' '+words[i+1]+' '+words[i+2]; tri[k]=(tri[k]||0)+1;}
+      let triRep=0; const triTot=Math.max(n-2,1); for(const k in tri) if(tri[k]>1) triRep+=tri[k];
+      triRep/=triTot;
+      score=(clamp01(rep/0.5)*0.6+clamp01(triRep/0.08)*0.4)*100;
+      detail=`${Math.round(rep*100)}% of sentences open the same way as another; ${(triRep*100).toFixed(1)}% of word triples repeat.`;
+    }
+    layers.push({key:'repetition',name:'Repetition',weight:.08,score,detail}); }
+
+  // 5. Style tells
+  { const dashes=ranges.filter(r=>r.type==='dash').length;
+    const trans=ranges.filter(r=>r.type==='trans').length;
+    const triplets=sentences.filter(s=>TRIPLET_RE.test(s)).length;
+    const contrast=(text.match(CONTRAST_RE)||[]).length;
+    const comps=[clamp01(per100(dashes)/0.6), clamp01((S?trans/S:0)/0.2), clamp01((S?triplets/S:0)/0.3), clamp01(contrast/2)];
+    let paraNote='';
+    if(paras.length>=3){
+      const pl=paras.map(wc), pm=pl.reduce((a,b)=>a+b,0)/pl.length;
+      const pcv=Math.sqrt(pl.reduce((a,b)=>a+(b-pm)**2,0)/pl.length)/pm;
+      comps.push(clamp01((0.35-pcv)/0.2)); paraNote=` Paragraph sizes vary by ${Math.round(pcv*100)}%.`;
+    }
+    const score=comps.reduce((a,b)=>a+b,0)/comps.length*100;
+    layers.push({key:'style',name:'Style tells',weight:.12,score,
+      detail:`${dashes} em dash${dashes===1?'':'es'}, ${trans} stiff transition${trans===1?'':'s'} (Moreover, Furthermore...), ${triplets} "A, B and C" lists, ${contrast} "not only... but" pattern${contrast===1?'':'s'}.${paraNote}`}); }
+
+  // 6. Predictable constructions (rule-based stand-in for a model-based predictability check)
+  { const tails=sentences.filter(s=>TAIL_RE.test(s)).length;
+    const hedges=(text.match(HEDGE_RE)||[]).length, hd=per100(hedges);
+    const score=S>=4 ? (clamp01((S?tails/S:0)/0.25)*0.6 + clamp01((hd-2)/3)*0.4)*100 : 0;
+    layers.push({key:'constructions',name:'Predictable constructions',weight:.10,score,
+      detail:`${tails} sentence${tails===1?'':'s'} end with a ", making / allowing / helping..." tail, and hedging words (can, may, often, various) appear ${hd.toFixed(1)} times per 100 words (AI text is usually 3+).`}); }
+
+  // 7. Personal voice (inverted)
+  { const contr=(text.match(CONTRACTION_RE)||[]).length;
+    const pron=(text.match(PRONOUN_RE)||[]).length;
+    const q=sentences.filter(s=>/\?\s*$/.test(s)).length;
+    const shortS=lens.filter(l=>l<=5).length;
+    const human=clamp01(per100(contr)/2.5)*.4 + clamp01(per100(pron)/3)*.3 + clamp01((S?q/S:0)/0.08)*.15 + clamp01((S?shortS/S:0)/0.1)*.15;
+    layers.push({key:'voice',name:'Personal voice',weight:.10,score:(1-human)*100,
+      detail:`${contr} contraction${contr===1?'':'s'}, ${pron} "you/we/I" word${pron===1?'':'s'}, ${q} question${q===1?'':'s'}, ${shortS} very short sentence${shortS===1?'':'s'}. Human writing usually has more of each.`}); }
+
+  // 8. Plain English (readability + fancy words)
+  { let score=0, detail='Not enough text to judge readability.';
+    if(S>=3 && n>=40){
+      const wl=words.filter(w=>/[a-z]/.test(w));
+      const syl=wl.reduce((a,w)=>a+syllables(w),0);
+      const sentWords=lens.reduce((a,b)=>a+b,0)/S;
+      const fre=206.835-1.015*sentWords-84.6*(syl/wl.length);
+      const fancy=(text.match(FANCY_RE)||[]).length, fd=per100(fancy);
+      score=(clamp01((65-fre)/30)*0.6 + clamp01(fd/1.5)*0.4)*100;
+      detail=`Reading ease ${Math.round(fre)} (60 to 70 is plain English; lower is harder). ${fancy} formal or fancy word${fancy===1?'':'s'} (utilize, subsequently, regarding...).`;
+    }
+    layers.push({key:'plain',name:'Plain English',weight:.08,score,detail}); }
+
+  // 9. Vocabulary variety (MATTR)
+  { let score=0, detail='Not enough text to judge vocabulary.';
+    if(n>=60){
+      const w=50; let sum=0, c=0; const m=new Map();
+      for(let i=0;i<n;i++){
+        m.set(words[i],(m.get(words[i])||0)+1);
+        if(i>=w){ const o=words[i-w]; const v=m.get(o)-1; v?m.set(o,v):m.delete(o); }
+        if(i>=w-1){ sum+=m.size/w; c++; }
+      }
+      const mattr=sum/c;
+      score=clamp01((0.78-mattr)/0.16)*100;
+      detail=`Vocabulary variety index ${mattr.toFixed(2)} (higher is more varied; ~0.72+ is typical of human writing).`;
+    }
+    layers.push({key:'vocab',name:'Vocabulary variety',weight:.04,score,detail}); }
+
+  // Overall: weighted average, but one or two strong tells should not be diluted away.
+  const weighted=layers.reduce((a,l)=>a+l.score*l.weight,0);
+  const top2=layers.map(l=>l.score).sort((a,b)=>b-a).slice(0,2).reduce((a,b)=>a+b,0)/2;
+  const score=Math.round(0.75*weighted+0.25*top2);
+
+  const warnings=[];
+  if(n<80) warnings.push('This text is under 80 words, so the score is not very reliable. Paste more text for a better reading.');
+  if(blockCount>0 || fragCount>=Math.max(4,allSents.length*0.15))
+    warnings.push('Parts of this text look like pasted tables, lists or headings with the line breaks lost. Those pieces are skipped when scoring rhythm. For the most accurate result, paste with the original line breaks.');
+  return {score,layers,ranges,words:n,sentences:S,warnings};
+}
+
+/* ---------- Humanizer (rule-based, fully local) ---------- */
+const verbForms = (base,s,ed,ing) => [base,s,ed,ing];
+const RULES = [];
+const R = (rx, reps) => RULES.push([rx, reps]);
+// phrases -> plainer wording
+R(/\bdelve into\b/gi,["dig into","look at"]); R(/\bdelves into\b/gi,["digs into","looks at"]); R(/\bdelved into\b/gi,["dug into","looked at"]); R(/\bdelving into\b/gi,["digging into","looking at"]);
+R(/\bin today['’]s (?:fast-paced|digital|ever-changing|modern|competitive)(?: \w+)? (?:world|landscape|era|age|market),?\s*/gi,["Today, ","Right now, ","These days, ",""]);
+R(/\bit(?:['’]s| is) (?:important|crucial|essential|vital) to (?:note|mention|remember|understand)(?: that)?,?\s*/gi,["","Keep in mind that ",""]);
+R(/\bit(?:['’]s| is) worth (?:noting|mentioning)(?: that)?,?\s*/gi,["","Note that ",""]);
+R(/\bin the (?:realm|world|landscape) of\b/gi,["in"]);
+R(/\ba testament to\b/gi,["proof of"]);
+R(/\b(?:a )?rich tapestry of\b/gi,["a mix of"]);
+R(/\bnavigate (?:the )?(?:complexities|landscape|challenges|world) of\b/gi,["work through","make sense of"]);
+R(/\bunlocks (?:the )?(?:power|potential|secrets) of\b/gi,["gets more out of"]); R(/\bunlocked (?:the )?(?:power|potential|secrets) of\b/gi,["got more out of"]);
+R(/\bunlocking (?:the )?(?:power|potential|secrets) of\b/gi,["getting more out of"]); R(/\bunlock (?:the )?(?:power|potential|secrets) of\b/gi,["get more out of"]);
+R(/\bgame[- ]changer\b/gi,["big shift","real change"]); R(/\bgame[- ]changing\b/gi,["major","big"]);
+R(/\bseamlessly\b/gi,["smoothly"]); R(/\bseamless\b/gi,["smooth","easy"]);
+R(/\brobust\b/gi,["solid","strong"]);
+R(/\bleverages\b/gi,["uses"]); R(/\bleveraged\b/gi,["used"]); R(/\bleveraging\b/gi,["using"]); R(/\bleverage\b/gi,["use"]);
+R(/\butilizes\b/gi,["uses"]); R(/\butilized\b/gi,["used"]); R(/\butilizing\b/gi,["using"]); R(/\butilize\b/gi,["use"]);
+R(/\bcomprehensive\b/gi,["full","complete","detailed"]);
+R(/\bcutting[- ]edge\b/gi,["modern","latest"]); R(/\bstate[- ]of[- ]the[- ]art\b/gi,["modern","advanced"]);
+R(/\belevates\b/gi,["improves","lifts"]); R(/\belevated\b/gi,["improved","raised"]); R(/\belevating\b/gi,["improving","raising"]); R(/\belevate\b/gi,["improve","raise"]);
+R(/\bembarks on\b/gi,["starts"]); R(/\bembarked on\b/gi,["started"]); R(/\bembarking on\b/gi,["starting"]); R(/\bembark on\b/gi,["start"]);
+R(/\bever[- ]evolving\b/gi,["changing","shifting"]);
+R(/\bin conclusion,?\s*/gi,["All in all, ","Bottom line: ","In short, "]); R(/\bto sum up,?\s*/gi,["In short, ","All in all, "]); R(/\bin summary,?\s*/gi,["In short, ","All in all, "]);
+R(/\b(?:Moreover|Furthermore|Additionally|In addition),\s*/gi,["Also, ","Plus, ","On top of that, ","","What\u2019s more, "]);
+R(/\bUltimately,\s*/gi,["In the end, ",""]);
+R(/\b(?:a )?plethora of\b/gi,["plenty of","lots of"]); R(/\b(?:a )?myriad of\b/gi,["many"]); R(/\ba myriad\b/gi,["many"]);
+R(/\bparamount\b/gi,["essential","a top priority"]); R(/\bpivotal\b/gi,["key","important"]);
+R(/\bfosters\b/gi,["builds"]); R(/\bfostered\b/gi,["built"]); R(/\bfostering\b/gi,["building"]); R(/\bfoster\b/gi,["build","encourage"]);
+R(/\bempowers\b/gi,["helps"]); R(/\bempowered\b/gi,["helped"]); R(/\bempowering\b/gi,["helping"]); R(/\bempower\b/gi,["help"]);
+R(/\bstreamlines\b/gi,["simplifies"]); R(/\bstreamlined\b/gi,["simplified"]); R(/\bstreamlining\b/gi,["simplifying"]); R(/\bstreamline\b/gi,["simplify"]);
+R(/\bholistic\b/gi,["complete","all-round"]);
+R(/\bdive (?:deep )?into\b/gi,["get into","look at"]);
+R(/\bwhen it comes to\b/gi,["with","for"]);
+R(/\bin order to\b/gi,["to"]);
+R(/\ba wide range of\b/gi,["many","all kinds of"]);
+R(/\btailored to\b/gi,["built for","designed for"]);
+R(/\bensures that\b/gi,["makes sure"]); R(/\bensure that\b/gi,["make sure"]); R(/\bensuring that\b/gi,["making sure"]); R(/\bensured that\b/gi,["made sure"]);
+R(/\bplays? a (?:crucial|vital|key|pivotal|significant) role in\b/gi,["matters for","is key to"]);
+R(/\bcrucial\b/gi,["important","key"]);
+R(/\bhassle[- ]free\b/gi,["easy"]); R(/\bworry[- ]free\b/gi,["easy"]);
+R(/\bfacilitates\b/gi,["helps with"]); R(/\bfacilitated\b/gi,["helped with"]); R(/\bfacilitating\b/gi,["helping with"]); R(/\bfacilitate\b/gi,["help with"]);
+R(/\bnumerous\b/gi,["many"]); R(/\boptimal\b/gi,["best"]); R(/\bunparalleled\b/gi,["exceptional"]);
+R(/\beffortlessly\b/gi,["easily"]); R(/\beffortless\b/gi,["easy"]);
+R(/\bat the end of the day,?\s*/gi,["In the end, "]);
+R(/\byour (?:go-to|one-stop)\b/gi,["your"]);
+
+// plain-English swaps
+R(/\bhave you ever wondered\b/gi,["Ever wondered"]);
+R(/\blet['’]s (?:dive|explore|break (?:it )?down|unpack)(?: in)?[.:!]?\s*/gi,[""]);
+R(/\bwithout further ado,?\s*/gi,[""]);
+R(/\bit goes without saying that\s*/gi,[""]); R(/\bneedless to say,?\s*/gi,[""]);
+R(/\bsimply put,?\s*/gi,["In short, "]); R(/\bthat being said,?\s*/gi,["Still, ","But "]); R(/\bthat said,?\s*/gi,["Still, ","But "]);
+R(/\ball in all,?\s*/gi,["Overall, ","In the end, "]);
+R(/\bunderscores\b/gi,["shows"]); R(/\bunderscored\b/gi,["showed"]); R(/\bunderscoring\b/gi,["showing"]); R(/\bunderscore\b/gi,["show"]);
+R(/\bbolsters\b/gi,["boosts"]); R(/\bbolstered\b/gi,["boosted"]); R(/\bbolstering\b/gi,["boosting"]); R(/\bbolster\b/gi,["boost"]);
+R(/\bgarners\b/gi,["gets"]); R(/\bgarnered\b/gi,["got"]); R(/\bgarnering\b/gi,["getting"]); R(/\bgarner\b/gi,["get"]);
+R(/\bspearheads\b/gi,["leads"]); R(/\bspearheaded\b/gi,["led"]); R(/\bspearheading\b/gi,["leading"]); R(/\bspearhead\b/gi,["lead"]);
+R(/\bencompasses\b/gi,["covers"]); R(/\bencompassed\b/gi,["covered"]); R(/\bencompassing\b/gi,["covering"]); R(/\bencompass\b/gi,["cover"]);
+R(/\bmultifaceted\b/gi,["complex"]); R(/\bnuanced\b/gi,["subtle"]); R(/\bintricacies\b/gi,["details"]); R(/\bintricate\b/gi,["detailed"]);
+R(/\bmeticulously\b/gi,["carefully"]); R(/\bmeticulous\b/gi,["careful"]);
+R(/\bunveils\b/gi,["shows"]); R(/\bunveiled\b/gi,["showed"]); R(/\bunveiling\b/gi,["showing"]); R(/\bunveil\b/gi,["show"]);
+R(/\btransformative\b/gi,["big","major"]); R(/\bimperative\b/gi,["important","a must"]);
+R(/\bindispensable\b/gi,["essential"]); R(/\binvaluable\b/gi,["very useful"]);
+R(/\brevolutioniz(?:es|ed|ing|e)\b/gi,["change"]);
+R(/\bcommence(?:s|d)?\b/gi,["start"]); R(/\bprior to\b/gi,["before"]); R(/\bsubsequently\b/gi,["then","later"]);
+R(/\bin the event that\b/gi,["if"]); R(/\b(?:with regard to|pertaining to)\b/gi,["about"]); R(/\bregarding\b/gi,["about"]);
+R(/\bendeavou?rs? to\b/gi,["try to"]); R(/\bascertain\b/gi,["find out"]); R(/\bwhilst\b/gi,["while"]); R(/\bamongst\b/gi,["among"]);
+R(/\bindividuals\b/gi,["people"]); R(/\bapproximately\b/gi,["about"]); R(/\bsufficient\b/gi,["enough"]);
+R(/\bdemonstrates\b/gi,["shows"]); R(/\bdemonstrated\b/gi,["showed"]); R(/\bdemonstrating\b/gi,["showing"]); R(/\bdemonstrate\b/gi,["show"]);
+R(/\bobtains\b/gi,["gets"]); R(/\bobtained\b/gi,["got"]); R(/\bobtaining\b/gi,["getting"]); R(/\bobtain\b/gi,["get"]);
+R(/\bassistance\b/gi,["help"]);
+R(/\bdue to the fact that\b/gi,["because"]); R(/\bin spite of the fact that\b/gi,["even though"]);
+R(/\b(?:is|are) able to\b/gi,["can"]); R(/\bhas the ability to\b/gi,["can"]); R(/\bat this point in time\b/gi,["now"]);
+R(/\bfor the purpose of\b/gi,["to"]); R(/\bin the near future\b/gi,["soon"]); R(/\bthe majority of\b/gi,["most"]); R(/\ba number of\b/gi,["several"]);
+R(/\b(?:Thus|Hence|Therefore),\s*/gi,["So, ",""]); R(/\bConsequently,\s*/gi,["So, "]);
+R(/\bNevertheless,\s*/gi,["Still, "]); R(/\bNonetheless,\s*/gi,["Still, "]);
+
+const CONTR = [
+  [/\bdo not\b/gi,"don't"],[/\bdoes not\b/gi,"doesn't"],[/\bdid not\b/gi,"didn't"],[/\bis not\b/gi,"isn't"],[/\bare not\b/gi,"aren't"],
+  [/\bwas not\b/gi,"wasn't"],[/\bwere not\b/gi,"weren't"],[/\bhave not\b/gi,"haven't"],[/\bhas not\b/gi,"hasn't"],[/\bwill not\b/gi,"won't"],
+  [/\bwould not\b/gi,"wouldn't"],[/\bcould not\b/gi,"couldn't"],[/\bshould not\b/gi,"shouldn't"],[/\bcannot\b/gi,"can't"],
+  [/\bit is\b/gi,"it's"],[/\bthat is\b/gi,"that's"],[/\bthere is\b/gi,"there's"],[/\byou will\b/gi,"you'll"],[/\byou are\b/gi,"you're"],
+  [/\bwe are\b/gi,"we're"],[/\bwe will\b/gi,"we'll"],[/\bthey are\b/gi,"they're"],[/\bI am\b/g,"I'm"]
+];
+
+function matchCase(src, rep){ return (rep && /^[A-Z]/.test(src)) ? rep[0].toUpperCase()+rep.slice(1) : rep; }
+
+let USED = new Map();
+function pickFresh(reps){
+  const min = Math.min(...reps.map(r => USED.get(r)||0));
+  const c = reps.filter(r => (USED.get(r)||0)===min);
+  const r = pick(c); USED.set(r,(USED.get(r)||0)+1); return r;
+}
+function applyPhraseRules(t){
+  for(const [rx,reps] of RULES){ t = t.replace(rx, m => matchCase(m, pickFresh(reps))); }
+  return t;
+}
+function fixGrammar(t){
+  t = t.replace(/\b(help(?:s|ed|ing)?) (you|them|us|me|him|her|users|customers|clients|borrowers|investors|families|parents|people) to\b/gi,'$1 $2');
+  t = t.replace(/\b([Aa]) (?=(?:[aeio]|u(?:n(?![aeiou])))\w*)(?!(?:one|once|eu|ever|eye)\b)/g,(m,a)=>a+'n ');
+  t = t.replace(/\b([Aa])n (?=(?!(?:hour|honest|honou?r|heir)\b)[b-df-hj-np-tv-z]\w*)/g,(m,a)=>a+' ');
+  return t;
+}
+function fixDashes(t){
+  t = t.replace(/\s+[—–]\s+/g, ", ");
+  t = t.replace(/(?<=[A-Za-z])[—–](?=[A-Za-z])/g, ", ");
+  return t;
+}
+function applyContractions(t, prob){
+  for(const [rx,rep] of CONTR){ t = t.replace(rx, m => Math.random()<prob ? matchCase(m,rep) : m); }
+  return t;
+}
+
+const LOWERABLE = new Set(['the','this','it','you','we','they','a','an','our','your','that','these','there','he','she','its','with','for','in','on','at','if','when','so','and','but']);
+function splitLong(sentence, thr, casual, minSide){
+  minSide = minSide||6;
+  if(wc(sentence) <= thr) return [sentence];
+  const re = /(, (and|but|so|which) |; )/g; let m, best=null;
+  while((m=re.exec(sentence))){
+    const L=wc(sentence.slice(0,m.index)), Rr=wc(sentence.slice(m.index+m[0].length));
+    if(L>=minSide+1 && Rr>=minSide){ const d=Math.abs(L-Rr); if(!best||d<best.d) best={d,idx:m.index,len:m[0].length,conj:m[2]||''}; }
+  }
+  if(!best || Math.random()>0.85) return [sentence];
+  const left = sentence.slice(0,best.idx).replace(/[,;]\s*$/,'')+'.';
+  let right = sentence.slice(best.idx+best.len);
+  let lead='';
+  if(best.conj==='but') lead='But ';
+  else if(best.conj==='so') lead='So ';
+  else if(best.conj==='which') lead='That ';
+  else if(best.conj==='and' && casual && Math.random()<0.4) lead='And ';
+  right = lead ? lead + right : cap(right);
+  return [left, ...splitLong(right, thr, casual, minSide)];
+}
+const TAIL_MAP={making:'That makes',allowing:'That lets',enabling:'That lets',helping:'That helps',giving:'That gives',providing:'That gives',offering:'That gives'};
+function splitTail(sentence){
+  const m=sentence.match(/^(.+?),\s(making|allowing|enabling|helping|giving|providing|offering|ensuring that)\s(.+)$/);
+  if(!m || Math.random()>0.8) return [sentence];
+  const L=wc(m[1]), Rr=wc(m[3]); if(L<6 || Rr<3) return [sentence];
+  if(/\b(?:and|or|but) (?:\w+ing|\w+ed)\b/i.test(m[3])) return [sentence];   // a second clause follows: splitting would break the grammar
+  const lead = m[2]==='ensuring that' ? 'That makes sure' : TAIL_MAP[m[2]];
+  return [m[1]+'.', lead+' '+m[3]];
+}
+const HEAD_MAP={'introduction':null,'intro':null,'overview':'The basics',
+  'key takeaways':'What to remember','key takeaway':'What to remember','takeaways':'What to remember','quick takeaways':'What to remember',
+  'summary':'The short version','quick summary':'The short version','executive summary':'The short version','recap':'The short version','quick recap':'The short version','tl;dr':'The short version','tldr':'The short version',
+  'conclusion':'Where this leaves you','final thoughts':'Where this leaves you','final thought':'Where this leaves you','closing thoughts':'Where this leaves you','wrapping up':'Where this leaves you','in summary':'The short version','the bottom line':'Where this leaves you','bottom line':'Where this leaves you',
+  'faq':'Common questions','faqs':'Common questions','frequently asked questions':'Common questions','next steps':'What to do next','getting started':'How to start',
+  'why it matters':'Why you should care','why this matters':'Why you should care','best practices':'What works','common mistakes':'Mistakes to avoid','pros and cons':'The good and the bad',
+  'key benefits':'What you get','key features':'What you get'};
+function renameHeading(line){
+  const m=line.trim().match(/^(#+\s*)?(?:\*\*)?(.+?)(?:\*\*)?\s*:?\s*$/);
+  if(!m) return line;
+  const key=m[2].trim().toLowerCase();
+  const gen=m[2].trim().match(/^(?:Understanding|Exploring|Mastering|Demystifying|Navigating|Unlocking)\s+(.{3,60})$/);
+  if(gen && !(key in HEAD_MAP) && !/[.!?]$/.test(gen[1])) return (m[1]||'')+gen[1].charAt(0).toUpperCase()+gen[1].slice(1);
+  if(!(key in HEAD_MAP)) return line;
+  const rep=HEAD_MAP[key];
+  return rep===null ? '' : (m[1]||'')+rep;
+}
+function mergeShort(list){
+  const out=[];
+  for(let i=0;i<list.length;i++){
+    const a=list[i], b=list[i+1];
+    if(b && wc(a)<=7 && wc(b)<=7 && /[.]$/.test(a) && !/[?!]$/.test(b) && Math.random()<0.5){
+      const first=b.split(/\s+/)[0].toLowerCase();
+      const b2 = LOWERABLE.has(first) ? b[0].toLowerCase()+b.slice(1) : b;
+      out.push(a.replace(/\.$/,'')+', and '+b2); i++;
+    } else out.push(a);
+  }
+  return out;
+}
+function restructure(para, casual, pass){
+  pass = pass||0;
+  if(/^\s*(?:[-*•]|\d+[.)])\s/.test(para)) return para;           // list item: leave alone
+  const sents = splitSentences(para);
+  if(sents.length===1 && !/[.!?]["”')]?$/.test(para.trim())) return para; // heading: leave alone
+  const thr = Math.max(13, (casual ? 20 : 24) - pass*5);
+  let list = sents.flatMap(s => splitTail(s)).flatMap(s => splitLong(s, thr, casual, pass>=2?5:6));
+  list = mergeShort(list);
+  return list.join(' ');
+}
+function cleanup(t){
+  return t.replace(/ {2,}/g,' ').replace(/ +([,.;:!?])/g,'$1').replace(/,\s*,/g,',').replace(/,\s*\./g,'.')
+          .replace(/([.!?]["”)]?\s+)([a-z])/g,(m,a,b)=>a+b.toUpperCase());
+}
+
+function humanizeOnce(text, tone, pass){
+  const casual = tone==='casual';
+  USED = new Map();
+  const vault=[];
+  text = text.replace(/\{\{([\s\S]*?)\}\}/g,(m,a)=>{vault.push(a);return '\u0002'+(vault.length-1)+'\u0003';});
+  const lines = text.split('\n').map(line=>{
+    if(!line.trim()) return line;
+    const renamed=renameHeading(line);
+    if(renamed!==line) return renamed;
+    const wasUpper=/^\s*[A-Z]/.test(line);
+    let t = protectAbbr(line);
+    t = applyPhraseRules(t);
+    t = fixDashes(t);
+    t = fixGrammar(t);
+    t = applyContractions(t, casual?0.9:0.65);
+    t = restructure(t, casual, pass);
+    t = cleanup(t);
+    t = restoreAbbr(t).trim();
+    if(wasUpper) t = cap(t);
+    return t;
+  });
+  return lines.join('\n').replace(/\n{3,}/g,'\n\n').replace(/^\n+/,'').replace(/\u0002(\d+)\u0003/g,(m,i)=>vault[+i]);
+}
+
+function humanize(text, tone, target){
+  const before = analyze(text.replace(/\{\{([\s\S]*?)\}\}/g,'$1'));
+  let cur = text, best = {text:text, score:before.score}, passes=0;
+  for(let i=0;i<4;i++){
+    const out = humanizeOnce(cur, tone, i); passes++;
+    const sc = analyze(out.replace(/\{\{([\s\S]*?)\}\}/g,'$1')).score;
+    if(sc <= best.score) best = {text:out, score:sc};
+    cur = out;
+    if(sc <= target) break;
+  }
+  return {before, after: analyze(best.text.replace(/\{\{([\s\S]*?)\}\}/g,'$1')), text: best.text.replace(/\{\{([\s\S]*?)\}\}/g,'$1'), passes};
+}
+
+window.HC = {analyze, humanize, humanizeOnce};
+
+/* ---------- UI ---------- */
+const $ = id => document.getElementById(id);
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const TIPS = {
+  rhythm:'Mix very short sentences (3 to 6 words) with longer ones. Right now the sentences are too even.',
+  phrases:'Swap the remaining stock phrases (highlighted) for plain words you would actually say.',
+  repetition:'Several sentences start the same way. Open some with a fact, a number or a question instead.',
+  style:'Break up "A, B and C" lists (use two or four items sometimes), and cut "not only... but also" and "Moreover/Furthermore" openers.',
+  voice:'Add something only a person would write: a direct question, a "we/you" line, a real customer example or a clear opinion.',
+  headings:'Rename generic headings like Introduction, Key takeaways and Summary. Use headings that say what the section actually tells the reader, or just drop them.',
+  plain:'Write the way you would explain it to a friend: shorter sentences, everyday words. Replace formal words (utilize, subsequently, regarding) with simple ones.',
+  constructions:'Cut the ", making it... / allowing you to..." endings and the many "can / may / often" hedges. State things directly.',
+  vocab:'The same words repeat a lot. Use more specific terms from your product, customers or numbers.'
+};
+function colorFor(s){ return s<30?'var(--lo)':s<55?'var(--mid)':'var(--hi)'; }
+function labelFor(s){ return s<30?'Low: reads human':s<55?'Medium: mixed signals':'High: reads AI-like'; }
+
+function renderFlag(text, ranges){
+  let html='', pos=0;
+  for(const r of ranges){
+    html += esc(text.slice(pos,r.start)) + '<mark class="'+r.type+'">'+esc(text.slice(r.start,r.end))+'</mark>';
+    pos=r.end;
+  }
+  return html + esc(text.slice(pos));
+}
+
+function renderResult(res, opts){
+  $('empty').hidden=true; $('out').hidden=false;
+  const hasAfter = !!opts.after;
+  $('sBefore').textContent = res.score; $('sBefore').style.color=colorFor(res.score);
+  $('arrow').hidden=!hasAfter; $('sAfter').hidden=!hasAfter;
+  const shown = hasAfter ? opts.after : res;
+  if(hasAfter){ $('sAfter').textContent=opts.after.score; $('sAfter').style.color=colorFor(opts.after.score); }
+  $('sLabel').textContent = (hasAfter?'After: ':'') + labelFor(shown.score);
+  const bar=$('meterBar'); bar.style.width=shown.score+'%'; bar.style.background=colorFor(shown.score);
+  $('warnBox').innerHTML = shown.warnings.map(w=>'<div class="warn">'+esc(w)+'</div>').join('');
+
+  $('layers').innerHTML = shown.layers.map(l=>`
+    <div class="layer">
+      <div class="lh"><span>${l.name}</span><span style="color:${colorFor(l.score)}">${Math.round(l.score)}</span></div>
+      <div class="lbar"><i style="width:${l.score}%;background:${colorFor(l.score)}"></i></div>
+      <div class="ld">${esc(l.detail)}</div>
+    </div>`).join('');
+
+  const flagText = hasAfter ? opts.text : opts.source;
+  $('flagView').innerHTML = renderFlag(flagText, shown.ranges);
+
+  const tabHum=$('tabHum');
+  tabHum.hidden=!hasAfter;
+  if(hasAfter){
+    $('humView').textContent = opts.text;
+    $('passInfo').textContent = `${opts.passes} pass${opts.passes>1?'es':''} run`;
+  }
+  selectTab(hasAfter?'hum':'flag');
+  $('tabFlag').textContent = hasAfter ? 'Flagged text (after)' : 'Flagged text';
+
+  const tips = shown.layers.filter(l=>l.score>=50).sort((a,b)=>b.score*b.weight-a.score*a.weight).map(l=>TIPS[l.key]);
+  $('tips').innerHTML = tips.map(t=>'<li>'+esc(t)+'</li>').join('');
+  $('tipsBox').hidden = !tips.length;
+}
+function selectTab(which){
+  const hum = which==='hum';
+  $('tabHum').setAttribute('aria-selected',hum); $('tabFlag').setAttribute('aria-selected',!hum);
+  $('paneHum').hidden=!hum; $('paneFlag').hidden=hum;
+}
+
+$('src').addEventListener('input',()=>{ $('wc').textContent = wc($('src').value)+' words'; });
+$('tabFlag').addEventListener('click',()=>selectTab('flag'));
+$('tabHum').addEventListener('click',()=>selectTab('hum'));
+$('check').addEventListener('click',()=>{
+  const t=$('src').value; if(!t.trim()) return;
+  const clean=t.replace(/\{\{([\s\S]*?)\}\}/g,'$1');
+  renderResult(analyze(clean),{source:clean});
+});
+$('humanize').addEventListener('click',()=>{
+  const t=$('src').value; if(!t.trim()) return;
+  const target=Math.max(5,Math.min(80,parseInt($('target').value,10)||30));
+  const r=humanize(t,$('tone').value,target);
+  renderResult(r.before,{after:r.after,text:r.text,passes:r.passes,source:t});
+});
+$('copy').addEventListener('click',async()=>{
+  const txt=$('humView').textContent;
+  try{ await navigator.clipboard.writeText(txt); $('copy').textContent='Copied'; }
+  catch(e){ const r=document.createRange(); r.selectNodeContents($('humView')); const s=getSelection(); s.removeAllRanges(); s.addRange(r); $('copy').textContent='Selected, press Ctrl+C'; }
+  setTimeout(()=>$('copy').textContent='Copy text',1800);
+});
+$('reuse').addEventListener('click',()=>{
+  $('src').value=$('humView').textContent; $('src').dispatchEvent(new Event('input')); $('check').click();
+});
+})();
+</script>
+</body>
+</html>
