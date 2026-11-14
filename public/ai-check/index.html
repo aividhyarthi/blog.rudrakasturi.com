@@ -89,12 +89,44 @@ mark.weak{background:transparent;border-bottom:2px dotted var(--mid);border-radi
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
 .chip{font-size:12.5px;padding:2px 10px;border-radius:99px;font-weight:500}
 .chip::after{content:" \00d7";color:var(--muted)}
+
+:root{ --sent-strong:rgba(180,68,47,.17); --sent-maybe:rgba(183,121,31,.15); }
+@media (prefers-color-scheme: dark){ :root{ --sent-strong:rgba(239,138,116,.22); --sent-maybe:rgba(224,180,87,.2); } }
+.sent{border-radius:3px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.sent.s-strong{background:var(--sent-strong)} .sent.s-maybe{background:var(--sent-maybe)}
+.sec-h{font-weight:600;font-size:15px;margin:20px 0 8px}
+.verdict{border:1px solid var(--border);border-radius:12px;padding:14px 16px;background:var(--bg)}
+.v-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.v-title{font-size:24px;font-weight:700;letter-spacing:-.01em}
+.verdict.v-lo .v-title,.verdict.v-lo .v-score b{color:var(--lo)} .verdict.v-mid .v-title,.verdict.v-mid .v-score b{color:var(--mid)} .verdict.v-hi .v-title,.verdict.v-hi .v-score b{color:var(--hi)}
+.v-score{font-variant-numeric:tabular-nums;white-space:nowrap}
+.v-score b{font-size:34px;line-height:1}
+.v-score .was{color:var(--muted);text-decoration:line-through;font-size:22px;font-weight:600}
+.v-score .arr{color:var(--muted);margin:0 6px}
+.v-score small{color:var(--muted);margin-left:6px;font-size:13px}
+.v-was{font-size:13.5px;color:var(--muted);margin-top:2px}
+.v-lead{margin-top:8px;font-size:15px}
+.issue{border:1px solid var(--border);border-radius:10px;padding:10px 12px;margin-bottom:8px;background:var(--bg)}
+.is-top{display:flex;gap:8px;align-items:baseline;justify-content:space-between}
+.is-body{font-size:14.5px;margin-top:2px}
+.is-ev{font-size:13.5px;color:var(--muted);margin-top:2px}
+.is-fix{font-size:14px;margin-top:6px}
+.sev{font-size:12px;font-weight:600;border-radius:99px;padding:1px 9px;border:1px solid var(--border);white-space:nowrap}
+.sev.big{color:var(--hi);border-color:var(--hi)} .sev.mid{color:var(--mid);border-color:var(--mid)} .sev.low{color:var(--muted)}
+.goods{font-size:14px;color:var(--muted);margin-top:4px}
+.goods b{color:var(--lo)}
+.goodnote{padding:10px 12px;border:1px solid var(--border);border-radius:10px;font-size:14.5px;background:var(--bg)}
+.fixlist{margin:0;padding-left:22px;display:grid;gap:10px}
+.fx-s{font-size:14.5px}
+.fx-r{margin:2px 0 0;padding-left:18px;font-size:13.5px;color:var(--muted)}
+details.tech{margin-top:20px;border-top:1px solid var(--border);padding-top:10px}
+details.tech summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--muted)}
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Humanness Checker</h1>
-  <p class="sub">Paste your content to see how many AI-style writing patterns it has, then humanize it. Runs entirely in your browser. Nothing is uploaded or sent anywhere.</p>
+  <p class="sub">Paste your content to see whether it reads as AI-written, which sentences give it away, and how to fix them. Then humanize it. Runs entirely in your browser. Nothing is uploaded or sent anywhere.</p>
 
   <div class="grid">
     <section class="panel" aria-label="Your content">
@@ -122,30 +154,28 @@ mark.weak{background:transparent;border-bottom:2px dotted var(--mid);border-radi
       <h2>Results</h2>
       <div id="empty" class="empty">Paste some text and press <b>Check</b>.</div>
       <div id="out" hidden>
-        <div class="score">
-          <span id="sBefore" class="big"></span>
-          <span id="arrow" class="arrow" hidden>→</span>
-          <span id="sAfter" class="big" hidden></span>
-          <span id="sLabel" class="lbl"></span>
-        </div>
+        <div id="verdict" class="verdict"></div>
         <div class="meter"><i id="meterBar"></i></div>
-        <div class="note"><b>AI-style pattern risk</b>, 0 to 100. A high number means many AI-style writing patterns. It is not an AI probability and not what outside detectors would say. No single word proves AI wrote a text.</div>
+        <div class="note" id="scoreNote">AI-likeness score from 0 to 100. This is our own estimate from writing patterns. It is not proof, and other AI detectors may give different numbers. Please do not use it alone to judge a writer.</div>
         <div id="warnBox"></div>
-        <div id="layers" style="margin-top:14px"></div>
+
+        <div class="sec-h">What is making it read as AI</div>
+        <div id="issues"></div>
+        <div id="goods"></div>
 
         <div class="tabs" role="tablist">
-          <button class="tab" role="tab" id="tabFlag" aria-selected="true">Flagged text</button>
+          <button class="tab" role="tab" id="tabFlag" aria-selected="true">Marked-up text</button>
           <button class="tab" role="tab" id="tabHum" aria-selected="false" hidden>Humanized text</button>
         </div>
         <div id="paneFlag">
           <div class="legend">
+            <span><span class="sent s-strong">Strong AI-style sentence</span></span>
+            <span><span class="sent s-maybe">Possible AI-style sentence</span></span>
             <span><mark class="phrase">AI word or phrase</mark></span>
             <span><mark class="weak">Weak signal</mark></span>
-            <span><mark class="dash">Em dash</mark></span>
-            <span><mark class="trans">Stiff transition</mark></span>
-            <span><mark class="head">AI-style heading</mark></span>
+            <span><mark class="head">Generic heading</mark></span>
           </div>
-          <div class="note" style="margin-bottom:6px">Click a highlight to ignore it if the use is valid. The score updates.</div>
+          <div class="note" style="margin-bottom:6px">Hover a shaded sentence to see why. Click a highlighted word to ignore it if the use is valid. The score updates.</div>
           <div id="flagView" class="view"></div>
         </div>
         <div id="paneHum" hidden>
@@ -158,18 +188,22 @@ mark.weak{background:transparent;border-bottom:2px dotted var(--mid);border-radi
           <div id="humView" class="view"></div>
         </div>
 
+        <div id="fixBox" hidden>
+          <div class="sec-h">Fix these sentences first</div>
+          <ol id="fixList" class="fixlist"></ol>
+        </div>
+        <details id="flagBox" class="tech" hidden>
+          <summary id="flagSummary">Flagged words and phrases</summary>
+          <ul id="flaglist" class="flaglist"></ul>
+        </details>
         <div id="ignoredBox" hidden>
-          <div class="tips-h">Ignored (click to restore)</div>
+          <div class="sec-h">Ignored (click to restore)</div>
           <div id="ignored" class="chips"></div>
         </div>
-        <div id="flagBox" hidden>
-          <div class="tips-h">Why these were flagged</div>
-          <ul id="flaglist" class="flaglist"></ul>
-        </div>
-        <div id="tipsBox" hidden>
-          <div class="tips-h">Still worth fixing by hand</div>
-          <ul id="tips" class="tips"></ul>
-        </div>
+        <details class="tech">
+          <summary>Detailed numbers (for editors)</summary>
+          <div id="layers"></div>
+        </details>
       </div>
     </section>
   </div>
@@ -335,7 +369,10 @@ function analyze(text, ignore){
   const isFrag = s => !/[.!?]["”')]?$/.test(s.trim()) && wc(s)<=8;
   const isBlock = s => wc(s)>60;
   const sentences = allSents.filter(s=>!isFrag(s) && !isBlock(s));
-  const fragCount = allSents.filter(isFrag).length, blockCount = allSents.filter(isBlock).length;
+  const lostFrag = paras.reduce((a,pp)=>{ const ss=splitSentences(pp); return a+(ss.length>1?ss.filter(isFrag).length:0); },0);
+  const blockCount = allSents.filter(isBlock).length;
+  // A long block with almost no punctuation is a sign the line breaks were lost (a long list sentence has plenty of commas and semicolons).
+  const flatBlocks = allSents.filter(x=>isBlock(x) && (x.match(/[,;:]/g)||[]).length/wc(x)*100<6).length;
   const words = text.toLowerCase().match(/[a-z0-9]+(?:['’][a-z]+)?/g) || [];
   const n = words.length, per100 = x => n ? x/n*100 : 0;
   const S = sentences.length, lens = sentences.map(wc);
@@ -456,6 +493,38 @@ function analyze(text, ignore){
     }
     layers.push({key:'vocab',name:'Vocabulary variety',weight:.02,score,detail}); }
 
+  layers.forEach(l=>{ l.na=/^(?:Not enough|Too few)/.test(l.detail); });
+
+  // Sentence-by-sentence marking, so editors can see which sentences read as AI
+  const sents=[]; let sentPos=0;
+  const COMMON_FIRST=new Set(['the','a','an','in','on','if','and','but','so','as','for','to','of','at','by','it']);
+  const firsts=allSents.map(x=>(x.split(/\s+/)[0]||'').toLowerCase().replace(/[^a-z']/g,''));
+  allSents.forEach((sn,i)=>{
+    const st=text.indexOf(sn,sentPos); if(st<0) return; const en=st+sn.length; sentPos=en;
+    if(isFrag(sn)||isBlock(sn)) return;
+    let pts=0; const why=[];
+    for(const r of ranges){
+      if(r.start<st||r.end>en) continue;
+      const w=text.slice(r.start,r.end).trim();
+      if(r.rule){
+        const d=r.rule;
+        if(d.pri==='Low'){ pts+=0.3; continue; }
+        pts+=d.kind==='phrase'?(d.pri==='High'?3:2):(d.pri==='High'?2:1);
+        why.push(/vague/i.test(d.cat)?'Vague source ("'+w+'") with no named source':/chatbot/i.test(d.cat)?'Chatbot-style wording ("'+w+'")':d.kind==='phrase'?'Stock AI phrase: "'+w+'"':'Word AI tools overuse: "'+w+'"');
+      } else if(r.type==='head'){ pts+=3; why.push('Generic heading: "'+w+'"'); }
+      else if(r.type==='trans'){ pts+=1.5; why.push('Stiff transition word: "'+w+'"'); }
+      else if(r.type==='dash'){ pts+=0.4; }
+    }
+    if(TAIL_RE.test(sn)){ pts+=1.5; why.push('Ends with a "making it easier..." style tail'); }
+    if(PARTICIPLE_RE.test(sn)){ pts+=1; why.push('Opens with an "-ing" phrase'); }
+    if((sn.match(STACK_RE)||[]).length>=2){ pts+=1.5; why.push('Piles up hedges (may, might, potentially)'); }
+    if(new RegExp(CONTRAST_RE.source,'i').test(sn)){ pts+=1.5; why.push('Uses the "not only... but" formula'); }
+    if(TRIPLET_RE.test(sn)){ pts+=0.7; why.push('Three-item list ("A, B and C")'); }
+    const f=firsts[i]; if(f && !COMMON_FIRST.has(f) && (firsts[i-1]===f||firsts[i+1]===f)){ pts+=1.2; why.push('Starts the same way as a neighbouring sentence'); }
+    sents.push({start:st,end:en,score:pts,level:pts>=3?'strong':pts>=1.5?'maybe':'',why:[...new Set(why)].slice(0,4),text:sn});
+  });
+  const sentCounts={total:sents.length, strong:sents.filter(x=>x.level==='strong').length, maybe:sents.filter(x=>x.level==='maybe').length};
+
   // Overall: weighted average, but one or two strong tells should not be diluted away.
   const weighted=layers.reduce((a,l)=>a+l.score*l.weight,0);
   const top2=layers.map(l=>l.score).sort((a,b)=>b-a).slice(0,2).reduce((a,b)=>a+b,0)/2;
@@ -473,9 +542,9 @@ function analyze(text, ignore){
 
   const warnings=[];
   if(n<80) warnings.push('This text is under 80 words, so the score is not very reliable. Paste more text for a better reading.');
-  if(blockCount>0 || fragCount>=Math.max(4,allSents.length*0.15))
+  if(lostFrag>=Math.max(3,allSents.length*0.1) || flatBlocks>0)
     warnings.push('Parts of this text look like pasted tables, lists or headings with the line breaks lost. Those pieces are skipped when scoring rhythm. For the most accurate result, paste with the original line breaks.');
-  return {score,layers,ranges,flags,words:n,sentences:S,warnings};
+  return {score,layers,ranges,flags,sents,sentCounts,words:n,sentences:S,warnings};
 }
 
 /* ---------- Humanizer (rule-based, fully local) ---------- */
@@ -707,20 +776,39 @@ async function load(csvText){
 /* ---------- UI ---------- */
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-const TIPS = {
-  rhythm:'Mix very short sentences (3 to 6 words) with longer ones. Right now the sentences are too even.',
-  headings:'Rename generic headings like Introduction, Key takeaways and Summary. Use headings that say what the section actually tells the reader, or just drop them.',
-  phrases:'Swap the highlighted AI-style words and phrases for plain, specific wording. Name the actual market, tool, number or reason.',
-  repetition:'Several sentences start the same way. Open some with a fact, a number or a question instead.',
-  style:'Break up "A, B and C" lists (use two or four items sometimes), and cut "not only... but also" and "Moreover/Furthermore" openers.',
-  constructions:'Cut the ", making it... / allowing you to..." endings, stacked hedges (may, might, potentially) and "-ing" sentence openers. State things directly.',
-  specific:'Add what only someone who knows the topic would add: real numbers, dates, names, a source link, a customer example or a first-hand detail.',
-  voice:'Add something only a person would write: a direct question, a "we/you" line, a real customer example or a clear opinion.',
-  plain:'Write the way you would explain it to a friend: shorter sentences, everyday words.',
-  vocab:'The same words repeat a lot. Use more specific terms from your product, customers or numbers.'
+
+// Plain-English wording for each check: what is wrong, what is fine, and how to fix it.
+const PLAIN = {
+  rhythm:{name:'Sentence length', bad:'Almost every sentence is about the same length, so it sounds mechanical.', good:'a good mix of short and long sentences', fix:'Mix very short sentences (3 to 6 words) with longer ones.'},
+  headings:{name:'Generic headings', bad:'It uses stock headings such as Introduction, Key takeaways or Summary.', good:'headings that are specific, not generic', fix:'Rename each one to say what the section actually tells the reader, or drop it.'},
+  phrases:{name:'Stock AI words and phrases', bad:'It contains words and phrases that AI tools use far more than people do.', good:'no stock AI words or phrases', fix:'Swap the highlighted words for plain, specific wording.'},
+  repetition:{name:'Repeated sentence starts', bad:'Many sentences start the same way or repeat the same wording.', good:'varied sentence openings', fix:'Start some sentences with a fact, a number or a question.'},
+  style:{name:'Formula writing', bad:'It leans on formulas: lists of three, stiff transitions (Moreover, Furthermore), "not only... but" or many em dashes.', good:'few formula patterns', fix:'Use two or four items in lists sometimes and cut the stiff transition words.'},
+  constructions:{name:'Padded sentences', bad:'Many sentences end with "making it easier..." or pile up hedges such as may, might and potentially.', good:'direct, to-the-point sentences', fix:'Say it directly and cut the extra hedges.'},
+  specific:{name:'Real facts and examples', bad:'There are few real numbers, names or examples, so it reads as generic.', good:'real numbers, names or examples', fix:'Add what only you know: figures, dates, names, a source link or a customer example.'},
+  voice:{name:'Personal voice', bad:'It has little personal touch: no "you" or "we", no questions, no contractions.', good:'a personal voice', fix:'Add a direct question or a "you" or "we" line. A formal style without contractions is fine if it is deliberate.'},
+  plain:{name:'Plain English', bad:'The wording is formal or hard to read.', good:'easy-to-read wording', fix:'Use shorter sentences and everyday words.'},
+  vocab:{name:'Word variety', bad:'The same words repeat a lot.', good:'a good variety of words', fix:'Use more specific terms from your topic.'}
 };
 const colorFor = s => s<30?'var(--lo)':s<55?'var(--mid)':'var(--hi)';
-const labelFor = s => s<30?'Low risk: few AI-style patterns':s<55?'Medium risk: mixed signals':'High risk: many AI-style patterns';
+function verdictFor(s){
+  if(s<30) return {k:'lo', title:'Reads as human-written'};
+  if(s<55) return {k:'mid', title:'Mixed signals'};
+  return {k:'hi', title:'Likely AI-written'};
+}
+function evidence(key, res){
+  if(key==='headings'){ const h=res.ranges.filter(r=>r.type==='head'); return h.length?'Found: '+h.slice(0,4).map(r=>'"'+res.__text.slice(r.start,r.end).trim()+'"').join(', '):''; }
+  if(key==='phrases'){ const f=res.flags.filter(g=>g.rule&&g.rule.pri!=='Low').slice(0,4); return f.length?'For example: '+f.map(g=>'"'+g.label+'"'+(g.count>1?' x'+g.count:'')).join(', '):''; }
+  return '';
+}
+function summarize(res){
+  const c=res.sentCounts;
+  const top=res.layers.filter(l=>PLAIN[l.key]&&!l.na&&l.score>=35).sort((a,b)=>b.score*b.weight-a.score*a.weight).slice(0,3).map(l=>PLAIN[l.key].name.toLowerCase().replace(/\bai\b/g,'AI'));
+  let lead = !c.total ? '' : (c.strong+c.maybe)===0 ? 'No single sentence stands out; the score comes from the overall writing style.'
+    : (c.strong+c.maybe)+' of '+c.total+' sentences read as AI-style'+(c.strong?' ('+c.strong+' strongly)':'')+'.';
+  lead += top.length ? ' Biggest causes: '+top.join(', ')+'.' : ' No major causes found.';
+  return lead.trim();
+}
 
 const plural=(n,w,s)=>n+' '+w+(n===1?'':(s||'s'));
 const FIXED_LABELS = [
@@ -743,13 +831,30 @@ function markTitle(r){
   }
   return ({dash:'Em dash. Weak signal on its own.',trans:'Stiff transition word.',head:'Generic AI-style heading.'})[r.type]+' Click to ignore.';
 }
-function renderFlag(text, ranges){
-  let html='', pos=0;
-  for(const r of ranges){
-    html += esc(text.slice(pos,r.start)) + '<mark class="'+r.type+'" data-id="'+esc(r.id)+'" title="'+esc(markTitle(r))+'">'+esc(text.slice(r.start,r.end))+'</mark>';
-    pos=r.end;
+const markHtml = (text,r) => '<mark class="'+r.type+'" data-id="'+esc(r.id)+'" title="'+esc(markTitle(r))+'">'+esc(text.slice(r.start,r.end))+'</mark>';
+
+// Marked-up text: sentences shaded by how AI-like they read, words highlighted inside them.
+function renderFlag(text, ranges, sents){
+  let html='', pos=0, ri=0;
+  for(const sp of sents.filter(x=>x.level)){
+    while(ri<ranges.length && ranges[ri].start<sp.start){
+      const r=ranges[ri++]; if(r.start<pos) continue;
+      html+=esc(text.slice(pos,r.start))+markHtml(text,r); pos=r.end;
+    }
+    if(pos<sp.start){ html+=esc(text.slice(pos,sp.start)); pos=sp.start; }
+    let inner='', p2=pos;
+    while(ri<ranges.length && ranges[ri].start<sp.end){
+      const r=ranges[ri++]; if(r.start<p2) continue;
+      inner+=esc(text.slice(p2,r.start))+markHtml(text,r); p2=r.end;
+    }
+    inner+=esc(text.slice(p2,Math.max(p2,sp.end))); pos=Math.max(sp.end,p2);
+    html+='<span class="sent s-'+sp.level+'" title="'+esc(sp.why.join('. '))+'">'+inner+'</span>';
   }
-  return html + esc(text.slice(pos));
+  while(ri<ranges.length){
+    const r=ranges[ri++]; if(r.start<pos) continue;
+    html+=esc(text.slice(pos,r.start))+markHtml(text,r); pos=r.end;
+  }
+  return html+esc(text.slice(pos));
 }
 
 function render(){
@@ -757,15 +862,33 @@ function render(){
   const ig=STATE.ignore, src=stripBraces(STATE.source);
   const before=analyze(src, ig), hasAfter=!!STATE.out;
   const after=hasAfter?analyze(STATE.out.text, ig):null, shown=after||before, flagText=hasAfter?STATE.out.text:src;
+  shown.__text=flagText;
 
   $('empty').hidden=true; $('out').hidden=false;
-  $('sBefore').textContent=before.score; $('sBefore').style.color=colorFor(before.score);
-  $('arrow').hidden=!hasAfter; $('sAfter').hidden=!hasAfter;
-  if(hasAfter){ $('sAfter').textContent=after.score; $('sAfter').style.color=colorFor(after.score); }
-  $('sLabel').textContent=(hasAfter?'After: ':'')+labelFor(shown.score);
+  const vb=verdictFor(before.score), v=hasAfter?verdictFor(after.score):vb;
+  $('verdict').className='verdict v-'+v.k;
+  $('verdict').innerHTML =
+    '<div class="v-row"><div class="v-title">'+esc(v.title)+'</div><div class="v-score">'+
+    (hasAfter?'<span id="sBefore" class="was">'+before.score+'</span><span class="arr">→</span><b id="sAfter">'+after.score+'</b>':'<b id="sBefore">'+before.score+'</b>')+
+    '<small>/ 100 AI-likeness</small></div></div>'+
+    (hasAfter?'<div class="v-was">Before humanizing: '+esc(vb.title)+'</div>':'')+
+    '<div class="v-lead">'+esc(summarize(shown))+'</div>';
   const bar=$('meterBar'); bar.style.width=shown.score+'%'; bar.style.background=colorFor(shown.score);
   $('warnBox').innerHTML=shown.warnings.map(w=>'<div class="warn">'+esc(w)+'</div>').join('');
 
+  // What is making it read as AI, in plain words, biggest first
+  const ranked=shown.layers.filter(l=>PLAIN[l.key]&&!l.na&&l.score>=15).sort((a,b)=>b.score*b.weight-a.score*a.weight);
+  $('issues').innerHTML = ranked.length ? ranked.map(l=>{
+    const ui=PLAIN[l.key], light=(l.key==='voice'||l.key==='plain'||l.key==='vocab'), sc=light?Math.min(l.score,59):l.score;
+    const sev=sc>=60?['big','Big issue']:sc>=35?['mid','Needs work']:['low','Minor'], ev=evidence(l.key, shown);
+    return '<div class="issue"><div class="is-top"><b>'+esc(ui.name)+'</b><span class="sev '+sev[0]+'">'+sev[1]+'</span></div>'+
+      '<div class="is-body">'+esc(ui.bad)+'</div>'+(ev?'<div class="is-ev">'+esc(ev)+'</div>':'')+
+      '<div class="is-fix"><b>Fix:</b> '+esc(ui.fix)+'</div></div>';
+  }).join('') : '<div class="goodnote">No clear AI-style patterns found in the checks we can run.</div>';
+  const goods=shown.layers.filter(l=>PLAIN[l.key]&&!l.na&&l.score<15).map(l=>PLAIN[l.key].good);
+  $('goods').innerHTML = goods.length ? '<div class="goods"><b>Working well:</b> '+esc(goods.join('; '))+'.</div>' : '';
+
+  // Detailed numbers (collapsed by default)
   $('layers').innerHTML=shown.layers.map(l=>`
     <div class="layer">
       <div class="lh"><span>${l.name}</span><span style="color:${colorFor(l.score)}">${Math.round(l.score)}</span></div>
@@ -773,7 +896,7 @@ function render(){
       <div class="ld">${esc(l.detail)}</div>
     </div>`).join('');
 
-  $('flagView').innerHTML=renderFlag(flagText, shown.ranges);
+  $('flagView').innerHTML=renderFlag(flagText, shown.ranges, shown.sents);
   $('tabHum').hidden=!hasAfter;
   if(hasAfter){
     $('humView').textContent=STATE.out.text; $('passInfo').textContent=STATE.out.passes+' pass'+(STATE.out.passes>1?'es':'')+' run';
@@ -783,15 +906,23 @@ function render(){
       ? '<b>What the humanizer fixed</b><ul>'+items.join('')+'</ul>'
       : '<b>Nothing could be fixed automatically</b>Whatever is still flagged below needs a human edit.';
   }
-  $('tabFlag').textContent=hasAfter?'Flagged text (after)':'Flagged text';
+  $('tabFlag').textContent=hasAfter?'Marked-up text (after)':'Marked-up text';
   selectTab(hasAfter && STATE.tab==='hum' ? 'hum' : 'flag');
 
-  // Why flagged
+  // Fix these sentences first
+  const worst=shown.sents.filter(x=>x.level).sort((a,b)=>b.score-a.score).slice(0,6);
+  $('fixBox').hidden=!worst.length;
+  $('fixList').innerHTML=worst.map(x=>{
+    const t=x.text.length>150?x.text.slice(0,147)+'...':x.text;
+    return '<li><div class="fx-s">'+esc(t)+'</div><ul class="fx-r">'+x.why.map(w=>'<li>'+esc(w)+'</li>').join('')+'</ul></li>';
+  }).join('');
+
+  // Flagged words and phrases
   const list=shown.flags.slice(0,14);
   $('flagBox').hidden=!list.length;
+  $('flagSummary').textContent='Flagged words and phrases ('+shown.flags.length+'), with Ignore buttons';
   $('flaglist').innerHTML=list.map(g=>{
-    const r=g.rule;
-    const pri=r?r.pri:(g.type==='head'?'High':'Low');
+    const r=g.rule, pri=r?r.pri:(g.type==='head'?'High':'Low');
     const why = r ? (r.tip||r.cat) : ({dash:'Repeated em dashes are a weak signal on their own.',trans:'Mechanical transitions (Moreover, Furthermore) are common in AI writing.',head:'Generic section label. Say what the section actually tells the reader.'})[g.type];
     return `<li><div class="fl-top"><b>${esc(g.label)}</b><span class="pri ${pri}">${pri}</span><span class="fl-count">${g.count}x${r&&r.cat?' · '+esc(r.cat):''}</span>
       <button class="ignore small" data-ignore="${esc(g.id)}">Ignore</button></div>
@@ -799,13 +930,8 @@ function render(){
   }).join('');
   Object.assign(STATE.labels, Object.fromEntries(shown.flags.map(g=>[g.id,g.label])));
 
-  // Ignored chips
   $('ignoredBox').hidden=!ig.size;
   $('ignored').innerHTML=[...ig].map(id=>`<button class="chip small" data-restore="${esc(id)}">${esc(STATE.labels[id]||id)}</button>`).join('');
-
-  const tips=shown.layers.filter(l=>l.score>=50).sort((a,b)=>b.score*b.weight-a.score*a.weight).map(l=>TIPS[l.key]).filter(Boolean);
-  $('tips').innerHTML=tips.map(t=>'<li>'+esc(t)+'</li>').join('');
-  $('tipsBox').hidden=!tips.length;
 }
 function selectTab(which){
   const hum=which==='hum'; STATE.tab=which;
