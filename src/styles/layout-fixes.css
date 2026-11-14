@@ -6,3 +6,21 @@
 .lead-grid > * { min-width: 0; }
 .lead { overflow: hidden; }
 .lead ins, .lead iframe, .lead .google-auto-placed, .top-stories ins, .top-stories iframe { max-width: 100% !important; overflow: hidden; }
+
+/* ---- Tables in articles: never break words inside cells ---- */
+.prose table, .prose th, .prose td { overflow-wrap: normal; word-break: normal; hyphens: manual; }
+.prose table { font-size: 0.93rem; line-height: 1.45; margin: 1.4em 0; border-collapse: collapse; }
+.prose th { background: #f3f6ff; font-weight: 700; white-space: nowrap; border-bottom: 2px solid var(--ink, #111); padding: 11px 14px; }
+.prose td { padding: 11px 14px; }
+.prose tbody tr:nth-child(even) td { background: #fafbff; }
+/* Desktop: a normal table that fills the column, text wraps at spaces only */
+@media (min-width: 761px) {
+  .prose table { display: table; width: 100%; table-layout: auto; overflow: visible; }
+  .prose td { min-width: 5.5rem; }
+}
+/* Phone: keep each column readable and let the table scroll sideways */
+@media (max-width: 760px) {
+  .prose table { display: block; width: max-content; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 0.88rem; }
+  .prose th, .prose td { min-width: 6.5rem; padding: 9px 11px; }
+  .prose td:first-child, .prose th:first-child { min-width: 8.5rem; }
+}

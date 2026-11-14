@@ -81,7 +81,7 @@ export const AUTHORS: Author[] = [
 ];
 
 // Authors with no photo yet; they keep the illustrated avatar until one is supplied.
-export const NO_PHOTO = ['kenji-watanabe', 'rohan-iyer', 'elena-petrova', 'marcus-bell'];
+export const NO_PHOTO = ['elena-petrova', 'marcus-bell'];
 export const avatarPath = (slug: string) => (NO_PHOTO.includes(slug) ? `/authors/${slug}.svg` : `/images/authors/${slug}.jpg`);
 
 export const authorBySlug = (slug: string) => AUTHORS.find((a) => a.slug === slug)!;
