@@ -27,6 +27,7 @@ body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-a
 h1{font-size:26px;margin:0 0 4px;letter-spacing:-.01em}
 .sub{color:var(--muted);margin:0 0 24px}
 .grid{display:grid;gap:20px;grid-template-columns:1fr}
+.grid>*{min-width:0}
 @media(min-width:900px){.grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}}
 .panel{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px}
 .panel h2{font-size:15px;margin:0 0 10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
@@ -65,18 +66,35 @@ button:disabled{opacity:.5;cursor:not-allowed}
 .tab{background:none;border:0;border-bottom:3px solid transparent;border-radius:0;padding:8px 12px;color:var(--muted)}
 .tab[aria-selected=true]{color:var(--text);border-bottom-color:var(--accent)}
 .view{white-space:pre-wrap;word-wrap:break-word;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px;max-height:420px;overflow:auto}
-mark{border-radius:3px;padding:0 2px;color:inherit}
+mark{border-radius:3px;padding:0 2px;color:inherit;cursor:pointer}
 mark.phrase{background:var(--hl-phrase)} mark.dash{background:var(--hl-dash)} mark.trans{background:var(--hl-trans)} mark.head{background:var(--hl-head)}
+mark.weak{background:transparent;border-bottom:2px dotted var(--mid);border-radius:0}
 .legend{font-size:13px;color:var(--muted);margin:8px 0;display:flex;gap:14px;flex-wrap:wrap}
 .tips{margin:12px 0 0;padding-left:20px;font-size:14px}
 .tips li{margin:4px 0}
 .tips-h{font-weight:600;font-size:14px;margin:16px 0 0}
+.flaglist{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+.flaglist li{border:1px solid var(--border);border-radius:10px;padding:8px 10px;background:var(--bg)}
+.fl-top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.fl-top b{font-size:15px}
+.pri{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);border:1px solid var(--border);border-radius:99px;padding:0 7px}
+.pri.High{color:var(--hi);border-color:var(--hi)} .pri.Medium{color:var(--mid);border-color:var(--mid)}
+.fl-count{font-size:13px;color:var(--muted)}
+.fl-body{font-size:13.5px;color:var(--muted);margin-top:2px}
+.fl-body b{color:var(--text);font-weight:600}
+.ignore{margin-left:auto;font-size:12px;padding:2px 10px;font-weight:500}
+.fixed{margin:0 0 10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:var(--accent-soft);font-size:14px}
+.fixed b{display:block;margin-bottom:4px}
+.fixed ul{margin:0;padding-left:20px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{font-size:12.5px;padding:2px 10px;border-radius:99px;font-weight:500}
+.chip::after{content:" \00d7";color:var(--muted)}
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Humanness Checker</h1>
-  <p class="sub">Paste your content to see how "AI-written" it reads, then humanize it. Runs entirely in your browser. Nothing is uploaded or sent anywhere.</p>
+  <p class="sub">Paste your content to see how many AI-style writing patterns it has, then humanize it. Runs entirely in your browser. Nothing is uploaded or sent anywhere.</p>
 
   <div class="grid">
     <section class="panel" aria-label="Your content">
@@ -87,16 +105,17 @@ mark.phrase{background:var(--hl-phrase)} mark.dash{background:var(--hl-dash)} ma
           <select id="tone"><option value="pro">Professional</option><option value="casual">Conversational</option></select>
         </label>
         <label>Target score
-          <input id="target" type="number" min="5" max="80" value="30" aria-label="Target AI-likeness score">
+          <input id="target" type="number" min="5" max="80" value="30" aria-label="Target pattern risk score">
         </label>
         <span class="spacer"></span>
         <span id="wc">0 words</span>
       </div>
       <div class="actions">
-        <button id="check">Check</button>
-        <button id="humanize" class="primary">Check and humanize</button>
+        <button id="check" disabled>Check</button>
+        <button id="humanize" class="primary" disabled>Check and humanize</button>
       </div>
       <p class="hint">Numbers, percentages and rates are never changed. To fully protect required wording (such as a legal disclaimer), wrap it in double braces: <code>{{Past performance is not a guarantee of future results.}}</code></p>
+      <p class="hint" id="rulesInfo">Loading rules...</p>
     </section>
 
     <section class="panel" aria-label="Results" aria-live="polite">
@@ -110,7 +129,7 @@ mark.phrase{background:var(--hl-phrase)} mark.dash{background:var(--hl-dash)} ma
           <span id="sLabel" class="lbl"></span>
         </div>
         <div class="meter"><i id="meterBar"></i></div>
-        <div class="note">AI-likeness: 0 means reads human, 100 means reads very AI-like. This is our own estimate, not what any outside detector would say.</div>
+        <div class="note"><b>AI-style pattern risk</b>, 0 to 100. A high number means many AI-style writing patterns. It is not an AI probability and not what outside detectors would say. No single word proves AI wrote a text.</div>
         <div id="warnBox"></div>
         <div id="layers" style="margin-top:14px"></div>
 
@@ -120,11 +139,13 @@ mark.phrase{background:var(--hl-phrase)} mark.dash{background:var(--hl-dash)} ma
         </div>
         <div id="paneFlag">
           <div class="legend">
-            <span><mark class="phrase">Stock phrase</mark></span>
+            <span><mark class="phrase">AI word or phrase</mark></span>
+            <span><mark class="weak">Weak signal</mark></span>
             <span><mark class="dash">Em dash</mark></span>
             <span><mark class="trans">Stiff transition</mark></span>
             <span><mark class="head">AI-style heading</mark></span>
           </div>
+          <div class="note" style="margin-bottom:6px">Click a highlight to ignore it if the use is valid. The score updates.</div>
           <div id="flagView" class="view"></div>
         </div>
         <div id="paneHum" hidden>
@@ -133,7 +154,17 @@ mark.phrase{background:var(--hl-phrase)} mark.dash{background:var(--hl-dash)} ma
             <button id="reuse" class="small">Use as input and re-check</button>
             <span id="passInfo" class="note"></span>
           </div>
+          <div id="fixedBox" class="fixed"></div>
           <div id="humView" class="view"></div>
+        </div>
+
+        <div id="ignoredBox" hidden>
+          <div class="tips-h">Ignored (click to restore)</div>
+          <div id="ignored" class="chips"></div>
+        </div>
+        <div id="flagBox" hidden>
+          <div class="tips-h">Why these were flagged</div>
+          <ul id="flaglist" class="flaglist"></ul>
         </div>
         <div id="tipsBox" hidden>
           <div class="tips-h">Still worth fixing by hand</div>
@@ -146,12 +177,14 @@ mark.phrase{background:var(--hl-phrase)} mark.dash{background:var(--hl-dash)} ma
 
 <script>
 /* ============================================================
-   Humanness Checker — all logic is local, no network, no libraries
+   Humanness Checker. All logic runs locally in the browser.
+   The word lists, phrases, headings and swaps live in rules.csv
+   (next to this page). Edit that file to teach the tool.
    ============================================================ */
 (function(){
 "use strict";
 
-/* ---------- helpers ---------- */
+/* ---------- small helpers ---------- */
 const clamp01 = x => Math.max(0, Math.min(1, x));
 const pick = a => a[Math.floor(Math.random()*a.length)];
 const ABBR = ['e.g.','i.e.','etc.','vs.','Mr.','Mrs.','Ms.','Dr.','No.','Rs.','U.S.','Inc.','Ltd.','approx.'];
@@ -159,63 +192,131 @@ const protectAbbr = t => { ABBR.forEach(a => { t = t.split(a).join(a.replace(/\.
 const restoreAbbr = t => t.replace(/\u0001/g,'.');
 const wc = s => (s.trim().match(/\S+/g) || []).length;
 const cap = s => s.replace(/^(\W*)([a-z])/, (m,a,b)=>a+b.toUpperCase());
+const rxEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const stripBraces = t => t.replace(/\{\{([\s\S]*?)\}\}/g,'$1');
 
 function splitSentences(para){
   const p = protectAbbr(para);
   return p.split(/(?<=[.!?]["”')]?)\s+(?=["“'(]?[A-Z0-9\u0002])/).map(restoreAbbr).filter(s=>s.trim());
 }
 
-/* ---------- Layer data ---------- */
-// Stock phrases typical of AI writing. Used for detection AND (where safe) replacement.
-const CLICHES = [
-  "delv(?:e|es|ed|ing) (?:in)?to","in today['’]s (?:fast-paced|digital|ever-changing|modern|competitive)(?: \\w+)? (?:world|landscape|era|age|market)",
-  "it(?:['’]s| is) (?:important|crucial|essential|vital) to (?:note|mention|remember|understand)(?: that)?","it(?:['’]s| is) worth (?:noting|mentioning)(?: that)?",
-  "in the (?:realm|world|landscape) of","a testament to","(?:rich )?tapestry","navigat(?:e|es|ed|ing) (?:the )?(?:complexities|landscape|challenges|world|maze) of",
-  "unlock(?:s|ed|ing)? (?:the )?(?:power|potential|secrets)","game[- ]chang(?:er|ing)","seamless(?:ly)?","robust","leverag(?:e|es|ed|ing)","utiliz(?:e|es|ed|ing)",
-  "comprehensive","cutting[- ]edge","state[- ]of[- ]the[- ]art","elevat(?:e|es|ed|ing)","embark(?:s|ed|ing)? on","ever[- ]evolving",
-  "in conclusion","to sum up","in summary","plethora","myriad","paramount","pivotal","fost(?:er|ers|ered|ering)","empower(?:s|ed|ing)?",
-  "streamlin(?:e|es|ed|ing)","holistic","look no further","take (?:it|your \\w+) to the next level","dive (?:deep )?into","when it comes to","in order to",
-  "a wide range of","tailored to","ensur(?:e|es|ed|ing) that","crucial","plays? a (?:crucial|vital|key|pivotal|significant) role","hassle[- ]free","worry[- ]free",
-  "facilitat(?:e|es|ed|ing)","numerous","optimal","at the end of the day","peace of mind","whether you['’]re .{3,40}? or","your (?:go-to|one-stop)","unparalleled","effortless(?:ly)?",
-  "have you ever wondered","ready to (?:get started|take|dive|transform)","let['’]s (?:dive|explore|break (?:it )?down|unpack)","here['’]s the thing","buckle up","without further ado",
-  "stay tuned","it goes without saying","needless to say","simply put","that being said","that said","all in all","in this (?:article|guide|post|blog)",
-  "underscor(?:e|es|ed|ing)","bolster(?:s|ed|ing)?","garner(?:s|ed|ing)?","spearhead(?:s|ed|ing)?","multifaceted","nuanced","intricate","intricacies","meticulous(?:ly)?",
-  "unveil(?:s|ed|ing)?","transformative","revolutioniz(?:e|es|ed|ing)","imperative","indispensable","invaluable","encompass(?:es|ed|ing)?","in essence","a game plan"
-];
-const CLICHE_RES = CLICHES.map(s => new RegExp("\\b(?:"+s+")\\b","gi"));
+/* ---------- CSV ---------- */
+function parseCSV(text){
+  text = text.replace(/^﻿/,'');
+  const rows=[]; let row=[], f='', q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){
+      if(c==='"'){ if(text[i+1]==='"'){ f+='"'; i++; } else q=false; } else f+=c;
+    } else if(c==='"') q=true;
+    else if(c===','){ row.push(f); f=''; }
+    else if(c==='\n'||c==='\r'){ if(c==='\r'&&text[i+1]==='\n') i++; row.push(f); f=''; if(row.length>1||row[0]!=='') rows.push(row); row=[]; }
+    else f+=c;
+  }
+  if(f!==''||row.length){ row.push(f); rows.push(row); }
+  const head=rows.shift().map(h=>h.trim());
+  return rows.map(r=>{ const o={}; head.forEach((h,i)=>o[h]=r[i]===undefined?'':r[i]); return o; });
+}
+
+/* ---------- Rules: build matchers from rules.csv ---------- */
+const BL='(?<![\\w’\'-])', BR='(?![\\w’\'-])';
+function bound(src){
+  const open = /(?:\\s\*|\\s\+)\)?$/.test(src);           // ends by eating spaces: no right boundary
+  return new RegExp(BL+'(?:'+src+')'+(open?'':BR),'gi');
+}
+function phraseSrc(s){
+  let o='';
+  for(const ch of s.trim()){
+    if(ch==="'"||ch==='’') o+="['’]";
+    else if(ch==='-') o+='[-\\s]';
+    else if(/\s/.test(ch)) o+='\\s+';
+    else o+=rxEsc(ch);
+  }
+  return o;
+}
+function wordSrc(item, cat){
+  const w=item.trim().toLowerCase();
+  if(/[\s-]/.test(w)) return phraseSrc(w);
+  if(/verb/i.test(cat)){
+    if(/e$/.test(w)) return w.slice(0,-1)+'(?:e|es|ed|ing)';
+    if(/[^aeiou]y$/.test(w)) return w.slice(0,-1)+'(?:y|ies|ied|ying)';
+    const l=w.slice(-1); return w+'(?:s|es|ed|ing|'+l+'ed|'+l+'ing)?';
+  }
+  if(/noun/i.test(cat)) return w+'(?:s|es)?';
+  return rxEsc(w);
+}
+const priKey = p => /^high/i.test(p)?'High':/^medium/i.test(p)?'Medium':'Low';
+
+let R=null;   // compiled rules
+function compile(rows){
+  const det=[], swaps=[], heads=[], plain=[]; let ni=0;
+  for(const r of rows){
+    const t=r.record_type, pri=priKey(r.priority||'Low'), m=(r.match||'').trim();
+    if(t==='vocabulary'||t==='phrase'){
+      if(m!=='[none]'){
+        const src = m || (t==='phrase' ? phraseSrc(r.item) : wordSrc(r.item, r.category||''));
+        try{ det.push({id:'r'+(ni++), kind:t==='phrase'?'phrase':'word', pri, label:r.item, cat:r.category||'', say:r.rewrite_or_detection||'', tip:r.editorial_action||'', re:bound(src)}); }catch(e){ console.warn('bad rule',r.item,e.message); }
+      }
+    }
+    if(t==='plain'){ try{ plain.push(m||rxEsc(r.item)); }catch(e){} }
+    if(t==='heading'){ heads.push({label:r.item, src:m||phraseSrc(r.item), swap:(r.swap||'').trim(), tip:r.editorial_action||''}); }
+    const sw=(r.swap||'').trim();
+    if(sw && (t==='vocabulary'||t==='phrase'||t==='swap')){
+      const src = m && m!=='[none]' ? m : (t==='phrase' ? phraseSrc(r.item) : rxEsc(r.item.trim()));
+      try{ swaps.push({rank:t==='vocabulary'?2:t==='phrase'?0:1, src, re:bound(src), to:sw.split('|')}); }catch(e){ console.warn('bad swap',r.item,e.message); }
+    }
+  }
+  swaps.sort((a,b)=>a.rank-b.rank);
+  return {
+    det, swaps, heads,
+    headInline:new RegExp('(^|\\n|[.!?:]\\s+)(?:#+\\s*|\\*\\*)?('+heads.map(h=>'(?:'+h.src+')').join('|')+')(?=\\*\\*|[\\s:]|$)','gi'),
+    fancy:new RegExp('(?<![\\w])(?:'+plain.join('|')+')\\w*(?![\\w])','gi'),
+    counts:{words:det.filter(d=>d.kind==='word').length, phrases:det.filter(d=>d.kind==='phrase').length, swaps:swaps.length, heads:heads.length}
+  };
+}
+
+/* ---------- Detection ---------- */
 const TRANS_RE = /(^|[.!?]["”')]?\s+|\n)(Moreover|Furthermore|Additionally|In addition|In conclusion|Overall|Ultimately|Importantly|Notably|Consequently|In essence|Indeed)\b,?/g;
 const DASH_RE = /\s*[—–]\s*(?=[A-Za-z])/g;
+const HEAD_GENERIC_RE = /(^|\n)(?:#+\s*)?((?:Understanding|Exploring|Mastering|Navigating|Unlocking|Demystifying|Benefits of|The Future of|The Importance of|The Role of|Why .{3,30} Matters)\b[^\n.!?]{2,60})(?=\n|$)/gi;
 const CONTRACTION_RE = /\b(?:it|that|there|here|what|who|he|she|let)['’]s\b|\b\w+n['’]t\b|\b(?:I|you|we|they)['’](?:m|re|ve|ll|d)\b/gi;
 const PRONOUN_RE = /\b(?:I|me|my|we|our|us|you|your)\b/gi;
 const CONTRAST_RE = /\bnot (?:only|just|merely)\b.{1,80}?\b(?:but|it['’]s|it is)\b/gi;
 const TRIPLET_RE = /\b[\w-]+(?: [\w-]+)?, [\w-]+(?: [\w-]+)?,? (?:and|or) [\w-]+/i;
-
-// Generic section labels that AI tools put on almost every article.
-const HEAD_LIST = ["Introduction","Intro","Overview","Key Takeaways?","Takeaways?","Quick Takeaways?","Summary","Quick Summary","Executive Summary","Conclusion","Final Thoughts?","Closing Thoughts?",
-  "Wrapping Up","In Summary","TL;DR","TLDR","FAQs?","Frequently Asked Questions","Quick Recap","Recap","The Bottom Line","Bottom Line","Let['’]s Dive In","Getting Started","Next Steps",
-  "Why (?:It|This) Matters","What You Need to Know","Things to Keep in Mind","Pros and Cons","Best Practices","Common Mistakes","Key Considerations","Key Benefits","Key Features",
-  "Final Verdict","Looking Ahead","At a Glance","Call to Action","Final Word"];
-const HEAD_INLINE_RE = new RegExp("(^|\\n|[.!?:]\\s+)(?:#+\\s*|\\*\\*)?("+HEAD_LIST.join("|")+")(?=\\*\\*|[\\s:]|$)","gi");
-const HEAD_GENERIC_RE = /(^|\n)(?:#+\s*)?((?:Understanding|Exploring|Mastering|Navigating|Unlocking|Demystifying|Benefits of|The Future of|The Importance of|The Role of|Why .{3,30} Matters)\b[^\n.!?]{2,60})(?=\n|$)/gi;
-
-const FANCY = "utili[sz]e|commence|endeavou?r|ascertain|subsequently|prior to|in the event that|with regard to|pertaining to|aforementioned|henceforth|thereby|therein|whilst|amongst|notwithstanding|ameliorate|expedite|facilitate|individuals|approximately|sufficient|demonstrate|obtain|assistance|regarding|consequently|nevertheless|nonetheless|thus|hence|therefore|multifaceted|nuanced|intricate|underscore[sd]?|bolster|garner|spearhead|encompass|paradigm|synergy|elucidate|delineate|meticulous|imperative|indispensable|invaluable|transformative|revolutionize|unveil|endeavours?";
-const FANCY_RE = new RegExp("\\b(?:"+FANCY+")\\w*\\b","gi");
 const TAIL_RE = /,\s(?:making|allowing|helping|ensuring|enabling|providing|giving|offering|creating|leading to|resulting in|reducing|improving|boosting)\b/i;
 const HEDGE_RE = /\b(?:can|may|might|could|often|typically|generally|usually|tends? to|various|several|a variety of|a range of)\b/gi;
+const STACK_RE = /\b(?:may|might|could|arguably|potentially|possibly|perhaps|typically|generally|often|tends? to)\b/gi;
+const PARTICIPLE_RE = /^[A-Z][a-z]+ing\b[^,.!?]{2,70},\s/;
 
-function typedRanges(text){
-  const all=[]; let m;
-  for(const re of CLICHE_RES){ re.lastIndex=0; while((m=re.exec(text))){ all.push({start:m.index,end:m.index+m[0].length,type:'phrase'}); if(!m[0].length) re.lastIndex++; } }
-  TRANS_RE.lastIndex=0; while((m=TRANS_RE.exec(text))){ const s=m.index+m[1].length; all.push({start:s,end:s+m[2].length,type:'trans'}); }
-  DASH_RE.lastIndex=0; while((m=DASH_RE.exec(text))){ all.push({start:m.index,end:m.index+m[0].length,type:'dash'}); }
-  HEAD_INLINE_RE.lastIndex=0;
-  while((m=HEAD_INLINE_RE.exec(text))){
-    if(!/[A-Z]/.test(m[2][0])) continue;                     // a real heading starts with a capital
-    const s=m.index+m[0].indexOf(m[2], m[1].length); all.push({start:s,end:s+m[2].length,type:'head'});
+const WTAB = {word:{High:1.0,Medium:0.5,Low:0}, phrase:{High:2.0,Medium:1.2,Low:0}};
+
+function typedRanges(text, ignore){
+  const ig = ignore || new Set(), all=[]; let m;
+  for(const d of R.det){
+    d.re.lastIndex=0;
+    while((m=d.re.exec(text))){
+      if(!m[0].length){ d.re.lastIndex++; continue; }
+      if(ig.has(d.id)) continue;
+      all.push({start:m.index,end:m.index+m[0].length,type:d.pri==='Low'?'weak':'phrase',id:d.id,rule:d});
+    }
+  }
+  TRANS_RE.lastIndex=0;
+  while((m=TRANS_RE.exec(text))){ const id='trans:'+m[2].toLowerCase(); if(ig.has(id)) continue; const s=m.index+m[1].length; all.push({start:s,end:s+m[2].length,type:'trans',id}); }
+  DASH_RE.lastIndex=0;
+  while((m=DASH_RE.exec(text))){ if(ig.has('dash')) continue; all.push({start:m.index,end:m.index+m[0].length,type:'dash',id:'dash'}); }
+  R.headInline.lastIndex=0;
+  while((m=R.headInline.exec(text))){
+    const head=m[2]; if(!/[A-Z]/.test(head[0])) continue;
+    const id='head:'+head.toLowerCase(); if(ig.has(id)) continue;
+    const s=m.index+m[0].indexOf(head, m[1].length); all.push({start:s,end:s+head.length,type:'head',id});
   }
   HEAD_GENERIC_RE.lastIndex=0;
-  while((m=HEAD_GENERIC_RE.exec(text))){ const s=m.index+m[0].indexOf(m[2], m[1].length); all.push({start:s,end:s+m[2].length,type:'head'}); }
-  all.sort((a,b)=>a.start-b.start||b.end-a.end);
+  while((m=HEAD_GENERIC_RE.exec(text))){
+    const head=m[2], id='head:'+head.toLowerCase(); if(ig.has(id)) continue;
+    const s=m.index+m[0].indexOf(head, m[1].length); all.push({start:s,end:s+head.length,type:'head',id});
+  }
+  const rank = r => r.rule ? (r.rule.kind==='phrase'?3:2)+(r.rule.pri==='High'?1:0) : 1;
+  all.sort((a,b)=>a.start-b.start||b.end-a.end||rank(b)-rank(a));
   const out=[]; let last=0;
   for(const r of all){ if(r.start>=last){ out.push(r); last=r.end; } }
   return out;
@@ -228,230 +329,179 @@ function syllables(w){
 }
 
 /* ---------- Analysis ---------- */
-function analyze(text){
+function analyze(text, ignore){
   const paras = text.split(/\n+/).map(s=>s.trim()).filter(Boolean);
   const allSents = paras.flatMap(splitSentences);
-  // Real sentences only: drop headings / table cells (short, no end punctuation) and giant unbroken blocks.
   const isFrag = s => !/[.!?]["”')]?$/.test(s.trim()) && wc(s)<=8;
   const isBlock = s => wc(s)>60;
   const sentences = allSents.filter(s=>!isFrag(s) && !isBlock(s));
   const fragCount = allSents.filter(isFrag).length, blockCount = allSents.filter(isBlock).length;
   const words = text.toLowerCase().match(/[a-z0-9]+(?:['’][a-z]+)?/g) || [];
-  const n = words.length;
-  const per100 = x => n ? x/n*100 : 0;
-  const S = sentences.length;
-  const lens = sentences.map(wc);
-  const ranges = typedRanges(text);
+  const n = words.length, per100 = x => n ? x/n*100 : 0;
+  const S = sentences.length, lens = sentences.map(wc);
+  const ranges = typedRanges(text, ignore);
   const layers = [];
 
-  // 1. Rhythm
+  // Rhythm
   { let score=0, detail='Too few full sentences to judge rhythm.';
     if(S>=4){
-      const mean=lens.reduce((a,b)=>a+b,0)/S;
-      const sd=Math.sqrt(lens.reduce((a,b)=>a+(b-mean)**2,0)/S);
-      const cv=sd/mean;
-      score=clamp01((0.6-cv)/(0.6-0.3))*100;
+      const mean=lens.reduce((a,b)=>a+b,0)/S, sd=Math.sqrt(lens.reduce((a,b)=>a+(b-mean)**2,0)/S), cv=sd/mean;
+      score=clamp01((0.6-cv)/0.3)*100;
       detail=`Sentence lengths vary by ${Math.round(cv*100)}% (human writing is usually 50%+). Shortest ${Math.min(...lens)} words, longest ${Math.max(...lens)}, average ${mean.toFixed(0)}.`;
     }
-    layers.push({key:'rhythm',name:'Rhythm',weight:.15,score,detail}); }
+    layers.push({key:'rhythm',name:'Rhythm',weight:.12,score,detail}); }
 
-  // 2. AI-style headings & structure
-  { const hits=ranges.filter(r=>r.type==='head').length;
-    const score=[0,45,75,100][Math.min(hits,3)];
-    const names=ranges.filter(r=>r.type==='head').slice(0,4).map(r=>'"'+text.slice(r.start,r.end).trim()+'"').join(', ');
-    layers.push({key:'headings',name:'AI-style headings',weight:.13,score,
-      detail:hits?`${hits} generic AI-style heading${hits>1?'s':''} found: ${names}.`:'No generic AI headings (Introduction, Key takeaways, Summary...) found.'}); }
+  // AI-style headings
+  { const hs=ranges.filter(r=>r.type==='head');
+    const score=[0,45,75,100][Math.min(hs.length,3)];
+    const names=hs.slice(0,4).map(r=>'"'+text.slice(r.start,r.end).trim()+'"').join(', ');
+    layers.push({key:'headings',name:'AI-style headings',weight:.12,score,
+      detail:hs.length?`${hs.length} generic AI-style heading${hs.length>1?'s':''}: ${names}.`:'No generic AI headings (Introduction, Key takeaways, Summary...) found.'}); }
 
-  // 3. Stock phrases
-  { const pc=ranges.filter(r=>r.type==='phrase').length;
-    const d=per100(pc);
-    layers.push({key:'phrases',name:'Stock phrases',weight:.20,score:clamp01(d/2)*100,
-      detail:pc?`${pc} stock phrase${pc>1?'s':''} found (${d.toFixed(1)} per 100 words). Typical AI wording like "leverage", "seamless", "delve into".`:'No typical AI stock phrases found.'}); }
+  // AI words and phrases, weighted by the dictionary's priority
+  { const hits=ranges.filter(r=>r.rule);
+    const seen={}; let pts=0, hi=0, med=0, weak=0;
+    for(const r of hits){
+      const k=seen[r.id]=(seen[r.id]||0)+1;
+      if(r.rule.pri==='Low'){ weak++; continue; }
+      pts += WTAB[r.rule.kind][r.rule.pri] * (k>=2?1.5:1);
+      if(r.rule.pri==='High') hi++; else med++;
+    }
+    pts += Math.max(0, weak - 1.5*n/100) * 0.3;               // weak words only count as a cluster
+    const density=per100(pts);
+    layers.push({key:'phrases',name:'AI words and phrases',weight:.24,score:clamp01(density/3)*100,
+      detail:(hi+med+weak)?`${hi} strong and ${med} medium signal${hi+med===1?'':'s'}, ${weak} weak word${weak===1?'':'s'}. Weak words only count when they cluster. Repeats count more.`:'No AI-style words or phrases from the dictionary found.'}); }
 
-  // 4. Repetition
+  // Repetition
   { let score=0, detail='Not enough text to judge repetition.';
     if(S>=4){
-      const openers=sentences.map(s=>s.toLowerCase().split(/\s+/).slice(0,2).join(' '));
+      const COMMON=new Set(['the','a','an','in','on','if','and','but','so','as','for','to','of','at','by']);
+      const openers=sentences.map(s=>{const w=s.toLowerCase().split(/\s+/); return COMMON.has(w[0])?'#'+Math.random():w.slice(0,2).join(' ');});
       const cnt={}; openers.forEach(o=>cnt[o]=(cnt[o]||0)+1);
       const rep=openers.filter(o=>cnt[o]>1).length/S;
+      const first=sentences.map(s=>{const w=s.toLowerCase().split(/\s+/)[0]; return COMMON.has(w)?'#'+Math.random():w;}); let runs=0, run=1;
+      for(let i=1;i<=first.length;i++){ if(first[i]===first[i-1]) run++; else { if(run>=3) runs++; run=1; } }
       const tri={}; for(let i=0;i<n-2;i++){const k=words[i]+' '+words[i+1]+' '+words[i+2]; tri[k]=(tri[k]||0)+1;}
-      let triRep=0; const triTot=Math.max(n-2,1); for(const k in tri) if(tri[k]>1) triRep+=tri[k];
-      triRep/=triTot;
-      score=(clamp01(rep/0.5)*0.6+clamp01(triRep/0.08)*0.4)*100;
-      detail=`${Math.round(rep*100)}% of sentences open the same way as another; ${(triRep*100).toFixed(1)}% of word triples repeat.`;
+      let triRep=0; for(const k in tri) if(tri[k]>1) triRep+=tri[k]; triRep/=Math.max(n-2,1);
+      score=(clamp01(rep/0.5)*0.45+clamp01(triRep/0.08)*0.3+clamp01(runs/2)*0.25)*100;
+      detail=`${Math.round(rep*100)}% of sentences open the same way as another, ${runs} run${runs===1?'':'s'} of 3+ sentences starting with the same word, ${(triRep*100).toFixed(1)}% of word triples repeat.`;
     }
-    layers.push({key:'repetition',name:'Repetition',weight:.08,score,detail}); }
+    layers.push({key:'repetition',name:'Repetition',weight:.07,score,detail}); }
 
-  // 5. Style tells
-  { const dashes=ranges.filter(r=>r.type==='dash').length;
-    const trans=ranges.filter(r=>r.type==='trans').length;
-    const triplets=sentences.filter(s=>TRIPLET_RE.test(s)).length;
-    const contrast=(text.match(CONTRAST_RE)||[]).length;
-    const comps=[clamp01(per100(dashes)/0.6), clamp01((S?trans/S:0)/0.2), clamp01((S?triplets/S:0)/0.3), clamp01(contrast/2)];
+  // Style tells
+  { const dashes=ranges.filter(r=>r.type==='dash').length, trans=ranges.filter(r=>r.type==='trans').length;
+    const triplets=sentences.filter(s=>TRIPLET_RE.test(s)).length, contrast=(text.match(CONTRAST_RE)||[]).length;
+    const comps=[clamp01(per100(dashes)/1.0), clamp01((S?trans/S:0)/0.2), clamp01((S?triplets/S:0)/0.3), clamp01(contrast/2)];
     let paraNote='';
     if(paras.length>=3){
-      const pl=paras.map(wc), pm=pl.reduce((a,b)=>a+b,0)/pl.length;
-      const pcv=Math.sqrt(pl.reduce((a,b)=>a+(b-pm)**2,0)/pl.length)/pm;
+      const pl=paras.map(wc), pm=pl.reduce((a,b)=>a+b,0)/pl.length, pcv=Math.sqrt(pl.reduce((a,b)=>a+(b-pm)**2,0)/pl.length)/pm;
       comps.push(clamp01((0.35-pcv)/0.2)); paraNote=` Paragraph sizes vary by ${Math.round(pcv*100)}%.`;
     }
-    const score=comps.reduce((a,b)=>a+b,0)/comps.length*100;
-    layers.push({key:'style',name:'Style tells',weight:.12,score,
-      detail:`${dashes} em dash${dashes===1?'':'es'}, ${trans} stiff transition${trans===1?'':'s'} (Moreover, Furthermore...), ${triplets} "A, B and C" lists, ${contrast} "not only... but" pattern${contrast===1?'':'s'}.${paraNote}`}); }
+    layers.push({key:'style',name:'Style tells',weight:.10,score:comps.reduce((a,b)=>a+b,0)/comps.length*100,
+      detail:`${dashes} em dash${dashes===1?'':'es'} (weak signal alone), ${trans} stiff transition${trans===1?'':'s'}, ${triplets} "A, B and C" lists, ${contrast} "not only/just... but" pattern${contrast===1?'':'s'}.${paraNote}`}); }
 
-  // 6. Predictable constructions (rule-based stand-in for a model-based predictability check)
-  { const tails=sentences.filter(s=>TAIL_RE.test(s)).length;
+  // Predictable constructions
+  { let score=0, detail='Not enough text to judge constructions.';
+    const tails=sentences.filter(s=>TAIL_RE.test(s)).length;
     const hedges=(text.match(HEDGE_RE)||[]).length, hd=per100(hedges);
-    const score=S>=4 ? (clamp01((S?tails/S:0)/0.25)*0.6 + clamp01((hd-2)/3)*0.4)*100 : 0;
-    layers.push({key:'constructions',name:'Predictable constructions',weight:.10,score,
-      detail:`${tails} sentence${tails===1?'':'s'} end with a ", making / allowing / helping..." tail, and hedging words (can, may, often, various) appear ${hd.toFixed(1)} times per 100 words (AI text is usually 3+).`}); }
+    const stacked=sentences.filter(s=>(s.match(STACK_RE)||[]).length>=2).length;
+    const part=sentences.filter(s=>PARTICIPLE_RE.test(s)).length;
+    if(S>=4){
+      score=(clamp01((tails/S)/0.25)*0.3 + clamp01((hd-2)/3)*0.25 + clamp01((stacked/S)/0.15)*0.25 + clamp01((part/S)/0.12)*0.2)*100;
+      detail=`${tails} sentence${tails===1?'':'s'} ending with a ", making / allowing / helping..." tail, ${stacked} with stacked hedges (may, might, potentially...), ${part} opening with an "-ing" phrase. Hedging words: ${hd.toFixed(1)} per 100 words (AI text is usually 3+).`;
+    }
+    layers.push({key:'constructions',name:'Predictable constructions',weight:.11,score,detail}); }
 
-  // 7. Personal voice (inverted)
-  { const contr=(text.match(CONTRACTION_RE)||[]).length;
-    const pron=(text.match(PRONOUN_RE)||[]).length;
-    const q=sentences.filter(s=>/\?\s*$/.test(s)).length;
-    const shortS=lens.filter(l=>l<=5).length;
+  // Specificity and evidence
+  { let score=0, detail='Not enough text to judge specificity.';
+    if(S>=4 && n>=60){
+      const nums=(text.match(/\b\d[\d,.]*%?|[₹$€£]\s?\d/g)||[]).length;
+      const proper=(text.match(/(?<=[a-z,;]\s)[A-Z][a-z]{2,}/g)||[]).length;
+      const examples=(text.match(/\b(?:for example|for instance|e\.g\.)/gi)||[]).length + (text.match(/["“][^"”]{8,}["”]/g)||[]).length + (text.match(/https?:\/\//g)||[]).length;
+      const spec=per100(nums+0.5*proper+2*examples);
+      score=clamp01((3-spec)/3)*100;
+      detail=`${nums} number${nums===1?'':'s'}, ${proper} name${proper===1?'':'s'}, ${examples} example/quote/link. Specificity ${spec.toFixed(1)} per 100 words. Polished text with few facts, names or examples reads as generic.`;
+    }
+    layers.push({key:'specific',name:'Specificity',weight:.10,score,detail}); }
+
+  // Personal voice (inverted)
+  { const contr=(text.match(CONTRACTION_RE)||[]).length, pron=(text.match(PRONOUN_RE)||[]).length;
+    const q=sentences.filter(s=>/\?\s*$/.test(s)).length, shortS=lens.filter(l=>l<=5).length;
     const human=clamp01(per100(contr)/2.5)*.4 + clamp01(per100(pron)/3)*.3 + clamp01((S?q/S:0)/0.08)*.15 + clamp01((S?shortS/S:0)/0.1)*.15;
-    layers.push({key:'voice',name:'Personal voice',weight:.10,score:(1-human)*100,
-      detail:`${contr} contraction${contr===1?'':'s'}, ${pron} "you/we/I" word${pron===1?'':'s'}, ${q} question${q===1?'':'s'}, ${shortS} very short sentence${shortS===1?'':'s'}. Human writing usually has more of each.`}); }
+    layers.push({key:'voice',name:'Personal voice',weight:.07,score:(1-human)*100,
+      detail:`${contr} contraction${contr===1?'':'s'}, ${pron} "you/we/I" word${pron===1?'':'s'}, ${q} question${q===1?'':'s'}, ${shortS} very short sentence${shortS===1?'':'s'}. Formal editorial style without contractions is a valid choice, so this layer is weighted lightly.`}); }
 
-  // 8. Plain English (readability + fancy words)
+  // Plain English
   { let score=0, detail='Not enough text to judge readability.';
     if(S>=3 && n>=40){
-      const wl=words.filter(w=>/[a-z]/.test(w));
-      const syl=wl.reduce((a,w)=>a+syllables(w),0);
-      const sentWords=lens.reduce((a,b)=>a+b,0)/S;
-      const fre=206.835-1.015*sentWords-84.6*(syl/wl.length);
-      const fancy=(text.match(FANCY_RE)||[]).length, fd=per100(fancy);
+      const wl=words.filter(w=>/[a-z]/.test(w)), syl=wl.reduce((a,w)=>a+syllables(w),0);
+      const fre=206.835-1.015*(lens.reduce((a,b)=>a+b,0)/S)-84.6*(syl/wl.length);
+      const fancy=(text.match(R.fancy)||[]).length, fd=per100(fancy);
       score=(clamp01((65-fre)/30)*0.6 + clamp01(fd/1.5)*0.4)*100;
-      detail=`Reading ease ${Math.round(fre)} (60 to 70 is plain English; lower is harder). ${fancy} formal or fancy word${fancy===1?'':'s'} (utilize, subsequently, regarding...).`;
+      detail=`Reading ease ${Math.round(fre)} (60 to 70 is plain English; lower is harder). ${fancy} formal or fancy word${fancy===1?'':'s'}.`;
     }
-    layers.push({key:'plain',name:'Plain English',weight:.08,score,detail}); }
+    layers.push({key:'plain',name:'Plain English',weight:.05,score,detail}); }
 
-  // 9. Vocabulary variety (MATTR)
+  // Vocabulary variety
   { let score=0, detail='Not enough text to judge vocabulary.';
     if(n>=60){
-      const w=50; let sum=0, c=0; const m=new Map();
+      const w=50; let sum=0, c=0; const mp=new Map();
       for(let i=0;i<n;i++){
-        m.set(words[i],(m.get(words[i])||0)+1);
-        if(i>=w){ const o=words[i-w]; const v=m.get(o)-1; v?m.set(o,v):m.delete(o); }
-        if(i>=w-1){ sum+=m.size/w; c++; }
+        mp.set(words[i],(mp.get(words[i])||0)+1);
+        if(i>=w){ const o=words[i-w], v=mp.get(o)-1; v?mp.set(o,v):mp.delete(o); }
+        if(i>=w-1){ sum+=mp.size/w; c++; }
       }
-      const mattr=sum/c;
-      score=clamp01((0.78-mattr)/0.16)*100;
+      const mattr=sum/c; score=clamp01((0.78-mattr)/0.16)*100;
       detail=`Vocabulary variety index ${mattr.toFixed(2)} (higher is more varied; ~0.72+ is typical of human writing).`;
     }
-    layers.push({key:'vocab',name:'Vocabulary variety',weight:.04,score,detail}); }
+    layers.push({key:'vocab',name:'Vocabulary variety',weight:.02,score,detail}); }
 
   // Overall: weighted average, but one or two strong tells should not be diluted away.
   const weighted=layers.reduce((a,l)=>a+l.score*l.weight,0);
   const top2=layers.map(l=>l.score).sort((a,b)=>b-a).slice(0,2).reduce((a,b)=>a+b,0)/2;
   const score=Math.round(0.75*weighted+0.25*top2);
 
+  // Flag list: group matches by rule
+  const groups={};
+  for(const r of ranges){
+    if(r.type==='dash'||r.type==='trans'||r.type==='head'||r.rule){
+      const g=groups[r.id]||(groups[r.id]={id:r.id,type:r.type,count:0,label:text.slice(r.start,r.end).trim(),rule:r.rule||null});
+      g.count++;
+    }
+  }
+  const flags=Object.values(groups).sort((a,b)=>(b.rule?WTAB[b.rule.kind][b.rule.pri]:0.5)*b.count-(a.rule?WTAB[a.rule.kind][a.rule.pri]:0.5)*a.count);
+
   const warnings=[];
   if(n<80) warnings.push('This text is under 80 words, so the score is not very reliable. Paste more text for a better reading.');
   if(blockCount>0 || fragCount>=Math.max(4,allSents.length*0.15))
     warnings.push('Parts of this text look like pasted tables, lists or headings with the line breaks lost. Those pieces are skipped when scoring rhythm. For the most accurate result, paste with the original line breaks.');
-  return {score,layers,ranges,words:n,sentences:S,warnings};
+  return {score,layers,ranges,flags,words:n,sentences:S,warnings};
 }
 
 /* ---------- Humanizer (rule-based, fully local) ---------- */
-const verbForms = (base,s,ed,ing) => [base,s,ed,ing];
-const RULES = [];
-const R = (rx, reps) => RULES.push([rx, reps]);
-// phrases -> plainer wording
-R(/\bdelve into\b/gi,["dig into","look at"]); R(/\bdelves into\b/gi,["digs into","looks at"]); R(/\bdelved into\b/gi,["dug into","looked at"]); R(/\bdelving into\b/gi,["digging into","looking at"]);
-R(/\bin today['’]s (?:fast-paced|digital|ever-changing|modern|competitive)(?: \w+)? (?:world|landscape|era|age|market),?\s*/gi,["Today, ","Right now, ","These days, ",""]);
-R(/\bit(?:['’]s| is) (?:important|crucial|essential|vital) to (?:note|mention|remember|understand)(?: that)?,?\s*/gi,["","Keep in mind that ",""]);
-R(/\bit(?:['’]s| is) worth (?:noting|mentioning)(?: that)?,?\s*/gi,["","Note that ",""]);
-R(/\bin the (?:realm|world|landscape) of\b/gi,["in"]);
-R(/\ba testament to\b/gi,["proof of"]);
-R(/\b(?:a )?rich tapestry of\b/gi,["a mix of"]);
-R(/\bnavigate (?:the )?(?:complexities|landscape|challenges|world) of\b/gi,["work through","make sense of"]);
-R(/\bunlocks (?:the )?(?:power|potential|secrets) of\b/gi,["gets more out of"]); R(/\bunlocked (?:the )?(?:power|potential|secrets) of\b/gi,["got more out of"]);
-R(/\bunlocking (?:the )?(?:power|potential|secrets) of\b/gi,["getting more out of"]); R(/\bunlock (?:the )?(?:power|potential|secrets) of\b/gi,["get more out of"]);
-R(/\bgame[- ]changer\b/gi,["big shift","real change"]); R(/\bgame[- ]changing\b/gi,["major","big"]);
-R(/\bseamlessly\b/gi,["smoothly"]); R(/\bseamless\b/gi,["smooth","easy"]);
-R(/\brobust\b/gi,["solid","strong"]);
-R(/\bleverages\b/gi,["uses"]); R(/\bleveraged\b/gi,["used"]); R(/\bleveraging\b/gi,["using"]); R(/\bleverage\b/gi,["use"]);
-R(/\butilizes\b/gi,["uses"]); R(/\butilized\b/gi,["used"]); R(/\butilizing\b/gi,["using"]); R(/\butilize\b/gi,["use"]);
-R(/\bcomprehensive\b/gi,["full","complete","detailed"]);
-R(/\bcutting[- ]edge\b/gi,["modern","latest"]); R(/\bstate[- ]of[- ]the[- ]art\b/gi,["modern","advanced"]);
-R(/\belevates\b/gi,["improves","lifts"]); R(/\belevated\b/gi,["improved","raised"]); R(/\belevating\b/gi,["improving","raising"]); R(/\belevate\b/gi,["improve","raise"]);
-R(/\bembarks on\b/gi,["starts"]); R(/\bembarked on\b/gi,["started"]); R(/\bembarking on\b/gi,["starting"]); R(/\bembark on\b/gi,["start"]);
-R(/\bever[- ]evolving\b/gi,["changing","shifting"]);
-R(/\bin conclusion,?\s*/gi,["All in all, ","Bottom line: ","In short, "]); R(/\bto sum up,?\s*/gi,["In short, ","All in all, "]); R(/\bin summary,?\s*/gi,["In short, ","All in all, "]);
-R(/\b(?:Moreover|Furthermore|Additionally|In addition),\s*/gi,["Also, ","Plus, ","On top of that, ","","What\u2019s more, "]);
-R(/\bUltimately,\s*/gi,["In the end, ",""]);
-R(/\b(?:a )?plethora of\b/gi,["plenty of","lots of"]); R(/\b(?:a )?myriad of\b/gi,["many"]); R(/\ba myriad\b/gi,["many"]);
-R(/\bparamount\b/gi,["essential","a top priority"]); R(/\bpivotal\b/gi,["key","important"]);
-R(/\bfosters\b/gi,["builds"]); R(/\bfostered\b/gi,["built"]); R(/\bfostering\b/gi,["building"]); R(/\bfoster\b/gi,["build","encourage"]);
-R(/\bempowers\b/gi,["helps"]); R(/\bempowered\b/gi,["helped"]); R(/\bempowering\b/gi,["helping"]); R(/\bempower\b/gi,["help"]);
-R(/\bstreamlines\b/gi,["simplifies"]); R(/\bstreamlined\b/gi,["simplified"]); R(/\bstreamlining\b/gi,["simplifying"]); R(/\bstreamline\b/gi,["simplify"]);
-R(/\bholistic\b/gi,["complete","all-round"]);
-R(/\bdive (?:deep )?into\b/gi,["get into","look at"]);
-R(/\bwhen it comes to\b/gi,["with","for"]);
-R(/\bin order to\b/gi,["to"]);
-R(/\ba wide range of\b/gi,["many","all kinds of"]);
-R(/\btailored to\b/gi,["built for","designed for"]);
-R(/\bensures that\b/gi,["makes sure"]); R(/\bensure that\b/gi,["make sure"]); R(/\bensuring that\b/gi,["making sure"]); R(/\bensured that\b/gi,["made sure"]);
-R(/\bplays? a (?:crucial|vital|key|pivotal|significant) role in\b/gi,["matters for","is key to"]);
-R(/\bcrucial\b/gi,["important","key"]);
-R(/\bhassle[- ]free\b/gi,["easy"]); R(/\bworry[- ]free\b/gi,["easy"]);
-R(/\bfacilitates\b/gi,["helps with"]); R(/\bfacilitated\b/gi,["helped with"]); R(/\bfacilitating\b/gi,["helping with"]); R(/\bfacilitate\b/gi,["help with"]);
-R(/\bnumerous\b/gi,["many"]); R(/\boptimal\b/gi,["best"]); R(/\bunparalleled\b/gi,["exceptional"]);
-R(/\beffortlessly\b/gi,["easily"]); R(/\beffortless\b/gi,["easy"]);
-R(/\bat the end of the day,?\s*/gi,["In the end, "]);
-R(/\byour (?:go-to|one-stop)\b/gi,["your"]);
-
-// plain-English swaps
-R(/\bhave you ever wondered\b/gi,["Ever wondered"]);
-R(/\blet['’]s (?:dive|explore|break (?:it )?down|unpack)(?: in)?[.:!]?\s*/gi,[""]);
-R(/\bwithout further ado,?\s*/gi,[""]);
-R(/\bit goes without saying that\s*/gi,[""]); R(/\bneedless to say,?\s*/gi,[""]);
-R(/\bsimply put,?\s*/gi,["In short, "]); R(/\bthat being said,?\s*/gi,["Still, ","But "]); R(/\bthat said,?\s*/gi,["Still, ","But "]);
-R(/\ball in all,?\s*/gi,["Overall, ","In the end, "]);
-R(/\bunderscores\b/gi,["shows"]); R(/\bunderscored\b/gi,["showed"]); R(/\bunderscoring\b/gi,["showing"]); R(/\bunderscore\b/gi,["show"]);
-R(/\bbolsters\b/gi,["boosts"]); R(/\bbolstered\b/gi,["boosted"]); R(/\bbolstering\b/gi,["boosting"]); R(/\bbolster\b/gi,["boost"]);
-R(/\bgarners\b/gi,["gets"]); R(/\bgarnered\b/gi,["got"]); R(/\bgarnering\b/gi,["getting"]); R(/\bgarner\b/gi,["get"]);
-R(/\bspearheads\b/gi,["leads"]); R(/\bspearheaded\b/gi,["led"]); R(/\bspearheading\b/gi,["leading"]); R(/\bspearhead\b/gi,["lead"]);
-R(/\bencompasses\b/gi,["covers"]); R(/\bencompassed\b/gi,["covered"]); R(/\bencompassing\b/gi,["covering"]); R(/\bencompass\b/gi,["cover"]);
-R(/\bmultifaceted\b/gi,["complex"]); R(/\bnuanced\b/gi,["subtle"]); R(/\bintricacies\b/gi,["details"]); R(/\bintricate\b/gi,["detailed"]);
-R(/\bmeticulously\b/gi,["carefully"]); R(/\bmeticulous\b/gi,["careful"]);
-R(/\bunveils\b/gi,["shows"]); R(/\bunveiled\b/gi,["showed"]); R(/\bunveiling\b/gi,["showing"]); R(/\bunveil\b/gi,["show"]);
-R(/\btransformative\b/gi,["big","major"]); R(/\bimperative\b/gi,["important","a must"]);
-R(/\bindispensable\b/gi,["essential"]); R(/\binvaluable\b/gi,["very useful"]);
-R(/\brevolutioniz(?:es|ed|ing|e)\b/gi,["change"]);
-R(/\bcommence(?:s|d)?\b/gi,["start"]); R(/\bprior to\b/gi,["before"]); R(/\bsubsequently\b/gi,["then","later"]);
-R(/\bin the event that\b/gi,["if"]); R(/\b(?:with regard to|pertaining to)\b/gi,["about"]); R(/\bregarding\b/gi,["about"]);
-R(/\bendeavou?rs? to\b/gi,["try to"]); R(/\bascertain\b/gi,["find out"]); R(/\bwhilst\b/gi,["while"]); R(/\bamongst\b/gi,["among"]);
-R(/\bindividuals\b/gi,["people"]); R(/\bapproximately\b/gi,["about"]); R(/\bsufficient\b/gi,["enough"]);
-R(/\bdemonstrates\b/gi,["shows"]); R(/\bdemonstrated\b/gi,["showed"]); R(/\bdemonstrating\b/gi,["showing"]); R(/\bdemonstrate\b/gi,["show"]);
-R(/\bobtains\b/gi,["gets"]); R(/\bobtained\b/gi,["got"]); R(/\bobtaining\b/gi,["getting"]); R(/\bobtain\b/gi,["get"]);
-R(/\bassistance\b/gi,["help"]);
-R(/\bdue to the fact that\b/gi,["because"]); R(/\bin spite of the fact that\b/gi,["even though"]);
-R(/\b(?:is|are) able to\b/gi,["can"]); R(/\bhas the ability to\b/gi,["can"]); R(/\bat this point in time\b/gi,["now"]);
-R(/\bfor the purpose of\b/gi,["to"]); R(/\bin the near future\b/gi,["soon"]); R(/\bthe majority of\b/gi,["most"]); R(/\ba number of\b/gi,["several"]);
-R(/\b(?:Thus|Hence|Therefore),\s*/gi,["So, ",""]); R(/\bConsequently,\s*/gi,["So, "]);
-R(/\bNevertheless,\s*/gi,["Still, "]); R(/\bNonetheless,\s*/gi,["Still, "]);
-
-const CONTR = [
-  [/\bdo not\b/gi,"don't"],[/\bdoes not\b/gi,"doesn't"],[/\bdid not\b/gi,"didn't"],[/\bis not\b/gi,"isn't"],[/\bare not\b/gi,"aren't"],
-  [/\bwas not\b/gi,"wasn't"],[/\bwere not\b/gi,"weren't"],[/\bhave not\b/gi,"haven't"],[/\bhas not\b/gi,"hasn't"],[/\bwill not\b/gi,"won't"],
-  [/\bwould not\b/gi,"wouldn't"],[/\bcould not\b/gi,"couldn't"],[/\bshould not\b/gi,"shouldn't"],[/\bcannot\b/gi,"can't"],
-  [/\bit is\b/gi,"it's"],[/\bthat is\b/gi,"that's"],[/\bthere is\b/gi,"there's"],[/\byou will\b/gi,"you'll"],[/\byou are\b/gi,"you're"],
-  [/\bwe are\b/gi,"we're"],[/\bwe will\b/gi,"we'll"],[/\bthey are\b/gi,"they're"],[/\bI am\b/g,"I'm"]
-];
-
 function matchCase(src, rep){ return (rep && /^[A-Z]/.test(src)) ? rep[0].toUpperCase()+rep.slice(1) : rep; }
-
 let USED = new Map();
-function pickFresh(reps){
-  const min = Math.min(...reps.map(r => USED.get(r)||0));
-  const c = reps.filter(r => (USED.get(r)||0)===min);
-  const r = pick(c); USED.set(r,(USED.get(r)||0)+1); return r;
+function pickFresh(opts){
+  const min=Math.min(...opts.map(r=>USED.get(r)||0)), c=opts.filter(r=>(USED.get(r)||0)===min), r=pick(c);
+  USED.set(r,(USED.get(r)||0)+1); return r;
 }
-function applyPhraseRules(t){
-  for(const [rx,reps] of RULES){ t = t.replace(rx, m => matchCase(m, pickFresh(reps))); }
+// Counts what the humanizer changed, so it can report it.
+let CH = {};
+const bump = (k, n) => { CH[k] = (CH[k]||0) + (n===undefined?1:n); };
+function applySwaps(t){
+  for(const sw of R.swaps){
+    const eats = /(?:\\s\*|\\s\+)\)?$/.test(sw.src);
+    sw.re.lastIndex=0;
+    t = t.replace(sw.re, (m, ...args) => {
+      const caps = []; for(const a of args){ if(typeof a==='number') break; caps.push(a); }
+      let o = pickFresh(sw.to).trim();
+      if(o==='[delete]'){ bump('removed'); return ''; }
+      o = o.replace(/\$(\d)/g, (_,i)=>caps[+i-1]||'');
+      if(eats) o += ' ';
+      bump('swapped');
+      return matchCase(m, o);
+    });
+  }
   return t;
 }
 function fixGrammar(t){
@@ -461,15 +511,20 @@ function fixGrammar(t){
   return t;
 }
 function fixDashes(t){
-  t = t.replace(/\s+[—–]\s+/g, ", ");
-  t = t.replace(/(?<=[A-Za-z])[—–](?=[A-Za-z])/g, ", ");
-  return t;
+  t = t.replace(/\s+[—–]\s+/g, () => { bump('dashes'); return ", "; });
+  return t.replace(/(?<=[A-Za-z])[—–](?=[A-Za-z])/g, () => { bump('dashes'); return ", "; });
 }
+const CONTR = [
+  [/\bdo not\b/gi,"don't"],[/\bdoes not\b/gi,"doesn't"],[/\bdid not\b/gi,"didn't"],[/\bis not\b/gi,"isn't"],[/\bare not\b/gi,"aren't"],
+  [/\bwas not\b/gi,"wasn't"],[/\bwere not\b/gi,"weren't"],[/\bhave not\b/gi,"haven't"],[/\bhas not\b/gi,"hasn't"],[/\bwill not\b/gi,"won't"],
+  [/\bwould not\b/gi,"wouldn't"],[/\bcould not\b/gi,"couldn't"],[/\bshould not\b/gi,"shouldn't"],[/\bcannot\b/gi,"can't"],
+  [/\bit is\b/gi,"it's"],[/\bthat is\b/gi,"that's"],[/\bthere is\b/gi,"there's"],[/\byou will\b/gi,"you'll"],[/\byou are\b/gi,"you're"],
+  [/\bwe are\b/gi,"we're"],[/\bwe will\b/gi,"we'll"],[/\bthey are\b/gi,"they're"],[/\bI am\b/g,"I'm"]
+];
 function applyContractions(t, prob){
-  for(const [rx,rep] of CONTR){ t = t.replace(rx, m => Math.random()<prob ? matchCase(m,rep) : m); }
+  for(const [rx,rep] of CONTR){ t = t.replace(rx, m => { if(Math.random()<prob){ bump('contractions'); return matchCase(m,rep); } return m; }); }
   return t;
 }
-
 const LOWERABLE = new Set(['the','this','it','you','we','they','a','an','our','your','that','these','there','he','she','its','with','for','in','on','at','if','when','so','and','but']);
 function splitLong(sentence, thr, casual, minSide){
   minSide = minSide||6;
@@ -481,66 +536,110 @@ function splitLong(sentence, thr, casual, minSide){
   }
   if(!best || Math.random()>0.85) return [sentence];
   const left = sentence.slice(0,best.idx).replace(/[,;]\s*$/,'')+'.';
-  let right = sentence.slice(best.idx+best.len);
-  let lead='';
-  if(best.conj==='but') lead='But ';
-  else if(best.conj==='so') lead='So ';
-  else if(best.conj==='which') lead='That ';
+  let right = sentence.slice(best.idx+best.len), lead='';
+  if(best.conj==='but') lead='But '; else if(best.conj==='so') lead='So '; else if(best.conj==='which') lead='That ';
   else if(best.conj==='and' && casual && Math.random()<0.4) lead='And ';
   right = lead ? lead + right : cap(right);
+  bump('split');
   return [left, ...splitLong(right, thr, casual, minSide)];
 }
 const TAIL_MAP={making:'That makes',allowing:'That lets',enabling:'That lets',helping:'That helps',giving:'That gives',providing:'That gives',offering:'That gives'};
 function splitTail(sentence){
   const m=sentence.match(/^(.+?),\s(making|allowing|enabling|helping|giving|providing|offering|ensuring that)\s(.+)$/);
   if(!m || Math.random()>0.8) return [sentence];
-  const L=wc(m[1]), Rr=wc(m[3]); if(L<6 || Rr<3) return [sentence];
-  if(/\b(?:and|or|but) (?:\w+ing|\w+ed)\b/i.test(m[3])) return [sentence];   // a second clause follows: splitting would break the grammar
-  const lead = m[2]==='ensuring that' ? 'That makes sure' : TAIL_MAP[m[2]];
-  return [m[1]+'.', lead+' '+m[3]];
-}
-const HEAD_MAP={'introduction':null,'intro':null,'overview':'The basics',
-  'key takeaways':'What to remember','key takeaway':'What to remember','takeaways':'What to remember','quick takeaways':'What to remember',
-  'summary':'The short version','quick summary':'The short version','executive summary':'The short version','recap':'The short version','quick recap':'The short version','tl;dr':'The short version','tldr':'The short version',
-  'conclusion':'Where this leaves you','final thoughts':'Where this leaves you','final thought':'Where this leaves you','closing thoughts':'Where this leaves you','wrapping up':'Where this leaves you','in summary':'The short version','the bottom line':'Where this leaves you','bottom line':'Where this leaves you',
-  'faq':'Common questions','faqs':'Common questions','frequently asked questions':'Common questions','next steps':'What to do next','getting started':'How to start',
-  'why it matters':'Why you should care','why this matters':'Why you should care','best practices':'What works','common mistakes':'Mistakes to avoid','pros and cons':'The good and the bad',
-  'key benefits':'What you get','key features':'What you get'};
-function renameHeading(line){
-  const m=line.trim().match(/^(#+\s*)?(?:\*\*)?(.+?)(?:\*\*)?\s*:?\s*$/);
-  if(!m) return line;
-  const key=m[2].trim().toLowerCase();
-  const gen=m[2].trim().match(/^(?:Understanding|Exploring|Mastering|Demystifying|Navigating|Unlocking)\s+(.{3,60})$/);
-  if(gen && !(key in HEAD_MAP) && !/[.!?]$/.test(gen[1])) return (m[1]||'')+gen[1].charAt(0).toUpperCase()+gen[1].slice(1);
-  if(!(key in HEAD_MAP)) return line;
-  const rep=HEAD_MAP[key];
-  return rep===null ? '' : (m[1]||'')+rep;
+  if(wc(m[1])<6 || wc(m[3])<3) return [sentence];
+  if(/\b(?:and|or|but) (?:\w+ing|\w+ed)\b/i.test(m[3])) return [sentence];
+  bump('tails');
+  return [m[1]+'.', (m[2]==='ensuring that' ? 'That makes sure' : TAIL_MAP[m[2]])+' '+m[3]];
 }
 function mergeShort(list){
   const out=[];
   for(let i=0;i<list.length;i++){
     const a=list[i], b=list[i+1];
-    if(b && wc(a)<=7 && wc(b)<=7 && /[.]$/.test(a) && !/[?!]$/.test(b) && Math.random()<0.5){
+    if(b && wc(a)<=7 && wc(b)<=7 && /[.]$/.test(a) && !/[?!]$/.test(b) && !/ and /.test(a)
+       && a.split(/\s+/)[0].toLowerCase()!==b.split(/\s+/)[0].toLowerCase()
+       && (a.split(/\s+/)[1]||'').toLowerCase()!==(b.split(/\s+/)[1]||'').toLowerCase()
+       && LOWERABLE.has(b.split(/\s+/)[0].toLowerCase()) && Math.random()<0.5){      // only join when the second sentence starts with a common word we can safely lower-case
       const first=b.split(/\s+/)[0].toLowerCase();
-      const b2 = LOWERABLE.has(first) ? b[0].toLowerCase()+b.slice(1) : b;
-      out.push(a.replace(/\.$/,'')+', and '+b2); i++;
+      bump('merged');
+      out.push(a.replace(/\.$/,'')+', and '+(LOWERABLE.has(first) ? b[0].toLowerCase()+b.slice(1) : b)); i++;
     } else out.push(a);
+  }
+  return out;
+}
+
+/* Repeated sentence openers: merge "You can A. You can B." into one sentence, vary "Our/This" openers,
+   and add a connector when three or more sentences in a row start with the same word. */
+const SUBJECTS = new Set(['you','we','it','they']);
+const NOT_VERB = new Set(['the','a','an','our','your','this','that','these','those','its','their','my','his','her','all','some','every','each','one','no','any']);
+const OPENER_SWAP = {our:'The', this:'That', these:'Those'};
+const PRONOUN_LOWER = new Set(['you','we','they','it']);
+function fixRepeatedOpeners(list){
+  // 1. merge two neighbouring sentences with the same subject: "We offer A. We provide B." -> "We offer A and provide B."
+  //    A third repeat gets a connector ("Plus, you can...") instead of a chain of "and".
+  list=[...list];
+  const merged=[], fw=x=>(x.split(/\s+/)[0]||'').toLowerCase();
+  for(let i=0;i<list.length;i++){
+    const a=list[i], b=list[i+1];
+    if(b){
+      const wa=a.split(/\s+/), wb=b.split(/\s+/), s0=fw(a);
+      if(SUBJECTS.has(s0) && s0===fw(b) && /\.$/.test(a) && /\.$/.test(b) && wa.length<=16 && wb.length<=16 && !/ and /.test(a)
+         && wa[1] && wb[1] && !NOT_VERB.has(wa[1].toLowerCase()) && !NOT_VERB.has(wb[1].toLowerCase()) && !/[,;:]/.test(wb.slice(0,3).join(' '))){
+        const same2 = wa[1].toLowerCase()===wb[1].toLowerCase();
+        merged.push(a.replace(/\.$/,'')+' and '+wb.slice(same2?2:1).join(' '));
+        bump('openers');
+        const c=list[i+2];
+        if(c && fw(c)===s0 && !/^(?:also|plus|and|but|so)\b/i.test(c)){ list[i+2]=pickFresh(['Plus, ','Also, '])+c[0].toLowerCase()+c.slice(1); }
+        i++; continue;
+      }
+    }
+    merged.push(a);
+  }
+  // 2. vary what is still repeated
+  const out=[...merged]; const first=i=>(out[i].split(/\s+/)[0]||'').toLowerCase().replace(/[^a-z']/g,'');
+  let run=1;
+  for(let i=1;i<out.length;i++){
+    if(first(i)===first(i-1)){
+      run++;
+      const f=first(i);
+      if(OPENER_SWAP[f]){ out[i]=OPENER_SWAP[f]+out[i].slice(f.length); bump('openers'); }
+      else if(run>=3 && !/^(?:also|plus|and|but|so)\b/i.test(out[i])){
+        const lead=pickFresh(['Also, ','Plus, ']);
+        const w=out[i].split(/\s+/)[0];
+        out[i]=lead+(LOWERABLE.has(w.toLowerCase())||PRONOUN_LOWER.has(w.toLowerCase()) ? out[i][0].toLowerCase()+out[i].slice(1) : out[i]);
+        bump('openers');
+      }
+    } else run=1;
   }
   return out;
 }
 function restructure(para, casual, pass){
   pass = pass||0;
-  if(/^\s*(?:[-*•]|\d+[.)])\s/.test(para)) return para;           // list item: leave alone
+  if(/^\s*(?:[-*•]|\d+[.)])\s/.test(para)) return para;
   const sents = splitSentences(para);
-  if(sents.length===1 && !/[.!?]["”')]?$/.test(para.trim())) return para; // heading: leave alone
+  if(sents.length===1 && !/[.!?]["”')]?$/.test(para.trim())) return para;
   const thr = Math.max(13, (casual ? 20 : 24) - pass*5);
   let list = sents.flatMap(s => splitTail(s)).flatMap(s => splitLong(s, thr, casual, pass>=2?5:6));
-  list = mergeShort(list);
-  return list.join(' ');
+  return fixRepeatedOpeners(mergeShort(list)).join(' ');
 }
 function cleanup(t){
   return t.replace(/ {2,}/g,' ').replace(/ +([,.;:!?])/g,'$1').replace(/,\s*,/g,',').replace(/,\s*\./g,'.')
           .replace(/([.!?]["”)]?\s+)([a-z])/g,(m,a,b)=>a+b.toUpperCase());
+}
+function renameHeading(line){
+  const m=line.trim().match(/^(#+\s*)?(?:\*\*)?(.+?)(?:\*\*)?\s*:?\s*$/);
+  if(!m) return line;
+  const name=m[2].trim();
+  for(const h of R.heads){
+    if(new RegExp('^(?:'+h.src+')$','i').test(name)){
+      if(!h.swap) return line;                                   // detect-only heading
+      bump('headings');
+      return h.swap==='[delete]' ? '' : (m[1]||'')+h.swap;
+    }
+  }
+  const gen=name.match(/^(?:Understanding|Exploring|Mastering|Demystifying|Navigating|Unlocking)\s+(.{3,60})$/);
+  if(gen && !/[.!?]$/.test(gen[1])){ bump('headings'); return (m[1]||'')+gen[1].charAt(0).toUpperCase()+gen[1].slice(1); }
+  return line;
 }
 
 function humanizeOnce(text, tone, pass){
@@ -554,7 +653,7 @@ function humanizeOnce(text, tone, pass){
     if(renamed!==line) return renamed;
     const wasUpper=/^\s*[A-Z]/.test(line);
     let t = protectAbbr(line);
-    t = applyPhraseRules(t);
+    t = applySwaps(t);
     t = fixDashes(t);
     t = fixGrammar(t);
     t = applyContractions(t, casual?0.9:0.65);
@@ -567,109 +666,187 @@ function humanizeOnce(text, tone, pass){
   return lines.join('\n').replace(/\n{3,}/g,'\n\n').replace(/^\n+/,'').replace(/\u0002(\d+)\u0003/g,(m,i)=>vault[+i]);
 }
 
-function humanize(text, tone, target){
-  const before = analyze(text.replace(/\{\{([\s\S]*?)\}\}/g,'$1'));
-  let cur = text, best = {text:text, score:before.score}, passes=0;
+// Wrap everything the writer chose to ignore in {{ }} so the humanizer leaves it alone.
+function protectIgnored(text, ignore){
+  if(!ignore.size) return text;
+  const spans=[]; text.replace(/\{\{[\s\S]*?\}\}/g,(m,off)=>{spans.push([off,off+m.length]);return m;});
+  const rs=typedRanges(text, new Set()).filter(r=>ignore.has(r.id) && !spans.some(([a,b])=>r.start>=a&&r.end<=b));
+  for(const r of rs.sort((a,b)=>b.start-a.start)) text=text.slice(0,r.start)+'{{'+text.slice(r.start,r.end)+'}}'+text.slice(r.end);
+  return text;
+}
+
+function humanize(text, tone, target, ignore){
+  ignore = ignore || new Set();
+  const prot = protectIgnored(text, ignore);
+  const before = analyze(stripBraces(text), ignore);
+  let cur = prot, best = {text:prot, score:before.score, stats:{}, pass:0}, passes=0;
+  CH = {};
   for(let i=0;i<4;i++){
     const out = humanizeOnce(cur, tone, i); passes++;
-    const sc = analyze(out.replace(/\{\{([\s\S]*?)\}\}/g,'$1')).score;
-    if(sc <= best.score) best = {text:out, score:sc};
+    const sc = analyze(stripBraces(out), ignore).score;
+    if(sc <= best.score) best = {text:out, score:sc, stats:{...CH}, pass:passes};
     cur = out;
     if(sc <= target) break;
   }
-  return {before, after: analyze(best.text.replace(/\{\{([\s\S]*?)\}\}/g,'$1')), text: best.text.replace(/\{\{([\s\S]*?)\}\}/g,'$1'), passes};
+  return {text: stripBraces(best.text), passes: best.pass||passes, stats: best.stats};
 }
 
-window.HC = {analyze, humanize, humanizeOnce};
+window.HC = {analyze, humanize, humanizeOnce, parseCSV, compile, load, get rules(){return R;}};
+
+/* ---------- Loading rules ---------- */
+async function load(csvText){
+  if(csvText===undefined){
+    const res = await fetch('rules.csv', {cache:'no-cache'});
+    if(!res.ok) throw new Error('rules.csv returned '+res.status);
+    csvText = await res.text();
+  }
+  R = compile(parseCSV(csvText));
+  return R;
+}
 
 /* ---------- UI ---------- */
 const $ = id => document.getElementById(id);
-const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const TIPS = {
   rhythm:'Mix very short sentences (3 to 6 words) with longer ones. Right now the sentences are too even.',
-  phrases:'Swap the remaining stock phrases (highlighted) for plain words you would actually say.',
+  headings:'Rename generic headings like Introduction, Key takeaways and Summary. Use headings that say what the section actually tells the reader, or just drop them.',
+  phrases:'Swap the highlighted AI-style words and phrases for plain, specific wording. Name the actual market, tool, number or reason.',
   repetition:'Several sentences start the same way. Open some with a fact, a number or a question instead.',
   style:'Break up "A, B and C" lists (use two or four items sometimes), and cut "not only... but also" and "Moreover/Furthermore" openers.',
+  constructions:'Cut the ", making it... / allowing you to..." endings, stacked hedges (may, might, potentially) and "-ing" sentence openers. State things directly.',
+  specific:'Add what only someone who knows the topic would add: real numbers, dates, names, a source link, a customer example or a first-hand detail.',
   voice:'Add something only a person would write: a direct question, a "we/you" line, a real customer example or a clear opinion.',
-  headings:'Rename generic headings like Introduction, Key takeaways and Summary. Use headings that say what the section actually tells the reader, or just drop them.',
-  plain:'Write the way you would explain it to a friend: shorter sentences, everyday words. Replace formal words (utilize, subsequently, regarding) with simple ones.',
-  constructions:'Cut the ", making it... / allowing you to..." endings and the many "can / may / often" hedges. State things directly.',
+  plain:'Write the way you would explain it to a friend: shorter sentences, everyday words.',
   vocab:'The same words repeat a lot. Use more specific terms from your product, customers or numbers.'
 };
-function colorFor(s){ return s<30?'var(--lo)':s<55?'var(--mid)':'var(--hi)'; }
-function labelFor(s){ return s<30?'Low: reads human':s<55?'Medium: mixed signals':'High: reads AI-like'; }
+const colorFor = s => s<30?'var(--lo)':s<55?'var(--mid)':'var(--hi)';
+const labelFor = s => s<30?'Low risk: few AI-style patterns':s<55?'Medium risk: mixed signals':'High risk: many AI-style patterns';
 
+const plural=(n,w,s)=>n+' '+w+(n===1?'':(s||'s'));
+const FIXED_LABELS = [
+  ['swapped', n=>'Replaced '+n+(n===1?' AI-style word or phrase':' AI-style words or phrases')+' with plain wording'],
+  ['removed', n=>'Removed '+plural(n,'filler phrase')],
+  ['headings', n=>'Renamed or dropped '+plural(n,'generic heading')],
+  ['openers', n=>'Fixed '+plural(n,'repeated sentence opener')+' by joining or varying them'],
+  ['dashes', n=>'Removed '+plural(n,'em dash','es')],
+  ['tails', n=>'Split '+plural(n,'", making / allowing..." tail')+' into its own sentence'],
+  ['split', n=>'Split '+plural(n,'long sentence')+' to vary the rhythm'],
+  ['merged', n=>'Joined '+plural(n,'pair')+' of very short sentences'],
+  ['contractions', n=>'Added '+plural(n,'contraction')]
+];
+const STATE = {source:'', out:null, ignore:new Set(), tab:'flag', labels:{}};
+
+function markTitle(r){
+  if(r.rule){
+    const d=r.rule;
+    return [d.label+' ('+d.pri+' signal'+(d.cat?', '+d.cat:'')+')', d.tip, d.say?'Try: '+d.say:''].filter(Boolean).join('. ')+'. Click to ignore.';
+  }
+  return ({dash:'Em dash. Weak signal on its own.',trans:'Stiff transition word.',head:'Generic AI-style heading.'})[r.type]+' Click to ignore.';
+}
 function renderFlag(text, ranges){
   let html='', pos=0;
   for(const r of ranges){
-    html += esc(text.slice(pos,r.start)) + '<mark class="'+r.type+'">'+esc(text.slice(r.start,r.end))+'</mark>';
+    html += esc(text.slice(pos,r.start)) + '<mark class="'+r.type+'" data-id="'+esc(r.id)+'" title="'+esc(markTitle(r))+'">'+esc(text.slice(r.start,r.end))+'</mark>';
     pos=r.end;
   }
   return html + esc(text.slice(pos));
 }
 
-function renderResult(res, opts){
-  $('empty').hidden=true; $('out').hidden=false;
-  const hasAfter = !!opts.after;
-  $('sBefore').textContent = res.score; $('sBefore').style.color=colorFor(res.score);
-  $('arrow').hidden=!hasAfter; $('sAfter').hidden=!hasAfter;
-  const shown = hasAfter ? opts.after : res;
-  if(hasAfter){ $('sAfter').textContent=opts.after.score; $('sAfter').style.color=colorFor(opts.after.score); }
-  $('sLabel').textContent = (hasAfter?'After: ':'') + labelFor(shown.score);
-  const bar=$('meterBar'); bar.style.width=shown.score+'%'; bar.style.background=colorFor(shown.score);
-  $('warnBox').innerHTML = shown.warnings.map(w=>'<div class="warn">'+esc(w)+'</div>').join('');
+function render(){
+  if(!STATE.source) return;
+  const ig=STATE.ignore, src=stripBraces(STATE.source);
+  const before=analyze(src, ig), hasAfter=!!STATE.out;
+  const after=hasAfter?analyze(STATE.out.text, ig):null, shown=after||before, flagText=hasAfter?STATE.out.text:src;
 
-  $('layers').innerHTML = shown.layers.map(l=>`
+  $('empty').hidden=true; $('out').hidden=false;
+  $('sBefore').textContent=before.score; $('sBefore').style.color=colorFor(before.score);
+  $('arrow').hidden=!hasAfter; $('sAfter').hidden=!hasAfter;
+  if(hasAfter){ $('sAfter').textContent=after.score; $('sAfter').style.color=colorFor(after.score); }
+  $('sLabel').textContent=(hasAfter?'After: ':'')+labelFor(shown.score);
+  const bar=$('meterBar'); bar.style.width=shown.score+'%'; bar.style.background=colorFor(shown.score);
+  $('warnBox').innerHTML=shown.warnings.map(w=>'<div class="warn">'+esc(w)+'</div>').join('');
+
+  $('layers').innerHTML=shown.layers.map(l=>`
     <div class="layer">
       <div class="lh"><span>${l.name}</span><span style="color:${colorFor(l.score)}">${Math.round(l.score)}</span></div>
       <div class="lbar"><i style="width:${l.score}%;background:${colorFor(l.score)}"></i></div>
       <div class="ld">${esc(l.detail)}</div>
     </div>`).join('');
 
-  const flagText = hasAfter ? opts.text : opts.source;
-  $('flagView').innerHTML = renderFlag(flagText, shown.ranges);
-
-  const tabHum=$('tabHum');
-  tabHum.hidden=!hasAfter;
+  $('flagView').innerHTML=renderFlag(flagText, shown.ranges);
+  $('tabHum').hidden=!hasAfter;
   if(hasAfter){
-    $('humView').textContent = opts.text;
-    $('passInfo').textContent = `${opts.passes} pass${opts.passes>1?'es':''} run`;
+    $('humView').textContent=STATE.out.text; $('passInfo').textContent=STATE.out.passes+' pass'+(STATE.out.passes>1?'es':'')+' run';
+    const st=STATE.out.stats||{};
+    const items=FIXED_LABELS.filter(([k])=>st[k]).map(([k,fn])=>'<li>'+esc(fn(st[k]))+'</li>');
+    $('fixedBox').innerHTML = items.length
+      ? '<b>What the humanizer fixed</b><ul>'+items.join('')+'</ul>'
+      : '<b>Nothing could be fixed automatically</b>Whatever is still flagged below needs a human edit.';
   }
-  selectTab(hasAfter?'hum':'flag');
-  $('tabFlag').textContent = hasAfter ? 'Flagged text (after)' : 'Flagged text';
+  $('tabFlag').textContent=hasAfter?'Flagged text (after)':'Flagged text';
+  selectTab(hasAfter && STATE.tab==='hum' ? 'hum' : 'flag');
 
-  const tips = shown.layers.filter(l=>l.score>=50).sort((a,b)=>b.score*b.weight-a.score*a.weight).map(l=>TIPS[l.key]);
-  $('tips').innerHTML = tips.map(t=>'<li>'+esc(t)+'</li>').join('');
-  $('tipsBox').hidden = !tips.length;
+  // Why flagged
+  const list=shown.flags.slice(0,14);
+  $('flagBox').hidden=!list.length;
+  $('flaglist').innerHTML=list.map(g=>{
+    const r=g.rule;
+    const pri=r?r.pri:(g.type==='head'?'High':'Low');
+    const why = r ? (r.tip||r.cat) : ({dash:'Repeated em dashes are a weak signal on their own.',trans:'Mechanical transitions (Moreover, Furthermore) are common in AI writing.',head:'Generic section label. Say what the section actually tells the reader.'})[g.type];
+    return `<li><div class="fl-top"><b>${esc(g.label)}</b><span class="pri ${pri}">${pri}</span><span class="fl-count">${g.count}x${r&&r.cat?' · '+esc(r.cat):''}</span>
+      <button class="ignore small" data-ignore="${esc(g.id)}">Ignore</button></div>
+      <div class="fl-body">${esc(why||'')}${r&&r.say?' <b>Try:</b> '+esc(r.say):''}</div></li>`;
+  }).join('');
+  Object.assign(STATE.labels, Object.fromEntries(shown.flags.map(g=>[g.id,g.label])));
+
+  // Ignored chips
+  $('ignoredBox').hidden=!ig.size;
+  $('ignored').innerHTML=[...ig].map(id=>`<button class="chip small" data-restore="${esc(id)}">${esc(STATE.labels[id]||id)}</button>`).join('');
+
+  const tips=shown.layers.filter(l=>l.score>=50).sort((a,b)=>b.score*b.weight-a.score*a.weight).map(l=>TIPS[l.key]).filter(Boolean);
+  $('tips').innerHTML=tips.map(t=>'<li>'+esc(t)+'</li>').join('');
+  $('tipsBox').hidden=!tips.length;
 }
 function selectTab(which){
-  const hum = which==='hum';
+  const hum=which==='hum'; STATE.tab=which;
   $('tabHum').setAttribute('aria-selected',hum); $('tabFlag').setAttribute('aria-selected',!hum);
   $('paneHum').hidden=!hum; $('paneFlag').hidden=hum;
 }
+function toggleIgnore(id){ STATE.ignore.has(id)?STATE.ignore.delete(id):STATE.ignore.add(id); render(); }
 
-$('src').addEventListener('input',()=>{ $('wc').textContent = wc($('src').value)+' words'; });
-$('tabFlag').addEventListener('click',()=>selectTab('flag'));
-$('tabHum').addEventListener('click',()=>selectTab('hum'));
-$('check').addEventListener('click',()=>{
-  const t=$('src').value; if(!t.trim()) return;
-  const clean=t.replace(/\{\{([\s\S]*?)\}\}/g,'$1');
-  renderResult(analyze(clean),{source:clean});
-});
-$('humanize').addEventListener('click',()=>{
-  const t=$('src').value; if(!t.trim()) return;
-  const target=Math.max(5,Math.min(80,parseInt($('target').value,10)||30));
-  const r=humanize(t,$('tone').value,target);
-  renderResult(r.before,{after:r.after,text:r.text,passes:r.passes,source:t});
-});
-$('copy').addEventListener('click',async()=>{
-  const txt=$('humView').textContent;
-  try{ await navigator.clipboard.writeText(txt); $('copy').textContent='Copied'; }
-  catch(e){ const r=document.createRange(); r.selectNodeContents($('humView')); const s=getSelection(); s.removeAllRanges(); s.addRange(r); $('copy').textContent='Selected, press Ctrl+C'; }
-  setTimeout(()=>$('copy').textContent='Copy text',1800);
-});
-$('reuse').addEventListener('click',()=>{
-  $('src').value=$('humView').textContent; $('src').dispatchEvent(new Event('input')); $('check').click();
+function boot(){
+  $('src').addEventListener('input',()=>{ $('wc').textContent=wc($('src').value)+' words'; });
+  $('tabFlag').addEventListener('click',()=>{ selectTab('flag'); });
+  $('tabHum').addEventListener('click',()=>{ selectTab('hum'); });
+  $('check').addEventListener('click',()=>{
+    const t=$('src').value; if(!t.trim()) return;
+    STATE.source=t; STATE.out=null; STATE.tab='flag'; render();
+  });
+  $('humanize').addEventListener('click',()=>{
+    const t=$('src').value; if(!t.trim()) return;
+    const target=Math.max(5,Math.min(80,parseInt($('target').value,10)||30));
+    STATE.source=t; STATE.out=humanize(t,$('tone').value,target,STATE.ignore); STATE.tab='hum'; render();
+  });
+  $('copy').addEventListener('click',async()=>{
+    const txt=$('humView').textContent;
+    try{ await navigator.clipboard.writeText(txt); $('copy').textContent='Copied'; }
+    catch(e){ const r=document.createRange(); r.selectNodeContents($('humView')); const s=getSelection(); s.removeAllRanges(); s.addRange(r); $('copy').textContent='Selected, press Ctrl+C'; }
+    setTimeout(()=>$('copy').textContent='Copy text',1800);
+  });
+  $('reuse').addEventListener('click',()=>{ $('src').value=$('humView').textContent; $('src').dispatchEvent(new Event('input')); $('check').click(); });
+  document.addEventListener('click',e=>{
+    const mk=e.target.closest('mark[data-id]'); if(mk){ toggleIgnore(mk.dataset.id); return; }
+    const ig=e.target.closest('[data-ignore]'); if(ig){ toggleIgnore(ig.dataset.ignore); return; }
+    const rs=e.target.closest('[data-restore]'); if(rs){ toggleIgnore(rs.dataset.restore); }
+  });
+}
+
+boot();
+load().then(r=>{
+  $('rulesInfo').textContent=`Rules loaded from rules.csv: ${r.counts.words} words, ${r.counts.phrases} phrases, ${r.counts.heads} headings, ${r.counts.swaps} plain-word swaps. Edit rules.csv to teach the tool.`;
+  $('check').disabled=false; $('humanize').disabled=false;
+}).catch(err=>{
+  $('rulesInfo').textContent='Could not load rules.csv ('+err.message+'). Open this page from the website, or keep rules.csv in the same folder.';
 });
 })();
 </script>
