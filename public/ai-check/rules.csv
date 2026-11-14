@@ -1,0 +1,569 @@
+record_type,item,category,priority,rewrite_or_detection,editorial_action,match,swap
+vocabulary,delve,Verb,High,"Explore, examine, look at",Flag every occurrence for review; especially 'delve into'.,,
+vocabulary,tapestry,Metaphorical noun,High,"Mix, combination, range",Usually vague metaphor when used for abstract topics.,,
+vocabulary,testament,Noun,High,"Evidence, example, proof",Review constructions such as 'a testament to'.,,
+vocabulary,landscape,Abstract noun,High,"Market, industry, situation, field",Flag when used as a vague substitute for a specific sector or context.,,
+vocabulary,realm,Abstract noun,High,"Area, field, domain",Often replace with the actual subject area.,,area|field
+vocabulary,robust,Adjective,Medium,"Strong, reliable, well-tested",Keep when technically precise; flag vague praise.,,
+vocabulary,seamless,Adjective,Medium,"Smooth, uninterrupted, easy",Ask what specifically is seamless.,,
+vocabulary,pivotal,Adjective,High,"Important, decisive",Often inflated emphasis.,,
+vocabulary,crucial,Adjective,Medium,"Important, necessary",Common in human writing too; flag only in clusters.,,
+vocabulary,leverage,Verb,Medium,"Use, apply",Keep in finance/business contexts when precise.,(?<!financial )(?<!operating )(?<!high )(?<!degree of )leverag(?:e|es|ed|ing)(?! ratios?| buyouts?| trading| ETFs?| loans?| funds?| positions?),
+vocabulary,foster,Verb,Medium,"Encourage, support, develop","Check for abstract, generic usage.",,
+vocabulary,myriad,Quantifier,Medium,"Many, numerous",Often unnecessary formalism.,,
+vocabulary,plethora,Quantifier,High,"Many, plenty",Often inflated where 'many' works.,,
+vocabulary,vibrant,Adjective,Medium,"Active, lively",Check for generic promotional language.,,lively
+vocabulary,comprehensive,Adjective,Medium,"Complete, detailed",Keep when scope is genuinely comprehensive.,,
+vocabulary,holistic,Adjective,Medium,"Whole-system, broad",Ask what dimensions are actually included.,,
+vocabulary,multifaceted,Adjective,Medium,"Complex, has several parts",Replace with the actual parts where possible.,,
+vocabulary,garner,Verb,High,"Gain, receive, attract",Often used in formulaic reporting.,,
+vocabulary,underscore,Verb,High,"Show, stress, highlight",One of the better-supported AI-associated terms.,,
+vocabulary,showcase,Verb,Medium,"Show, demonstrate, feature",Check for promotional overuse.,,
+vocabulary,elevate,Verb,Medium,"Improve, raise",Often vague marketing language.,,
+vocabulary,unlock,Verb,Medium,"Enable, make possible",Flag metaphorical 'unlock potential/secrets'.,,
+vocabulary,unleash,Verb,Medium,"Release, enable",Often promotional or exaggerated.,,
+vocabulary,embark,Verb,Medium,"Begin, start",Flag 'embark on a journey'.,,
+vocabulary,journey,Abstract noun,Medium,"Process, experience, path",Flag abstract business/learning journey metaphors.,,
+vocabulary,navigate,Verb,Medium,"Handle, manage, work through",Flag 'navigate complexities/challenges'.,,
+vocabulary,ever-evolving,Adjective,High,"Changing, developing",Often stock opening phrase.,,
+vocabulary,game-changer,Noun,High,"Major change, significant shift",Require evidence of material impact.,,
+vocabulary,boast,Verb,High,"Have, include, offer",Often used to inflate product/place descriptions.,,
+vocabulary,bolster,Verb,High,"Strengthen, support",Review for generic formal usage.,,
+vocabulary,intricate,Adjective,Medium,"Detailed, complex",Keep only when actual complexity is explained.,,
+vocabulary,intricacies,Noun,Medium,"Details, complications",Often used as vague filler.,,
+vocabulary,meticulous,Adjective,High,"Careful, detailed",A documented AI-associated vocabulary item.,,
+vocabulary,enduring,Adjective,Medium,Long-lasting,"Check for grand, abstract claims.",,long-lasting
+vocabulary,enhance,Verb,Medium,"Improve, increase",Common word; flag repetition and vague claims.,,
+vocabulary,interplay,Noun,High,"Relationship, interaction",Often used as abstract explanatory filler.,,relationship
+vocabulary,notably,Adverb,Medium,"Especially, in particular",Check repeated sentence openings.,,
+vocabulary,noteworthy,Adjective,Medium,"Worth noting, important",Often self-congratulatory filler.,,notable
+vocabulary,harness,Verb,Medium,"Use, apply",Flag 'harness the power of'.,,
+vocabulary,beacon,Metaphorical noun,High,"Example, guide, signal",Usually inflated metaphor.,,
+vocabulary,cornerstone,Metaphorical noun,Medium,"Foundation, central part",Keep when literal or well-supported.,,foundation
+vocabulary,pillar,Metaphorical noun,Medium,"Main part, principle",Flag generic lists of 'pillars'.,,
+vocabulary,hallmark,Noun,Medium,"Sign, characteristic",Check for vague evaluative use.,,sign
+vocabulary,nexus,Noun,High,"Connection, link",Often needlessly formal.,,link
+vocabulary,paradigm,Noun,Medium,"Model, approach",Keep in its precise academic meaning.,,
+vocabulary,zeitgeist,Noun,High,"Spirit of the time, current mood",Rarely needed in ordinary content.,,
+vocabulary,pinnacle,Noun,Medium,"Peak, highest point",Often exaggerated praise.,,peak
+vocabulary,frontier,Noun,Medium,"New area, boundary",Flag vague 'new frontier' claims.,,
+vocabulary,trajectory,Noun,Medium,"Trend, direction",Keep when describing a measurable trend.,,
+vocabulary,synergy,Noun,High,"Combined effect, cooperation",Often vague corporate jargon.,,
+vocabulary,empower,Verb,Medium,"Help, enable, give control",Ask how the reader is actually enabled.,,
+vocabulary,streamline,Verb,Medium,"Simplify, make faster",Keep when a process is genuinely simplified.,,
+vocabulary,transformative,Adjective,Medium,"Major, far-reaching",Require evidence for scale of change.,,
+vocabulary,revolutionary,Adjective,High,"New, major",Strong claim; require proof.,,new|major
+vocabulary,groundbreaking,Adjective,High,"New, first-of-its-kind",Require evidence that it is genuinely novel.,,new
+vocabulary,cutting-edge,Adjective,Medium,"Latest, advanced",Specify the technology or capability.,,
+vocabulary,state-of-the-art,Adjective,Medium,Latest available,Needs a dated or comparative basis.,,
+vocabulary,unprecedented,Adjective,Medium,Never seen before,Require historical evidence.,,
+vocabulary,unparalleled,Adjective,High,Unmatched,Comparative claim requiring proof.,,
+vocabulary,utilize,Verb,Medium,Use,Prefer the simpler verb unless technical distinction matters.,,
+vocabulary,commence,Verb,Low,"Begin, start",Formal but not a strong AI signal alone.,,
+vocabulary,endeavor,Noun/verb,Low,"Effort, try",Often overly formal in conversational content.,,
+vocabulary,facilitate,Verb,Medium,"Help, enable, make easier",Specify what is made easier.,,
+vocabulary,profound,Adjective,Medium,"Deep, major",Often inflated evaluation.,,deep
+vocabulary,remarkable,Adjective,Medium,"Unusual, notable",Needs a concrete reason.,,
+vocabulary,exceptional,Adjective,Medium,Unusually good,Promotional unless evidenced.,,
+vocabulary,stellar,Adjective,Medium,Excellent,Usually marketing language.,,excellent
+vocabulary,paramount,Adjective,Medium,Most important,Often inflated emphasis.,,
+vocabulary,nestled,Verb,Medium,"Located, set",Common in formulaic travel/property descriptions.,,
+vocabulary,renowned,Adjective,Medium,Well-known,Name the recognition or evidence.,,well-known
+vocabulary,spearhead,Verb,Medium,"Lead, start",Often corporate jargon.,,
+vocabulary,pioneer,Verb,Medium,"Start, introduce",Use only for genuine firsts.,,
+vocabulary,catalyze,Verb,Medium,"Trigger, cause",Often abstract and inflated.,,
+vocabulary,propel,Verb,Medium,"Drive, push",Check for vague growth claims.,,
+vocabulary,amplify,Verb,Medium,"Increase, strengthen",Specify what increased and by how much.,,
+vocabulary,champion,Verb,Medium,"Support, promote",Often generic institutional language.,,
+vocabulary,dynamic,Adjective,Low,"Changing, active",Common word; flag only if vague/repeated.,,
+vocabulary,innovative,Adjective,Medium,"New, different",Require a concrete innovation.,,
+vocabulary,impactful,Adjective,Medium,"Effective, influential",Often vague corporate language.,,effective
+vocabulary,actionable,Adjective,Medium,"Practical, usable",Specify the action.,,practical
+vocabulary,scalable,Adjective,Medium,Able to grow,Keep when scale conditions are explained.,,
+vocabulary,nuanced,Adjective,Medium,"Subtle, qualified",Use only when the distinctions are actually explained.,,
+vocabulary,arguably,Adverb,Low,"Possibly, in some views",Flag repeated hedging.,,
+vocabulary,potentially,Adverb,Low,"Possibly, may","Flag hedge stacking, not a single use.",,
+vocabulary,ultimately,Adverb,Low,In the end,Often overused as a transition.,,
+vocabulary,indeed,Adverb,Low,In fact,Can sound formal when repeated.,,
+vocabulary,undoubtedly,Adverb,Medium,Certainly,Often overconfident or unnecessary.,,
+vocabulary,certainly,Adverb,Low,"Yes, clearly",Not suspicious alone; flag formulaic assistant-style openings.,,
+vocabulary,truly,Adverb,Low,Genuinely,Check for empty emphasis.,,
+vocabulary,firstly,Transition,Low,First,Flag when followed by mechanically numbered transitions.,,
+vocabulary,secondly,Transition,Low,Second,Flag repetitive transition chains.,,
+vocabulary,lastly,Transition,Low,Finally,Flag formulaic lists.,,
+vocabulary,deep dive,Phrase fragment,High,"Detailed look, examination",Stock phrase; replace with a direct heading.,,
+vocabulary,deeply rooted,Phrase fragment,Medium,"Long-standing, established",Specify the history or cause.,,
+vocabulary,resonate,Verb,Medium,"Connect with, appeal to",Often vague audience claim.,,
+vocabulary,encompass,Verb,Medium,"Include, cover",Use direct wording.,,
+vocabulary,whilst,Conjunction,Low,While,Not AI-specific; regional/style choice.,,
+vocabulary,albeit,Conjunction,Low,Although,Not AI-specific; flag only if register is unnatural.,,
+vocabulary,essential,Adjective,Low,"Necessary, important",Common word; flag only in repetitive generic claims.,,
+vocabulary,significant,Adjective,Low,"Large, important",Require a number or explanation when used as a factual claim.,,
+vocabulary,valuable,Adjective,Low,"Useful, helpful",Specify the value.,,
+vocabulary,key,Adjective/noun,Low,"Main, central",Flag repeated 'key' claims and 'key takeaway'.,,
+vocabulary,highlight,Verb/noun,Low,"Show, point out",Common word; flag clusters with other stock terms.,,
+vocabulary,align,Verb,Low,"Match, fit",Often overused in corporate writing.,,
+vocabulary,emphasize,Verb,Low,"Stress, point out",Flag repeated usage.,,
+vocabulary,meticulously,Adverb,High,"Carefully, in detail",Often used as ornamental intensifier.,,
+vocabulary,primarily,Adverb,Low,Mainly,Research-associated increase; not a standalone signal.,,
+vocabulary,perfectly,Adverb,Low,"Exactly, very well",Flag exaggerated claims and repeated use.,,
+phrase,In today's fast-paced world,Opening cliché,High,Today / name the actual change,Remove generic scene-setting.,,
+phrase,In today's digital age,Opening cliché,High,Today / online / name the context,Start with the actual point.,"in today['’]s digital age,?\s*","Today, |Now, "
+phrase,In an ever-evolving landscape,Opening cliché,High,As the industry changes,Name the market and the change.,"in an ever-evolving landscape,?\s*","As things change, "
+phrase,In a world where,Opening cliché,Medium,Describe the actual condition,Avoid vague global framing.,,
+phrase,In the realm of,Transition cliché,Medium,In / within / in the field of,Use the actual field.,,
+phrase,When it comes to,Filler opener,Medium,For / Regarding / name the subject,Often removable.,,
+phrase,As technology continues to evolve,Opening cliché,High,Name the technology and recent change,Add a specific development or date.,"as technology continues to evolve,?\s*","As technology changes, "
+phrase,"In this article, we will explore",Process narration,High,This article explains / direct headline,Usually delete.,"in this (?:article|guide|post),? (?:we|you)(?:['’]ll| will) (?:explore|examine|look at|cover|discuss)\s*",Here we cover 
+phrase,Welcome to our comprehensive guide,Process narration,High,A guide to [specific subject],Avoid self-description.,welcome to (?:our|this) (?:comprehensive |ultimate |complete )?guide,
+phrase,Let's dive in,Process narration,High,Start with the point,Usually delete.,,
+phrase,Let's delve into,Process narration,High,Let's examine / [direct heading],Replace stock invitation.,,
+phrase,Without further ado,Process narration,Medium,Delete,Adds no information.,,
+phrase,Have you ever wondered,Rhetorical opener,Medium,"Ask a real, specific question or state the issue",Avoid generic engagement bait.,,
+phrase,First and foremost,Transition,Medium,First / the main point is,Use only when order matters.,"first and foremost,?\s*","First, "
+phrase,It's important to note that,Hedging/filler,High,State the fact directly,Usually delete the phrase.,,
+phrase,It is worth noting that,Hedging/filler,High,State the point directly,Usually delete the phrase.,,
+phrase,It is important to remember that,Hedging/filler,Medium,State the practical implication,Avoid announcing importance.,,
+phrase,Plays a crucial role in,Significance inflation,High,Is important to / affects / enables,Explain the mechanism.,plays? a crucial role in,
+phrase,Plays a pivotal role in,Significance inflation,High,Affects / enables / determines,Explain exactly how.,plays? a pivotal role in,
+phrase,Stands as a testament to,Significance inflation,High,Shows / demonstrates,Name the evidence.,stand(?:s|ing)? as a testament to,
+phrase,A rich tapestry of,Metaphorical padding,High,A mix of / several,Name the actual elements.,,
+phrase,Shed light on,Stock metaphor,Medium,Explain / reveal / clarify,Use a direct verb.,shed(?:s|ding)? light on,
+phrase,Valuable insights into,Vague benefit claim,Medium,Findings about / evidence on,Say what the insight is.,,
+phrase,At the end of the day,Transition cliché,Medium,In practice / ultimately / delete,Use only in conversational voice.,,
+phrase,All things considered,Transition cliché,Medium,Overall / given these facts,Give the actual judgement.,"all things considered,?\s*","Overall, "
+phrase,That being said,Transition cliché,Medium,But / however / delete,Use only for a real contrast.,,
+phrase,Having said that,Transition cliché,Medium,But / however,Avoid repeated pivot phrases.,"having said that,?\s*","Still, |But "
+phrase,At its core,Abstract framing,Medium,Basically / the main point is,State the core mechanism.,"at its core,?\s*","Basically, "
+phrase,At the heart of,Abstract framing,Medium,The main reason / central part,Name the cause.,,
+phrase,Whether you're a beginner or a seasoned pro,Audience cliché,High,Name the actual audience,Avoid broad catch-all targeting.,"whether you(?:['’]re| are)\b.{2,60}?\bor\b",
+phrase,Look no further,Promotional cliché,High,Name the product/service and reason,Remove sales filler.,,
+phrase,Bridge the gap,Metaphor,Medium,Connect / reduce the difference,Explain which gap.,bridg(?:e|es|ed|ing) the gap,
+phrase,Pave the way for,Metaphor,Medium,Enable / make possible,State the causal link.,pav(?:e|es|ed|ing) the way for,
+phrase,Shape the future of,Grand claim,Medium,Change [specific part] of [industry],Require a concrete mechanism.,shap(?:e|es|ed|ing) the future of,
+phrase,Push the boundaries of,Grand claim,Medium,Extend / test the limits of,Specify what changed.,push(?:es|ed|ing)? the boundaries of,
+phrase,At the forefront of,Promotional cliché,Medium,A leader in / among the first,Substantiate the ranking.,,
+phrase,Harness the power of,Promotional cliché,High,Use / apply,Name the tool or capability.,harness(?:es|ed|ing)? the power of,
+phrase,Unlock the secrets of,Promotional cliché,High,Explain / identify,Avoid false mystery.,unlock(?:s|ed|ing)? the secrets of,
+phrase,Unlock your full potential,Promotional cliché,High,Build [specific skill/result],Name measurable outcome.,unlock(?:s|ed|ing)? your full potential,
+phrase,Embark on a journey,Metaphor,High,Begin / start,Usually replace with direct wording.,embark(?:s|ed|ing)? on a journey,
+phrase,Take it to the next level,Promotional cliché,High,Improve [specific metric or capability],Explain what changes.,take (?:it|your \w+|\w+) to the next level,
+phrase,Raise the bar,Promotional cliché,Medium,Set a higher standard,Name the standard.,rais(?:e|es|ed|ing) the bar,
+phrase,Move the needle,Business cliché,Medium,Increase/decrease [metric],Use a measurable result.,mov(?:e|es|ed|ing) the needle,
+phrase,Simply put,Simplification marker,Medium,In short / direct explanation,Use sparingly.,,
+phrase,In layman's terms,Simplification marker,Medium,Simply / explain directly,Can sound patronising; usually remove.,,
+phrase,This begs the question,Rhetorical transition,Medium,The question is / this raises [specific question],Use accurately.,,
+phrase,It stands to reason,Inference filler,Medium,Therefore / explain the evidence,Show the reasoning.,,
+phrase,Suffice it to say,Filler,Medium,State the conclusion,Usually delete.,"suffice it to say,?\s*","In short, "
+phrase,Despite these challenges,Transition cliché,Low,Name the challenge and outcome,Avoid vague contrast.,despite these challenges,
+phrase,Actionable insights,Business cliché,Medium,Specific findings and next steps,List the actions.,,
+phrase,Best practices,Business cliché,Low,Proven methods / recommended steps,Specify source and context.,,
+phrase,Here's the kicker,Conversational template,Medium,State the surprising fact,Avoid manufactured suspense.,,
+phrase,But here's the thing,Conversational template,Medium,State the actual contrast,Use only when natural to voice.,,
+phrase,Here's the part most people miss,Conversational template,High,State the overlooked fact,Support claim that it is overlooked.,,
+phrase,And honestly?,Conversational template,Medium,Give the actual opinion,Avoid artificial intimacy.,and honestly\?,
+phrase,Let's unpack this,Process narration,High,Explain / examine,Use a direct transition.,,
+phrase,Let's break it down,Process narration,Medium,Here are the steps,Use only if a breakdown follows.,,
+phrase,You're not alone,Reassurance template,Medium,Name the group or evidence,Avoid unsupported reassurance.,,
+phrase,In conclusion,Formulaic closing,Medium,Use a specific final point or no heading,Avoid predictable wrap-up.,,
+phrase,In summary,Formulaic closing,Medium,Summarise the actual result,Use only when summary adds value.,,
+phrase,To wrap things up,Formulaic closing,Medium,Final point / direct conclusion,Usually unnecessary.,"to wrap things up,?\s*","In the end, "
+phrase,As we have explored,Formulaic closing,High,State what the evidence shows,Avoid narrating the article.,,
+phrase,The bottom line is,Formulaic closing,Medium,The result is / direct conclusion,Use sparingly.,,
+phrase,All in all,Formulaic closing,Medium,Overall / direct conclusion,Avoid generic ending.,,
+phrase,There you have it,Formulaic closing,Medium,Delete,Chatbot-style sign-off.,there you have it[.!]?\s*,[delete]
+phrase,I hope this helps,Assistant residue,High,Delete from article copy,Should not appear in editorial content.,i hope this helps[.!]?\s*,[delete]
+phrase,Feel free to reach out,Assistant residue,Medium,Use a real contact instruction if needed,Often leftover assistant phrasing.,,
+phrase,The future is bright,Generic optimism,High,Name the likely outcome and evidence,Avoid empty optimism.,,
+phrase,Exciting times ahead,Generic optimism,High,Name the upcoming development,Avoid generic enthusiasm.,,
+phrase,A game changer for,Promotional cliché,High,A major change for / explain the change,Require evidence.,,
+phrase,"Not just X, but Y",Contrast template,High,State the actual relationship,Flag repeated or empty contrast.,"not just\b.{1,80}?\bbut\b",
+phrase,"It's not about X, it's about Y",Contrast template,High,State what matters and why,Use only for a real correction.,"it['’]s not about\b.{1,80}?\bit['’]s about\b",
+phrase,More than just X,Contrast template,Medium,Describe the additional function,Avoid vague elevation.,more than just\b,
+phrase,From X to Y,False-range template,Medium,List actual scope,Check whether endpoints represent a real range.,[none],
+phrase,Whether you are X or Y,Catch-all template,Medium,Address the real audience,Avoid generic inclusive framing.,[none],
+phrase,In today's competitive market,Opening cliché,High,Name the market and competition,Add industry or geography.,"in today['’]s competitive market,?\s*","Today, "
+phrase,A wide array of,Quantity filler,Medium,Many / several / list them,Use exact count where possible.,,many
+phrase,A plethora of,Quantity filler,High,Many / several,Prefer plain English.,,
+phrase,A deep dive into,Heading cliché,High,Analysis of / how [specific thing] works,Use informative heading.,,
+phrase,A testament to the fact that,Significance inflation,High,Shows that,State the evidence.,,
+phrase,Plays an essential part in,Significance inflation,Medium,Is needed for / affects,Explain the mechanism.,plays? an essential part in,
+phrase,In the ever-changing world of,Opening cliché,High,Name the industry and change,Remove stock framing.,,in
+phrase,As we navigate,Metaphor,Medium,As [group] handles / faces,Name the actual challenge.,,
+phrase,The key takeaway is,Summary template,Medium,The main finding is [specific],Do not repeat heading without insight.,,The main point is
+phrase,This highlights the importance of,Summary template,Medium,This matters because [reason],Explain consequence.,,
+phrase,It is no secret that,Unsupported consensus,Medium,State evidence or remove,Avoid assuming agreement.,it(?:['’]s| is) no secret that\s*,[delete]
+phrase,One thing is clear,Generic certainty,Medium,State the conclusion and evidence,Avoid rhetorical padding.,,
+phrase,The answer lies in,Mystery framing,Medium,The reason is / depends on,State mechanism.,,
+phrase,Let's take a closer look,Process narration,Medium,Explain the detail directly,Usually remove.,,
+phrase,The possibilities are endless,Grand claim,High,Name realistic possibilities,Avoid absolute claim.,,
+phrase,A must-have for,Promotional cliché,Medium,Useful for [specific user] because,"Explain fit, not universal need.",,
+phrase,Designed to meet the needs of,Corporate filler,Low,Built for [specific user/task],Specify the needs.,,
+structure_pattern,Negative parallelism / contrast,Structure,High when repeated,"“It's not X, it's Y”; “not just X, but Y”","Count patterns per 1,000 words and flag repeated templates, not a single use.",,
+structure_pattern,Rule of three overuse,Structure,Medium,"Three adjectives, examples or abstract nouns in repeated sequences","Flag repeated triads, especially interchangeable abstract nouns.",,
+structure_pattern,Metaphor + triad template,Structure,High,"Topic is not just X; it is a journey/tapestry/catalyst for A, B and C","Flag stacked metaphor, contrast and three-part list.",,
+structure_pattern,Uniform sentence length,Structure,Medium,Most sentences have similar length and complexity,Measure sentence-length variation across sufficient text.,,
+structure_pattern,Formulaic paragraph structure,Structure,Medium,"Topic sentence, generic explanation, mini-summary repeated paragraph after paragraph",Compare paragraph shape and repeated transitions.,,
+structure_pattern,Repeated sentence openings,Structure,Medium,Three or more consecutive sentences begin with the same word/phrase,"Flag runs such as 'Moreover', 'Additionally', 'Furthermore'.",,
+structure_pattern,Transition on every paragraph,Structure,Medium,Moreover/Furthermore/Additionally/However used mechanically,Count transition density and inspect logical need.,,
+structure_pattern,Generic introduction,Structure,High,"Broad claims about modern life, technology or changing times",Flag stock opening phrases and missing concrete context.,,
+structure_pattern,Generic conclusion,Structure,High,Restates headings and ends with optimism or generic advice,"Check whether conclusion adds a decision, implication or evidence.",,
+structure_pattern,Symmetrical list items,Structure,Low/Medium,Every list item has same length and grammatical shape,Not inherently bad; flag only with other signals.,,
+structure_pattern,Bold label + colon bullets,Structure,Low/Medium,Every bullet starts with bold abstract label then generic explanation,"Useful formatting can be human; detect overuse, not presence.",,
+structure_pattern,Excessive headings,Structure,Medium,Many short sections that fragment a simple topic,Compare heading count with document length and topic complexity.,,
+structure_pattern,Hedge stacking,Structure,Medium,May/might/could/arguably/potentially layered in one claim,Flag multiple hedges within a sentence or paragraph.,,
+structure_pattern,Both-sides with no verdict,Structure,Medium,Both options have merits; no conclusion or decision follows,Ask writer to state evidence-based judgement where appropriate.,,
+structure_pattern,Copula avoidance,Structure,Medium,"Serves as, functions as, represents, boasts, features used instead of is/has",Flag repeated unnatural substitutions.,,
+structure_pattern,Synonym cycling,Structure,Medium,Repeating concept with many near-synonyms to avoid repeating a word,Check if wording obscures meaning; natural repetition is acceptable.,,
+structure_pattern,Participle opener overuse,Structure,Medium,"“Offering a wide range..., the platform...” repeated",Count sentence openings with -ing participial clauses.,,
+structure_pattern,Personified abstractions,Structure,Low/Medium,“The data tells a story”; “the numbers speak”,Flag when metaphor replaces actual interpretation.,,
+structure_pattern,Treadmill / circular explanation,Structure,High,Many words repeat one idea without adding evidence or new information,Measure semantic repetition across nearby sentences.,,
+structure_pattern,Over-explaining obvious points,Structure,Medium,Basic facts explained at length without reader need,Check information density and audience assumptions.,,
+structure_pattern,Vague attribution,Structure,High,"Experts say, studies show, research suggests without naming source","Require named source, link, date or remove attribution.",,
+structure_pattern,Significance inflation,Structure,High,"A minor fact described as pivotal, groundbreaking or transformative",Compare strength of adjective with evidence.,,
+structure_pattern,Notability padding,Structure,High,Long claims about importance without explaining why it matters,Require specific consequence or remove.,,
+structure_pattern,Promotional overclaim,Structure,High,"Revolutionary, best-in-class, unparalleled, game-changing without proof",Require comparative evidence or qualify.,,
+structure_pattern,Fake specificity / unsupported certainty,Structure,High,"Confident claims with no source, number, date or example","Flag claims for fact-checking, not AI authorship.",,
+structure_pattern,Chatbot residue,Structure,High,"“Certainly!”, “Here is…”, “I hope this helps”, “As an AI…”",Flag for removal in finished article copy.,,
+structure_pattern,Overuse of rhetorical questions,Structure,Medium,Questions used as section transitions rather than genuine reader questions,Check whether question is answered with new information.,,
+structure_pattern,Generic audience addressing,Structure,Medium,“Whether you're a beginner or expert” without audience-specific advice,Ask writer to identify actual reader group.,,
+structure_pattern,Em dash / punctuation pattern,Structure,Low/Medium,Repeated em dashes in the same sentence template,Punctuation alone is not a reliable AI signal.,,
+structure_pattern,Perfectly polished but content-light prose,Structure,High,"Fluent paragraphs contain few facts, examples, decisions or original observations",Score evidence density and specificity.,,
+phrase,Experts say / studies show,Vague attribution,High,"Name the source, date or link","Require a named source, link or date, or remove the attribution.",(?:experts|studies|research|analysts|critics|many people|some people|industry insiders)\s+(?:say|says|suggest|suggests|show|shows|indicate|indicates|believe|argue|agree)(?:\s+that)?,
+phrase,Serves as / functions as / stands as,Copula avoidance,Medium,is / works as,"Say ""is"" when you mean ""is"". Check for repeated unnatural substitutions.",(?:serves|functions|stands) as,
+phrase,Certainly! / Great question (chatbot opener),Chatbot residue,High,Delete,Finished article copy should never open like a chat reply.,(?:certainly|absolutely|sure|of course)!|great question|as an ai\b|i['’]d be happy to,
+phrase,navigate the complexities of,Legacy stock phrase,Medium,,,navigat(?:e|es|ed|ing) (?:the )?(?:complexities|landscape|challenges|world|maze) of,
+phrase,to sum up,Legacy stock phrase,Medium,,,to sum up,
+phrase,in order to,Legacy stock phrase,Medium,,,in order to,
+phrase,a wide range of,Legacy stock phrase,Medium,,,a wide range of,
+phrase,tailored to,Legacy stock phrase,Medium,,,tailored to,
+phrase,ensure that,Legacy stock phrase,Medium,,,ensur(?:e|es|ed|ing) that,
+phrase,hassle-free,Legacy stock phrase,Medium,,,hassle[- ]free,
+phrase,worry-free,Legacy stock phrase,Medium,,,worry[- ]free,
+phrase,numerous,Legacy stock phrase,Medium,,,numerous,
+phrase,optimal,Legacy stock phrase,Medium,,,optimal,
+phrase,peace of mind,Legacy stock phrase,Medium,,,peace of mind,
+phrase,your go-to,Legacy stock phrase,Medium,,,your (?:go-to|one-stop),
+phrase,effortlessly,Legacy stock phrase,Medium,,,effortless(?:ly)?,
+phrase,ready to get started,Legacy stock phrase,Medium,,,ready to (?:get started|take|dive|transform),
+phrase,buckle up,Legacy stock phrase,Medium,,,buckle up,
+phrase,stay tuned,Legacy stock phrase,Medium,,,stay tuned,
+phrase,it goes without saying,Legacy stock phrase,Medium,,,it goes without saying,
+phrase,needless to say,Legacy stock phrase,Medium,,,needless to say,
+phrase,that said,Legacy stock phrase,Medium,,,that said,
+phrase,unveils,Legacy stock phrase,Medium,,,unveil(?:s|ed|ing)?,
+phrase,revolutionize,Legacy stock phrase,Medium,,,revolutioniz(?:e|es|ed|ing),
+phrase,imperative,Legacy stock phrase,Medium,,,imperative,
+phrase,indispensable,Legacy stock phrase,Medium,,,indispensable,
+phrase,invaluable,Legacy stock phrase,Medium,,,invaluable,
+phrase,in essence,Legacy stock phrase,Medium,,,in essence,
+phrase,treasure trove,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,hidden gem,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,a symphony of,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,a kaleidoscope of,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,a double-edged sword,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,at the intersection of,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,rest assured,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,picture this,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,imagine a world where,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,let's face it,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,think of it as,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,in the grand scheme of things,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,a delicate dance,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,a delicate balance,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,foray into,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,labyrinth,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,bustling,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,it's no wonder,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,it's easy to see why,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,there's no denying,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,the reality is,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,what sets us apart,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,the secret sauce,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,a one-stop shop,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,whether you're looking to,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,moving forward,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,going forward,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,tailor-made,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,best-in-class,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,end-to-end,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,supercharge,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,turbocharge,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,skyrocket,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,stay ahead of the curve,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,ever-growing,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,a growing number of,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,increasingly important,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,continues to evolve,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,in a rapidly changing world,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,seamlessly integrate,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+phrase,cater to,Added by Claude (not in your dictionary),Medium,,"Added by Claude from general knowledge of AI-style writing, not from your dictionary. Review and delete if it flags valid wording in your content.",,
+heading,Introduction,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Introduction|Intro,[delete]
+heading,Overview,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Overview,The basics
+heading,Key takeaways,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Key Takeaways?|Takeaways?|Quick Takeaways?,What to remember
+heading,Summary,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Summary|Quick Summary|Executive Summary|Recap|Quick Recap|TL;DR|TLDR|In Summary,The short version
+heading,Conclusion,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Conclusion|Final Thoughts?|Closing Thoughts?|Wrapping Up|The Bottom Line|Bottom Line,Where this leaves you
+heading,FAQ,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",FAQs?|Frequently Asked Questions,Common questions
+heading,Next steps,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Next Steps,What to do next
+heading,Getting started,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Getting Started,How to start
+heading,Why it matters,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Why (?:It|This) Matters,Why you should care
+heading,Best practices,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Best Practices,What works
+heading,Common mistakes,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Common Mistakes,Mistakes to avoid
+heading,Pros and cons,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Pros and Cons,The good and the bad
+heading,Key benefits / features,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Key Benefits|Key Features,What you get
+heading,Let's dive in,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Let['’]s Dive In,
+heading,What you need to know,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",What You Need to Know,
+heading,Things to keep in mind,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Things to Keep in Mind,
+heading,Key considerations,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Key Considerations,
+heading,Final verdict,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Final Verdict,
+heading,Looking ahead,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Looking Ahead,
+heading,At a glance,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",At a Glance,
+heading,Call to action,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Call to Action,
+heading,Final word,AI-style heading,High,,"Generic section labels are an AI habit. Use a heading that says what the section tells the reader, or drop it.",Final Word,
+plain,utilize,Formal word,Low,,Prefer the everyday word.,utili[sz]e,
+plain,commence,Formal word,Low,,Prefer the everyday word.,commence,
+plain,endeavour,Formal word,Low,,Prefer the everyday word.,endeavou?r,
+plain,ascertain,Formal word,Low,,Prefer the everyday word.,ascertain,
+plain,subsequently,Formal word,Low,,Prefer the everyday word.,subsequently,
+plain,prior to,Formal word,Low,,Prefer the everyday word.,prior to,
+plain,in the event that,Formal word,Low,,Prefer the everyday word.,in the event that,
+plain,with regard to,Formal word,Low,,Prefer the everyday word.,with regard to,
+plain,pertaining to,Formal word,Low,,Prefer the everyday word.,pertaining to,
+plain,aforementioned,Formal word,Low,,Prefer the everyday word.,aforementioned,
+plain,henceforth,Formal word,Low,,Prefer the everyday word.,henceforth,
+plain,thereby,Formal word,Low,,Prefer the everyday word.,thereby,
+plain,therein,Formal word,Low,,Prefer the everyday word.,therein,
+plain,whilst,Formal word,Low,,Prefer the everyday word.,whilst,
+plain,amongst,Formal word,Low,,Prefer the everyday word.,amongst,
+plain,notwithstanding,Formal word,Low,,Prefer the everyday word.,notwithstanding,
+plain,ameliorate,Formal word,Low,,Prefer the everyday word.,ameliorate,
+plain,expedite,Formal word,Low,,Prefer the everyday word.,expedite,
+plain,facilitate,Formal word,Low,,Prefer the everyday word.,facilitate,
+plain,individuals,Formal word,Low,,Prefer the everyday word.,individuals,
+plain,approximately,Formal word,Low,,Prefer the everyday word.,approximately,
+plain,sufficient,Formal word,Low,,Prefer the everyday word.,sufficient,
+plain,demonstrate,Formal word,Low,,Prefer the everyday word.,demonstrate,
+plain,obtain,Formal word,Low,,Prefer the everyday word.,obtain,
+plain,assistance,Formal word,Low,,Prefer the everyday word.,assistance,
+plain,regarding,Formal word,Low,,Prefer the everyday word.,regarding,
+plain,consequently,Formal word,Low,,Prefer the everyday word.,consequently,
+plain,nevertheless,Formal word,Low,,Prefer the everyday word.,nevertheless,
+plain,nonetheless,Formal word,Low,,Prefer the everyday word.,nonetheless,
+plain,thus,Formal word,Low,,Prefer the everyday word.,thus,
+plain,hence,Formal word,Low,,Prefer the everyday word.,hence,
+plain,therefore,Formal word,Low,,Prefer the everyday word.,therefore,
+plain,multifaceted,Formal word,Low,,Prefer the everyday word.,multifaceted,
+plain,nuanced,Formal word,Low,,Prefer the everyday word.,nuanced,
+plain,intricate,Formal word,Low,,Prefer the everyday word.,intricate,
+plain,underscored,Formal word,Low,,Prefer the everyday word.,underscore[sd]?,
+plain,bolster,Formal word,Low,,Prefer the everyday word.,bolster,
+plain,garner,Formal word,Low,,Prefer the everyday word.,garner,
+plain,spearhead,Formal word,Low,,Prefer the everyday word.,spearhead,
+plain,encompass,Formal word,Low,,Prefer the everyday word.,encompass,
+plain,paradigm,Formal word,Low,,Prefer the everyday word.,paradigm,
+plain,synergy,Formal word,Low,,Prefer the everyday word.,synergy,
+plain,elucidate,Formal word,Low,,Prefer the everyday word.,elucidate,
+plain,delineate,Formal word,Low,,Prefer the everyday word.,delineate,
+plain,meticulous,Formal word,Low,,Prefer the everyday word.,meticulous,
+plain,imperative,Formal word,Low,,Prefer the everyday word.,imperative,
+plain,indispensable,Formal word,Low,,Prefer the everyday word.,indispensable,
+plain,invaluable,Formal word,Low,,Prefer the everyday word.,invaluable,
+plain,transformative,Formal word,Low,,Prefer the everyday word.,transformative,
+plain,revolutionize,Formal word,Low,,Prefer the everyday word.,revolutionize,
+plain,unveil,Formal word,Low,,Prefer the everyday word.,unveil,
+plain,endeavours,Formal word,Low,,Prefer the everyday word.,endeavours?,
+swap,delve into,Plain-word swap,,,,delve into,dig into|look at
+swap,delves into,Plain-word swap,,,,delves into,digs into|looks at
+swap,delved into,Plain-word swap,,,,delved into,dug into|looked at
+swap,delving into,Plain-word swap,,,,delving into,digging into|looking at
+swap,in today['’]s fast-paced ... world,Plain-word swap,,,,"in today['’]s (?:fast-paced|digital|ever-changing|modern|competitive)(?: \w+)? (?:world|landscape|era|age|market),?\s*","Today, |Right now, |These days, |[delete]"
+swap,it['’]s important to note that,Plain-word swap,,,,"it(?:['’]s| is) (?:important|crucial|essential|vital) to (?:note|mention|remember|understand)(?: that)?,?\s*",[delete]|Keep in mind that |[delete]
+swap,it['’]s worth noting that,Plain-word swap,,,,"it(?:['’]s| is) worth (?:noting|mentioning)(?: that)?,?\s*",[delete]|Note that |[delete]
+swap,in the realm of,Plain-word swap,,,,in the (?:realm|world|landscape) of,in
+swap,a testament to,Plain-word swap,,,,a testament to,proof of
+swap,a rich tapestry of,Plain-word swap,,,,(?:a )?rich tapestry of,a mix of
+swap,navigate the complexities of,Plain-word swap,,,,navigate (?:the )?(?:complexities|landscape|challenges|world) of,work through|make sense of
+swap,unlocks the power of,Plain-word swap,,,,unlocks (?:the )?(?:power|potential|secrets) of,gets more out of
+swap,unlocked the power of,Plain-word swap,,,,unlocked (?:the )?(?:power|potential|secrets) of,got more out of
+swap,unlocking the power of,Plain-word swap,,,,unlocking (?:the )?(?:power|potential|secrets) of,getting more out of
+swap,unlock the power of,Plain-word swap,,,,unlock (?:the )?(?:power|potential|secrets) of,get more out of
+swap,game-changer,Plain-word swap,,,,game[- ]changer,big shift|real change
+swap,game-changing,Plain-word swap,,,,game[- ]changing,major|big
+swap,seamlessly,Plain-word swap,,,,seamlessly,smoothly
+swap,seamless,Plain-word swap,,,,seamless,smooth|easy
+swap,robust,Plain-word swap,,,,robust,solid|strong
+swap,utilizes,Plain-word swap,,,,utilizes,uses
+swap,utilized,Plain-word swap,,,,utilized,used
+swap,utilizing,Plain-word swap,,,,utilizing,using
+swap,utilize,Plain-word swap,,,,utilize,use
+swap,comprehensive,Plain-word swap,,,,comprehensive,full|complete|detailed
+swap,cutting-edge,Plain-word swap,,,,cutting[- ]edge,modern|up-to-date
+swap,state-of-the-art,Plain-word swap,,,,state[- ]of[- ]the[- ]art,modern|up-to-date
+swap,elevates,Plain-word swap,,,,elevates,improves|lifts
+swap,elevated,Plain-word swap,,,,elevated,improved|raised
+swap,elevating,Plain-word swap,,,,elevating,improving|raising
+swap,elevate,Plain-word swap,,,,elevate,improve|raise
+swap,embarks on,Plain-word swap,,,,embarks on,starts
+swap,embarked on,Plain-word swap,,,,embarked on,started
+swap,embarking on,Plain-word swap,,,,embarking on,starting
+swap,embark on,Plain-word swap,,,,embark on,start
+swap,ever-evolving,Plain-word swap,,,,ever[- ]evolving,changing|shifting
+swap,in conclusion,Plain-word swap,,,,"in conclusion,?\s*","All in all, |Bottom line: |In short, "
+swap,to sum up,Plain-word swap,,,,"to sum up,?\s*","In short, |All in all, "
+swap,in summary,Plain-word swap,,,,"in summary,?\s*","In short, |All in all, "
+swap,"Moreover,",Plain-word swap,,,,"(?:Moreover|Furthermore|Additionally|In addition),\s*","Also, |Plus, |On top of that, |[delete]|What’s more, "
+swap,"Ultimately,",Plain-word swap,,,,"Ultimately,\s*","In the end, |[delete]"
+swap,a plethora of,Plain-word swap,,,,(?:a )?plethora of,plenty of|lots of
+swap,a myriad of,Plain-word swap,,,,(?:a )?myriad of,many
+swap,a myriad,Plain-word swap,,,,a myriad,many
+swap,paramount,Plain-word swap,,,,paramount,essential|a top priority
+swap,pivotal,Plain-word swap,,,,pivotal,key|important
+swap,fosters,Plain-word swap,,,,fosters,builds
+swap,fostered,Plain-word swap,,,,fostered,built
+swap,fostering,Plain-word swap,,,,fostering,building
+swap,foster,Plain-word swap,,,,foster,build|encourage
+swap,empowers,Plain-word swap,,,,empowers,helps
+swap,empowered,Plain-word swap,,,,empowered,helped
+swap,empowering,Plain-word swap,,,,empowering,helping
+swap,empower,Plain-word swap,,,,empower,help
+swap,streamlines,Plain-word swap,,,,streamlines,simplifies
+swap,streamlined,Plain-word swap,,,,streamlined,simplified
+swap,streamlining,Plain-word swap,,,,streamlining,simplifying
+swap,streamline,Plain-word swap,,,,streamline,simplify
+swap,holistic,Plain-word swap,,,,holistic,complete|all-round
+swap,dive deep into,Plain-word swap,,,,dive (?:deep )?into,get into|look at
+swap,when it comes to,Plain-word swap,,,,when it comes to,with|for
+swap,in order to,Plain-word swap,,,,in order to,to
+swap,a wide range of,Plain-word swap,,,,a wide range of,many|all kinds of
+swap,tailored to,Plain-word swap,,,,tailored to,built for|designed for
+swap,ensures that,Plain-word swap,,,,ensures that,makes sure
+swap,ensure that,Plain-word swap,,,,ensure that,make sure
+swap,ensuring that,Plain-word swap,,,,ensuring that,making sure
+swap,ensured that,Plain-word swap,,,,ensured that,made sure
+swap,plays a crucial role in,Plain-word swap,,,,plays? a (?:crucial|vital|key|pivotal|significant) role in,matters for|is key to
+swap,crucial,Plain-word swap,,,,crucial,important|key
+swap,hassle-free,Plain-word swap,,,,hassle[- ]free,easy
+swap,worry-free,Plain-word swap,,,,worry[- ]free,easy
+swap,facilitates,Plain-word swap,,,,facilitates,helps with
+swap,facilitated,Plain-word swap,,,,facilitated,helped with
+swap,facilitating,Plain-word swap,,,,facilitating,helping with
+swap,facilitate,Plain-word swap,,,,facilitate,help with
+swap,numerous,Plain-word swap,,,,numerous,many
+swap,optimal,Plain-word swap,,,,optimal,best
+swap,unparalleled,Plain-word swap,,,,unparalleled,exceptional
+swap,effortlessly,Plain-word swap,,,,effortlessly,easily
+swap,effortless,Plain-word swap,,,,effortless,easy
+swap,at the end of the day,Plain-word swap,,,,"at the end of the day,?\s*","In the end, "
+swap,your go-to,Plain-word swap,,,,your (?:go-to|one-stop),your
+swap,have you ever wondered,Plain-word swap,,,,have you ever wondered,Ever wondered
+swap,let['’]s dive in[.:!],Plain-word swap,,,,let['’]s (?:dive|explore|break (?:it )?down|unpack)(?: in)?[.:!]?\s*,[delete]
+swap,without further ado,Plain-word swap,,,,"without further ado,?\s*",[delete]
+swap,it goes without saying that,Plain-word swap,,,,it goes without saying that\s*,[delete]
+swap,needless to say,Plain-word swap,,,,"needless to say,?\s*",[delete]
+swap,simply put,Plain-word swap,,,,"simply put,?\s*","In short, "
+swap,that being said,Plain-word swap,,,,"that being said,?\s*","Still, |But "
+swap,that said,Plain-word swap,,,,"that said,?\s*","Still, |But "
+swap,all in all,Plain-word swap,,,,"all in all,?\s*","Overall, |In the end, "
+swap,underscores,Plain-word swap,,,,underscores,shows
+swap,underscored,Plain-word swap,,,,underscored,showed
+swap,underscoring,Plain-word swap,,,,underscoring,showing
+swap,underscore,Plain-word swap,,,,underscore,show
+swap,bolsters,Plain-word swap,,,,bolsters,boosts
+swap,bolstered,Plain-word swap,,,,bolstered,boosted
+swap,bolstering,Plain-word swap,,,,bolstering,boosting
+swap,bolster,Plain-word swap,,,,bolster,boost
+swap,garners,Plain-word swap,,,,garners,gets
+swap,garnered,Plain-word swap,,,,garnered,got
+swap,garnering,Plain-word swap,,,,garnering,getting
+swap,garner,Plain-word swap,,,,garner,get
+swap,spearheads,Plain-word swap,,,,spearheads,leads
+swap,spearheaded,Plain-word swap,,,,spearheaded,led
+swap,spearheading,Plain-word swap,,,,spearheading,leading
+swap,spearhead,Plain-word swap,,,,spearhead,lead
+swap,encompasses,Plain-word swap,,,,encompasses,covers
+swap,encompassed,Plain-word swap,,,,encompassed,covered
+swap,encompassing,Plain-word swap,,,,encompassing,covering
+swap,encompass,Plain-word swap,,,,encompass,cover
+swap,multifaceted,Plain-word swap,,,,multifaceted,complex
+swap,nuanced,Plain-word swap,,,,nuanced,subtle
+swap,intricacies,Plain-word swap,,,,intricacies,details
+swap,intricate,Plain-word swap,,,,intricate,detailed
+swap,meticulously,Plain-word swap,,,,meticulously,carefully
+swap,meticulous,Plain-word swap,,,,meticulous,careful
+swap,unveils,Plain-word swap,,,,unveils,shows
+swap,unveiled,Plain-word swap,,,,unveiled,showed
+swap,unveiling,Plain-word swap,,,,unveiling,showing
+swap,unveil,Plain-word swap,,,,unveil,show
+swap,transformative,Plain-word swap,,,,transformative,big|major
+swap,imperative,Plain-word swap,,,,imperative,important|a must
+swap,indispensable,Plain-word swap,,,,indispensable,essential
+swap,invaluable,Plain-word swap,,,,invaluable,very useful
+swap,revolutionizes,Plain-word swap,,,,revolutioniz(?:es|ed|ing|e),change
+swap,commences,Plain-word swap,,,,commence(?:s|d)?,start
+swap,prior to,Plain-word swap,,,,prior to,before
+swap,subsequently,Plain-word swap,,,,subsequently,then|later
+swap,in the event that,Plain-word swap,,,,in the event that,if
+swap,with regard to,Plain-word swap,,,,(?:with regard to|pertaining to),about
+swap,regarding,Plain-word swap,,,,regarding,about
+swap,endeavours to,Plain-word swap,,,,endeavou?rs? to,try to
+swap,ascertain,Plain-word swap,,,,ascertain,find out
+swap,whilst,Plain-word swap,,,,whilst,while
+swap,amongst,Plain-word swap,,,,amongst,among
+swap,individuals,Plain-word swap,,,,individuals,people
+swap,approximately,Plain-word swap,,,,approximately,about
+swap,sufficient,Plain-word swap,,,,sufficient,enough
+swap,demonstrates,Plain-word swap,,,,demonstrates,shows
+swap,demonstrated,Plain-word swap,,,,demonstrated,showed
+swap,demonstrating,Plain-word swap,,,,demonstrating,showing
+swap,demonstrate,Plain-word swap,,,,demonstrate,show
+swap,obtains,Plain-word swap,,,,obtains,gets
+swap,obtained,Plain-word swap,,,,obtained,got
+swap,obtaining,Plain-word swap,,,,obtaining,getting
+swap,obtain,Plain-word swap,,,,obtain,get
+swap,assistance,Plain-word swap,,,,assistance,help
+swap,due to the fact that,Plain-word swap,,,,due to the fact that,because
+swap,in spite of the fact that,Plain-word swap,,,,in spite of the fact that,even though
+swap,is able to,Plain-word swap,,,,(?:is|are) able to,can
+swap,has the ability to,Plain-word swap,,,,has the ability to,can
+swap,at this point in time,Plain-word swap,,,,at this point in time,now
+swap,for the purpose of,Plain-word swap,,,,for the purpose of,to
+swap,in the near future,Plain-word swap,,,,in the near future,soon
+swap,the majority of,Plain-word swap,,,,the majority of,most
+swap,a number of,Plain-word swap,,,,a number of,several
+swap,"Thus,",Plain-word swap,,,,"(?:Thus|Hence|Therefore),\s*","So, |[delete]"
+swap,"Consequently,",Plain-word swap,,,,"Consequently,\s*","So, "
+swap,"Nevertheless,",Plain-word swap,,,,"Nevertheless,\s*","Still, "
+swap,"Nonetheless,",Plain-word swap,,,,"Nonetheless,\s*","Still, "
+swap,boast,Plain-word swap,,,,boast,have
+swap,boasts,Plain-word swap,,,,boasts,has
+swap,boasted,Plain-word swap,,,,boasted,had
+swap,boasting,Plain-word swap,,,,boasting,having
+swap,amplify,Plain-word swap,,,,amplify,boost
+swap,amplifies,Plain-word swap,,,,amplifies,boosts
+swap,amplified,Plain-word swap,,,,amplified,boosted
+swap,amplifying,Plain-word swap,,,,amplifying,boosting
+swap,enhance,Plain-word swap,,,,enhance,improve
+swap,enhances,Plain-word swap,,,,enhances,improves
+swap,enhanced,Plain-word swap,,,,enhanced,improved
+swap,enhancing,Plain-word swap,,,,enhancing,improving
+swap,catalyze,Plain-word swap,,,,catalyze,trigger
+swap,catalyzes,Plain-word swap,,,,catalyzes,triggers
+swap,catalyzed,Plain-word swap,,,,catalyzed,triggered
+swap,catalyzing,Plain-word swap,,,,catalyzing,triggering
+swap,harness the power of,Plain-word swap,,,,harness the power of,use
+swap,harnesses the power of,Plain-word swap,,,,harnesses the power of,uses
+swap,harnessing the power of,Plain-word swap,,,,harnessing the power of,using
+swap,navigates the complexities of,Plain-word swap,,,,navigates the complexities of,works through
+swap,navigated the complexities of,Plain-word swap,,,,navigated the complexities of,worked through
+swap,navigating the complexities of,Plain-word swap,,,,navigating the complexities of,working through|making sense of
+swap,shed light on,Plain-word swap,,,,shed light on,explain|clarify
+swap,sheds light on,Plain-word swap,,,,sheds light on,explains|clarifies
+swap,shedding light on,Plain-word swap,,,,shedding light on,explaining|clarifying
+swap,may potentially (stacked hedge),Hedge stacking,,,,(may|might|could|can) (?:potentially|possibly|perhaps),$1
+swap,potentially may (stacked hedge),Hedge stacking,,,,(?:potentially|possibly) (may|might|could),$1
+swap,not only X but also Y,Contrast template,,,,"not only (?!(?:does|do|did|is|are|was|were|can|will|would|could|has|have)\b)(.{3,70}?),? but (?:also )?\s*",$1 and
+swap,not just X but Y,Contrast template,,,,"not just (?!(?:does|do|did|is|are|was|were|can|will|would|could|has|have)\b)(.{3,70}?),? but (?:also )?\s*",$1 and
+swap,leverage,Plain-word swap (finance-safe),,,"Skipped in finance phrases such as financial leverage, leverage ratio, leveraged ETF.",(?<!financial )(?<!operating )(?<!high )(?<!degree of )leverage(?! ratios?| buyouts?| trading| ETFs?| loans?| funds?| positions?),use
+swap,leverages,Plain-word swap (finance-safe),,,"Skipped in finance phrases such as financial leverage, leverage ratio, leveraged ETF.",(?<!financial )(?<!operating )(?<!high )(?<!degree of )leverages(?! ratios?| buyouts?| trading| ETFs?| loans?| funds?| positions?),uses
+swap,leveraged,Plain-word swap (finance-safe),,,"Skipped in finance phrases such as financial leverage, leverage ratio, leveraged ETF.",(?<!financial )(?<!operating )(?<!high )(?<!degree of )leveraged(?! ratios?| buyouts?| trading| ETFs?| loans?| funds?| positions?),used
+swap,leveraging,Plain-word swap (finance-safe),,,"Skipped in finance phrases such as financial leverage, leverage ratio, leveraged ETF.",(?<!financial )(?<!operating )(?<!high )(?<!degree of )leveraging(?! ratios?| buyouts?| trading| ETFs?| loans?| funds?| positions?),using
