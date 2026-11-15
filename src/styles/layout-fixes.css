@@ -24,3 +24,18 @@
   .prose th, .prose td { min-width: 6.5rem; padding: 9px 11px; }
   .prose td:first-child, .prose th:first-child { min-width: 8.5rem; }
 }
+
+/* ---- Home: promo cards under Top stories fill the right column ---- */
+.top-promos { display: grid; gap: 14px; margin-top: 22px; }
+.promo { display: grid; gap: 6px; padding: 18px 20px; border-radius: 14px; text-decoration: none; color: #fff; }
+.promo strong { font-size: 1.12rem; line-height: 1.3; }
+.promo span { font-size: .92rem; line-height: 1.45; opacity: .94; }
+.promo .promo-tag { font-size: .74rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; opacity: .85; }
+.promo .promo-go { font-weight: 700; margin-top: 4px; opacity: 1; }
+.promo-audit { background: #2540f5; }
+.promo-app { background: #ff5a1f; }
+.promo:hover { filter: brightness(1.06); }
+@media (min-width: 901px) {
+  .lead-grid > .top-stories { align-self: stretch; }
+  .top-promos { position: sticky; top: 84px; }
+}

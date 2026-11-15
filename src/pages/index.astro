@@ -68,6 +68,20 @@ const home = [
             <h3><a href={utm(APPRANKR_POSTS[0].url, 'home-top')} rel="noopener">{APPRANKR_POSTS[0].title}</a></h3>
           </div>
         </div>
+        <div class="top-promos">
+          <a class="promo promo-audit" href={utm(tool.url, 'home-top-promo')} rel="noopener">
+            <span class="promo-tag">Free tool · {tool.name}</span>
+            <strong>Is your page ready for Google and AI answers?</strong>
+            <span>Get a ranked list of what to fix for SEO and AI-answer visibility.</span>
+            <span class="promo-go">Audit my page &rarr;</span>
+          </a>
+          <a class="promo promo-app" href={utm(appr.url, 'home-top-promo')} rel="noopener">
+            <span class="promo-tag">{appr.name} · App store rank tracking</span>
+            <strong>Know where your app ranks, every day</strong>
+            <span>Track keyword and store rankings, and audit your store listing.</span>
+            <span class="promo-go">Track my app &rarr;</span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
