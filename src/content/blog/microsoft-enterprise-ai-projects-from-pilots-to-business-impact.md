@@ -1,10 +1,9 @@
 ---
 title: "Microsoft’s Enterprise AI Projects: What It Takes to Move From Pilots to Business Impact"
-date: 2026-11-16T12:00:00+05:30
+date: 2026-11-17T12:00:00+05:30
 description: "Microsoft says it has worked on nearly 500 AI projects with more than 200 customers. The bigger lesson is how enterprises turn AI experiments into measurable business change."
 tag: "AI"
 tldr: "Microsoft says its Frontier Company has engaged in nearly 500 projects with over 200 customers across 28 countries. The important story is not the project count. It is the shift from AI demos to workflow redesign, measurable outcomes and repeatable deployment."
-draft: true
 sources:
   - title: "From AI ambition to business impact"
     url: "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/"

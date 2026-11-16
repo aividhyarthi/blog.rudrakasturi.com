@@ -1,10 +1,9 @@
 ---
 title: "Google Gemini Wallet Integration: What It Means for Personal Finance"
-date: 2026-11-16T17:00:00+05:30
+date: 2026-11-17T17:00:00+05:30
 description: "Google is connecting Wallet spending information to Gemini so US users can ask questions about budgets, recurring payments and spending patterns."
 tag: "AI"
 tldr: "Google announced on November 13, 2026 that Gemini users in the United States can connect Google Wallet for spending-aware personal finance responses. The integration is read-only: Gemini can analyse connected information, but Google says it cannot move, manage or invest money."
-draft: true
 sources:
   - title: "Connect Google Wallet to Gemini for personal finance insights"
     url: "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"

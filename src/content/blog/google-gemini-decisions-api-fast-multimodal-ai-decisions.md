@@ -1,10 +1,9 @@
 ---
 title: "Google Gemini Decisions API: A New Way to Make Fast Multimodal AI Decisions"
-date: 2026-11-16T18:00:00+05:30
+date: 2026-11-17T18:00:00+05:30
 description: "Google's Gemini Decisions API is designed for bounded choices such as classification, routing and policy checks, scoring up to 1,000 questions in one pass."
 tag: "AI"
 tldr: "Google introduced the Gemini Decisions API on November 11, 2026, powered by Gemini Decision 1. It evaluates up to 1,000 yes/no, multiple-choice or rubric questions against shared multimodal input, returning probabilities rather than generating long answers."
-draft: true
 sources:
   - title: "Gemini Decisions API: Fast, calibrated multimodal decisions"
     url: "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"

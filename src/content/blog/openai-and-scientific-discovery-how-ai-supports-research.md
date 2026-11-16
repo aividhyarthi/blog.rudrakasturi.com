@@ -1,10 +1,9 @@
 ---
 title: "OpenAI and Scientific Discovery: How AI Is Beginning to Support Research"
-date: 2026-11-16T19:00:00+05:30
+date: 2026-11-17T19:00:00+05:30
 description: "OpenAI's new science initiative and recent research examples show how AI can help scientists explore ideas, analyse evidence and develop proofs, while human verification remains essential."
 tag: "AI"
 tldr: "OpenAI's November 15 science update highlights research where GPT-6 Astra helped develop a detailed proof around a candidate lattice definition of the Standard Model, alongside a new science blog. The important distinction is between helping researchers explore and independently validating a scientific result."
-draft: true
 sources:
   - title: "OpenAI Science"
     url: "https://openai.com/news/science/"

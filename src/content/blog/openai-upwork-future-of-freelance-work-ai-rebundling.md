@@ -1,10 +1,9 @@
 ---
 title: "OpenAI and Upwork: How AI Is Changing the Future of Freelance Work"
-date: 2026-11-16T13:00:00+05:30
+date: 2026-11-17T13:00:00+05:30
 description: "New OpenAI and Upwork research suggests AI is changing the mix and scope of freelance projects, not simply replacing freelancers."
 tag: "AI"
 tldr: "OpenAI and Upwork's November 2026 research finds that AI-related freelance work is combining more kinds of tasks and attracting larger fixed-price budgets and more hours. The evidence points to changing skill bundles, not a simple story of AI replacing all freelancers."
-draft: true
 sources:
   - title: "Work at the Frontier: AI’s effect on freelance work"
     url: "https://openai.com/index/ai-effect-on-freelance-work/"

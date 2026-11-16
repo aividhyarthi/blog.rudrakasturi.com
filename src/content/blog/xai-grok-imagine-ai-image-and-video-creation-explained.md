@@ -1,10 +1,9 @@
 ---
 title: "xAI Grok Imagine: How AI Image and Video Creation Works"
-date: 2026-11-16T16:00:00+05:30
+date: 2026-11-17T16:00:00+05:30
 description: "Grok Imagine brings image generation, image editing and video creation into xAI's model and API ecosystem. Here is what creators and developers should know."
 tag: "AI"
 tldr: "Grok Imagine is xAI's image and video generation family. Its developer documentation describes image creation and editing with reference images, plus video generation from text or still images. The practical choice depends on output quality, control, duration, resolution and cost."
-draft: true
 sources:
   - title: "Image & Video Overview"
     url: "https://docs.x.ai/developers/model-capabilities/imagine"
