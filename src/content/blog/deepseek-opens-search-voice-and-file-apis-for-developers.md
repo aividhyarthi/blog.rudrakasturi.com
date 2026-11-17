@@ -1,10 +1,9 @@
 ---
 title: "DeepSeek Opens Search, Voice and File APIs: What Developers Can Now Build"
-date: 2026-11-16T14:00:00+05:30
+date: 2026-11-17T14:00:00+05:30
 description: "DeepSeek has exposed more of its app experience through developer APIs, including web search, file input, URL reading and standalone voice capabilities."
 tag: "AI"
 tldr: "DeepSeek's November 13 update brings web search, multi-step search, file parsing and URL reading into its developer APIs, with standalone Search, Fetch, OCR, speech recognition and text-to-speech capabilities. Developers can build richer assistants without recreating every tool themselves."
-draft: true
 sources:
   - title: "The full DeepSeek App experience, now via API"
     url: "https://api-docs.deepseek.com/news/news261113/"

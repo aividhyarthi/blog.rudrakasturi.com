@@ -1,10 +1,9 @@
 ---
 title: "Perplexity Decider: The AI Model Built for Classification and Structured Decisions"
-date: 2026-11-16T20:00:00+05:30
+date: 2026-11-17T20:00:00+05:30
 description: "Perplexity Decider v1.3 is a decision model for classification, routing, scoring and extraction. It is not a general chatbot that autonomously makes life decisions."
 tag: "AI"
 tldr: "Perplexity released Decider v1.3 and Decider Flash v1.3 on November 12, 2026. These models classify, score, route and rerank information by returning probabilities across defined options. The key idea is to use a specialised decision model when an application needs structured judgement rather than open-ended text generation."
-draft: true
 sources:
   - title: "Perplexity Decider v1.3: Training, eval, and use cases"
     url: "https://www.perplexity.ai/hub/blog/perplexity-decider"

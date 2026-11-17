@@ -1,10 +1,9 @@
 ---
 title: "Meta Muse: What Its Personal AI Agent Means for the Future of AI Assistants"
-date: 2026-11-16T15:00:00+05:30
+date: 2026-11-17T15:00:00+05:30
 description: "Meta's Muse is designed to move beyond answering questions and take actions across connected apps. Its secure virtual machine and permission model are central to the story."
 tag: "AI"
 tldr: "Meta introduced Muse in September 2026 as a personal AI agent that can plan and carry out tasks across connected apps. Its dedicated cloud computer, permission checks and audit trail address a central challenge for agents: how to give software the ability to act without giving it uncontrolled access."
-draft: true
 sources:
   - title: "Introducing Muse: The World’s First Personal AI Agent Built for Everyone"
     url: "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
