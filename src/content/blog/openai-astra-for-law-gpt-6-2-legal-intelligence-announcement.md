@@ -23,9 +23,7 @@ OpenAI says the configuration ranked first on Harvey's LAB-AA evaluation and per
 
 Harvey's Legal Agent Benchmark tests whether a model can complete legal assignments across areas such as deposition preparation, commercial lease review and acquisition strategy.
 
-OpenAI reports that Astra for Law earned full credit on 20.8% of 120 assignments in the LAB-AA evaluation, compared with 15.0% for GPT 6.2 Astra and 13.1% for the highest-scoring non-OpenAI model in that comparison.
-
-OpenAI also reports 0.03 material hallucinations per assignment for Astra for Law in the same evaluation, compared with 0.59 for Claude Opus 5.5.
+OpenAI says Astra for Law earned full credit on LAB-AA assignments nearly 40% more often than the runner-up, GPT 6.2 Astra. The company also reports 95% fewer hallucinations per assignment than Claude Opus 5.5.
 
 These are benchmark results reported by OpenAI and its evaluation partners. They are not proof that a model can replace a qualified lawyer or that it will perform equally well in every jurisdiction.
 
