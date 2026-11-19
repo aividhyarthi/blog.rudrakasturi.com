@@ -1,8 +1,10 @@
 import { getAllPosts, getTopics } from '../lib/posts';
+import { totalArchivePages } from '../lib/markdown-export';
 
 export async function GET() {
   const posts = await getAllPosts();
   const topics = getTopics(posts);
+  const archivePages = totalArchivePages(posts.length);
   const lines = [
     '# Rudra Kasturi',
     '',
@@ -19,7 +21,8 @@ export async function GET() {
     '- [Research](https://blog.rudrakasturi.com/research/)',
     '- [Work with me](https://blog.rudrakasturi.com/work-with-me/)',
     '- [RSS feed](https://blog.rudrakasturi.com/rss.xml)',
-    '- [Full article corpus](https://blog.rudrakasturi.com/llms-full.txt)',
+    '- [Recent articles, last 7 days](https://blog.rudrakasturi.com/llms-full.txt)',
+    `- Full article archive, paginated: https://blog.rudrakasturi.com/llms-full-1.txt through llms-full-${archivePages}.txt`,
     '',
     '## Topic collections',
     '',
