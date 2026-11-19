@@ -28,7 +28,7 @@ server {
   # Astro's static build drops the Content-Type set in [slug].md.ts, so nginx
   # falls back to application/octet-stream for .md files. Force the right type
   # so AI crawlers (ChatGPT, Claude, etc.) read them as markdown, not binaries.
-  location ~ \.md$ { default_type text/markdown; add_header Content-Type "text/markdown; charset=utf-8" always; }
+  location ~ \.md$ { default_type "text/markdown; charset=utf-8"; }
 
   location / { try_files $uri $uri/ =404; }
   error_page 404 /404.html;
