@@ -104,6 +104,10 @@ On the claim that AI answers have ended SEO, see [what the evidence supports and
 - [Calculator or online tool page](/how-to-get-a-calculator-or-online-tool-page-found-in-ai-search-a-four-part-page-plan/)
 - [Product pages and merchant listings](/product-data-for-ai-shopping-and-google-merchant-listings-a-four-point-scorecard/)
 - [Video watch pages](/video-structured-data-and-key-moments-a-five-step-guide-for-watch-pages/)
+- [YouTube videos](/how-to-rank-your-youtube-videos-in-google-ai-mode-and-ai-overviews/)
+- [Instagram Reels](/how-to-rank-your-instagram-reels-in-google-ai-mode-and-ai-overviews/)
+- [Posts on X](/how-to-rank-your-tweets-on-x-in-google-ai-mode-and-ai-overviews/)
+- [Threads posts](/how-to-rank-your-threads-posts-in-google-ai-mode-and-ai-overviews/)
 
 ## Data worth knowing
 

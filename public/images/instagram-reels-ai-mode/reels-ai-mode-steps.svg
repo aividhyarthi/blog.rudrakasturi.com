@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 932" role="img" aria-label="Four steps to help an Instagram Reel get picked up in Google AI Mode and AI Overviews: a public professional account, a caption that answers a question, on-screen text and spoken audio, and checking Search Console"><rect width="800" height="932" rx="24" fill="#fff1f6"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="32" font-weight="800" fill="#2b0b1f">Instagram Reels in AI Mode</text>
+<text x="40" y="108" font-size="22" fill="#7a4a60">What is in your control</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#d6336c"/>
+<text x="70" y="190" font-size="27" font-weight="800" fill="#fff">1. Public, professional account</text>
+<text x="70" y="232" font-size="22" fill="#ffe3ec">Search engine visibility must be on;</text>
+<text x="70" y="264" font-size="22" fill="#ffe3ec">personal accounts are not indexed</text>
+<path d="M400 298 v24" stroke="#ae2b63" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#ae2b63"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#ae2b63"/>
+<text x="70" y="400" font-size="27" font-weight="800" fill="#fff">2. Caption that answers one question</text>
+<text x="70" y="442" font-size="22" fill="#f6dfe9">Write the caption like a search query,</text>
+<text x="70" y="474" font-size="22" fill="#f6dfe9">not like a mood</text>
+<path d="M400 508 v24" stroke="#7a1f49" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#7a1f49"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#7a1f49"/>
+<text x="70" y="610" font-size="27" font-weight="800" fill="#fff">3. On-screen text + spoken audio</text>
+<text x="70" y="652" font-size="22" fill="#fbe3ee">Say and show the answer; both get</text>
+<text x="70" y="684" font-size="22" fill="#fbe3ee">read by ranking systems</text>
+<path d="M400 718 v24" stroke="#4a1030" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#4a1030"/>
+<rect x="40" y="770" width="720" height="122" rx="18" fill="#4a1030"/>
+<text x="70" y="820" font-size="27" font-weight="800" fill="#fff">4. Confirm in Search Console</text>
+<text x="70" y="862" font-size="22" fill="#f6dfe9">Check the exact Reel URL is indexed</text>
+</g></svg>
