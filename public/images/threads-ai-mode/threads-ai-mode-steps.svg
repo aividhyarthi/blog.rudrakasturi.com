@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 932" role="img" aria-label="Four steps for a Threads post to be findable in Google AI Mode and AI Overviews: keep the post public, open with the claim, avoid relying on disappearing posts, check Google Discover and search indexing"><rect width="800" height="932" rx="24" fill="#f2f0ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="32" font-weight="800" fill="#190b30">Threads in AI Mode</text>
+<text x="40" y="108" font-size="22" fill="#5a4a80">Google has been indexing Threads since launch</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#5b2bd6"/>
+<text x="70" y="190" font-size="27" font-weight="800" fill="#fff">1. Keep the post public</text>
+<text x="70" y="232" font-size="22" fill="#ece3ff">Only public posts have ever been</text>
+<text x="70" y="264" font-size="22" fill="#ece3ff">reported as showing up in Google</text>
+<path d="M400 298 v24" stroke="#3d1f94" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#3d1f94"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#3d1f94"/>
+<text x="70" y="400" font-size="27" font-weight="800" fill="#fff">2. Open with the claim, not a hook</text>
+<text x="70" y="442" font-size="22" fill="#e3daff">State the fact in the first line so</text>
+<text x="70" y="474" font-size="22" fill="#e3daff">it can be lifted on its own</text>
+<path d="M400 508 v24" stroke="#241063" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#241063"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#241063"/>
+<text x="70" y="610" font-size="27" font-weight="800" fill="#fff">3. Don't rely on disappearing posts</text>
+<text x="70" y="652" font-size="22" fill="#e3daff">24-hour posts have leaked into search</text>
+<text x="70" y="684" font-size="22" fill="#e3daff">before, inconsistently and briefly</text>
+<path d="M400 718 v24" stroke="#140833" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#140833"/>
+<rect x="40" y="770" width="720" height="122" rx="18" fill="#140833"/>
+<text x="70" y="820" font-size="27" font-weight="800" fill="#fff">4. Check Discover and search directly</text>
+<text x="70" y="862" font-size="22" fill="#e3daff">Search your own exact phrase on Google</text>
+</g></svg>

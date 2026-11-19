@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 932" role="img" aria-label="Four steps to help a YouTube video get picked up in Google AI Mode and AI Overviews: a clear answer in the first lines, accurate captions, chapters that match search intent, and checking Search Console video indexing">
+<rect width="800" height="932" rx="24" fill="#f1f4ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="34" font-weight="800" fill="#0b1030">YouTube in AI Mode / AI Overviews</text>
+<text x="40" y="108" font-size="22" fill="#4a5280">What to fix on the video itself</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#2340f5"/>
+<text x="70" y="190" font-size="28" font-weight="800" fill="#fff">1. Answer in the first 15 seconds</text>
+<text x="70" y="232" font-size="23" fill="#e3e8ff">Say the direct answer out loud early,</text>
+<text x="70" y="264" font-size="23" fill="#e3e8ff">then explain. AI tools clip the opening.</text>
+<path d="M400 298 v24" stroke="#7a3cff" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#7a3cff"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#7a3cff"/>
+<text x="70" y="400" font-size="28" font-weight="800" fill="#fff">2. Accurate captions, not auto-only</text>
+<text x="70" y="442" font-size="23" fill="#ece1ff">Upload or correct a transcript so the</text>
+<text x="70" y="474" font-size="23" fill="#ece1ff">words match what is actually said</text>
+<path d="M400 508 v24" stroke="#ff5a1f" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#ff5a1f"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#ff5a1f"/>
+<text x="70" y="610" font-size="28" font-weight="800" fill="#fff">3. Chapters that match search intent</text>
+<text x="70" y="652" font-size="23" fill="#ffffff">Name chapters the way people type</text>
+<text x="70" y="684" font-size="23" fill="#ffffff">queries, not like a diary entry</text>
+<path d="M400 718 v24" stroke="#0b8f6a" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#0b8f6a"/>
+<rect x="40" y="770" width="720" height="122" rx="18" fill="#0b8f6a"/>
+<text x="70" y="820" font-size="28" font-weight="800" fill="#fff">4. Check Search Console + VideoObject</text>
+<text x="70" y="862" font-size="23" fill="#e8fff6">Confirm the video is indexed and marked up</text>
+</g></svg>

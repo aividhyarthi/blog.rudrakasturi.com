@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 932" role="img" aria-label="Four steps for a post on X to be findable in Google AI Mode and AI Overviews: a public account, engagement early, a self-contained claim, and checking indexing with site colon search"><rect width="800" height="932" rx="24" fill="#eef7ff"/>
+<g font-family="Archivo, Arial, Helvetica, sans-serif">
+<text x="40" y="70" font-size="32" font-weight="800" fill="#0b1a30">X posts in AI Mode</text>
+<text x="40" y="108" font-size="22" fill="#45607a">Post-level indexing is inconsistent</text>
+<rect x="40" y="140" width="720" height="154" rx="18" fill="#0f6fde"/>
+<text x="70" y="190" font-size="27" font-weight="800" fill="#fff">1. Keep the account public</text>
+<text x="70" y="232" font-size="22" fill="#dcefff">Protected or logged-out-blocked</text>
+<text x="70" y="264" font-size="22" fill="#dcefff">accounts cannot be indexed at all</text>
+<path d="M400 298 v24" stroke="#0a4a94" stroke-width="8" stroke-linecap="round"/><path d="M380 316 l20 24 l20 -24z" fill="#0a4a94"/>
+<rect x="40" y="350" width="720" height="154" rx="18" fill="#0a4a94"/>
+<text x="70" y="400" font-size="27" font-weight="800" fill="#fff">2. Earn engagement in the first week</text>
+<text x="70" y="442" font-size="22" fill="#cfe4ff">Posts with zero likes after 7 days</text>
+<text x="70" y="474" font-size="22" fill="#cfe4ff">can drop out of X's own search</text>
+<path d="M400 508 v24" stroke="#063266" stroke-width="8" stroke-linecap="round"/><path d="M380 526 l20 24 l20 -24z" fill="#063266"/>
+<rect x="40" y="560" width="720" height="154" rx="18" fill="#063266"/>
+<text x="70" y="610" font-size="27" font-weight="800" fill="#fff">3. Make the post self-contained</text>
+<text x="70" y="652" font-size="22" fill="#cfe4ff">One claim in plain words, not a</text>
+<text x="70" y="684" font-size="22" fill="#cfe4ff">reply that needs the thread above it</text>
+<path d="M400 718 v24" stroke="#031d3d" stroke-width="8" stroke-linecap="round"/><path d="M380 736 l20 24 l20 -24z" fill="#031d3d"/>
+<rect x="40" y="770" width="720" height="122" rx="18" fill="#031d3d"/>
+<text x="70" y="820" font-size="27" font-weight="800" fill="#fff">4. Check with site:x.com</text>
+<text x="70" y="862" font-size="22" fill="#cfe4ff">Confirm the exact post URL is indexed</text>
+</g></svg>
