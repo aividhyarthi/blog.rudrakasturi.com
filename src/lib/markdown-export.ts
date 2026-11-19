@@ -1,5 +1,13 @@
 import type { Post } from './posts';
 
+// Keeps each paginated archive file comfortably small (well under 1MB) so it
+// stays reliably fetchable by AI crawlers that cap how much they'll read in one request.
+export const FULL_ARCHIVE_PAGE_SIZE = 60;
+
+export function totalArchivePages(postCount: number): number {
+  return Math.max(1, Math.ceil(postCount / FULL_ARCHIVE_PAGE_SIZE));
+}
+
 const yaml = (value: unknown): string => {
   if (value === undefined || value === null) return 'null';
   return JSON.stringify(value);
