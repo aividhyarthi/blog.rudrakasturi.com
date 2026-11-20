@@ -1,6 +1,6 @@
 ---
 title: "How Does Perplexity Decide Which Sources to Cite?"
-date: 2026-11-20T14:15:00+05:30
+date: 2026-11-20T14:35:00+05:30
 description: "Understand Perplexity's publicly described search process, why sources may be selected and how publishers can test citation visibility without relying on myths."
 categories: ["SEO", "AEO", "Generative AI"]
 tags: ["Perplexity", "AI Search", "Citations", "GEO", "Content Strategy"]
