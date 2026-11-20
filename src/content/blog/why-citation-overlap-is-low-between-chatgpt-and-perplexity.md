@@ -1,6 +1,6 @@
 ---
 title: "Why Is Citation Overlap So Low Between ChatGPT and Perplexity?"
-date: 2026-11-20T08:00:00+05:30
+date: 2026-11-20T13:15:00+05:30
 description: "Why do ChatGPT and Perplexity cite different websites for the same question? Understand citation overlap, how to measure it and what SEO teams can learn from the differences."
 categories: ["SEO", "AEO", "Generative AI"]
 tags: ["ChatGPT", "Perplexity", "AI Search", "Citations", "GEO"]

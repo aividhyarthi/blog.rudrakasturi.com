@@ -1,6 +1,6 @@
 ---
 title: "How to Test the Crawlability of JavaScript Websites"
-date: 2026-11-20T08:15:00+05:30
+date: 2026-11-20T14:45:00+05:30
 description: "A practical guide to checking initial HTML, rendered content, internal links, HTTP status codes and Google Search Console for JavaScript-powered websites."
 categories: ["Technical SEO", "SEO", "Web Development"]
 tags: ["JavaScript SEO", "Crawlability", "Googlebot", "Rendering", "Technical SEO"]

@@ -1,6 +1,6 @@
 ---
 title: "How to Recover From Negative PR in AI Search Summaries"
-date: 2026-11-20T08:20:00+05:30
+date: 2026-11-20T15:15:00+05:30
 description: "A practical guide to checking negative AI search summaries, correcting factual errors at their source, publishing verifiable updates and monitoring brand reputation."
 categories: ["SEO", "AEO", "Online Reputation Management"]
 tags: ["AI Search", "Online Reputation", "ChatGPT", "Perplexity", "Google AI Overviews"]
