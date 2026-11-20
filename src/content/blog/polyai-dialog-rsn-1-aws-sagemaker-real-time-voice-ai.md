@@ -1,6 +1,6 @@
 ---
 title: "PolyAI Brings Its Real-Time Voice Reasoning Model to AWS SageMaker"
-date: 2026-11-20T08:50:00+05:30
+date: 2026-11-20T10:15:00+05:30
 description: "PolyAI Dialog-RSN-1 is now available through AWS Marketplace and SageMaker JumpStart, allowing businesses to deploy a real-time voice reasoning model inside their own AWS environment."
 categories: ["Artificial Intelligence", "Voice AI", "AWS", "Enterprise Technology"]
 tags: ["PolyAI", "Dialog-RSN-1", "AWS SageMaker", "Voice Agents", "Conversational AI"]

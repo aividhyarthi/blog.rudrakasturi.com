@@ -1,6 +1,6 @@
 ---
 title: "Anthropic's Nasdaq Debut Puts the Economics of Frontier AI in the Spotlight"
-date: 2026-11-20T08:10:00+05:30
+date: 2026-11-20T08:15:00+05:30
 description: "Anthropic began trading on Nasdaq on November 19, with its first session briefly implying a valuation near $2 trillion. The listing puts AI growth, compute costs and profitability under public market scrutiny."
 categories: ["Artificial Intelligence", "Business", "Technology"]
 tags: ["Anthropic IPO", "AI Industry", "AI Valuation", "Nasdaq", "AI Business"]

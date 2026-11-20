@@ -1,6 +1,6 @@
 ---
 title: "Google Opens Genie 4 to Developers Through the Gemini API"
-date: 2026-11-20T08:00:00+05:30
+date: 2026-11-20T07:45:00+05:30
 description: "Google has made Genie 4 available through the Gemini API and AI Studio, letting developers generate interactive 720p worlds with native audio and real-time controls."
 categories: ["Artificial Intelligence", "Google", "Developer Tools"]
 tags: ["Google Genie 4", "Gemini API", "World Models", "Generative AI"]

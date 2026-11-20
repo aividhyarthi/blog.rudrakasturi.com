@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT Health Expands to Android With Health Connect Support"
-date: 2026-11-20T08:40:00+05:30
+date: 2026-11-20T09:45:00+05:30
 description: "OpenAI is expanding ChatGPT Health to Android, desktop, dots and sites, with Android Health Connect support. Availability remains limited by country and rollout."
 categories: ["Artificial Intelligence", "OpenAI", "Health Technology"]
 tags: ["ChatGPT Health", "Health Connect", "OpenAI", "Digital Health", "Android"]

@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Discover Comes to India: A New Content Discovery Surface for Publishers"
-date: 2026-11-20T09:30:00+05:30
+date: 2026-11-20T12:15:00+05:30
 description: "Microsoft is highlighting Discover as a premium AI-curated feed in its November advertising update. Here is what publishers and SEO teams should verify before treating it as a new traffic channel in India."
 categories: ["SEO", "Digital Publishing", "AI Search", "Microsoft"]
 tags: ["Microsoft Discover", "Content Discovery", "Publisher SEO", "AI Curation", "India"]

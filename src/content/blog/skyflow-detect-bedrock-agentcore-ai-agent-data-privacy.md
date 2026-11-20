@@ -1,6 +1,6 @@
 ---
 title: "AWS and Skyflow Add a Privacy Layer to AI Agent Tool Calls"
-date: 2026-11-20T09:00:00+05:30
+date: 2026-11-20T10:45:00+05:30
 description: "Skyflow Detect can intercept Amazon Bedrock AgentCore Gateway requests and responses, de-identify sensitive information before tools and models receive it, and restore authorised data when needed."
 categories: ["Artificial Intelligence", "Cybersecurity", "AWS", "Enterprise Technology"]
 tags: ["Skyflow", "Amazon Bedrock AgentCore", "AI Agent Security", "Data Privacy", "Enterprise AI"]

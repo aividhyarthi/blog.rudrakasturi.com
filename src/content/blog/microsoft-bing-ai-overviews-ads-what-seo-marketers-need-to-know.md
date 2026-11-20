@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Brings Ads to Bing AI Overviews: What SEO and Search Marketers Need to Know"
-date: 2026-11-20T09:20:00+05:30
+date: 2026-11-20T11:45:00+05:30
 description: "Microsoft says ads can now appear alongside AI-generated answers in Bing AI Overviews across markets except China. Here is what changes for search advertisers, publishers and organic visibility."
 categories: ["SEO", "AEO", "Search Marketing", "Microsoft"]
 tags: ["Bing AI Overviews", "AI Search Ads", "AEO", "SEO", "Microsoft Advertising"]

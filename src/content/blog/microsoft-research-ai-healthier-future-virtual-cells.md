@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Researchers Explore How AI Could Change Medicine and Drug Discovery"
-date: 2026-11-20T09:10:00+05:30
+date: 2026-11-20T11:15:00+05:30
 description: "Microsoft Research experts and physician-scientist Eric Topol discuss AI-assisted diagnosis, whole-patient models, virtual cells and the need for better biological data and clinical validation."
 categories: ["Artificial Intelligence", "Healthcare", "Research", "Science"]
 tags: ["AI in Healthcare", "Microsoft Research", "Virtual Cells", "Drug Discovery", "Medical AI"]

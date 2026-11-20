@@ -1,6 +1,6 @@
 ---
 title: "Alibaba Reports 64% Growth in External AI Cloud Revenue"
-date: 2026-11-20T08:20:00+05:30
+date: 2026-11-20T08:45:00+05:30
 description: "Alibaba says external customer revenue from AI Cloud and Compute Services grew 64% year over year, while AI product revenue recorded triple digit growth for the thirteenth consecutive quarter."
 categories: ["Artificial Intelligence", "Business", "Cloud Computing"]
 tags: ["Alibaba Cloud", "AI Revenue", "Cloud Computing", "AI Monetization", "China AI"]

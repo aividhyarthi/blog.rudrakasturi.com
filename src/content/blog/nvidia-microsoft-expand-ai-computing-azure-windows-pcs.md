@@ -1,6 +1,6 @@
 ---
 title: "NVIDIA and Microsoft Expand AI Computing Across Azure and Windows PCs"
-date: 2026-11-20T08:30:00+05:30
+date: 2026-11-20T09:15:00+05:30
 description: "NVIDIA and Microsoft are extending their AI partnership across Azure infrastructure, open model customization, enterprise agents and local AI computing."
 categories: ["Artificial Intelligence", "Enterprise Technology", "Microsoft", "NVIDIA"]
 tags: ["NVIDIA", "Microsoft Azure", "Vera Rubin", "Enterprise AI", "Edge AI"]

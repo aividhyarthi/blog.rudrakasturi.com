@@ -1,6 +1,6 @@
 ---
 title: "Microsoft AI Max Adds URL Inclusion Controls: Why Landing Page Strategy Matters"
-date: 2026-11-20T09:40:00+05:30
+date: 2026-11-20T12:45:00+05:30
 description: "Microsoft is rolling out URL inclusion controls for AI Max campaigns, letting advertisers guide which website pages can be used as landing destinations and as input for ad text and search matching."
 categories: ["SEO", "Paid Search", "AEO", "Microsoft Advertising"]
 tags: ["Microsoft AI Max", "URL Inclusions", "Landing Page SEO", "Search Advertising", "AI Search"]
