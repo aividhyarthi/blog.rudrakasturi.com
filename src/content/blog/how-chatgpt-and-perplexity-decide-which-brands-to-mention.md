@@ -1,6 +1,6 @@
 ---
 title: "How Do ChatGPT and Perplexity Decide Which Brands to Mention?"
-date: 2026-11-20T13:45:00+05:30
+date: 2026-11-20T14:05:00+05:30
 description: "Why does one brand appear in an AI recommendation while another is missing? Explore brand discoverability, product information, third-party sources and a practical AI visibility test."
 categories: ["SEO", "AEO", "Generative AI"]
 tags: ["ChatGPT", "Perplexity", "Brand Visibility", "AI Search", "GEO"]
