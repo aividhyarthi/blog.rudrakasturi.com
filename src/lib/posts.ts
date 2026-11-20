@@ -2,11 +2,16 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Post = CollectionEntry<'blog'>;
 
+// Frozen once per build process, not re-read on every call. A single `astro build` generates thousands
+// of routes (pages, cover SVGs, cover PNGs) over tens of seconds; if each route independently called
+// Date.now(), a post whose publish time fell inside that window could pass the cutoff for some routes
+// (built later) and fail it for others (built earlier), leaving a page live with a 404 cover image.
+const BUILD_TIME = Date.now();
+
 // All published posts, newest first. A post dated in the future stays hidden until a build runs after that time
 // (the "Publish scheduled posts" workflow triggers that build).
 export async function getAllPosts(): Promise<Post[]> {
-  const now = Date.now();
-  const posts = await getCollection('blog', ({ data }) => !data.draft && data.date.valueOf() <= now);
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.date.valueOf() <= BUILD_TIME);
   return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
