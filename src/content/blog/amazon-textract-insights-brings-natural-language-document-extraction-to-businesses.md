@@ -10,7 +10,7 @@ draft: true
 tldr: "Amazon Textract Insights is a new generally available Amazon Textract API feature. Instead of defining every field through a fixed extraction template, a business can describe the information it wants in natural language and submit a document or a mixed packet. AWS says the output includes structured answers with confidence and page-level grounding. It can reduce integration effort, but teams still need validation, privacy controls and human review for high-impact decisions."
 sources:
   - title: "Announcing Amazon Textract Insights: Verifiable generative AI for documents"
-    url: "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/"
+    url: "https://aws.amazon.com.cdn.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/"
     publisher: "Amazon Web Services"
     reviewed: "2026-11-21"
 ---
