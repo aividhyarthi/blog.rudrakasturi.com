@@ -1,6 +1,6 @@
 ---
 title: "AWS Wants Publishers to Monetize AI Crawlers. What Should Publishers Build First?"
-date: 2026-11-21T09:10:00+05:30
+date: 2026-11-21T09:32:00+05:30
 description: "AWS has outlined a publisher AI monetization architecture using bot observation, access controls, licensing and payments. We separate the available tools from the strategy publishers still need to validate."
 tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
