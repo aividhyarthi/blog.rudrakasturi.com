@@ -1,6 +1,6 @@
 ---
 title: "Google Search Adds a Collapsible Sidebar to Bring Recent AI Mode Searches Back"
-date: 2026-11-21T08:40:00+05:30
+date: 2026-11-21T09:02:00+05:30
 description: "Google is rolling out a collapsible sidebar on its desktop homepage so people can revisit recent AI searches and continue earlier threads. What it means for search journeys and publishers."
 tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
