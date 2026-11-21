@@ -1,6 +1,6 @@
 ---
 title: "Inkling 2 Mini: A 26 Billion Parameter Open Model With a One Million Token Context"
-date: 2026-11-21T08:10:00+05:30
+date: 2026-11-21T08:32:00+05:30
 description: "Thinking Machines Lab has released Inkling 2 Mini under Apache 2.0. We explain its looped transformer design, active parameters, multimodal inputs and what developers should test before deployment."
 tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
