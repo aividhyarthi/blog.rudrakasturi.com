@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "AWS published a reference approach for publishers seeking to observe, control and monetize AI agent traffic using CloudFront, AWS WAF, content licensing standards and marketplace distribution. The article is AWS's commercial and technical point of view, not an industry-wide standard or proof that every AI crawler will pay. Publishers should first measure bot traffic, define licensing rights and model the economics before adding payment gates."
 sources:
   - title: "How publishers can prepare their content for AI monetization on AWS"

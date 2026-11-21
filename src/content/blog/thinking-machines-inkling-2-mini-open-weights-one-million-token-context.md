@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "Thinking Machines Lab released Inkling 2 Mini on November 20, 2026, with open weights under Apache 2.0. Its model card lists 26.4 billion total parameters, 3.4 billion active parameters before accounting for repeated loop passes, text and image inputs, and a context window of up to one million tokens. The release makes experimentation easier, but the phrase laptop-sized should not be read as a guarantee that every laptop can run it comfortably."
 sources:
   - title: "Inkling 2 Mini Model Card"

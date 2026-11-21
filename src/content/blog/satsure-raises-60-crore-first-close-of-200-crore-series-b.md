@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "SatSure announced a ₹60 crore investment from the Antariksh Venture Capital Fund as the first close of its ₹200 crore Series B. The fund is anchored by IN-SPACe and managed by SIDBI Venture Capital. The ₹200 crore figure is the wider round target, not the amount already received in this first close."
 sources:
   - title: "Antariksh Venture Capital Fund Leads SatSure’s ₹200 Crore Series B with ₹60 Crore"

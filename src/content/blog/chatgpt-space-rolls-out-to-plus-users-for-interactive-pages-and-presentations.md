@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "OpenAI says ChatGPT Space began rolling out globally to Plus users aged 18 and older on November 20, 2026. It lets users create interactive pages and presentations, invite eligible collaborators and set some content to update from connected apps and tools. Space replaces Library. Free users cannot open shared Space pages, and public links are not available."
 sources:
   - title: "ChatGPT release notes"

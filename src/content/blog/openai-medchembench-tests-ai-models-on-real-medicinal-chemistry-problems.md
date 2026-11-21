@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "OpenAI introduced MedChemBench, a benchmark built from 99 problems drawn from 117 papers and patents, covering 761 molecular structures. At the xhigh reasoning setting, GPT-6.2 Astra earned 84.5% of the available credit. The benchmark measures selected reasoning tasks in medicinal chemistry. It does not establish that AI can independently discover medicines, replace laboratory experiments or make clinical decisions."
 sources:
   - title: "Can AI help scientists identify promising drug candidates?"

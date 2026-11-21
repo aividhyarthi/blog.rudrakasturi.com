@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "Google announced new Connected Apps in Search and Gemini on November 20, 2026. US users can connect grocery services including Albertsons, Safeway, Shaw's and Target, while Experian and H&R Block add finance and tax tasks to Search. Angi and Thumbtack integrations are planned for the coming weeks. The announcement is US-focused and should not be presented as an India rollout."
 sources:
   - title: "Get your year-end tasks done with new Connected Apps"

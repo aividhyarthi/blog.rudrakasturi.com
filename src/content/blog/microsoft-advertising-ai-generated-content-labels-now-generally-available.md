@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "Microsoft Advertising says its AI content transparency controls are now generally available. Advertisers can declare whether supported image and video assets include AI-generated content, choose visible labels or watermarks where supported, and manage declarations at scale. These are advertising asset controls. They are not an organic search ranking signal and do not mean Microsoft automatically labels every AI-generated asset."
 sources:
   - title: "What's new in Microsoft Advertising this November"

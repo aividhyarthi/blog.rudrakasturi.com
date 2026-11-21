@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "Google says it is globally rolling out a collapsible sidebar on its desktop homepage. The sidebar helps users return to recent AI searches and continue exploring a topic. This is a search interface and discovery change, not a confirmed ranking update. Publishers should watch whether longer, multi-step search journeys change how people discover and revisit sources."
 sources:
   - title: "Google rolling out a “collapsible sidebar” for Google Search"

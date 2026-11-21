@@ -6,7 +6,6 @@ tag: "ai"
 categories: ["AI","Technology","SEO","AEO"]
 tags: ["AI","Artificial Intelligence","Rudra Kasturi"]
 type: "article"
-draft: true
 tldr: "At its November 2026 Open Source AI for Science Summit, Meta announced UMA Nitro, a faster version of its Universal Model for Atoms, and an expansion of the Digital Brain Project's target from 15,000 to 25,000 hours of de-identified brain data. These are research infrastructure developments, not proof that AI has solved drug discovery or neuroscience."
 sources:
   - title: "Advancing Science Together: Highlights From the Open Source AI For Science Summit"
