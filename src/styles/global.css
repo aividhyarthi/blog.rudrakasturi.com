@@ -411,6 +411,16 @@ mark { background: linear-gradient(transparent 58%, var(--mint) 58%); color: inh
 .lead h2 a:hover { color: var(--cobalt); }
 .lead-desc { font-size: 1.15rem; max-width: 40em; }
 .rail-title { font-size: 1.1rem; padding-bottom: 10px; border-bottom: 3px solid var(--ink); margin-bottom: 4px; }
+/* CSS-only tabs: no JS needed, so both panels are plain HTML and fully crawlable by search/AI bots. */
+.home-tab-input { position: absolute; opacity: 0; pointer-events: none; }
+.home-tab-bar { display: flex; gap: 4px; border-bottom: 3px solid var(--ink); margin-bottom: 4px; }
+.home-tab-label { font-size: 1.1rem; font-weight: 700; padding: 0 2px 10px; cursor: pointer; color: var(--soft); border-bottom: 3px solid transparent; margin-bottom: -3px; }
+.home-tab-label:hover { color: var(--ink); }
+.home-tab-panel { display: none; }
+#tab-latest:checked ~ .home-tab-bar label[for="tab-latest"],
+#tab-top:checked ~ .home-tab-bar label[for="tab-top"] { color: var(--ink); border-bottom-color: var(--cobalt); }
+#tab-latest:checked ~ #panel-latest, #tab-top:checked ~ #panel-top { display: block; }
+@media (max-width: 480px) { .home-tab-label { font-size: 1rem; } }
 .top-row { display: grid; grid-template-columns: 112px 1fr; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); --c: var(--cobalt); }
 .top-row.c1 { --c: var(--orange); } .top-row.c2 { --c: var(--green); } .top-row.c3 { --c: var(--violet); }
 .top-thumb img { width: 100%; height: auto; aspect-ratio: 1200 / 630; object-fit: cover; border-radius: 8px; }

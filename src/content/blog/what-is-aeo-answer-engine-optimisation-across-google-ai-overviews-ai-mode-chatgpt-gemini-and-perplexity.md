@@ -211,6 +211,6 @@ AI answers vary by person and by day. Treat one run as a sample, not a ranking.
 5. Run the scorecard across ChatGPT, AI Mode, Gemini, Copilot and Perplexity, and repeat monthly.
 6. Skip the tactics in the skip table. See [four AEO myths checked](/four-aeo-and-geo-myths-checked-against-googles-guide-and-what-to-do-instead/).
 
-Want a quick technical read on your own site? Try our [website AEO analyzer](/your-website-aeo-analyzer/). The full map is in the [AEO and GEO playbook](/the-aeo-and-geo-playbook-technology-content-schema-writing-style-and-myths/).
+The full map is in the [AEO and GEO playbook](/the-aeo-and-geo-playbook-technology-content-schema-writing-style-and-myths/).
 
 The goal: when someone searches, asks Google, talks to ChatGPT or consults Gemini, your brand has a chance of being found, recommended and trusted.
