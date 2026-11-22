@@ -1,6 +1,6 @@
 ---
 title: "Signal Is Blocking AI Agents From Reading Private Chats. The Privacy Problem Goes Beyond Screenshots"
-date: 2026-11-22T11:00:00+05:30
+date: 2026-11-22T11:20:00+05:30
 description: "Reuters reports that Signal is restricting screenshots to stop AI agents from accessing private chats. The move exposes a larger question for phone makers: who controls what an AI assistant can see on a user's screen?"
 tag: "ai"
 categories: ["AI","Technology","Privacy","Cybersecurity"]
