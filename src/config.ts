@@ -40,8 +40,8 @@ export const NEWSLETTER = {
   enabled: true,
   provider: 'formsubmit' as 'formsubmit' | 'substack' | 'buttondown' | 'self',
   id: '',
-  title: 'Subscribe to Rudra Kasturi',
-  blurb: 'A weekly briefing on what is changing in SEO, AEO and AI search, and what to do about it.',
+  title: 'Get the weekly SEO & AI search briefing',
+  blurb: "Every week: what changed in Google, AEO and AI search, and exactly what to do about it. No fluff, unsubscribe anytime.",
 };
 export function newsletterConfig(): { mode: 'ajax' | 'post'; action: string } {
   if (NEWSLETTER.id && NEWSLETTER.provider === 'substack') return { mode: 'post', action: `https://${NEWSLETTER.id}.substack.com/api/v1/free?nojs=true` };

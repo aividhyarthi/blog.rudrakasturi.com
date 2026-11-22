@@ -18,7 +18,7 @@ const { mode, action } = newsletterConfig();
         <input type="hidden" name="source" value={Astro.url.pathname} />
       </>
     )}
-    <button class="btn btn-mint" type="submit">Subscribe</button>
+    <button class="btn btn-mint" type="submit">Subscribe free</button>
   </form>
   <p class="subscribe-status" role="status" aria-live="polite"></p>
   <p class="subscribe-follow">Follow <a href={SITE.linkedin} rel="noopener">Rudra on LinkedIn</a> · <a href="/rss.xml">RSS</a></p>
@@ -63,7 +63,7 @@ const { mode, action } = newsletterConfig();
         status.textContent = 'We could not complete your subscription. Please try again in a moment.';
         status.classList.add('err');
         button.disabled = false;
-        button.textContent = 'Subscribe';
+        button.textContent = 'Subscribe free';
       }
     });
   });
