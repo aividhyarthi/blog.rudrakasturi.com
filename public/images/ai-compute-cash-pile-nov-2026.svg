@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<rect width="1400" height="900" fill="#ffffff"/>
+<text x="90" y="100" font-family="Arial, sans-serif" font-size="25" fill="#555">AI INFRASTRUCTURE FINANCE • NOVEMBER 2026</text>
+<text x="90" y="160" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#111">Who has the biggest cash pile?</text>
+<text x="90" y="210" font-family="Arial, sans-serif" font-size="25" fill="#555">Cash, cash equivalents and short-term liquid securities, US$ billions</text>
+<text x="90" y="285" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111">ALL COMPANIES IN THIS COMPARISON</text>
+<text x="90" y="375" font-family="Arial, sans-serif" font-size="25" fill="#222">Berkshire Hathaway</text>
+ <rect x="390" y="345" width="850" height="42" fill="#eeeeee" rx="5"/>
+ <rect x="390" y="345" width="792.2" height="42" fill="#286b8e" rx="5"/>
+ <text x="1202.2" y="375" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111">$372.8B</text>
+ <text x="1270" y="373" font-family="Arial, sans-serif" font-size="17" fill="#666" text-anchor="end">30 Sep 2026</text><text x="90" y="450" font-family="Arial, sans-serif" font-size="25" fill="#222">Alphabet</text>
+ <rect x="390" y="420" width="850" height="42" fill="#eeeeee" rx="5"/>
+ <rect x="390" y="420" width="563.3375000000001" height="42" fill="#286b8e" rx="5"/>
+ <text x="973.3375000000001" y="450" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111">$265.1B</text>
+ <text x="1270" y="448" font-family="Arial, sans-serif" font-size="17" fill="#666" text-anchor="end">30 Sep 2026</text><text x="90" y="525" font-family="Arial, sans-serif" font-size="25" fill="#222">Amazon</text>
+ <rect x="390" y="495" width="850" height="42" fill="#eeeeee" rx="5"/>
+ <rect x="390" y="495" width="242.67500000000004" height="42" fill="#286b8e" rx="5"/>
+ <text x="652.6750000000001" y="525" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111">$114.2B</text>
+ <text x="1270" y="523" font-family="Arial, sans-serif" font-size="17" fill="#666" text-anchor="end">30 Sep 2026</text><text x="90" y="600" font-family="Arial, sans-serif" font-size="25" fill="#222">Meta</text>
+ <rect x="390" y="570" width="850" height="42" fill="#eeeeee" rx="5"/>
+ <rect x="390" y="570" width="175.10000000000002" height="42" fill="#286b8e" rx="5"/>
+ <text x="585.1" y="600" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111">$82.4B</text>
+ <text x="1270" y="598" font-family="Arial, sans-serif" font-size="17" fill="#666" text-anchor="end">30 Sep 2026</text><text x="90" y="675" font-family="Arial, sans-serif" font-size="25" fill="#222">Microsoft</text>
+ <rect x="390" y="645" width="850" height="42" fill="#eeeeee" rx="5"/>
+ <rect x="390" y="645" width="137.0625" height="42" fill="#286b8e" rx="5"/>
+ <text x="547.0625" y="675" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111">$64.5B</text>
+ <text x="1270" y="673" font-family="Arial, sans-serif" font-size="17" fill="#666" text-anchor="end">30 Sep 2026</text><text x="90" y="750" font-family="Arial, sans-serif" font-size="25" fill="#222">NVIDIA</text>
+ <rect x="390" y="720" width="850" height="42" fill="#eeeeee" rx="5"/>
+ <rect x="390" y="720" width="113.6875" height="42" fill="#286b8e" rx="5"/>
+ <text x="523.6875" y="750" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111">$53.5B</text>
+ <text x="1270" y="748" font-family="Arial, sans-serif" font-size="17" fill="#666" text-anchor="end">25 Oct 2026</text>
+<line x1="90" y1="810" x2="1310" y2="810" stroke="#dddddd"/>
+<text x="90" y="845" font-family="Arial, sans-serif" font-size="17" fill="#555">Berkshire includes cash and US Treasury bills. Other companies include cash and short-term liquid securities as reported.</text>
+<text x="90" y="872" font-family="Arial, sans-serif" font-size="17" fill="#555">NVIDIA includes cash and marketable debt securities, excluding marketable equity securities. Latest filings available 22 Nov 2026.</text>
+</svg>
