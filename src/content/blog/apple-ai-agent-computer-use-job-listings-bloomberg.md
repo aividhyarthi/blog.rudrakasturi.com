@@ -1,12 +1,11 @@
 ---
 title: "Apple Is Building Towards an AI Agent That Can Use Your Computer. What Its Job Listing Reveals"
-date: 2026-11-22T09:20:00+05:30
+date: 2026-11-22T11:30:00+05:30
 description: "A Bloomberg report based on Apple's recruitment listings points to an agent that could browse the web, work across apps and write code. The important shift is from answering questions to carrying out tasks."
 tag: "ai"
 categories: ["AI","Technology","Apple","Agentic AI"]
 tags: ["Apple","AI Agents","Siri","Bloomberg","OpenAI","Anthropic","Google"]
 type: "article"
-draft: true
 tldr: "Bloomberg reported on November 19, 2026 that Apple is developing an autonomous AI agent, citing job listings on the company's website. The advertised role describes an assistant that could browse the web, control apps, navigate devices and write code, while coordinating multi-step work. Apple has not publicly announced a finished product or launch date. The development signals how competition is moving from chat assistants towards agents that can operate software on a user's behalf."
 sources:
   - title: "Apple Working on Own AI Agent to Rival OpenAI and Anthropic"

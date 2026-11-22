@@ -1,12 +1,11 @@
 ---
 title: "AWS Wants AI Coding Agents to Optimise AI Infrastructure. How Its New KV Caching Skill Works"
-date: 2026-11-22T08:15:00+05:30
+date: 2026-11-22T10:30:00+05:30
 description: "AWS has introduced a distributed KV caching skill for coding agents, helping teams assess, configure and troubleshoot shared caching for self-hosted LLMs. Here is what it does and when the claimed savings may apply."
 tag: "ai"
 categories: ["AI","Technology","Cloud Computing"]
 tags: ["AWS","Distributed KV Caching","LLM Inference","Claude Code","OpenAI Codex","AI Infrastructure","GPU Costs"]
 type: "article"
-draft: true
 tldr: "AWS has added a distributed key-value caching skill to the Agent Toolkit for AWS. It lets compatible coding agents assess whether a self-hosted LLM workload can benefit from a shared cache, estimate savings using workload traces, guide setup and help troubleshoot. AWS reports potential reductions of up to 40% in inference cost and 80% in time to first token for its distributed caching approach, but the results depend on prompt repetition, cache hit rate, model serving setup and infrastructure cost. The skill is not a universal cost-reduction switch."
 sources:
   - title: "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill"
