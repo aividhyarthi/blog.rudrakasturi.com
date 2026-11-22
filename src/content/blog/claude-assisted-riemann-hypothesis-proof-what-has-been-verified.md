@@ -1,6 +1,6 @@
 ---
 title: "Did Claude Help Prove the Riemann Hypothesis? What the New Mathematical Checks Actually Show"
-date: 2026-11-22T10:00:00+05:30
+date: 2026-11-22T10:20:00+05:30
 description: "Anthropic mathematician Levent Alpöge says he worked with Claude on a proof of the Riemann Hypothesis. The Lean and Mathlib communities now say they have full confidence in the formalised proof, while broader mathematical understanding and review continue."
 tag: "ai"
 categories: ["AI","Technology","Research","Science"]
