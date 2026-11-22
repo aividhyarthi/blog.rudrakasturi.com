@@ -28,6 +28,8 @@ The key idea is that a document or presentation can become a living workspace. I
 
 ## Who can use it
 
+![ChatGPT's Business plan page listing "ChatGPT Space to organize projects and files you build with AI" as a feature alongside Dots agents and connected apps](/images/chatgpt-space-plus-rollout/chatgpt-business-plan-space-feature.png)
+
 OpenAI says the rollout is global for Plus users aged 18 and older. Access to a shared page or presentation requires permission and a signed-in account with Space access. OpenAI lists Plus, Pro, Business and Enterprise accounts as eligible to open shared content.
 
 Free users cannot open shared Space pages or presentations. OpenAI also says public links are not available.

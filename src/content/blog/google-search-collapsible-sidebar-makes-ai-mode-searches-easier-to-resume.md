@@ -20,6 +20,8 @@ The change may look like a small interface update. Its significance is that Goog
 
 ## What is changing
 
+![Google AI Mode search results page with the new collapsible sidebar open, showing the "Close sidebar" toggle in the top-left corner next to the search tabs](/images/google-ai-mode-collapsible-sidebar/ai-mode-sidebar-screenshot.png)
+
 Google's Robby Stein, vice president of product for Search, announced the rollout. The sidebar is designed to help users jump back into recent AI searches. Google says people increasingly arrive with questions that need more than one interaction, and that testing showed the sidebar helped users make progress and continue exploring.
 
 The feature is a navigation aid. It makes previous AI Mode activity easier to revisit and gives users a more direct way to resume a line of research instead of starting again.
