@@ -1,6 +1,6 @@
 ---
 title: "AWS Wants AI Coding Agents to Optimise AI Infrastructure. How Its New KV Caching Skill Works"
-date: 2026-11-22T10:30:00+05:30
+date: 2026-11-22T10:50:00+05:30
 description: "AWS has introduced a distributed KV caching skill for coding agents, helping teams assess, configure and troubleshoot shared caching for self-hosted LLMs. Here is what it does and when the claimed savings may apply."
 tag: "ai"
 categories: ["AI","Technology","Cloud Computing"]
