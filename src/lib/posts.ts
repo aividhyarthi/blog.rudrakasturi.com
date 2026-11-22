@@ -130,14 +130,11 @@ export function pageOf<T>(items: T[], page: number): T[] {
   return items.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 }
 
-// Mix topics: newest post from each section in turn, so the homepage never shows one subject only.
-export function mixedLatest(posts: Post[], count: number, exclude: string[] = []): Post[] {
-  const queues = SECTIONS.map((sec) => posts.filter((p) => inSection(p, sec) && !exclude.includes(p.slug)));
-  const out: Post[] = [];
-  for (let i = 0; out.length < count && i < 50; i++) {
-    for (const q of queues) if (q[i] && out.length < count && !out.includes(q[i])) out.push(q[i]);
-  }
-  return out.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+// Hand-picked posts (by slug) in the order given, skipping any that don't exist or are excluded.
+export function pickPosts(posts: Post[], slugs: string[], exclude: string[] = []): Post[] {
+  return slugs
+    .map((slug) => posts.find((p) => p.slug === slug))
+    .filter((p): p is Post => p !== undefined && !exclude.includes(p.slug));
 }
 
 // Each topic gets a stable accent colour (c0..c3, see global.css).

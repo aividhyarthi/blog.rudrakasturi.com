@@ -31,8 +31,6 @@ const {
 } = Astro.props;
 const currentPath = Astro.url.pathname;
 const toolLinks = [
-  { label: 'Your Website AEO Analyzer', href: '/your-website-aeo-analyzer/' },
-  { label: 'E-Commerce Product Page AEO Analyser', href: '/product-page-aeo-analyser/' },
   { label: 'AI SEO GPT', href: '/ai-seo-gpt-by-rudra-kasturi/' },
   ...TOOLS.map((t) => ({ label: `${t.name} (${t.host})`, href: utm(t.url, 'menu'), external: true })),
   { label: 'All tools & companies', href: '/companies/' },

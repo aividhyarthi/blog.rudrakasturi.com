@@ -7,3 +7,5 @@
 /category/aeo-arabic/ /category/aeo/
 /llmx-txt-validator/ /do-you-need-an-llms-txt-file-what-google-has-said/
 /llmx-file-creator/ /do-you-need-an-llms-txt-file-what-google-has-said/
+/your-website-aeo-analyzer/ /companies/
+/product-page-aeo-analyser/ /companies/

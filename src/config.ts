@@ -11,6 +11,16 @@ export const SITE = {
 
 export const YEARS = '24+';
 
+// Hand-picked articles shown in the homepage "Top Stories" tab (post slugs). There is no
+// pageview data wired into the site, so this is an editorial pick rather than true "most read" —
+// update this list by hand whenever you want different posts to lead. Keep at least 3.
+export const TOP_STORIES = [
+  'the-aeo-and-geo-playbook-technology-content-schema-writing-style-and-myths',
+  'aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says',
+  '11-things-liz-reid-told-publishers-straight-from-googles-head-of-search',
+  'what-is-aeo-answer-engine-optimisation-across-google-ai-overviews-ai-mode-chatgpt-gemini-and-perplexity',
+];
+
 // Hand-picked articles shown in "Start here" on the homepage (post slugs).
 export const START_HERE = [
   'aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says',

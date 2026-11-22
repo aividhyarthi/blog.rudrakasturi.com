@@ -9,16 +9,18 @@ import PostCard from '../components/PostCard.astro';
 import { APPRANKR_POSTS, utm } from '../config';
 import { getTags } from '../lib/posts';
 import WelcomeModal from '../components/WelcomeModal.astro';
-import { getAllPosts, readingTime, topicOf, topicColor, formatDate, mixedLatest, SECTIONS, inSection } from '../lib/posts';
+import { getAllPosts, readingTime, topicOf, topicColor, formatDate, pickPosts, SECTIONS, inSection } from '../lib/posts';
 import { coverUrl } from '../lib/cover';
-import { SITE, TOOLS, START_HERE, YEARS, NEWSLETTER, mailto } from '../config';
+import { SITE, TOOLS, TOP_STORIES, START_HERE, YEARS, NEWSLETTER, mailto } from '../config';
 
 const all = await getAllPosts();
 const researched = all.filter((p) => p.data.sources.length > 0);
 const featured = researched[0] ?? all[0];
-const mixed = mixedLatest(all, 12, [featured.slug]);
-const top = mixed.slice(0, 3); // "Top stories" next to the lead story
-const latest = mixed.slice(3);
+// True reverse-chronological order, so the homepage is stable and predictable (no topic-mixing shuffle).
+const rest = all.filter((p) => p.slug !== featured.slug);
+const latestTab = rest.slice(0, 3); // "Latest News" tab, default
+const topStoriesTab = pickPosts(all, TOP_STORIES, [featured.slug]).slice(0, 3); // "Top Stories" tab (editor's picks)
+const latest = rest.slice(3, 12); // grid below the tabs
 const appr = TOOLS.find((t) => t.name === 'AppRankr')!;
 const tool = TOOLS[0]; // main feed
 const rails = SECTIONS.map((sec) => ({ name: sec.name, slug: sec.slug, posts: all.filter((p) => inSection(p, sec)).slice(0, 9) })).filter((r) => r.posts.length >= 3);
@@ -31,7 +33,7 @@ const home = [
   },
   {
     '@type': 'ItemList', '@id': `${origin}/#latest`, name: 'Latest articles',
-    itemListElement: [featured, ...top, ...latest].map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })),
+    itemListElement: [featured, ...latestTab, ...latest, ...topStoriesTab].map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${origin}/${p.slug}/`, name: p.data.title })),
   },
 ];
 ---
@@ -50,17 +52,35 @@ const home = [
         <p class="lead-desc">{featured.data.tldr ?? featured.data.description}</p>
         <p class="entry-meta">{readingTime(featured)} min read</p>
       </article>
-      <div class="top-stories">
-        <h2 class="rail-title">Top stories</h2>
-        {top.map((p) => (
-          <article class={`top-row ${topicColor(topicOf(p).slug)}`}>
-            <a href={`/${p.slug}/`} class="top-thumb" tabindex="-1" aria-hidden="true"><img src={coverUrl(p)} alt="" loading="lazy" width="1200" height="630" /></a>
-            <div>
-              <p class="entry-kicker"><a href={`/category/${topicOf(p).slug}/`}>{topicOf(p).name}</a><span>{formatDate(p.data.date)}</span></p>
-              <h3><a href={`/${p.slug}/`}>{p.data.title}</a></h3>
-            </div>
-          </article>
-        ))}
+      <div class="top-stories home-tabs">
+        <input type="radio" name="home-tab" id="tab-latest" class="home-tab-input" checked />
+        <input type="radio" name="home-tab" id="tab-top" class="home-tab-input" />
+        <div class="home-tab-bar" role="tablist">
+          <label for="tab-latest" class="home-tab-label">Latest News</label>
+          <label for="tab-top" class="home-tab-label">Top Stories</label>
+        </div>
+        <div class="home-tab-panel" id="panel-latest">
+          {latestTab.map((p) => (
+            <article class={`top-row ${topicColor(topicOf(p).slug)}`}>
+              <a href={`/${p.slug}/`} class="top-thumb" tabindex="-1" aria-hidden="true"><img src={coverUrl(p)} alt="" loading="lazy" width="1200" height="630" /></a>
+              <div>
+                <p class="entry-kicker"><a href={`/category/${topicOf(p).slug}/`}>{topicOf(p).name}</a><span>{formatDate(p.data.date)}</span></p>
+                <h3><a href={`/${p.slug}/`}>{p.data.title}</a></h3>
+              </div>
+            </article>
+          ))}
+        </div>
+        <div class="home-tab-panel" id="panel-top">
+          {topStoriesTab.map((p) => (
+            <article class={`top-row ${topicColor(topicOf(p).slug)}`}>
+              <a href={`/${p.slug}/`} class="top-thumb" tabindex="-1" aria-hidden="true"><img src={coverUrl(p)} alt="" loading="lazy" width="1200" height="630" /></a>
+              <div>
+                <p class="entry-kicker"><a href={`/category/${topicOf(p).slug}/`}>{topicOf(p).name}</a><span>{formatDate(p.data.date)}</span></p>
+                <h3><a href={`/${p.slug}/`}>{p.data.title}</a></h3>
+              </div>
+            </article>
+          ))}
+        </div>
         <div class="top-row top-appstore">
           <div class="appstore-ico" aria-hidden="true">&#9638;</div>
           <div>
@@ -89,8 +109,8 @@ const home = [
   <section class="feed">
     <div class="wrap">
       <div class="section-head">
-        <p class="label">Latest</p>
-        <h2>The latest across search, AI and social</h2>
+        <p class="label">More to read</p>
+        <h2>More from the blog</h2>
       </div>
       <div class="card-grid">
         {latest.map((p) => <PostCard post={p} />)}
