@@ -1,13 +1,13 @@
 ---
 title: "Did Claude Help Prove the Riemann Hypothesis? What the New Mathematical Checks Actually Show"
 date: 2026-11-22T08:10:00+05:30
-description: "Anthropic mathematician Levent Alpöge says he worked with Claude on a proof of the Riemann Hypothesis. Independent Lean checks have accepted the formalised argument, but important verification and human review questions remain."
+description: "Anthropic mathematician Levent Alpöge says he worked with Claude on a proof of the Riemann Hypothesis. The Lean and Mathlib communities now say they have full confidence in the formalised proof, while broader mathematical understanding and review continue."
 tag: "ai"
 categories: ["AI","Technology","Research","Science"]
 tags: ["Claude","Anthropic","Riemann Hypothesis","Lean","AI Research","Mathematics"]
 type: "article"
 draft: true
-tldr: "Levent Alpöge has published a claimed proof of the Riemann Hypothesis developed with Claude, expressed as a large Lean formalisation. MIT mathematician Andrew Sutherland's verification page reports that all 175,187 modules compiled, several independent checkers accepted the exported proof, and the five headline theorems matched a separate challenge. At the same time, additional Lean comparator and kernel checks were still running in the latest cited status, and the mathematical community still needs to understand the argument. The Clay Mathematics Institute continues to list the problem as unsolved."
+tldr: "Levent Alpöge has published a proof of the Riemann Hypothesis developed with Claude, expressed as a large Lean formalisation. The Lean and Mathlib communities have now issued a joint statement saying they have full confidence in the proof, citing successful compilation, comparison against the established Mathlib statement and checks by several independent proof checkers. Mathematicians still need to study and explain the argument. The Clay Mathematics Institute has not yet updated its official page, which continues to list the problem as unsolved."
 sources:
   - title: "RH Lean proof: verification files"
     url: "https://math.mit.edu/~drew/grh/"
@@ -16,6 +16,14 @@ sources:
   - title: "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI"
     url: "https://apnews.com/article/4fe8b69a891f160f9e7f0c85af8c55c8"
     publisher: "Associated Press"
+    reviewed: "2026-11-22"
+  - title: "Lean verification of the Riemann Hypothesis"
+    url: "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    publisher: "Lean and Mathlib communities"
+    reviewed: "2026-11-22"
+  - title: "Alpöge/Claude proof of the Generalized Riemann Hypothesis"
+    url: "https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/"
+    publisher: "University of Waterloo"
     reviewed: "2026-11-22"
   - title: "Riemann Hypothesis"
     url: "https://www.claymath.org/millennium/Riemann-Hypothesis/"
@@ -29,7 +37,7 @@ The mathematician is Levent Alpöge. On November 20, he published a short note a
 
 The claim concerns the Riemann Hypothesis, a problem first proposed by Bernhard Riemann in 1859. It is one of the seven Millennium Prize Problems identified by the Clay Mathematics Institute. A correct proof would be a major mathematical achievement.
 
-But there is an important distinction between a mathematician announcing a proof, a computer checking a formalised argument and the mathematical community accepting the result. Those are related stages, not interchangeable ones.
+But there is an important distinction between a mathematician announcing a proof, a computer checking a formalised argument, specialists confirming that the formal statement is the intended theorem, and the wider mathematical community understanding the new ideas. Those are related stages, not interchangeable ones.
 
 ## What is the Riemann Hypothesis?
 
@@ -41,7 +49,7 @@ The hypothesis makes a precise statement about the non-trivial zeros of this fun
 
 That may sound abstract, but the problem matters because the zeta function is closely connected to how prime numbers are distributed. A proof would confirm a central prediction in number theory and strengthen many results that depend on it.
 
-The Clay Mathematics Institute lists the problem as one of its Millennium Prize Problems, each carrying a $1 million prize for an accepted solution under the institute's rules. Its official page continues to list the Riemann Hypothesis as unsolved.
+The Clay Mathematics Institute lists the problem as one of its Millennium Prize Problems, each carrying a $1 million prize for an accepted solution under the institute's rules. Its official page had not yet been updated at the time of this article and continued to list the Riemann Hypothesis as unsolved.
 
 ## What did the mathematician claim?
 
@@ -71,9 +79,9 @@ In the status updated on November 21 at 12:55 UTC, the page reported several imp
 
 These results are meaningful. They make the claim more substantial than an AI-generated mathematical explanation or a collection of experimental calculations.
 
-However, the same MIT verification page also recorded that the full lake comparator run and additional Lean kernel replays of the exported proof were still in progress at the time of its latest cited update. It also documented caveats about the unsandboxed build and the need to compare exports from an independent sandboxed build.
+A subsequent joint statement from the Lean and Mathlib communities, endorsed by the Lean FRO and Mathlib Initiative, goes further. It says the communities have full confidence in the proof and that the four key criteria for formal verification have been met. These include checking that the theorem statement is the intended Riemann Hypothesis, confirming that the code compiles, comparing the proved theorem with the established Mathlib statement, and checking the exported proof with several independent proof checkers. The statement says these checks were run on an inert export, out of reach of hypothetical malicious code in the original proof sources.
 
-A careful report must include both the successful checks and the checks that had not yet finished.
+This is a substantial change in the verification status. It is no longer accurate to describe the core formal checks as unfinished. The remaining challenge is for mathematicians to study the proof's ideas, explain them in a conventional form and understand the implications.
 
 ## Why formal verification is important
 
@@ -91,7 +99,7 @@ It is not a guarantee that every possible problem has disappeared. The definitio
 
 There are several questions that should not be hidden behind the headline.
 
-**First, the full verification process was not complete in the cited MIT status.** Several strong checks had passed, but the page still marked the end-to-end comparator and additional kernel replays as running.
+**First, formal verification and mathematical exposition are different tasks.** The Lean and Mathlib communities now report that the formal verification criteria have been met. That is strong evidence that the formalised theorem follows within the stated foundations. It does not automatically give every mathematician an intuitive understanding of the proof.
 
 **Second, a computer-checked proof is not the same as a human-understood proof.** Mathematicians need to understand the central ideas, why the argument works and whether the definitions capture the intended theorem. The released Lean archive is very large, and a conventional readable mathematical exposition had not accompanied it.
 
@@ -99,7 +107,7 @@ There are several questions that should not be hidden behind the headline.
 
 **Fourth, formal verification depends on the foundations and tools being used correctly.** The independent checkers reduce reliance on a single implementation, but researchers still need to examine the definitions, source provenance and remaining verification steps.
 
-The Clay Mathematics Institute's official page continues to label the Riemann Hypothesis as unsolved. A formal claim does not automatically satisfy the institute's prize requirements or replace the wider process of mathematical scrutiny.
+The Clay Mathematics Institute's official page had not yet been updated and continued to label the Riemann Hypothesis as unsolved. A community verification statement is a major milestone, but it does not automatically settle the institute's prize process or replace broader mathematical scrutiny.
 
 ## What does this mean for AI research?
 
@@ -118,13 +126,13 @@ It also changes how AI capability should be measured. A model that produces a be
 There are three separate facts.
 
 1. A mathematician at Anthropic has claimed that he and Claude found a proof of the Riemann Hypothesis.
-2. The large Lean formalisation has passed several substantial machine-based checks, including checks by independently written proof checkers.
-3. The cited MIT verification record still showed additional checks in progress, while broader mathematical understanding and acceptance remain necessary.
+2. The Lean and Mathlib communities have publicly stated that the formal proof passed the key verification checks and that they have full confidence in its correctness.
+3. Mathematicians still need to study and explain the proof, while the Clay Mathematics Institute page had not yet reflected the announcement.
 
-The first two points make this a significant AI research story. The third is why the headline should not yet say that the Riemann Hypothesis has officially been solved.
+This makes the development substantially stronger than an unverified AI-generated claim. The responsible headline is that a Claude-assisted proof has received strong formal verification and community endorsement, while broader mathematical exposition and institutional updates continue.
 
 The real breakthrough may ultimately be the proof itself. It may also be the demonstration that AI systems can contribute to formal mathematics when their output is subjected to rigorous, independently reproducible checking.
 
-For now, the right description is a major claimed proof with strong formal verification progress, not an officially accepted solution.
+For now, the right description is a Claude-assisted proof that has received a strong formal verification endorsement from the Lean and Mathlib communities. The work now moves into the wider process of mathematical study, explanation and institutional consideration.
 
-**Source and reporting note:** This article reports the claim made by Levent Alpöge and the verification results documented by Andrew Sutherland at MIT, alongside the current public status of the Clay Mathematics Institute. We are not involved in the research, the proof or its verification. Verification status can change as additional checks and mathematical reviews are completed. Please consult the original sources for the latest record: [MIT verification files](https://math.mit.edu/~drew/grh/), [Associated Press report](https://apnews.com/article/4fe8b69a891f160f9e7f0c85af8c55c8) and [Clay Mathematics Institute](https://www.claymath.org/millennium/Riemann-Hypothesis/).
+**Source and reporting note:** This article reports the claim made by Levent Alpöge and the verification results documented by Andrew Sutherland at MIT, alongside the joint statement from the Lean and Mathlib communities and the public status of the Clay Mathematics Institute. We are not involved in the research, the proof or its verification. Verification status and mathematical interpretation may continue to develop. Please consult the original sources for the latest record: [MIT verification files](https://math.mit.edu/~drew/grh/), [Lean and Mathlib community statement](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/), [University of Waterloo verification overview](https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/), [Associated Press report](https://apnews.com/article/4fe8b69a891f160f9e7f0c85af8c55c8) and [Clay Mathematics Institute](https://www.claymath.org/millennium/Riemann-Hypothesis/).
