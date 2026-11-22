@@ -1,12 +1,11 @@
 ---
 title: "Google Gemini Lets You Keep Chat History Without Using It to Train AI. Here's What's Changing"
-date: 2026-11-22T19:05:00+05:30
+date: 2026-11-23T08:30:00+05:30
 description: "Google is splitting Gemini's old Keep Activity control into separate settings for chat history and AI model training. Here is what users can choose, what still gets retained and what to check when the update reaches their account."
 tag: "ai"
 categories: ["AI","Technology","Google","Privacy"]
 tags: ["Google Gemini","Gemini Privacy","AI Training","Chat History","Data Privacy","Google AI"]
 type: "article"
-draft: true
 tldr: "Google announced that it will replace Gemini's single Keep Activity control with two separate settings. Users will be able to manage how long chat history is saved and separately decide whether chat content, including text and attachments, is used to train generative AI models. Google says the changes will roll out in the coming weeks. If the new History setting is turned off, future chats will still be saved for around two months for service operation, feedback processing and safety purposes, with help from human reviewers. This is a separation of controls, not a promise of zero data retention."
 sources:
   - title: "Gemini Apps Privacy Notice"

@@ -1,12 +1,11 @@
 ---
 title: "Google Search Is Changing: From a Page of Links to an AI Assistant"
-date: 2026-11-22T19:00:00+05:30
+date: 2026-11-23T08:00:00+05:30
 description: "Google's homepage has moved from a simple search box and blue links towards AI Mode, image creation, file questions and continuing conversations. Here is what changed and what it means for users and publishers."
 tag: "ai"
 categories: ["AI","Technology","Google","Search"]
 tags: ["Google Search","AI Mode","Gemini","Search Evolution","AI Search","SEO"]
 type: "article"
-draft: true
 tldr: "Google's homepage is changing from a minimal doorway to web links into a starting point for AI-assisted tasks and continuing conversations. The change can be seen in the evolution of the homepage, AI Overviews, AI Mode and new shortcuts for creating images, asking about files and brainstorming. Traditional web search remains available, but Google is making conversational and task-oriented AI more visible."
 sources:
   - title: "AI in Search: Going beyond information to intelligence"

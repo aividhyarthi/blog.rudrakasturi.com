@@ -1,12 +1,11 @@
 ---
 title: "The AI Compute Race Has a Cash Problem. Who Can Afford to Keep Building?"
-date: 2026-11-22T18:45:00+05:30
+date: 2026-11-23T07:30:00+05:30
 description: "François Chollet points to rising GPU prices and tight memory supply. Elon Musk warns that delays in making compute productive could create hundreds of billions in extra working-capital needs. We examine the infrastructure bottleneck and compare the latest cash reserves of major companies."
 tag: "ai"
 categories: ["AI","Technology","Business","Semiconductors","Enterprise AI"]
 tags: ["AI Infrastructure","AI Capex","GPU","HBM","DRAM","Working Capital","Alphabet","NVIDIA","Amazon","Microsoft","Berkshire Hathaway"]
 type: "article"
-draft: true
 tldr: "The next phase of the AI buildout is not only a race to buy GPUs. Companies must also secure HBM and DRAM, build data centres, obtain power, install cooling, connect clusters and make them reliable enough to earn revenue. François Chollet argues that compute demand and memory shortages remain strong; Elon Musk warns that delays between paying for infrastructure and earning revenue could create hundreds of billions of dollars in additional working-capital needs. Latest reported liquid cash and short-term investment balances show Berkshire Hathaway with about $372.8 billion and Alphabet with about $265.1 billion. Alphabet is the largest in this comparison among the major AI infrastructure companies, but cash balances alone do not reveal who can fund future commitments most comfortably."
 sources:
   - title: "François Chollet's post on AI compute demand and memory supply"

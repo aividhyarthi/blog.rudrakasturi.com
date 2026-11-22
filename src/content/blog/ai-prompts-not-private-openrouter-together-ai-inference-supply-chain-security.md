@@ -1,12 +1,11 @@
 ---
 title: "Your AI Prompts May Not Stay Private. What the OpenRouter and Together AI Incidents Reveal"
-date: 2026-11-22T18:20:00+05:30
+date: 2026-11-23T07:00:00+05:30
 description: "Security researchers say AI prompts and test credentials were exposed across parts of the inference supply chain. OpenRouter removed 125 endpoints from Zero Data Retention eligibility. Here is what happened, what is confirmed and what businesses should do."
 tag: "ai"
 categories: ["AI","Technology","Cybersecurity","Enterprise AI"]
 tags: ["AI Privacy","OpenRouter","Together AI","Dragos","Zero Data Retention","Prompt Leakage","AI Security","Inference Providers"]
 type: "article"
-draft: true
 tldr: "A Dragos investigation using nearly two million prompts seeded with unique canary links and credentials reported evidence of provider compromises, prompt access by inference resellers and apparent failures to honour privacy settings. OpenRouter said on November 22 that it had off-boarded three providers and removed 125 endpoints from Zero Data Retention eligibility, while stating that its own platform was not breached. Separate disclosures from Together AI, Novita and Phala describe different incidents and exposure mechanisms. These reports do not establish that every AI provider is unsafe, nor do they prove that all named providers were responsible for the same incidents. They do show why organisations must verify the full route their prompts take, not rely on a privacy label alone."
 sources:
   - title: "Three breaches, endless leaks: Your AI supply chain needs canaries"
