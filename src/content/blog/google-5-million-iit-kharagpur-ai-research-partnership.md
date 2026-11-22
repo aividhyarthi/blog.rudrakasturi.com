@@ -1,12 +1,11 @@
 ---
 title: "Google Commits $5 Million to IIT Kharagpur. What Could It Mean for India's AI Research?"
-date: 2026-11-22T08:00:00+05:30
+date: 2026-11-22T09:00:00+05:30
 description: "Google is funding AI research and talent development at IIT Kharagpur, with a focus on Indic languages, agriculture, materials science and education. Here is what the partnership covers and what India should measure next."
 tag: "ai"
 categories: ["AI","Technology","India","Education"]
 tags: ["Google","IIT Kharagpur","AI Research","Indic Languages","Agriculture AI","India AI"]
 type: "article"
-draft: true
 tldr: "Google has announced $5 million in funding for IIT Kharagpur to support advanced AI research, education and campus AI capacity. The stated research areas include Indic languages, materials science, agriculture and educational technology. The announcement describes a funding commitment and broad priorities, not a list of completed products or guaranteed outcomes. Its real value will depend on research projects, open outputs, field validation and whether the work reaches people beyond the campus."
 sources:
   - title: "Supporting AI research and talent development with IIT Kharagpur"

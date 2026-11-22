@@ -1,12 +1,11 @@
 ---
 title: "Did Claude Help Prove the Riemann Hypothesis? What the New Mathematical Checks Actually Show"
-date: 2026-11-22T08:10:00+05:30
+date: 2026-11-22T10:00:00+05:30
 description: "Anthropic mathematician Levent Alpöge says he worked with Claude on a proof of the Riemann Hypothesis. The Lean and Mathlib communities now say they have full confidence in the formalised proof, while broader mathematical understanding and review continue."
 tag: "ai"
 categories: ["AI","Technology","Research","Science"]
 tags: ["Claude","Anthropic","Riemann Hypothesis","Lean","AI Research","Mathematics"]
 type: "article"
-draft: true
 tldr: "Levent Alpöge has published a proof of the Riemann Hypothesis developed with Claude, expressed as a large Lean formalisation. The Lean and Mathlib communities have now issued a joint statement saying they have full confidence in the proof, citing successful compilation, comparison against the established Mathlib statement and checks by several independent proof checkers. Mathematicians still need to study and explain the argument. The Clay Mathematics Institute has not yet updated its official page, which continues to list the problem as unsolved."
 sources:
   - title: "RH Lean proof: verification files"

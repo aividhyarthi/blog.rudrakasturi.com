@@ -1,12 +1,11 @@
 ---
 title: "AWS Quick Is Packaging AI Agents Into Business Plugins. What Changes for Companies?"
-date: 2026-11-22T08:05:00+05:30
+date: 2026-11-22T09:30:00+05:30
 description: "AWS Quick now lets businesses bundle agents, skills, connectors and workflows into reusable plugins. Here is how the model works, what it could change for teams and what companies should check before adopting it."
 tag: "ai"
 categories: ["AI","Technology","Enterprise AI"]
 tags: ["AWS Quick","AI Agents","Agentic AI","Enterprise AI","AI Automation","Business Workflows"]
 type: "article"
-draft: true
 tldr: "AWS Quick now supports plugins that package agents, skills, connectors and flows for a specific job or business role. AWS says users can install official plugins or create and share their own, with more than 100 skills and plugins available. The idea is to make business workflows reusable rather than rebuilding each AI task from scratch. Companies still need permissions, testing, human approval and monitoring before allowing agents to act on business systems."
 sources:
   - title: "AWS Quick now supports plugins to bundle agents, skills, connectors and flows"
