@@ -6,6 +6,7 @@ tag: "ai"
 categories: ["AI","Policy","Technology","Regulation"]
 tags: ["United States","AI Regulation","National Governors Association","AI Policy","Federalism","AI Governance"]
 type: "article"
+draft: true
 tldr: "The National Governors Association announced bipartisan AI governance principles on November 22, 2026. The recommendations ask Congress to create a coordinated national framework, clarify federal and state responsibilities, protect workers and consumers, and use evidence-based safeguards. These are recommendations from the governors' association, not enacted federal law."
 sources:
   - title: "Governors Call for AI Action"
