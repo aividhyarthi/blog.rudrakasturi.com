@@ -1,6 +1,6 @@
 ---
 title: "Google Is Bringing Ads Into AI Conversations. Is This the Next Big Shift in Search Advertising?"
-date: 2026-11-23T18:20:00+05:30
+date: 2026-11-23T21:00:00+05:30
 updated: 2026-11-23T18:20:00+05:30
 description: "Google expanded AI Mode ads to India and nine other markets, and is testing ads across follow-up questions in the US. Here is how conversational advertising works and what marketers should prepare for."
 tag: "Google Ads"
@@ -24,7 +24,6 @@ sources:
     reviewed: "2026-11-23"
 categories: ["Google Ads", "AI Mode", "Paid Search", "AI Advertising"]
 tags: ["Google AI Mode", "Conversational Ads", "Google Ads", "AI Search", "Performance Marketing"]
-draft: true
 ---
 
 Google Search advertising is moving into a more conversational environment. Instead of responding only to a short query such as "best laptop under ₹70,000", AI Mode can handle a longer request, compare several requirements and continue the discussion through follow-up questions.

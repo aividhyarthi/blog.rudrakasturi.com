@@ -1,6 +1,6 @@
 ---
 title: "Google Is Using AI to Describe Advertisers in Search Results. What Happens When It Gets Your Brand Wrong?"
-date: 2026-11-23T18:00:00+05:30
+date: 2026-11-23T19:00:00+05:30
 description: "Google is testing AI-generated descriptions above and within mobile Search ads. Here is what was observed, what Google has confirmed, and why advertisers should care about brand accuracy."
 tag: "Google Ads"
 tldr: "A November 2026 test shows Google generating descriptions for advertisers inside mobile sponsored results. The experiment has not been confirmed as a general rollout. It raises practical questions about brand accuracy, control and how advertisers should keep their public business information consistent."
@@ -23,7 +23,6 @@ sources:
     reviewed: "2026-11-23"
 categories: ["Google Ads", "AI Search", "Advertising", "Industry News"]
 tags: ["Google Ads", "AI-generated descriptions", "Sponsored results", "Brand accuracy", "AI advertising"]
-draft: true
 ---
 
 Google is testing a more AI-led presentation of sponsored results on mobile Search. In the example reported in November 2026, an AI-generated summary appeared above a group of sponsored listings, named the advertisers in that group and described what they offered. Individual ads also received additional generated descriptions.

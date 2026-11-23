@@ -1,6 +1,6 @@
 ---
 title: "Google's November 2026 Core Update and AI Search Reporting Anomaly - Details Inside"
-date: 2026-11-23T18:15:00+05:30
+date: 2026-11-23T20:36:00+05:30
 updated: 2026-11-23T18:15:00+05:30
 description: "Google began its November 2026 core update on 10 November, while a separate Search Console logging error reduced reported AI impressions from 9 to 11 November. Here is what happened and how to read your data."
 tag: "Google Search"
@@ -24,7 +24,6 @@ sources:
     reviewed: "2026-11-23"
 categories: ["Google Search", "SEO", "AI Search", "News"]
 tags: ["Google Core Update", "November 2026", "Search Console", "AI Search Reporting"]
-draft: true
 ---
 
 Google's November 2026 core update began on 10 November. Around the same time, website owners noticed an unexpected dip in the Generative AI performance report inside Google Search Console. Google later confirmed a separate logging error that reduced the number of impressions recorded for 9 to 11 November.
