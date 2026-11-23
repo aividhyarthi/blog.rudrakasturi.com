@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Content relevance and AI citations</title><desc id="desc">Three bars show associations with citations: best paragraph match 15.5 percent, page title match 14.1 percent and word overlap 9.1 percent.</desc>
+<rect width="1200" height="650" fill="#fff"/><text x="72" y="78" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#526579">RESEARCH FINDING 03</text><text x="72" y="132" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#102a43">Content relevance was associated with more citations</text>
+<text x="72" y="175" font-family="Arial,sans-serif" font-size="19" fill="#526579">Within-website associations, per standard deviation in the measured feature</text>
+<g font-family="Arial,sans-serif" font-size="20" fill="#183b56"><text x="72" y="278">Best paragraph match</text><text x="72" y="398">Page title match</text><text x="72" y="518">Word overlap</text></g>
+<g><rect x="390" y="236" width="650" height="58" rx="10" fill="#e8eef4"/><rect x="390" y="236" width="503" height="58" rx="10" fill="#18845d"/><text x="914" y="275" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#146347">+15.5%</text>
+<rect x="390" y="356" width="650" height="58" rx="10" fill="#e8eef4"/><rect x="390" y="356" width="457" height="58" rx="10" fill="#1769aa"/><text x="868" y="395" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#1769aa">+14.1%</text>
+<rect x="390" y="476" width="650" height="58" rx="10" fill="#e8eef4"/><rect x="390" y="476" width="295" height="58" rx="10" fill="#d28a24"/><text x="706" y="515" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#a66a13">+9.1%</text></g>
+<text x="72" y="610" font-family="Arial,sans-serif" font-size="15" fill="#64748b">Source: Chen &amp; Koudas (2026), Table 2. Best-paragraph and title-match results passed all five robustness tests; word overlap passed four.</text>
+</svg>
