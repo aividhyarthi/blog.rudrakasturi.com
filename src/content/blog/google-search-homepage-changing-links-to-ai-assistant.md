@@ -1,6 +1,6 @@
 ---
 title: "Google Search Is Changing: From a Page of Links to an AI Assistant"
-date: 2026-11-23T08:00:00+05:30
+date: 2026-11-23T08:20:00+05:30
 description: "Google's homepage has moved from a simple search box and blue links towards AI Mode, image creation, file questions and continuing conversations. Here is what changed and what it means for users and publishers."
 tag: "ai"
 categories: ["AI","Technology","Google","Search"]
