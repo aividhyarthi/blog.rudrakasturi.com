@@ -1,12 +1,11 @@
 ---
 title: "South Korea's Education Minister Resigns After AI Cheating Rules Disrupt University Entrance Exam"
-date: 2026-11-23T07:05:00+05:30
+date: 2026-11-23T09:30:00+05:30
 description: "South Korean Education Minister Choi Kyo-jin resigned after last-minute anti-AI cheating measures caused confusion around the country's high-stakes university entrance examination."
 tag: "ai"
 categories: ["AI","Education","Technology","Policy"]
 tags: ["South Korea","AI Cheating","Education Policy","University Entrance Exams","AI in Education"]
 type: "article"
-draft: true
 tldr: "South Korean Education Minister Choi Kyo-jin resigned on November 22, 2026, after confusion over last-minute rules intended to prevent AI-assisted cheating during the national college entrance examination. Measures included restrictions on items students could bring, covering clothing buttons and emergency mobile alerts. The Education Ministry reported 111 suspected cases involving electronic devices. The resignation followed criticism of the preparation and communication of the rules."
 sources:
   - title: "South Korea's education minister quits over exam cheating chaos"

@@ -6,7 +6,6 @@ tag: "aeo"
 categories: ["AEO","GEO","SEO","Research"]
 tags: ["AEO Research","AI Citations","Google AI Overviews","ChatGPT","Gemini","Claude","Perplexity"]
 type: "article"
-draft: true
 tldr: "The State of AEO 2027 study by aeo.so analysed 2,126 English-language AEO-related answers from five AI answer engines in the United States during November 2026. It counted 4,356 citations across 217 domains. The study reports only 3% to 17% overlap between pairs of engines' cited domains. It is a topic-specific industry study, not a representative sample of every AI search query or industry."
 sources:
   - title: "State of AEO 2027: Which Sources AI Engines Cite"
