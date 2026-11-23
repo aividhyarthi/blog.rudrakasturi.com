@@ -1,11 +1,12 @@
 ---
-title: "OpenAI Opens Applications for 50,000 Academic Research Grants. Each Grant Covers Up to Three Researchers"
+title: "OpenAI Opens 50,000 ChatGPT Access Grants for Academic Researchers"
 date: 2026-11-23T10:30:00+05:30
 description: "OpenAI is expanding its ChatGPT for Academic Researchers programme, offering 50,000 new grants with free ChatGPT Plus access for an eligible researcher and up to two collaborators."
 tag: "ai"
 categories: ["AI","Research","Education","Technology"]
 tags: ["OpenAI","ChatGPT","Academic Research","Research Grants","AI for Science"]
 type: "article"
+draft: true
 tldr: "OpenAI said applications for the next round of its ChatGPT for Academic Researchers programme open on November 23, 2026. The company plans to award 50,000 grants to eligible applicants on a first-come, first-served basis. Each grant covers the recipient and up to two collaborators with free ChatGPT Plus access. OpenAI says the wider programme aims to reach 200,000 researchers worldwide."
 sources:
   - title: "Broadening access to AI for scientists"
