@@ -6,6 +6,7 @@ tag: "ai"
 categories: ["AI","Technology","AI Safety","Research"]
 tags: ["OpenAI","Jakub Pachocki","AI Safety","Perplexity","AI Governance","Frontier Models"]
 type: "article"
+draft: true
 tldr: "OpenAI chief scientist Jakub Pachocki has proposed that frontier AI developers use perplexity, alongside other measures, to track progress and agree on common limits for model development. Developers would commit not to cross agreed thresholds until monitoring and safety capabilities meet defined milestones. The proposal is an argument for an industry standard, not an existing agreement among AI companies."
 sources:
   - title: "Perplexity and Intelligence"
