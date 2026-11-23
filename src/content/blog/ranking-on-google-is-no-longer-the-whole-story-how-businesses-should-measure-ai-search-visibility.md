@@ -1,6 +1,6 @@
 ---
 title: "Ranking on Google Is No Longer the Whole Story. How Should Businesses Measure Their Visibility in AI Search?"
-date: 2026-11-23T18:10:00+05:30
+date: 2026-11-23T20:12:00+05:30
 description: "Google rankings still matter, but customers now discover brands through AI Overviews, AI Mode and conversational assistants. A practical measurement framework for mentions, citations, accuracy, traffic and revenue."
 tag: "AEO"
 tldr: "Businesses should not replace SEO rankings with a single AI visibility score. They should measure traditional search performance alongside AI mentions, citations, brand accuracy, referral visits and business outcomes. Each metric answers a different question, and no third-party tool can reveal the complete internal ranking systems of AI platforms."
@@ -19,7 +19,6 @@ sources:
     reviewed: "2026-11-23"
 categories: ["SEO", "AEO", "GEO", "AI Search", "Measurement"]
 tags: ["AI Search Visibility", "SEO Measurement", "Brand Mentions", "AI Citations", "Marketing Metrics"]
-draft: true
 ---
 
 For years, businesses used a familiar set of numbers to understand search visibility: keyword rankings, impressions, clicks, organic sessions and conversions. Those numbers still matter. But they no longer describe every way a customer can discover a company through search.

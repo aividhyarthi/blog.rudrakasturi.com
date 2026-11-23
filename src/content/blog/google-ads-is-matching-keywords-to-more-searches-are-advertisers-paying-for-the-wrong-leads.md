@@ -1,6 +1,6 @@
 ---
 title: "Google Ads Is Matching Keywords to More Searches. But Are Advertisers Paying for the Wrong Leads?"
-date: 2026-11-23T18:05:00+05:30
+date: 2026-11-23T19:24:00+05:30
 description: "A New Path Digital study of nearly 50,000 keyword and search-term pairs found that newly matched phrase searches cost 28% more per lead. Here is what the data does and does not prove."
 tag: "Google Ads"
 tldr: "A study of three Google Ads lead-generation accounts found that searches newly matched to phrase-match keywords cost $209 per form-fill lead, compared with $163 for previously matched searches. The 28% difference is a warning to inspect search-term quality, not a universal Google Ads benchmark."
@@ -19,7 +19,6 @@ sources:
     reviewed: "2026-11-23"
 categories: ["Google Ads", "PPC", "Performance Marketing", "Research"]
 tags: ["Phrase Match", "Keyword Matching", "Cost Per Lead", "Google Ads", "Search Terms"]
-draft: true
 ---
 
 Google Ads is designed to match a keyword with searches that are relevant to what a person wants, not only searches that repeat the exact words an advertiser entered. That gives campaigns room to reach people who use different wording. It can also bring in searches that are less likely to become customers.

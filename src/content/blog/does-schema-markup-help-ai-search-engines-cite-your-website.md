@@ -1,10 +1,9 @@
 ---
 title: "Does Adding Schema Markup Help Your Website Get Cited by AI Search Engines?"
-date: 2026-11-23T18:00:00+05:30
+date: 2026-11-23T19:48:00+05:30
 description: "A 90-day study of 158,099 AI answers examines whether schema markup, FAQ blocks and page structure improve citations, or whether retrieval and query relevance matter more."
 tag: "AEO"
 type: research
-draft: true
 image: "/images/schema-markup-ai-citations/featured.svg"
 tldr: "A University of Toronto preprint analysed 158,099 answers and 468,037 citations across ChatGPT, Gemini and Perplexity APIs. It found that retrieval explained more variation in ChatGPT citations than the page features studied. Schema markup did not show a statistically robust independent advantage when pages on the same website were compared. This is evidence from two commercial markets, not a universal rule for every AI search product."
 categories: ["AEO", "GEO", "AI Search", "Research"]
