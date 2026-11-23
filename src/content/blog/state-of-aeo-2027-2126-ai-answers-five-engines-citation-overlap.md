@@ -29,7 +29,6 @@ sources:
     url: "https://arxiv.org/abs/2311.09735"
     publisher: "Aggarwal et al."
     reviewed: "2026-11-23"
-draft: true
 ---
 # 2,126 AI Answers, 4,356 Citations: What the State of AEO 2027 Study Actually Found
 
