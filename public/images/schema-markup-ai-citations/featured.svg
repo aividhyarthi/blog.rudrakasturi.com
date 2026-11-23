@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">How AI search retrieves and cites website content</title><desc id="desc">Editorial diagram showing a question entering an AI retrieval system, pages being discovered and ranked, and one source being cited in an answer. Schema markup is shown as descriptive metadata, not a guarantee of citation.</desc>
+<rect width="1200" height="675" fill="#fff"/>
+<rect x="54" y="48" width="1092" height="579" rx="28" fill="#f8fafc" stroke="#dbe4ee" stroke-width="2"/>
+<text x="92" y="112" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#0f2742" letter-spacing="2">RUDRAKASTURI AI SEARCH RESEARCH HUB</text>
+<text x="92" y="170" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="#102a43">How does AI choose a source?</text>
+<text x="92" y="208" font-family="Arial,sans-serif" font-size="21" fill="#526579">Retrieval comes before citation. Structured data describes a page.</text>
+<rect x="92" y="278" width="205" height="160" rx="18" fill="#e8f2fb" stroke="#7aa8d4" stroke-width="2"/>
+<circle cx="133" cy="323" r="17" fill="#1769aa"/>
+<text x="164" y="330" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#16456d">USER QUESTION</text>
+<text x="116" y="376" font-family="Arial,sans-serif" font-size="18" fill="#29465f">What is the best</text><text x="116" y="402" font-family="Arial,sans-serif" font-size="18" fill="#29465f">answer for this need?</text>
+<path d="M310 358 H365" stroke="#52718e" stroke-width="4" fill="none"/><path d="M354 346 L368 358 L354 370" stroke="#52718e" stroke-width="4" fill="none"/>
+<rect x="382" y="278" width="220" height="160" rx="18" fill="#eaf5f1" stroke="#75b59d" stroke-width="2"/>
+<circle cx="423" cy="323" r="17" fill="#18845d"/>
+<text x="454" y="330" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#146347">RETRIEVAL</text>
+<text x="406" y="376" font-family="Arial,sans-serif" font-size="18" fill="#29465f">Searches, finds</text><text x="406" y="402" font-family="Arial,sans-serif" font-size="18" fill="#29465f">and ranks pages</text>
+<path d="M615 358 H670" stroke="#52718e" stroke-width="4" fill="none"/><path d="M659 346 L673 358 L659 370" stroke="#52718e" stroke-width="4" fill="none"/>
+<rect x="687" y="278" width="200" height="160" rx="18" fill="#fff5e7" stroke="#e2b66e" stroke-width="2"/>
+<rect x="724" y="304" width="54" height="42" rx="6" fill="#d28a24"/><path d="M736 316 H766 M736 326 H766 M736 336 H757" stroke="#fff" stroke-width="3"/>
+<text x="714" y="376" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#8a5714">PAGE EVIDENCE</text>
+<text x="714" y="402" font-family="Arial,sans-serif" font-size="17" fill="#72522a">Content + metadata</text>
+<path d="M900 358 H955" stroke="#52718e" stroke-width="4" fill="none"/><path d="M944 346 L958 358 L944 370" stroke="#52718e" stroke-width="4" fill="none"/>
+<rect x="972" y="278" width="135" height="160" rx="18" fill="#edf0fb" stroke="#8b9bd2" stroke-width="2"/>
+<circle cx="1039" cy="324" r="22" fill="#5268ad"/><path d="M1029 324 L1037 332 L1051 314" fill="none" stroke="#fff" stroke-width="4"/>
+<text x="994" y="376" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#354b8d">CITATION</text>
+<text x="994" y="402" font-family="Arial,sans-serif" font-size="16" fill="#46577d">Source link</text>
+<rect x="92" y="484" width="1015" height="82" rx="14" fill="#fff" stroke="#dbe4ee"/>
+<text x="120" y="520" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#102a43">Schema describes the page.</text>
+<text x="120" y="548" font-family="Arial,sans-serif" font-size="18" fill="#526579">It does not guarantee that a retrieval system will find, rank or cite it.</text>
+</svg>
