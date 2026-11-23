@@ -1,114 +1,257 @@
 ---
-title: "2,126 AI Answers, 4,356 Citations: What the State of AEO 2027 Study Says About Source Visibility"
+title: "2,126 AI Answers, 4,356 Citations: What the State of AEO 2027 Study Actually Found"
 date: 2026-11-23T14:00:00+05:30
-description: "An aeo.so study of 2,126 AEO-related answers across Google AI Overviews, ChatGPT, Claude, Gemini and Perplexity finds low overlap in cited domains and meaningful differences between engines."
-tag: "aeo"
+updated: 2026-11-23T18:45:00+05:30
+description: "A close reading of aeo.so's State of AEO 2027 study: how 2,126 answers were collected, why five AI engines produced six data streams, what the citation overlap means, and where the findings should not be generalised."
+tag: "AEO"
 categories: ["AEO","GEO","SEO","Research"]
-tags: ["AEO Research","AI Citations","Google AI Overviews","ChatGPT","Gemini","Claude","Perplexity"]
+tags: ["AEO Research","AI Citations","Google AI Overviews","ChatGPT","Gemini","Claude","Perplexity","DataForSEO"]
 type: "article"
-tldr: "The State of AEO 2027 study by aeo.so analysed 2,126 English-language AEO-related answers from five AI answer engines in the United States during November 2026. It counted 4,356 citations across 217 domains. The study reports only 3% to 17% overlap between pairs of engines' cited domains. It is a topic-specific industry study, not a representative sample of every AI search query or industry."
+tldr: "The State of AEO 2027 report by aeo.so analysed 2,126 answers about AEO and AI search, counted 4,356 citations and identified 217 cited domains. The sample combines 1,910 Google AI Overview answers and 176 ChatGPT database answers from DataForSEO with a separate 40-answer panel across ChatGPT, Claude, Gemini and Perplexity. The study is useful as a snapshot of AEO-source visibility in US English queries, not as a universal ranking of sources across industries."
 sources:
   - title: "State of AEO 2027: Which Sources AI Engines Cite"
     url: "https://aeo.so/research/state-of-aeo"
     publisher: "aeo.so"
     reviewed: "2026-11-23"
+  - title: "AI Optimization Data API and LLM Mentions"
+    url: "https://dataforseo.com/apis/ai-optimization-api"
+    publisher: "DataForSEO"
+    reviewed: "2026-11-23"
+  - title: "Optimizing your website for generative AI features on Google Search"
+    url: "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+    publisher: "Google Search Central"
+    reviewed: "2026-11-23"
+  - title: "Introducing Search Generative AI performance reports in Search Console"
+    url: "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"
+    publisher: "Google Search Central"
+    reviewed: "2026-11-23"
+  - title: "GEO: Generative Engine Optimization"
+    url: "https://arxiv.org/abs/2311.09735"
+    publisher: "Aggarwal et al."
+    reviewed: "2026-11-23"
+draft: true
 ---
-# 2,126 AI Answers, 4,356 Citations: What the State of AEO 2027 Study Says About Source Visibility
+# 2,126 AI Answers, 4,356 Citations: What the State of AEO 2027 Study Actually Found
 
-A study published by aeo.so in November 2026 examined which websites appear as sources when five AI answer engines respond to questions about answer engine optimisation and AI search.
+A new study from [aeo.so](https://aeo.so/research/state-of-aeo), published in November 2026, looks at a question many SEO teams are now asking: when people ask AI platforms about answer engine optimisation and AI search, which websites do those platforms cite?
 
-The research analysed 2,126 answers from Google AI Overviews, ChatGPT, Claude, Gemini and Perplexity. It recorded 4,356 citations across 217 different domains.
+The study analysed 2,126 answers, counted 4,356 citations and identified 217 different cited domains. It examined Google AI Overviews, ChatGPT, Claude, Gemini and Perplexity.
 
-The headline finding is that the engines did not consistently cite the same websites. The study reports that the overlap between pairs of engines ranged from 3% to 17%.
+Its central finding is that the platforms do not consistently cite the same websites. The report puts pairwise overlap between cited-domain sets at between 3% and 17%.
 
-That finding is useful for publishers and brands measuring AI visibility. It also needs to be read in context: the questions in the study were about AEO and AI search, not a representative mix of health, finance, travel, shopping and general information queries.
+That is an interesting finding. But the sample needs to be understood before anyone turns it into an AEO strategy. This is a study of AEO-related questions in English in the United States. It is not a ranking of the most influential websites across every industry, country or language.
 
-## Study snapshot
+## The study snapshot
 
-<box>
+The original report gives the following headline totals.
+
 | Research detail | Reported value |
 |---|---:|
 | Answers analysed | 2,126 |
 | Citations counted | 4,356 |
 | Unique domains cited | 217 |
-| Engines | 5 |
-| Observation period | November 2026 |
-| Topic | AEO and AI search questions |
-| Geography and language | United States, English |
-</box>
+| AI platforms covered | 5 |
+| Data collection date | 16 November 2026 |
+| Main topic | AEO and AI search |
+| Market and language | United States, English |
 
-## What did the researchers ask?
+**One important clarification:** the study covers five AI platforms, but it analyses six data streams. ChatGPT appears twice: once in the DataForSEO database and once in the separate ten-question panel. Those are different samples and should not be combined as if they were one identical measurement.
 
-The study focused on questions about answer engine optimisation: what it means, how to do it, which tools to use and how to measure it.
+## How were the 2,126 answers collected?
 
-For each answer, the researchers recorded source links, grouped them by website and type, and compared the domains cited by the five engines.
+The [original methodology published by aeo.so](https://aeo.so/research/state-of-aeo) describes two separate parts.
 
-This design is useful for understanding the source ecosystem around AEO questions. It does not establish which domains dominate citations in every other topic.
+### 1. The DataForSEO citation database: 2,086 answers
 
-## The reported overlap between engines
+The researchers used [DataForSEO's LLM Mentions database](https://dataforseo.com/apis/ai-optimization-api) to examine answers and cited sources for ten topic phrases:
 
-The study reports that pairs of engines shared between 3% and 17% of their cited domains.
+- Answer engine optimization
+- Generative engine optimization
+- AI SEO
+- LLM SEO
+- AI Overviews
+- AI search
+- llms.txt
+- Schema markup
+- ChatGPT SEO
+- AI visibility
 
-| Finding | Reported result |
-|---|---|
-| Lowest pairwise overlap | 3% |
-| Highest pairwise overlap | 17% |
-| Commonly cited by all four engines in the panel and citation databases | Search Engine Land |
-| Google AI Overviews | Strong presence of video and community sources in the tracked panel |
-| ChatGPT | High share of official documentation in the study's citation database |
+The database portion contained:
 
-The exact comparison depends on the study's panel and citation database. The result should not be turned into a universal claim that AI engines never agree.
+| Platform in database | Answers |
+|---|---:|
+| Google AI Overviews | 1,910 |
+| ChatGPT | 176 |
+| **Total** | **2,086** |
 
-## What kinds of sources appeared?
+The study recorded the ten most cited domains for each topic. It counted a domain once per answer for the reported answer-level percentages.
 
-The study reports that YouTube appeared in 66% of 1,910 tracked Google AI Overview answers across ten AEO and AI search topics. Reddit appeared in 25%.
+This matters because the database analysis does not provide a complete census of every long-tail domain cited. Domains outside the top ten for a topic can be missed in that part of the analysis.
 
-It also reports that official documentation, including Google Search Central and Google's help centre, accounted for 59% of ChatGPT citations in its citation database and 40% in its panel.
+### 2. The live question panel: 40 answers
 
-For Claude, Gemini and Perplexity, the study found a large share of citations going to vendor blogs, brands, tool makers and agencies.
+The researchers then asked the same ten AEO questions to four platforms through DataForSEO's AI Optimization API, with web search enabled.
 
-These are observations from the study's AEO-focused question set. The source mix may look very different in another subject area.
+| Platform | Questions asked |
+|---|---:|
+| ChatGPT | 10 |
+| Claude | 10 |
+| Gemini | 10 |
+| Perplexity | 10 |
+| **Total** | **40** |
 
-## What the numbers do and do not prove
+The study identifies the models used on 16 November 2026 as ChatGPT gpt-5.5, Claude Sonnet 5.5, Gemini 3.5 Flash and Perplexity Sonar Pro.
+
+The first answer to each question was used for the comparison. The researchers recorded the links returned by each answer.
+
+Add the two parts together and the arithmetic is clear:
+
+**2,086 database answers + 40 panel answers = 2,126 answers.**
+
+The distinction is important. The 1,910 Google AI Overview answers are database observations, while Claude, Gemini and Perplexity each have only ten answers in the live panel. Those sample sizes are not equivalent.
+
+## What did the study find?
+
+### 1. Different platforms cite different websites
+
+The report says the overlap between pairs of cited-domain sets ranged from 3% to 17%.
+
+This is the headline finding, but it needs careful interpretation. It compares the domain sets in the study's different data streams, including the separate ChatGPT database and panel samples. It does not mean that every pair of AI platforms will share only 3% to 17% of sources for every query.
+
+The practical implication is narrower and more useful: a brand or publisher should not assume that visibility in one AI platform predicts visibility in another.
+
+### 2. YouTube and Reddit appeared frequently in Google AI Overviews
+
+In the 1,910-answer Google AI Overview database sample:
+
+- YouTube appeared in 66% of tracked answers, or 1,252 answers.
+- Reddit appeared in 25%, or 481 answers.
+- Google support pages appeared in 16%, or 309 answers.
+- LinkedIn appeared in 10%, or 182 answers.
+- Semrush appeared in 9%, or 181 answers.
+
+These percentages describe how often a domain appeared in the tracked answer set. They do not mean that YouTube received 66% of all clicks, or that it is the preferred source for every Google AI Overview topic.
+
+The study also reports that video and community platforms together accounted for 49% of Google's citations by its source-type classification.
+
+### 3. Official documentation was prominent in the ChatGPT database sample
+
+The study classified 59% of ChatGPT database citations as official documentation and reference sources. In the smaller ChatGPT panel, the corresponding share was 40%.
+
+The report names Google Search Central and Google's help centre among the sources contributing to this pattern.
+
+This is a useful observation about the particular AEO questions and samples. It should not be rewritten as a universal rule that ChatGPT always prefers official documentation.
+
+### 4. Vendor and agency websites featured strongly in some smaller panels
+
+The study's source classification found that brands, vendors and agencies accounted for:
+
+| Panel | Share reported by the study |
+|---|---:|
+| Claude | 92% |
+| Gemini | 76% |
+| Perplexity | 76% |
+
+These figures come from very small panels: ten questions per platform. The Claude result, for example, is based on eight answers that returned citations. Treat these numbers as early observations, not stable market benchmarks.
+
+### 5. Search Engine Land appeared across the study's sources
+
+The study identifies Search Engine Land as the only domain cited by all four platforms in the live question panel and by both database samples. It was cited in seven of Perplexity's ten panel answers.
+
+That is a notable result for a trade publication. But the finding applies to this AEO-focused set of questions. It does not establish that Search Engine Land is the most cited publisher for other subjects.
+
+## The six data streams should not be mistaken for six AI engines
+
+The original report compares six columns in its cross-engine citation table:
+
+1. Google AI Overviews, database
+2. ChatGPT, database
+3. ChatGPT, question panel
+4. Claude, question panel
+5. Gemini, question panel
+6. Perplexity, question panel
+
+There are five AI platforms, not six. ChatGPT has two separate samples because the study combines a database source and a live question panel.
+
+This distinction is important when reading the reported 3% to 17% overlap. A comparison between two database samples is not the same as a comparison between two live panel tests. The sample size, collection method and source coverage differ.
+
+The report's own table is the place to inspect individual domain percentages. Do not turn the overlap range into a universal cross-platform score.
+
+## What the research does not prove
 
 | The study supports | The study does not establish |
 |---|---|
-| Different engines can cite different domains for similar AEO questions | A universal citation ranking for all industries |
-| YouTube and Reddit appeared frequently in the Google AI Overview panel | That video or forums are always preferred by Google AI Overviews |
-| Official documentation was prominent in the ChatGPT sample | That official documentation dominates every ChatGPT query |
-| Vendor sources were common in some engine samples | That vendors have a guaranteed citation advantage |
+| Different AI platforms can cite different domains for AEO questions | A universal ranking of AI citation sources |
+| YouTube and Reddit appeared frequently in the Google sample | That video and forums dominate every AI search topic |
+| Official documentation was prominent in the ChatGPT database sample | That every ChatGPT answer prefers official documentation |
+| Vendor and agency sites featured heavily in some small panels | That vendors have a guaranteed citation advantage |
+| A fixed prompt set can reveal differences between platforms | That ten questions represent the behaviour of an entire platform |
 
-## Why this matters for AEO measurement
+There are further limitations worth keeping in view.
 
-A publisher that checks only one AI engine can miss a substantial part of the source landscape. A page may be cited by one system and absent from another.
+**The topic is narrow.** All questions were about AEO and AI search. Health, banking, travel, ecommerce, news and local-service questions may produce very different source patterns.
 
-A useful monitoring programme should therefore report each engine separately.
+**The geography and language are narrow.** The study used US English queries. It cannot be assumed to represent Indian users, Hindi or regional-language searches.
 
-### A practical cross-engine measurement table
+**The samples are uneven.** Google AI Overviews has 1,910 database answers, while Claude, Gemini and Perplexity have ten panel answers each.
 
-| Metric | How to measure it |
-|---|---|
-| Citation frequency | Number of answers that cite a domain |
-| Citation share | Domain citations divided by all citations in the sample |
-| Cross-engine overlap | Shared cited domains between two engines |
-| URL-level visibility | Specific pages cited, not just root domains |
-| Brand mention rate | Answers that name the brand in the text |
-| Citation accuracy | Whether the cited page supports the claim |
+**Topic counts can overlap.** An answer matching more than one of the ten topic phrases can appear in more than one topic-level count.
 
-A citation count is not the same as a brand mention. It is also not the same as referral traffic. Those outcomes need separate measurements.
+**Some source coverage is limited.** The database analysis reports the ten most cited domains per topic, which can under-represent smaller sites. The report also notes that some platforms returned fewer citations or no citations for particular questions.
 
-## Methodology and limitations
+**AI answers change.** Models, search systems, prompts and retrieved sources can change. The results are a dated snapshot, not a permanent ranking.
 
-The study is an industry research project published by aeo.so. Its questions were written in English, focused on AEO and AI search, and associated with the United States.
+## What should SEO and AEO teams do with this research?
 
-The results are therefore most useful as a snapshot of how AI systems source answers about this particular topic.
+The study is not a list of websites to copy. It is a reason to stop treating one AI platform as a proxy for all the others.
 
-The public study page provides headline counts and a description of the question scope. Before using the results as a benchmark for another industry, researchers should inspect the underlying question set, sampling procedure, model versions and collection dates.
+A practical measurement programme should include six checks.
 
-## What publishers should take from it
+1. **Build a question set from customer intent.** Include informational, comparison, transactional and support questions relevant to your actual category.
+2. **Test platforms separately.** Record Google AI Overviews, ChatGPT, Claude, Gemini and Perplexity independently. Do not combine their results into one unexplained score.
+3. **Record exact URLs as well as domains.** A domain-level mention can hide which specific article, product page or documentation page was cited.
+4. **Separate citations from mentions.** A platform may name a brand without linking to it. A citation is a source link, not necessarily a recommendation.
+5. **Check factual accuracy.** Record whether the answer describes the product, service, location, price and company correctly.
+6. **Repeat the test.** Keep prompts and conditions stable, then compare results over time. A one-off answer is not a trend.
 
-The practical lesson is not to chase a single list of websites that supposedly win AI citations. It is to test the actual questions audiences ask and observe which sources each engine retrieves and cites.
+For a repeatable approach, see our [20-prompt AI visibility test, scoring rubric and monthly routine](/a-20-prompt-ai-visibility-test-template-scoring-rubric-and-monthly-routine/).
 
-A publisher should build its own repeatable question set, record cited URLs, distinguish named mentions from linked citations and repeat the measurement over time.
+## What Google itself says about AI Search visibility
 
-**Source and research note:** This article analyses the study published by aeo.so, updated November 17, 2026. The findings are attributed to the study's authors and are not an independent replication. The sample is limited to AEO-related questions in English in the United States. Read the original study for the full methodology and caveats.
+The study is about which sources appeared in a particular set of AI answers. It should not be confused with Google's official guidance on how to appear in its generative search features.
+
+In its [guide to optimising websites for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), Google says established SEO fundamentals remain relevant to AI Overviews and AI Mode. The guide highlights useful, original content, clear organisation, strong page experience, and high-quality images and video.
+
+Google also explains that its generative Search features use its core Search systems to retrieve relevant pages and generate responses with links to supporting sources.
+
+Separately, Google's [Search Generative AI performance report announcement](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports) explains the visibility data available in Search Console, including impressions and the pages appearing in AI features. That is a Google Search reporting product. It does not measure ChatGPT, Claude, Gemini or Perplexity citations.
+
+The distinction matters. Use the aeo.so research to understand a sample of cross-platform citations. Use Search Console to monitor Google's own reported AI search impressions. Use analytics and CRM data to understand visits, leads and revenue.
+
+## Why this matters for Indian publishers and businesses
+
+An Indian ecommerce company, bank, hospital, SaaS provider or news publisher should not copy the source mix from a US AEO study and assume it will work in its own category.
+
+A healthcare question in India may surface hospital websites, medical associations and government health information. A consumer finance question may surface banks, regulators and comparison sites. A regional news query may depend on local publishers and language-specific sources.
+
+The right approach is to repeat the research with the questions your own audience asks, in the markets and languages where you operate.
+
+That is how a business can discover whether its pages are being cited, which competitors appear instead, and where the factual gaps are.
+
+## The takeaway
+
+The State of AEO 2027 study is a useful early snapshot of how five AI platforms cited sources for questions about AEO and AI search. It analysed 2,126 answers through two different collection methods, counted 4,356 citations and found 217 cited domains.
+
+Its most useful lesson is not that one source type wins everywhere. It is that the source mix changes by platform, question set and collection method.
+
+Use the numbers as a starting point for your own testing. Do not present them as a universal citation ranking, and do not confuse the six data streams in the report with six separate AI engines.
+
+## Primary sources and further reading
+
+- [State of AEO 2027: Which Sources AI Engines Cite](https://aeo.so/research/state-of-aeo) — original study, full methodology, platform tables and downloadable data.
+- [DataForSEO AI Optimization Data API](https://dataforseo.com/apis/ai-optimization-api) — description of the LLM Mentions and LLM Responses data services used in the research.
+- [Google Search Central: Optimizing your website for generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — Google's official guidance for AI Overviews and AI Mode.
+- [Google Search Central: Search Generative AI performance reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports) — Google's explanation of its Search Console AI visibility reporting.
+- [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) — academic paper by Pranjal Aggarwal and co-authors introducing the GEO research framework.
+
+**Research attribution:** The counts and findings in this article are attributed to Paul Andre de Vera's *State of AEO 2027: Which Sources AI Engines Cite*, published by aeo.so on 15 November 2026 and updated on 20 November 2026. The data was pulled on 16 November 2026. This article is an editorial reading of the published study, not an independent replication. The original study is the primary source for all reported figures.
