@@ -17,7 +17,6 @@ sources:
     publisher: "Reuters"
     reviewed: "2026-11-23"
 ---
-# OpenAI Proposes Shared Limits on AI Development. Can the Industry Agree on a Common Safety Threshold?
 
 OpenAI has proposed a shared way for leading AI developers to measure progress and agree on limits for increasingly capable models. In an essay published on November 22, 2026, OpenAI chief scientist Jakub Pachocki argues that developers should track a measure called perplexity and use it, alongside other evaluations, to inform common safety standards.
 

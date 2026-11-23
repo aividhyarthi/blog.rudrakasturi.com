@@ -13,7 +13,6 @@ sources:
     publisher: "OpenAI"
     reviewed: "2026-11-23"
 ---
-# OpenAI Opens Applications for 50,000 Academic Research Grants. Each Grant Covers Up to Three Researchers
 
 OpenAI is opening a new application round for its ChatGPT for Academic Researchers programme on November 23, 2026. The company plans to provide 50,000 new grants to eligible researchers, with each grant covering one researcher and up to two collaborators.
 

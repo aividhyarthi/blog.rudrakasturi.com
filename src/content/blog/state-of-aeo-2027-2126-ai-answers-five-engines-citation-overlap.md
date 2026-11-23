@@ -30,7 +30,6 @@ sources:
     publisher: "Aggarwal et al."
     reviewed: "2026-11-23"
 ---
-# 2,126 AI Answers, 4,356 Citations: What the State of AEO 2027 Study Actually Found
 
 A new study from [aeo.so](https://aeo.so/research/state-of-aeo), published in November 2026, looks at a question many SEO teams are now asking: when people ask AI platforms about answer engine optimisation and AI search, which websites do those platforms cite?
 

@@ -13,7 +13,6 @@ sources:
     publisher: "National Governors Association"
     reviewed: "2026-11-23"
 ---
-# US Governors Call for a National AI Framework. Their Proposal Defines Federal and State Roles
 
 The National Governors Association (NGA) has called for a coordinated national approach to artificial intelligence policy in the United States. In principles announced on November 22, 2026, its bipartisan Governors Council to Secure American AI Dominance asked Congress to develop a federal framework while preserving an appropriate role for state governments.
 
