@@ -17,7 +17,6 @@ sources:
     publisher: "Yonhap News Agency"
     reviewed: "2026-11-23"
 ---
-# South Korea's Education Minister Resigns After AI Cheating Rules Disrupt University Entrance Exam
 
 South Korea's Education Minister Choi Kyo-jin resigned on November 22, 2026, after last-minute measures designed to prevent AI-assisted cheating caused confusion around the country's national university entrance examination.
 

@@ -15,10 +15,6 @@ sources:
     reviewed: "Preprint submitted 10 October 2026; peer review not established"
 ---
 
-# Does Adding Schema Markup Help Your Website Get Cited by AI Search Engines?
-
-*An analysis of 158,099 AI-generated answers suggests that retrieval and query relevance may matter more than adding FAQ blocks, structured data and other page elements.*
-
 ## The short answer
 
 Schema markup helps describe information on a website. But a large 90-day study from two University of Toronto researchers did **not** find a statistically robust, independent citation advantage for schema markup when it compared pages belonging to the same website.
