@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<text x="72" y="82" font-family="Arial,sans-serif" font-size="18" fill="#555">RUDRAKASTURI.COM  /  SEARCH RESEARCH</text>
+<text x="72" y="145" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#111">What is changing in Google Search?</text>
+<text x="72" y="183" font-family="Arial,sans-serif" font-size="21" fill="#555">A conceptual view of the December 2026 update's stated focus</text>
+<rect x="72" y="260" width="235" height="150" rx="14" fill="#f4f4f4" stroke="#222" stroke-width="2"/>
+<text x="189" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#111">User's task</text>
+<text x="189" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#444">Intent and context</text>
+<path d="M307 335 H375" stroke="#222" stroke-width="3" fill="none"/><path d="M363 323 L375 335 L363 347" stroke="#222" stroke-width="3" fill="none"/>
+<rect x="380" y="240" width="250" height="190" rx="14" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="505" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#111">Search systems</text>
+<text x="505" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#444">Complex questions</text>
+<text x="505" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#444">Relevant content</text>
+<text x="505" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#444">Personalised results*</text>
+<path d="M630 335 H698" stroke="#222" stroke-width="3" fill="none"/><path d="M686 323 L698 335 L686 347" stroke="#222" stroke-width="3" fill="none"/>
+<rect x="703" y="260" width="220" height="150" rx="14" fill="#f4f4f4" stroke="#222" stroke-width="2"/>
+<text x="813" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#111">Useful sources</text>
+<text x="813" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#444">Web pages and media</text>
+<path d="M923 335 H990" stroke="#222" stroke-width="3" fill="none"/><path d="M978 323 L990 335 L978 347" stroke="#222" stroke-width="3" fill="none"/>
+<rect x="995" y="260" width="135" height="150" rx="14" fill="#111"/>
+<text x="1062" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff">Answer</text>
+<text x="1062" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#fff">and next</text>
+<text x="1062" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#fff">steps</text>
+<text x="72" y="505" font-family="Arial,sans-serif" font-size="18" fill="#333">*Google says the update improves personalised results for people with personalisation enabled.</text>
+<text x="72" y="540" font-family="Arial,sans-serif" font-size="17" fill="#666">This is an editorial illustration, not a diagram of Google's internal ranking architecture.</text>
+<line x1="72" y1="590" x2="1128" y2="590" stroke="#bbb" stroke-width="1"/>
+<text x="72" y="625" font-family="Arial,sans-serif" font-size="16" fill="#777">November 24, 2026  |  Google Core Update Research</text>
+</svg>
