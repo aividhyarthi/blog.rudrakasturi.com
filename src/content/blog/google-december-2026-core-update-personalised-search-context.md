@@ -1,13 +1,12 @@
 ---
-title: "Google Finished One Core Update. 25 Minutes Later, It Announced Another. Is Search Changing Faster Than Ever?"
+title: "Google Finished One Core Update. 59 Minutes Later, It Announced Another. Is Search Changing Faster Than Ever?"
 date: 2026-11-24T22:06:00+05:30
-description: "Google completed its November core update and announced another for December just 25 minutes later. Add Gemini 4 Hydrogen, AI Mode and Personal Intelligence, and a bigger question emerges: is Search being rebuilt on several fronts at once?"
+description: "Google completed its November core update and announced another for December less than an hour later. Add Gemini 4 Hydrogen, AI Mode and Personal Intelligence, and a bigger question emerges: is Search being rebuilt on several fronts at once?"
 tag: "Google Search"
-tldr: "Google marked its November 2026 core update complete at 06:38 PST on 24 November. At 07:03 PST, it preannounced a December core update. The next update is not live yet. Meanwhile, Gemini 4 Hydrogen, query fan-out and Personal Intelligence are changing how people search and how Google assembles answers. These developments point in the same broad direction, but Google has not said they are all part of one algorithm update."
+tldr: "Google marked its November 2026 core update complete at 06:03 PST on 24 November. At 07:03 PST, less than an hour later, it preannounced a December core update. The next update is not live yet. Meanwhile, Gemini 4 Hydrogen, query fan-out and Personal Intelligence are changing how people search and how Google assembles answers. These developments point in the same broad direction, but Google has not said they are all part of one algorithm update."
 categories: ["Google Search", "SEO", "AEO", "AI Search", "Research"]
 tags: ["November 2026 Core Update", "December 2026 Core Update", "Gemini 4 Hydrogen", "AI Mode", "Personal Intelligence", "Query Fan-Out", "Search Evolution"]
 type: "research"
-draft: true
 sources:
   - title: "Google Search Status Dashboard"
     url: "https://status.search.google.com/"
@@ -59,7 +58,7 @@ sources:
     reviewed: "2026-11-24"
 ---
 
-Google finished rolling out its November 2026 core update on 24 November. Then, just 25 minutes later, it announced another core update for December.
+Google finished rolling out its November 2026 core update on 24 November. Then, less than an hour later, it announced another core update for December.
 
 That is the headline. But the more important story is what is happening around these updates. This is part of a wider pattern covered in our [AEO research and updates hub](https://blog.rudrakasturi.com/category/aeo/), where we track how Google, Gemini and other answer engines are changing discovery.
 
@@ -71,16 +70,16 @@ The answer is that Search is clearly evolving on several fronts. But we need to 
 
 ![Illustration showing the shift from a single search query to a more contextual search journey involving AI, related questions and useful sources](/images/google-december-2026-search-context.svg)
 
-## The 25-minute gap that caught the industry’s attention
+## The under-an-hour gap that caught the industry’s attention
 
 Here is the timeline from Google's own Search Status Dashboard. All times below are US Pacific Time.
 
 | Event | Date and time | What it means |
 |---|---|---|
-| November core update completed | 24 November, 06:38 PST | The November rollout was marked complete |
+| November core update completed | 24 November, 06:03 PST | The November rollout was marked complete |
 | December core update preannounced | 24 November, 07:03 PST | Google announced a further core update scheduled for December |
 
-The gap between the two dashboard updates was 25 minutes.
+The gap between the two dashboard updates was about 59 minutes - under an hour, but not the back-to-back minutes some early social posts suggested.
 
 The November update had run for 13 days and 20 hours. The December update, however, has only been announced. It has not started rolling out as of 24 November.
 
@@ -88,7 +87,7 @@ Google's notice says the December update will improve how its systems understand
 
 This is unusual because Google has given the industry an advance description of the next core update before its rollout begins. It gives publishers a little more context, but not a checklist of ranking factors or a prediction of which websites will gain or lose visibility.
 
-**The 25-minute gap is a newsworthy timeline. It is not evidence that the December update is a correction to the November update.** Google has not said that one update caused the other or that the December update is a response to complaints about November.
+**The under-an-hour gap is a newsworthy timeline. It is not evidence that the December update is a correction to the November update.** Google has not said that one update caused the other or that the December update is a response to complaints about November.
 
 ## Why the December update matters beyond another ranking shake-up
 
