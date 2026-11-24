@@ -13,7 +13,7 @@ sources:
     publisher: "Search Engine Land"
     reviewed: "2026-11-24"
   - title: "S15E8 Elizabeth Reid, VP of Search at Google on How AI is Changing Search"
-    url: "https://www.youtube.com/results?search_query=FOMO+Sapiens+Elizabeth+Reid+VP+of+Search+Google"
+    url: "https://patrickmcginnis.com/liz-reid/"
     publisher: "FOMO Sapiens"
     reviewed: "2026-11-24"
   - title: "AEO, GEO, AI SEO: what the terms mean, and what Google actually says to do"
