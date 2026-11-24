@@ -1,11 +1,11 @@
 ---
-title: "Google's Liz Reid Says AI Search Has Less Room for Commodity Content. What Should Publishers Do Now?"
+title: "Google's Liz Reid on AI Search: Why Basic Informational Pages May Lose Traffic"
 date: 2026-11-24T08:05:00+05:30
-description: "Google Search chief Liz Reid says shallow informational pages face pressure as AI answers more basic questions. Her comments point publishers towards original expertise, research and distinctive perspectives, but leave the economics question unresolved."
+description: "Google Search chief Liz Reid says AI can answer basic questions directly, leaving publishers with a harder job of earning clicks. What her comments mean for SEO, AEO and original content."
 tag: "AEO"
-tldr: "Google Search chief Liz Reid says AI can reduce the value of shallow pages that repeat basic information, while original expertise, unique experience, communities and in-depth research continue to matter. This is Google's view of content demand, not a promise that publishers will recover traffic or revenue. Publishers need to build content that offers a reason to visit beyond the answer itself."
-categories: ["SEO", "AEO", "Google", "AI Search", "Publishing", "Content Strategy"]
-tags: ["Liz Reid", "Google Search", "Publisher Strategy", "Commodity Content", "Original Research", "AI Search"]
+tldr: "Google Search chief Liz Reid says AI can answer basic informational queries, such as a time-zone question, without requiring a user to open a separate webpage. She contrasted this with content built around opinion, experience and trusted perspectives. Her comments are not a new Google ranking update. They underline the need for publishers to offer original reporting, useful analysis and a clear reason for readers to visit."
+categories: ["SEO", "AEO", "AI Search", "Google", "Publishing"]
+tags: ["Liz Reid", "Google Search", "AI Search Traffic", "AEO", "Publisher SEO", "Original Content"]
 type: "article"
 sources:
   - title: "Google's Liz Reid: AI search has less room for commodity content"
@@ -23,127 +23,74 @@ sources:
 draft: true
 ---
 
-A page explaining the time zone in Japan is useful. But if a search engine can answer that question directly, how much reason does a person have to visit a separate webpage just to read the same fact?
+If someone searches for the time in Japan, an AI answer can provide it immediately. The person may have no reason to open a separate article that repeats the same information.
 
-That is the kind of content Google Search chief Liz Reid says is becoming less valuable in an AI-powered search environment.
+That is the challenge Google Search chief Liz Reid was discussing in a November 23 interview on Patrick McGinnis' FOMO Sapiens podcast. As AI answers more basic questions directly, publishers may find it harder to earn visits from pages that offer little beyond information already available elsewhere.
 
-In a November 23 interview on Patrick McGinnis' FOMO Sapiens podcast, Reid discussed how publishers and media companies can survive as AI answers more questions directly. Her comments are important because they offer a view from the person leading Google Search. They also expose a gap that publishers have been asking about for years: even if original content remains valuable, how does that value translate into sustainable traffic and revenue?
+Reid made a useful distinction. A simple factual answer can be generated directly, but people may still seek fashion advice, personal experience, expert opinion and perspectives from writers or creators they trust.
 
-## What Liz Reid actually said
+For publishers, this is a traffic and editorial strategy issue. It is not an announcement of a new Google ranking factor.
 
-Reid's argument is not that people no longer want content from the web. It is that people want different kinds of content for different reasons.
+## What did Google's Liz Reid say about AI search and publishers?
 
-She used a basic time-zone page as an example of information that AI can provide without requiring a user to open a standalone article. She contrasted that with fashion advice, where people may still want opinions, recommendations and perspectives from writers or creators they trust.
+Reid used a basic time-zone page to explain how AI can reduce the need to visit a webpage for a simple fact. She contrasted that with fashion advice, where a reader may value the judgement and taste of a trusted person.
 
-Her broader point was that original expertise, unique experiences, communities and in-depth research continue to have a role. She also described Google's ambition for Search as a web-forward experience that brings AI answers together with useful material from across the web.
+Her broader point was that original expertise, unique experience, communities and in-depth research continue to have value. She also described Google's aim of making Search more connected to the wider web.
 
-That distinction matters. The interview is not a new ranking-factor announcement. Reid is describing how the value of different types of web content may change as AI becomes more capable.
+The important distinction is between information that can be answered directly and content that gives a reader something more. Reid did not announce that Google will penalise all informational articles, nor did she provide a new SEO ranking formula.
 
-## The commodity content problem is not new
+## Which pages are most exposed to AI answers?
 
-Publishers have spent years producing pages for queries that are easy to identify and relatively easy to answer.
+A page is more exposed when it repeats information that is easy to find and summarise.
 
-Think of articles that simply restate a definition, list a few generic tips or rewrite information already available on official websites. Such pages may have attracted visits because search engines needed to direct users somewhere to get the answer.
+For example, a page that only states the current time in another country, defines a common term or rewrites a public fact may have limited value beyond the direct answer. An AI answer can combine such information without requiring the user to visit several websites.
 
-AI changes that calculation. If a generated answer can combine the basic facts from several sources, the user may not need to open a page that contributes little beyond those facts.
+This does not mean that every definition, explainer or basic guide will lose traffic. Accuracy and clear answers remain important for SEO and AEO. The risk is higher when a page adds no reporting, evidence, experience or useful next step.
 
-This does not mean that every explainer or informational article is now obsolete. Accuracy, clarity and useful structure still matter. But a page that only repeats common knowledge has a weaker reason to exist when the answer is available directly in the search experience.
+A basic explainer can still earn a visit if it answers a more specific question, explains an important exception or helps the reader complete a task.
 
-The real test is whether the page contributes something that a short generated answer cannot easily replace.
+## What should publishers create instead?
 
-## What makes a page worth visiting?
+The practical response is not to make every article longer. It is to give each page a clear reason to exist.
 
-Publishers should look at five forms of value.
+A product review should contain genuine testing or clearly attributed evidence, not a rewrite of the manufacturer's product page. A policy article should link to the official notification and explain who is affected. A technology story should show what has changed, who it affects and what remains uncertain.
 
-### 1. First-hand experience
+For example, a generic article explaining what a new AI feature does may be easy for an assistant to summarise. A reported comparison showing how the feature performs on three real tasks, with screenshots, limitations and a repeatable method, gives the reader something more useful to inspect.
 
-A product review based on actual use is different from a page that repeats a manufacturer's specifications. A travel article with original observations is different from a list assembled from other websites.
+That is the difference publishers should build into their editorial planning.
 
-The experience must be real and attributable. Do not invent first-hand testing or use vague phrases such as "we tested" when no test took place.
+## What does this mean for SEO and AEO?
 
-### 2. Original research and evidence
+SEO still helps search engines discover, crawl and understand a publisher's pages. AEO adds another practical concern: whether the page gives a clear, accurate answer that can be understood and referenced in AI-generated responses.
 
-A publisher that analyses a dataset, interviews relevant experts or documents a trend can contribute evidence that is not available in a generic summary.
+Neither approach can guarantee a citation or a click. But both benefit when a page has a clear subject, direct language, reliable sourcing and information that is not simply copied from elsewhere.
 
-Original research does not always require a large survey. A transparent analysis of public data, a carefully documented comparison or a local-language study can be useful if the method and limitations are explained.
+Publishers should review pages that attract impressions but offer little original value. Improve them with reporting, evidence, expert context, examples or a useful tool. Consolidate overlapping pages where they serve the same purpose. Do not delete pages solely because they have low traffic without checking backlinks, conversions, audience needs and their role in the wider site.
 
-### 3. A distinctive point of view
+## How should publishers measure the impact?
 
-Readers often return to a writer because they value the writer's judgement. Analysis, interpretation and informed disagreement can create a reason to read beyond the basic facts.
+Continue tracking organic impressions, clicks, rankings and landing-page engagement. Add a separate view of AI citations, brand mentions and identifiable AI referral visits.
 
-A point of view should be supported by evidence. Strong opinions without reporting are not a substitute for original work.
+For a publisher, also track returning users, newsletter subscriptions, registrations and revenue contribution. A citation is not a visit, and a visit is not necessarily a returning reader.
 
-### 4. Community and trust
+Use the same set of prompts each month to see whether AI systems are citing original reporting and whether they describe the publication accurately. Our guide to [AEO, GEO and AI SEO](/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says-to-do/) explains how these forms of visibility differ.
 
-People follow publications, creators and subject experts because they want continuity. They want to understand how a person thinks about a subject over time, not just receive one isolated answer.
+## Questions publishers are asking about Liz Reid's comments
 
-This is one reason newsletters, recurring columns, expert communities and creator-led formats can matter alongside search traffic.
+### Did Google announce a new SEO ranking update?
 
-### 5. Useful tools and decision support
+No. Reid was discussing how AI changes the value of different kinds of content. The interview did not announce a new ranking factor or a specific algorithm update.
 
-A calculator, comparison framework, downloadable checklist or interactive guide can help someone complete a task. It offers utility beyond a paragraph that explains the same topic.
+### Does AI search mean informational articles will stop getting traffic?
 
-The strongest pages may combine several of these elements. A research article, for example, can include original data, an expert interpretation, a practical tool and a clear explanation of limitations.
+No. The impact will vary by query and page. Basic pages that only repeat easily available facts may face more pressure, while useful explainers with original evidence, examples and practical detail can still give people a reason to visit.
 
-## What publishers should stop doing
+### What kind of content should publishers prioritise?
 
-Reid's comments should prompt a content audit, not a mass deletion exercise.
+Prioritise original reporting, first-hand experience where genuine, expert analysis, original research, useful comparisons and practical guides. The content should answer the reader's question and add something that a short AI answer cannot easily replace.
 
-Start by identifying pages that exist mainly because a keyword has search volume. Look for articles that repeat the same definitions, generic lists and surface-level explanations without adding evidence or a useful perspective.
+### Should publishers remove older SEO articles?
 
-Then ask three questions.
+Not automatically. Review search performance, backlinks, conversions, accuracy and audience value first. Update, combine or retire pages based on evidence rather than applying a blanket deletion rule.
 
-- Would a reader choose to spend time with this page if it did not appear in Google?
-- Does it contain information, experience or analysis that is difficult to find elsewhere?
-- Does it help the reader make a decision or understand something more clearly?
-
-A page that fails these tests may need to be consolidated, improved or retired. But traffic, backlinks, conversions, legal requirements and user needs should be checked before removing it. A low-traffic page may still serve an important audience or support a larger topic.
-
-## A practical editorial framework for 2027
-
-Publishers can classify planned articles into four groups.
-
-| Content type | What it should deliver | Editorial decision |
-|---|---|---|
-| Basic reference | Accurate answer to a simple question | Keep concise and maintain accuracy |
-| Original reporting | New facts, interviews or verified developments | Prioritise |
-| Evidence-led analysis | Data, context, interpretation and limitations | Invest in depth |
-| Experience and community | First-hand insight, expert voice and useful discussion | Build recurring formats |
-
-This is not a formula for Google's rankings. It is a way to allocate editorial resources where readers are more likely to find distinct value.
-
-For a newsroom, this could mean fewer rewrites of announcement pages and more reporting that explains what a policy or technology change means in practice. For a specialist blog, it could mean publishing fewer generic "what is" articles and more original comparisons, tests and implementation guides.
-
-For Indian publishers, the opportunity also includes local context. A national AI answer may not explain how a policy affects a small business in a particular state, how a technology works in a regional-language workflow or what a local consumer should check before making a purchase. Properly reported local insight can be more useful than another generic global explainer.
-
-## The unanswered question is publisher economics
-
-There is a limit to what Reid's comments resolve.
-
-She described continued demand for distinctive web content and Google's interest in helping users connect with publishers and creators they trust. But the interview did not provide a model for replacing publisher revenue if AI answers reduce visits to pages that previously earned advertising income.
-
-A publisher cannot pay reporters with the promise that its work is valuable. It needs a business model that converts that value into subscriptions, memberships, events, licensing, commerce, sponsorship or other sustainable revenue.
-
-Nor does a strong article automatically receive enough distribution. Original work still needs to be discovered, cited, recommended and read.
-
-That is why the publisher strategy must cover both editorial differentiation and audience relationships. Search visibility is important, but it cannot be the only route to a reader.
-
-## What to measure beyond rankings
-
-A useful publisher dashboard should continue tracking organic impressions, clicks, landing-page engagement and conversions. Add a separate view of AI citations, brand mentions, referral visits and the accuracy of generated summaries.
-
-Also measure returning readers, newsletter subscriptions, direct visits, registrations and the contribution of individual content formats to revenue.
-
-Do not treat a citation as a visit or a mention as a loyal reader. Each metric describes a different step in the audience relationship.
-
-Our guide to [AEO, GEO and AI SEO](/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says-to-do/) explains why visibility across AI answers needs to be measured separately from traditional search performance.
-
-## The takeaway
-
-Liz Reid's comments point to a difficult but useful editorial question: if an AI assistant can provide the same information without opening your page, what is the reason for a reader to visit you?
-
-The answer cannot be more words, more headings or another version of the same generic article. It has to be original reporting, evidence, experience, judgement, community or a tool that genuinely helps.
-
-But publishers should not mistake Google's view of content value for a solution to the economics of publishing. Better content is necessary. Distribution, audience relationships and revenue still need to be built.
-
-The future is not simply about writing for AI systems. It is about creating work that people have a reason to seek out, trust and return to.
+Reid's comments point to a straightforward editorial test: if an AI answer can reproduce the entire value of a page in a few lines, the page needs a stronger reason for someone to visit. For publishers, that reason has to come from reporting, evidence, experience or judgement. Better content alone does not solve the business model, but without distinct content, earning search traffic and reader loyalty becomes harder.
