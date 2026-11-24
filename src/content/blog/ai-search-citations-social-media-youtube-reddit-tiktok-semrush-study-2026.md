@@ -25,6 +25,8 @@ A new Semrush study has measured this shift across Google AI Overviews, AI Mode,
 
 The finding matters to anyone working on Answer Engine Optimisation (AEO), Generative Engine Optimisation (GEO) and AI search visibility. It suggests that a brand's website is only one part of the information environment AI systems draw from. But the numbers need to be read carefully. More citations do not automatically mean more website visits, sales or influence.
 
+![Semrush found citations to 18 tracked social and user-generated content domains rose 52 percent across Google AI products and fell 44 percent in ChatGPT from January to August 2026](/images/editorial/semrush-ai-citations-jan-aug-2026.svg)
+
 ## What did the Semrush AI search study measure?
 
 Semrush analysed US prompt data from January through August 2026. It tracked 18 domains, including YouTube, Reddit, Facebook, Instagram, Quora, TikTok, LinkedIn, Medium, Pinterest, X, Substack, Dailymotion, Snapchat, Behance, Vimeo, Twitch, Bilibili and Bluesky.
