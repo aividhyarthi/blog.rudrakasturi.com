@@ -16,7 +16,6 @@ sources:
     url: "https://9to5google.com/2026/11/23/ai-mode-wallet-gemini/"
     publisher: "9to5Google"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 Ask Google AI Mode for general advice and it can use information from the web. Connect selected personal apps, and the answer may also take your own documents, spending information or previous Gemini conversations into account.
