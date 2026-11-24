@@ -1,6 +1,6 @@
 ---
 title: "Do 10 Websites Dominate AI Search Citations? Understanding Citation Concentration"
-date: 2026-11-24T10:45:00+05:30
+date: 2026-11-24T19:00:00+05:30
 description: "Learn how to measure AI search citation concentration, calculate the share captured by the top 10 domains and identify whether a small group of websites dominates your category's AI answers."
 tag: "AEO"
 categories: ["AEO", "GEO", "AI Search", "Research"]
@@ -24,7 +24,6 @@ sources:
     url: "https://www.searchintel.tech/downloads/SearchIntel-AI-Search-Visibility-Benchmarks-2026-Ed1.pdf"
     publisher: "SearchIntel"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

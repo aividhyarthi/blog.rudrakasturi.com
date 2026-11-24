@@ -1,6 +1,6 @@
 ---
 title: "How Consistently Do ChatGPT, Gemini and Perplexity Cite the Same Websites?"
-date: 2026-11-24T10:00:00+05:30
+date: 2026-11-24T16:00:00+05:30
 description: "AI citations can change between prompts and repeated runs. Learn how to measure citation consistency across ChatGPT, Gemini and Perplexity without confusing normal variation with a lasting visibility change."
 tag: "AEO"
 categories: ["AEO", "GEO", "AI Search", "Research"]
@@ -20,7 +20,6 @@ sources:
     url: "https://developers.google.com/search/docs/appearance/ai-features"
     publisher: "Google Search Central"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

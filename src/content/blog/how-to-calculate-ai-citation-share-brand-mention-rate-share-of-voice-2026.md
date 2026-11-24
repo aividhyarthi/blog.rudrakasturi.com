@@ -1,6 +1,6 @@
 ---
 title: "How to Calculate AI Citation Share, Brand Mention Rate and AI Share of Voice"
-date: 2026-11-24T09:30:00+05:30
+date: 2026-11-24T14:00:00+05:30
 description: "Learn how to calculate AI citation share, brand mention rate and AI share of voice across ChatGPT, Gemini and Perplexity, with formulas, worked examples and reporting rules."
 tag: "AEO"
 categories: ["AEO", "GEO", "AI Search", "Measurement"]
@@ -20,7 +20,6 @@ sources:
     url: "https://blog.rudrakasturi.com/ranking-on-google-is-no-longer-the-whole-story-how-businesses-should-measure-ai-search-visibility/"
     publisher: "RudraKasturi.com"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

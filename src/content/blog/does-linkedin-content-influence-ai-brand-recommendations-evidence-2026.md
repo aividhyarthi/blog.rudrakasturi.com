@@ -1,6 +1,6 @@
 ---
 title: "Does LinkedIn Content Influence AI Brand Recommendations? What the Evidence Shows"
-date: 2026-11-24T10:15:00+05:30
+date: 2026-11-24T17:00:00+05:30
 description: "LinkedIn posts, member profiles and company pages are appearing in AI search citations. What recent studies show, what they do not prove, and how B2B brands should measure LinkedIn's role in AI visibility."
 tag: "AEO"
 categories: ["AEO", "GEO", "Social Media", "AI Search"]
@@ -20,7 +20,6 @@ sources:
     url: "https://developers.google.com/search/docs/appearance/ai-features"
     publisher: "Google Search Central"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

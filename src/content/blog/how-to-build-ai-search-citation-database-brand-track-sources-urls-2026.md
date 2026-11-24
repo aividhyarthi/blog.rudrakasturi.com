@@ -1,6 +1,6 @@
 ---
 title: "How to Build an AI Search Citation Database to Track Brands, Sources and URLs"
-date: 2026-11-24T11:15:00+05:30
+date: 2026-11-24T21:00:00+05:30
 description: "Build a practical AI search citation database to record prompts, brand mentions, recommendations, cited URLs, source domains and competitor visibility across ChatGPT, Gemini and Perplexity."
 tag: "AEO"
 categories: ["AEO", "GEO", "AI Search", "Tools and Measurement"]
@@ -20,7 +20,6 @@ sources:
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7699899"
     publisher: "SSRN preprint"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

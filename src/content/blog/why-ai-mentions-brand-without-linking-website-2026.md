@@ -1,6 +1,6 @@
 ---
 title: "Why Does AI Mention Your Brand Without Linking to Your Website?"
-date: 2026-11-24T11:00:00+05:30
+date: 2026-11-24T20:00:00+05:30
 description: "AI assistants can mention a company without citing its website. Understand the difference between model knowledge, search retrieval and visible citations, and learn how to investigate unlinked brand mentions."
 tag: "AEO"
 categories: ["AEO", "GEO", "AI Search", "Brand Visibility"]
@@ -20,7 +20,6 @@ sources:
     url: "https://developers.google.com/search/docs/appearance/ai-features"
     publisher: "Google Search Central"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

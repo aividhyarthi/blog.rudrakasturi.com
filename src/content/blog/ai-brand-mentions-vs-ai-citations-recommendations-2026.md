@@ -1,6 +1,6 @@
 ---
 title: "AI Brand Mentions vs AI Citations: Why Being Recommended Is Different from Being Cited"
-date: 2026-11-24T09:15:00+05:30
+date: 2026-11-24T13:00:00+05:30
 description: "AI brand mentions, recommendations and website citations measure different kinds of visibility. Learn how to identify each one, measure them separately and understand what they mean for business."
 tag: "AEO"
 categories: ["AEO", "GEO", "AI Search", "Brand Visibility"]
@@ -20,7 +20,6 @@ sources:
     url: "https://blog.rudrakasturi.com/ranking-on-google-is-no-longer-the-whole-story-how-businesses-should-measure-ai-search-visibility/"
     publisher: "RudraKasturi.com"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Why Does ChatGPT Cite Your Competitor Instead of Your Website? How to Find Your AI Citation Gap"
-date: 2026-11-24T09:45:00+05:30
+date: 2026-11-24T15:00:00+05:30
 description: "Find out why ChatGPT may cite a competitor instead of your website. A practical AI citation gap analysis covering prompts, cited URLs, source relevance, retrieval and content improvements."
 tag: "AEO"
 categories: ["AEO", "GEO", "AI Search", "Competitor Analysis"]
@@ -20,7 +20,6 @@ sources:
     url: "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
     publisher: "Google Search Central"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

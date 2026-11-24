@@ -1,6 +1,6 @@
 ---
 title: "What Are Cited URLs in AI Search? How to Track the Exact Pages ChatGPT, Gemini and Perplexity Reference"
-date: 2026-11-24T09:00:00+05:30
+date: 2026-11-24T12:00:00+05:30
 description: "An AI citation is not just a domain mention. Learn how to identify, record and analyse the exact URLs ChatGPT, Gemini and Perplexity reference, and build a reliable page-level citation report."
 tag: "AEO"
 categories: ["AEO", "GEO", "AI Search", "Measurement"]
@@ -20,7 +20,6 @@ sources:
     url: "https://www.alphaxiv.org/abs/2610.15033"
     publisher: "University of Toronto research preprint"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 

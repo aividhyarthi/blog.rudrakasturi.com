@@ -1,6 +1,6 @@
 ---
 title: "Does TikTok Influence AI Search Results and Product Recommendations?"
-date: 2026-11-24T10:30:00+05:30
+date: 2026-11-24T18:00:00+05:30
 description: "TikTok citations increased across several AI platforms in Semrush's 2026 dataset. Understand what the evidence says about TikTok, AI search and product discovery, and how brands should test social visibility."
 tag: "AEO"
 categories: ["AEO", "GEO", "Social Media", "AI Search"]
@@ -20,7 +20,6 @@ sources:
     url: "https://developers.google.com/search/docs/appearance/ai-features"
     publisher: "Google Search Central"
     reviewed: "2026-11-24"
-draft: true
 playbook: false
 ---
 
