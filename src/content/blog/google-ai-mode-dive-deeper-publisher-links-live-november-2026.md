@@ -20,7 +20,6 @@ sources:
     url: "https://www.seroundtable.com/google-ai-mode-dive-deeper-feature-live-42589.html"
     publisher: "Search Engine Roundtable"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 For publishers, the question around AI search is increasingly direct: when Google answers a query inside AI Mode, will the person still visit the publisher's website?
