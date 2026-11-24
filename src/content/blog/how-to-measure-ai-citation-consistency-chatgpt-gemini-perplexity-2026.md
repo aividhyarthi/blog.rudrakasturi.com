@@ -8,9 +8,9 @@ tags: ["AI Citation Consistency", "ChatGPT Citations", "Gemini Citations", "Perp
 type: "article"
 tldr: "AI citation consistency measures how often the same source appears when the same or comparable prompts are tested repeatedly under documented conditions. It is not enough to compare one screenshot from this month with one from last month. Keep prompts, platform modes, location and counting rules stable, repeat tests, record unique URLs and domains, and report variation. A change in one answer is an observation, not proof of a trend."
 sources:
-  - title: "Prompt Selection, Denominators and Repeat Noise in AI Citation Tracking"
-    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7699899"
-    publisher: "SSRN preprint"
+  - title: "The attribution crisis in LLM search results: Estimating ecosystem exploitation"
+    url: "https://www.cambridge.org/core/journals/data-and-policy/article/attribution-crisis-in-llm-search-results-estimating-ecosystem-exploitation/170DD0B88E5F5AEA8F69F2E9AF1328E3"
+    publisher: "Data & Policy, Cambridge University Press"
     reviewed: "2026-11-24"
   - title: "What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization"
     url: "https://www.alphaxiv.org/abs/2610.15033"
@@ -125,7 +125,7 @@ The result suggests that Publisher B was the most consistently visible source in
 
 ## Why measurement rules can change the result
 
-A November 2026 SSRN preprint on prompt selection and repeat noise recounts saved runs from one project involving 48 prompts and repeated ChatGPT and Gemini tests. It shows that apparent citation rates can change substantially when the prompt population or denominator changes. The authors explicitly describe the work as a methods demonstration, not a population estimate.
+A 2026 peer-reviewed study in Data & Policy shows that citation disclosure can differ substantially between search-enabled LLM systems. Its analysis is not a repeatability benchmark, but it reinforces the need to distinguish sources visited from sources visibly cited and to preserve the evidence behind each measurement. For citation consistency, the repeated-run method described above remains an operational proposal, not a platform-standard metric.
 
 The practical lesson is important: do not calculate a repeat rate only on prompts that cited a domain in the first run and then compare it with a rate across all prompts. Those are different populations.
 
