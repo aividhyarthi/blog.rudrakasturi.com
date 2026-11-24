@@ -1,25 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-<title id="title">AI search citations to 18 social and user-generated content domains</title>
-<desc id="desc">From January to August 2026, citations to the tracked domains rose from 75.8 million to 115.5 million across Google AI products, an increase of 52 percent. In ChatGPT, citations fell from 18 million to 10.1 million, a decrease of 44 percent.</desc>
-<rect width="1200" height="675" fill="#ffffff"/>
-<text x="76" y="76" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#172033">AI search citations moved in different directions</text>
-<text x="76" y="118" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#526071">Monthly citations to 18 tracked social and user-generated content domains</text>
-<text x="76" y="195" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#172033">Google AI products</text>
-<text x="76" y="232" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#526071">AI Overviews, AI Mode and Gemini</text>
-<text x="76" y="292" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#172033">January</text>
-<rect x="250" y="260" width="520" height="42" fill="#2454f4"/>
-<text x="790" y="290" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#172033">75.8M</text>
-<text x="76" y="362" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#172033">August</text>
-<rect x="250" y="330" width="791" height="42" fill="#08a9e8"/>
-<text x="1060" y="360" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#172033">115.5M</text>
-<text x="250" y="414" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#176b45">+52%</text>
-<text x="76" y="490" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#172033">ChatGPT</text>
-<text x="76" y="550" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#172033">January</text>
-<rect x="250" y="518" width="520" height="42" fill="#2454f4"/>
-<text x="790" y="548" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#172033">18.0M</text>
-<text x="76" y="620" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#172033">August</text>
-<rect x="250" y="588" width="292" height="42" fill="#08a9e8"/>
-<text x="560" y="618" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#172033">10.1M</text>
-<text x="900" y="618" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#a33d2d">−44%</text>
-<text x="76" y="660" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#6b7788">Source: Semrush, US prompt dataset, January to August 2026. 18 selected domains only.</text>
-</svg>
+<title id="title">AI search citations to 18 social and user-generated content domains</title><desc id="desc">From January to August 2026, citations rose from 75.8 million to 115.5 million across Google AI products, up 52 percent. In ChatGPT, citations fell from 18 million to 10.1 million, down 44 percent.</desc>
+<rect width="1200" height="675" fill="#fff"/>
+<text x="70" y="75" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#172033">AI search citations moved in different directions</text>
+<text x="70" y="115" font-family="Arial,sans-serif" font-size="19" fill="#526071">Monthly citations to 18 tracked social and user-generated content domains</text>
+<text x="70" y="185" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#172033">Google AI products</text>
+<text x="70" y="220" font-family="Arial,sans-serif" font-size="17" fill="#526071">AI Overviews, AI Mode and Gemini</text>
+<text x="70" y="282" font-family="Arial,sans-serif" font-size="18" fill="#172033">January</text><rect x="240" y="250" width="520" height="40" fill="#2454f4"/><text x="775" y="280" font-family="Arial,sans-serif" font-size="21" fill="#172033">75.8M</text>
+<text x="70" y="350" font-family="Arial,sans-serif" font-size="18" fill="#172033">August</text><rect x="240" y="318" width="791" height="40" fill="#08a9e8"/><text x="1045" y="348" font-family="Arial,sans-serif" font-size="21" fill="#172033">115.5M</text>
+<text x="240" y="397" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#176b45">+52%</text>
+<text x="70" y="465" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#172033">ChatGPT</text>
+<text x="70" y="525" font-family="Arial,sans-serif" font-size="18" fill="#172033">January</text><rect x="240" y="493" width="520" height="40" fill="#2454f4"/><text x="775" y="523" font-family="Arial,sans-serif" font-size="21" fill="#172033">18.0M</text>
+<text x="70" y="593" font-family="Arial,sans-serif" font-size="18" fill="#172033">August</text><rect x="240" y="561" width="292" height="40" fill="#08a9e8"/><text x="547" y="591" font-family="Arial,sans-serif" font-size="21" fill="#172033">10.1M</text><text x="900" y="591" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#a33d2d">−44%</text>
+<text x="70" y="645" font-family="Arial,sans-serif" font-size="14" fill="#6b7788">Source: Semrush, US prompt dataset, January to August 2026. 18 selected domains only.</text></svg>
