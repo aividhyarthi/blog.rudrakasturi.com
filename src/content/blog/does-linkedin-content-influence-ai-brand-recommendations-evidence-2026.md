@@ -40,6 +40,8 @@ A separate May 2026 analysis from Meltwater and LinkedIn reported 9.5 million AI
 
 These findings are useful signals. They are not a universal ranking of every source across every prompt, industry and AI platform. Both studies are vendor-led research, and their prompt samples, platforms and measurement windows differ.
 
+![Meltwater and LinkedIn reported that individual member profiles accounted for 75 percent of LinkedIn citations in their 9.5 million citation analysis, compared with 25 percent for Company Pages](/images/editorial/linkedin-ai-citations-profile-vs-company-page-2026.svg)
+
 ## Why might LinkedIn appear in AI answers?
 
 LinkedIn contains several kinds of information that can be relevant to business questions:
