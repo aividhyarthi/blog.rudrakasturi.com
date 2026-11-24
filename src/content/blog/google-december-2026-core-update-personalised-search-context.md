@@ -25,6 +25,10 @@ sources:
     url: "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
     publisher: "Google"
     reviewed: "2026-11-24"
+  - title: "Connect your Google content apps to get a Search experience tailored to you"
+    url: "https://support.google.com/websearch/answer/16859283"
+    publisher: "Google Search Help"
+    reviewed: "2026-11-24"
   - title: "AI features and your website"
     url: "https://developers.google.com/search/docs/appearance/ai-features"
     publisher: "Google Search Central"
@@ -136,7 +140,7 @@ The idea is straightforward. If a person chooses to connect these services, AI M
 
 For example, a person planning a trip may want an answer that takes account of previous research or travel-related information. Someone reviewing spending may want suggestions informed by information in Wallet.
 
-This is a meaningful shift in the Search experience. The system is not only interpreting the words in a query. Where the user has enabled the feature and connected relevant apps, it can also use selected personal context.
+This is a meaningful shift in the Search experience. The system is not only interpreting the words in a query. Where the user has enabled the feature and connected relevant apps, it can also use selected personal context. Availability is not universal, however. Google's Search Help says Google Wallet and Photos connections are not available in every region, while Drive connections are currently limited to the US in English. Gemini app support was listed as coming soon when the help page was reviewed. Indian users should therefore check the current availability in their own account rather than assume every connection is live in India.
 
 But there is an important distinction for SEO teams.
 
