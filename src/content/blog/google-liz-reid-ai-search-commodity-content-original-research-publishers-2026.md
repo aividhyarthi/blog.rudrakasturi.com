@@ -20,7 +20,6 @@ sources:
     url: "https://blog.rudrakasturi.com/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says-to-do/"
     publisher: "RudraKasturi.com"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 If someone searches for the time in Japan, an AI answer can provide it immediately. The person may have no reason to open a separate article that repeats the same information.
