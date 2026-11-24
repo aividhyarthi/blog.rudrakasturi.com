@@ -1,5 +1,5 @@
 ---
-title: "Google Brings Personal Intelligence to AI Search: How Wallet, Drive and Gemini Work in AI Mode"
+title: "Google Brings Personal Intelligence to AI-Powered Search: What Wallet, Drive and Gemini Mean for AI Mode"
 date: 2026-11-24T08:20:00+05:30
 description: "Google is expanding Personal Intelligence in AI Mode with optional connections to Wallet, Drive and the Gemini app. How personalised AI search works, what data it can use and what users should check."
 tag: "Google"
