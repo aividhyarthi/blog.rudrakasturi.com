@@ -12,10 +12,6 @@ sources:
     url: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
     publisher: "OpenAI"
     reviewed: "2026-11-24"
-  - title: "Introducing GPT-6.2 Astra and Sol"
-    url: "https://openai.com/index/introducing-gpt-6-2/"
-    publisher: "OpenAI"
-    reviewed: "2026-11-24"
 draft: true
 ---
 
