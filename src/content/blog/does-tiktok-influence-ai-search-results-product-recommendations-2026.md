@@ -45,6 +45,8 @@ These are growth rates reported by Semrush for its tracked dataset. They do not 
 
 The study also reported that citations to the 18 tracked social and UGC domains rose 52% across Google's AI products while falling 44% in ChatGPT. The overall platform trend and the TikTok-specific trend are different measurements. Keep them separate.
 
+![Semrush reported TikTok citation growth across Google AI Overviews, Google AI Mode, ChatGPT and Gemini between January and August 2026](/images/editorial/tiktok-ai-citation-growth-jan-aug-2026.svg)
+
 ## Does a TikTok citation mean the AI platform recommends the product?
 
 No. A citation means the platform has linked to a source in its answer. It does not automatically mean the platform endorses the product, agrees with every statement in the video or recommends the brand.
