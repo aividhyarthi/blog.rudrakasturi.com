@@ -1,11 +1,11 @@
 ---
-title: "Google's Liz Reid on AI Search: Why Basic Informational Pages May Lose Traffic"
+title: "Google's Liz Reid on AI Search: Why Thin Content Pages May Lose Traffic"
 date: 2026-11-24T08:05:00+05:30
-description: "Google Search chief Liz Reid says AI can answer basic questions directly, leaving publishers with a harder job of earning clicks. What her comments mean for SEO, AEO and original content."
+description: "Google Search chief Liz Reid says AI can answer basic questions directly. Why thin content pages that repeat common information may struggle to earn search traffic, and what publishers should improve."
 tag: "AEO"
-tldr: "Google Search chief Liz Reid says AI can answer basic informational queries, such as a time-zone question, without requiring a user to open a separate webpage. She contrasted this with content built around opinion, experience and trusted perspectives. Her comments are not a new Google ranking update. They underline the need for publishers to offer original reporting, useful analysis and a clear reason for readers to visit."
+tldr: "Google Search chief Liz Reid says AI can answer basic informational queries, such as a time-zone question, without requiring a user to open a separate webpage. This puts thin content pages that repeat common facts or generic advice under pressure. Her comments are not a new Google ranking update. Publishers need original reporting, useful analysis, real experience and a clear reason for readers to visit."
 categories: ["SEO", "AEO", "AI Search", "Google", "Publishing"]
-tags: ["Liz Reid", "Google Search", "AI Search Traffic", "AEO", "Publisher SEO", "Original Content"]
+tags: ["Liz Reid", "Google Search", "Thin Content", "AI Search Traffic", "AEO", "Publisher SEO", "Original Content"]
 type: "article"
 sources:
   - title: "Google's Liz Reid: AI search has less room for commodity content"
@@ -41,13 +41,15 @@ The important distinction is between information that can be answered directly a
 
 ## Which pages are most exposed to AI answers?
 
-A page is more exposed when it repeats information that is easy to find and summarise.
+A page is more exposed when it is thin content: it repeats information that is easy to find and summarise without adding reporting, evidence, experience or a useful point of view.
 
-For example, a page that only states the current time in another country, defines a common term or rewrites a public fact may have limited value beyond the direct answer. An AI answer can combine such information without requiring the user to visit several websites.
+For example, a thin content page that only states the current time in another country, defines a common term or rewrites a public fact may have limited value beyond the direct answer. An AI answer can combine such information without requiring the user to visit several websites.
 
-This does not mean that every definition, explainer or basic guide will lose traffic. Accuracy and clear answers remain important for SEO and AEO. The risk is higher when a page adds no reporting, evidence, experience or useful next step.
+This does not mean that every definition, explainer or basic guide will lose traffic. Accuracy and clear answers remain important for SEO and AEO. The risk is higher when a page is thin content: it adds no reporting, evidence, experience or useful next step.
 
 A basic explainer can still earn a visit if it answers a more specific question, explains an important exception or helps the reader complete a task.
+
+![Thin content repeats information that an AI answer can easily provide, while original reporting, verified evidence, genuine experience and useful tools give readers a reason to visit](/images/editorial/thin-content-vs-original-value.svg)
 
 ## What should publishers create instead?
 
@@ -83,7 +85,7 @@ No. Reid was discussing how AI changes the value of different kinds of content. 
 
 ### Does AI search mean informational articles will stop getting traffic?
 
-No. The impact will vary by query and page. Basic pages that only repeat easily available facts may face more pressure, while useful explainers with original evidence, examples and practical detail can still give people a reason to visit.
+No. The impact will vary by query and page. Thin content pages that only repeat easily available facts may face more pressure, while useful explainers with original evidence, examples and practical detail can still give people a reason to visit.
 
 ### What kind of content should publishers prioritise?
 
