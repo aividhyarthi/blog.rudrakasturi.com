@@ -12,7 +12,6 @@ sources:
     url: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
     publisher: "OpenAI"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 If you use ChatGPT to analyse a screenshot, follow a detailed brief or research a topic across several websites, the GPT-6.2 update is aimed at the kind of work you do every day.
