@@ -16,9 +16,13 @@ sources:
     url: "https://www.semrush.com/blog/ai-citations-social-media-ugc/"
     publisher: "Semrush"
     reviewed: "2026-11-24"
-  - title: "Q1 2026 AI Citation Trends Report"
-    url: "https://tinuiti.com/research-insights/research/ai-citation-trends-report-q1-2026/"
-    publisher: "Tinuiti"
+  - title: "How Large Language Models Source Brand Reputation Across Languages and Markets"
+    url: "https://arxiv.org/abs/2606.25787"
+    publisher: "Dmitrij Zatuchin, arXiv preprint"
+    reviewed: "2026-11-24"
+  - title: "The 2026 AI Search Visibility Benchmarks, Edition 1"
+    url: "https://www.searchintel.tech/downloads/SearchIntel-AI-Search-Visibility-Benchmarks-2026-Ed1.pdf"
+    publisher: "SearchIntel"
     reviewed: "2026-11-24"
 draft: true
 playbook: false
@@ -57,6 +61,8 @@ For example, if the top 10 domains receive 650 of 1,000 citation occurrences, th
 This is an illustrative calculation, not a measured AI search benchmark.
 
 Also calculate the top 3, top 5 and top 20 shares. That helps show whether concentration is driven by a few very large sources or a broader group.
+
+![Two independent 2026 datasets report different citation concentration patterns. The samples and metrics are not directly comparable](/images/editorial/ai-citation-concentration-top-10-domains-2026.svg)
 
 ## Why should businesses measure citation concentration?
 
@@ -121,7 +127,7 @@ The labels above are placeholders for the research design. They are not real dom
 
 ## What existing research tells us about source diversity
 
-An EMNLP 2026 paper titled "Answer Bubbles: Information Exposure in AI-Mediated Search" examined 11,000 real search queries across five systems. The authors report source-selection biases in generative search citations and differences in how systems summarise source material.
+A 2026 study by Dmitrij Zatuchin analysed 167,551 URL-grounded citations across 128 brands, 12 markets and 13 languages. It reported that 80% of citations came from about 18% of domains in its dataset, and that 85.7% of citations pointed to third-party rather than brand-owned sites. Separately, SearchIntel reported that the top 10 domains accounted for 21.9% of 6,119 citations in its own June 2026 benchmark. These are different datasets and concentration measures, so they should not be treated as a direct comparison or universal result.
 
 Separate industry reports also show that source patterns differ by platform and industry. Semrush's 2026 social and UGC analysis found different leading social sources across Google's AI products and ChatGPT. Tinuiti's Q1 2026 report similarly describes industry and platform differences in social citation share.
 
