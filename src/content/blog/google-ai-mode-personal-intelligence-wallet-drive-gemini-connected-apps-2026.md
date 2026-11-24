@@ -1,5 +1,5 @@
 ---
-title: "Google AI Mode Can Use Wallet, Drive and Gemini Context. What Changes for Search?"
+title: "Google Brings Personal Intelligence to AI Search: How Wallet, Drive and Gemini Work in AI Mode"
 date: 2026-11-24T08:20:00+05:30
 description: "Google is expanding Personal Intelligence in AI Mode with optional connections to Wallet, Drive and the Gemini app. How personalised AI search works, what data it can use and what users should check."
 tag: "Google"
@@ -20,6 +20,8 @@ draft: true
 ---
 
 Ask Google AI Mode for general advice and it can use information from the web. Connect selected personal apps, and the answer may also take your own documents, spending information or previous Gemini conversations into account.
+
+![Google AI Mode can use optional personal context from Wallet, Drive and the Gemini app to tailor a search response](/images/editorial/google-ai-mode-personal-intelligence-connections.svg)
 
 Google announced an expansion of Personal Intelligence in AI Mode on November 23. Google Wallet is beginning to roll out as a connection, while support for Google Drive and the Gemini app is expected in the coming weeks.
 
