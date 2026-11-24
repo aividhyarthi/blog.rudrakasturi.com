@@ -16,7 +16,6 @@ sources:
     url: "https://blog.rudrakasturi.com/a-20-prompt-ai-visibility-test-template-scoring-rubric-and-monthly-routine/"
     publisher: "RudraKasturi.com"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 A company may have a useful page on its website and still find that an AI answer cites a YouTube video, a Reddit discussion or a creator's product review instead. That is an important change in how brands are discovered through AI search.
