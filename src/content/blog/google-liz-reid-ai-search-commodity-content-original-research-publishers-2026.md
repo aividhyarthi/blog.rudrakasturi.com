@@ -1,6 +1,6 @@
 ---
 title: "Google's Liz Reid on AI Search: Why Thin Content Pages May Lose Traffic"
-date: 2026-11-24T08:05:00+05:30
+date: 2026-11-24T09:30:00+05:30
 description: "Google Search chief Liz Reid says AI can answer basic questions directly. Why thin content pages that repeat common information may struggle to earn search traffic, and what publishers should improve."
 tag: "AEO"
 tldr: "Google Search chief Liz Reid says AI can answer basic informational queries, such as a time-zone question, without requiring a user to open a separate webpage. This puts thin content pages that repeat common facts or generic advice under pressure. Her comments are not a new Google ranking update. Publishers need original reporting, useful analysis, real experience and a clear reason for readers to visit."
@@ -20,7 +20,6 @@ sources:
     url: "https://blog.rudrakasturi.com/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says-to-do/"
     publisher: "RudraKasturi.com"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 If someone searches for the time in Japan, an AI answer can provide it immediately. The person may have no reason to open a separate article that repeats the same information.

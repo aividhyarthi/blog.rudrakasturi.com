@@ -1,6 +1,6 @@
 ---
 title: "Semrush Study: YouTube, Reddit and TikTok Are Gaining Citations in AI Search. What Should AEO Teams Do?"
-date: 2026-11-24T08:00:00+05:30
+date: 2026-11-24T09:00:00+05:30
 description: "A Semrush study found that citations to YouTube, Reddit and other social platforms grew across Google's AI search products, while the same group declined in ChatGPT. What the data means for AEO, GEO and brand visibility."
 tag: "AEO"
 tldr: "Semrush's US dataset from January to August 2026 found that citations to 18 social and user-generated content domains rose 52% across Google's AI products, while citations to the same group fell 44% in ChatGPT. YouTube led within the tracked group in Google AI Overviews, Reddit led in ChatGPT, and TikTok grew across all four products. These are citation trends within a selected set of domains, not proof that social platforms dominate all AI answers or that citations automatically generate website traffic."
@@ -16,7 +16,6 @@ sources:
     url: "https://blog.rudrakasturi.com/a-20-prompt-ai-visibility-test-template-scoring-rubric-and-monthly-routine/"
     publisher: "RudraKasturi.com"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 A company may have a useful page on its website and still find that an AI answer cites a YouTube video, a Reddit discussion or a creator's product review instead. That is an important change in how brands are discovered through AI search.

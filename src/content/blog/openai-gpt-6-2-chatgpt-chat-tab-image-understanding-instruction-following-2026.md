@@ -1,6 +1,6 @@
 ---
 title: "GPT-6.2 in ChatGPT: Will It Give Better Answers? Image Understanding, Research and What Changes"
-date: 2026-11-24T08:10:00+05:30
+date: 2026-11-24T10:00:00+05:30
 description: "OpenAI is rolling out GPT-6.2 to ChatGPT's Chat tab, reporting improvements in image understanding, complex instructions, web research and safety. Here is what users may notice, with practical examples."
 tag: "LLMs"
 tldr: "OpenAI began rolling out GPT-6.2 to ChatGPT's Chat tab on November 23 for Plus, Pro, Business and Enterprise users. The company reports improvements in image understanding, complex instruction following, expert-level tasks, web research and teen safety evaluations. In everyday use, this could mean better handling of screenshots, longer briefs and multi-step research. It does not guarantee fewer mistakes or fewer citations, and the published benchmark results are OpenAI's own tests."
@@ -12,7 +12,6 @@ sources:
     url: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
     publisher: "OpenAI"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 If you use ChatGPT to analyse a screenshot, follow a detailed brief or research a topic across several websites, the GPT-6.2 update is aimed at the kind of work you do every day.

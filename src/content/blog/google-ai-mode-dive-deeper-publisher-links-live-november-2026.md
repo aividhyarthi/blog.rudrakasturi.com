@@ -1,6 +1,6 @@
 ---
 title: "Google AI Mode's Dive Deeper Links: Could They Increase Traffic to Publisher Websites?"
-date: 2026-11-24T08:15:00+05:30
+date: 2026-11-24T10:30:00+05:30
 description: "Google's Dive Deeper feature gives publisher articles more prominent links after some AI Mode answers. What the rollout means for website traffic, referrals and AEO measurement."
 tag: "AEO"
 tldr: "Google announced a more prominent Dive Deeper experience for links at the end of some AI responses in October. The feature was reported live in AI Mode on November 23, with publisher links, descriptions and image thumbnails. It may create another route to website visits, but the links appear after the AI-generated response and may require scrolling. Publishers need referral and engagement data before claiming a traffic increase."
@@ -20,7 +20,6 @@ sources:
     url: "https://www.seroundtable.com/google-ai-mode-dive-deeper-feature-live-42589.html"
     publisher: "Search Engine Roundtable"
     reviewed: "2026-11-24"
-draft: true
 ---
 
 For publishers, the question around AI search is increasingly direct: when Google answers a query inside AI Mode, will the person still visit the publisher's website?
