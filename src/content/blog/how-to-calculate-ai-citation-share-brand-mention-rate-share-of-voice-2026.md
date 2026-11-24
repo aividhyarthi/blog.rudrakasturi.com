@@ -12,9 +12,9 @@ sources:
     url: "https://www.linkedin.com/business/marketing/blog/ai-search/new-meltwater-research-shares-5-insights-from-9-million-citations"
     publisher: "Meltwater and LinkedIn"
     reviewed: "2026-11-24"
-  - title: "Prompt Selection, Denominators and Repeat Noise in AI Citation Tracking"
-    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7699899"
-    publisher: "SSRN preprint"
+  - title: "The attribution crisis in LLM search results: Estimating ecosystem exploitation"
+    url: "https://www.cambridge.org/core/journals/data-and-policy/article/attribution-crisis-in-llm-search-results-estimating-ecosystem-exploitation/170DD0B88E5F5AEA8F69F2E9AF1328E3"
+    publisher: "Data & Policy, Cambridge University Press"
     reviewed: "2026-11-24"
   - title: "Ranking on Google Is No Longer the Whole Story. How Should Businesses Measure Their Visibility in AI Search?"
     url: "https://blog.rudrakasturi.com/ranking-on-google-is-no-longer-the-whole-story-how-businesses-should-measure-ai-search-visibility/"
@@ -151,7 +151,7 @@ Keep separate columns for citation occurrences, unique URLs and unique domains. 
 
 A 20-prompt test can help a company identify patterns. It cannot establish the entire market's AI share of voice. State the sample size and limitations clearly.
 
-A November 2026 SSRN preprint demonstrates why denominator choices and repeat noise matter in citation tracking. Its authors analyse saved scraper runs from one project and caution that changes in counting rules can alter apparent rates. It is a methods demonstration, not a universal industry estimate.
+A 2026 peer-reviewed article in Data & Policy examined approximately 14,000 real-world LMArena conversation logs and defined an attribution gap between relevant pages visited and pages cited. Its findings show why a visible citation count is not the same as the full set of sources a system may have consulted. The study uses 2025 logs and specific model versions, so its percentages should not be presented as current platform-wide benchmarks.
 
 ## How to build a reliable monthly AI visibility report
 
