@@ -29,6 +29,8 @@ The Chat experience uses a version of GPT-6.2 Sol tuned for everyday conversatio
 
 That distinction matters because the announcement is about the model used in the regular ChatGPT conversation experience, not a blanket update to every OpenAI product.
 
+![OpenAI-reported GPT-6.2 evaluation scores compared with GPT-6 across image understanding, complex instruction following, expert-level tasks and web research](/images/editorial/gpt-6-2-benchmark-comparison.svg)
+
 ## What has improved in GPT-6.2?
 
 OpenAI has published comparisons with GPT-6 across several evaluations.
