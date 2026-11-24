@@ -45,6 +45,14 @@ sources:
     url: "https://searchengineland.com/google-november-2026-core-update-rollout-is-now-complete-502268"
     publisher: "Search Engine Land"
     reviewed: "2026-11-24"
+  - title: "Google’s Liz Reid: AI search has less room for commodity content"
+    url: "https://searchengineland.com/google-liz-reid-ai-search-commodity-content-502839"
+    publisher: "Search Engine Land"
+    reviewed: "2026-11-24"
+  - title: "Elizabeth Reid on Google AI Mode and Search"
+    url: "https://patrickmcginnis.com/liz-reid/"
+    publisher: "FOMO Sapiens"
+    reviewed: "2026-11-24"
 ---
 
 Google finished rolling out its November 2026 core update on 24 November. Then, just 25 minutes later, it announced another core update for December.
@@ -134,7 +142,7 @@ But there is an important distinction for SEO teams.
 
 **Personalised AI responses are not the same thing as proof that private Gmail, Wallet or Drive data is being used as an organic ranking signal for websites.** Google's announcement describes personalisation in the Search experience. It does not say that a publisher's ranking is determined by another user's private app data.
 
-The practical question for publishers is how content gets selected and presented when the user's context changes the answer they need. We have covered the Wallet, Drive and Gemini connections separately in [Google brings Personal Intelligence to AI-powered Search](https://blog.rudrakasturi.com/google-ai-mode-personal-intelligence-wallet-drive-gemini-connected-apps-2026/).
+The practical question for publishers is how content gets selected and presented when the user's context changes the answer they need. Google's [official Personal Intelligence announcement](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/) explains the Wallet, Drive and Gemini connections. This sits alongside a separate move towards completing tasks inside Search and Gemini, which we examine in [Google Connected Apps bring shopping and services closer to Search and Gemini](https://blog.rudrakasturi.com/google-connected-apps-bring-shopping-and-services-into-search-and-gemini/).
 
 ### 3. Search is becoming an answer experience, not just a list of links
 
@@ -160,7 +168,6 @@ For publishers, the lesson is not to manufacture mentions on every platform. It 
 
 For a technology story, that might include original testing, a video demonstration, expert commentary and a detailed article. For a local news story, it may include on-ground reporting, documents, public statements and community evidence.
 
-Our [analysis of social and user-generated content citations in AI search](https://blog.rudrakasturi.com/ai-search-citations-social-media-youtube-reddit-tiktok-semrush-study-2026/) examines the study in more detail.
 
 ### 5. Google is also moving Search closer to completing tasks
 
