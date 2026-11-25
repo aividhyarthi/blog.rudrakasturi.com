@@ -18,13 +18,11 @@ categories: ["Crawling", "Google Search", "SEO", "AEO"]
 tags: ["Google", "Google-Extended", "Robots", "AI training", "AI grounding", "SEO"]
 ---
 
-**Short answer:** Google-Extended is a robots.txt token, not a crawler. It can limit training use and grounding on specified non-Search products. It does not control whether pages are grounded or displayed as sources in AI Overviews or AI Mode. Google says it can also limit training of models used for Search AI responses; Search Console separately controls Search AI grounding and display.
+Website owners often use the word "blocking" as if every Google AI product draws from one shared access switch. Google's controls are more specific than that. The right setting depends on whether the concern is model training, grounding in a non-Search product, or the way a page is used in Search AI features.
 
-If you manage a website, you may have seen the name Google-Extended in discussions about AI training and robots.txt. It is easy to mistake it for another Google crawler or assume that blocking it removes your content from AI Overviews.
+The distinction is important before changing robots.txt. A rule intended to limit one type of AI use can be ineffective for another, or can affect more of Google's products than the site owner intended.
 
-Neither assumption is correct.
-
-Google-Extended is a robots.txt product token. It does not have its own crawler or user-agent string. Google's November 24, 2026 documentation gives a clearer explanation of what it controls and, just as importantly, what it does not control.
+Google's November 2026 documentation clarifies these boundaries. This update revisits the original Google-Extended explanation and sets out which control applies to which use.
 
 ## What is Google-Extended?
 
@@ -118,9 +116,3 @@ Only after a deliberate policy decision. A site-wide rule affects the uses gover
 
 No. Noindex removes a page from Google Search, including Search generative AI features. It is not a selective AI-use setting.
 
-
-## Related reading
-
-- [Google's AI content controls: training, grounding and Search](/google-ai-content-controls-training-grounding-search-publishers/)
-- [Google's crawlers and fetchers: robots.txt decision table](/googles-crawlers-and-fetchers-which-obey-robots-txt-and-which-do-not-a-decision-table/)
-- [How Google chooses sources for AI Overviews and AI Mode](/google-explains-how-ai-overviews-and-ai-mode-select-and-link-sources/)
