@@ -1,5 +1,5 @@
 ---
-title: "Google's Crawlers and Fetchers: Which Obey robots.txt, Including the November 2026 Changes"
+title: "Google Documents 12 Previously Undocumented Crawlers and Fetchers. Should Website Owners Change robots.txt?"
 date: 2026-11-12T11:00:00+05:30
 updated: 2026-11-25
 description: "Google's crawler documentation now lists additional existing special-case crawlers and user-triggered fetchers. Use this updated decision table to understand robots.txt behaviour and Google-Extended."
