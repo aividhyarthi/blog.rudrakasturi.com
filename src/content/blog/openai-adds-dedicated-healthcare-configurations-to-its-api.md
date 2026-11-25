@@ -1,8 +1,7 @@
 ---
 title: "OpenAI Adds Dedicated Healthcare Configurations to Its API"
-date: 2026-11-25
+date: 2026-11-25T13:30:00+05:30
 description: "OpenAI has released healthcare model configurations for its Responses API, pairing selected models with a clinical workflow setup and a dedicated medical source index for web search."
-draft: true
 tag: "OpenAI"
 tldr: "OpenAI has made healthcare model configurations available to API organisations through the Responses API. Selected models, including Astra and Sol variants, can use a healthcare-focused configuration, and web search can query a dedicated index of medical sources. The feature is for developers building evidence-finding applications and does not replace professional medical judgement."
 categories: ["AI", "OpenAI", "Healthcare", "AI Research", "Developers"]

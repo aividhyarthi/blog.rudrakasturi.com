@@ -3,7 +3,6 @@ title: "Perplexity Introduces Multiagent: Up to 16 AI Agents Can Work on One Com
 date: 2026-11-17
 updated: 2026-11-25
 description: "Perplexity has introduced Multiagent in Computer, allowing a lead agent to split complex assignments across as many as 16 frontier model agents working in parallel."
-draft: true
 tag: "AI Agents"
 tldr: "Perplexity's new Multiagent effort level lets a lead agent divide a complex task across up to 16 agents running different frontier models. They work in parallel, share findings and check each other's work before producing one combined result. The same November 24 update also expands mobile teammates, browser control and agent workflows."
 categories: ["AI", "AI Agents", "Perplexity", "Technology"]

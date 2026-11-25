@@ -1,8 +1,7 @@
 ---
 title: "Google Vertex AI Introduces File to Cited Answer Retrieval in One API Call"
-date: 2026-11-25
+date: 2026-11-25T12:30:00+05:30
 description: "Google's Agent Retrieval update adds managed ingestion and SearchDocuments, allowing developers to search documents and videos from Cloud Storage without building every parsing and embedding step themselves."
-draft: true
 tag: "Google Cloud"
 tldr: "Google's Agent Retrieval update for Vertex AI introduces managed ingestion and SearchDocuments. Developers can import supported documents or videos from Cloud Storage and search them without building a custom parsing, chunking, embedding and indexing pipeline. Results can include cited page numbers or video timestamps, with options such as hybrid retrieval, metadata filtering and reranking."
 categories: ["AI", "Google", "Google Cloud", "AI Agents", "Developers"]

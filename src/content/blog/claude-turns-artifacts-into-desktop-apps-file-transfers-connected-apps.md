@@ -1,8 +1,7 @@
 ---
 title: "Claude Turns Artifacts into Desktop Apps and Adds File Transfers to Connected Apps"
-date: 2026-11-25
+date: 2026-11-25T14:30:00+05:30
 description: "Anthropic's November 24 Claude update lets users install Artifacts as desktop apps, transfer files through connected apps and use richer monthly recaps."
-draft: true
 tag: "AI Tools"
 tldr: "Claude now lets users install Artifacts as standalone apps on Mac and Windows. Anthropic has also begun rolling out file transfers with connected apps and moved Monthly Recap out of beta, with recaps able to include Claude Code and cloud Cowork activity. The changes push Claude further into everyday desktop workflows."
 categories: ["AI", "Anthropic", "Claude", "AI Tools", "AI Agents"]

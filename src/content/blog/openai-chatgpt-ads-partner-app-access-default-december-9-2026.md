@@ -1,18 +1,13 @@
 ---
 title: "OpenAI to Change ChatGPT Ads Partner App Defaults on December 9: What Organisations Need to Check"
-date: 2026-11-25
+date: 2026-11-25T16:30:00+05:30
 description: "An OpenAI email says approved partner apps will be allowed to connect to ChatGPT Ads data by default from December 9. Here is what the change means, what it does not mean and what administrators should review."
 tag: "ChatGPT"
 tldr: "An email received by an organisation says ChatGPT Ads settings will allow approved partner app connections by default from December 9, unless the organisation opts out by December 8. This does not mean every partner app is automatically connected or receives unrestricted access. Organisation approval and each advertiser's own authorisation remain separate steps."
 categories: ["AI", "ChatGPT", "Advertising", "Technology"]
 tags: ["ChatGPT Ads", "OpenAI Ads", "External Access", "Partner Apps", "Data Permissions", "Advertising Technology"]
 type: "research"
-draft: true
 sources:
-  - title: "Organisation email notice about ChatGPT Ads partner app defaults, received 25 November 2026"
-    url: ""
-    publisher: "Email notice supplied by recipient"
-    reviewed: "2026-11-25"
   - title: "Managing your tenant in Admin Console"
     url: "https://help.openai.com/en/articles/12289294-managing-your-tenant-in-admin-console"
     publisher: "OpenAI Help Center"
