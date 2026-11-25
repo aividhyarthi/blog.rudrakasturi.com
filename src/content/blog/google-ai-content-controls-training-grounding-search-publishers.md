@@ -22,13 +22,11 @@ sources:
     reviewed: "2026-11-25"
 ---
 
-**Short answer:** Google separates model training from grounding and separates Search AI controls from controls for other products. Google-Extended can limit training use and non-Search grounding. A separate Search Console setting controls grounding and display in AI Overviews, AI Mode and other Search generative AI features.
+Website owners are being asked to make decisions about whether their content can be used by AI systems. The difficulty is that "AI use" is not one activity. A model can learn from content during training, or a deployed system can retrieve a page to support an answer.
 
-Google has clarified how website owners can control the use of their content across its generative AI products. The documentation, published on November 24, 2026, separates two activities that are often treated as if they are the same: training an AI model and grounding an answer with information retrieved from the web.
+Google's updated documentation separates those uses and explains that Search AI features have their own control. This matters for publishers reviewing robots.txt, licensing policies or their participation in Google's AI products.
 
-It also explains that controls for Google Search's AI features are different from controls for other Google products. This matters because a publisher could block one type of use and still allow another.
-
-The biggest correction for website owners is this: **Google-Extended is not the control for whether a page is grounded or displayed as a source in AI Overviews or AI Mode.** Google documents a separate Search Console control for that. Google-Extended can, however, limit training use, including training of models used for Search generative AI responses, according to Google's Search Console Help.
+The documentation was updated on November 24, 2026. The distinctions below are important before making a site-wide change.
 
 ## Training and grounding are not the same thing
 
@@ -144,10 +142,3 @@ No. Noindex removes a page from Google Search, including Search generative AI fe
 
 Google's Search Console Help says the worldwide rollout was completed on August 31, 2026. The November 24 documentation clarifies how the controls work.
 
-
-## Related reading
-
-- [What is Google-Extended? The updated guide](/what-is-google-extended-and-why-it-matters-for-your-website-april-2025-update/)
-- [Google's crawlers and fetchers: robots.txt decision table](/googles-crawlers-and-fetchers-which-obey-robots-txt-and-which-do-not-a-decision-table/)
-- [Google's official AI Search source selection explanation](/google-explains-how-ai-overviews-and-ai-mode-select-and-link-sources/)
-- [AI Overviews and AI Mode: Google's technical requirements](/ai-overviews-and-ai-mode-what-google-says-you-need-and-a-team-checklist-for-seo-and-aeo/)
