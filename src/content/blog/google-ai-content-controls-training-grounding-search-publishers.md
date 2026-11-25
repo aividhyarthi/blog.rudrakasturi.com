@@ -22,6 +22,8 @@ sources:
     reviewed: "2026-11-25"
 ---
 
+**Short answer:** Google separates model training from grounding and separates Search AI controls from controls for other products. Google-Extended can limit training use and non-Search grounding. A separate Search Console setting controls grounding and display in AI Overviews, AI Mode and other Search generative AI features.
+
 Google has clarified how website owners can control the use of their content across its generative AI products. The documentation, published on November 24, 2026, separates two activities that are often treated as if they are the same: training an AI model and grounding an answer with information retrieved from the web.
 
 It also explains that controls for Google Search's AI features are different from controls for other Google products. This matters because a publisher could block one type of use and still allow another.
@@ -115,3 +117,37 @@ For most publishers, the first step is to map the value exchange. Search visibil
 Keep a record of which controls are active, which pages they affect and what the business intends to achieve. Revisit that decision when Google changes its documentation or adds new controls.
 
 Our [AEO and GEO guide](/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says/) explains the wider relationship between search optimisation and AI discovery. The key is to make technical decisions based on the exact behaviour Google documents, not on assumptions about what a crawler token might do.
+
+## Frequently asked questions
+
+### Does Google-Extended block AI Overviews and AI Mode?
+
+It does not control whether a page is grounded or displayed as a source in AI Overviews or AI Mode. Google says it can limit training use, including training of models used for Search AI responses. The Search Console control governs grounding and display in Search AI features.
+
+### Is Google-Extended a crawler?
+
+No. It is a robots.txt product token and does not have its own crawler or user-agent string.
+
+### What is the difference between AI training and grounding?
+
+Training helps build or improve a model before deployment. Grounding happens when a deployed system retrieves information to support a particular answer.
+
+### Does the Search generative AI control affect Google rankings?
+
+Google says the Search Console control is not a ranking or inclusion signal for other parts of Search.
+
+### Does noindex work as an AI opt-out?
+
+No. Noindex removes a page from Google Search, including Search generative AI features. It is much broader than a selective AI-use control.
+
+### When did Google's Search AI control roll out?
+
+Google's Search Console Help says the worldwide rollout was completed on August 31, 2026. The November 24 documentation clarifies how the controls work.
+
+
+## Related reading
+
+- [What is Google-Extended? The updated guide](/what-is-google-extended-and-why-it-matters-for-your-website-april-2025-update/)
+- [Google's crawlers and fetchers: robots.txt decision table](/googles-crawlers-and-fetchers-which-obey-robots-txt-and-which-do-not-a-decision-table/)
+- [Google's official AI Search source selection explanation](/google-explains-how-ai-overviews-and-ai-mode-select-and-link-sources/)
+- [AI Overviews and AI Mode: Google's technical requirements](/ai-overviews-and-ai-mode-what-google-says-you-need-and-a-team-checklist-for-seo-and-aeo/)
