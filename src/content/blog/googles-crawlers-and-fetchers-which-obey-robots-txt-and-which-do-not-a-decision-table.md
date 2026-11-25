@@ -30,13 +30,11 @@ categories: ["AEO", "SEO", "Technical SEO"]
 tags: ["Googlebot", "Google-Extended", "robots.txt", "Crawlers", "User-triggered fetchers"]
 ---
 
-**Short answer:** Google's November 23 documentation update added six existing special-case crawlers and six existing user-triggered fetchers to its public lists. These are not newly launched bots. APIs-Google was reclassified. Check the crawler type and verify the requester before changing robots.txt.
+A robots.txt file is often treated as a master switch for every automated visitor to a website. It is not. Google separates automated crawlers, special-case crawlers and fetchers triggered by a user or service, and each group can follow different rules.
 
-A robots.txt rule only controls the crawlers and fetchers that are required to obey it. Google's documentation now lists more of the systems that may appear in website server logs, and the latest update makes an important distinction between automated crawlers and user-triggered fetchers.
+That distinction matters when a developer sees an unfamiliar Google user-agent in server logs. Blocking it without checking its purpose can disrupt a product integration without improving Search visibility.
 
-Google updated its crawling documentation on November 23, 2026. It added six existing special-case crawlers and six existing user-triggered fetchers. These are not new bots. Google says they were already operating and were added to the documentation because they are high-volume clients that website owners were asking about.
-
-This guide updates the earlier crawler decision table with those changes and clarifies the separate role of Google-Extended.
+Google's November 23, 2026 documentation update makes the lists more complete. It names existing clients that website owners may already have seen in their logs. The update is documentation, not the launch of a new generation of bots.
 
 **Best for:** SEO leads, developers, infrastructure teams and anyone editing robots.txt or investigating server logs.
 
@@ -159,10 +157,3 @@ Do not rely only on the user-agent string. Verify the IP using Google's publishe
 
 Generally no. Google says user-triggered fetchers generally ignore robots.txt. Use authentication, access controls or resource removal where appropriate.
 
-
-## Related reading
-
-- [Google's AI content controls: training, grounding and Search](/google-ai-content-controls-training-grounding-search-publishers/)
-- [What is Google-Extended? The updated guide](/what-is-google-extended-and-why-it-matters-for-your-website-april-2025-update/)
-- [Google's guide to AI Overviews and AI Mode requirements](/ai-overviews-and-ai-mode-what-google-says-you-need-and-a-team-checklist-for-seo-and-aeo/)
-- [How to block AI bots in robots.txt](/blocking-ai-bots-in-robots-txt-a-comprehensive-guide/)
