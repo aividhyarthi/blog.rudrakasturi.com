@@ -22,13 +22,11 @@ sources:
     reviewed: "2026-11-25"
 ---
 
-**Short answer:** Peec AI researcher David Konitzny reports that the share of AI Overviews with the first inline link in the opening third of the answer fell from 76.8% on September 21 to 51.8% on November 20. This is third-party link-position data, not a measure of clicks or publisher traffic.
+A citation count tells a publisher that a page appeared as a source. It does not tell the publisher where the link appeared in the answer or how visible it may have been to the reader.
 
-Google has spent 2026 making links inside AI answers more visible. But new third-party data suggests that the first clickable link inside many AI Overviews may now appear further down the response than it did two months ago.
+That gap is the subject of a new analysis shared by David Konitzny of Peec AI. The figures suggest that the first inline link in Google AI Overviews appeared further down the answer in November than it did in September. The data is worth examining, but it should not be mistaken for click or traffic data.
 
-David Konitzny of Peec AI shared an analysis on November 24. He reported that 76.8% of Google AI Overviews had their first inline link in the first third of the answer on September 21. By November 20, that share had fallen to 51.8%.
-
-That is a decline of 25 percentage points. It is an interesting change in link placement, but it is not evidence that clicks to publishers have fallen by the same amount. The data tracks where the first inline link appears inside an AI answer, not whether a user clicked it.
+Here is what the analysis measured, and what it cannot tell us.
 
 ## What did the Peec AI analysis find?
 
@@ -139,10 +137,3 @@ A link near the start of an answer may be easier to notice than one much further
 
 It is a measurement a publisher can define as the share of tested answers where the first inline link appears in the opening third. Keep it separate from citation frequency, visits and conversions.
 
-
-## Related reading
-
-- [How to track exact cited URLs in ChatGPT, Gemini and Perplexity](/what-are-cited-urls-ai-search-track-chatgpt-gemini-perplexity-2026/)
-- [How Google chooses sources for AI Overviews and AI Mode](/google-explains-how-ai-overviews-and-ai-mode-select-and-link-sources/)
-- [AI brand mentions versus citations and recommendations](/ai-brand-mentions-vs-ai-citations-recommendations-2026/)
-- [AI search visibility: a practical checklist](/a-practical-checklist-for-ai-search-visibility/)
