@@ -18,6 +18,8 @@ sources:
     reviewed: "2026-11-25"
 ---
 
+**Short answer:** Bing has been observed testing a separately labelled AI-Generated answer card inside search results. Reports describe it on Android, mobile browsers and desktop, but Microsoft has not confirmed a wider rollout or explained how the feature selects sources.
+
 Microsoft Bing appears to be testing another way to show AI-generated information inside search results. The new format is a standalone card labelled "AI-Generated answer", separate from the regular list of web links.
 
 The test was first spotted on Android and reported by Search Engine Watch on November 23. Search Engine Roundtable reported it on November 24 and said it was able to reproduce the card on both mobile and desktop.
@@ -78,3 +80,36 @@ Google, Microsoft and other search platforms are experimenting with different wa
 For publishers, the sensible response is to observe the test, record the queries where it appears and measure actual changes before making strategic decisions.
 
 Bing's new card is worth watching. It is not yet evidence of a permanent search redesign or a measurable traffic decline.
+
+## Frequently asked questions
+
+### Has Microsoft officially launched the AI-Generated answer card?
+
+The available reports describe an observed test. Microsoft has not publicly confirmed a general rollout.
+
+### Is the new Bing card the same as Copilot Search?
+
+The reports describe it as a separate presentation inside the regular Bing results page. Microsoft has not published a detailed product explanation.
+
+### Which devices have shown the new Bing answer card?
+
+Search Engine Watch first reported seeing it on Android. Search Engine Roundtable later reported reproducing it on mobile and desktop.
+
+### Will the new card reduce organic clicks?
+
+That has not been established. The reports do not provide rollout percentages, click-through rates or publisher traffic data.
+
+### How should SEO teams monitor the test?
+
+Use a fixed set of important queries, test mobile and desktop, record date and location, save the result layout and check the source links. Compare Bing Webmaster Tools performance over time.
+
+### Should publishers change their Bing SEO strategy now?
+
+Not on the basis of this test alone. Monitor whether the format expands and measure actual changes before changing content or technical priorities.
+
+
+## Related reading
+
+- [Bing Webmaster Tools AI performance reporting compared with Google](/bing-webmaster-tools-ai-performance-report-compared-with-googles-what-each-shows/)
+- [AI search visibility: a practical checklist](/a-practical-checklist-for-ai-search-visibility/)
+- [How to track exact cited URLs across AI platforms](/what-are-cited-urls-ai-search-track-chatgpt-gemini-perplexity-2026/)
