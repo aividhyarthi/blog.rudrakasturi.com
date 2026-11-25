@@ -1,104 +1,91 @@
 ---
-title: "What Is Google-Extended and Why It Matters for Your Website (April 2025 Update)"
+title: "What Is Google-Extended? The Updated Guide to Google's AI Content Controls"
 date: 2025-04-26T03:45:30Z
-description: "If you manage a website, work in SEO, or are a developer dealing with content, you may have seen something called Google-Extended in recent updates from Google. In April 2025, Google made some…"
+updated: 2026-11-25
+description: "Google-Extended is a robots.txt token for controlling certain non-Search AI uses of website content. Learn how it differs from Search AI controls, training and grounding."
 tag: "Google"
-image: "https://blog.rudrakasturi.com/wp-content/uploads/2025/04/google-crawler.webp"
-categories: ["Crawling","Google Search","SEO"]
-tags: ["Google","Google Extended","Robots","Rudra Kasturi","SEO"]
+tldr: "Google-Extended is not a crawler and does not have its own user-agent string. Google's November 2026 documentation clarifies that it can control training and grounding on certain non-Search products, including Gemini Apps and Vertex AI. It does not block Google Search, AI Overviews or AI Mode. Search generative AI features have a separate control in Search Console."
+sources:
+  - title: "Control how your content is used for generative AI at Google"
+    url: "https://developers.google.com/search/docs/fundamentals/gen-ai-controls"
+    publisher: "Google Search Central"
+    reviewed: "2026-11-25"
+  - title: "List of Google's common crawlers"
+    url: "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers"
+    publisher: "Google Search Central"
+    reviewed: "2026-11-25"
+categories: ["Crawling", "Google Search", "SEO", "AEO"]
+tags: ["Google", "Google-Extended", "Robots", "AI training", "AI grounding", "SEO"]
 ---
 
-If you manage a website, work in SEO, or are a developer dealing with content, you may have seen something called **Google-Extended** in recent updates from Google.
+If you manage a website, you may have seen the name Google-Extended in discussions about AI training and robots.txt. It is easy to mistake it for another Google crawler or assume that blocking it removes your content from AI Overviews.
 
-In April 2025, Google made some changes to how they explain this tool. In this blog, we’ll go over what Google-Extended is, why it’s important, how to use it, and what the latest update means — all in simple language.
+Neither assumption is correct.
 
-## What Is Google-Extended?
+Google-Extended is a robots.txt product token. It does not have its own crawler or user-agent string. Google's November 24, 2026 documentation gives a clearer explanation of what it controls and, just as importantly, what it does not control.
 
-**Google-Extended** is a special rule you can add to your `robots.txt` file (the file that tells search engines what they can or can’t do on your site).
+## What is Google-Extended?
 
-But here's the key part:  
-It’s **not about Google Search** or your rankings.
+Google-Extended is a control that website owners can use to limit certain uses of their content by Google's non-Search generative AI products.
 
-Instead, it tells Google whether or not they’re allowed to use your website’s content to **train their AI models**, like the **Gemini** models used in:
+Google's updated documentation describes two uses of web content:
 
-*   Gemini AI apps (Google’s version of ChatGPT)
-*   Vertex AI (Google’s platform for developers)
-*   Tools that use Google Search to “ground” AI answers (helping them be more accurate)
+- **Training:** using content to help train future foundation models before they are deployed.
+- **Grounding:** retrieving relevant information from the web when a deployed AI system answers a prompt.
 
-So basically, this rule gives you control over whether your content helps power Google’s future AI tools.
+These are separate activities. Training happens before deployment. Grounding happens when an AI product looks up current information to support a response.
 
-## Does Google-Extended Crawl My Website?
+Google says Google-Extended can control training and grounding for specified non-Search products, including Gemini Apps and Vertex AI.
 
-No, and this is important:
+## Does Google-Extended block AI Overviews or AI Mode?
 
-Google-Extended **is not a crawler**.  
-It doesn’t visit your site or collect pages. It doesn’t show up in your server logs.
+No. Google's November 2026 documentation makes this distinction clear.
 
-Google still crawls your site using regular crawlers like:
+Google-Extended does not affect whether a page can be crawled, indexed or ranked in Google Search. It also does not opt a website out of AI Overviews or AI Mode.
 
-*   `Googlebot` (for general web search)
-*   `Googlebot-News` (for news content)
-*   `Googlebot-Image` (for images)
+Search generative AI features use a separate control in Search Console. Google says that setting manages whether content from a site is used for grounding or displayed, including links, in Search AI features such as AI Overviews and AI Mode.
 
-But after your content is crawled, **Google-Extended controls whether that content is used to train AI models**.
+The Search generative AI control does not affect model training and is not a ranking or inclusion signal for other parts of Google Search. Google says its worldwide rollout was completed on August 31, 2026.
 
-## How to Use Google-Extended in Your robots.txt
+For the full comparison, read our guide to [Google's AI content controls: training, grounding and Search](/google-ai-content-controls-training-grounding-search-publishers/).
 
-Let’s say you want to **stop Google from using most of your content in AI training**, but allow one specific page. Your `robots.txt` might look like this:
+## How to use Google-Extended in robots.txt
 
-```
-user-agent: Google-Extended
-allow: /archive/1Q84
-disallow: /archive/
-```
+If your organisation decides to disallow Google-Extended, the rule can look like this:
 
-This means:
+\`\`\`txt
+User-agent: Google-Extended
+Disallow: /
+\`\`\`
 
-*   The page `/archive/1Q84` can be used in AI training
-*   Everything else under `/archive/` is blocked from AI training
+This is a site-wide rule for the uses governed by Google-Extended. It is not a general instruction to stop Google Search from visiting the site.
 
-Again — this does **not** block Google from showing these pages in search results. It only affects whether the content is used for training future AI models.
+Do not add the rule without a policy decision. Consider whether your organisation wants to permit training, non-Search grounding, Search AI features and ordinary Search visibility. They are not one combined setting.
 
-## What Changed in April 2025?
+## Which Google control should you use?
 
-Google made two key updates:
+| Your goal | Control |
+|---|---|
+| Limit training and grounding on specified non-Search Google AI products | Google-Extended in robots.txt |
+| Opt out of AI Overviews, AI Mode and Search generative AI features | Search generative AI control in Search Console |
+| Limit snippets or exclude selected text from Search features | \`nosnippet\`, \`max-snippet\` or \`data-nosnippet\` |
+| Remove a page from Google Search | \`noindex\` |
 
-### 1\. **Clearer Description for Google-Extended**
+A \`noindex\` rule is much broader than an AI opt-out. It prevents the page from appearing in Search, including Search generative AI features.
 
-They updated the wording to make it more obvious that:
+## What website owners should check
 
-*   Google-Extended is about **AI training**
-*   It doesn’t affect your **search rankings**
-*   It doesn’t have its own crawler
-*   It’s just a signal inside your `robots.txt` file
+1. Review the current robots.txt file and confirm whether Google-Extended is already blocked.
+2. Check the Search generative AI setting in Search Console.
+3. Review page-level snippet controls such as \`nosnippet\`, \`max-snippet\` and \`data-nosnippet\`.
+4. Record which uses the organisation permits and which it restricts.
+5. Test the rules after deployment and check that ordinary Search visibility has not been unintentionally affected.
+6. Review Google's documentation when the available controls change.
 
-This helps avoid confusion — especially for developers and SEOs who are managing search visibility.
+Also check our updated guide to [Google's crawlers and fetchers](/googles-crawlers-and-fetchers-which-obey-robots-txt-and-which-do-not-a-decision-table/). Google-Extended is not one of the crawlers listed there because it is a control token, not a crawler.
 
-### 2\. **Fix for Googlebot-News**
+## The key point
 
-Previously, Google’s docs said that rules for `Googlebot-News` could affect whether your content appeared in the **Google News tab**. That was incorrect.
+Google-Extended is not a way to block every form of AI use, and it is not a way to remove a website from Search. It controls specified non-Search AI uses. Search AI features have their own control.
 
-The fix now says:
-
-> **_Robots.txt rules for `Googlebot-News` do not control what shows up in the News tab._**
-
-This is important for news publishers — just blocking or allowing Googlebot-News won’t change your visibility in Google News.
-
-## Why This Matters
-
-Here’s why you should care:
-
-*   **For publishers**: If you don’t want Google using your articles or content to train AI models, Google-Extended lets you opt out.
-*   **For developers**: You now have more precise control over how your content is used beyond traditional web search.
-*   **For SEOs**: It’s important to know that this tool does **not impact indexing or ranking**. It’s purely about AI training.
-
-## What You Should Do
-
-*   If you're okay with Google using your content for AI training → you don’t need to do anything.
-*   If you want to block that use → update your `robots.txt` with rules for `Google-Extended`.
-*   Don’t worry about search rankings — this won’t hurt your SEO.
-*   If you’re in news SEO, remember that Googlebot-News settings don’t control the News tab.
-
-If you want help writing a custom `robots.txt` file or aren’t sure how this affects your site, feel free to reach out or leave a comment.
-
-Keeping control of how your content is used — especially in the age of AI — is more important than ever. Google-Extended is one way to do just that.
+Publishers should decide what they want to allow, use the correct setting for that purpose and avoid treating robots.txt as a universal switch for Google's products.
