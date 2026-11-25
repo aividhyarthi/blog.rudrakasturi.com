@@ -114,4 +114,4 @@ For most publishers, the first step is to map the value exchange. Search visibil
 
 Keep a record of which controls are active, which pages they affect and what the business intends to achieve. Revisit that decision when Google changes its documentation or adds new controls.
 
-Our [AEO and GEO guide](/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says-to-do/) explains the wider relationship between search optimisation and AI discovery. The key is to make technical decisions based on the exact behaviour Google documents, not on assumptions about what a crawler token might do.
+Our [AEO and GEO guide](/aeo-geo-ai-seo-what-the-terms-mean-and-what-google-actually-says/) explains the wider relationship between search optimisation and AI discovery. The key is to make technical decisions based on the exact behaviour Google documents, not on assumptions about what a crawler token might do.
