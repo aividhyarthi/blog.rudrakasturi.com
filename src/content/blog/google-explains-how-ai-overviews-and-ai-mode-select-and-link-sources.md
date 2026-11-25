@@ -1,5 +1,5 @@
 ---
-title: "How Google Chooses Sources for AI Overviews and AI Mode"
+title: "Google Finally Explains How AI Overviews and AI Mode Choose Which Websites to Cite"
 date: 2026-11-25
 description: "Google has explained how AI Overviews and AI Mode find, check and link to websites. Here is what the new guidance means for publishers and SEO teams."
 tag: "AEO"
