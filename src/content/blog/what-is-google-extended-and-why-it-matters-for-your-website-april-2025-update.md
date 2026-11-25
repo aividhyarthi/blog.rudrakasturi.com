@@ -35,13 +35,13 @@ Google's updated documentation describes two uses of web content:
 
 These are separate activities. Training happens before deployment. Grounding happens when an AI product looks up current information to support a response.
 
-Google says Google-Extended can control training and grounding for specified non-Search products, including Gemini Apps and Vertex AI.
+Google says Google-Extended can limit training use and grounding for specified products. Its grounding control applies to non-Search products such as Gemini Apps and Vertex AI. Google's Search Console Help also says to use Google-Extended to limit training of the models used to generate Search AI responses.
 
 ## Does Google-Extended block AI Overviews or AI Mode?
 
 No. Google's November 2026 documentation makes this distinction clear.
 
-Google-Extended does not affect whether a page can be crawled, indexed or ranked in Google Search. It also does not opt a website out of AI Overviews or AI Mode.
+Google-Extended does not affect whether a page can be crawled, indexed or ranked in Google Search. It does not control whether a page is grounded or displayed as a source in AI Overviews or AI Mode. However, Google's Search Console Help says Google-Extended can be used to limit training of the models used to generate Search AI responses.
 
 Search generative AI features use a separate control in Search Console. Google says that setting manages whether content from a site is used for grounding or displayed, including links, in Search AI features such as AI Overviews and AI Mode.
 
@@ -86,6 +86,6 @@ Also check our updated guide to [Google's crawlers and fetchers](/googles-crawle
 
 ## The key point
 
-Google-Extended is not a way to block every form of AI use, and it is not a way to remove a website from Search. It controls specified non-Search AI uses. Search AI features have their own control.
+Google-Extended is not a way to remove a website from Search or to opt out of grounding and display in AI Overviews and AI Mode. It can limit training use, including training of models used for Search AI responses, while the Search Console control governs grounding and display in Search AI features.
 
 Publishers should decide what they want to allow, use the correct setting for that purpose and avoid treating robots.txt as a universal switch for Google's products.
