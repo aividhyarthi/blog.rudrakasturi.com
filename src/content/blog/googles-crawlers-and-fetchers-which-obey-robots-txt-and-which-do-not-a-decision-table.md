@@ -22,6 +22,10 @@ sources:
     url: "https://developers.google.com/crawling/docs/changelog"
     publisher: "Google"
     reviewed: "2026-11-25"
+  - title: "Google's Crawling Documentation Changelog"
+    url: "https://developers.google.com/crawling/docs/changelog"
+    publisher: "Google"
+    reviewed: "2026-11-25"
 categories: ["AEO", "SEO", "Technical SEO"]
 tags: ["Googlebot", "Google-Extended", "robots.txt", "Crawlers", "User-triggered fetchers"]
 ---
