@@ -1,5 +1,5 @@
 ---
-title: "Bing Is Testing a Standalone AI-Generated Answer Card in Search"
+title: "Bing Is Testing a New AI Generated Answer Box. Is Search Moving Beyond Traditional Results?"
 date: 2026-11-25
 description: "Bing is testing a separately labelled AI-generated answer card alongside traditional search results. Here is what has been observed and what remains unconfirmed."
 tag: "AI Search"
