@@ -1,5 +1,5 @@
 ---
-title: "Google's AI Content Controls Explained: Training, Grounding and Search Are Different"
+title: "Google Gives Publishers More Clarity on AI Training, Grounding and Search Controls"
 date: 2026-11-25
 description: "Google has clarified how publishers can control AI training and grounding across its products. Learn what Google-Extended, Search Console controls and robots meta tags actually do."
 tag: "AEO"
