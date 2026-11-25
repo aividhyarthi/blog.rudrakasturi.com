@@ -18,13 +18,11 @@ sources:
     reviewed: "2026-11-25"
 ---
 
-**Short answer:** Bing has been observed testing a separately labelled AI-Generated answer card inside search results. Reports describe it on Android, mobile browsers and desktop, but Microsoft has not confirmed a wider rollout or explained how the feature selects sources.
+Search results are increasingly being used to test different ways of presenting generated answers alongside website links. The latest Bing observation is a card explicitly labelled "AI-Generated answer" within the regular results page.
 
-Microsoft Bing appears to be testing another way to show AI-generated information inside search results. The new format is a standalone card labelled "AI-Generated answer", separate from the regular list of web links.
+The test has been reported on Android, mobile browsers and desktop. It appears distinct from the existing Copilot Search experience, but Microsoft has not yet explained the feature or confirmed a wider rollout.
 
-The test was first spotted on Android and reported by Search Engine Watch on November 23. Search Engine Roundtable reported it on November 24 and said it was able to reproduce the card on both mobile and desktop.
-
-Microsoft has not publicly explained the test or confirmed that it is being rolled out widely. For now, this should be treated as an observed experiment, not a permanent change to Bing Search.
+For publishers, this is an interface change to watch, not yet a reason to assume organic traffic will fall.
 
 ## What does the new Bing answer card look like?
 
@@ -107,9 +105,3 @@ Use a fixed set of important queries, test mobile and desktop, record date and l
 
 Not on the basis of this test alone. Monitor whether the format expands and measure actual changes before changing content or technical priorities.
 
-
-## Related reading
-
-- [Bing Webmaster Tools AI performance reporting compared with Google](/bing-webmaster-tools-ai-performance-report-compared-with-googles-what-each-shows/)
-- [AI search visibility: a practical checklist](/a-practical-checklist-for-ai-search-visibility/)
-- [How to track exact cited URLs across AI platforms](/what-are-cited-urls-ai-search-track-chatgpt-gemini-perplexity-2026/)
