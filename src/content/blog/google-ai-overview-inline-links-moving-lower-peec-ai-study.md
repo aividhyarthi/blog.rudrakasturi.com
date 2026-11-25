@@ -1,5 +1,5 @@
 ---
-title: "Google AI Overviews May Show the First Inline Link Further Down the Answer"
+title: "Google AI Overviews Are Showing More Links, But the First Citation Is Moving Further Down"
 date: 2026-11-25
 description: "Peec AI data shared by researcher David Konitzny shows a fall in AI Overviews with an inline link in the first third of the answer. Here is what the finding does and does not tell publishers."
 tag: "AEO"
