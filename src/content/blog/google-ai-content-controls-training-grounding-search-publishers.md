@@ -3,7 +3,7 @@ title: "Google's AI Content Controls Explained: Training, Grounding and Search A
 date: 2026-11-25
 description: "Google has clarified how publishers can control AI training and grounding across its products. Learn what Google-Extended, Search Console controls and robots meta tags actually do."
 tag: "AEO"
-tldr: "Google's November 24 documentation separates model training from grounding, and Search AI controls from controls for other Google products. Google-Extended can limit training and grounding on certain non-Search products, but it does not block AI Overviews or AI Mode. A separate Search Console control governs whether content can be used or displayed in Search generative AI features. These are controls over use, not ranking shortcuts."
+tldr: "Google's November 24 documentation separates model training from grounding, and Search AI controls from controls for other Google products. Google-Extended controls training use and non-Search grounding, while the Search Console control governs whether content can be used for grounding or displayed in Search generative AI features. These controls are separate. These are controls over use, not ranking shortcuts."
 categories: ["AEO", "SEO", "Google", "Technical SEO", "AI Search"]
 tags: ["Google-Extended", "AI training", "AI grounding", "robots.txt", "Search Console", "AI Overviews"]
 type: "article"
@@ -26,7 +26,7 @@ Google has clarified how website owners can control the use of their content acr
 
 It also explains that controls for Google Search's AI features are different from controls for other Google products. This matters because a publisher could block one type of use and still allow another.
 
-The biggest correction for website owners is this: **Google-Extended does not block your pages from being used as sources in AI Overviews or AI Mode.** Google now documents a separate Search Console control for Search generative AI features.
+The biggest correction for website owners is this: **Google-Extended is not the control for whether a page is grounded or displayed as a source in AI Overviews or AI Mode.** Google documents a separate Search Console control for that. Google-Extended can, however, limit training use, including training of models used for Search generative AI responses, according to Google's Search Console Help.
 
 ## Training and grounding are not the same thing
 
@@ -47,7 +47,7 @@ Google's new documentation sets out separate controls for different purposes.
 | Control | What it affects | What it does not do |
 |---|---|---|
 | Search generative AI control in Search Console | Whether site content is used for grounding or displayed, including links, in AI Overviews, AI Mode and generative AI features in Discover | It does not control model training and is not a ranking or inclusion signal for other parts of Search |
-| Google-Extended in robots.txt | Use of content for training and grounding on specified non-Search Google AI products, such as Gemini Apps and Vertex AI | It does not block Google Search inclusion, affect Search ranking or opt a site out of AI Overviews and AI Mode |
+| Google-Extended in robots.txt | Limits use of content for training and for grounding on specified non-Search Google AI products | It does not block Search crawling or indexing, or opt a site out of grounding and display in AI Overviews and AI Mode |
 | \`nosnippet\`, \`max-snippet\` and \`data-nosnippet\` | Control snippets or limit specific text from being used in Search features, including AI Overviews and AI Mode | They are not a general switch for every Google AI product |
 | \`noindex\` | Prevents a page from appearing in Google Search, including Search generative AI features | It is not a selective AI training control |
 
@@ -98,7 +98,7 @@ Use this decision process.
 
 **Blocking Googlebot to stop AI training.** This can affect Search crawling and visibility. Google-Extended exists for a different purpose.
 
-**Assuming Google-Extended blocks AI Overviews.** Google's clarified documentation says it does not. Use the Search generative AI control for Search AI features.
+**Assuming Google-Extended blocks AI Overviews.** Google-Extended does not control grounding or display in AI Overviews and AI Mode. However, Google's Search Console Help says to use Google-Extended to limit training of models used to generate Search AI responses. Use the Search generative AI control to opt out of Search AI grounding and display.
 
 **Treating training and grounding as one activity.** They happen at different stages and have different controls.
 
