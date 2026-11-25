@@ -80,7 +80,7 @@ When a website loses visibility, use the following sequence before submitting fe
 6. **Review the content.** Check whether pages answer the intended question, contain current information and offer evidence or experience that readers cannot get from a generic summary.
 7. **Submit evidence-based feedback.** Use the update-specific route when the issue appears broader than one page. Include examples and the pattern you have identified.
 
-For a detailed recovery process, use our guide to [diagnosing Search traffic drops after a Google update](/google-core-update-recovery-checklist-how-to-diagnose-traffic-drops/). For AI discovery, keep a separate record of visible citations and referred visits rather than mixing them with ordinary organic clicks.
+For a detailed recovery process, use our guide to [diagnosing Search traffic drops after a Google update](/what-to-do-after-a-google-core-update-a-calm-seven-step-plan-for-seo-teams/). For AI discovery, keep a separate record of visible citations and referred visits rather than mixing them with ordinary organic clicks.
 
 ## How should publishers use the new hub?
 
