@@ -1,6 +1,7 @@
 ---
 title: "Perplexity Introduces Multiagent: Up to 16 AI Agents Can Work on One Complex Task"
-date: 2026-11-25
+date: 2026-11-17
+updated: 2026-11-25
 description: "Perplexity has introduced Multiagent in Computer, allowing a lead agent to split complex assignments across as many as 16 frontier model agents working in parallel."
 draft: true
 tag: "AI Agents"
@@ -13,13 +14,17 @@ sources:
     url: "https://www.perplexity.ai/changelog/multiagent-teammates-on-mobile-and-chrome-extension"
     publisher: "Perplexity"
     reviewed: "2026-11-25"
+  - title: "Introducing Computer’s Multiagent effort level"
+    url: "https://www.perplexity.ai/hub/blog/introducing-computer-multiagent"
+    publisher: "Perplexity"
+    reviewed: "2026-11-25"
 ---
 
 Perplexity has introduced Multiagent, a new effort level in Perplexity Computer that allows a lead agent to divide a large assignment among as many as 16 agents running different frontier models. The agents work at the same time, share their findings and check one another's work before returning a combined result.
 
 The feature is positioned above Perplexity's existing Ultra effort level. It is designed for work that has several connected parts, rather than a single question that one model can answer in one pass.
 
-Perplexity announced Multiagent on November 24, 2026, as part of a wider product update covering mobile teammates, a Chrome extension, browser control and new ways to turn repeated work into reusable skills.
+Perplexity first announced Multiagent on November 17, 2026. Its November 24 changelog then documented a wider set of Computer updates, including mobile teammates, a Chrome extension, browser control and new ways to turn repeated work into reusable skills. The distinction matters: Multiagent itself was not a brand-new launch on November 24.
 
 ## How Multiagent works
 
@@ -49,7 +54,7 @@ The benefit depends on the task. A simple factual question does not need 16 agen
 
 ## Multiagent is part of a wider Perplexity Computer update
 
-The November 24 announcement includes several connected changes.
+The November 24 changelog also documents several connected changes.
 
 ### Teammates can be contacted from mobile and CarPlay
 
@@ -124,7 +129,7 @@ A single model works through the task as one process. Multiagent divides the ass
 
 No. More agents can improve coverage for a complex task, but they can also add coordination overhead, cost and conflicting findings. The final result still needs to be checked.
 
-### What else did Perplexity announce on November 24?
+### What else did Perplexity include in its November 24 changelog?
 
 The update also covers mobile and CarPlay access to teammates, an updated Chrome extension, self-improving skills through Brain, Cloud Desktop improvements, model options and several developer APIs.
 
