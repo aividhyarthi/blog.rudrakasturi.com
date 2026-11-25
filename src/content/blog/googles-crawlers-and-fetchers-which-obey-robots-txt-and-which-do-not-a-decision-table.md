@@ -4,7 +4,7 @@ date: 2026-11-12T11:00:00+05:30
 updated: 2026-11-25
 description: "Google's crawler documentation now lists additional existing special-case crawlers and user-triggered fetchers. Use this updated decision table to understand robots.txt behaviour and Google-Extended."
 tag: "AEO"
-tldr: "Google updated its crawler documentation on November 23, 2026, adding six existing special-case crawlers and six existing user-triggered fetchers. These are not newly launched bots. APIs-Google moved to the user-triggered fetcher list. Google also clarified that Google-Extended controls training and grounding on certain non-Search products, not AI Overviews or AI Mode."
+tldr: "Google updated its crawler documentation on November 23, 2026, adding six existing special-case crawlers and six existing user-triggered fetchers. These are not newly launched bots. APIs-Google moved to the user-triggered fetcher list. Google clarified that Google-Extended controls training use and non-Search grounding. It does not control grounding or display in AI Overviews or AI Mode, though Google says it can limit training of models used for Search AI responses."
 sources:
   - title: "List of Google's common crawlers"
     url: "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers"
@@ -29,6 +29,8 @@ sources:
 categories: ["AEO", "SEO", "Technical SEO"]
 tags: ["Googlebot", "Google-Extended", "robots.txt", "Crawlers", "User-triggered fetchers"]
 ---
+
+**Short answer:** Google's November 23 documentation update added six existing special-case crawlers and six existing user-triggered fetchers to its public lists. These are not newly launched bots. APIs-Google was reclassified. Check the crawler type and verify the requester before changing robots.txt.
 
 A robots.txt rule only controls the crawlers and fetchers that are required to obey it. Google's documentation now lists more of the systems that may appear in website server logs, and the latest update makes an important distinction between automated crawlers and user-triggered fetchers.
 
@@ -130,3 +132,37 @@ Check whether any code depends on the old APIs-Google classification or user-age
 Finally, schedule a quarterly review of Google's crawler documentation. The list can change, and a rule that made sense for one product may not control another.
 
 The practical lesson is simple: identify the visitor before deciding what to block. A robots.txt file is not a universal access-control system, and Google's different crawlers and fetchers do not all follow the same rules.
+
+## Frequently asked questions
+
+### Did Google launch 12 new crawlers in November 2026?
+
+No. Google added 12 existing clients to its public documentation. The update documents systems that were already operating.
+
+### What changed for APIs-Google?
+
+Google moved APIs-Google from the special-case crawler list to the user-triggered fetcher list and updated its documented user-agent information.
+
+### Do all Google crawlers obey robots.txt?
+
+No. Google says common crawlers obey robots.txt when crawling automatically. Special-case crawlers and user-triggered fetchers can follow different rules and may ignore it.
+
+### Does Google-Extended have its own crawler?
+
+No. Google-Extended is a robots.txt product token, not a crawler or user-agent string.
+
+### How can I verify that a request really came from Google?
+
+Do not rely only on the user-agent string. Verify the IP using Google's published IP ranges or its documented reverse and forward DNS process.
+
+### Can robots.txt stop a user-triggered fetcher?
+
+Generally no. Google says user-triggered fetchers generally ignore robots.txt. Use authentication, access controls or resource removal where appropriate.
+
+
+## Related reading
+
+- [Google's AI content controls: training, grounding and Search](/google-ai-content-controls-training-grounding-search-publishers/)
+- [What is Google-Extended? The updated guide](/what-is-google-extended-and-why-it-matters-for-your-website-april-2025-update/)
+- [Google's guide to AI Overviews and AI Mode requirements](/ai-overviews-and-ai-mode-what-google-says-you-need-and-a-team-checklist-for-seo-and-aeo/)
+- [How to block AI bots in robots.txt](/blocking-ai-bots-in-robots-txt-a-comprehensive-guide/)
