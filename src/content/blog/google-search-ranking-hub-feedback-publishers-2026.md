@@ -1,6 +1,6 @@
 ---
 title: "Google Launches a Search Ranking Transparency Hub. What Publishers Can Now Do Differently"
-date: 2026-11-25
+date: 2026-11-25T08:00:00+05:30
 description: "Google has brought ranking principles, update notices and feedback guidance into one Search Ranking Hub. Here is what the new resource changes for SEO teams."
 tag: "Google Search"
 tldr: "Google launched a central Search Ranking Hub on November 24, 2026. It brings ranking principles, update notifications, troubleshooting resources and feedback routes together. Publishers can submit feedback about ranking changes, but Google says this is for identifying systemic issues, not requesting a manual ranking appeal for one website."

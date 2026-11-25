@@ -1,6 +1,6 @@
 ---
 title: "Bing Is Testing a New AI Generated Answer Box. Is Search Moving Beyond Traditional Results?"
-date: 2026-11-25
+date: 2026-11-25T11:30:00+05:30
 description: "Bing is testing a separately labelled AI-generated answer card alongside traditional search results. Here is what has been observed and what remains unconfirmed."
 tag: "AI Search"
 tldr: "Bing is testing a standalone card labelled AI-Generated answer in its search results. The feature appears separate from existing Copilot Search and AI answer formats. Search Engine Watch first reported seeing it on Android, and Search Engine Roundtable later reproduced it on mobile and desktop. Microsoft has not explained the test or confirmed a wider rollout."

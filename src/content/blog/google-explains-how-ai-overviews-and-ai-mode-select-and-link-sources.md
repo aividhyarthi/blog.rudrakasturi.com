@@ -1,6 +1,6 @@
 ---
 title: "Google Finally Explains How AI Overviews and AI Mode Choose Which Websites to Cite"
-date: 2026-11-25
+date: 2026-11-25T08:45:00+05:30
 description: "Google has explained how AI Overviews and AI Mode find, check and link to websites. Here is what the new guidance means for publishers and SEO teams."
 tag: "AEO"
 tldr: "Google says AI Overviews and AI Mode use its Search index, related searches and query fan-out to find supporting pages. Its systems then ground and corroborate generated responses before choosing which links to display. Publishers still need indexed, snippet-eligible pages, clear evidence, accurate information and visible authorship. None of this guarantees a citation."

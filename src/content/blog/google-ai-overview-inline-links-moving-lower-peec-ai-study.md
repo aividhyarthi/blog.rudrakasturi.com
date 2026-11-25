@@ -1,6 +1,6 @@
 ---
 title: "Google AI Overviews Are Showing More Links, But the First Citation Is Moving Further Down"
-date: 2026-11-25
+date: 2026-11-25T09:30:00+05:30
 description: "Peec AI data shared by researcher David Konitzny shows a fall in AI Overviews with an inline link in the first third of the answer. Here is what the finding does and does not tell publishers."
 tag: "AEO"
 tldr: "David Konitzny of Peec AI reports that the share of Google AI Overviews with their first inline link in the first third of the answer fell from 76.8% on September 21 to 51.8% on November 20. The figures describe link placement, not clicks or traffic, and come from a third-party dataset rather than Google. The finding raises a useful measurement question: where does a cited link appear inside the answer?"

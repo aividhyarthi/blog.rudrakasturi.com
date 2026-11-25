@@ -1,6 +1,6 @@
 ---
 title: "Google Gives Publishers More Clarity on AI Training, Grounding and Search Controls"
-date: 2026-11-25
+date: 2026-11-25T10:30:00+05:30
 description: "Google has clarified how publishers can control AI training and grounding across its products. Learn what Google-Extended, Search Console controls and robots meta tags actually do."
 tag: "AEO"
 tldr: "Google's November 24 documentation separates model training from grounding, and Search AI controls from controls for other Google products. Google-Extended controls training use and non-Search grounding, while the Search Console control governs whether content can be used for grounding or displayed in Search generative AI features. These controls are separate. These are controls over use, not ranking shortcuts."
@@ -48,8 +48,8 @@ Google's new documentation sets out separate controls for different purposes.
 |---|---|---|
 | Search generative AI control in Search Console | Whether site content is used for grounding or displayed, including links, in AI Overviews, AI Mode and generative AI features in Discover | It does not control model training and is not a ranking or inclusion signal for other parts of Search |
 | Google-Extended in robots.txt | Limits use of content for training and for grounding on specified non-Search Google AI products | It does not block Search crawling or indexing, or opt a site out of grounding and display in AI Overviews and AI Mode |
-| \`nosnippet\`, \`max-snippet\` and \`data-nosnippet\` | Control snippets or limit specific text from being used in Search features, including AI Overviews and AI Mode | They are not a general switch for every Google AI product |
-| \`noindex\` | Prevents a page from appearing in Google Search, including Search generative AI features | It is not a selective AI training control |
+| `nosnippet`, `max-snippet` and `data-nosnippet` | Control snippets or limit specific text from being used in Search features, including AI Overviews and AI Mode | They are not a general switch for every Google AI product |
+| `noindex` | Prevents a page from appearing in Google Search, including Search generative AI features | It is not a selective AI training control |
 
 The Search generative AI control is managed in Search Console. Google says its worldwide rollout was completed on August 31, 2026. The November 24 documentation explains the control more clearly; it is not a brand-new control launched on that date.
 
@@ -63,10 +63,10 @@ It does not control whether Google Search can crawl, index or rank a page. It al
 
 A basic robots.txt example looks like this:
 
-\`\`\`txt
+```txt
 User-agent: Google-Extended
 Disallow: /
-\`\`\`
+```
 
 This tells Google not to use content covered by the Google-Extended token for the relevant non-Search uses. It does not remove pages from Google Search.
 
@@ -89,7 +89,7 @@ Use this decision process.
 1. **Write down the intended outcome.** Is the concern model training, grounding in Gemini Apps, use in Search AI answers, or all of these?
 2. **Check the Search Console setting.** Confirm whether the site is included in Search generative AI features. Google says this control is available through Search Console settings.
 3. **Review Google-Extended.** Decide whether to allow or disallow non-Search uses. Document the decision with the editorial, legal and product teams.
-4. **Review snippet controls.** Check whether \`nosnippet\`, \`max-snippet\` or \`data-nosnippet\` is already applied to important pages.
+4. **Review snippet controls.** Check whether `nosnippet`, `max-snippet` or `data-nosnippet` is already applied to important pages.
 5. **Do not use noindex as an AI opt-out.** Noindex removes the page from Search itself, which is a much wider consequence.
 6. **Test after deployment.** Check robots.txt, page-level meta tags, Search Console indexing and visible Search results.
 7. **Record the policy.** Keep a short internal note explaining which Google uses are allowed and why.
