@@ -22,6 +22,8 @@ sources:
     reviewed: "2026-11-25"
 ---
 
+**Short answer:** Google uses its Search index, related searches and query fan-out to find pages for AI Overviews and AI Mode. It then checks supporting information and decides which links to display. Being indexed and useful makes a page eligible, but does not guarantee a citation.
+
 Google has published a detailed explanation of how its AI Search features choose the websites they link to. The new guidance covers AI Overviews, AI Mode and other generative AI features in Search. It explains how Google finds supporting pages, checks the information used in an answer and decides which links to show.
 
 For publishers, this is useful because it describes the process more clearly than the usual advice to create helpful content. It also confirms an important point: Google's AI answers are connected to its existing Search ranking, retrieval and quality systems. There is no separate shortcut that guarantees a website will be cited.
@@ -109,3 +111,37 @@ Then test a set of relevant questions in Google AI Overviews and AI Mode. Save t
 Repeat the test under the same conditions after a month. This will not reveal Google's private retrieval logs, but it will give your team a consistent record of visible source selection.
 
 Google's new document gives publishers a clearer view of how its AI Search features connect answers to the web. The lesson is not to write for a mysterious citation algorithm. It is to publish information that can be found, checked and trusted, then measure whether it is actually being used.
+
+## Frequently asked questions
+
+### Does Google use a separate ranking system for AI Overviews?
+
+Google says its generative AI features are integrated with core Search ranking, retrieval and quality systems. The documentation does not describe a separate shortcut or ranking formula for citations.
+
+### Does appearing in Google's normal search results guarantee an AI citation?
+
+No. A page needs to be indexed and eligible to appear with a snippet, but Google's systems decide which pages support the answer and which links to display.
+
+### What is query fan-out in AI Search?
+
+Query fan-out means the system explores related searches or subtopics to answer a complex question. One user question can therefore lead to several supporting searches.
+
+### Can a page be retrieved but not shown as a citation?
+
+Yes. Retrieval and visible citation are different steps. A page may help inform the system without being selected as a visible link.
+
+### How can publishers improve their chances of being cited?
+
+Keep important pages indexable and snippet-eligible, put key facts in accessible text, cite primary evidence, make authorship clear and keep information accurate. These practices do not guarantee a citation.
+
+### Does an AI citation guarantee website traffic?
+
+No. A user may read the generated answer without opening the source. Track visible citations, referral visits and conversions separately.
+
+
+## Related reading
+
+- [How query fan-out works in AI search](/query-fan-out-in-ai-search-what-it-is-how-it-works/)
+- [AI Overviews and AI Mode: Google's requirements and team checklist](/ai-overviews-and-ai-mode-what-google-says-you-need-and-a-team-checklist-for-seo-and-aeo/)
+- [How to track the exact URLs cited by AI platforms](/what-are-cited-urls-ai-search-track-chatgpt-gemini-perplexity-2026/)
+- [AI brand mentions versus citations and recommendations](/ai-brand-mentions-vs-ai-citations-recommendations-2026/)
