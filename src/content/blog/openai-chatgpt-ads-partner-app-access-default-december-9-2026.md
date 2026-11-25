@@ -37,7 +37,7 @@ The email says that a person setting up advertising through a partner app will s
 
 This article explains what the notice says, what the public documentation confirms, and what administrators should review before the deadline.
 
-![Editorial illustration of an advertiser reviewing ChatGPT Ads permissions, connected partner apps and organisation access controls](/images/chatgpt-ads-partner-permissions-editorial.webp)
+![Editorial illustration of an advertiser reviewing ChatGPT Ads permissions, connected partner apps and organisation access controls](/images/chatgpt-ads-partner-permissions-editorial.svg)
 
 ## What changes on December 9?
 
