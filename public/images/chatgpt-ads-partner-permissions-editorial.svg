@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173d61"/><stop offset="1" stop-color="#28658d"/></linearGradient>
+ <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f5f8fb"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#18334b" flood-opacity=".16"/></filter>
+</defs>
+<rect width="1200" height="675" fill="#fffdf8"/>
+<path d="M0 594 Q180 570 360 596 T720 590 T1200 588 V675 H0Z" fill="#f5f1e8"/>
+<!-- plant -->
+<path d="M105 560 Q115 410 92 270 M110 450 Q45 415 38 350 Q100 360 110 450 M101 390 Q150 325 204 328 Q180 390 101 390 M96 330 Q35 270 54 216 Q115 248 96 330 M98 278 Q145 206 201 210 Q180 275 98 278" fill="#8da77b" stroke="#233d37" stroke-width="5" stroke-linejoin="round"/>
+<!-- person -->
+<path d="M0 590 Q18 485 95 466 Q145 450 195 475 L260 675 H0Z" fill="#e87932" stroke="#172d42" stroke-width="6"/>
+<path d="M94 460 Q54 421 62 350 Q69 274 143 257 Q216 250 243 318 Q265 382 221 441 Q190 478 145 479Z" fill="#e9b18a" stroke="#172d42" stroke-width="6"/>
+<path d="M61 367 Q32 277 102 228 Q170 183 226 247 Q245 270 240 310 Q209 273 170 280 Q132 301 112 344 Q93 370 61 367Z" fill="#1c2632" stroke="#172d42" stroke-width="7"/>
+<path d="M167 370 Q185 380 203 368" fill="none" stroke="#172d42" stroke-width="5" stroke-linecap="round"/>
+<circle cx="190" cy="343" r="5" fill="#172d42"/>
+<path d="M191 402 Q220 414 238 397" fill="none" stroke="#172d42" stroke-width="5" stroke-linecap="round"/>
+<!-- laptop screen -->
+<g filter="url(#shadow)">
+ <rect x="285" y="62" width="660" height="468" rx="28" fill="url(#screen)" stroke="#172d42" stroke-width="7"/>
+ <rect x="306" y="84" width="618" height="423" rx="17" fill="url(#paper)"/>
+ <circle cx="331" cy="104" r="7" fill="#f28b45"/><circle cx="354" cy="104" r="7" fill="#e6bc46"/><circle cx="377" cy="104" r="7" fill="#79a76b"/>
+ <rect x="306" y="126" width="618" height="74" fill="#173d61"/>
+ <circle cx="352" cy="162" r="22" fill="none" stroke="#fff" stroke-width="5"/>
+ <path d="M338 163 Q351 139 369 156 Q383 172 361 181 Q344 185 338 163 M352 141 Q365 137 374 150" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+ <text x="392" y="173" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#fff">OpenAI</text>
+ <text x="343" y="250" font-family="Arial,sans-serif" font-size="39" font-weight="700" fill="#172d42">ChatGPT Ads</text>
+ <rect x="340" y="274" width="548" height="54" rx="12" fill="#e9f1f8"/>
+ <text x="365" y="309" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#21445f">External Access</text>
+ <rect x="340" y="344" width="548" height="119" rx="15" fill="#fff" stroke="#c7d9e8" stroke-width="3"/>
+ <text x="365" y="383" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#1d344a">Third-party App Access</text>
+ <rect x="768" y="359" width="86" height="43" rx="22" fill="#259b55"/>
+ <circle cx="830" cy="380" r="17" fill="#fff"/>
+ <text x="365" y="423" font-family="Arial,sans-serif" font-size="18" fill="#52687c">Approved partner apps</text>
+ <text x="365" y="447" font-family="Arial,sans-serif" font-size="18" fill="#52687c">may request access to Ads data</text>
+ <rect x="340" y="476" width="548" height="1" fill="#d9e2eb"/>
+ <text x="365" y="495" font-family="Arial,sans-serif" font-size="15" fill="#64798b">Organisation defaults · View ad account · Manage ad account</text>
+</g>
+<!-- keyboard -->
+<path d="M280 532 L945 532 L1003 590 Q1008 600 990 605 L237 605 Q218 599 231 585Z" fill="#dce4ea" stroke="#172d42" stroke-width="6"/>
+<path d="M315 548 H916 M300 565 H936 M284 582 H954" stroke="#8da1b2" stroke-width="5" stroke-dasharray="18 8"/>
+<!-- shield -->
+<path d="M1000 220 L1060 244 L1054 319 Q1045 367 1000 390 Q955 367 946 319 L940 244Z" fill="#e8f6e9" stroke="#23894e" stroke-width="7"/>
+<path d="M977 304 L994 322 L1027 282" fill="none" stroke="#23894e" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- app cards -->
+<g font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">
+ <rect x="1005" y="35" width="170" height="70" rx="15" fill="#f2edff" stroke="#6d55b8" stroke-width="4"/>
+ <text x="1090" y="64" font-size="18" fill="#47358c">APPROVED</text><text x="1090" y="87" font-size="18" fill="#47358c">PARTNER APPS</text>
+ <rect x="1030" y="125" width="135" height="62" rx="14" fill="#fff" stroke="#8ca4b7" stroke-width="3"/>
+ <path d="M1060 165 V151 M1082 165 V143 M1104 165 V136" stroke="#e58a35" stroke-width="10" stroke-linecap="round"/>
+ <rect x="1030" y="405" width="135" height="62" rx="14" fill="#fff" stroke="#8ca4b7" stroke-width="3"/>
+ <circle cx="1068" cy="428" r="11" fill="#87a9c7"/><circle cx="1102" cy="428" r="11" fill="#87a9c7"/><path d="M1050 452 Q1068 434 1085 452 M1084 452 Q1102 434 1120 452" fill="none" stroke="#416b91" stroke-width="6"/>
+</g>
+<path d="M1060 188 Q1080 204 1060 222 M1060 390 Q1080 385 1080 405" fill="none" stroke="#294c6a" stroke-width="4" stroke-dasharray="8 8"/>
+<!-- calendar -->
+<g filter="url(#shadow)">
+ <rect x="948" y="500" width="220" height="143" rx="16" fill="#fff" stroke="#172d42" stroke-width="5"/>
+ <rect x="948" y="500" width="220" height="35" rx="14" fill="#f2c56b"/>
+ <path d="M985 489 V516 M1030 489 V516 M1075 489 V516 M1120 489 V516" stroke="#172d42" stroke-width="6" stroke-linecap="round"/>
+ <text x="1058" y="566" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#c44c2d">OPT OUT BY</text>
+ <text x="1058" y="600" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#c44c2d">DEC 8</text>
+ <text x="1058" y="626" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#29445c">New default: Dec 9</text>
+</g>
+<text x="30" y="650" font-family="Arial,sans-serif" font-size="13" fill="#7b8994">EDITORIAL EXPLAINER · CHATGPT ADS ACCESS CONTROLS</text>
+</svg>
