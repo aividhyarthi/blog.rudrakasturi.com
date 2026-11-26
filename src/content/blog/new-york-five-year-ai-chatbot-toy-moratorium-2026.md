@@ -86,7 +86,7 @@ Parents should look beyond the packaging and ask a few basic questions.
 
 A toy that talks naturally may feel more advanced, but that does not automatically make it more suitable for a child.
 
-For more on AI privacy and personal information, read our [Google Gemini chat history and privacy settings explainer](/google-gemini-chat-history-ai-training-privacy-settings-explained/).
+For more on AI privacy and personal information, read our [Google Gemini chat history and privacy settings explainer](/google-gemini-chat-history-ai-training-privacy-settings-explained/) and [why Signal blocks AI agents from private chats](/signal-blocks-ai-agents-private-chats-privacy-risk/).
 
 ## Frequently asked questions about New York's AI chatbot toy ban
 
