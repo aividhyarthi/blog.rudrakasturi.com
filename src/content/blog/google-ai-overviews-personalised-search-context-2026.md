@@ -32,7 +32,7 @@ This is a meaningful change because search may become less like a series of unre
 
 *Original editorial illustration based on Google's announcement. [Read Google's official announcement](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/).*
 
-![Google's official illustration of Personal Intelligence in Search](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.width-200.format-webp.webp)
+![Google's official illustration of Personal Intelligence in Search](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.width-1600.format-webp.webp)
 
 *Official image from Google: [A more tailored Google Search that's uniquely yours, November 23, 2026](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/).*
 
