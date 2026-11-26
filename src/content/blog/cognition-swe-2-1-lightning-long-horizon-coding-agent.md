@@ -25,7 +25,7 @@ It has also introduced SWE-2.1 Ultrafast, a faster version powered by Cerebras i
 
 The announcement matters because the next stage of AI coding is not just about writing a function from a short instruction. It is about whether an AI agent can understand a large codebase, make changes, run tests, find errors and keep working until a task is complete.
 
-![How a long-running AI coding agent moves from a software issue to tested code](/images/editorial/cognition-swe-2-1-lightning-long-horizon-coding-agent.svg)
+![How a long-running AI coding agent moves from a software issue to tested code](https://raw.githubusercontent.com/aividhyarthi/blog.rudrakasturi.com/main/public/images/editorial/cognition-swe-2-1-lightning-long-horizon-coding-agent.svg)
 
 *Original editorial illustration based on Cognition's [SWE-2.1 announcement](https://cognition.com/blog/swe-2-1).*
 
