@@ -6,7 +6,7 @@ tag: "ChatGPT Ads"
 tldr: "In a product-feed ad group, open the ad group in Ads Manager, choose Edit, find Product display and enable Hide product sale prices. This lets the ad show the regular price after a promotion ends. Check the live product page and feed before relaunching."
 categories: ["ChatGPT Ads", "Ecommerce", "Advertising", "How To"]
 tags: ["ChatGPT Product Feeds", "Sale Price", "Product Ads", "Ecommerce Ads"]
-type: "guide"
+type: "article"
 draft: true
 sources:
   - title: "ChatGPT Ads New Call-To-Actions, Business Agents Expand, More Audience Metrics & More"

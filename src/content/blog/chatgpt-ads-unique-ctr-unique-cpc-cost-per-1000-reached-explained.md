@@ -6,7 +6,7 @@ tag: "ChatGPT Ads"
 tldr: "Unique CTR, Unique CPC and Cost per 1,000 Reached help advertisers evaluate engagement and cost against audience reach rather than total impressions alone. OpenAI has announced the metric names, but the complete public calculation rules for every unique field are not yet available. The formulas in this guide are working interpretations, not confirmed OpenAI specifications."
 categories: ["ChatGPT Ads", "Advertising", "Analytics"]
 tags: ["Unique CTR", "Unique CPC", "Cost per 1000 Reached", "Reach", "Ad Reporting"]
-type: "guide"
+type: "article"
 draft: true
 sources:
   - title: "ChatGPT Ads New Call-To-Actions, Business Agents Expand, More Audience Metrics & More"

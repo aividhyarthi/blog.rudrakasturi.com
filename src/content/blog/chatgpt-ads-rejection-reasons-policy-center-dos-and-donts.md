@@ -6,7 +6,7 @@ tag: "ChatGPT Ads"
 tldr: "OpenAI reviews advertisers, ad creative and landing pages, and placement context. A rejection may relate to the business, headline, description, image, video, destination page or a restricted category. The Policy Center and rejection message can help identify the relevant rule. The November update adds explanation, not a new approval standard."
 categories: ["ChatGPT Ads", "Advertising", "Policy", "How To"]
 tags: ["ChatGPT Ads Rejection", "OpenAI Ad Policies", "Policy Center", "Ad Review"]
-type: "guide"
+type: "article"
 draft: true
 sources:
   - title: "Ad policies"
