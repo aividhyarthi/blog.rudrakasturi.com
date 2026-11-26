@@ -6,7 +6,7 @@ tag: "Google Ads"
 tldr: "Google Ads Liaison Ginny Marvin says dynamically assigning conversion values using first-party data is a foundational principle of Value-Based Bidding. Advertisers can send values that reflect lead quality, revenue or predicted customer value, helping Smart Bidding optimise towards outcomes that matter to the business."
 categories: ["Google Ads", "Performance Marketing", "AI", "Growth"]
 tags: ["Google Ads", "Smart Bidding", "Value-Based Bidding", "Conversion Values", "First-Party Data"]
-type: "news"
+type: "article"
 draft: true
 sources:
   - title: "Google Ads encourages dynamic conversion values to improve Smart Bidding"

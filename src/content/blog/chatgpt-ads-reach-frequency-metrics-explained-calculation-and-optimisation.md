@@ -6,7 +6,7 @@ tag: "ChatGPT Ads"
 tldr: "Reach estimates the number of unique people who saw an ad at least once during the selected period. Frequency is total impressions divided by Reach. OpenAI has not publicly explained the full methodology used to estimate unique reach, so advertisers should treat it as an estimate rather than an exact count of individuals."
 categories: ["ChatGPT Ads", "Advertising", "Analytics"]
 tags: ["ChatGPT Ads Reach", "Frequency", "Ad Measurement", "Impressions"]
-type: "guide"
+type: "article"
 draft: true
 sources:
   - title: "ChatGPT Ads New Call-To-Actions, Business Agents Expand, More Audience Metrics & More"

@@ -6,7 +6,7 @@ tag: "ChatGPT Ads"
 tldr: "OpenAI has added audience measurement and workflow features to ChatGPT Ads. Advertisers can now see estimated unique Reach and average Frequency, access additional viewer metrics, use a default Learn more link on single-image ads, hide expired sale prices in product feeds and see more context when ads are rejected."
 categories: ["ChatGPT", "Advertising", "AI", "Marketing"]
 tags: ["ChatGPT Ads", "OpenAI Ads", "Reach", "Frequency", "Business Agents", "Ad Policy"]
-type: "news"
+type: "article"
 draft: true
 sources:
   - title: "ChatGPT Ads New Call-To-Actions, Business Agents Expand, More Audience Metrics & More"

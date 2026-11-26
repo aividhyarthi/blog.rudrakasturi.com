@@ -6,7 +6,7 @@ tag: "Perplexity"
 tldr: "Perplexity Pro now includes weekly Computer usage. The allowance appears as a weekly meter, resets seven days after a user's first Computer task and does not roll over. Light effort uses included usage first, while higher effort settings consume usage faster and may require credits."
 categories: ["Perplexity", "AI Agents", "AI Business", "Technology"]
 tags: ["Perplexity Computer", "AI Agents", "AI Subscriptions", "Agentic AI", "AI Pricing"]
-type: "news"
+type: "article"
 draft: true
 sources:
   - title: "Perplexity Pro now includes weekly Computer usage"

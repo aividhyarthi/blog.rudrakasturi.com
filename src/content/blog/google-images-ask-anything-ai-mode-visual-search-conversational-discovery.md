@@ -6,7 +6,7 @@ tag: "Google Search"
 tldr: "Google Images has added an Ask Anything option to saved image collections, allowing users to ask AI Mode questions about a group of saved images. The feature was observed in testing and should not be described as a universal rollout. It suggests visual search is moving from finding pictures towards understanding and comparing them."
 categories: ["Google", "SEO", "AEO", "Visual Search"]
 tags: ["Google Images", "AI Mode", "Visual Search", "Image SEO", "Google Search"]
-type: "news"
+type: "article"
 draft: true
 sources:
   - title: "Google Image Collections & Saved Items Adds Ask Anything AI Mode"

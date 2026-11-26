@@ -6,7 +6,7 @@ tag: "ChatGPT Ads"
 tldr: "OpenAI says single-image ChatGPT Ads now show Learn more by default and open the landing page already configured in Ads Manager. The public documentation does not provide a general self-serve option to replace this label with Call now, Book now or Sign up. Multi-image ads currently use Learn more as their only documented CTA."
 categories: ["ChatGPT Ads", "Advertising", "How To"]
 tags: ["ChatGPT Ads CTA", "Learn More", "Call To Action", "Ads Manager"]
-type: "guide"
+type: "article"
 draft: true
 sources:
   - title: "ChatGPT Ads New Call-To-Actions, Business Agents Expand, More Audience Metrics & More"
