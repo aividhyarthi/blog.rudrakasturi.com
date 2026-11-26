@@ -25,7 +25,7 @@ Governor Kathy Hochul signed the bill on November 24, 2026. The law covers the m
 
 The decision follows growing concern about what happens when children talk to an AI system as if it were a friend, teacher or trusted companion.
 
-![What New York's five-year ban on AI chatbot toys covers](/images/editorial/new-york-five-year-ai-chatbot-toy-moratorium-2026.svg)
+![What New York's five-year ban on AI chatbot toys covers](https://raw.githubusercontent.com/aividhyarthi/blog.rudrakasturi.com/main/public/images/editorial/new-york-five-year-ai-chatbot-toy-moratorium-2026.svg)
 
 *Original editorial illustration based on [New York State Senate Bill S9408A](https://www.nysenate.gov/legislation/bills/2025/S9408/amendment/A).*
 
