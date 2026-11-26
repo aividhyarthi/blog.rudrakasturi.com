@@ -25,7 +25,7 @@ The company says MAGI-2 can create clips from 4 to 30 seconds at 1080p. It is av
 
 The announcement adds another competitor to the fast-moving AI video market. The important question for creators is not simply how many parameters a model has. It is whether it can keep characters, scenes, movement and sound consistent enough to produce video that can be used in real work.
 
-![How MAGI-2 combines reference images, video and audio to generate a video clip](/images/editorial/higgsfield-magi-2-400b-ai-video-model-what-it-means.svg)
+![How MAGI-2 combines reference images, video and audio to generate a video clip](https://raw.githubusercontent.com/aividhyarthi/blog.rudrakasturi.com/main/public/images/editorial/higgsfield-magi-2-400b-ai-video-model-what-it-means.svg)
 
 *Original editorial illustration based on [Higgsfield's MAGI-2 announcement](https://higgsfield.ai/announcing-magi-2).*
 
