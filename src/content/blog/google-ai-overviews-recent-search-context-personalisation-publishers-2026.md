@@ -26,6 +26,10 @@ Google says AI Overviews and AI Mode will become more personally relevant by usi
 
 *Original editorial diagram. The official announcement and its illustration are available in [Google's November 23 post](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/).*
 
+![Google's official illustration of Personal Intelligence connections in Search](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.width-200.format-webp.webp)
+
+*Official image source: [Google, A more tailored Google Search that's uniquely yours](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/).*
+
 ## What Google actually announced
 
 Google says people will start seeing more personally relevant responses in AI Overviews and AI Mode, tailored to recent search context. Its example is a person researching and planning a trip who can continue a later search without repeating the earlier background.
