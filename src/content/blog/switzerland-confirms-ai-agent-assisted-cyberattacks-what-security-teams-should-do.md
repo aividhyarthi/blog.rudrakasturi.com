@@ -21,7 +21,7 @@ The agency says organisations and operators of critical infrastructure in at lea
 
 This is an important warning because AI agents can carry out several steps of an attack in sequence. They can look for weaknesses, choose tools, check what worked and plan what to do next.
 
-![How AI agents can help attackers find and exploit weak computer systems](/images/editorial/switzerland-confirms-ai-agent-assisted-cyberattacks-what-security-teams-should-do.svg)
+![How AI agents can help attackers find and exploit weak computer systems](https://raw.githubusercontent.com/aividhyarthi/blog.rudrakasturi.com/main/public/images/editorial/switzerland-confirms-ai-agent-assisted-cyberattacks-what-security-teams-should-do.svg)
 
 *Original editorial illustration based on the [Swiss National Cyber Security Centre warning, published November 24, 2026](https://www.bacs.admin.ch/en/26-ki-agenten-1-en).*
 
