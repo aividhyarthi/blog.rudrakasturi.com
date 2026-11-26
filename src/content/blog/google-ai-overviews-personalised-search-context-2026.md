@@ -7,7 +7,6 @@ tldr: "Google says AI Overviews and AI Mode will start giving more personally re
 categories: ["Google","AI","AEO","AI Search","Technology"]
 tags: ["Google AI Overviews","Google AI Mode","Personalised Search","AEO","SEO","Brand Visibility","Search Traffic"]
 type: "article"
-draft: true
 sources:
   - title: "A more tailored Google Search that's uniquely yours"
     url: "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
@@ -29,7 +28,7 @@ Think about how people actually search. Someone may first look for the best elec
 
 This is a meaningful change because search may become less like a series of unrelated questions and more like one continuing conversation.
 
-![How Google can use recent search context to make AI Overviews and AI Mode more personal](https://raw.githubusercontent.com/aividhyarthi/blog.rudrakasturi.com/main/public/images/editorial/google-ai-overviews-personalised-search-context-2026.svg)
+![How Google can use recent search context to make AI Overviews and AI Mode more personal](/images/editorial/google-ai-overviews-personalised-search-context-2026.svg)
 
 *Original editorial illustration based on Google's announcement. [Read Google's official announcement](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/).*
 
