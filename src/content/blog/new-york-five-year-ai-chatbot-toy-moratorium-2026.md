@@ -1,6 +1,6 @@
 ---
 title: "New York Bans AI Chatbot Toys for Five Years. What Parents Need to Know"
-date: 2026-11-27T09:30:00+05:30
+date: 2026-11-26T09:00:00+05:30
 description: "New York has signed a five-year ban on children's toys with built-in AI chatbots. Here is what the law covers, when it starts and what parents and toy companies should know."
 tag: "AI Policy"
 tldr: "New York Governor Kathy Hochul signed a law on November 24, 2026 that creates a five-year ban on the manufacture, sale and distribution of children's toys with embedded or integrated AI companion chatbots. It does not ban every electronic toy or every product that uses AI. The law takes effect 90 days after signing."

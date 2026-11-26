@@ -1,6 +1,6 @@
 ---
 title: "Switzerland Confirms Cyberattacks Using AI Agents. What Happened and How to Stay Safe"
-date: 2026-11-27T10:00:00+05:30
+date: 2026-11-26T09:30:00+05:30
 description: "Switzerland's cyber security agency says AI agents helped attackers break into organisations and critical infrastructure. Here is what happened and what companies should do now."
 tag: "Cybersecurity"
 tldr: "Switzerland's National Cyber Security Centre reported on November 24 that AI agents had assisted successful cyberattacks against organisations and critical infrastructure operators in at least two sectors. The agency says attackers used familiar weaknesses such as exposed systems, weak passwords and known software vulnerabilities. It recommends fast patching, MFA, least privilege and better monitoring."

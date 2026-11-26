@@ -1,6 +1,6 @@
 ---
 title: "Cognition Launches SWE-2.1 Coding Model With 10x Faster Ultrafast Version"
-date: 2026-11-27T08:30:00+05:30
+date: 2026-11-26T08:00:00+05:30
 description: "Cognition says its SWE-2.1 coding model is better at long software tasks and has an Ultrafast version powered by Cerebras. Here is what the benchmarks mean for developers."
 tag: "AI"
 tldr: "Cognition released SWE-2.1 on November 24 and says it improves on SWE-2 across several coding benchmarks. Its SWE-2.1 Ultrafast version uses Cerebras infrastructure for a claimed 10-times speed increase. The company also reports stronger cybersecurity benchmark results, making safeguards and human review important parts of the story."

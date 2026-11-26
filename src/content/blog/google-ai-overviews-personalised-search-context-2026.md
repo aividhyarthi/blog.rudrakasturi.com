@@ -1,6 +1,6 @@
 ---
 title: "Google AI Overviews Will Use Your Recent Searches. What This Means for Search"
-date: 2026-11-27T08:00:00+05:30
+date: 2026-11-26T07:30:00+05:30
 description: "Google is making AI Overviews and AI Mode more personal by using recent search context. Here is what changes for users, brands, AEO, website clicks and online discovery."
 tag: "Google"
 tldr: "Google says AI Overviews and AI Mode will start giving more personally relevant responses based on a person's recent searches. This is different from connecting Gmail, Drive or Wallet. It may make search journeys more continuous, but Google has not said it will change rankings or how often websites receive clicks. Brands should prepare for more repeat research, stronger brand recall and measurement that looks beyond the last click."

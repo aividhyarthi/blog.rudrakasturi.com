@@ -1,6 +1,6 @@
 ---
 title: "Higgsfield Launches MAGI-2: A 400B AI Video Model That Creates Video With Sound"
-date: 2026-11-27T09:00:00+05:30
+date: 2026-11-26T08:30:00+05:30
 description: "Higgsfield says its MAGI-2 model can create up to 30 seconds of 1080p video with sound using image, video and audio references. Here is what creators should know."
 tag: "AI Video"
 tldr: "Higgsfield announced MAGI-2 on November 25, describing it as a 400-billion-parameter Mixture-of-Experts video model developed by Sand.ai. It can generate clips from 4 to 30 seconds at 1080p, create sound with video and use up to 20 reference files. Its leaderboard position is based on Higgsfield's own Video Arena, not an independent universal test."
