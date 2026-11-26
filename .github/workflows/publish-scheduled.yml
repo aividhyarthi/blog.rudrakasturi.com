@@ -1,11 +1,9 @@
 name: Publish scheduled posts
-# Checks for due posts once an hour. Each run publishes every post that's come due since the last check
-# (see scripts/publish-due.mjs), so an hourly check loses nothing - a post just appears within the hour
-# of its scheduled time instead of within 10 minutes. ~15 posts/day fits comfortably in this cadence.
+# Check every 30 minutes. Drafts are ignored by scripts/publish-due.mjs.
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
