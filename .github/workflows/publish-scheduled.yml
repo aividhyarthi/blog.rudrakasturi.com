@@ -1,5 +1,6 @@
 name: Publish scheduled posts
-# Check every 30 minutes. Drafts are ignored by scripts/publish-due.mjs.
+# Checks for due posts every 30 minutes. Each run publishes every post that's come due since the last check.
+# Future-dated posts stay hidden until the stamp commit triggers the connected site rebuild.
 
 on:
   schedule:
