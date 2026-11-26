@@ -1,5 +1,5 @@
 ---
-title: "Google AI Overviews Will Use Your Recent Searches. What It Means for You"
+title: "Google AI Overviews Will Use Your Recent Searches. What This Means for Search"
 date: 2026-11-27T08:00:00+05:30
 description: "Google is making AI Overviews and AI Mode more personal by using recent search context. Here is what changes for users, brands, AEO, website clicks and online discovery."
 tag: "Google"
@@ -111,6 +111,18 @@ For more involved decisions, the same answer may help the user understand what t
 Google's own August 2025 explanation said overall organic click volume to websites was relatively stable year over year and that average click quality had increased. Google described a quality click as one where a person does not quickly return to Search. These are Google's own figures and definitions. They are not a measurement of the November 2026 personalisation change, so they should not be used as proof that this new feature will increase clicks.
 
 The right conclusion is simple: do not assume that clicks will automatically fall or rise. Measure what happens after the rollout.
+
+## A 90-day plan for brands
+
+The announcement does not call for every company to rebuild its marketing strategy overnight. A practical 90-day plan can help teams prepare without chasing a feature whose full rollout details are still developing.
+
+| Period | What to do | What to measure |
+|---|---|---|
+| Days 1 to 30 | Fix brand, product and service facts across the website, profiles and key third-party sources. Build a list of 20 to 30 real customer questions. | Branded search baseline, current AI answer mentions, product information errors |
+| Days 31 to 60 | Publish useful comparison, explainer and proof-led content. Improve product pages, FAQs, reviews and author or expert information. | Relevant AI mentions, citations, engaged organic visits, return visits |
+| Days 61 to 90 | Compare results across Google Search, AI Overviews and AI Mode. Connect search demand to CRM and conversion data where consent and measurement allow. | Branded search growth, assisted conversions, qualified leads, conversion rate |
+
+A simple decision rule helps. If branded search is growing but qualified visits are not, investigate the landing experience and the gap between the promise and the page. If AI answers mention competitors but not your brand, check whether your product facts, independent proof and category relevance are clear. If traffic is steady but conversions are falling, improve the offer and customer experience before increasing content volume.
 
 ## What should brands invest in now?
 
