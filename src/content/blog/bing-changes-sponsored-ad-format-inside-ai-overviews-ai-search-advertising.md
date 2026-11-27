@@ -1,5 +1,5 @@
 ---
-title: "Bing Changes Its Sponsored Ad Format Inside AI Overviews. What It Means for AI Search Advertising"
+title: "Inside Bing's AI Answers, Sponsored Ads Are Getting a New Look"
 date: 2026-11-27
 description: "Bing is testing a revised sponsored ad layout in AI Overviews, replacing a boxed format with advertiser branding and a Sponsored label similar to standard search ads."
 draft: true
