@@ -1,5 +1,5 @@
 ---
-title: "Bing Is Turning AI Answers Into Shopping Entrances. Why Retailers Should Watch the Next Click"
+title: "Bing AI Overviews Are Showing Clickable Products. But Are Retailers Losing the Direct Click?"
 date: 2026-11-27
 description: "Bing AI Overviews are showing product images, titles and descriptions that lead users to its Shopping tab rather than directly to retailer websites. What this means for ecommerce discovery."
 draft: true
