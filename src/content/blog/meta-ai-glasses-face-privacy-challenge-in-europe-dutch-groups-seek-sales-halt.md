@@ -1,5 +1,5 @@
 ---
-title: "Who Gets to Say No to Being Recorded? Meta's Smart Glasses Go Before a Dutch Court"
+title: "Meta's AI Glasses Face a Privacy Challenge in Europe. Dutch Groups Ask Court to Halt Sales"
 date: 2026-11-27
 description: "Dutch consumer and digital rights groups have asked a court to halt sales of Meta's AI-powered smart glasses, citing concerns about recording people without their knowledge."
 draft: true
