@@ -1,5 +1,5 @@
 ---
-title: "Chariot-1 Expands India's Homegrown AI Stack From Speech to Foundation Models"
+title: "IndiaAI Mission Backs Chariot-1: An Indian Foundation Model Supporting 10 Languages"
 date: 2026-11-27
 description: "Chariot-1, developed under the IndiaAI Mission, combines an 11 billion parameter mixture-of-experts language model with speech generation in English and 10 Indian languages."
 draft: true
