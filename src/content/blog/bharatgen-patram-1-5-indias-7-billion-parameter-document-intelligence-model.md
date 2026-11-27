@@ -1,5 +1,5 @@
 ---
-title: "BharatGen Launches Patram 1.5: India's New 7 Billion Parameter Model Can Read and Reason Through Documents"
+title: "Patram 1.5 Puts Indian Documents Through a New Kind of AI Reading Test"
 date: 2026-11-27
 description: "BharatGen's Patram 1.5 is a 7 billion parameter document intelligence model designed to understand complex documents, tables, charts and handwriting."
 draft: true
