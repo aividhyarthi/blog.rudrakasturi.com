@@ -1,5 +1,5 @@
 ---
-title: "Nvidia Pauses AI Server Shipments to Four Southeast Asian Countries. What It Means for Global AI Infrastructure"
+title: "A US Export Rule Is Holding Up Nvidia AI Servers Across Four Southeast Asian Markets"
 date: 2026-11-27
 description: "Reuters reports that Nvidia has instructed partners to pause shipments of servers containing its chips to Malaysia, Singapore, Thailand and Indonesia amid new US export control requirements."
 draft: true
