@@ -1,13 +1,12 @@
 ---
 title: "Why ChatGPT Ads Get Rejected: Policy Center, Common Reasons, Dos and Don'ts"
-date: 2026-11-26
+date: 2026-11-27T11:15:00+05:30
 description: "OpenAI is adding more context to rejected-ad messages in Ads Manager. Learn how ad review works, what can trigger rejection and how to prepare the creative, advertiser account and landing page."
 tag: "ChatGPT Ads"
 tldr: "OpenAI reviews advertisers, ad creative and landing pages, and placement context. A rejection may relate to the business, headline, description, image, video, destination page or a restricted category. The Policy Center and rejection message can help identify the relevant rule. The November update adds explanation, not a new approval standard."
 categories: ["ChatGPT Ads", "Advertising", "Policy", "How To"]
 tags: ["ChatGPT Ads Rejection", "OpenAI Ad Policies", "Policy Center", "Ad Review"]
 type: "article"
-draft: true
 sources:
   - title: "Ad policies"
     url: "https://openai.com/policies/ad-policies/"

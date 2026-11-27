@@ -1,13 +1,12 @@
 ---
 title: "Perplexity Pro Now Includes Weekly Computer Usage. Is AI Moving from Chatbot Subscriptions to Agent Subscriptions?"
-date: 2026-11-26
+date: 2026-11-27T14:15:00+05:30
 description: "Perplexity has added a weekly Computer usage allowance to paid Pro plans. The change offers a glimpse of how AI agent access may be packaged, metered and monetised."
 tag: "Perplexity"
 tldr: "Perplexity Pro now includes weekly Computer usage. The allowance appears as a weekly meter, resets seven days after a user's first Computer task and does not roll over. Light effort uses included usage first, while higher effort settings consume usage faster and may require credits."
 categories: ["Perplexity", "AI Agents", "AI Business", "Technology"]
 tags: ["Perplexity Computer", "AI Agents", "AI Subscriptions", "Agentic AI", "AI Pricing"]
 type: "article"
-draft: true
 sources:
   - title: "Perplexity Pro now includes weekly Computer usage"
     url: "https://www.perplexity.ai/en-GB/hub/blog/perplexity-pro-now-includes-weekly-computer-usage"

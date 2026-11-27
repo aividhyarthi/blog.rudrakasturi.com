@@ -1,13 +1,12 @@
 ---
 title: "ChatGPT Ads Adds Audience Measurement, Business Agents and New Product Feed Controls"
-date: 2026-11-26
+date: 2026-11-27T08:15:00+05:30
 description: "OpenAI's latest ChatGPT Ads update adds Reach and Frequency reporting, a default Learn more link, Business Agents in more markets, sale price controls and clearer rejection explanations."
 tag: "ChatGPT Ads"
 tldr: "OpenAI has added audience measurement and workflow features to ChatGPT Ads. Advertisers can now see estimated unique Reach and average Frequency, access additional viewer metrics, use a default Learn more link on single-image ads, hide expired sale prices in product feeds and see more context when ads are rejected."
 categories: ["ChatGPT", "Advertising", "AI", "Marketing"]
 tags: ["ChatGPT Ads", "OpenAI Ads", "Reach", "Frequency", "Business Agents", "Ad Policy"]
 type: "article"
-draft: true
 sources:
   - title: "ChatGPT Ads New Call-To-Actions, Business Agents Expand, More Audience Metrics & More"
     url: "https://www.seroundtable.com/chatgpt-ads-updates-42623.html"

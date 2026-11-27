@@ -1,13 +1,12 @@
 ---
 title: "ChatGPT Ads Reach and Frequency Explained: Definitions, Formula, Examples and Optimisation"
-date: 2026-11-26
+date: 2026-11-27T10:30:00+05:30
 description: "OpenAI has added Reach and Frequency to ChatGPT Ads reporting. Learn what each metric means, how frequency is calculated and how to use the numbers without confusing people with impressions."
 tag: "ChatGPT Ads"
 tldr: "Reach estimates the number of unique people who saw an ad at least once during the selected period. Frequency is total impressions divided by Reach. OpenAI has not publicly explained the full methodology used to estimate unique reach, so advertisers should treat it as an estimate rather than an exact count of individuals."
 categories: ["ChatGPT Ads", "Advertising", "Analytics"]
 tags: ["ChatGPT Ads Reach", "Frequency", "Ad Measurement", "Impressions"]
 type: "article"
-draft: true
 sources:
   - title: "ChatGPT Ads New Call-To-Actions, Business Agents Expand, More Audience Metrics & More"
     url: "https://www.seroundtable.com/chatgpt-ads-updates-42623.html"

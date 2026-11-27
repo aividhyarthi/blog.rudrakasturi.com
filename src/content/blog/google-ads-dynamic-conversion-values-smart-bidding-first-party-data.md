@@ -1,13 +1,12 @@
 ---
 title: "Google Ads Wants Better Conversion Values, Not Just More Leads: How Dynamic Scoring Changes Smart Bidding"
-date: 2026-11-26
+date: 2026-11-27T12:45:00+05:30
 description: "Google Ads is encouraging advertisers to send dynamic conversion values based on first-party business data. Here is how Value-Based Bidding works and how to implement it responsibly."
 tag: "Google Ads"
 tldr: "Google Ads Liaison Ginny Marvin says dynamically assigning conversion values using first-party data is a foundational principle of Value-Based Bidding. Advertisers can send values that reflect lead quality, revenue or predicted customer value, helping Smart Bidding optimise towards outcomes that matter to the business."
 categories: ["Google Ads", "Performance Marketing", "AI", "Growth"]
 tags: ["Google Ads", "Smart Bidding", "Value-Based Bidding", "Conversion Values", "First-Party Data"]
 type: "article"
-draft: true
 sources:
   - title: "Google Ads encourages dynamic conversion values to improve Smart Bidding"
     url: "https://searchengineland.com/google-ads-encourages-dynamic-conversion-values-to-improve-smart-bidding-503027"

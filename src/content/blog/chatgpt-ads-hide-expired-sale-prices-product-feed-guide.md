@@ -1,13 +1,12 @@
 ---
 title: "How to Hide Expired Sale Prices in ChatGPT Ads Product Feeds: Step-by-Step Guide"
-date: 2026-11-26
+date: 2026-11-27T09:00:00+05:30
 description: "OpenAI has added a Hide product sale prices option for product-feed ad groups. Follow this guide to stop expired promotional prices appearing in ChatGPT Ads."
 tag: "ChatGPT Ads"
 tldr: "In a product-feed ad group, open the ad group in Ads Manager, choose Edit, find Product display and enable Hide product sale prices. This lets the ad show the regular price after a promotion ends. Check the live product page and feed before relaunching."
 categories: ["ChatGPT Ads", "Ecommerce", "Advertising", "How To"]
 tags: ["ChatGPT Product Feeds", "Sale Price", "Product Ads", "Ecommerce Ads"]
 type: "article"
-draft: true
 sources:
   - title: "ChatGPT Ads New Call-To-Actions, Business Agents Expand, More Audience Metrics & More"
     url: "https://www.seroundtable.com/chatgpt-ads-updates-42623.html"

@@ -1,13 +1,12 @@
 ---
 title: "Google Images Is Becoming Conversational: What Ask Anything Means for Visual Search and SEO"
-date: 2026-11-26
+date: 2026-11-27T13:30:00+05:30
 description: "Google is testing an Ask Anything action for saved image collections that sends multiple images into AI Mode. The change points to a more conversational future for visual discovery."
 tag: "Google Search"
 tldr: "Google Images has added an Ask Anything option to saved image collections, allowing users to ask AI Mode questions about a group of saved images. The feature was observed in testing and should not be described as a universal rollout. It suggests visual search is moving from finding pictures towards understanding and comparing them."
 categories: ["Google", "SEO", "AEO", "Visual Search"]
 tags: ["Google Images", "AI Mode", "Visual Search", "Image SEO", "Google Search"]
 type: "article"
-draft: true
 sources:
   - title: "Google Image Collections & Saved Items Adds Ask Anything AI Mode"
     url: "https://www.seroundtable.com/google-image-collections-ask-anything-ai-mode-42595.html"
