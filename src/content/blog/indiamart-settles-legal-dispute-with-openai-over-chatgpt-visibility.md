@@ -1,5 +1,5 @@
 ---
-title: "IndiaMART's ChatGPT Visibility Fight Ends in a Settlement. The Key Terms Remain Private"
+title: "IndiaMART Settles Legal Dispute with OpenAI Over Its Visibility in ChatGPT"
 date: 2026-11-27
 description: "IndiaMART's parent InterMESH has settled its dispute with OpenAI over alleged exclusion from ChatGPT responses. The court recorded the settlement but did not disclose its terms."
 draft: true
