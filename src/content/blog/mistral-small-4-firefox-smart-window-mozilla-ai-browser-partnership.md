@@ -1,8 +1,7 @@
 ---
 title: "Mistral Small 4 in Firefox Smart Window: Why Browser Distribution Matters in the AI Race"
-date: 2026-11-28
+date: 2026-11-28T17:45:00+05:30
 description: "Mozilla and Mistral are bringing Mistral Small 4 to Firefox Smart Window beta. The partnership shows how model makers can reach users through browsers rather than standalone chatbots."
-draft: true
 tag: "Mistral AI"
 tldr: "Mozilla and Mistral announced on September 16, 2026 that Mistral Small 4 would power Firefox Smart Window beta for users in the United States and Canada, with French-language support and beta expansion in France. The partnership is a distribution story as much as a model story: Mistral gains a browser route to users, while Mozilla offers an AI assistant within Firefox. It is not a November 27 launch."
 categories: ["Mistral", "Mozilla", "AI Models", "Browsers", "AI Products"]

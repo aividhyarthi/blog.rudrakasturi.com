@@ -1,8 +1,7 @@
 ---
 title: "IndiaAI Mission Backs Chariot-1: An Indian Foundation Model Supporting 10 Languages"
-date: 2026-11-27
+date: 2026-11-28T11:00:00+05:30
 description: "Chariot-1, developed under the IndiaAI Mission, combines an 11 billion parameter mixture-of-experts language model with speech generation in English and 10 Indian languages."
-draft: true
 tag: "India AI"
 tldr: "Chariot-1 is a foundation model suite developed by Chariot Artificial Intelligence under the IndiaAI Mission. Its language model has 11 billion parameters, with 4 billion active per token, and its text-to-speech system supports English and 10 Indian languages, including Telugu. The government announcement reports improvements in training speed and vocabulary efficiency."
 categories: ["AI", "India AI", "Technology"]

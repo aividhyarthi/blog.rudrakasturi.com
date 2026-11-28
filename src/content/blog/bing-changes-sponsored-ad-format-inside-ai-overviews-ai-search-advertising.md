@@ -1,8 +1,7 @@
 ---
 title: "Bing Changes Its Sponsored Ad Format Inside AI Overviews. What It Means for AI Search Advertising"
-date: 2026-11-27
+date: 2026-11-28T10:15:00+05:30
 description: "Bing is testing a revised sponsored ad layout in AI Overviews, replacing a boxed format with advertiser branding and a Sponsored label similar to standard search ads."
-draft: true
 tag: "AI Advertising"
 tldr: "Bing is showing a revised sponsored ad layout inside AI Overviews. The observed format removes the previous boxed treatment and places the advertiser favicon and name beside a Sponsored label, with the ad title and description below. This is a presentation change, not evidence of a new ad auction or a confirmed change in advertiser performance."
 categories: ["AI", "AI Advertising", "Technology"]

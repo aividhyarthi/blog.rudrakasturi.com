@@ -1,8 +1,7 @@
 ---
 title: "OpenAI's GPT-6 Astra Scores 98% on Unpublished Physics Problems. What Does the Result Really Prove?"
-date: 2026-11-27
+date: 2026-11-28T19:15:00+05:30
 description: "A research preprint reports near-perfect performance by a GPT-6 Astra agent on 50 unpublished theoretical physics problems. The result is notable, but its evaluation design matters."
-draft: true
 tag: "OpenAI Research"
 tldr: "The TheoPhysEval research preprint reports that a GPT-6 Astra agent running through Codex achieved 98% accuracy on 50 unpublished theoretical physics problems when allowed to use tools such as literature search and code. The benchmark is designed to test concrete research calculations, not autonomous scientific discovery. The result is promising, but the small problem set and tool-assisted setup need to be understood before drawing broad conclusions."
 categories: ["OpenAI", "AI Research", "LLMs", "Science", "AI Benchmarks"]

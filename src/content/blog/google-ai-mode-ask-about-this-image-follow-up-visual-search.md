@@ -1,8 +1,7 @@
 ---
 title: "Google AI Mode Adds Ask About This Image. Visual Search Is Becoming Conversational"
-date: 2026-11-27
+date: 2026-11-28T15:30:00+05:30
 description: "Google is testing Ask a follow-up and Ask about this image actions inside AI Mode image previews, letting users continue a search conversation from a selected picture."
-draft: true
 tag: "Google AI Mode"
 tldr: "Google is testing a follow-up action inside image previews in AI Mode. After opening an image, users may see Ask a follow-up or Ask about this image, taking them into another question about the selected picture. The feature was spotted in November 2026 and is not confirmed as a universal rollout."
 categories: ["Google", "AI Mode", "Visual Search", "SEO", "AEO"]

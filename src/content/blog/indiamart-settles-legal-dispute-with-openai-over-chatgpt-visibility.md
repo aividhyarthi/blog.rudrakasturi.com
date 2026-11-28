@@ -1,8 +1,7 @@
 ---
 title: "IndiaMART Settles Legal Dispute with OpenAI Over Its Visibility in ChatGPT"
-date: 2026-11-27
+date: 2026-11-28T11:45:00+05:30
 description: "IndiaMART's parent InterMESH has settled its dispute with OpenAI over alleged exclusion from ChatGPT responses. The court recorded the settlement but did not disclose its terms."
-draft: true
 tag: "AEO"
 tldr: "IndiaMART's parent company InterMESH has settled its legal dispute with OpenAI over allegations that its marketplace and seller listings were excluded from ChatGPT responses. The Calcutta High Court recorded the out-of-court settlement and disposed of the appeal. The terms are undisclosed, and there is no confirmation that IndiaMART's visibility in ChatGPT will be restored."
 categories: ["AI", "AEO", "Technology"]

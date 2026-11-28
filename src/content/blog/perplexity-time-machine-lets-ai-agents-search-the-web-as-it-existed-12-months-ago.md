@@ -1,8 +1,7 @@
 ---
 title: "Perplexity Time Machine Lets AI Agents Search the Web as It Existed 12 Months Ago"
-date: 2026-11-27
+date: 2026-11-28T14:00:00+05:30
 description: "Perplexity has added historical snapshots to its Search and Context APIs, allowing developers to retrieve web content as it appeared at a selected date up to 365 days earlier."
-draft: true
 tag: "AI Agents"
 tldr: "Perplexity Time Machine adds a snapshot_as_of parameter to its Search and Context APIs. Developers can request results and page content as they existed at a selected point in time, up to 365 days earlier. This could make historical research and reproducible AI workflows easier, although snapshot availability depends on what Perplexity has archived."
 categories: ["AI", "AI Agents", "Technology"]

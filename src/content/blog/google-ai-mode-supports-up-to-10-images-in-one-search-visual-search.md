@@ -1,8 +1,7 @@
 ---
 title: "Google AI Mode Now Lets Users Upload 10 Images in One Search. What Changes for Visual Search?"
-date: 2026-11-27
+date: 2026-11-28T16:15:00+05:30
 description: "Google AI Mode is rolling out support for up to 10 images in one query, letting users ask a single question across multiple photos. What this means for visual search and publishers."
-draft: true
 tag: "Google AI Mode"
 tldr: "Google AI Mode is rolling out support for up to 10 images in one query through the Google app. Users can capture or upload several photos and ask one question across them. The feature was observed in the latest app rollout, not announced as a universal launch. It points to a more multimodal search journey in which images become context for a conversation."
 categories: ["Google", "AI Mode", "Visual Search", "SEO", "AEO"]

@@ -1,8 +1,7 @@
 ---
 title: "Meta's AI Glasses Face a Privacy Challenge in Europe. Dutch Groups Ask Court to Halt Sales"
-date: 2026-11-27
+date: 2026-11-28T12:30:00+05:30
 description: "Dutch consumer and digital rights groups have asked a court to halt sales of Meta's AI-powered smart glasses, citing concerns about recording people without their knowledge."
-draft: true
 tag: "AI Regulation"
 tldr: "Dutch consumer and digital rights groups have asked an Amsterdam court to halt sales of Meta AI-powered smart glasses in the Netherlands. They argue that the glasses create privacy risks by enabling people to be recorded without their knowledge. Meta disputes the allegations. The case is pending, and no sales ban has been ordered."
 categories: ["AI", "AI Regulation", "Technology"]

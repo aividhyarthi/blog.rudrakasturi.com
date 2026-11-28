@@ -1,8 +1,7 @@
 ---
 title: "Nvidia Pauses AI Server Shipments to Four Southeast Asian Countries. What It Means for Global AI Infrastructure"
-date: 2026-11-27
+date: 2026-11-28T13:15:00+05:30
 description: "Reuters reports that Nvidia has instructed partners to pause shipments of servers containing its chips to Malaysia, Singapore, Thailand and Indonesia amid new US export control requirements."
-draft: true
 tag: "AI Infrastructure"
 tldr: "Reuters reports that Nvidia has asked manufacturing partners to pause shipments of servers containing its chips to Malaysia, Singapore, Thailand and Indonesia while export-control requirements are assessed. The reported pause concerns specific advanced computing products and compliance checks, not a blanket ban on all Nvidia chips or all AI hardware in Southeast Asia."
 categories: ["AI", "AI Infrastructure", "Technology"]

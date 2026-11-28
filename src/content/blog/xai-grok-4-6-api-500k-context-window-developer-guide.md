@@ -1,8 +1,7 @@
 ---
 title: "Grok 4.6 Offers a 500K Context Window Through the xAI API. What Developers Should Know"
-date: 2026-11-28
+date: 2026-11-28T20:00:00+05:30
 description: "xAI's Grok 4.6 API documentation lists a 500,000-token context window, text and image inputs, and tiered pricing. Here is what the specifications mean for developers."
-draft: true
 tag: "xAI"
 tldr: "xAI's developer documentation lists Grok 4.6 with a 500,000-token context window, text and image inputs, and text output. Pricing differs for prompts below and above 200,000 tokens. The model is available through the API, but the official release notes date its availability to August 12, 2026, so this is not a November launch."
 categories: ["xAI", "LLMs", "AI Models", "Developers", "AI APIs"]

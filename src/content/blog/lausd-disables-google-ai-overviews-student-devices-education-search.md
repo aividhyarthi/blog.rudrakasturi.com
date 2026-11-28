@@ -1,8 +1,7 @@
 ---
 title: "Los Angeles Schools Disable Google AI Overviews. Is AI Search Becoming a Problem for Education?"
-date: 2026-11-27
+date: 2026-11-28T17:00:00+05:30
 description: "Los Angeles Unified has temporarily disabled Google AI Overviews on student devices using a third-party filter, intensifying the debate over AI in schools and access to conventional search."
-draft: true
 tag: "AI in Education"
 tldr: "Los Angeles Unified has temporarily disabled Google AI Overviews on school-issued student devices using a third-party filtering tool. The district had already blocked AI Mode for students. The move reflects concerns about age-appropriate access, learning and students relying on generated answers, while raising a wider question about whether schools can use Google Search without its AI features."
 categories: ["AI", "Education", "Google", "AI Policy", "Technology"]

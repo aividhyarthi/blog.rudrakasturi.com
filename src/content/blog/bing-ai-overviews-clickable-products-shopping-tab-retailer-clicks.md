@@ -1,8 +1,7 @@
 ---
 title: "Bing AI Overviews Are Showing Clickable Products. But Are Retailers Losing the Direct Click?"
-date: 2026-11-27
+date: 2026-11-28T09:30:00+05:30
 description: "Bing AI Overviews are showing product images, titles and descriptions that lead users to its Shopping tab rather than directly to retailer websites. What this means for ecommerce discovery."
-draft: true
 tag: "AEO"
 tldr: "Bing has begun showing clickable product cards inside AI Overviews. According to Search Engine Watch's observation, clicking a product takes users to a Bing Shopping search rather than directly to the retailer. This creates a new discovery layer between an AI answer and a merchant's website, but its effect on traffic and conversions is not yet known."
 categories: ["AI", "AEO", "Technology"]

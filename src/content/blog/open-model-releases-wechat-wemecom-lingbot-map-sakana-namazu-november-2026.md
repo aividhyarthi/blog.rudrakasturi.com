@@ -1,8 +1,7 @@
 ---
 title: "Three Open Model Releases Put Tencent, Ant Group and Sakana AI in Focus"
-date: 2026-11-28
+date: 2026-11-28T18:30:00+05:30
 description: "Tencent's WeMM-Ecom, Ant's LingBot-Map 2.0 and Sakana AI's Namazu Small show how open model development is spreading across commerce, spatial computing and research workflows."
-draft: true
 tag: "Open Models"
 tldr: "Recent releases from Tencent, Ant Group's Robbyant team and Sakana AI point to a more specialised open model ecosystem. WeMM-Ecom targets ecommerce and visual language tasks, LingBot-Map 2.0 focuses on streaming 3D reconstruction, and Sakana Namazu Small is a 30-billion-parameter reasoning model for research and long-document work. These are different model types, not three competing general-purpose chatbots."
 categories: ["Open Source AI", "LLMs", "Multimodal AI", "AI Models", "Asia"]
